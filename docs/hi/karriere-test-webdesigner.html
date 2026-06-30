@@ -108,13 +108,40 @@
 <body>
         <header>
         <a href="index.html" class="logo">C.O.R.E. INDEX</a>
-        <nav>
+        <nav style="display: flex; align-items: center;">
             <a href="index.html" class="hide-on-mobile">सूची</a>
             <a href="profile.html">16 प्रोफाइल</a>
             <a href="methodik.html">विधि</a>
              <button onclick="document.getElementById('start-btn').click()" style="margin-left: 2.5rem; background: var(--text-dark, #0f172a); color: white; border: none; padding: 10px 20px; border-radius: 4px; font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; cursor: pointer; transition: background 0.3s;">
             परीक्षण शुरू करें
         </button>
+
+        <div style="position: relative; width: 18px; height: 18px; margin-left: 2.5rem; display: flex; align-items: center; justify-content: center;">
+                <svg width="18" height="18" fill="none" stroke="var(--text-muted, #64748B)" stroke-width="1.5" viewBox="0 0 24 24" style="pointer-events: none; position: absolute;"><path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path></svg>
+                
+                <select onchange="window.location.href=this.value" style="opacity: 0; width: 100%; height: 100%; cursor: pointer; position: absolute; top: 0; left: 0;">
+                    <option value="" disabled selected></option>
+                    <option value="../en/index.html">English</option>
+                    <option value="../de/index.html">Deutsch</option>
+                    <option value="../es/index.html">Español</option>
+                    <option value="../fr/index.html">Français</option>
+                    <option value="../it/index.html">Italiano</option>
+                    <option value="../nl/index.html">Nederlands</option>
+                    <option value="../sv/index.html">Svenska</option>
+                    <option value="../pl/index.html">Polski</option>
+                    <option value="../pt/index.html">Português</option>
+                    <option value="../tr/index.html">Türkçe</option>
+                    <option value="../ja/index.html">日本語</option>
+                    <option value="../ko/index.html">한국어</option>
+                    <option value="../hi/index.html">हिन्दी</option>
+                    <option value="../da/index.html">Dansk</option>
+                    <option value="../cs/index.html">Čeština</option>
+                    <option value="../no/index.html">Norsk</option>
+                    <option value="../fi/index.html">Suomi</option>
+                    <option value="../ar/index.html">العربية</option>
+                    <option value="../id/index.html">Indonesia</option>
+                </select>
+            </div>
         </nav>
     </header>
     <!-- साफ़ SEO-टैग और होमपेज के लिए साझा रैपर -->
