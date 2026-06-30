@@ -7,7 +7,7 @@ const path = require('path');
 // ==========================================
 // 1. HIER DEINEN OPENAI API-KEY EINTRAGEN
 // ==========================================
-const API_KEY = "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";
+const API_KEY = "hier eintragen";
 
 const inputPath = path.join(__dirname, 'professions.json');
 const outputPath = path.join(__dirname, 'professions_optimiert.json');
