@@ -1,0 +1,370 @@
+[
+    {
+        "profile_id": "pionier_existenzangst",
+        "base_type": "O Pioneiro Estratégico",
+        "fear_mutation": "Medo da existência",
+        "name": "O pioneiro comprometido",
+        "headline": "Você tem ideias brilhantes, mas se vendeu pelo dinheiro de consolação no fim do mês.",
+        "corporate_view": "Na empresa, você é visto como uma mente visionária que pensa muito além da própria área. As pessoas valorizam o fato de você identificar ineficiências na hora, entender o quadro geral e, em teoria, ter potencial para reinventar radicalmente modelos de negócio engessados. Para a gestão, você é um ativo valioso porque aponta com precisão cirúrgica para as feridas e expõe pontos cegos estratégicos.",
+        "shadow_conflict": "Você fez as pazes com o sistema — e é exatamente isso que te mata um pouco por dentro todos os dias. Você vê com clareza cirúrgica como a empresa está indo de olhos abertos para a parede ou como os processos estabelecidos são absurdos e idiotas. Mas você se cala nas reuniões decisivas. Por quê? Porque o medo das suas despesas fixas, da próxima parcela, do seu padrão de vida e da falsa segurança do contrato de trabalho é muito maior do que seu impulso real por inovação. Por dentro, você só cumpre tabela, embora seu cérebro tenha sido feito para disrupção e mudança real. Essa gaiola dourada que você mesmo construiu está te deixando cada vez mais cínico, amargo e roubando sua energia criativa de vida.",
+        "action_steps": [
+            "Corte o retorno emocional: pare de investir energia mental valiosa em um sistema que, de qualquer forma, não vai implementar suas ideias. Continue fazendo seu trabalho bem e com profissionalismo, mas retire sua ligação emocional de forma consistente. A empresa não é sua família; é quem te paga agora.",
+            "Construa seu 'Fuck-You-Money': reduza temporariamente seu padrão de vida e monte agressivamente uma reserva financeira. Só quando você conseguir sobreviver realisticamente 6 meses sem esse salário seu cérebro vai desligar o pânico e você vai ter coragem de assumir riscos reais e falar o que pensa.",
+            "Canalize sua disrupção: use sua criatividade represada e sem uso para um side business secreto. Alternativamente: prepare sua saída e candidate-se a startups ou scale-ups fortemente orientadas para crescimento, que recompensam exatamente essa fome insaciável por inovação em vez de sufocá-la."
+        ],
+        "monetization_hook": {
+            "topic": "Empreender em paralelo e independência financeira",
+            "keywords": [
+                "Fuck You Money",
+                "Side Hustle",
+                "Liberdade financeira",
+                "Autônomo em paralelo"
+            ]
+        }
+    },
+    {
+        "profile_id": "pionier_versagensangst",
+        "base_type": "O Pioneiro Estratégico",
+        "fear_mutation": "Medo de fracassar",
+        "name": "O pioneiro bloqueado",
+        "headline": "Você planeja a revolução na gaveta porque tem pânico absoluto da realidade.",
+        "corporate_view": "Na empresa, você é conhecido como um analista e arquiteto extremamente profundo. Você nunca entrega conceitos pela metade. Os colegas admiram como você pensa até o último detalhe novas estratégias, produtos ou processos antes de eles verem a luz do dia. Você é a garantia de profundidade intelectual e planejamento à prova de falhas.",
+        "shadow_conflict": "Sua síndrome do impostor está te estrangulando. No seu disco rígido dormem centenas de conceitos iniciados, ideias brilhantes e visões — mas você nunca aperta 'Launch'. Você diz a si mesmo e aos outros que o produto ou a ideia 'ainda não está perfeito'. A verdade brutal é outra: você tem pavor de que sua ideia fracasse na realidade, seja destruída por críticos e que no fim te desmascarem como um impostor. Seu perfeccionismo tão elogiado já não é controle de qualidade; é sua desculpa genial para nunca precisar entrar no risco real. Você se esconde atrás do planejamento.",
+        "action_steps": [
+            "Adote o paradigma dos 80%: force-se a encarar a verdade desconfortável: 'Feito é melhor que perfeito'. Publique, envie ou apresente sua próxima ideia de forma consciente, mesmo ainda inacabada. Aprenda a suportar o desconforto da imperfeição.",
+            "Descole seu valor pessoal: separe rigidamente seu valor como pessoa do seu trabalho. Se um conceito seu fracassa, isso não significa que você é um fracassado. Significa apenas que uma hipótese objetiva foi testada no mercado ou no time e foi refutada.",
+            "Encontre seu contraponto: procure um parceiro pragmático de execução (um 'Executor'). Você precisa de alguém ao seu lado que leve suas ideias para a rua sem dó e sem demora e aperte o botão enquanto você ainda está preso no ciclo das suas dúvidas."
+        ],
+        "monetization_hook": {
+            "topic": "Vencer a síndrome do impostor e estratégias de execução",
+            "keywords": [
+                "Síndrome do impostor",
+                "Lean Startup",
+                "Largar o perfeccionismo",
+                "Concluir projetos"
+            ]
+        }
+    },
+    {
+        "profile_id": "pionier_statusverlust",
+        "base_type": "O Pioneiro Estratégico",
+        "fear_mutation": "Perda de status",
+        "name": "O pioneiro encenado",
+        "headline": "Você adora ser celebrado como o rebelde criativo — desde que o carro da empresa não esteja em risco.",
+        "corporate_view": "No contexto profissional, você aparece como um visionário carismático que consegue arrastar equipes, áreas e stakeholders sem esforço. As pessoas admiram sua rara capacidade de transformar inovações complexas e secas em visões empolgantes e vendê-las com excelência para a alta gestão. Você é a vitrine brilhante do progresso.",
+        "shadow_conflict": "Você virou um mestre da autopromoção. Fala alto e com gosto sobre 'New Work', agilidade, disrupção e hierarquias planas. Você é quem faz os discursos inflamados e inspiradores nas reuniões gerais. Mas, quando a coisa aperta — quando você teria que arriscar sua própria posição, seu orçamento ou sua reputação diante do conselho por uma convicção real — você recua. Você volta imediatamente para o jogo político das velhas hierarquias. Sua suposta rebeldia muitas vezes não passa de PR calculado para si mesmo. No fundo, você não teme nada mais do que perder status e desaparecer na irrelevância cinzenta da gerência intermediária.",
+        "action_steps": [
+            "Trabalhe na sombra: pare de usar inovação como ferramenta para o seu ego e sua visibilidade. Force-se a implementar um projeto importante que ajude muito a empresa, mas pelo qual você oficialmente não receba crédito, palco nem elogio.",
+            "Abrace o conflito: saia da sua zona de conforto política. Mudança real sempre significa atacar privilégios e criar inimigos. Aceite o fato de que, como verdadeiro pioneiro, você não pode ser o queridinho de todos os diretores e colegas.",
+            "O check do ego: antes de cada novo projeto, faça a pergunta dura e honesta: isso é realmente pela causa e pelo progresso — ou você está só polindo as palavras-chave do seu perfil no LinkedIn?"
+        ],
+        "monetization_hook": {
+            "topic": "Liderança autêntica e gestão do ego",
+            "keywords": [
+                "Ego is the Enemy",
+                "Liderança autêntica",
+                "Servant Leadership",
+                "Medo de status"
+            ]
+        }
+    },
+    {
+        "profile_id": "pionier_veraenderungsangst",
+        "base_type": "O Pioneiro Estratégico",
+        "fear_mutation": "Medo de mudança",
+        "name": "O sonhador frustrado",
+        "headline": "Você reclama todo dia do inferno burocrático — mas, ironicamente, é confortável demais para ir embora.",
+        "corporate_view": "No sistema, você é conhecido como um gerador de ideias confiável, ainda que crítico. Você conhece de cor os pontos fracos, os gargalos e os erros históricos do próprio sistema e consegue apontá-los com precisão. Todo mundo sabe: se quiser entender por que um processo trava, é com você que deve falar.",
+        "shadow_conflict": "Você é o crítico mais barulhento e eloquente da copa. Sofre de verdade com o inferno do Excel, os ciclos intermináveis de aprovação e as regras rígidas da empresa. Sua frase padrão é: 'Esse lugar aqui precisava ser demolido e reconstruído do zero.' Mas, lá no fundo, você tem um medo enorme e paralisante de sair das suas rotinas confortáveis e altamente previsíveis. Seu lamento constante virou, paradoxalmente, sua zona de conforto mais segura. Um recomeço real em outra empresa significaria perder a proteção de iniciante e ter que provar de novo, de forma brutal, o quanto você realmente entrega na prática.",
+        "action_steps": [
+            "O ultimato de 30 dias: defina hoje um prazo duro. Ou em exatamente 30 dias você atualizou seu currículo e enviou a primeira candidatura, ou a partir de hoje você perde o direito moral de reclamar do seu trabalho ou do seu chefe. Aceitação ou saída.",
+            "Treine micro-mudanças: exercite o músculo atrofiado da mudança em pequenas coisas. Quebre de propósito suas rotinas diárias triviais (outro caminho para o trabalho, outras ferramentas, outros horários de pausa) para tirar do cérebro o medo da perda de controle.",
+            "Mate a nostalgia: pare de romantizar o passado da empresa ('Antes aqui era tudo mais ágil'). Aceite a realidade fria: o sistema não vai mudar por você. Quem precisa se mover é você."
+        ],
+        "monetization_hook": {
+            "topic": "Tomada de decisão e mudança radical de carreira",
+            "keywords": [
+                "Tomar decisões",
+                "Sair da zona de conforto",
+                "Fazer transição de carreira",
+                "Mudança de carreira"
+            ]
+        }
+    },
+    {
+        "profile_id": "executor_existenzangst",
+        "base_type": "O Executor Pragmático",
+        "fear_mutation": "Medo da existência",
+        "name": "O fazedor domesticado",
+        "headline": "Você poderia tocar a empresa sozinho, mas morde a língua porque precisa do salário.",
+        "corporate_view": "Para a empresa, você é uma verdadeira máquina de trabalho e um pilar extremamente confiável do dia a dia operacional. Você é quem transforma as diretrizes vagas e fora da realidade da gestão em resultados duros e mensuráveis e garante que os números permaneçam no rumo certo no fim do trimestre.",
+        "shadow_conflict": "Você ferve de raiva por dentro todos os dias. Vê a ineficiência gritante, suporta as decisões idiotas e distantes da prática da gestão e ainda carrega colegas que simplesmente não entregam. Na verdade, todo instinto seu grita para agir com firmeza, fazer uma limpeza geral e arrumar a mesa. Mas você não faz isso. Seu medo constante e pulsante do bônus anual, do financiamento imobiliário em andamento ou do seu alto padrão de vida te força à submissão. Você engole seu pragmatismo instintivo, aceita de dentes cerrados as tarefas mais sem sentido e vai se transformando, lenta mas seguramente, em um cínico anestesiado e amargurado.",
+        "action_steps": [
+            "Desative a armadilha dourada: reduza imediatamente seus custos fixos. Sua dependência financeira é o único motivo real pelo qual você ainda tolera essa incompetência vinda de cima. A liberdade começa na conta bancária, não na cabeça.",
+            "Desinvestimento emocional: pare de se envolver emocionalmente em projetos quando você não tem autoridade para realmente controlá-los. Entregue exatamente o que foi pago para você entregar e depois desligue mentalmente por completo.",
+            "Troque o campo de jogo: você pertence a um ambiente puramente orientado por performance (por exemplo, vendas, gestão interina ou um negócio próprio). Procure um contexto em que não exista política de escritório, mas em que seu pragmatismo implacável seja convertido diretamente em dinheiro e sucesso mensurável."
+        ],
+        "monetization_hook": {
+            "topic": "Estoicismo no trabalho e carreiras de performance",
+            "keywords": [
+                "Estoicismo",
+                "Gestão interina",
+                "Modelos de comissão",
+                "Distanciamento emocional no trabalho"
+            ]
+        }
+    },
+    {
+        "profile_id": "executor_versagensangst",
+        "base_type": "O Executor Pragmático",
+        "fear_mutation": "Medo de fracassar",
+        "name": "O fazedor tirânico",
+        "headline": "Você pega todas as tarefas para si porque não confia nos outros — e queima no próprio microgerenciamento.",
+        "corporate_view": "Na empresa, você é percebido como uma liderança extremamente assertiva. Assume sem hesitar a responsabilidade total por projetos altamente críticos, sai na frente e empurra a equipe aparentemente sem parar rumo a resultados máximos. Quando tudo pega fogo, chamam você.",
+        "shadow_conflict": "Você disfarça seu pânico cru diante da perda de controle como 'eficiência' e 'exigência de qualidade'. No fundo, você teme o tempo todo que algo dê errado e isso recaia sobre você. Por isso, você nunca delega de verdade. Até passa tarefas adiante, mas no fim é o gargalo do próprio sucesso, porque no fim do dia você ainda corrige sozinho, às 23h, cada e-mail, cada apresentação e cada documento. Você se convence de que sua equipe é incompetente, mas a verdade tóxica é: você nem dá espaço para que trabalhem por conta própria e cometam erros, porque VOCÊ treme diante das consequências de um erro.",
+        "action_steps": [
+            "A regra dos 80% como lei: aceite finalmente: uma tarefa feita por um funcionário com 80% da qualidade que você teria não é perda de qualidade — é um ganho enorme para o seu próprio tempo de vida, que é limitado.",
+            "Permita dor controlada: deixe de propósito um projeto pequeno e irrelevante bater na parede ou tolere um erro visível na sua equipe. Você precisa experimentar que o mundo não desmorona por causa disso.",
+            "Arquiteto, não operário: mude sua identidade. Você não é mais o melhor 'executor'. Agora você é um 'arquiteto de sistemas'. Sua tarefa é construir processos robustos que funcionem mesmo quando você não estiver na sala."
+        ],
+        "monetization_hook": {
+            "topic": "Delegação eficaz e sistematização",
+            "keywords": [
+                "Aprender a delegar",
+                "Largar o microgerenciamento",
+                "Competência de liderança",
+                "Construir sistemas"
+            ]
+        }
+    },
+    {
+        "profile_id": "executor_statusverlust",
+        "base_type": "O Executor Pragmático",
+        "fear_mutation": "Perda de status",
+        "name": "O fazedor territorial",
+        "headline": "Você confunde liderança com dominação porque tem pânico de cair no ranking.",
+        "corporate_view": "Na organização, você é visto como um jogador alfa altamente competitivo, que sempre quer vencer e, na maioria das vezes, vence mesmo. Você protege participação de mercado, ganha as negociações mais duras e defende os interesses e orçamentos da sua área com extrema dureza e sem concessões.",
+        "shadow_conflict": "Seu ego é seu maior e mais perigoso ponto cego. Você mede seu valor pessoal exclusivamente pelo tamanho do seu orçamento, pelo seu cargo e por quem tem a última palavra na reunião decisiva. Você atropela colegas no discurso e toma para si os sucessos da equipe. Não porque isso seja o melhor para a causa ou para a empresa, mas porque você tem um medo absurdo e constante de que outro alfa, mais jovem ou mais barulhento, tome seu lugar. Seu ambiente até respeita sua dureza e seus resultados, mas por trás das suas costas não existe lealdade real. Na verdade, todo mundo só espera você tropeçar em algum momento.",
+        "action_steps": [
+            "Colaboração em vez de guerra: pare de lutar contra sua própria equipe ou contra outras áreas. Força verdadeira e soberana não aparece em manter os outros pequenos, mas em tolerar gente competente ao seu lado e até deixá-la crescer.",
+            "Treino radical de escuta: force-se na próxima reunião importante a ficar três minutos sem interromper ninguém, sem fazer careta e sem dar sua própria solução. Aguente o silêncio e deixe os outros brilharem.",
+            "Reflita sobre escalabilidade: liderar por medo e dominação funciona no curto prazo e traz números rápidos. Mas liderar com respeito profundo e segurança psicológica é a única coisa que escala no longo prazo e evita burnout."
+        ],
+        "monetization_hook": {
+            "topic": "Liderança moderna e dinâmicas de poder",
+            "keywords": [
+                "Jogos de poder no escritório",
+                "Servant Leadership",
+                "Inteligência emocional para líderes",
+                "Ego is the enemy"
+            ]
+        }
+    },
+    {
+        "profile_id": "executor_veraenderungsangst",
+        "base_type": "O Executor Pragmático",
+        "fear_mutation": "Medo de mudança",
+        "name": "O fazedor teimoso",
+        "headline": "Você defende seus métodos antigos com unhas e dentes porque tem medo de voltar a ser iniciante no novo.",
+        "corporate_view": "Você é a rocha na tempestade. Possui um conhecimento operacional profundo e inestimável e é um dos poucos que ainda sabe exatamente como e por que o negócio principal continua lucrativo há anos. Quando o sistema balança, você é a âncora confiável.",
+        "shadow_conflict": "Você é o mestre incontestável das suas ferramentas atuais, listas de Excel e processos. Ninguém te engana; você faz as coisas no automático e mais rápido do que qualquer outro. Mas, assim que surgem novos métodos — como inteligência artificial, frameworks ágeis ou novos softwares em nuvem — você ergue um muro. Em reuniões, você descarta isso em voz alta como 'besteira da moda' que 'na prática aqui nunca vai funcionar'. A verdade amarga por trás dessa arrogância: você simplesmente morre de medo de perder da noite para o dia seu status de especialista conquistado com tanto esforço e de ter que recomeçar do zero, como um idiota iniciante, diante dos colegas mais jovens.",
+        "action_steps": [
+            "Cheque de realidade: aceite a realidade dura do mercado: quem vive teimosamente no passado não será mais pago no futuro próximo. Seu conhecimento rígido de processos de hoje se desvaloriza muito rápido.",
+            "O laboratório secreto: reserve a partir de agora duas horas fixas por semana na agenda para aprender de forma direcionada uma nova ferramenta disruptiva da sua área. Faça isso, se preciso, em segredo total, até se sentir seguro o bastante para mostrar ao time.",
+            "Use o reverse mentoring: pare de desvalorizar arrogantemente a forma de trabalhar dos colegas mais jovens. Em vez disso, transforme-os em mentores para novas tecnologias e IA. Em troca, você ensina a eles seu conhecimento estratégico de mercado, que não tem preço."
+        ],
+        "monetization_hook": {
+            "topic": "Competências do futuro e IA na gestão",
+            "keywords": [
+                "IA para líderes",
+                "Gestão da mudança",
+                "Reverse Mentoring",
+                "Métodos ágeis"
+            ]
+        }
+    },
+    {
+        "profile_id": "optimierer_existenzangst",
+        "base_type": "O Otimizador Estrutural",
+        "fear_mutation": "Medo da existência",
+        "name": "O prisioneiro invisível",
+        "headline": "Você faz o trabalho de três pessoas, recebe como uma, e tem medo demais para mudar isso.",
+        "corporate_view": "Você é um funcionário extremamente leal e absolutamente sem erros. Você forma a base invisível, mas extremamente segura, da área. É a pessoa para quem se pode jogar todas as tarefas ingratas e pequenas de bastidor, porque a gestão sabe muito bem: você vai executá-las sem reclamar, no prazo e com perfeição.",
+        "shadow_conflict": "Você está preso na roda de hamster perfeita. Sabe racionalmente que está sendo pago muito abaixo do que vale e que o sistema explora sua boa vontade sem vergonha. Mas você engole isso e se cala. Seu medo de insegurança financeira, do estresse de trocar de emprego ou do 'risco' do período de experiência em uma nova empresa é tão grande que você prefere suportar a miséria conhecida e familiar. Sua estratégia secreta de sobrevivência: você espera com todas as forças que seu chefe um dia perceba 'sozinho' o quanto você é absurdamente valioso e ofereça um aumento por iniciativa própria. Alerta de spoiler: isso nunca vai acontecer.",
+        "action_steps": [
+            "Pare de esperar pelo 'recompensador': no mundo dos negócios, não se paga desempenho de forma justa; paga-se apenas o valor de mercado negociado. Ninguém te dá dinheiro por fazer o trabalho em silêncio. Você precisa exigir seu valor de forma ativa, quase comercial.",
+            "Mantenha um diário de desempenho: documente a partir de agora, por pelo menos uma semana, absolutamente toda tarefa que vá além do seu contrato real. Traduza essas tarefas mentalmente em custos economizados ou crises evitadas para a empresa. Isso é sua munição de negociação.",
+            "O não estratégico: pratique dizer 'não' em um ambiente seguro. Quando a próxima tarefa não planejada de 'você pode só dar uma olhadinha rápida' aparecer, responda: 'Faço com prazer, mas então o projeto X vai obrigatoriamente ficar parado hoje. Sua priorização.'"
+        ],
+        "monetization_hook": {
+            "topic": "Negociação salarial para introvertidos",
+            "keywords": [
+                "Negociar salário sendo introvertido",
+                "Aprender a dizer não",
+                "Definir limites no trabalho",
+                "Calcular valor de mercado"
+            ]
+        }
+    },
+    {
+        "profile_id": "optimierer_versagensangst",
+        "base_type": "O Otimizador Estrutural",
+        "fear_mutation": "Medo de fracassar",
+        "name": "O perfeccionista paralisado",
+        "headline": "Você formata células do Excel às 22h porque tem pânico de que um pequeno erro te faça perder o emprego.",
+        "corporate_view": "Você é o mestre incontestável do controle de qualidade. Enxerga riscos operacionais, lacunas lógicas e problemas de compliance muito antes de eles causarem dano no mundo real. Quando você entrega algo, todo mundo no time sabe: é o padrão ouro absoluto.",
+        "shadow_conflict": "O que de fora parece ambição exemplar e dedicação é, na verdade, um escudo psicológico massivo. Seu perfeccionismo ficou doentio. Você tem um medo quase físico e desesperado de que alguém prove que você errou e te desmascare diante de todos como incompetente. Por isso, cria protocolos excessivos e sem fim, se protege em e-mails com cópia tripla e revisa secretamente o trabalho dos colegas em vez de ir para casa. Esse comportamento rouba uma quantidade absurda de energia de vida. Você se queima por dentro por puro e contínuo medo de crítica.",
+        "action_steps": [
+            "Princípio brutal de Pareto (80/20): aplique essa regra sem dó. A perfeição depois da marca de 80% custa exponencialmente mais tempo e nervos, mas a realidade dura é: ninguém além de você vê essa diferença marginal. Para o negócio, ela é irrelevante.",
+            "Treino de tolerância ao erro: envie de propósito para um colega um rascunho interno e sem importância, ainda com um pequeno erro de formatação ou digitação. Observe o que acontece. Você precisa experimentar que sua reputação não é destruída por isso.",
+            "Pragmatismo acima de over-engineering: pare de tentar se tornar intocável por meio de complexidade artificialmente inflada. Um problema resolvido de forma rápida e pragmática tem muito mais valor para uma empresa do que um problema 100% documentado, mas travado."
+        ],
+        "monetization_hook": {
+            "topic": "Largar o perfeccionismo e gestão do tempo",
+            "keywords": [
+                "Princípio de Pareto",
+                "Superar a síndrome do impostor",
+                "Parar de pensar demais",
+                "Medo de crítica"
+            ]
+        }
+    },
+    {
+        "profile_id": "optimierer_statusverlust",
+        "base_type": "O Otimizador Estrutural",
+        "fear_mutation": "Perda de status",
+        "name": "O especialista amargurado",
+        "headline": "Você odeia os exibidos barulhentos que vivem sendo promovidos — mas se recusa, por orgulho, a aparecer por conta própria.",
+        "corporate_view": "No time, você é visto como a fonte silenciosa e profunda de conhecimento da empresa. Você é o especialista absoluto, aquele que ninguém consegue contornar quando um tema fica realmente complexo, crítico ou tecnicamente exigente. Você é o arquivo humano confiável da empresa.",
+        "shadow_conflict": "Você está absurdamente frustrado e cínico. Todo dia vê gente que não sabe nem um terço do que você sabe levando os títulos mais bonitos e os salários mais gordos — só porque fala melhor e conhece as pessoas certas. Você despreza esses 'exibidos' profundamente. Mas o seu próprio ego atrapalha demais: você acha autopromoção ativa 'não profissional', 'barata' ou 'puxa-saquismo'. Você se convence de que: 'Trabalho realmente bom fala por si só.' Só que no mundo real isso não acontece. Sua recusa orgulhosa em participar minimamente do jogo político da empresa te deixa invisível — e te faz ficar parado no mesmo lugar.",
+        "action_steps": [
+            "Aceite as regras do jogo: largue a ingenuidade. Na carreira, percepção é realidade. Construir visibilidade própria não é um 'truque sujo', é uma parte legítima e necessária do seu trabalho.",
+            "A regra dos 5 minutos: decida firmemente que, em toda reunião, você vai falar nos primeiros 5 minutos — mesmo que seja só uma pergunta inteligente e alta. Isso estabelece sua presença auditiva e física no ambiente.",
+            "Reivindique suas vitórias: quando você resolver um problema enorme nos bastidores, não feche o ticket em silêncio. Envie um e-mail proativo aos stakeholders relevantes, deixando claro, de forma sutil mas cristalina, que FOI VOCÊ que evitou aquela falha."
+        ],
+        "monetization_hook": {
+            "topic": "Autopromoção & visibilidade para quem trabalha em silêncio",
+            "keywords": [
+                "Visibilidade para introvertidos",
+                "Personal branding no trabalho",
+                "Entender a política do escritório",
+                "Pessoas discretas, impacto forte"
+            ]
+        }
+    },
+    {
+        "profile_id": "optimierer_veraenderungsangst",
+        "base_type": "O Otimizador Estrutural",
+        "fear_mutation": "Medo de mudança",
+        "name": "O burocrata rígido",
+        "headline": "Você defende regras totalmente ultrapassadas como uma fortaleza, porque o caos do novo mundo do trabalho te sobrecarrega de um jeito absurdo.",
+        "corporate_view": "Você é o garantidor da ordem no departamento. Um rochedo na tempestade, que cuida com rigor para que, apesar de todas as transformações ágeis da moda e das ideias malucas da gestão, o negócio principal não desmorone. Você assegura a estabilidade e a conformidade necessárias.",
+        "shadow_conflict": "Assim que no meeting alguém fala em 'agilidade', 'reestruturação' ou 'implantação de novo software', parece que sua garganta fecha. Você ama e precisa de previsibilidade absoluta. Ao longo de muitos anos, construiu um ninho perfeito e seguro com macros complexas de Excel, estruturas próprias de pastas e processos fixos. Aqui você é o mestre incontestável. Se tudo mudar radicalmente agora, você perde o controle total e seu status de 'especialista que sabe tudo'. É exatamente por isso que você bloqueia mudanças necessárias com muita frequência — quase sempre disfarçando isso de forma inteligente sob o manto intocável de 'preocupações com compliance' ou 'garantia de qualidade'. Na verdade, você só tem medo nu e cru de se tornar inútil no novo sistema dinâmico.",
+        "action_steps": [
+            "De bloqueador a arquiteto: pare de se jogar contra a corrente como um desmoronamento. Você não vai impedir a digitalização. Mas pode usar seu talento estrutural para ser quem organiza a transição de forma segura e sem erros.",
+            "Assuma o papel de tradutor: se nomeie proativamente como o 'tradutor' entre o sistema antigo e o novo. Seu conhecimento imenso sobre erros históricos e armadilhas escondidas vale ouro quando um novo software ou processo é implantado. Use isso de forma ofensiva.",
+            "Aprenda a tolerar o caos: uma vez por semana, saia de propósito da sua zona de conforto estrutural. Faça uma tarefa por um caminho totalmente novo, subjetivamente 'ineficiente', para provar ao seu cérebro que desordem temporária não mata você — e muitas vezes abre novos caminhos."
+        ],
+        "monetization_hook": {
+            "topic": "Resiliência & gestão de mudanças para especialistas",
+            "keywords": [
+                "Gestão de mudanças",
+                "Lidar com mudanças",
+                "Trabalho ágil para iniciantes",
+                "Flexibilidade psicológica"
+            ]
+        }
+    },
+    {
+        "profile_id": "katalysator_existenzangst",
+        "base_type": "O Catalisador de Integração",
+        "fear_mutation": "Medo de existir",
+        "name": "O ajudante aprisionado",
+        "headline": "Você se sacrifica pela 'família da empresa' porque tem pânico de perder seu porto seguro.",
+        "corporate_view": "Você é a cola absoluta do time. É a pessoa que segura tensões e conflitos no corredor antes que eles explodam. Você assume, sem reclamar, as tarefas desagradáveis dos colegas sobrecarregados e ainda garante, de quebra, que a rotatividade e o número de afastamentos por doença no time fiquem baixos.",
+        "shadow_conflict": "Você se convence e chama seus colegas de 'família'. Mas, no fundo, você sabe muito bem: isso é uma relação comercial brutal. Você engole sua própria frustração, a falta de reconhecimento e as inúmeras horas extras não pagas, porque seu medo de existir te paralisa completamente. Sua disposição aparentemente ilimitada para ajudar é, na verdade, seu mecanismo de defesa mais forte: você se torna emocional e operacionalmente a boa alma onipresente, na esperança de que, na próxima onda de demissões ou reestruturação, você não entre na lista de corte por pura pena. Você compra segurança financeira com sua saúde mental — um negócio horrível.",
+        "action_steps": [
+            "Ative a mentalidade de negócio: encare a realidade gelada: se os números ficarem vermelhos, a empresa te demite mesmo assim — não importa quantos bolos você tenha feito. Segurança real e sustentável existe só no seu valor de mercado profissional, não no seu sacrifício.",
+            "Corte o over-engagement: pare imediatamente com o excesso emocional de envolvimento. A partir de hoje, não faça mais tarefas que não estejam exatamente na sua descrição de cargo, só para agradar os outros.",
+            "Invista em você: pegue a energia massiva que você gasta todo dia consertando os problemas dos outros e invista isso com rigor no seu próprio currículo. Torne-se indispensável tecnicamente, em vez de apenas conveniente como pessoa."
+        ],
+        "monetization_hook": {
+            "topic": "Limites profissionais & resiliência",
+            "keywords": [
+                "Definir limites no trabalho",
+                "Parar de agradar todo mundo",
+                "Independência financeira",
+                "Lealdade tóxica"
+            ]
+        }
+    },
+    {
+        "profile_id": "katalysator_versagensangst",
+        "base_type": "O Catalisador de Integração",
+        "fear_mutation": "Medo de fracassar",
+        "name": "O salvador que compensa demais",
+        "headline": "Você diz 'sim' para toda tarefa extra porque tem pânico de ser desmascarado como impostor.",
+        "corporate_view": "Na empresa, você é visto como o apagador de incêndios mais confiável e como o melhor jogador de equipe possível. Você é quem salva a situação na sexta-feira à tarde. A frase 'isso não é meu trabalho' parece ter sido completamente apagada do seu vocabulário.",
+        "shadow_conflict": "Seu famoso complexo de ajuda é, na verdade, uma máscara pesada para o seu enorme síndrome do impostor. Como você muitas vezes se sente inseguro ou 'não bom o suficiente' na sua função real, você compensa isso com disponibilidade total e sem limite de tempo. Você pega as tarefas lixo e até os erros dos outros sem reclamar. Sua lógica inconsciente é: 'Se eu for sempre legal, disponível e extremamente útil, talvez ninguém perceba que eu não sou tão competente assim.' O resultado: você se afoga no trabalho alheio e entra em burnout, porque um único 'não' claro parece, para você, uma admissão perigosa de fraqueza.",
+        "action_steps": [
+            "Treine o 'não' tático: aprenda que dizer não não é ataque. A frase 'Posso te ajudar com isso, mas minha agenda só permite na próxima quinta-feira' é um limite altamente profissional e respeitado — não uma rejeição pessoal.",
+            "Separe simpatia de desempenho: a empresa não te paga para ser amado, e sim para entregar resultados concretos. Se colegas ficarem frustrados no curto prazo porque você não faz o trabalho deles, isso é problema deles, não seu.",
+            "Devolva a responsabilidade: deixe os problemas de outros adultos onde eles pertencem. Se um colega falha na própria tarefa, não é sua função salvá-lo escondido do chefe à noite."
+        ],
+        "monetization_hook": {
+            "topic": "Síndrome do impostor & gestão do tempo",
+            "keywords": [
+                "Aprender a dizer não",
+                "Superar a síndrome do impostor",
+                "Complexo de salvador no trabalho",
+                "Construir autoestima"
+            ]
+        }
+    },
+    {
+        "profile_id": "katalysator_statusverlust",
+        "base_type": "O Catalisador de Integração",
+        "fear_mutation": "Perda de status",
+        "name": "O mártir ofendido",
+        "headline": "Você faz o papel de boa alma do escritório, mas por dentro está amargurado porque ninguém aplaude isso.",
+        "corporate_view": "Você é o centro emocional incontestável do departamento. Você sabe absolutamente tudo sobre fofocas de corredor e dinâmicas não ditas. É você quem organiza eventos do time, lembra dos aniversários e levanta os colegas depois de pancadas duras com um café.",
+        "shadow_conflict": "Você tira quase todo o seu valor profissional do fato de ser querido por todos e de ser 'necessário'. Você praticamente se empurra de forma agressiva para o papel de mártir sofredor: trabalha de propósito até mais tarde, consola todo mundo — e por dentro entra em fúria quando o chefe, na promoção ou na rodada de bônus, escolhe de novo o egoísta barulhento e frio. Você confunde profundamente 'popularidade' com 'influência' de verdade. Sua fome por status e reconhecimento é enorme, mas você acha moralmente errado ou grosseiro pedir isso de forma aberta, direta e sem rodeios. Então você sofre em silêncio.",
+        "action_steps": [
+            "Chega de 'parentalidade de escritório': pare imediatamente de agir como pai/mãe do escritório. Nada de fazer bolo, nada de papel de terapeuta gratuito no corredor. Você está ali para fazer negócios profissionais, não para educar ou mimar adultos.",
+            "Exija poder, não pena: se você é, na prática, a pessoa que mantém um departamento unido, então exija oficialmente a função de líder de equipe e o salário correspondente. Pare de aceitar migalhas em forma de palavras bonitas.",
+            "Pare com a passivo-agressividade: o fato de os outros não verem ou ignorarem sua 'abnegação silenciosa' não é maldade deles. É, sozinho, um problema de comunicação seu. Diga claramente o que você entrega e o que quer em troca."
+        ],
+        "monetization_hook": {
+            "topic": "Liderança para pessoas empáticas",
+            "keywords": [
+                "Liderança empática",
+                "Negociação salarial",
+                "Sair da posição de vítima",
+                "De querido a respeitado"
+            ]
+        }
+    },
+    {
+        "profile_id": "katalysator_veraenderungsangst",
+        "base_type": "O Catalisador de Integração",
+        "fear_mutation": "Medo de mudança",
+        "name": "O harmonizador tóxico",
+        "headline": "Você mantém unido um time completamente quebrado porque a ideia de um recomeço te tira o sono.",
+        "corporate_view": "Na empresa, você é visto como um mediador absolutamente leal. Você sustenta a organização com firmeza mesmo nas piores crises, ondas de demissão e fases de caos. Você é o sedativo da empresa: acalma o time imediatamente quando o clima pesa ou o pânico começa.",
+        "shadow_conflict": "Você está preso profundamente em uma relação de trabalho tóxica — e, no fundo, você sabe disso. Sofre todos os dias com estruturas caóticas e doentias, mas insiste em dourar a pílula de forma massiva e sistemática: 'Não é tão ruim assim' ou 'Os colegas precisam de mim, eu não posso simplesmente ir embora.' Sua empatia extrema, tão elogiada, virou sua maior e mais fatal desculpa para nunca apertar o botão de demissão. Um novo emprego significaria entrar num ambiente frio e estranho, onde você ainda não tem seu status social de 'salvador' valioso. Então você fica no navio afundando, continua tocando o violino e afunda junto de propósito.",
+        "action_steps": [
+            "Puxe o plugue: pare imediatamente de manter artificialmente vivo, com empatia e horas extras, um sistema totalmente quebrado e disfuncional. Deixe o projeto ou o departamento quebrar. Não é sua empresa. Você não é o administrador da falência.",
+            "Destrua sua mentira confortável: seus colegas vão sobreviver sem você. Todo mundo é substituível. Você não é responsável pela felicidade pessoal de outros adultos — só pela sua.",
+            "Reenquadre a troca de emprego: veja uma mudança de emprego não como a perda da sua 'família', mas como uma fuga vital de uma seita tóxica. Atualize seu perfil e escreva sua carta de demissão hoje mesmo."
+        ],
+        "monetization_hook": {
+            "topic": "Sair de ambientes tóxicos e recomeçar",
+            "keywords": [
+                "Ambiente de trabalho tóxico",
+                "Medo de pedir demissão",
+                "Dependência emocional no trabalho",
+                "Ter coragem de recomeçar"
+            ]
+        }
+    }
+]

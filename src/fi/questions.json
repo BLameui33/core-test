@@ -1,0 +1,2262 @@
+[
+    {
+        "id": "q1_meeting",
+        "category": "conflict_structure",
+        "question": "Kahden tunnin 'strategiapalaveri' ilman selkeää agendaa, jossa kolme kollegaa pyörii loputtomasti kehää. Mitä päässäsi liikkuu?",
+        "answers": [
+            {
+                "text": "Mahtavaa. Tilaa ajatella ääneen ja kehittää ideoita. Vihdoin ei tarvitse vain suorittaa Excel-listoja pilkuntarkasti.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "Se tekee minut aggressiiviseksi. 15 minuutin jälkeen vaadin selkeän päätöksen tai tehtävien jaon, muuten lähden.",
+                "scores": {
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Sisälläni on täysi stressi. Ajattelen koko ajan oikeita töitäni, jotka jäävät nyt tekemättä pöydälle.",
+                "scores": {
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Yritän ottaa hiljaisemmat kollegat mukaan keskusteluun ja tasoittaa huoneen kireää tunnelmaa.",
+                "scores": {
+                    "katalysator": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q2_systemfehler",
+        "category": "conflict_structure",
+        "question": "Tärkeä projekti menee pahasti pieleen. Virhe johtui yrityksen epäselvästä prosessista, ei sinusta – mutta se kaatuu sinun vastuualueellesi. Ensimmäinen reaktiosi?",
+        "answers": [
+            {
+                "text": "Analysoin kylmästi pullonkaulan, rakennan korjauksen ja viestin ylös asti täysin selvästi, kuka tai mikä epäonnistui.",
+                "scores": {
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Vietän puolet yöstä dokumentoiden aukottomasti, että noudatin tarkasti kaikkia ohjeita.",
+                "scores": {
+                    "optimierer": 1,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Minulla on taas kolme uutta ideaa siitä, miten seuraava projekti vedetään ihan eri tavalla. Menneet ovat menneitä.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "Minulla on huono omatunto, koska muut osastot kärsivät nyt kaaoksesta, ja tarjoan heti apuani.",
+                "scores": {
+                    "katalysator": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q3_sinnlosaufgabe",
+        "category": "conflict_structure",
+        "question": "Pomosi antaa sinulle tehtävän, joka on täysin toisteinen, äärimmäisen pilkottu ja sinun mielestäsi täysin tehoton. Miten toimit?",
+        "answers": [
+            {
+                "text": "Pääsen flow-tilaan. Rakastan sitä, kun lopussa kaikki täsmää sentilleen, on strukturoitu ja hoidettu pois alta.",
+                "scores": {
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Kuolen sisältä. 10 minuutin jälkeen menetän fokuksen, ärsyynnyn ja alan tehdä jotain muuta.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "Automatisoin sen salaa, delegoin sen tai keksin tavan tehdä se 'riittävän hyvin' kolmasosassa ajasta.",
+                "scores": {
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Teen sen hampaita kiristellen ja huolellisesti. Jos en tee, se kaatuu kollegoilleni, enkä halua sitä.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_status": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q4_befoerderungsfalle",
+        "category": "conflict_structure",
+        "question": "Yläpuolellasi vapautuu johtotehtävä. Miksi et ole vielä siinä työssä?",
+        "answers": [
+            {
+                "text": "Koska en oikeasti halua jatkuvaa painetta, politiikkaa ja konflikteja siellä ylhäällä elämääni.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Koska myyn itseni aivan surkeasti. Teen taustalla kaiken työn, mutta muut keräävät siitä kunnian.",
+                "scores": {
+                    "optimierer": 1,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Koska minulta puuttuu 'talon tapa'. Olen johdolle liian hankala, koska kyseenalaistan jatkuvasti vanhentuneita rakenteita.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "Kuka sanoo, etten ole? Vaadin tällaisia paikkoja aktiivisesti. Jos minua jarrutetaan, vaihdan firmaa.",
+                "scores": {
+                    "executor": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q5_sonntagabend",
+        "category": "conflict_structure",
+        "question": "On sunnuntai, klo 20.00. Ajattelet tulevaa työviikkoa. Mikä aiheuttaa sinulle todennäköisimmin pahan olon?",
+        "answers": [
+            {
+                "text": "Pelko siitä, etten taaskaan pääse tällä viikolla oikeiden, syvällisten ideoideni pariin, koska arjen rutiinit syövät minut.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "Ajatus myrkyllisestä ilmapiiristä, ratkaisemattomista konflikteista tiimissä ja kollegoista, joita joudun taas motivoimaan.",
+                "scores": {
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "Avuttomuuden tunne. Näen tarkalleen, mikä menee pieleen, mutta en saa tehdä päätöksiä sen korjaamiseksi.",
+                "scores": {
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Huoli siitä, että tehtävien määrä saa minut menettämään kokonaisuuden hallinnan ja teen kohtalokkaan virheen.",
+                "scores": {
+                    "optimierer": 1,
+                    "fear_versagen": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q6_feedback",
+        "category": "conflict_structure",
+        "question": "Esihenkilösi, joka ymmärtää asiasta vähemmän kuin sinä, antaa sinulle kriittistä mutta perusteetonta palautetta. Sisäinen reaktiosi?",
+        "answers": [
+            {
+                "text": "Laitan korvat kiinni. Hänen mielipiteensä ei kiinnosta minua, kunhan hän antaa minun hoitaa omat asiani rauhassa.",
+                "scores": {
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Otän sen päiviksi todella raskaasti, alan epäillä kykyjäni ja mietin, mitä tein väärin.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Puolustaudun heti kovilla faktoilla, lokeilla tai dokumenteilla, jotka todistavat hänen arvionsa vääräksi.",
+                "scores": {
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Pyöritän silmiäni sisäisesti. Hän ei vain ymmärrä isoa kuvaa, joten en edes ala väitellä.",
+                "scores": {
+                    "pionier": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q7_feierabend",
+        "category": "conflict_structure",
+        "question": "Millä ehdolla voit illalla sulkea läppärin oikeasti hyvällä fiiliksellä?",
+        "answers": [
+            {
+                "text": "Kun olen tänään ratkaissut monimutkaisen ongelman tai kehittänyt loistavan uuden idean.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "Kun tehtävälistani on täysin tyhjä eikä sähköposteissa tai työkaluissa pala enää yhtään punaista ilmoituspistettä.",
+                "scores": {
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Kun tiimilläni oli hyvä päivä, nauroimme yhdessä ja pystyin auttamaan jotakuta ongelmassa.",
+                "scores": {
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "Kun saimme tänään aikaan konkreettisen tuloksen, joka tuo liikevaihtoa, liidejä tai mitattavaa edistystä.",
+                "scores": {
+                    "executor": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q8_gehalt_vs_risiko",
+        "category": "frust_risiko_angst",
+        "question": "Innovatiivinen startup tarjoaa sinulle täysin unelmatyösi. Mutta: 20 % pienempi peruspalkka ja määräaikainen vuoden sopimus. Rehellinen reaktiosi?",
+        "answers": [
+            {
+                "text": "Ei missään nimessä. Minulla on kiinteät kulut, vuokra ja velvoitteita. Tuo riski pilaisi uneni.",
+                "scores": {
+                    "fear_existenz": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Teen sen heti. Tarvitsen potkun rakentaa jotain uutta, turvallisuus on muutenkin tylsää.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Minua huolettaa enemmän se, että epäonnistunut startup näyttäisi sitten isona tahrana CV:ssäni.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Haluaisin kyllä, mutta en saa sydäntäni siihen, että jättäisin nykyisen tiimini nyt pulaan.",
+                "scores": {
+                    "fear_veraenderung": 1,
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q9_unterbezahlt",
+        "category": "frust_risiko_angst",
+        "question": "Tiedät aivan varmasti, että olet alan keskiarvoon verrattuna noin 15 % alipalkattu. Miksi olet tähän asti vain hyväksynyt sen?",
+        "answers": [
+            {
+                "text": "Pelottaa, että tämä kostautuu ja päädyn lopulta irtisanomislistalle.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Jos he maksavat minulle enemmän, myös odotukset minua kohtaan kasvavat rajusti. Entä jos en pysty toimittamaan sitä?",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Nykyinen työnimikkeeni kuulostaa upealta. Se on melkein tärkeämpi kuin raha, ja näyttää LinkedInissä todella hyvältä.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Ajatus palkkaneuvotteluista tai työhaastatteluista on minulle vain liian raskas. Olen sopeutunut.",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q10_umstrukturierung",
+        "category": "frust_risiko_angst",
+        "question": "Ilmoitetaan äkillisestä fuusiosta. Osastosi organisoidaan täysin uudelleen. Mikä on aivan ensimmäinen ajatuksesi?",
+        "answers": [
+            {
+                "text": "'Menetänkö työni? Kuinka kauan säästöni riittävät?'",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "'Paska, päädynkö nyt hierarkiassa alemmaksi täysin epäpätevä uuden pomon alaisuuteen?'",
+                "scores": {
+                    "fear_status": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "'Voi ei, kaikki täydelliset rutiinini ja kovalla työllä rakennetut prosessini ovat nyt täysin hukkaan heitettyjä.'",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "'Uudet pomot huomaavat heti, etten oikeasti olekaan niin hyvä kuin kaikki täällä luulivat.'",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q11_golden_handcuffs",
+        "category": "frust_risiko_angst",
+        "question": "Saat joka vuosi muhkean bonuksen ja tienaat todella hyvin, mutta vihaat työtäsi pohjattomasti. Miksi olet yhä siellä?",
+        "answers": [
+            {
+                "text": "Kultainen häkki: elintaso on liian makea. En voi enää palata tavalliseen palkkatasoon.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Status: kun kerron missä työskentelen, ihmiset tekevät vaikutuksen. Ego tarvitsee sitä.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Itse-epäily: uskon salaa, että minulla kävi vain tuuri. Kukaan muu ei maksaisi minulle näin paljon.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Inertia: valitan kyllä päivittäin, mutta illalla minulla ei ole yhtään energiaa hakea oikeasti uutta paikkaa.",
+                "scores": {
+                    "fear_veraenderung": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q12_linkedin_flex",
+        "category": "frust_risiko_angst",
+        "question": "Aiheena itsensä markkinointi ja ammatillinen näkyvyys (esim. LinkedInissä, isoissa palavereissa). Miten toimit?",
+        "answers": [
+            {
+                "text": "Kuka minä muka olen juhlimaan itseäni? On tuhat ihmistä, jotka ovat ammatillisesti paljon parempia kuin minä.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "En tarvitse digitaalista aplodia. Palkkalappuni ja tulokseni riittävät vahvistukseksi.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Haluaisin kyllä joskus postata jotain, mutta sen pitäisi olla täysin täydellistä ja virheetöntä. Joten jätän koko homman väliin.",
+                "scores": {
+                    "fear_versagen": 1,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Näkyvyys on valtaa. Jaan onnistumisia aktiivisesti, koska se suojaa markkina-arvoani ja pitää kilpailijat loitolla.",
+                "scores": {
+                    "fear_status": 2,
+                    "pionier": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q13_befoerderung_abgelehnt",
+        "category": "frust_risiko_angst",
+        "question": "Kuvittele, että kieltäydyt ilmeisestä ylennyksestä. Mikä olisi rehellisin syy siihen?",
+        "answers": [
+            {
+                "text": "Siihen ei kuulunut omaa firman autoa eikä oikeaa 'C-level'-titteliä. En myy itseäni vain vähän suuremmasta rahasta.",
+                "scores": {
+                    "fear_status": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Täysi paniikki henkilöstövastuusta, vääristä päätöksistä ja epäonnistumisesta esihenkilönä.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Minun pitäisi luopua tutusta työpöydästäni, turvallisesta tiimistäni ja rakkaista rutiineistani.",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "Korvaus oli liian pieni. Se pieni palkankorotus ei oikeuta irtisanomisajan ja turvan menettämistä.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q14_lob_vom_ceo",
+        "category": "frust_risiko_angst",
+        "question": "Sinua kehutaan suuressa porukassa toimitusjohtajan toimesta henkilökohtaisesti massiivisesta onnistumisesta. Mitä sinussa tapahtuu?",
+        "answers": [
+            {
+                "text": "Hymyilen, mutta sisällä hikoilen: seuraavalla kerralla he odottavat samaa uudestaan, ja sitten paljastun.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Käännän huomion heti pois ja jaan kiitokset koko tiimin kanssa, jotta kukaan toimistolla ei vain pitäisi minua ylimielisenä.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Nautin siitä. Varmistan, että kaikki huoneessa ymmärtävät, että tämä onnistuminen oli ensisijaisesti minun ansiotani.",
+                "scores": {
+                    "executor": 1,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Käytän huomion kylmästi hyväkseni ja pitchaan seuraavaa, paljon suurempaa budjettia tai hullua ideaa.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q15_ki_bedrohung",
+        "category": "frust_risiko_angst",
+        "question": "Tekoäly automatisoi juuri valtavia osia alastasi. Miten reagoit?",
+        "answers": [
+            {
+                "text": "Paniikki. Tarkistan säästöni ja googlaan uudelleenkoulutuksia 'turvallisiin' käsityöammatteihin.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Olen stressaantunut, koska en ole enää nuorin. Epäilen, että aivoni enää oppivat kaikkia näitä uusia työkaluja.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Nimitän itseni heti epäviralliseksi 'AI-vastaavaksi', jotta pysyn relevanttina ja suojelen asemaani.",
+                "scores": {
+                    "fear_status": 2,
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "Sivuutan sen suurimmaksi osaksi. Ei tästä niin isoa numeroa tehdä kuin miltä se kuulostaa. Prosessini toimivat vielä.",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q16_das_toxische_umfeld",
+        "category": "frust_risiko_angst",
+        "question": "Yrityskulttuurisi on äärimmäisen myrkyllinen ja kuluttaa sinua, mutta työsopimuksesi on toistaiseksi voimassa oleva. Mitä teet?",
+        "answers": [
+            {
+                "text": "Jään. Toistaiseksi voimassa oleva sopimus on nykyisessä taloudessa puhdasta kultaa. Laitan vain tunteeni pois päältä.",
+                "scores": {
+                    "fear_existenz": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Jään. Jos lähden nyt, CV:ssä näyttää siltä, etten ollut tarpeeksi kuormitusta kestävä.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Suunnittelen salaa lähtöäni, mutta odotan 'täysin täydellistä hetkeä'. (Joka ei jotenkin koskaan tule).",
+                "scores": {
+                    "fear_veraenderung": 2
+                }
+            },
+            {
+                "text": "Haastan johdon kovaa epäkohtien takia. Jos he sen vuoksi potkivat minut ulos – sitä parempi.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q17_wochenend_projekt",
+        "category": "frust_risiko_angst",
+        "question": "Sinua pyydetään perjantai-iltapäivänä vetämään lyhyellä varoitusajalla korkean profiilin, näkyvää viikonloppuprojektia.",
+        "answers": [
+            {
+                "text": "Suostun. Jos kieltäydyn, pomot ajattelevat, etten ole enää 'high performer' ja antavat projektin jollekin muulle.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Suostun puhtaasta syyllisyydestä, jotta kollegani eivät joudu tekemään töitä viikonloppuna.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Suostun, mutta vietän 80 % viikonlopusta paniikissa siitä, että tämä näkyvä projekti menee pieleen.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Kieltäydyn kylmästi. Vapaa-aikani kuuluu minulle, ellei viikonlopun tuntipalkkaani tuplata.",
+                "scores": {
+                    "executor": 2,
+                    "pionier": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q18_der_inkompetente_kollege",
+        "category": "team_leadership",
+        "question": "Tiimisi kollega tekee kroonisesti huonoa työtä. Se vaikuttaa myös sinun projekteihisi. Mitä teet?",
+        "answers": [
+            {
+                "text": "Teen hänen työnsä salaa uudelleen tai korjaan sen öisin. Pääasia, että lopputulos on virheetön.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Otatan hänen kanssaan puheeksi ja tarjoan apua hänen tehtäviinsä, jotta hän ei paljastu.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Eristän omat työni täysin hänen töistään ja rakennan järjestelmät, joissa en ole enää hänestä riippuvainen.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Otatan hänet puheeksi palaverissa tai eskaloin asian heti pomolle. En kanna kuolleita painoja mukana.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q19_micromanagement",
+        "category": "team_leadership",
+        "question": "Uusi pomosi on äärimmäinen mikromanageri. Hän haluaa lukea jokaisen sähköpostiluonnoksen ennen kuin lähetät sen. Strategiasi?",
+        "answers": [
+            {
+                "text": "Sopeudun ja teen hänelle tarkistuslistat. Jos hän tarvitsee kontrollia, annan hänelle aukottoman dokumentaation.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Kapinoin avoimesti. Sivuutan hänen ohjeensa, toimitan tulokseni ja annan hänen raivota.",
+                "scores": {
+                    "pionier": 1,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Olen pahasti epävarma ja tarkistan tästä eteenpäin jokaisen sähköpostin kolmesti, koska pelkään tekeväni virheen.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Yritän monien henkilökohtaisten keskustelujen kautta selvittää, miksi hänellä on niin vähän luottamusta, ja rauhoittelen häntä.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q20_ideenklau",
+        "category": "team_leadership",
+        "question": "Sanot kahvihuoneessa loistavan idean. Isossa palaverissa kollega myy yhtäkkiä saman idean omanaan. Miten reagoit?",
+        "answers": [
+            {
+                "text": "Kiehun raivosta, mutta en sano palaverissa mitään, etten näyttäisi epäammattimaiselta, nalkuttavalta tai 'pieneltä'.",
+                "scores": {
+                    "fear_status": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Keskeytän hänet ystävällisesti mutta kylmästi: 'Aivan, kuten selitin sinulle aiemmin keittiössä... Tässä ovat seuraavat askeleet.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Antaa mennä. Minulla on joka tapauksessa jo kolme uutta, paljon parempaa ideaa päässäni. Hän jää kyllä pian jumiin.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Haen sen jälkeen kahden kesken keskustelun ja sanon hänelle, että tämä petti minut ihmisenä todella pahasti.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q21_teambuilding_horror",
+        "category": "team_leadership",
+        "question": "HR määrää pakollisen 'tiimiytymisworkshopin' tuoliringillä ja tunnekorteilla. Mitä ajattelet?",
+        "answers": [
+            {
+                "text": "Mahtavaa! Vihdoin tilaisuus purkaa tiimin sanattomat jännitteet ohjatusti.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Mikä ajan haaskausta. Lasken mielessäni, kuinka paljon liikevaihtoa firma polttaa juuri nyt, kun me istumme täällä.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Osallistun kiltisti, mutta sanon vain mitäänsanomattomia, turvallisia asioita, etten varmasti herätä negatiivista huomiota.",
+                "scores": {
+                    "fear_status": 1,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Käytän jäsentymättömän ajan siihen, että irtaudun henkisesti täysin ja puuhailen omien projektieni parissa.",
+                "scores": {
+                    "pionier": 2,
+                    "optimierer": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q22_der_antwort_allen_fail",
+        "category": "team_leadership",
+        "question": "Sähköpostiketju eskaloituu ('Vastaa kaikille'). Sävy kovenee, CC-lista kasvaa. Mikä on roolisi?",
+        "answers": [
+            {
+                "text": "Puuttun väliin sovittelijana, vaihdan puhelimeen ja yritän rauhoittaa tilanteen offline.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Lopetan draaman kovalla, äärimmäisen faktapohjaisella sähköpostilla bullet pointteina. Keskustelu loppu.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Liitän mukaan kolme PDF:ää ja pöytäkirjan, jotka todistavat kiistatta, ettei minun osastollani ole syytä.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Arkistoin sähköpostiketjun toisen viestin jälkeen ja teen jo jotain muuta.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q23_unbezahlte_ueberstunden",
+        "category": "team_leadership",
+        "question": "Pomosi odottaa epäsuorasti (mutta ei sopimuksellisesti), että tarkistat sähköpostit viikonloppuna. Miksi teet sen silti?",
+        "answers": [
+            {
+                "text": "Koska panikoin, että maanantaiaamuna minua odottaa valtava kaaos, jota en enää pysty hallitsemaan.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Koska irtisanomisaalto vyöryy ja minun on varmistettava, että minua pidetään korvaamattomana.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Koska haluan, että pomo näkee, kuinka äärimmäisen sitoutunut olen. Se turvaa paikkani alfa-rankingissa.",
+                "scores": {
+                    "fear_status": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Koska jos en tee sitä, työ jää raukan kollegani harteille. Ja hän on jo valmiiksi äärirajoilla.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q24_onboarding",
+        "category": "team_leadership",
+        "question": "Sinun pitää perehdyttää uusi työntekijä. Mikä on lähestymistapasi?",
+        "answers": [
+            {
+                "text": "Annan hänelle 50-sivuisen, itse kirjoittamani wikin ja odotan, että hän noudattaa prosesseja.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Kutsun hänet ensin kahville, esittelen kaikille ja varmistan, että hän tuntee olonsa emotionaalisesti turvalliseksi.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Kerron hänelle suuren vision, työnnän hänen käteensä monimutkaisen ongelman ja katson, osaako hän uida.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Annan hänelle suoraan kovan, mitattavan tehtävän. Jos hän mokaa sen, tiedän missä mennään.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q25_fuehrungsstil",
+        "category": "team_leadership",
+        "question": "Jos olet täysin rehellinen: mikä olisi suurin heikkoutesi, jos joutuisit johtamaan tiimiä?",
+        "answers": [
+            {
+                "text": "Välttelisin kovaa, negatiivista palautetta, koska vihaan konflikteja.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Mikromanageroisin liikaa, koska en yksinkertaisesti luota siihen, että muut tekevät sen yhtä täydellisesti kuin minä.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Olisin todennäköisesti liian kärsimätön, tyly ja irtisanoisin ihmiset liian nopeasti, jos he tuhlaavat aikaani.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Hukkuisin kaaokseen, unohtaisin hallinnolliset asiat ja kuormittaisin ihmisiä jatkuvilla suunnanmuutoksillani.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q26_flurfunk",
+        "category": "team_leadership",
+        "question": "Käytävällä puhutaan äärimmäisen myrkyllisesti kollegasta, joka ei ole paikalla. Mikä on kantasi?",
+        "answers": [
+            {
+                "text": "Vetäydyn tilanteesta sanomatta mitään. Juoruilu on epäammattimaista ja tehotonta.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Avaan suuni, sanon suoraan mielipiteeni ja lopetan mustamaalauksen heti.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Seison hiljaa, saatan naurahtaa kohteliaisuudesta mukana, mutta tunnen oloni sisäisesti surkeaksi.",
+                "scores": {
+                    "fear_status": 1,
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "Etsin asianomaisen kollegan myöhemmin salaa ja yritän tukea häntä henkisesti.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q27_delegation",
+        "category": "team_leadership",
+        "question": "Pomosi sysää täysin sinun vastuullesi massiivisen 'no-win-projektin' (korkea riski, pieni budjetti). Miksi otat sen vastaan?",
+        "answers": [
+            {
+                "text": "En vain uskalla sanoa pomolleni suoraan 'ei'.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "Käytän sitä valtavipuna. Jos pelastan tämän jutun, kunnia kuuluu minulle ja vaadin lisää palkkaa.",
+                "scores": {
+                    "executor": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Koska olen ainoa tiimissä, joka pystyy saamaan kaaoksen rakenteellisesti hallintaan.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Ohitan absurdin ohjeistuksen ja käytän projektia hiekkalaatikkona täysin uudelle menetelmälle.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q28_brainstorming",
+        "category": "team_leadership",
+        "question": "Aivoriihi: joku heittää huoneeseen täysin epärealistisen, absurdiin idean. Reaktiosi?",
+        "answers": [
+            {
+                "text": "Torjun sen heti: 'Meillä ei ole budjettia siihen. Kestää liian kauan. Seuraava ehdotus.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Lähden täysillä mukaan ja vien idean vielä paljon hullummaksi. Joskus hulluudesta syntyy innovaatio.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Kerron, mitä compliance- ja prosessiongelmia tämä idea aiheuttaisi heti.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Pidän mieluummin suuni kiinni. Vaikka pitäisin ideasta, en halua nolata itseäni ryhmän edessä.",
+                "scores": {
+                    "fear_status": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q29_das_meeting_danach",
+        "category": "team_leadership",
+        "question": "Kovan, kiivaan väittelyn sisältäneen palaverin jälkeen palaat työpisteellesi. Mitä teet ensimmäisenä?",
+        "answers": [
+            {
+                "text": "Kirjoitan heti pöytäkirjan kaikista päätöksistä ja jaan sen, jotta kukaan ei voi myöhemmin perääntyä.",
+                "scores": {
+                    "optimierer": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Mietin tuntikausia, tulinko sanoneeksi minuutilla 14 liian tylysti ja vihaako kollega X minua nyt.",
+                "scores": {
+                    "fear_versagen": 1,
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Istun heti toteuttamaan to-do-listaa. Puhe on ohi, nyt toimitetaan.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Hylkään kaiken, mitä palaverissa sanottiin, ja keksin elegantimman ratkaisun.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q30_der_grenzueberschreitende_kunde",
+        "category": "operations_clients",
+        "question": "Asiakas (tai potilas) on äärimmäisen vaativa, sivuuttaa sovitut asiat ja alkaa huutaa. Ensimmäinen reaktiosi?",
+        "answers": [
+            {
+                "text": "Otatan hänen tunteensa vastaan, pysyn äärimmäisen rauhallisena ja yritän rauhoittaa hänet inhimillisesti, vaikka hän olisi väärässä.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Kerron hänelle kylmästi ja terävästi sopimukselliset rajamme. Jos hän ei käyttäydy, hän saa lähteä.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Dokumentoin tapauksen heti tarkasti järjestelmään, jotta kukaan ei myöhemmin voi väittää, että toimin väärin.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Ohitan vakioprosessit ja etsin luovan, epätavanomaisen kiertotien, jotta saan hänet nopeasti pois käsistä.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q31_die_leere_schreibtisch_panik",
+        "category": "operations_clients",
+        "question": "On perjantai-iltapäivä, puhelin ei soi ja olet saanut kaikki tehtävät tehtyä. Mitä tunnet?",
+        "answers": [
+            {
+                "text": "Epämääräistä pahaa oloa. Jos en tuota jatkuvasti, firma ehkä huomaa, ettei se edes tarvitse minua.",
+                "scores": {
+                    "fear_existenz": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Ihanaa! Käytän ajan vihdoin kansiorakenteiden ja mallipohjien hiomiseen ensi viikkoa varten täydellisiksi.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Alan tylsyyden takia suunnitella täysin uutta, sovittamatonta projektia tai järjestelmää.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Kävelen toimistossa (tai chatissa) ja kysyn kollegoilta, voinko auttaa heitä heidän tehtävissään.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q32_der_falsche_prozess",
+        "category": "operations_clients",
+        "question": "Sinun pitää hoitaa tehtävä, mutta siihen liittyvä virallinen firman prosessi on pahasti vanhentunut ja kestää kolme kertaa kauemmin. Mitä teet?",
+        "answers": [
+            {
+                "text": "Noudatan prosessia täsmälleen. Säännöt ovat sääntöjä, ja jos jotain menee pieleen, olen ainakin turvassa.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Rikon sääntöä, teen sen omalla nopealla tavallani enkä kerro kenellekään. Pääasia, että lopputulos on oikea.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Kirjoitan 10-sivuisen konseptin siitä, miten prosessi voitaisiin mullistaa (joka sitten kuitenkin hautautuu jonnekin).",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "En uskalla poiketa prosessista, koska pelkään compliance-porukan/esihenkilön kanssa tulevaa paskamyrskyä.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "fear_status": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q33_freitag_kurz_vor_feierabend",
+        "category": "operations_clients",
+        "question": "Klo 16:55. Esihenkilöltä tulee 'täysin kiireellinen' sähköposti. Se ei ole oikea hätätilanne, vaan vain huonoa ajoitusta. Mitä teet?",
+        "answers": [
+            {
+                "text": "Teen sen, vaikka kiehun sisältä. Jos kieltäydyn, menetän maineeni 'luotettavimpana työntekijänä'.",
+                "scores": {
+                    "fear_status": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Läppäri kiinni. Viikonloppu alkaa. Huono suunnittelu hänen puoleltaan ei ole hätätilanne minun puolellani.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Syöksyn siihen. Vihdoin vähän kaaosta ja adrenaliinia tämän aamun tylsien rutiinitehtävien sijaan.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Teen sen heti. Pelko siitä, että minut nöyryytetään maanantaina kaikkien edessä, on liian suuri.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q34_neue_software_ausgerollt",
+        "category": "operations_clients",
+        "question": "Johto ottaa käyttöön kalliin uuden ohjelmiston, jonka väitetään tekevän 'kaiken paremmin'. Ensimmäinen ajatuksesi?",
+        "answers": [
+            {
+                "text": "Voi luoja. Kaikki itse tekemäni Excel-listat ja rutiinit ovat nyt arvottomia. Vihaan tätä.",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Kokeilen heti, miten voin hakkeroida järjestelmää, käyttää sitä väärin tai hyödyntää sitä ihan muihin asioihin.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Ohjelmisto on liian hidas. Kieltäydyn käyttämästä sitä, ennen kuin se ei enää hidasta työskentelyäni.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Ilmoittaudun vapaaehtoiseksi auttamaan vanhempia kollegoita, jotka ovat nyt täysin hukassa, siirtymässä.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q35_der_oeffentliche_fehler",
+        "category": "operations_clients",
+        "question": "Olet tehnyt mitattavan, kalliin virheen. Se huomataan suuressa palaverissa. Spontaani reaktiosi?",
+        "answers": [
+            {
+                "text": "Täydellinen sisäinen shokki. Huijarisyndroomani iskee 1000-prosenttisesti. Toivon, että maa nielaisisi minut.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Vedän kynnet esiin ja selitän kolmen muuttujan avulla, miksi tämä oli näissä olosuhteissa väistämätöntä.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Myönnän sen heti ja armotta. 'Kyllä, minun virheeni. Ei tapahdu uudestaan. Tässä on suunnitelma, miten korjaamme sen.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Julistan virheen heti 'oppimiskokemukseksi' tai 'suunnittelemattomaksi prototyypiksi' ja ohjaan keskustelun uuteen ideaan.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q36_die_junioren_gefahr",
+        "category": "operations_clients",
+        "question": "Erittäin motivoitunut, nuorempi työntekijä aloittaa tiimissäsi ja on todella nopea. Mitä se herättää syvällä sisälläsi?",
+        "answers": [
+            {
+                "text": "Raakaa pelkoa siitä, että palkkani on liian korkea ja he korvaavat minut pian tällä halvemmalla, nälkäisemmällä versiolla.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Pidän siitä. Otan hänet siipieni suojaan ja yritän kasvattaa häntä sekä henkisesti että ammatillisesti.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Hän ärsyttää minua vähän. Häneltä puuttuu rakenne, hän tekee hölmöjä virheitä ja vaarantaa siistit prosessimme.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Kilpailu. Nostan omaa suorituskykyäni, jotta näytän kristallinkirkkaasti, kuka täällä on pomo.",
+                "scores": {
+                    "executor": 2,
+                    "fear_status": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q37_scope_creep",
+        "category": "operations_clients",
+        "question": "Projekti (tai tehtävä) paisuu täysin. Uusia toiveita tulee koko ajan lisää, mutta budjetti/aika pysyy samana.",
+        "answers": [
+            {
+                "text": "Laitan jyrkän stop-merkin. 'Jos haluatte ominaisuuden X, poistetaan Y tai maksatte lisää.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Teen salaa 12 tuntia päivässä, jotta saan jotenkin täytettyä kaikki toiveet, koska en halua tuottaa pettymystä kenellekään.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Menetän täysin hermoni, koska siisti aikatauluni ja rakenteeni on nyt lopullisesti pilalla.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Rakastan sitä. Mitä kaoottisemmaksi ja isommaksi homma muuttuu, sitä enemmän minulla on tilaa rakentaa epätavanomaisia ratkaisuja.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q38_der_visionaere_chef",
+        "category": "operations_clients",
+        "question": "Toimitusjohtaja pitää tulisen, äärimmäisen visionäärisen puheen firman tulevaisuudesta – mutta ilman mitään konkreettista suunnitelmaa.",
+        "answers": [
+            {
+                "text": "Olen todella innoissani. Vihdoin täällä joku ajattelee isosti ja rikkoo vanhat, tylsät rajat!",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Pyörittelen silmiäni sisäisesti. Taas pelkkiä iskusanoja, mutta oikea työ jää kuitenkin ihmisille kuten minulle.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Alan heti rakentaa monimutkaista Excel-taulukkoa, jotta voin laskea, miten tämä hullunmylly ylipäätään pitäisi toteuttaa.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Olen aidosti huolissani siitä, kuinka paljon lisäpainetta ja ylitöitä tämä 'visio' taas tarkoittaa tiimilleni.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q39_das_externe_angebot",
+        "category": "operations_clients",
+        "question": "Headhunter kirjoittaa sinulle LinkedInissä ja tarjoaa puhelua. Miksi kieltäydyt (useimmiten)?",
+        "answers": [
+            {
+                "text": "Koska tuttu paholainen on parempi kuin tuntematon paholainen. Vihaan muutoksia.",
+                "scores": {
+                    "fear_veraenderung": 2
+                }
+            },
+            {
+                "text": "Koska olen täysin vakuuttunut siitä, etten selviäisi uuden työn assessment centeristä kuitenkaan.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Koska nykyisessä firmassani minulla on jo tiettyä 'senioriteettia'. En ala taas jossain alusta uutena.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Koska koeaikani siellä tarkoittaisi, että olisin kuusi kuukautta ilman irtisanomissuojaa. Liian riskialtista.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q40_der_energie_vampir",
+        "category": "burnout_stress",
+        "question": "Mikä imee työarjessa akkusi nopeimmin ja brutaaleimmin tyhjäksi?",
+        "answers": [
+            {
+                "text": "Mielettömät byrokraattiset esteet ja hitaat prosessit, jotka hidastavat minua kuin purkka kengässä.",
+                "scores": {
+                    "pionier": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Kun kollegat kaatavat jatkuvasti omat tunneongelmansa, valituksensa ja turhautumisensa minun niskaani.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Epäselvät, jatkuvasti muuttuvat ohjeet, joiden kanssa en saa rakennettua siistiä rakennetta.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Ihmiset, jotka ovat kroonisesti epäpäteviä, mutta saavat silti tehdä päätöksiä.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q41_die_krankschreibung",
+        "category": "burnout_stress",
+        "question": "Heräät aamulla lieviin, mutta selvästi tuntuviiin sairausoireisiin. Mitä teet?",
+        "answers": [
+            {
+                "text": "Teen silti töitä (kotoa käsin). Paniikissa pelkään, että tärkeitä palloja putoaa ja minä joudun vastuuseen.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Ilmoittaudun sairaaksi. Terveys menee edelle. Mutta koko päivän minulla on hirveän huono omatunto tiimiä kohtaan.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Puristan hampaat yhteen ja menen paikalle. Se, joka on jatkuvasti muka sairaana, ohitetaan seuraavassa ylennyksessä.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Teen silti töitä. Tämän päivän taloustilanteessa en halua antaa pomolle mitään syytä epäillä minua.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q42_stress_kompensation",
+        "category": "burnout_stress",
+        "question": "Täyden kauhutyöviikon jälkeen: miten turrutat turhautumisen viikonloppuna todennäköisimmin?",
+        "answers": [
+            {
+                "text": "Ostan kalliita tavaroita tai hemmottelen itseäni luksuksella (ruoka, vaatteet, auto). Minun pitää todistaa itselleni, miksi teen tätä kaikkea.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Eristäydyn täysin, makaan sohvalla ja tarvitsen täydellistä hiljaisuutta saadakseni hermostoni rauhoittumaan.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Teen täydennyskoulutuksen, opettelen jotain uutta tai suunnittelen seuraavan viikon, jotta saan vihdoin tunteen hallinnasta.",
+                "scores": {
+                    "optimierer": 1,
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Syöksyn täysin erilaiseen, intensiiviseen harrastukseen (urheilu, bileet, askartelu), jotta saan pääni väkisin tyhjäksi.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q43_schlaflos_um_drei",
+        "category": "burnout_stress",
+        "question": "Kello on 3 yöllä, tuijotat kattoa etkä saa unta. Mikä ajatus pyörii päässäsi?",
+        "answers": [
+            {
+                "text": "'Teinkö eilen tässä sähköpostissa jonkin ratkaisevan virheen? Entä jos pomo näkee sen huomenna?'",
+                "scores": {
+                    "fear_versagen": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "'Miten pääsen pois tästä oravanpyörästä rikkomatta taloudellista turvaani täysin?'",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "'Olisin pitänyt olla kokouksessa paljon kovempi. Huomenna sanon sille idiootille mielipiteeni.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "'Oikeasti koko tuote pitäisi rakentaa ihan toisin... entä jos lisäisimme ominaisuuden X?'",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q44_der_breaking_point",
+        "category": "burnout_stress",
+        "question": "Milloin irtisanoudut työstä heti, ainakin sisäisesti?",
+        "answers": [
+            {
+                "text": "Kun vuosien moitteeton lojaaliuteni sivuutetaan ja äänekäs poseeraaja menee ohitseni.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Kun minusta tuntuu, että tämä myrkyllinen ympäristö tekee minusta vähitellen huonomman, kyynisemmän ihmisen.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Kun minun pitää pyytää lupaa jokaiseen pikkuaskelmaan ja minua kontrolloidaan kuin alaikäistä lasta.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Kun minulle annetaan vastuu tavoitteesta, mutta ei tarvittavaa valtaa tai budjettia sen saavuttamiseen.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q45_quiet_quitting",
+        "category": "burnout_stress",
+        "question": "Minimisuorittaminen ('Quiet Quitting'): kun olet täysin turhautunut, miltä protestisi näyttää?",
+        "answers": [
+            {
+                "text": "Minusta tulee äärimmäisen muodollinen. Teen täsmälleen 100 % työkuvauksestani – en minuuttia enempää, en yhtään ylimääräistä tehtävää.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Käytän toimistoaikaa salaa omiin projekteihin, sivubisneksiin tai kouluttaudun firman piikkiin.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Minusta tulee täysin kyyninen, heitän avoimia sarkastisia kommentteja ja näytän johdolle halveksuntani.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Lopetan 'hyvän sielun' roolin. En enää järjestä synttäreitä enkä lohduta kollegoita käytävällä.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q46_die_urlaubs_stoerung",
+        "category": "burnout_stress",
+        "question": "Makaat rannalla lomalla. Puhelimesi soi, pomo on linjalla. Mitä tapahtuu?",
+        "answers": [
+            {
+                "text": "En vastaa, mutta pulssini hakkaa. Pilaan puolet rantapäivästäni sillä pelolla, mitä on tapahtunut.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "Vastaan. Osa minusta jopa nauttii siitä, että näkee firman olevan heti tulessa ilman minua.",
+                "scores": {
+                    "executor": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Vastaan, koska minulla on yksinkertaisesti paniikki siitä, että sen sivuuttaminen kostautuu työssäni.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Painan sen kylmästi pois. Puhelimeni on 'Älä häiritse' -tilassa, enkä ajattele asiaa sekuntiakaan enempää.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q47_warnung_vom_arzt",
+        "category": "burnout_stress",
+        "question": "Lääkärisi sanoo suoraan: 'Stressiarvosi ovat vaarallisen korkeat. Sinun on hidastettava.' Mikä on rehellinen tekosyysi?",
+        "answers": [
+            {
+                "text": "'Tiedän, mutta jos nyt höllään, menetän hierarkiassa kovalla työllä ansaitun paikkani.'",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "'Helpommin sanottu kuin tehty. Palkkani maksaa lainat. En yksinkertaisesti voi varaa sairastua.'",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "'Minun pitää vain saada tämä yksi valtava projekti valmiiksi ja optimoida järjestelmäni, sitten se helpottaa.'",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "'Ei käy. Jos olen poissa, koko tiimini romahtaa. He tarvitsevat minua juuri nyt.'",
+                "scores": {
+                    "fear_versagen": 1,
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q48_die_leere_auszeichnung",
+        "category": "burnout_stress",
+        "question": "Kipeästi tarvittavan bonuksen sijaan HR antaa sinulle kostean kädenpuristuksen ja 'Resilience & Team Spirit Award' -palkinnon. Reaktiosi?",
+        "answers": [
+            {
+                "text": "Täysi raivo. Haluan mitattavia tuloksia, rahaa tai valtaa. Laminoitu paperinpala on loukkaus.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Hymyilen kohteliaasti, laitan sen laatikkoon ja tiedän tasan, että se on vain halpa keino pitää meidät hiljaa.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Syvällä sisälläni iloitsen silti vähän. Ainakin joku huomasi joskus, miten kovasti taistelen.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Käytän tilaisuuden kylmästi hyväkseni ja pitchaan uuden projektini koko porukan edessä.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q49_der_falsche_fokus",
+        "category": "burnout_stress",
+        "question": "Kun olet työssä äärimmäisen stressaantunut, minkä virheen teet todennäköisimmin?",
+        "answers": [
+            {
+                "text": "Hukkaan itseni perfektionismiin. Muotoilen Excel-soluja sen sijaan, että ratkoisin oikean, suuren ongelman.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Minusta tulee jyrätyranni. Tallaan kollegoiden yli ja satutan tunteita päästäkseni tavoitteeseen.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Sanon kaikkeen 'kyllä', otan muiden tehtävät hoitaakseni ja lopulta hukun vierastyön vuoreen.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Aloitan viisi uutta ratkaisua yhtä aikaa, en saa yhtäkään valmiiksi ja syöksyn koko tiimin täydelliseen kaaokseen.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q50_die_sonntags_luege",
+        "category": "burnout_stress",
+        "question": "Minkä elämänvalheen kerrot itsellesi useimmin sunnuntai-iltana?",
+        "answers": [
+            {
+                "text": "'Ensi viikko on varmasti rauhallisempi. Kunhan saan projektin X pois pöydältä, kaikki helpottaa.' (Ei helpota koskaan).",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "'Teen tätä vielä 2–3 vuotta CV:n/rahan takia, ja sitten etsin jotain, mikä oikeasti täyttää minut.'",
+                "scores": {
+                    "fear_existenz": 2,
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "'En vain ole vielä tarpeeksi hyvä/nopea. Minun pitää ensi viikolla vain yrittää vielä kovemmin.'",
+                "scores": {
+                    "fear_versagen": 2,
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "'Oikeasti olen korvaamaton. Firma kaatuisi ilman minua, joten minun on kestettävä tämä teatteri.'",
+                "scores": {
+                    "fear_status": 2,
+                    "executor": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q51_das_veraltete_werkzeug",
+        "category": "industry_pseo",
+        "question": "Pääasiallinen työkalusi (oli se sitten ohjelmisto, kone tai järjestelmä) on täysin vanhentunut ja kaatuilee jatkuvasti. Mitä teet?",
+        "answers": [
+            {
+                "text": "Rakennan itselleni epävirallisen kiertotien tai viritän oman ratkaisun ongelman ohittamiseksi.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Painan johdolle kunnolla päälle. Ilman kunnollisia välineitä kieltäydyn tekemästä täyttä suoritusta.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Dokumentoin jokaisen kaatumisen tarkasti, jotta kukaan ei voi lopulta sysätä viivästyksiä minun niskoilleni.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Sopeudun jotenkin ja yritän auttaa kollegoita, joilla on teknisesti vielä vaikeampaa tämän kanssa.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q52_die_sinnlose_kpi",
+        "category": "industry_pseo",
+        "question": "Johto ottaa käyttöön täysin järjettömän suoritusmittarin, joka sivuuttaa työsi todellisen laadun. Mikä on taktiikkasi?",
+        "answers": [
+            {
+                "text": "Optimoin työni kylmästi niin, että tämä luku maksimoituu. Jos he haluavat mitata paskaa, he saavat paskaa.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Menen stressiin. Haluan tuottaa oikeaa laatua, mutta samalla täyttää vaatimukset. Palaan loppuun kahden tuolin väliin.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Seuraan lukua pilkuntarkasti ja pidän tiukasti kiinni uudesta ohjeesta, vaikka prosessi muuttuu sen takia byrokraattisemmaksi.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Nauran sille avoimesti ja esitän pyytämättä täysin toisenlaisen, paremman mittauskonseptin.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q53_die_schwierige_zielgruppe",
+        "category": "industry_pseo",
+        "question": "Sinulla on käsissäsi äärimmäisen vaikea sidosryhmä (asiakas, potilas tai klientti), joka estää asiantuntemuksesi hyödyntämisen. Miten reagoit?",
+        "answers": [
+            {
+                "text": "Katkaisen tunnesiteen. Toimitan täsmälleen sen, mitä sopimuksessa tai prosessissa lukee – en senttiäkään enempää.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Otän sen hyvin henkilökohtaisesti. Panostan vielä enemmän aikaa löytääkseni henkilökohtaisen tason ja 'murtaakseni' hänet.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Pidän täsmälleen kiinni ohjeista. Niin kauan kuin en tee muodollista virhettä, olen turvassa.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_existenz": 1
+                }
+            },
+            {
+                "text": "Kokeilen täysin epäkonventionaalista, ehkä jopa riskialtista lähestymistapaa rikkoakseni kaavan.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q54_der_akute_notfall",
+        "category": "industry_pseo",
+        "question": "Viisi minuuttia ennen työpäivän loppua tehtäväalueellasi tapahtuu massiivinen, odottamaton hätätilanne. Mitä sinussa tapahtuu?",
+        "answers": [
+            {
+                "text": "Puhtasta adrenaliinia. Vihdoin oikeaa kaaosta! Nousen huippuiskuun ja rakastan ongelman luovaa ratkaisemista.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Otän heti pyytämättä komennon, delegoin kovaa ja suljen empatiani kokonaan pois.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Olen stressaantunut, mutta käyn läpi hätäprotokollan täsmälleen kuin kone, johon minut on koulutettu.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Ensimmäinen ajatukseni on huoli ihmisistä, asiakkaista tai kollegoista, jotka kärsivät nyt tästä kriisistä.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q55_abteilungs_krieg",
+        "category": "industry_pseo",
+        "question": "Toinen osasto heittää teidän niskaanne täysin epärealistisen, huonosti suunnitellun tehtävän.",
+        "answers": [
+            {
+                "text": "Torjun sen aggressiivisesti. 'Ei meidän ongelmamme. Teidän suunnittelunne on surkeaa. Tulkaa takaisin, kun olette tehneet läksynne.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Teen sen hampaat irvessä, jotta avoin sota osastojen välillä vältetään ja rauha säilyy.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Kirjoitan sivukaupalla sähköpostia, jossa todistan, että tämä rikkoo kaikkia sopimuksia ja SLA:ita.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Ohitan heidän typerät ohjeensa täysin ja rakennan ratkaisun niin kuin pidän sitä muutenkin tulevaisuuden kannalta parempana.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q56_die_dinnerparty_identitaet",
+        "category": "industry_pseo",
+        "question": "Juhlissa joku kysyy, mikä sinun ydintehtäväsi {{JOB_NAME}} oikeasti on. Mikä on rehellinen, sarkastinen vastauksesi?",
+        "answers": [
+            {
+                "text": "'Pidän huolen siitä, ettei koko paikka romahda oman tehottomuutensa ja osaamattomuutensa painon alla.'",
+                "scores": {
+                    "executor": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "'Olen oikeastaan vain ammattimainen palonsammuttaja ja tiimini henkinen roskakori.'",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "'Siirtelen dataa/prosesseja A:sta B:hen ja varmistan, ettei kukaan voi lopulta haastaa meitä oikeuteen.'",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_existenz": 1
+                }
+            },
+            {
+                "text": "'Yritän viedä innovaatioita eteenpäin, mutta käytän 80 % ajastani byrokratiaa vastaan taistelemiseen.'",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q57_theorie_vs_praxis",
+        "category": "industry_pseo",
+        "question": "Uusi tulokas tulee suoraan koulutuksesta/yliopistosta ja siteeraa jatkuvasti teorioita, jotka eivät toimi teidän arjessanne lainkaan.",
+        "answers": [
+            {
+                "text": "Laitan hänet verbaalisesti matalaksi. 'Unohda kaikki, mitä opit. Täällä ulkona puhaltaa eri tuuli.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Annan hänen tietoisesti (mutta turvattuna) törmätä kerran kunnolla seinään, jotta hän oppii läksyn itse.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Vedän hänet sivuun ja käännän hänelle lempeästi teorian meidän käytäntömme koviksi faktoiksi, ilman että lannistan häntä.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Työnnän hänelle käteen sisäiset prosessidokumenttimme. Se, joka noudattaa niitä, ei tee virheitä.",
+                "scores": {
+                    "optimierer": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q58_das_gekappte_budget",
+        "category": "industry_pseo",
+        "question": "Tärkeimpiä resurssejanne (budjetti, materiaali tai henkilöstö) leikataan yhtäkkiä 20 %. Mitä teet?",
+        "answers": [
+            {
+                "text": "Varoitan johtoa kirjallisesti, että laatu laskee nyt täsmälleen 20 %. Se ei ole minun ongelmani.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Teen palkattomia ylitöitä kompensoidakseni vajetta jotenkin, koska en voi jättää tiimiä ja asiakkaita pulaan.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_existenz": 1
+                }
+            },
+            {
+                "text": "Leikkaan heti pois ne 20 % tehtävistä, joista on vähiten hyötyä, kysymättä keneltäkään lupaa.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Näen tämän urheilullisena rajoitteena. Usein budjettileikkauksista syntyy innovatiivisimmat kikat.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q59_der_branchentrend",
+        "category": "industry_pseo",
+        "question": "Uusi, disruptiivinen trendi (esim. tekoäly tai uudet lait) vyöryy alasi yli. Sisäinen asenteesi?",
+        "answers": [
+            {
+                "text": "Lumoutuminen. Olen ensimmäinen, joka kokeilee sitä, rikkoo sen ja katsoo, mitä hullua sillä voidaan rakentaa.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Kylmä laskelma. Käytän sitä vain, jos se säästää kovasti mitattavasti aikaa tai rahaa. Hypeä en noteeraa.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Pelko. Menettääkö kovalla työllä rakennettu asiantuntemukseni pian arvonsa tai korvautuuko se?",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Huoli. Eikö tämän automaation myötä katoa viimeinenkin ripaus inhimillisyyttä ammatistamme?",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q60_der_geheime_karrierewunsch",
+        "category": "industry_pseo",
+        "question": "Jos sinulla olisi taikasauva urallesi {{JOB_NAME}}, mitä toivoisit tänään?",
+        "answers": [
+            {
+                "text": "Asema, jossa on ehdoton päätösvalta, maksimaalinen budjetti ja täysin nolla mikromanagerointia ylhäältä päin.",
+                "scores": {
+                    "executor": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Rooli, jossa saan keksiä tulevaisuuden joka päivä, mutta joku muu hoitaa kaiken hallinnollisen paskan.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Täysin varma, täydellisesti strukturoitu työ ilman yllätyksiä, jonka voin jättää toimistoon klo 17.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Rooli, jossa minulla on aitoa, syvää vaikutusta ihmisiin ilman että palaan henkisesti loppuun.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q61_die_kuendigungs_fantasie",
+        "category": "career_change_exit",
+        "question": "Kun istut toimistossa ja ajattelet irtisanoutumista: miltä salainen, sisäinen fantasiasi näyttää?",
+        "answers": [
+            {
+                "text": "Heitän pomolleni pöytään kootut, kovat faktat hänen osaamattomuudestaan ja lähden pää pystyssä.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Katoan vain hiljaa, ilman draamaa. Haaveilen siitä, että seuraavana päivänä koko tietoni on yhtäkkiä poissa.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Lähden tekemään radikaalilla, hullulla idealla omaa juttua ja todistan kaikille, että minun tieni oli parempi.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Minulla on tämä fantasia usein, mutta sitten ajattelen lempikollegoitani ja tunnen heti syyllisyyttä.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_veraenderung": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q62_das_gegenangebot",
+        "category": "career_change_exit",
+        "question": "Jätät irtisanoutumisen. Pomosi panikoi ja tarjoaa heti 20 % enemmän palkkaa. Mitä tapahtuu?",
+        "answers": [
+            {
+                "text": "Jään. 20 % enemmän turvaa on massiivinen puskuri kiinteille kuluille. Tunteet sivuun.",
+                "scores": {
+                    "fear_existenz": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Kieltäydyn kylmästi. Liian myöhäistä. Se, joka maksaa minulle vasta kun lähden, on menettänyt kunnioitukseni jo ajat sitten.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Jään. Mutta vain siksi, että ajatus siitä, että minun pitäisi todistaa itseni uudessa firmassa alusta, aiheuttaa oikeasti paniikkia.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Otän rahat, neuvottelen vielä uuden tittelin päälle ja lepään sen varassa, jotta voin nostaa markkina-arvoani.",
+                "scores": {
+                    "fear_status": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q63_quereinstieg_blockade",
+        "category": "career_change_exit",
+        "question": "Ajattelet täydellistä alanvaihtoa toiseen toimialaan. Mikä pidättelee sinua eniten?",
+        "answers": [
+            {
+                "text": "Pelko siitä, että joudun siellä taas aloittamaan taloudellisesti aivan pohjalta ja menettämään elintasoani.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Senioriteettini menetys. En halua olla tietämätön aloittelija, jolle 25-vuotiaat selittävät maailmaa.",
+                "scores": {
+                    "fear_status": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Puuttuva virallinen todistus. Ilman täsmälleen oikeaa paperia / sertifikaattia uuteen alaan en luota itseeni.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Minulla on niin monta eri kiinnostuksen kohdetta, etten muutenkaan pysty sitoutumaan yhteen ainoaan uuteen suuntaan.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q64_bewerbungs_horror",
+        "category": "career_change_exit",
+        "question": "Mikä on sinulle aivan pahin ajatus tulevassa työhaastattelussa?",
+        "answers": [
+            {
+                "text": "Että minulta kysytään ammatillisia kysymyksiä, joihin minulla ei ole täydellistä vastausta, ja minut paljastetaan 'huijariksi'.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Että minun pitää vääntää itseäni väkisin ja leikkiä mukana tässä feikissä 'olemme suuri perhe' -HR-pelissä.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Että saan hylkäyksen. Egoni kestää huonosti torjutuksi tulemista, kun olen jo kerran avautunut.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Että en edes tiedä, mitä vastaan, kun he kysyvät: 'Missä näette itsenne 5 vuoden päästä?' (Vihaan tuollaisia suunnitelmia).",
+                "scores": {
+                    "pionier": 2,
+                    "fear_veraenderung": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q65_lebenslauf_luege",
+        "category": "career_change_exit",
+        "question": "Jos analysoimme ansioluettelosi armotta: missä on mielestäsi suurin 'heikkous'?",
+        "answers": [
+            {
+                "text": "Vaikutan paperilla jäykältä byrokraatilta, koska todelliset ongelmanratkaisukykyni eivät mahdu mihinkään sertifikaattiin.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Myyn itseni liian halvalla. Käytän vaatimattomia sanoja, vaikka olen käytännössä kantanut vuosia kokonaisia osastoja.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Ansioluetteloni on sekava. Olen vaihtanut useammin tai jättänyt asioita kesken, kun jäykät rakenteet alkoivat riittää.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Sillä ei oikeastaan ole heikkoutta, se on vahva. Mutta pelkään, että palkkatoiveeni säikäyttävät HR:n.",
+                "scores": {
+                    "executor": 2,
+                    "fear_existenz": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q66_das_sabbatical",
+        "category": "career_change_exit",
+        "question": "Firma pakottaa sinut 6 kuukauden palkalliseen sapattivapaaseen. Mitä teet viikon 2 jälkeen?",
+        "answers": [
+            {
+                "text": "Perustan heti oman projektin tai sivubisneksen, koska aivoni kuihtuvat ilman luovaa tuotosta.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Autan ystäviä, teen vapaaehtoistyötä tai ajautun yksityiselämässäni 'huolehtijan' rooliin.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Käytän ajan pakkomielteiseen opiskeluun (sertifikaatit, kurssit), jotta nostan markkina-arvoani paluun jälkeen.",
+                "scores": {
+                    "optimierer": 1,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "En tee yhtään mitään. Optimoin yksityiselämäni kuin projektin ja nautin täydellisestä vallasta aikaani kohtaan.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q67_freelancing_traum",
+        "category": "career_change_exit",
+        "question": "Aihe: yrittäjyys / freelancing. Miksi et ole vielä uskaltanut ottaa askelta kokonaan?",
+        "answers": [
+            {
+                "text": "En ole myyjä. Vihaan sitä, että minun pitäisi markkinoida itseäni ja juosta asiakkaiden perässä.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Verot, kirjanpito, juridiset riskit. Yksi virheellinen lasku ja toinen jalka on jo vankilassa.",
+                "scores": {
+                    "fear_existenz": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Tarvitsen ympärilleni vakaan tiimin. Yksin puurtavan eristyneisyys kuluttaisi minut henkisesti loppuun.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Olen jo kokeillut sitä tai teen sitä sivussa. Suurin huoleni on ennemminkin se, että kyllästyn siihen nopeasti.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q68_der_tropfen_im_fass",
+        "category": "career_change_exit",
+        "question": "Meillä kaikilla on sietoraja. Mikä pieni, melkein naurettava asia ajaisi sinut heti irtisanoutumaan?",
+        "answers": [
+            {
+                "text": "Jos minulle määrätään työvälineet (esim. pakotetaan käyttämään halvinta Windows-läppäriä) ja sillä pilataan työskentelytapani.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Jos pomoni poistaa Excel-taulukkoni tai siistin prosessini ja korvaa sen huteralta väliaikaisratkaisulla.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Jos minulta kielletään ratkaisemasta yksinkertaista, 5 minuutin tehtävää omalla tavallani, koska 'prosessi ei sitä salli'.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Jos tiimini kollegaa huudetaan perusteettomasti ja minun pitää ainoana vain katsoa sivusta.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q69_die_gehaltsverhandlung",
+        "category": "career_change_exit",
+        "question": "Huomenna sinulla on ratkaiseva keskustelu palkankorotuksesta. Miten valmistaudut tänä iltana?",
+        "answers": [
+            {
+                "text": "Kirjoitan kylmän listan KPI-luvuistani ja saavutuksistani. Jos he eivät maksa, tiedän poistumissuunnitelmani.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Harjoittelen peilin edessä, koska pelkään hirveästi, että ratkaisevalla hetkellä pehmennyn tai annan periksi.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_veraenderung": 2
+                }
+            },
+            {
+                "text": "Kerään netistä palkkataulukoita, jotta voin perustella vaatimukseni aukottomasti ja objektiivisesti.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Pohdin ennemmin, mitä uusia vapauksia, budjetteja tai etäpäiviä voin neuvotella. Pelkkä raha ei riitä minulle.",
+                "scores": {
+                    "pionier": 2,
+                    "fear_status": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q70_der_neustart",
+        "category": "career_change_exit",
+        "question": "Jos aloitat huomenna täysin uudessa firmassa, täysin uudessa [Cluster]-ympäristössä: mikä on ehdoton ykkösprioriteettisi?",
+        "answers": [
+            {
+                "text": "Aito luottamus. En halua enää koskaan joutua perustelemaan jokaista pientä päätöstä.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Inhimillinen lämpö. Tarvitsen tiimin, joka ei jatkuvasti puukota selkään.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Täydellinen selkeys. Haluan tietää täsmälleen, millä minua mitataan ja mikä prosessi on.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Raha ja autonomia. Haluan saada tuloksistani reilun korvauksen ja työskennellä rauhassa.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O C.O.R.E. | Koniec ezoteryki kariery</title>
+    <meta name="description" content="Dowiedz się, dlaczego powstał indeks C.O.R.E. Zastępujemy toksyczny optymizm i testy kolorów danymi empirycznymi oraz radykalną szczerością.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/core-social-share.jpg">
+
+    <style>     :root {
+            --bg-body: #ffffff;
+            --bg-surface: #FAFAFA;
+            --text-dark: #0f172a;
+            --text-body: #334155;
+            --text-muted: #64748B;
+            --border-light: #E2E8F0;
+            --accent-red: #c0392b; 
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+            background-color: var(--bg-body); 
+            color: var(--text-body); 
+            line-height: 1.8; 
+            -webkit-font-smoothing: antialiased;
+            font-size: 1.1rem; 
+        }
+
+        /* TYPOGRAFIA */
+        h1, h2, h3, h4 { color: var(--text-dark); line-height: 1.2; letter-spacing: -0.03em; }
+        h1 { font-size: 4rem; margin-bottom: 24px; font-weight: 800; }
+        h2 { font-size: 2.6rem; margin-bottom: 20px; font-weight: 700; }
+        h3 { font-size: 1.3rem; margin-bottom: 15px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px;}
+        p { margin-bottom: 24px; }
+
+        /* Edler Outline-Badge */
+        .badge { 
+            display: inline-block; 
+            color: var(--text-muted); 
+            border: 1px solid var(--border-light);
+            padding: 8px 24px; 
+            border-radius: 50px; 
+            font-size: 0.75rem; 
+            font-weight: 700; 
+            margin-bottom: 40px; 
+            text-transform: uppercase; 
+            letter-spacing: 2px; 
+        }
+
+        /* LAYOUT & WEISSRAUM (In die Breite gezogen) */
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 5%; }
+        .section { padding: 100px 0; }
+        
+        /* HEADER */
+        header { 
+            background-color: var(--bg-body); 
+            padding: 30px 5%; 
+            display: flex; justify-content: space-between; align-items: center; 
+            border-bottom: 1px solid var(--border-light); 
+            position: sticky; top: 0; z-index: 100; 
+        }
+        .logo { color: var(--text-dark); font-weight: 800; font-size: 1.2rem; letter-spacing: 1.5px; text-decoration: none; }
+        nav a { color: var(--text-muted); text-decoration: none; margin-left: 2.5rem; font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; transition: color 0.3s; }
+        nav a.active { color: var(--text-dark); }
+        nav a:hover { color: var(--accent-red); }
+
+        /* MANIFESTO BEREICH (Untereinander aufgebaut) */
+        .manifesto-grid { display: grid; grid-template-columns: 1fr; gap: 40px; margin-top: 60px; }
+        .manifesto-text { max-width: 800px; } /* Verhindert zu lange, unleserliche Zeilen */
+        .manifesto-text p { text-align: justify; margin-bottom: 30px; }
+        .manifesto-text p.lead { font-size: 1.35rem; color: var(--text-dark); font-weight: 500; line-height: 1.6; }
+
+        /* DEZENTES HIGHLIGHT FÜR DEN ANSATZ */
+        .statement-box { 
+            padding: 40px 0; 
+            border-top: 2px solid var(--text-dark);
+            border-bottom: 1px solid var(--border-light);
+            margin: 20px 0 40px 0;
+            max-width: 800px;
+        }
+        .statement-box h4 { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 20px; color: var(--text-muted); }
+
+        /* DIE 3 SÄULEN (Großzügiges Stapeln) */
+        .pillar-grid { display: grid; grid-template-columns: 1fr; gap: 60px; margin-top: 80px; }
+        .pillar-item { max-width: 800px; }
+        .pillar-item h3 { border-bottom: 1px solid var(--border-light); padding-bottom: 15px; display: block; margin-bottom: 20px; }
+        .pillar-item p { font-size: 1.05rem; color: var(--text-muted); }
+
+        /* HELLE ABGRENZUNGS-SEKTION (Disclaimer untereinander) */
+        .disclaimer-section {
+            background-color: var(--bg-surface);
+            border-top: 1px solid var(--border-light);
+            border-bottom: 1px solid var(--border-light);
+        }
+        .disclaimer-grid { display: grid; grid-template-columns: 1fr; gap: 40px; margin-top: 50px; }
+        .disclaimer-box { max-width: 800px; }
+        .disclaimer-box h4 { margin-bottom: 15px; font-size: 1rem; text-transform: uppercase; letter-spacing: 1px; }
+
+        /* CTA BUTTON */
+        .btn-cta {
+            background-color: var(--text-dark);
+            color: white;
+            padding: 20px 45px;
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            border-radius: 4px;
+            text-decoration: none;
+            display: inline-block;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        .btn-cta:hover { background-color: var(--accent-red); transform: translateY(-2px); }
+
+        /* FOOTER */
+        .site-footer { padding: 60px 5%; text-align: center; font-size: 0.85rem; color: var(--text-muted); }
+        .site-footer a { color: inherit; margin: 0 15px; text-decoration: none; text-transform: uppercase; letter-spacing: 1px; font-weight: 600; transition: color 0.2s;}
+        .site-footer a:hover { color: var(--text-dark); }
+
+        @media (max-width: 900px) {
+            h1 { font-size: 2.8rem; }
+            h2 { font-size: 2.2rem; }
+            .section { padding: 60px 0; }
+        }</style>
+    
+    
+    <link rel="canonical" href="https://www.coreindexanalytics.com/{{LANG}}/about.html">
+    
+
+    
+<!-- ========================================== -->
+<!-- 1. X-DEFAULT (Standard-Fallback weltweit) -->
+<!-- ========================================== -->
+<link rel="alternate" hreflang="x-default" href="https://www.coreindexanalytics.com/en/about.html">
+
+<!-- ========================================== -->
+<!-- 2. INTERNATIONALE TARGETS (Reine Sprach-Ordner) -->
+<!-- ========================================== -->
+<link rel="alternate" hreflang="de" href="https://www.coreindexanalytics.com/de/about.html">
+<link rel="alternate" hreflang="en" href="https://www.coreindexanalytics.com/en/about.html">
+<link rel="alternate" hreflang="es" href="https://www.coreindexanalytics.com/es/about.html">
+<link rel="alternate" hreflang="fr" href="https://www.coreindexanalytics.com/fr/about.html">
+<link rel="alternate" hreflang="it" href="https://www.coreindexanalytics.com/it/about.html">
+<link rel="alternate" hreflang="nl" href="https://www.coreindexanalytics.com/nl/about.html">
+<link rel="alternate" hreflang="pt" href="https://www.coreindexanalytics.com/pt/about.html">
+<link rel="alternate" hreflang="ar" href="https://www.coreindexanalytics.com/ar/about.html">
+<link rel="alternate" hreflang="sv" href="https://www.coreindexanalytics.com/sv/about.html">
+<link rel="alternate" hreflang="pl" href="https://www.coreindexanalytics.com/pl/about.html">
+<link rel="alternate" hreflang="tr" href="https://www.coreindexanalytics.com/tr/about.html">
+<link rel="alternate" hreflang="ja" href="https://www.coreindexanalytics.com/ja/about.html">
+<link rel="alternate" hreflang="ko" href="https://www.coreindexanalytics.com/ko/about.html">
+<link rel="alternate" hreflang="hi" href="https://www.coreindexanalytics.com/hi/about.html">
+<link rel="alternate" hreflang="da" href="https://www.coreindexanalytics.com/da/about.html">
+<link rel="alternate" hreflang="cs" href="https://www.coreindexanalytics.com/cs/about.html">
+<link rel="alternate" hreflang="no" href="https://www.coreindexanalytics.com/no/about.html">
+<link rel="alternate" hreflang="fi" href="https://www.coreindexanalytics.com/fi/about.html">
+<link rel="alternate" hreflang="id" href="https://www.coreindexanalytics.com/id/about.html">
+
+    
+   
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo">C.O.R.E. INDEX</a>
+        <nav>
+            <a href="index.html">Katalog</a>
+            <a href="profile.html">Profile</a>
+            <a href="about.html" class="active">O nas</a>
+        </nav>
+    </header>
+
+    <!-- HERO BEREICH -->
+    <section class="section">
+        <div class="container">
+            <div style="max-width: 850px;">
+                <span class="badge">Nasza filozofia</span>
+                <h1>Koniec ezoteryki kariery.</h1>
+                <p style="font-size: 1.45rem; color: var(--text-muted); line-height: 1.6; margin-top: 30px; font-weight: 400;">
+                    Indeks C.O.R.E. nie został stworzony po to, by Ci schlebiać. Zbudowaliśmy go, aby ujawnić niewidoczne systemowe i wewnętrzne bariery, które każdego dnia wypalają osoby osiągające wysokie wyniki.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- DAS MANIFEST -->
+    <section class="section bg-surface" style="border-top: 1px solid var(--border-light);">
+        <div class="container">
+            <h2>Dlaczego analizujemy, zamiast motywować.</h2>
+            
+            <div class="manifesto-grid">
+                <div class="manifesto-text">
+                    <p class="lead">
+                        Rynek testów przydatności zawodowej cierpi na fundamentalny błąd konstrukcyjny: opiera się na zasadzie przypodobania się.
+                    </p>
+                    <p>
+                        Niezależnie od tego, czy chodzi o prosty podział na cztery kolorowe typy, czy o przypisanie efektownego archetypu z teorii z początku XX wieku — większość narzędzi rozdaje komplementy zamiast pokazywać rzeczywiste zależności przyczynowe. Często są one zoptymalizowane tak, by podczas warsztatów team-buildingowych poprawiać nastrój, a nie po to, by wyjaśniać głębokie zawodowe ślepe uliczki.
+                    </p>
+                    <p>
+                        Rezultatem jest kultura „toksycznego pozytywizmu”. Wyczerpanym specjalistom radzi się po prostu „zmienić mindset” albo „odnaleźć prawdziwą pasję”, podczas gdy zawodzą oni w dysfunkcyjnych strukturach firmowych, przy niejasnym zarządzaniu lub pod ciężarem własnego, nieuświadomionego perfekcjonizmu. Prawdziwa zmiana nigdy jednak nie zaczyna się od komplementu, lecz od uczciwego rozpoznania stanu faktycznego.
+                    </p>
+                </div>
+
+                <div class="manifesto-text">
+                    <div class="statement-box">
+                        <h4>Nasze podejście</h4>
+                        <p style="margin: 0; font-size: 1.25rem; color: var(--text-dark); font-weight: 500; line-height: 1.6;">
+                            Działamy na styku architektury danych i realiów pracy. Zamiast wymyślać nowe, abstrakcyjne teorie, wykorzystujemy model Wielkiej Piątki (O.C.E.A.N.) jako bezstronną podstawę dla codziennego życia zawodowego.
+                        </p>
+                    </div>
+                    <p>
+                        Indeks C.O.R.E. (Career Obstacle & Resilience Evaluation) to radykalnie pragmatyczne narzędzie profilowania. Nasz główny nacisk nie leży wyłącznie na potwierdzaniu Twoich mocnych stron, lecz przede wszystkim na izolowaniu Twojego zawodowego „cienia”. Sprawiamy, że mierzalne staje się to, w jakim stopniu nieuświadomione czynniki, takie jak lęk przed porażką, obawa przed utratą statusu czy brak stawiania granic (klasyczny syndrom wybawcy), sabotują Twoje decyzje ekonomiczne i strategiczne.
+                    </p>
+                </div>
+            </div>
+
+            <!-- DIE 3 SÄULEN (Editorial Style ohne Rahmen) -->
+            <div class="pillar-grid">
+                <div class="pillar-item">
+                    <h3>01. Podstawa empiryczna</h3>
+                    <p>
+                        Rezygnujemy z intuicji i ezoterycznych przypisań. Analiza C.O.R.E. opiera się na ocenie standaryzowanych wzorców zachowań. Leżące u jej podstaw skale odzwierciedlają uznany model psychologiczny, który na całym świecie uchodzi za stabilny i wiarygodny.
+                    </p>
+                </div>
+                <div class="pillar-item">
+                    <h3>02. Skupienie na przeszkodzie</h3>
+                    <p>
+                        Kto chce rozwijać swój potencjał zawodowy, musi najpierw zrozumieć, co go powstrzymuje. Przyglądamy się dysfunkcyjnym wzorcom, które powstają szczególnie w wymagających środowiskach pracy — od utknięcia w „złotej klatce” po samo odhaczanie zadań bez realnego uznania.
+                    </p>
+                </div>
+                <div class="pillar-item">
+                    <h3>03. Jasna konsekwencja</h3>
+                    <p>
+                        Na końcu testu nie ma abstrakcyjnych metafor ani porównań do zwierząt. Otrzymujesz konkretne kroki działania, które rzeczowo pokazują Ci, czy nadszedł czas, by postawić granice, renegocjować budżety czy pociągnąć za hamulec awaryjny.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HELLE, EDLE ABGRENZUNG (Ohne medizinische Begriffe) -->
+    <section class="section disclaimer-section">
+        <div class="container">
+            <h2 style="margin-bottom: 20px;">Jasność i granice.</h2>
+            <p style="max-width: 750px; font-size: 1.25rem; color: var(--text-muted);">
+                Prawdziwy profesjonalizm przejawia się także w precyzyjnym nazywaniu własnych granic. C.O.R.E. to operacyjne narzędzie analityczne do kontekstu zawodowego, a nie placówka lecznicza ani zamiennik terapii.
+            </p>
+
+            <div class="disclaimer-grid">
+                <div class="disclaimer-box" style="border-top: 2px solid var(--text-dark); padding-top: 25px;">
+                    <h4>Co robi analiza</h4>
+                    <p style="color: var(--text-body);">
+                        Izolujemy zależności między Twoim sposobem pracy a systemowymi przeszkodami w Twojej pracy. Oferujemy uporządkowaną bazę danych do autorefleksji, do nadchodzących negocjacji płacowych lub do orientacji przy zawodowej zmianie kierunku. Chodzi o strategię kariery i samodzielne zarządzanie sobą.
+                    </p>
+                </div>
+                <!-- Der rote Akzent für die harte Grenze -->
+                <div class="disclaimer-box" style="border-top: 2px solid var(--accent-red); padding-top: 25px;">
+                    <h4 style="color: var(--accent-red);">Czego system wyraźnie NIE robi</h4>
+                    <p style="color: var(--text-body);">
+                        Nie stawiamy żadnych diagnoz medycznych, psychiatrycznych ani kliniczno-psychologicznych. Nasz system nie zajmuje się obrazami chorobowymi, takimi jak depresja kliniczna, syndrom wypalenia zawodowego czy zaburzenia lękowe. W przypadku kryzysów zdrowotnych lub psychicznego cierpienia kierujemy bezwzględnie do wykwalifikowanych lekarzy i specjalistów psychoterapii.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CALL TO ACTION -->
+    <section class="section" style="text-align: center;">
+        <div class="container">
+            <h2 style="margin-bottom: 24px;">Gotowy na analizę?</h2>
+            <p style="font-size: 1.25rem; color: var(--text-muted); max-width: 600px; margin: 0 auto 40px auto; line-height: 1.6;">
+                Wejdź do naszego katalogu, wybierz swoją branżę i rozpocznij 8-minutową ewaluację bezpośrednio w przeglądarce. Bez rejestracji, w 100% anonimowo.
+            </p>
+            <a href="index.html" class="btn-cta">
+                Do katalogu zawodów
+            </a>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <p class="site-footer-copyright">© 2026 C.O.R.E. Index. Wszelkie prawa zastrzeżone.</p>
+        
+        <p class="site-footer-disclaimer">
+            <strong>Ważna informacja dotycząca granic i odpowiedzialności:</strong> Indeks C.O.R.E. służy wyłącznie do zawodowej samooceny, analizy systemowych sytuacji w pracy oraz oceny strategii zawodowych. Oferta nie stanowi porady medycznej, psychiatrycznej ani psychologicznej, oceny ani leczenia. Wyniki nie mogą i nie powinny zastępować działań terapeutycznych w przypadku takich obrazów chorobowych jak depresja kliniczna, syndrom wypalenia zawodowego czy zaburzenia lękowe. W przypadku kryzysów zdrowotnych lub utrzymującego się psychicznego cierpienia należy bezwzględnie skontaktować się z lekarzem lub licencjonowanym specjalistą psychoterapii.
+        </p>
+        
+        <div class="site-footer-links">
+            <a href="impressum.html">Impressum</a>
+            <a href="datenschutz.html">Ochrona danych</a>
+            <a href="methodik.html">Nasza metodologia</a>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,370 @@
+[
+    {
+        "profile_id": "pionier_existenzangst",
+        "base_type": "Pionir Strategis",
+        "fear_mutation": "Kecemasan eksistensial",
+        "name": "Pionir yang berkompromi",
+        "headline": "Kamu punya ide-ide brilian, tapi kamu sudah menjual diri demi uang penghibur di akhir bulan.",
+        "corporate_view": "Di perusahaan, kamu dianggap sebagai sosok visioner yang berpikir jauh melampaui batas departemen sendiri. Orang menghargai kamu karena kamu langsung melihat inefisiensi, memahami gambaran besar, dan secara teori punya potensi untuk merombak model bisnis yang sudah membatu secara radikal. Bagi manajemen, kamu aset berharga karena kamu tepat sasaran menunjuk luka dan membongkar titik buta strategis.",
+        "shadow_conflict": "Kamu sudah berdamai dengan sistem — dan justru itu yang membunuhmu sedikit demi sedikit setiap hari. Kamu melihat dengan sangat tajam bagaimana perusahaan ini sedang melaju ke tembok dengan mata terbuka, atau betapa absurd dan bodohnya proses-proses yang sudah mapan. Tapi kamu diam di rapat-rapat penting. Kenapa? Karena rasa takut soal biaya tetapmu, cicilan berikutnya, standar hidupmu, dan rasa aman palsu dari kontrak kerja jauh lebih besar daripada dorongan aslimu untuk berinovasi. Di dalam, kamu cuma menjalankan pekerjaan sekadarnya, padahal otakmu dibuat untuk disrupsi dan perubahan nyata. Sangkar emas yang kamu bangun sendiri ini makin lama makin membuatmu sinis, pahit, dan merampas energi hidup kreatifmu.",
+        "action_steps": [
+            "Putuskan imbal hasil emosional: Berhenti membuang energi mental berharga ke sistem yang toh tidak akan menjalankan ide-idemu. Tetap kerjakan pekerjaanmu dengan baik dan profesional, tapi cabut keterikatan emosionalmu secara konsisten. Perusahaan bukan keluargamu, mereka cuma pemberi uangmu saat ini.",
+            "Bangun 'Fuck-You-Money' kamu: Turunkan standar hidupmu sementara dan bangun bantalan finansial secara agresif. Baru ketika kamu realistis bisa bertahan 6 bulan tanpa gaji itu, otakmu akan mematikan panik dan kamu berani ambil risiko nyata lagi serta bicara jujur.",
+            "Salurkan disrupsimu: Pakai kreativitasmu yang menumpuk dan menganggur untuk side business rahasia. Alternatifnya: siapkan jalan keluar dan lamar ke startup atau scale-up yang sangat berorientasi pertumbuhan, yang memang menghargai lapar akan inovasi, bukan mematikannya."
+        ],
+        "monetization_hook": {
+            "topic": "Membangun usaha sampingan & kemandirian finansial",
+            "keywords": [
+                "Fuck You Money",
+                "Side Hustle",
+                "Kebebasan finansial",
+                "Wirausaha sampingan"
+            ]
+        }
+    },
+    {
+        "profile_id": "pionier_versagensangst",
+        "base_type": "Pionir Strategis",
+        "fear_mutation": "Takut gagal",
+        "name": "Pionir yang terblokir",
+        "headline": "Kamu merencanakan revolusi di laci karena kamu panik total menghadapi kenyataan.",
+        "corporate_view": "Di perusahaan, kamu dikenal sebagai analis dan arsitek yang sangat mendalam. Kamu tidak pernah menyerahkan konsep setengah matang. Rekan kerja kagum bagaimana kamu memikirkan strategi, produk, atau proses baru sampai detail paling akhir sebelum semuanya muncul ke dunia. Kamu adalah jaminan untuk kedalaman intelektual dan perencanaan yang kedap air.",
+        "shadow_conflict": "Sindrom impostermu mencengkerammu habis-habisan. Di hard disk-mu ada ratusan konsep yang setengah jadi, ide brilian, dan visi — tapi kamu tidak pernah menekan 'Launch'. Kamu meyakinkan diri sendiri dan orang lain bahwa produk atau ide itu 'belum sempurna'. Kebenaran brutalnya lain: kamu panik kalau ide itu gagal di dunia nyata, dicabik para pengkritik, dan pada akhirnya kamu dibongkar sebagai penipu. Perfeksionisme yang selama ini dipuji bukan lagi kontrol kualitas, melainkan alasan paling cerdasmu untuk tidak pernah masuk ke risiko nyata. Kamu bersembunyi di balik perencanaan.",
+        "action_steps": [
+            "Terapkan paradigma 80%: Paksa dirimu menerima kebenaran yang tidak nyaman: 'Selesai lebih baik daripada sempurna'. Publikasikan, kirim, atau presentasikan ide berikutnya dengan sengaja dalam kondisi belum jadi. Belajar menahan rasa tidak nyaman dari ketidaksempurnaan.",
+            "Pisahkan harga diri dari hasil kerja: Putuskan nilai pribadimu secara tegas dari pekerjaanmu. Kalau sebuah konsep darimu gagal, itu tidak berarti kamu gagal sebagai manusia. Itu cuma berarti sebuah hipotesis diuji di pasar atau tim dan terbukti salah.",
+            "Cari lawan seimbangmu: Temukan partner eksekusi yang pragmatis (seorang 'Executor'). Kamu butuh seseorang di sampingmu yang tanpa ampun dan cepat membawa ide-idemu ke jalan, sementara kamu masih terjebak dalam lingkaran keraguan diri."
+        ],
+        "monetization_hook": {
+            "topic": "Mengalahkan sindrom impostor & strategi eksekusi",
+            "keywords": [
+                "Sindrom impostor",
+                "Lean Startup",
+                "Melepas perfeksionisme",
+                "Menyelesaikan proyek"
+            ]
+        }
+    },
+    {
+        "profile_id": "pionier_statusverlust",
+        "base_type": "Pionir Strategis",
+        "fear_mutation": "Kehilangan status",
+        "name": "Pionir yang dipentaskan",
+        "headline": "Kamu suka dipuja sebagai pemberontak kreatif — selama mobil dinasmu tidak terancam.",
+        "corporate_view": "Dalam konteks kerja, kamu tampil sebagai pemikir awal yang sangat karismatik, yang bisa menarik tim, departemen, dan stakeholder dengan mudah. Orang mengagumi kemampuan langkamu mengemas inovasi yang kompleks dan kering menjadi visi yang menarik dan menjualnya dengan sangat baik ke manajemen puncak. Kamu adalah etalase terang untuk kemajuan.",
+        "shadow_conflict": "Kamu sudah jadi ahli dalam pencitraan diri. Kamu bicara keras dan senang soal 'New Work', agilitas, disrupsi, dan hierarki datar. Kamu orang yang menyampaikan pidato berapi-api dan menginspirasi di town hall meeting. Tapi begitu situasinya benar-benar serius — begitu kamu harus mempertaruhkan posisi, anggaran, atau reputasimu di depan dewan demi sebuah keyakinan nyata — kamu langsung mundur. Kamu segera kembali ke permainan politik hierarki lama. Pemberontakan yang kamu klaim sering kali cuma PR cerdas untuk kepentingan diri sendiri. Di dalam, kamu paling takut kehilangan status dan tenggelam dalam ketidakrelevanan abu-abu di middle management.",
+        "action_steps": [
+            "Bekerja di bayangan: Berhenti memakai inovasi sebagai alat untuk ego dan visibilitasmu. Paksa dirimu menjalankan proyek penting yang sangat membantu perusahaan, tapi secara resmi kamu tidak dapat kredit, panggung, atau pujian apa pun.",
+            "Peluk konflik: Keluar dari zona nyaman politikmu. Perubahan nyata selalu berarti menyerang privilese dan membuat musuh. Terima kenyataan bahwa sebagai pionir sejati, kamu tidak bisa jadi favorit semua dewan dan rekan kerja.",
+            "Cek ego: Sebelum proyek baru apa pun, ajukan pertanyaan keras dan jujur: apakah kamu benar-benar peduli pada substansi dan kemajuan — atau kamu cuma sedang memoles kata kunci untuk profil LinkedIn-mu?"
+        ],
+        "monetization_hook": {
+            "topic": "Kepemimpinan autentik & manajemen ego",
+            "keywords": [
+                "Ego is the Enemy",
+                "Kepemimpinan autentik",
+                "Servant Leadership",
+                "Kecemasan status"
+            ]
+        }
+    },
+    {
+        "profile_id": "pionier_veraenderungsangst",
+        "base_type": "Pionir Strategis",
+        "fear_mutation": "Takut perubahan",
+        "name": "Si pemimpi yang frustrasi",
+        "headline": "Kamu mengeluh setiap hari soal neraka birokrasi — tapi ironisnya kamu terlalu nyaman untuk pergi.",
+        "corporate_view": "Di sistem, kamu dikenal sebagai pemberi ide yang andal, walau kritis. Kamu hafal betul titik lemah, bottleneck, dan kesalahan historis sistemmu sendiri, dan bisa menjelaskannya dengan tajam. Semua orang tahu: kalau mau tahu kenapa sebuah proses macet, tanya kamu.",
+        "shadow_conflict": "Kamu adalah pengkritik paling keras dan paling fasih di ruang kopi. Kamu benar-benar menderita karena neraka Excel, rantai persetujuan yang tak ada habisnya, dan aturan perusahaan yang kaku. Kalimat standarmu: 'Tempat ini sebenarnya harus dibongkar dan dibangun ulang total.' Tapi jauh di dalam, kamu punya ketakutan besar yang melumpuhkan untuk meninggalkan rutinitasmu yang nyaman dan sangat bisa diprediksi. Keluhanmu yang terus-menerus justru berubah jadi zona nyaman paling aman. Memulai ulang di perusahaan lain berarti kamu kehilangan perlindungan awal dan harus membuktikan lagi, dengan keras, seberapa bagus kamu di praktik sebenarnya.",
+        "action_steps": [
+            "Ultimatum 30 hari: Tetapkan tenggat keras mulai hari ini. Entah dalam 30 hari tepat kamu sudah memperbarui CV dan mengirim lamaran pertama, atau mulai hari ini kamu kehilangan hak moral untuk mengeluh soal pekerjaan atau atasanmu. Terima atau keluar.",
+            "Latih perubahan kecil: Latih otot perubahan yang kendor lewat hal-hal kecil. Sengaja ubah rutinitas harianmu yang sepele (jalur kerja, alat kerja, jam istirahat) untuk mengurangi rasa takut otakmu terhadap hilangnya kontrol.",
+            "Bunuh nostalgia: Berhenti meromantisasi masa lalu perusahaan ('Dulu di sini lebih agile'). Terima realitas dingin: sistem tidak akan berubah untukmu lagi. Kamu yang harus bergerak."
+        ],
+        "monetization_hook": {
+            "topic": "Pengambilan keputusan & pindah jalur secara radikal",
+            "keywords": [
+                "Mengambil keputusan",
+                "Keluar dari zona nyaman",
+                "Berani pindah jalur",
+                "Ganti karier"
+            ]
+        }
+    },
+    {
+        "profile_id": "executor_existenzangst",
+        "base_type": "Eksekutor Pragmatis",
+        "fear_mutation": "Kecemasan eksistensial",
+        "name": "Si pembuat yang dididik",
+        "headline": "Kamu bisa membalikkan keadaan sendirian, tapi kamu menggigit lidahmu sendiri karena butuh gaji itu.",
+        "corporate_view": "Bagi perusahaan, kamu adalah pekerja keras mutlak dan pilar yang sangat andal dalam operasional harian. Kamu orang yang mengubah arahan manajemen yang kabur dan tidak realistis menjadi hasil yang keras dan terukur, serta memastikan angka-angka tetap on track di akhir kuartal.",
+        "shadow_conflict": "Di dalam, kamu mendidih marah setiap hari. Kamu melihat inefisiensi yang parah, menelan keputusan manajemen yang bodoh dan jauh dari praktik, dan ikut menanggung rekan kerja yang memang tidak perform. Sebenarnya, setiap insting di dalam dirimu berteriak untuk bertindak tegas, membersihkan semuanya, dan membalik meja. Tapi kamu tidak melakukannya. Ketakutanmu yang terus-menerus dan berdenyut soal bonus tahunan, cicilan properti yang berjalan, atau standar hidup tinggi memaksamu tunduk. Kamu menelan pragmatisme instingtifmu, ikut mengerjakan tugas paling tidak masuk akal dengan gigi terkatup, dan perlahan tapi pasti berubah jadi sinis yang tumpul dan pahit.",
+        "action_steps": [
+            "Matikan jebakan emas: Turunkan biaya tetapmu sekarang juga. Ketergantungan finansialmu adalah satu-satunya alasan kenapa kamu masih mau menerima inkompetensi dari atas. Kebebasan dimulai dari rekening, bukan dari kepala.",
+            "Deinvestasi emosional: Berhenti menaruh emosi ke proyek kalau kamu tidak punya wewenang untuk benar-benar mengarahkannya. Kerjakan tepat apa yang dibayar untukmu, lalu matikan pikiranmu sepenuhnya setelah itu.",
+            "Pindah arena: Kamu cocok di lingkungan yang murni digerakkan performa (misalnya penjualan, interim management, atau bisnis sendiri). Cari tempat di mana tidak ada politik kantor, dan pragmatisme brutalmu langsung berubah jadi uang dan hasil yang terukur."
+        ],
+        "monetization_hook": {
+            "topic": "Stoisisme di tempat kerja & karier berbasis performa",
+            "keywords": [
+                "Stoisisme",
+                "Interim Management",
+                "Model komisi",
+                "Jarak emosional di pekerjaan"
+            ]
+        }
+    },
+    {
+        "profile_id": "executor_versagensangst",
+        "base_type": "Eksekutor Pragmatis",
+        "fear_mutation": "Takut gagal",
+        "name": "Si pembuat yang tiranik",
+        "headline": "Kamu menarik semua tugas ke dirimu sendiri karena tidak percaya pada orang lain — lalu terbakar habis oleh mikromanajemenmu sendiri.",
+        "corporate_view": "Di perusahaan, kamu dipandang sebagai sosok pemimpin yang sangat tegas. Kamu tanpa ragu mengambil tanggung jawab penuh atas proyek-proyek kritis, maju di depan, dan mendorong tim menuju performa tinggi seolah tanpa lelah. Kalau ada kebakaran, orang memanggilmu.",
+        "shadow_conflict": "Kamu menyamarkan kepanikan telanjangmu terhadap hilangnya kontrol sebagai 'efisiensi' dan 'standar kualitas'. Di dalam, kamu terus-menerus takut ada yang salah dan itu kembali ke kamu. Karena itu kamu tidak pernah benar-benar mendelegasikan. Kamu memang membagi tugas, tapi pada akhirnya kamu tetap jadi bottleneck kesuksesanmu sendiri, karena di akhir hari kamu masih mengoreksi setiap email, presentasi, dan dokumen sendirian pada jam 11 malam. Kamu meyakinkan diri bahwa timmu tidak kompeten, tapi kebenaran toksiknya adalah: kamu bahkan tidak memberi mereka ruang untuk bekerja mandiri dan membuat kesalahan, karena KAMU gemetar menghadapi konsekuensi dari sebuah kesalahan.",
+        "action_steps": [
+            "Aturan 80% sebagai hukum: Akhirnya terima ini: tugas yang dikerjakan karyawan dengan kualitas 80% sebaik kamu bukanlah kehilangan kualitas — itu keuntungan besar bagi waktu hidupmu yang terbatas.",
+            "Izinkan rasa sakit yang terkontrol: Sengaja biarkan satu proyek kecil yang tidak penting jatuh atau toleransi satu kesalahan yang terlihat di timmu. Kamu harus mengalami bahwa dunia tidak hancur karenanya.",
+            "Arsitek, bukan tukang: Ubah identitasmu. Kamu bukan lagi 'pelaksana' terbaik. Kamu sekarang 'arsitek sistem'. Tugasmu adalah membangun proses yang kuat dan tetap berjalan bahkan saat kamu tidak ada di ruangan."
+        ],
+        "monetization_hook": {
+            "topic": "Delegasi efektif & sistematisasi",
+            "keywords": [
+                "Belajar mendelegasikan",
+                "Melepas mikromanajemen",
+                "Kompetensi kepemimpinan",
+                "Membangun sistem"
+            ]
+        }
+    },
+    {
+        "profile_id": "executor_statusverlust",
+        "base_type": "Eksekutor Pragmatis",
+        "fear_mutation": "Kehilangan status",
+        "name": "Si pembuat yang teritorial",
+        "headline": "Kamu mengira kepemimpinan itu dominasi, karena kamu panik kalau turun peringkat.",
+        "corporate_view": "Di organisasi, kamu terlihat sebagai pemain alfa yang sangat kompetitif, selalu ingin menang dan biasanya memang menang. Kamu mengamankan pangsa pasar, memenangkan negosiasi paling keras, dan membela kepentingan serta anggaran departemenmu sendiri ke luar dengan sangat keras dan tanpa kompromi.",
+        "shadow_conflict": "Egomu adalah titik buta terbesar dan paling berbahaya. Kamu mengukur nilai dirimu semata dari besarnya anggaran, jabatanmu, dan siapa yang punya kata terakhir di rapat penting. Kamu meratakan rekan kerja lain dengan retorika dan merebut keberhasilan tim untuk dirimu sendiri. Bukan karena itu yang terbaik untuk tujuan atau perusahaan, tapi karena kamu punya ketakutan luar biasa dan terus-menerus bahwa alfa lain yang lebih muda atau lebih keras akan menyalip posisimu. Lingkunganmu memang menghormatimu karena ketegasan dan hasilmu, tapi di belakangmu tidak ada loyalitas sejati. Sebenarnya, semua orang cuma menunggu kamu tersandung.",
+        "action_steps": [
+            "Kolaborasi, bukan perang: Berhenti berperang dengan timmu sendiri atau departemen lain. Kekuatan yang benar-benar matang bukan ditunjukkan dengan membuat orang lain kecil, melainkan dengan membiarkan orang-orang cakap di sampingmu dan bahkan tumbuh.",
+            "Latihan mendengar radikal: Paksa dirimu di rapat penting berikutnya untuk tiga menit penuh tidak memotong siapa pun, tidak mengubah ekspresi, dan tidak memberi solusi sendiri. Tahan diamnya dan biarkan orang lain bersinar.",
+            "Refleksikan skalabilitas: Memimpin lewat rasa takut dan dominasi memang bekerja jangka pendek dan menghasilkan angka cepat. Tapi memimpin lewat rasa hormat yang dalam dan rasa aman psikologis adalah satu-satunya yang benar-benar bisa diskalakan dan mencegah burnout dalam jangka panjang."
+        ],
+        "monetization_hook": {
+            "topic": "Kepemimpinan modern & dinamika kuasa",
+            "keywords": [
+                "Permainan kuasa di kantor",
+                "Servant Leadership",
+                "Kecerdasan emosional untuk pemimpin",
+                "Ego is the enemy"
+            ]
+        }
+    },
+    {
+        "profile_id": "executor_veraenderungsangst",
+        "base_type": "Eksekutor Pragmatis",
+        "fear_mutation": "Takut perubahan",
+        "name": "Si pembuat yang keras kepala",
+        "headline": "Kamu membela metode lamamu dengan gigi dan kuku karena takut jadi pemula lagi di hal baru.",
+        "corporate_view": "Kamu adalah batu karang di tengah badai. Kamu punya pengetahuan pengalaman yang sangat dalam dan tak ternilai tentang alur operasional, dan sebagai salah satu dari sedikit orang, kamu masih tahu persis bagaimana dan mengapa bisnis inti ini sudah bertahun-tahun tetap untung. Saat sistem goyah, kamu adalah jangkar yang bisa diandalkan.",
+        "shadow_conflict": "Kamu adalah master tak terbantahkan dari alat, daftar Excel, dan proses yang sekarang kamu pakai. Tidak ada yang bisa menipu kamu, kamu bisa menyelesaikan semuanya dengan mata tertutup dan lebih cepat dari siapa pun. Tapi begitu metode baru — seperti kecerdasan buatan, framework agile, atau software cloud baru — dilempar ke ruangan, kamu langsung membangun tembok. Di rapat, kamu menolaknya keras sebagai 'omong kosong mode baru' yang 'di praktiknya di sini pasti tidak akan pernah jalan'. Kebenaran pahit di balik arogansi ini: kamu cuma takut sekali kehilangan status ahli yang sudah kamu bangun dengan susah payah dalam semalam dan harus mulai lagi dari nol sebagai pemula bodoh di depan rekan-rekan yang lebih muda.",
+        "action_steps": [
+            "Cek realitas: Terima kenyataan keras pasar: siapa yang keras kepala hidup di masa lalu, tidak akan dibayar di masa depan yang dekat. Pengetahuan prosesmu yang kaku hari ini terdevaluasi sangat cepat.",
+            "Laboratorium rahasia: Mulai sekarang, sisihkan dua jam blok waktu tetap setiap minggu di kalender untuk mempelajari alat disruptif baru dari industrimu. Kalau perlu, lakukan diam-diam sampai kamu cukup yakin untuk menunjukkannya ke tim.",
+            "Manfaatkan reverse mentoring: Berhenti meremehkan cara kerja rekan yang lebih muda. Jadikan mereka mentor untuk teknologi baru dan AI. Sebagai gantinya, kamu ajarkan mereka pengetahuan strategis industrimu yang tak ternilai."
+        ],
+        "monetization_hook": {
+            "topic": "Kompetensi masa depan & AI di manajemen",
+            "keywords": [
+                "AI untuk pemimpin",
+                "Manajemen perubahan",
+                "Reverse Mentoring",
+                "Metode agile"
+            ]
+        }
+    },
+    {
+        "profile_id": "optimierer_existenzangst",
+        "base_type": "Pengoptimal Struktural",
+        "fear_mutation": "Kecemasan eksistensial",
+        "name": "Si tahanan yang tak terlihat",
+        "headline": "Kamu mengerjakan pekerjaan tiga orang, dibayar seperti satu orang, dan terlalu takut untuk mengubahnya.",
+        "corporate_view": "Kamu adalah karyawan yang sangat loyal dan nyaris tanpa cacat. Kamu membentuk fondasi tak terlihat tapi sangat aman bagi departemen. Kamu orang yang bisa diberi semua tugas belakang layar yang tidak menyenangkan dan kecil-kecil itu, karena manajemen tahu persis: kamu akan mengerjakannya tanpa keluhan, tepat waktu, dan sempurna.",
+        "shadow_conflict": "Kamu terjebak dalam roda hamster yang benar-benar sempurna. Secara rasional kamu tahu betul bahwa kamu dibayar jauh di bawah nilai dan sistem memanfaatkan kebaikanmu tanpa ampun. Tapi kamu menelannya dan diam. Ketakutanmu terhadap ketidakpastian finansial, stres pindah kerja, atau 'risiko' masa percobaan di tempat baru begitu besar sampai kamu lebih memilih menanggung penderitaan yang sudah dikenal dan akrab. Strategi bertahan hidup rahasiamu: kamu berharap mati-matian bahwa bosmu suatu hari 'dengan sendirinya' sadar betapa berharganya kamu dan menawarkan kenaikan gaji. Spoiler: itu tidak akan pernah terjadi.",
+        "action_steps": [
+            "Hentikan menunggu 'pemberi hadiah': Dalam bisnis, yang dibayar bukan kerja keras secara adil, melainkan nilai pasar yang dinegosiasikan. Tidak ada yang memberi uang cuma karena kamu diam-diam bekerja. Kamu harus menuntut nilai dirimu secara aktif, hampir seperti urusan bisnis.",
+            "Buat jurnal performa: Mulai sekarang, dokumentasikan selama setidaknya satu minggu setiap tugas yang melampaui kontrak kerjamu. Terjemahkan tugas-tugas itu secara mental menjadi biaya yang dihemat atau krisis yang berhasil dicegah untuk perusahaan. Itu amunisi negosiasimu.",
+            "Latihan menolak secara strategis: Latih berkata 'tidak' dalam ruang aman. Saat tugas dadakan berikutnya yang 'bisa bantu sebentar' dilemparkan, jawab: 'Bisa, tapi berarti proyek X hari ini harus ditunda. Silakan prioritaskan.'"
+        ],
+        "monetization_hook": {
+            "topic": "Negosiasi gaji untuk introvert",
+            "keywords": [
+                "Negosiasi gaji sebagai introvert",
+                "Belajar bilang tidak",
+                "Pasang batas di pekerjaan",
+                "Menentukan nilai pasar"
+            ]
+        }
+    },
+    {
+        "profile_id": "optimierer_versagensangst",
+        "base_type": "Pengoptimal Struktural",
+        "fear_mutation": "Takut gagal",
+        "name": "Si perfeksionis yang lumpuh",
+        "headline": "Kamu memformat ulang sel Excel jam 10 malam karena panik kalau satu kesalahan kecil bisa bikin kamu kehilangan pekerjaan.",
+        "corporate_view": "Kamu adalah master kontrol kualitas yang tak terbantahkan. Kamu melihat risiko operasional, celah logika, dan masalah kepatuhan jauh sebelum semuanya benar-benar menimbulkan kerusakan di dunia nyata. Kalau kamu menyerahkan sesuatu, semua orang di tim tahu: itu standar emas.",
+        "shadow_conflict": "Apa yang dari luar terlihat seperti ambisi dan kerja keras yang patut dicontoh, sebenarnya adalah perisai psikologis besar. Perfeksionismemu sudah jadi penyakit. Kamu panik, hampir sampai fisik, kalau ada orang yang bisa membuktikan kamu salah dan kamu dibongkar di depan semua orang sebagai orang yang tidak kompeten. Karena itu kamu membangun protokol yang tak bercelah dan berlebihan, mengamankan diri tiga kali lipat di email CC, dan diam-diam memeriksa ulang pekerjaan rekanmu alih-alih pulang kerja. Perilaku ini merampas energi hidupmu secara brutal. Kamu terbakar dari dalam hanya karena ketakutan tanpa henti terhadap kritik.",
+        "action_steps": [
+            "Prinsip Pareto brutal (80/20): Terapkan aturan ini tanpa ampun. Kesempurnaan setelah titik 80% menghabiskan waktu dan sarafmu secara eksponensial lebih besar, tapi kenyataan kerasnya: tidak ada orang selain kamu yang melihat perbedaan marginal itu. Bisnis tidak peduli.",
+            "Latihan toleransi kesalahan: Sengaja kirim draft internal yang tidak penting ke rekan kerja, dengan satu kesalahan format atau typo kecil masih ada di dalamnya. Lihat apa yang terjadi. Kamu harus mengalami bahwa reputasimu tidak hancur karenanya.",
+            "Pragmatisme di atas over-engineering: Berhenti mencoba membuat dirimu tak tersentuh lewat kompleksitas buatan yang dibesar-besarkan. Masalah yang diselesaikan cepat dan pragmatis punya nilai jauh lebih tinggi bagi perusahaan daripada masalah yang didokumentasikan sempurna 100% tapi tetap macet."
+        ],
+        "monetization_hook": {
+            "topic": "Melepas perfeksionisme & manajemen waktu",
+            "keywords": [
+                "Prinsip Pareto",
+                "Mengatasi sindrom impostor",
+                "Hentikan overthinking",
+                "Takut kritik"
+            ]
+        }
+    },
+    {
+        "profile_id": "optimierer_statusverlust",
+        "base_type": "Der Strukturelle Optimierer",
+        "fear_mutation": "Statusverlust",
+        "name": "Sang ahli yang pahit",
+        "headline": "Kamu membenci para pencitra berisik yang terus naik jabatan — tapi karena gengsi, kamu menolak tampil ke depan sendiri.",
+        "corporate_view": "Di tim, kamu dianggap sebagai sumber pengetahuan yang diam tapi dalam untuk perusahaan. Kamu adalah ahli sejati yang tidak bisa dilewati siapa pun ketika sebuah topik benar-benar kompleks, kritis, atau menuntut secara teknis. Kamu adalah arsip manusia yang bisa diandalkan di perusahaan.",
+        "shadow_conflict": "Kamu jadi sangat frustrasi dan sinis. Setiap hari kamu melihat orang-orang yang secara teknis bahkan tidak punya sepersekian dari pengetahuanmu, tapi tetap dapat jabatan keren dan gaji besar — cuma karena mereka lebih pandai bicara dan kenal orang yang tepat. Kamu sangat merendahkan para 'pencitra' itu. Tapi egomu sendiri justru menghalangimu: kamu menganggap promosi diri aktif itu 'tidak profesional', 'murahan', atau 'menjilat'. Kamu meyakinkan diri sendiri: 'Kerja yang benar-benar bagus harus bisa bicara sendiri.' Tapi di dunia nyata, itu tidak terjadi. Penolakanmu yang sombong untuk ikut bermain dalam politik kantor, setidaknya sedikit saja, membuatmu tak terlihat — dan membuatmu jalan di tempat.",
+        "action_steps": [
+            "Terima aturan mainnya: Tinggalkan naivitasmu. Dalam karier, persepsi adalah realitas. Membangun visibilitas diri bukan 'trik kotor', tapi bagian yang sah dan perlu dari pekerjaanmu.",
+            "Aturan 5 menit: Tetapkan niat untuk berbicara di setiap rapat dalam 5 menit pertama — bahkan kalau cuma pertanyaan klarifikasi yang keras dan cerdas. Itu membangun kehadiran akustik dan fisikmu di ruangan.",
+            "Klaim hasilmu: Kalau kamu menyelesaikan masalah besar di belakang layar, jangan diam-diam menutup tiketnya. Kirim email proaktif ke stakeholder yang relevan, dengan cara halus tapi sangat jelas bahwa KAMU yang mencegah kegagalan itu."
+        ],
+        "monetization_hook": {
+            "topic": "Self-PR & visibilitas untuk performer yang pendiam",
+            "keywords": [
+                "Visibilitas untuk introvert",
+                "Personal branding di tempat kerja",
+                "Memahami politik kantor",
+                "Orang pendiam, dampak besar"
+            ]
+        }
+    },
+    {
+        "profile_id": "optimierer_veraenderungsangst",
+        "base_type": "Der Strukturelle Optimierer",
+        "fear_mutation": "Veränderungsangst",
+        "name": "Birokrat yang kaku",
+        "headline": "Kamu membela aturan-aturan usang seperti benteng, karena kekacauan dunia kerja baru benar-benar membuatmu kewalahan.",
+        "corporate_view": "Di departemen, kamu adalah jaminan ketertiban. Batu karang di tengah badai, yang dengan teliti memastikan bahwa di tengah semua transformasi agile yang keren dan ide-ide liar manajemen, bisnis inti yang sebenarnya tidak runtuh. Kamu menjaga stabilitas dan kepatuhan yang dibutuhkan.",
+        "shadow_conflict": "Begitu di rapat muncul kata 'agility', 'restrukturisasi', atau 'implementasi software baru', tenggorokanmu langsung terasa tercekik. Kamu mencintai dan butuh prediktabilitas mutlak. Selama bertahun-tahun kamu membangun sarang yang sempurna dan aman dari makro Excel yang rumit, struktur folder sendiri, dan alur kerja yang tetap. Di situ kamu adalah penguasa penuh. Kalau sekarang semuanya berubah drastis, kamu kehilangan kontrol total dan statusmu sebagai 'ahli yang tahu'. Itulah sebabnya kamu sering sekali memblokir pembaruan yang diperlukan — biasanya dibungkus rapi di balik alasan yang tampak tak terbantahkan seperti 'kekhawatiran kepatuhan' atau 'jaminan kualitas'. Padahal sebenarnya kamu cuma takut setengah mati jadi tidak berguna di sistem baru yang dinamis.",
+        "action_steps": [
+            "Dari penghambat jadi arsitek: Berhenti bertindak seperti batu yang menahan arus. Kamu tidak bisa menghentikan digitalisasi. Tapi kamu bisa memakai bakat strukturalmu untuk mengatur transisinya dengan aman dan tanpa kesalahan.",
+            "Peran penerjemah: Tunjuk dirimu sendiri secara proaktif sebagai 'penerjemah' antara sistem lama dan sistem baru. Pengetahuanmu yang besar tentang kesalahan masa lalu dan jebakan tersembunyi itu emas murni saat software atau proses baru diperkenalkan. Pakai itu secara ofensif.",
+            "Belajar menahan kekacauan: Sekali seminggu, sengaja keluar dari zona nyaman strukturalmu. Kerjakan satu tugas dengan cara yang sama sekali baru dan menurutmu 'tidak efisien', supaya otakmu paham bahwa kekacauan sementara tidak membunuhmu dan sering membuka jalan baru."
+        ],
+        "monetization_hook": {
+            "topic": "Resiliensi & change management untuk ahli",
+            "keywords": [
+                "Change management",
+                "Menghadapi perubahan",
+                "Kerja agile untuk pemula",
+                "Fleksibilitas psikologis"
+            ]
+        }
+    },
+    {
+        "profile_id": "katalysator_existenzangst",
+        "base_type": "Der Integrations-Katalysator",
+        "fear_mutation": "Existenzangst",
+        "name": "Penolong yang terjebak",
+        "headline": "Kamu mengorbankan diri untuk 'keluarga kantor' karena panik kehilangan tempat amanmu.",
+        "corporate_view": "Kamu adalah perekat mutlak tim. Kamu orang yang menahan ketegangan dan konflik di lorong sebelum meledak. Kamu otomatis mengambil alih tugas-tugas yang tidak disukai dari rekan yang kewalahan dan, sambil lalu, memastikan turnover dan angka sakit di tim tetap rendah.",
+        "shadow_conflict": "Kamu meyakinkan diri sendiri dan menyebut rekan-rekanmu 'keluarga'. Tapi jauh di dalam, kamu tahu persis: ini hubungan bisnis yang keras. Kamu menelan frustrasimu sendiri, minimnya apresiasi, dan lembur tak terhitung yang tidak dibayar, karena rasa takutmu akan kehilangan hidup membuatmu lumpuh total. Kesediaanmu membantu yang tampak tanpa batas itu sebenarnya mekanisme perlindungan terkuatmu: kamu membuat dirimu jadi sosok baik hati yang selalu ada secara emosional dan operasional, dengan harapan saat gelombang PHK atau restrukturisasi berikutnya, kamu tidak akan masuk daftar korban karena kasihan. Kamu menukar keamanan finansialmu dengan kesehatan mentalmu — deal yang mengerikan.",
+        "action_steps": [
+            "Aktifkan pola pikir bisnis: Sadari realitas dingin ini: kalau angka merah, perusahaan tetap akan memecatmu — tidak peduli berapa banyak kue yang kamu buat. Keamanan yang nyata dan berkelanjutan hanya ada pada nilai pasarmu, bukan pada pengorbananmu.",
+            "Putuskan ketergantungan pada over-engagement: Hentikan keterlibatan emosional berlebihan sekarang juga. Mulai hari ini, jangan lagi mengerjakan tugas yang tidak persis ada di deskripsi pekerjaanmu, hanya supaya orang lain 'suka' padamu.",
+            "Investasi pada dirimu sendiri: Ambil energi besar yang setiap hari kamu habiskan untuk memperbaiki masalah orang lain, lalu investasikan secara keras ke CV-mu sendiri. Jadikan dirimu tak tergantikan secara profesional, bukan cuma nyaman secara manusiawi."
+        ],
+        "monetization_hook": {
+            "topic": "Batasan profesional & resiliensi",
+            "keywords": [
+                "Pasang batas di tempat kerja",
+                "Lepas dari people pleaser",
+                "Kemandirian finansial",
+                "Loyalitas toksik"
+            ]
+        }
+    },
+    {
+        "profile_id": "katalysator_versagensangst",
+        "base_type": "Der Integrations-Katalysator",
+        "fear_mutation": "Versagensangst",
+        "name": "Penyelamat yang overkompensasi",
+        "headline": "Kamu bilang 'ya' ke setiap tugas tambahan, karena takut panik kalau nanti ketahuan cuma penipu.",
+        "corporate_view": "Di perusahaan, kamu dianggap sebagai pemadam kebakaran paling andal dan pemain tim paling utama. Kamu orang yang menyelamatkan keadaan pada Jumat sore. Kalimat 'Itu sebenarnya bukan tugas saya' seolah sudah kamu hapus total dari kosakata.",
+        "shadow_conflict": "Sindrom penolong yang kamu banggakan sebenarnya cuma topeng tebal untuk imposter syndrome-mu yang besar. Karena di peran utamamu kamu sering merasa tidak yakin secara teknis atau tidak 'cukup bagus', kamu mengompensasinya dengan ketersediaan waktu yang tanpa batas. Kamu mengambil tugas sampah dan bahkan kesalahan orang lain tanpa komentar. Logika bawah sadarmu begini: 'Kalau aku selalu baik, selalu tersedia, dan sangat membantu, semoga tidak ada yang sadar kalau sebenarnya aku tidak begitu kompeten.' Hasilnya: kamu tenggelam dalam kerjaan orang lain dan burnout, karena satu kata 'tidak' terasa seperti pengakuan berbahaya atas kelemahanmu sendiri.",
+        "action_steps": [
+            "Latih 'tidak' yang taktis: Pelajari bahwa tidak itu bukan serangan. Kalimat 'Aku bisa bantu, tapi jadwalku baru memungkinkan Kamis depan minggu depan' adalah batas yang sangat profesional dan dihormati — bukan penolakan pribadi.",
+            "Pisahkan simpati dari performa: Kamu tidak dibayar perusahaan untuk 'disukai', tapi untuk hasil yang nyata. Kalau rekan kerja kecewa sesaat karena kamu tidak mengerjakan tugas mereka, itu masalah mereka, bukan masalahmu.",
+            "Kembalikan tanggung jawabnya: Biarkan masalah orang dewasa lain tetap di tempatnya. Kalau seorang rekan gagal mengerjakan tugasnya, sama sekali bukan tugasmu untuk diam-diam menyelamatkannya di malam hari dari bos."
+        ],
+        "monetization_hook": {
+            "topic": "Imposter syndrome & manajemen waktu",
+            "keywords": [
+                "Belajar bilang tidak",
+                "Mengatasi imposter syndrome",
+                "Sindrom penolong di kerja",
+                "Membangun harga diri"
+            ]
+        }
+    },
+    {
+        "profile_id": "katalysator_statusverlust",
+        "base_type": "Der Integrations-Katalysator",
+        "fear_mutation": "Statusverlust",
+        "name": "Si martir yang tersinggung",
+        "headline": "Kamu memainkan peran sebagai jiwa baik kantor, tapi di dalam kamu pahit karena tidak ada yang bertepuk tangan.",
+        "corporate_view": "Kamu adalah pusat emosional departemen yang tak terbantahkan. Kamu tahu semua gosip lorong dan dinamika yang tidak diucapkan. Kamu orang yang mengatur acara tim, ingat ulang tahun, dan membangkitkan lagi semangat rekan setelah pukulan berat sambil ngopi.",
+        "shadow_conflict": "Hampir seluruh harga diri profesionalmu kamu ambil dari fakta bahwa semua orang menyukaimu dan sangat 'membutuhkan'mu. Kamu hampir agresif mendorong dirimu ke peran martir yang menderita: kamu bekerja paling lama secara demonstratif, menghibur semua orang — lalu diam-diam meledak marah ketika bos lagi-lagi memilih si egois yang keras dan dingin untuk promosi atau bonus. Kamu pada dasarnya mencampuradukkan 'popularitas' dengan 'pengaruh' yang nyata. Hausmu akan status dan pengakuan sebenarnya besar sekali, tapi kamu menganggap menuntut status itu secara terbuka, langsung, dan tegas sebagai sesuatu yang tidak bermoral atau tidak sopan. Jadi kamu menderita dalam diam.",
+        "action_steps": [
+            "Hentikan 'office parenting': Akhiri segera peranmu sebagai orang tua kantor. Tidak usah bikin kue lagi, tidak usah jadi terapis gratis di lorong. Kamu di sana untuk kerja bisnis profesional, bukan untuk mendidik atau memanjakan orang dewasa.",
+            "Tuntut kuasa, bukan belas kasihan: Kalau faktanya kamu adalah orang yang menjaga departemen tetap utuh, maka tuntut secara resmi peran team lead dan gaji yang sesuai. Berhenti puas dengan kata-kata manis.",
+            "Hentikan pasif-agresif: Kalau orang lain tidak melihat atau mengabaikan 'pengorbanan diam-diam'mu, itu bukan karena niat jahat mereka. Itu murni masalah komunikasimu. Katakan dengan jelas apa yang kamu kerjakan dan apa yang kamu mau sebagai imbalannya."
+        ],
+        "monetization_hook": {
+            "topic": "Kepemimpinan untuk orang yang empatik",
+            "keywords": [
+                "Kepemimpinan empatik",
+                "Negosiasi gaji",
+                "Keluar dari posisi korban",
+                "Dari disukai jadi dihormati"
+            ]
+        }
+    },
+    {
+        "profile_id": "katalysator_veraenderungsangst",
+        "base_type": "Der Integrations-Katalysator",
+        "fear_mutation": "Veränderungsangst",
+        "name": "Si penyeragam yang toksik",
+        "headline": "Kamu mempertahankan tim yang sudah rusak total, karena bayangan memulai dari nol membuatmu terjaga di malam hari.",
+        "corporate_view": "Di perusahaan, kamu dilihat sebagai mediator yang sangat loyal. Kamu tetap setia menopang organisasi bahkan di masa krisis terberat, gelombang PHK, dan fase kacau. Kamu adalah obat penenang perusahaan: kamu langsung menenangkan tim saat suasana berubah atau panik muncul.",
+        "shadow_conflict": "Kamu terjebak dalam hubungan kerja yang sangat toksik — dan sebenarnya kamu tahu itu. Kamu menderita setiap hari karena struktur yang kacau dan tidak sehat, tapi kamu terus-menerus mempermanis situasinya: 'Nggak separah itu kok,' atau 'Rekan-rekan butuh saya, saya nggak bisa pergi begitu saja.' Empati ekstremmu yang sering dipuji itu sebenarnya sudah jadi alasan paling fatal untuk tidak pernah menekan tombol resign. Pekerjaan baru berarti masuk ke lingkungan asing yang dingin, di mana status sosialmu sebagai 'penyelamat' yang berharga belum ada. Jadi kamu tetap di kapal yang tenggelam, terus main biola, dan sadar-sadar ikut tenggelam.",
+        "action_steps": [
+            "Cabut stekernya: Berhenti sekarang juga memberi napas buatan pada sistem yang rusak total dan disfungsional itu dengan empati dan lemburmu. Biarkan proyek atau departemennya ambruk. Itu bukan perusahaanmu. Kamu bukan kurator kebangkrutannya.",
+            "Hancurkan kebohongan hidupmu: Rekan-rekanmu akan tetap hidup tanpa kamu. Semua orang bisa digantikan. Kamu tidak bertanggung jawab atas kebahagiaan pribadi orang dewasa lain, hanya atas hidupmu sendiri.",
+            "Ubah cara pandang soal pindah kerja: Jangan lihat pindah kerja sebagai 'kehilangan keluarga' dengan dramatis, tapi sebagai pelarian yang menyelamatkan nyawa dari sekte toksik. Perbarui profilmu dan tulis surat resignmu hari ini juga."
+        ],
+        "monetization_hook": {
+            "topic": "Keluar dari tempat kerja toksik & memulai ulang",
+            "keywords": [
+                "Lingkungan kerja toksik",
+                "Takut resign",
+                "Ketergantungan emosional di kerja",
+                "Berani memulai lagi"
+            ]
+        }
+    }
+]

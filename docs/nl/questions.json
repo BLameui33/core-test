@@ -1,0 +1,2262 @@
+[
+    {
+        "id": "q1_meeting",
+        "category": "conflict_structure",
+        "question": "Een twee uur durende 'strategievergadering' zonder duidelijke agenda, waarin drie collega's eindeloos in cirkels blijven draaien. Wat gaat er door je hoofd?",
+        "answers": [
+            {
+                "text": "Geweldig. Ruimte om hardop na te denken en ideeën uit te spinnen. Eindelijk eens geen strikte afvinklijst in Excel.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "Daar word ik agressief van. Na 15 minuten eis ik een duidelijke beslissing of een verdeling van taken, anders ben ik weg.",
+                "scores": {
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Vanbinnen pure stress. Ik denk de hele tijd aan mijn echte werk, dat nu ongedaan op mijn bureau blijft liggen.",
+                "scores": {
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Ik probeer de stillere collega's bij de discussie te betrekken en de gespannen sfeer in de ruimte wat te temperen.",
+                "scores": {
+                    "katalysator": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q2_systemfehler",
+        "category": "conflict_structure",
+        "question": "Een belangrijk project loopt volledig mis. De fout zat in een onduidelijk bedrijfsproces, niet bij jou – maar het komt op jouw afdeling neer. Je eerste reactie?",
+        "answers": [
+            {
+                "text": "Ik analyseer keihard de bottleneck, bouw een fix en communiceer glashelder naar boven wie of wat heeft gefaald.",
+                "scores": {
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Ik breng de halve nacht door met het waterdicht documenteren dat ik me strikt aan alle richtlijnen heb gehouden.",
+                "scores": {
+                    "optimierer": 1,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Ik heb alweer drie nieuwe ideeën over hoe we het volgende project totaal anders moeten aanpakken. Het verleden is voorbij.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "Ik voel me schuldig omdat andere afdelingen nu last hebben van de chaos en bied meteen mijn hulp aan.",
+                "scores": {
+                    "katalysator": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q3_sinnlosaufgabe",
+        "category": "conflict_structure",
+        "question": "Je baas geeft je een taak die totaal repetitief, extreem gedetailleerd en volgens jou volstrekt inefficiënt is. Hoe ga je ermee om?",
+        "answers": [
+            {
+                "text": "Ik kom in een flow. Ik hou ervan als aan het eind alles tot op de cent klopt, gestructureerd en afgevinkt.",
+                "scores": {
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Ik sterf vanbinnen. Na 10 minuten verlies ik mijn focus, raak ik geïrriteerd en begin ik iets anders te doen.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "Ik automatiseer het stiekem, delegeer het of vind een manier om het in een derde van de tijd 'goed genoeg' in elkaar te flansen.",
+                "scores": {
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Ik doe het tandenknarsend en grondig. Als ik het niet doe, komt het op mijn collega's terug, en dat wil ik niet.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_status": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q4_befoerderungsfalle",
+        "category": "conflict_structure",
+        "question": "Een leidinggevende functie boven je komt vrij. Waarom heb jij die baan nog niet?",
+        "answers": [
+            {
+                "text": "Omdat ik die constante druk, de politiek en de conflicten daarboven eigenlijk helemaal niet in mijn leven wil.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Omdat ik mezelf keihard slecht verkoop. Ik doe achter de schermen al het werk, maar anderen strijken de eer op.",
+                "scores": {
+                    "optimierer": 1,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Omdat ik de 'stalgeur' mis. Ik ben het management te lastig, omdat ik verouderde structuren voortdurend ter discussie stel.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "Wie zegt dat ik hem niet heb? Ik eis zulke posities actief op. Als ze me afremmen, wissel ik van bedrijf.",
+                "scores": {
+                    "executor": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q5_sonntagabend",
+        "category": "conflict_structure",
+        "question": "Het is zondag, 20:00 uur. Je denkt aan de komende werkweek. Wat roept het meest een naar gevoel bij je op?",
+        "answers": [
+            {
+                "text": "De angst dat ik deze week weer niet toekom aan mijn echte, diepgaande ideeën, omdat de dagelijkse rompslomp me opslokt.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "De gedachte aan de toxische sfeer, de onopgeloste conflicten in het team en de collega's die ik weer moet motiveren.",
+                "scores": {
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "Het gevoel van machteloosheid. Ik zie precies wat er misgaat, maar ik mag de beslissingen niet nemen om het te repareren.",
+                "scores": {
+                    "executor": 1
+                }
+            },
+            {
+                "text": "De zorg dat ik door de hoeveelheid taken het overzicht verlies en een fout maak met serieuze gevolgen.",
+                "scores": {
+                    "optimierer": 1,
+                    "fear_versagen": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q6_feedback",
+        "category": "conflict_structure",
+        "question": "Je leidinggevende (die inhoudelijk minder verstand heeft dan jij) geeft je kritische, maar onterechte feedback. Je innerlijke reactie?",
+        "answers": [
+            {
+                "text": "Ik zet hem op doof. Zijn mening interesseert me niet, zolang hij me mijn ding laat doen.",
+                "scores": {
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Ik trek het me dagenlang extreem aan, twijfel aan mijn kunnen en vraag me af wat ik fout heb gedaan.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Ik verdedig mezelf meteen met harde feiten, logs of documenten die bewijzen dat zijn inschatting fout is.",
+                "scores": {
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Ik rol innerlijk met mijn ogen. Hij snapt gewoon het grote geheel niet, dus ik ga niet eens in discussie.",
+                "scores": {
+                    "pionier": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q7_feierabend",
+        "category": "conflict_structure",
+        "question": "Onder welke voorwaarde klap jij 's avonds je laptop dicht met een echt goed gevoel?",
+        "answers": [
+            {
+                "text": "Als ik vandaag een complex probleem heb gekraakt of een briljant, nieuw idee heb ontwikkeld.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "Als mijn to-dolijst helemaal leeg is en er geen rood notificatiepunt meer in mijn mail of tools brandt.",
+                "scores": {
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Als mijn team een goede dag had, we samen hebben gelachen en ik iemand met een probleem heb kunnen helpen.",
+                "scores": {
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "Als we vandaag een tastbaar resultaat hebben neergezet dat omzet, leads of meetbare vooruitgang oplevert.",
+                "scores": {
+                    "executor": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q8_gehalt_vs_risiko",
+        "category": "frust_risiko_angst",
+        "question": "Een innovatief startupbedrijf biedt je je absolute droombaan aan. De adder onder het gras: 20% minder basissalaris en een tijdelijk jaarcontract. Je eerlijke reactie?",
+        "answers": [
+            {
+                "text": "Geen sprake van. Ik heb vaste lasten, huur en verplichtingen. Dat risico sloopt mijn slaap.",
+                "scores": {
+                    "fear_existenz": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Ik doe het meteen. Ik heb de kick nodig om iets nieuws op te bouwen, zekerheid verveelt me toch alleen maar.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Ik maak me er vooral zorgen over dat een mislukt startupverhaal daarna als een dikke smet op mijn cv staat.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Ik zou wel willen, maar ik krijg het niet over mijn hart om mijn huidige team nu in de steek te laten.",
+                "scores": {
+                    "fear_veraenderung": 1,
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q9_unterbezahlt",
+        "category": "frust_risiko_angst",
+        "question": "Je weet dondersgoed dat je volgens de markt ongeveer 15% onderbetaald wordt. Waarom heb je dat tot nu toe gewoon geaccepteerd?",
+        "answers": [
+            {
+                "text": "Ik ben bang dat het averechts werkt en ik uiteindelijk op de schietlijst kom te staan.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Als ze me meer betalen, worden de verwachtingen ook extreem hoger. Wat als ik dat dan niet kan leveren?",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Mijn huidige functietitel klinkt fantastisch. Die is me bijna belangrijker dan het geld; op LinkedIn ziet dat er extreem goed uit.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "De gedachte aan salarisonderhandelingen of sollicitatiegesprekken is me gewoon te vermoeiend. Ik heb me erbij neergelegd.",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q10_umstrukturierung",
+        "category": "frust_risiko_angst",
+        "question": "Er wordt een plotselinge fusie bekendgemaakt. Je afdeling wordt volledig gereorganiseerd. Wat is je allereerste gedachte?",
+        "answers": [
+            {
+                "text": "'Verlies ik mijn baan? Hoe lang red ik het met mijn spaargeld?'",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "'Verdomme, kom ik nu lager in de hiërarchie terecht onder een totaal incompetente, nieuwe baas?'",
+                "scores": {
+                    "fear_status": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "'Oh nee, al mijn perfecte routines en keihard opgebouwde processen zijn nu compleet voor niets geweest.'",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "'De nieuwe bazen prikken er meteen doorheen dat ik eigenlijk helemaal niet zo goed ben als iedereen hier dacht.'",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q11_golden_handcuffs",
+        "category": "frust_risiko_angst",
+        "question": "Je krijgt elk jaar een flinke bonus en verdient prima geld, maar je haat je baan tot op het bot. Waarom zit je er nog?",
+        "answers": [
+            {
+                "text": "De gouden kooi: mijn levensstandaard is te lekker. Ik kan niet meer terug naar een normaal salarisniveau.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Het prestige: als ik vertel waar ik werk, zijn mensen onder de indruk. Mijn ego heeft dat nodig.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "De zelftwijfel: diep vanbinnen denk ik dat ik hier gewoon geluk heb gehad. Niemand anders zou mij zoveel betalen.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "De traagheid: ik klaag wel elke dag, maar ’s avonds heb ik nul energie om me echt opnieuw te gaan solliciteren.",
+                "scores": {
+                    "fear_veraenderung": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q12_linkedin_flex",
+        "category": "frust_risiko_angst",
+        "question": "Onderwerp zelfpromotie en professionele zichtbaarheid (bijv. op LinkedIn, in grote meetings). Hoe gedraag je je?",
+        "answers": [
+            {
+                "text": "Wie ben ik om mezelf te vieren? Er zijn duizend mensen die inhoudelijk veel beter zijn dan ik.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Ik heb geen digitale applaus nodig. Mijn loonstrook en mijn resultaten zijn genoeg validatie.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Ik zou best eens iets willen posten, maar dan moet het absoluut perfect en foutloos zijn. Dus laat ik het helemaal zitten.",
+                "scores": {
+                    "fear_versagen": 1,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Zichtbaarheid is macht. Ik deel successen actief, omdat het mijn marktwaarde veiligstelt en concurrenten op afstand houdt.",
+                "scores": {
+                    "fear_status": 2,
+                    "pionier": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q13_befoerderung_abgelehnt",
+        "category": "frust_risiko_angst",
+        "question": "Stel je voor dat je een overduidelijke promotie afslaat. Wat zou de eerlijkste reden daarvoor zijn?",
+        "answers": [
+            {
+                "text": "Er zat geen eigen bedrijfswagen bij en geen echte 'C-level'-titel. Voor maar een beetje meer geld verkoop ik mezelf niet.",
+                "scores": {
+                    "fear_status": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "De pure paniek om personeel aan te sturen, verkeerde beslissingen te nemen en als leidinggevende te falen.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Ik zou mijn vertrouwde bureau, mijn bekende team en mijn geliefde routines moeten opgeven.",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "De afkoopsom was te laag. Die kleine salarisverhoging rechtvaardigt het verlies van mijn opzegtermijn en zekerheid niet.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q14_lob_vom_ceo",
+        "category": "frust_risiko_angst",
+        "question": "Je wordt in een grote groep persoonlijk geprezen door de CEO voor een enorme prestatie. Wat gebeurt er in je?",
+        "answers": [
+            {
+                "text": "Ik glimlach, maar vanbinnen zweet ik: de volgende keer verwachten ze dit weer van mij, en dan val ik door de mand.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Ik leid het meteen af en deel de lof met het hele team, zodat niemand op kantoor me maar arrogant vindt.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Ik geniet ervan. Ik zorg ervoor dat iedereen in de ruimte begrijpt dat dit succes vooral mijn verdienste was.",
+                "scores": {
+                    "executor": 1,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Ik gebruik de aandacht keihard om mijn volgende, veel grotere budget of een krankzinnig idee te pitchen.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q15_ki_bedrohung",
+        "category": "frust_risiko_angst",
+        "question": "Kunstmatige intelligentie automatiseert nu enorme delen van jouw sector. Hoe reageer je?",
+        "answers": [
+            {
+                "text": "Paniek. Ik check mijn spaargeld en google omscholingen voor 'veilige', ambachtelijke beroepen.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Ik ben gestrest, omdat ik niet meer de jongste ben. Ik betwijfel of mijn brein al die nieuwe tools nog leert.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Ik benoem mezelf meteen tot informele 'AI-verantwoordelijke', om relevant te blijven en mijn status te beschermen.",
+                "scores": {
+                    "fear_status": 2,
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "Ik negeer het grotendeels. Het zal allemaal wel niet zo’n vaart lopen. Mijn processen draaien toch nog.",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q16_das_toxische_umfeld",
+        "category": "frust_risiko_angst",
+        "question": "Je bedrijfscultuur is extreem toxisch en sloopt je, maar je contract is voor onbepaalde tijd. Wat doe je?",
+        "answers": [
+            {
+                "text": "Ik blijf. Een contract voor onbepaalde tijd is in de huidige economie puur goud. Ik zet mijn gevoelens gewoon uit.",
+                "scores": {
+                    "fear_existenz": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Ik blijf. Als ik nu wegloop, ziet het op mijn cv eruit alsof ik niet stevig genoeg was.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Ik plan stiekem mijn vertrek, maar ik wacht op het 'absoluut perfecte moment'. (Dat nooit komt).",
+                "scores": {
+                    "fear_veraenderung": 2
+                }
+            },
+            {
+                "text": "Ik confronteer het management hard met de misstanden. Als ze me daarom ontslaan, des te beter.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q17_wochenend_projekt",
+        "category": "frust_risiko_angst",
+        "question": "Je wordt op vrijdagmiddag gevraagd om last minute een hoogwaardig, zichtbaar weekendproject te leiden.",
+        "answers": [
+            {
+                "text": "Ik zeg ja. Als ik weiger, denken de bazen dat ik geen 'high performer' meer ben en geven ze het project aan iemand anders.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Ik zeg ja uit pure schuldgevoel, zodat mijn collega’s niet in het weekend hoeven te werken.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Ik zeg ja, maar breng 80% van het weekend door in paniek dat dit zichtbare project misgaat.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Ik weiger keihard. Mijn vrije tijd is van mij, tenzij jullie mijn uurtarief voor het weekend verdubbelen.",
+                "scores": {
+                    "executor": 2,
+                    "pionier": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q18_der_inkompetente_kollege",
+        "category": "team_leadership",
+        "question": "Een collega in je team levert chronisch slecht werk. Het raakt ook jouw projecten. Wat doe je?",
+        "answers": [
+            {
+                "text": "Ik doe zijn werk stiekem opnieuw of corrigeer het ’s nachts. Als het eindproduct maar foutloos is.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Ik zoek het gesprek met hem en bied aan om hem te helpen met zijn taken, zodat hij niet door de mand valt.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Ik koppel mijn werkstromen volledig los van de zijne en bouw systemen waarbij ik niet meer van hem afhankelijk ben.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Ik spreek hem aan in de meeting of escaleer het meteen naar de baas. Ik sleep geen dode last mee.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q19_micromanagement",
+        "category": "team_leadership",
+        "question": "Je nieuwe baas is een extreme micromanager. Hij wil elk e-mailconcept lezen voordat je het verstuurt. Wat is je strategie?",
+        "answers": [
+            {
+                "text": "Ik pas me aan en bouw checklists voor hem. Als hij controle nodig heeft, geef ik hem volledige documentatie.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Ik rebelleer openlijk. Ik negeer zijn instructies, lever mijn resultaten en laat hem maar razen.",
+                "scores": {
+                    "pionier": 1,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Ik ben enorm onzeker en controleer vanaf nu elke e-mail drie keer uit angst een fout te maken.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Ik probeer via veel persoonlijke gesprekken uit te zoeken waarom hij zo weinig vertrouwen heeft, en stel hem gerust.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q20_ideenklau",
+        "category": "team_leadership",
+        "question": "Je noemt in de koffiehoek een briljant idee. In de grote meeting verkoopt een collega dat idee ineens als zijn eigen. Hoe reageer je?",
+        "answers": [
+            {
+                "text": "Ik kook van woede, maar zeg in de meeting niets om niet onprofessioneel, kattig of 'klein' over te komen.",
+                "scores": {
+                    "fear_status": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Ik onderbreek hem vriendelijk, maar keihard: 'Precies, zoals ik je net in de keuken uitlegde... Hier zijn de vervolgstappen.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Laat hem maar. Ik heb toch alweer drie nieuwe, veel betere ideeën in mijn hoofd. Hij loopt straks toch vast.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Ik zoek daarna onder vier ogen het gesprek en zeg hem dat dit me als mens enorm heeft teleurgesteld.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q21_teambuilding_horror",
+        "category": "team_leadership",
+        "question": "HR organiseert een verplichte 'teambuilding-workshop' met een stoelendans en gevoelskaartjes. Wat denk je?",
+        "answers": [
+            {
+                "text": "Top! Eindelijk een kans om de onuitgesproken spanningen in het team begeleid op te lossen.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Wat een tijdverspilling. Ik reken in mijn hoofd uit hoeveel omzet het bedrijf nu verbrandt terwijl wij hier zitten.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Ik doe braaf mee, maar zeg alleen onbelangrijke, veilige dingen zodat ik in elk geval niet negatief opval.",
+                "scores": {
+                    "fear_status": 1,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Ik gebruik de ongestructureerde tijd om mentaal compleet af te dwalen en aan mijn eigen projecten te sleutelen.",
+                "scores": {
+                    "pionier": 2,
+                    "optimierer": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q22_der_antwort_allen_fail",
+        "category": "team_leadership",
+        "question": "Een e-mailthread escaleert ('Allen beantwoorden'). De toon wordt harder, de CC-lijst groeit. Jouw rol?",
+        "answers": [
+            {
+                "text": "Ik meng me erin als bemiddelaar, pak de telefoon en probeer de boel offline te sussen.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Ik maak een einde aan het drama met een keiharde, extreem feitelijke mail in bullets. Discussie voorbij.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Ik hang er drie pdf's en een verslag aan vast dat onomstotelijk bewijst dat mijn afdeling geen schuld treft.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Ik heb de e-mailketen na de tweede mail gearchiveerd en werk allang aan iets anders.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q23_unbezahlte_ueberstunden",
+        "category": "team_leadership",
+        "question": "Je baas verwacht impliciet (maar niet contractueel) dat je in het weekend je mail checkt. Waarom doe je het toch?",
+        "answers": [
+            {
+                "text": "Omdat ik paniek heb dat er maandagochtend een enorme chaos op me wacht die ik dan niet meer onder controle krijg.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Omdat de ontslaggolf eraan komt en ik moet zorgen dat ik als onmisbaar word gezien.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Omdat ik wil dat de baas ziet hoe extreem committed ik ben. Dat houdt mijn positie in de alpha-ranking veilig.",
+                "scores": {
+                    "fear_status": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Omdat als ik het niet doe, het werk op mijn arme collega blijft liggen. En die zit toch al aan zijn limiet.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q24_onboarding",
+        "category": "team_leadership",
+        "question": "Je moet een nieuwe medewerker inwerken. Wat is je aanpak?",
+        "answers": [
+            {
+                "text": "Ik geef hem een wiki van 50 pagina's, door mij geschreven, en verwacht dat hij zich aan de processen houdt.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Ik nodig hem eerst uit voor koffie, stel hem aan iedereen voor en zorg dat hij zich emotioneel veilig voelt.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Ik leg hem de grote visie uit, druk hem een complex probleem in de handen en kijk of hij kan zwemmen.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Ik geef hem meteen een harde, meetbare taak. Als hij die verprutst, weet ik waar ik aan toe ben.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q25_fuehrungsstil",
+        "category": "team_leadership",
+        "question": "Als je volkomen eerlijk bent: wat zou je grootste zwakte zijn als je een team moest leiden?",
+        "answers": [
+            {
+                "text": "Ik zou me eronderuit proberen te wurmen om harde, negatieve feedback te geven, omdat ik een hekel heb aan conflicten.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Ik zou te veel micromanagen, omdat ik anderen gewoon niet vertrouw om het zo perfect te doen als ik.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Ik zou waarschijnlijk te ongeduldig en bot zijn en mensen te snel ontslaan die mijn tijd verspillen.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Ik zou verdrinken in de chaos, administratieve dingen vergeten en mensen overvragen met mijn constante nieuwe koerswijzigingen.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q26_flurfunk",
+        "category": "team_leadership",
+        "question": "Op de gang wordt extreem toxisch geroddeld over een collega die niet in de ruimte is. Wat is jouw houding?",
+        "answers": [
+            {
+                "text": "Ik trek me zonder commentaar terug uit de situatie. Roddels zijn onprofessioneel en inefficiënt.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Ik open mijn mond, zeg er hard mijn mening over en maak meteen een einde aan het geroddel.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Ik blijf stil staan, lach misschien uit beleefdheid mee, maar voel me er vanbinnen ellendig bij.",
+                "scores": {
+                    "fear_status": 1,
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "Ik zoek de betrokken collega later stiekem op en probeer hem emotioneel op te vangen.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q27_delegation",
+        "category": "team_leadership",
+        "question": "Je baas schuift een massief 'no-win-project' (hoog risico, weinig budget) volledig op jou af. Waarom neem je het aan?",
+        "answers": [
+            {
+                "text": "Ik durf gewoon niet 'nee' te zeggen tegen mijn baas.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "Ik gebruik het als machtshefboom. Als ik dit red, is de eer van mij en eis ik meer salaris.",
+                "scores": {
+                    "executor": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Omdat ik als enige in het team in staat ben om de chaos structureel onder controle te krijgen.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Ik negeer de absurde eisen gewoon en gebruik het project als zandbak voor een compleet nieuwe methode.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q28_brainstorming",
+        "category": "team_leadership",
+        "question": "Brainstormsessie: iemand gooit een totaal onrealistisch, absurd idee in de groep. Jouw reactie?",
+        "answers": [
+            {
+                "text": "Ik kap het meteen af: 'Daar hebben we geen budget voor. Duurt te lang. Volgend voorstel.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Ik ga er vol in mee en maak het idee nog veel gekker. Soms ontstaat uit waanzin innovatie.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Ik wijs erop welke compliance- en procesproblemen dit idee meteen zou veroorzaken.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Ik zwijg liever. Zelfs als ik het idee goed vind, wil ik me niet voor de groep voor schut zetten.",
+                "scores": {
+                    "fear_status": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q29_das_meeting_danach",
+        "category": "team_leadership",
+        "question": "Na een pittige meeting met verhitte discussies loop je terug naar je plek. Wat doe je als eerste?",
+        "answers": [
+            {
+                "text": "Ik schrijf meteen een verslag met alle beslissingen en verspreid het, zodat niemand later kan terugkrabbelen.",
+                "scores": {
+                    "optimierer": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Ik vraag me urenlang af of ik in minuut 14 te bot heb geformuleerd en of collega X me nu haat.",
+                "scores": {
+                    "fear_versagen": 1,
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Ik ga direct aan de slag met de to-do's. Praten is voorbij, nu moet er geleverd worden.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Ik gooi alles wat in de meeting is gezegd weg en bedenk een elegantere oplossing.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q30_der_grenzueberschreitende_kunde",
+        "category": "operations_clients",
+        "question": "Een klant (of cliënt/patiënt) wordt extreem veeleisend, negeert afspraken en wordt luid. Wat is je eerste reactie?",
+        "answers": [
+            {
+                "text": "Ik vang zijn emoties op, blijf extreem rustig en probeer hem menselijk te kalmeren, ook al heeft hij ongelijk.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Ik wijs hem keihard en messcherp op onze contractuele grenzen. Als hij zich niet gedraagt, is het klaar.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Ik documenteer het incident meteen tot op de letter in het systeem, zodat niemand me later kan verwijten dat ik fout handelde.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Ik negeer de standaardprocessen en zoek naar een creatieve, onorthodoxe loophole om hem snel af te wimpelen.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q31_die_leere_schreibtisch_panik",
+        "category": "operations_clients",
+        "question": "Het is vrijdagmiddag, de telefoon gaat niet en je hebt al je taken af. Wat voel je?",
+        "answers": [
+            {
+                "text": "Een vaag ongemak. Als ik niet continu lever, merkt het bedrijf misschien dat ze me eigenlijk niet nodig hebben.",
+                "scores": {
+                    "fear_existenz": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Heerlijk! Ik gebruik de tijd om eindelijk mijn mapstructuren en sjablonen voor volgende week te perfectioneren.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Ik begin uit pure verveling een compleet nieuw, niet-overlegd project of systeem te ontwerpen.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Ik loop door het kantoor (of de chat) en vraag mijn collega's of ik ze kan helpen met hun taken.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q32_der_falsche_prozess",
+        "category": "operations_clients",
+        "question": "Je moet een taak uitvoeren, maar het officiële bedrijfsproces daarvoor is zwaar verouderd en duurt drie keer zo lang. Wat doe je?",
+        "answers": [
+            {
+                "text": "Ik houd me exact aan het proces. Regels zijn regels, en als er iets misgaat, ben ik tenminste ingedekt.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Ik breek de regel, doe het op mijn snelle manier en zeg niemand iets. Als het resultaat maar klopt.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Ik schrijf een concept van 10 pagina's over hoe je het proces zou kunnen revolutioneren (dat daarna toch in de prullenbak verdwijnt).",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Ik durf niet van het proces af te wijken, omdat ik bang ben voor gezeik met compliance/de baas.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "fear_status": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q33_freitag_kurz_vor_feierabend",
+        "category": "operations_clients",
+        "question": "16:55 uur. Er komt een 'absolute noodmail' van de baas binnen. Het is geen echte noodsituatie, alleen slechte timing. Wat doe je?",
+        "answers": [
+            {
+                "text": "Ik doe het, terwijl ik vanbinnen kook. Als ik het weiger, verlies ik mijn status als de 'meest betrouwbare medewerker'.",
+                "scores": {
+                    "fear_status": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Laptop dicht. Het weekend begint. Slechte planning aan zijn kant betekent geen noodsituatie aan mijn kant.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Ik stort me erop. Eindelijk wat chaos en adrenaline in plaats van de saaie routinetaken van vanochtend.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Ik doe het meteen. De angst dat ik maandag daarvoor voor de hele groep gedegradeerd word, is me te groot.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q34_neue_software_ausgerollt",
+        "category": "operations_clients",
+        "question": "De directie voert dure, nieuwe software in die zogenaamd 'alles beter' moet maken. Je eerste gedachte?",
+        "answers": [
+            {
+                "text": "Oh god. Al mijn zelfgebouwde Excel-lijsten en routines zijn nu waardeloos. Ik haat dit.",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Ik probeer meteen uit hoe ik het systeem kan hacken, misbruiken of voor totaal andere dingen kan inzetten.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "De software is te traag. Ik weiger hem te gebruiken totdat hij mijn workflow niet meer vertraagt.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Ik meld me vrijwillig om de oudere collega's, die nu compleet overrompeld zijn, te helpen met de overstap.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q35_der_oeffentliche_fehler",
+        "category": "operations_clients",
+        "question": "Je hebt een meetbare, dure fout gemaakt. Het valt op in een grote meeting. Je spontane reactie?",
+        "answers": [
+            {
+                "text": "Totale innerlijke shock. Mijn imposter-syndroom slaat 1000% toe. Ik wou dat de grond me zou verzwelgen.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Ik haal mijn klauwen uit en leg aan de hand van drie variabelen uit waarom dit onder deze omstandigheden onvermijdelijk was.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Ik geef het meteen en genadeloos toe. 'Ja, mijn fout. Gebeurt niet nog eens. Hier is het plan om het te repareren.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Ik verklaar de fout meteen tot 'learning' of 'ongepland prototype' en stuur het gesprek naar een nieuw idee.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q36_die_junioren_gefahr",
+        "category": "operations_clients",
+        "question": "Een hooggemotiveerde, jongere medewerker begint in je team en is extreem snel. Wat roept dat diep in je op?",
+        "answers": [
+            {
+                "text": "De pure angst dat mijn salaris te hoog is en ze me binnenkort vervangen door deze goedkopere, hongerigere versie.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Ik vind het top. Ik neem hem onder mijn hoede en probeer hem emotioneel en inhoudelijk op te bouwen.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Hij irriteert me een beetje. Hij mist structuur, maakt domme fouten en brengt onze nette processen in gevaar.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Concurrentiestrijd. Ik ga mijn performance opschroeven om glashelder te laten zien wie hier de baas is.",
+                "scores": {
+                    "executor": 2,
+                    "fear_status": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q37_scope_creep",
+        "category": "operations_clients",
+        "question": "Een project (of taak) loopt compleet uit de hand. Er komen steeds nieuwe wensen bij, maar het budget/de tijd blijft gelijk.",
+        "answers": [
+            {
+                "text": "Ik zet er een keihard stopbord op. 'Als jullie feature X willen, schrappen we Y of betalen jullie meer.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Ik werk stiekem 12 uur per dag om toch op de een of andere manier aan alle wensen te voldoen, omdat ik niemand wil teleurstellen.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Ik raak compleet mijn zenuwen kwijt, omdat mijn nette planning en structuur nu definitief naar de klote zijn.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Ik vind het geweldig. Hoe chaotischer en groter het wordt, hoe meer ruimte ik heb om onconventionele oplossingen te bouwen.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q38_der_visionaere_chef",
+        "category": "operations_clients",
+        "question": "De CEO houdt een vurig, extreem visionair verhaal over de toekomst van het bedrijf - maar zonder enig concreet plan.",
+        "answers": [
+            {
+                "text": "Ik ben extreem gehyped. Eindelijk denkt hier iemand eens groot en breekt hij door de oude, saaie grenzen heen!",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Ik rol innerlijk met mijn ogen. Weer alleen maar buzzwords, terwijl het echte werk toch weer op mensen zoals ik neerkomt.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Ik begin meteen een complexe Excel-tabel te bouwen om uit te rekenen hoe we dit waanzinnige idee überhaupt moeten uitvoeren.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Ik maak me serieus zorgen over hoeveel extra druk en overuren deze 'visie' nu weer voor mijn team betekent.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q39_das_externe_angebot",
+        "category": "operations_clients",
+        "question": "Een headhunter stuurt je een bericht op LinkedIn en biedt een telefoongesprek aan. Waarom wijs je dat (meestal) af?",
+        "answers": [
+            {
+                "text": "Omdat de duivel die ik ken beter is dan de duivel die ik niet ken. Ik haat veranderingen.",
+                "scores": {
+                    "fear_veraenderung": 2
+                }
+            },
+            {
+                "text": "Omdat ik er rotsvast van overtuigd ben dat ik het assessment center in die nieuwe baan toch niet zou overleven.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Omdat ik bij mijn huidige bedrijf al een zekere 'senioriteit' uitstraal. Ik begin niet ergens anders weer als nieuweling.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Omdat mijn proeftijd daar zou betekenen dat ik zes maanden lang geen ontslagbescherming heb. Te riskant.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q40_der_energie_vampir",
+        "category": "burnout_stress",
+        "question": "Wat zuigt in het werkleven je batterijen het snelst en het hardst leeg?",
+        "answers": [
+            {
+                "text": "Zinloze, bureaucratische hindernissen en trage processen die me als kauwgom tegenhouden.",
+                "scores": {
+                    "pionier": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Als collega's hun emotionele problemen, klachten en frustratie constant bij mij dumpen.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Onduidelijke, steeds veranderende instructies waarbij ik geen nette structuur kan opbouwen.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Mensen die chronisch incompetent zijn, maar toch beslissingen mogen nemen.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q41_die_krankschreibung",
+        "category": "burnout_stress",
+        "question": "Je wordt ’s ochtends wakker met lichte, maar duidelijke ziekteverschijnselen. Wat doe je?",
+        "answers": [
+            {
+                "text": "Ik werk toch door (thuis). Ik raak in paniek dat er belangrijke ballen worden laten vallen en dat ik de schuld krijg.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Ik meld me ziek. Gezondheid gaat voor. Maar ik heb de hele dag een verschrikkelijk schuldgevoel tegenover het team.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Ik bijt door en ga gewoon. Wie constant zich ziek meldt, wordt bij de volgende promotie overgeslagen.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Ik werk toch door. In de huidige economie wil ik de baas geen reden geven om aan mij te twijfelen.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q42_stress_kompensation",
+        "category": "burnout_stress",
+        "question": "Na een absolute helweek op het werk: hoe verdoof je de frustratie in het weekend het liefst?",
+        "answers": [
+            {
+                "text": "Ik koop dure spullen of gun mezelf luxe (eten, kleding, auto). Ik moet mezelf bewijzen waarom ik dit allemaal doe.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Ik isoleer me volledig, lig op de bank en heb absolute stilte nodig om mijn zenuwstelsel tot rust te krijgen.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Ik volg een cursus, leer iets nieuws of plan de volgende week om eindelijk weer controle te voelen.",
+                "scores": {
+                    "optimierer": 1,
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Ik stort me op een radicaal andere, intensieve hobby (sport, feest, knutselen) om mijn hoofd er met geweld uit te krijgen.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q43_schlaflos_um_drei",
+        "category": "burnout_stress",
+        "question": "Het is 3 uur ’s nachts, je staart naar het plafond en kunt niet slapen. Welke gedachte blijft maar rondgaan in je hoofd?",
+        "answers": [
+            {
+                "text": "'Heb ik in die e-mail van gisteren een cruciale fout gemaakt? Wat als de baas dat morgen ziet?'",
+                "scores": {
+                    "fear_versagen": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "'Hoe kom ik uit deze tredmolen zonder mijn financiële zekerheid compleet te slopen?'",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "'Ik had in die meeting veel harder moeten ingrijpen. Morgen zal ik die idioot eens flink de waarheid zeggen.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "'Eigenlijk moeten we het hele product totaal anders aanpakken... wat als we feature X toevoegen?'",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q44_der_breaking_point",
+        "category": "burnout_stress",
+        "question": "Wanneer neem je in een baan meteen ontslag, tenminste in je hoofd?",
+        "answers": [
+            {
+                "text": "Als mijn jarenlange, foutloze loyaliteit wordt genegeerd en een luidruchtige blaaskaak me voorbijgaat.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Als ik het gevoel heb dat ik in deze toxische omgeving langzaam een slechter, cynischer mens word.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Als ik voor elke kleine stap toestemming moet vragen en als een onmondig kind word gecontroleerd.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Als mij de verantwoordelijkheid voor een doel wordt gegeven, maar niet de macht of het budget om het te halen.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q45_quiet_quitting",
+        "category": "burnout_stress",
+        "question": "Dienst volgens het boekje ('Quiet Quitting'): als je totaal gefrustreerd bent, hoe ziet je protest eruit?",
+        "answers": [
+            {
+                "text": "Ik word extreem formeel. Ik werk exact 100% van mijn functieomschrijving af – geen minuut meer, geen extra taak.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Ik gebruik de tijd op kantoor stiekem voor eigen projecten, side hustles of ik volg een cursus op kosten van het bedrijf.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Ik word keihard cynisch, maak openlijk sarcastische opmerkingen en laat het management mijn minachting voelen.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Ik stop met de 'goede ziel' zijn. Ik regel geen verjaardagen meer en troost geen collega’s meer op de gang.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q46_die_urlaubs_stoerung",
+        "category": "burnout_stress",
+        "question": "Je ligt op het strand op vakantie. Je telefoon gaat, de baas belt. Wat gebeurt er?",
+        "answers": [
+            {
+                "text": "Ik neem niet op, maar mijn hartslag schiet omhoog. Ik verpest de halve stranddag met de angst voor wat er gebeurd is.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "Ik neem op. Een deel van mij vindt het zelfs lekker om te zien dat de boel zonder mij meteen in brand vliegt.",
+                "scores": {
+                    "executor": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Ik neem op, omdat ik simpelweg in paniek raak dat het negatieve gevolgen heeft voor mijn baan als ik hem negeer.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Ik druk hem keihard weg. Mijn telefoon staat op 'Niet storen' en ik denk er geen seconde verder over na.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q47_warnung_vom_arzt",
+        "category": "burnout_stress",
+        "question": "Je arts zegt recht in je gezicht: 'Uw stresswaarden zijn gevaarlijk hoog. U moet gas terugnemen.' Je eerlijke smoes?",
+        "answers": [
+            {
+                "text": "'Ik weet het, maar als ik nu gas terugneem, verlies ik mijn hard bevochten plek in de hiërarchie.'",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "'Makkelijker gezegd dan gedaan. Mijn salaris betaalt de leningen. Ik kan het me simpelweg niet permitteren om ziek te worden.'",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "'Ik hoef alleen nog dit ene, enorme project af te ronden en mijn systeem te optimaliseren, dan wordt het beter.'",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "'Dat gaat niet. Als ik uitval, stort mijn hele team in. Ze hebben me nu nodig.'",
+                "scores": {
+                    "fear_versagen": 1,
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q48_die_leere_auszeichnung",
+        "category": "burnout_stress",
+        "question": "In plaats van een broodnodige bonus geeft HR je een natte handdruk en de 'Resilience & Team Spirit Award'. Je reactie?",
+        "answers": [
+            {
+                "text": "Pure woede. Ik wil meetbare resultaten, geld of bevoegdheden. Een gelamineerd stukje papier is een belediging.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Ik glimlach beleefd, leg het in de la en weet precies dat dit alleen maar een goedkope tactiek is om ons rustig te houden.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Diep vanbinnen ben ik toch een beetje blij. Iemand heeft tenminste eindelijk gezien hoe hard ik vecht.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Ik gebruik de aandacht bij de uitreiking keihard om voor de hele groep mijn nieuwe project te pitchen.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q49_der_falsche_fokus",
+        "category": "burnout_stress",
+        "question": "Als je op je werk extreem gestrest bent, welke fout maak je dan het vaakst?",
+        "answers": [
+            {
+                "text": "Ik verlies me in perfectionisme. Ik formatteer Excel-cellen in plaats van het echte, grote probleem op te lossen.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Ik word een bulldozer-tyrant. Ik walst over collega’s heen en beschadig gevoelens om mijn doel te halen.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Ik zeg overal 'ja' op, neem de taken van anderen over en verdrink uiteindelijk in een berg andermans werk.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Ik begin vijf nieuwe oplossingsroutes tegelijk, maak er geen één af en stort het team in complete chaos.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q50_die_sonntags_luege",
+        "category": "burnout_stress",
+        "question": "Welke leugen over je leven vertel je jezelf op zondagavond het vaakst?",
+        "answers": [
+            {
+                "text": "'Volgende week wordt vast rustiger. Als ik project X eenmaal van tafel heb, ontspant alles.' (Gebeurt nooit).",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "'Ik doe dit nog 2-3 jaar voor mijn cv/het geld, en dan zoek ik iets dat me echt vervult.'",
+                "scores": {
+                    "fear_existenz": 2,
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "'Ik ben gewoon nog niet goed/snel genoeg. Ik moet me volgende week gewoon nog harder inspannen.'",
+                "scores": {
+                    "fear_versagen": 2,
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "'Eigenlijk ben ik onmisbaar. Het bedrijf zou zonder mij ten onder gaan, dus ik moet dit theater maar verdragen.'",
+                "scores": {
+                    "fear_status": 2,
+                    "executor": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q51_das_veraltete_werkzeug",
+        "category": "industry_pseo",
+        "question": "Je primaire werkinstrument (of dat nu software, een machine of een systeem is) is compleet verouderd en crasht voortdurend. Wat doe je?",
+        "answers": [
+            {
+                "text": "Ik bouw een informele workaround of knutsel zelf een oplossing in elkaar om het probleem te omzeilen.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Ik zet zwaar druk op het management. Zonder fatsoenlijk materiaal weiger ik volle bak te presteren.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Ik documenteer elke crash tot op de komma, zodat niemand de vertragingen achteraf op mij kan afschuiven.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Ik schik me er min of meer in en probeer collega’s te helpen die er technisch nog minder mee overweg kunnen.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q52_die_sinnlose_kpi",
+        "category": "industry_pseo",
+        "question": "Het management voert een compleet absurde KPI in om prestaties te meten, terwijl de echte kwaliteit van je werk wordt genegeerd. Je tactiek?",
+        "answers": [
+            {
+                "text": "Ik optimaliseer mijn werk keihard op het maximaliseren van die score. Als ze bullshit willen meten, krijgen ze bullshit.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Ik raak gestrest. Ik wil echte kwaliteit leveren, maar tegelijk ook aan de eisen voldoen. Ik brand op tussen twee vuren.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Ik track die score tot op de millimeter en houd me strak aan de nieuwe regel, ook al wordt het proces daardoor bureaucratischer.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Ik maak er openlijk grapjes over en kom ongevraagd met een totaal ander, beter meetconcept aanzetten.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q53_die_schwierige_zielgruppe",
+        "category": "industry_pseo",
+        "question": "Je hebt te maken met een extreem lastige stakeholder (klant, cliënt of patiënt) die je expertise blokkeert. Hoe reageer je?",
+        "answers": [
+            {
+                "text": "Ik kap de emotionele band af. Ik lever precies wat in het contract of proces staat — geen millimeter meer.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Ik trek het me enorm aan. Ik steek nog meer tijd in het vinden van een persoonlijke klik om hem te 'kraken'.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Ik houd me exact aan de richtlijnen. Zolang ik geen formele fout maak, zit ik veilig.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_existenz": 1
+                }
+            },
+            {
+                "text": "Ik probeer een totaal onconventionele, misschien zelfs riskante aanpak om het patroon te doorbreken.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q54_der_akute_notfall",
+        "category": "industry_pseo",
+        "question": "Vijf minuten voor het einde van de werkdag gebeurt er een grote, onverwachte noodsituatie in jouw werkgebied. Wat gebeurt er in jou?",
+        "answers": [
+            {
+                "text": "Pure adrenaline. Eindelijk echte chaos! Ik kom helemaal tot leven en vind het heerlijk om het probleem creatief op te lossen.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Ik neem meteen ongevraagd de leiding, delegeer hard en zet mijn empathie volledig uit.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Ik ben gestrest, maar draai als een machine exact het noodprotocol af waarvoor ik getraind ben.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Mijn eerste gedachte is bezorgdheid om de mensen, klanten of collega’s die nu onder deze crisis lijden.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q55_abteilungs_krieg",
+        "category": "industry_pseo",
+        "question": "Een andere afdeling gooit jullie een totaal onrealistische, slecht geplande taak over de schutting.",
+        "answers": [
+            {
+                "text": "Ik wijs het agressief af. 'Niet ons probleem. Jullie planning is waardeloos. Kom terug als jullie je huiswerk gedaan hebben.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Ik doe het met tegenzin, om een open oorlog tussen afdelingen te vermijden en de vrede te bewaren.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Ik schrijf een e-mail van meerdere pagina’s waarin ik bewijs dat dit tegen alle afspraken en SLA’s ingaat.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Ik negeer hun domme regels volledig en bouw de oplossing zoals ik die toch al toekomstbestendiger vind.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q56_die_dinnerparty_identitaet",
+        "category": "industry_pseo",
+        "question": "Op een feestje vraagt iemand wat jouw kerntaak als {{JOB_NAME}} eigenlijk echt is. Wat is je eerlijke, sarcastische antwoord?",
+        "answers": [
+            {
+                "text": "'Ik zorg ervoor dat de boel niet instort onder het gewicht van zijn eigen inefficiëntie en incompetentie.'",
+                "scores": {
+                    "executor": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "'Ik ben eigenlijk gewoon een professionele brandblusser en de emotionele vuilnisbak van mijn team.'",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "'Ik schuif data/processen van A naar B en zorg dat niemand ons achteraf kan aanklagen.'",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_existenz": 1
+                }
+            },
+            {
+                "text": "'Ik probeer innovatie vooruit te duwen, maar breng 80% van mijn tijd door met vechten tegen bureaucratie.'",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q57_theorie_vs_praxis",
+        "category": "industry_pseo",
+        "question": "Een nieuweling komt net van de opleiding/universiteit en citeert voortdurend theorieën die in jullie praktijk totaal niet werken.",
+        "answers": [
+            {
+                "text": "Ik haal hem verbaal onderuit. 'Vergeet alles wat je geleerd hebt. Hier waait een andere wind.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Ik laat hem bewust (maar veilig) één keer keihard tegen de muur lopen, zodat hij de les zelf leert.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Ik neem hem apart en vertaal de theorie rustig naar de harde feiten van onze praktijk, zonder hem te demotiveren.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Ik druk hem onze interne procesdocumenten in de hand. Wie zich daaraan houdt, maakt geen fouten.",
+                "scores": {
+                    "optimierer": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q58_das_gekappte_budget",
+        "category": "industry_pseo",
+        "question": "Jullie belangrijkste middelen (budget, materiaal of personeel) worden plots met 20% gekort. Wat doe je?",
+        "answers": [
+            {
+                "text": "Ik waarschuw het management schriftelijk dat de kwaliteit nu exact 20% zal dalen. Niet mijn probleem.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Ik maak onbetaalde overuren om het tekort op de een of andere manier te compenseren, omdat ik het team en de cliënten niet in de steek kan laten.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_existenz": 1
+                }
+            },
+            {
+                "text": "Ik schrap meteen de 20% taken die het minst opleveren, zonder iemand om toestemming te vragen.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Ik zie het als een sportieve beperking. Vaak ontstaan juist door budgetkortingen de meest innovatieve hacks.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q59_der_branchentrend",
+        "category": "industry_pseo",
+        "question": "Een nieuwe, disruptieve trend (bijv. kunstmatige intelligentie of nieuwe wetgeving) raast door jouw branche. Je innerlijke houding?",
+        "answers": [
+            {
+                "text": "Fascinatie. Ik ben de eerste die het uitprobeert, kapotmaakt en kijkt wat voor krankzinnigs we ermee kunnen bouwen.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Koude berekening. Ik gebruik het alleen als het hard meetbaar tijd of geld bespaart. De hype negeer ik.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Angst. Wordt mijn moeizaam opgebouwde expertise daardoor straks waardeloos of vervangen?",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Zorg. Verdwijnt door deze automatisering niet het laatste beetje menselijkheid uit ons beroep?",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q60_der_geheime_karrierewunsch",
+        "category": "industry_pseo",
+        "question": "Als je voor je carrière als {{JOB_NAME}} een toverstaf had, wat zou je jezelf vandaag wensen?",
+        "answers": [
+            {
+                "text": "Een positie met absolute beslissingsmacht, maximaal budget en totaal nul micromanagement van bovenaf.",
+                "scores": {
+                    "executor": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Een rol waarin ik elke dag de toekomst mag uitvinden, maar iemand anders de hele administratieve troep afhandelt.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Een ijzersterke, perfect gestructureerde baan zonder verrassingen, die ik om 17:00 uur op kantoor kan achterlaten.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Een rol waarin ik echte, diepgaande invloed op mensen heb, zonder er psychisch aan onderdoor te gaan.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q61_die_kuendigungs_fantasie",
+        "category": "career_change_exit",
+        "question": "Als je op kantoor zit en aan ontslag nemen denkt: hoe ziet je geheime, innerlijke fantasie eruit?",
+        "answers": [
+            {
+                "text": "Ik smijt mijn chef de verzamelde, harde feiten van zijn incompetentie op tafel en loop met opgeheven hoofd weg.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Ik verdwijn gewoon stilletjes, zonder drama. Ik droom ervan dat de volgende dag ineens al mijn kennis weg is.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Ik begin voor mezelf met een radicaal, krankzinnig idee en bewijs iedereen dat mijn weg de betere was.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Ik heb die fantasie vaak, maar dan denk ik aan mijn favoriete collega’s en krijg ik meteen een schuldgevoel.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_veraenderung": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q62_das_gegenangebot",
+        "category": "career_change_exit",
+        "question": "Je dient je ontslag in. Je chef raakt in paniek en biedt je meteen 20% meer salaris aan. Wat gebeurt er?",
+        "answers": [
+            {
+                "text": "Ik blijf. 20% meer zekerheid is een flinke buffer voor mijn vaste lasten. Emoties of niet.",
+                "scores": {
+                    "fear_existenz": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Ik wijs het keihard af. Te laat. Wie me pas betaalt als ik wegga, heeft mijn respect allang verloren.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Ik blijf. Maar alleen omdat het idee dat ik me in een totaal nieuw bedrijf opnieuw moet bewijzen me eigenlijk paniek bezorgt.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Ik neem het geld aan, onderhandel er nog een nieuwe titel bij en rust daarop uit om mijn marktwaarde op te krikken.",
+                "scores": {
+                    "fear_status": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q63_quereinstieg_blockade",
+        "category": "career_change_exit",
+        "question": "Je denkt aan een complete overstap naar een andere sector. Wat houdt je daar het meest van af?",
+        "answers": [
+            {
+                "text": "De angst dat ik daar financieel weer helemaal onderaan moet beginnen en mijn levensstandaard verlies.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Het verlies van mijn 'senioriteit'. Ik wil niet de onwetende beginner zijn aan wie 25-jarigen de wereld uitleggen.",
+                "scores": {
+                    "fear_status": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Het ontbreken van een formeel bewijs. Zonder het exacte papier / certificaat voor de nieuwe sector durf ik het niet aan.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Ik heb zoveel verschillende interesses dat ik me toch niet op één enkele nieuwe richting kan vastleggen.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q64_bewerbungs_horror",
+        "category": "career_change_exit",
+        "question": "Wat is voor jou de absolute horror bij een aankomend sollicitatiegesprek?",
+        "answers": [
+            {
+                "text": "Dat ik vakinhoudelijke vragen krijg waar ik geen perfect antwoord op heb en als 'oplichter' word ontmaskerd.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Dat ik mezelf kunstmatig moet verbuigen en dat neppe 'wij zijn één grote familie'-HR-spelletje moet meespelen.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Dat ik een afwijzing krijg. Mijn ego kan het maar moeilijk aan als ik word afgewezen, juist wanneer ik me eindelijk openstel.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Dat ik helemaal niet weet wat ik moet antwoorden als ze vragen: 'Waar ziet u zichzelf over 5 jaar?' (Ik haat dat soort plannen).",
+                "scores": {
+                    "pionier": 2,
+                    "fear_veraenderung": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q65_lebenslauf_luege",
+        "category": "career_change_exit",
+        "question": "Als we je cv genadeloos analyseren: waar zit volgens jou de grootste 'zwakke plek'?",
+        "answers": [
+            {
+                "text": "Op papier lijk ik een starre bureaucraat, omdat mijn echte probleemoplossende kwaliteiten in geen enkel certificaat passen.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Ik verkoop mezelf onder de prijs. Ik gebruik bescheiden woorden, terwijl ik de facto jarenlang complete afdelingen heb gedragen.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Mijn cv is rommelig. Ik ben vaker van baan gewisseld of heb dingen afgebroken als de starre structuren me de keel uit kwamen.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Hij heeft eigenlijk geen zwakke plek, hij is sterk. Maar ik ben bang dat mijn salarisverwachtingen HR afschrikken.",
+                "scores": {
+                    "executor": 2,
+                    "fear_existenz": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q66_das_sabbatical",
+        "category": "career_change_exit",
+        "question": "Het bedrijf dwingt je tot 6 maanden betaald sabbatical. Wat doe je na week 2?",
+        "answers": [
+            {
+                "text": "Ik bouw meteen mijn eigen project of side-business op, omdat mijn brein zonder creatieve output wegkwijnt.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Ik help vrienden, zet me sociaal in of verval in de rol van de 'regelaar' in mijn privéomgeving.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Ik gebruik de tijd om me obsessief bij te scholen (certificaten, cursussen), om mijn marktwaarde na terugkomst te verhogen.",
+                "scores": {
+                    "optimierer": 1,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Ik doe helemaal niets. Ik optimaliseer mijn privéleven als een project en geniet van de totale heerschappij over mijn tijd.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q67_freelancing_traum",
+        "category": "career_change_exit",
+        "question": "Onderwerp zelfstandigheid / freelancen. Waarom heb je die stap nog niet helemaal durven zetten?",
+        "answers": [
+            {
+                "text": "Ik ben geen verkoper. Ik haat het om mezelf te moeten vermarkten en achter klanten aan te rennen.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "De belastingen, de boekhouding, de juridische risico’s. Eén foutieve factuur en je staat met één been in de gevangenis.",
+                "scores": {
+                    "fear_existenz": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Ik heb een vast team om me heen nodig. De isolatie als solist zou me emotioneel leegtrekken.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Ik heb het allang geprobeerd of doe het ernaast. Mijn grootste zorg is eerder dat ik me er snel bij verveel.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q68_der_tropfen_im_fass",
+        "category": "career_change_exit",
+        "question": "We hebben allemaal een tolerantiegrens. Welke kleine, bijna lachwekkende zaak zou je meteen tot ontslag drijven?",
+        "answers": [
+            {
+                "text": "Als mijn apparatuur voor me wordt voorgeschreven (bijv. me een goedkope Windows-laptop opdringen) en daarmee mijn workflow kapotmaakt.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Als mijn chef mijn Excel-sheet of mijn nette proces wist om het te vervangen door een wankel noodverband.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Als me wordt verboden om een simpele taak van 5 minuten op mijn manier op te lossen, omdat 'het proces dat niet voorziet'.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Als een collega uit mijn team onterecht wordt uitgescholden en ik als enige moet toekijken.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q69_die_gehaltsverhandlung",
+        "category": "career_change_exit",
+        "question": "Je hebt morgen het allesbepalende gesprek over meer salaris. Hoe bereid je je vanavond voor?",
+        "answers": [
+            {
+                "text": "Ik schrijf een keiharde lijst van mijn KPI’s en successen. Als ze niet betalen, ken ik mijn exitplan.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Ik oefen voor de spiegel, omdat ik doodsbang ben om op het beslissende moment zacht te worden of toe te geven.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_veraenderung": 2
+                }
+            },
+            {
+                "text": "Ik verzamel salaristabellen van internet om mijn eis volledig en objectief te kunnen rechtvaardigen.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Ik bedenk liever welke nieuwe vrijheden, budgetten of remote-dagen ik kan onderhandelen. Geld alleen is voor mij niet genoeg.",
+                "scores": {
+                    "pionier": 2,
+                    "fear_status": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q70_der_neustart",
+        "category": "career_change_exit",
+        "question": "Als je morgen in een totaal nieuw bedrijf, in een totaal nieuwe [Cluster] begint: wat is je absolute prioriteit 1?",
+        "answers": [
+            {
+                "text": "Echt vertrouwen. Ik wil nooit meer elke kleine beslissing hoeven verantwoorden.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Menselijke warmte. Ik heb een team nodig dat elkaar niet voortdurend in de rug steekt.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Absolute duidelijkheid. Ik wil exact weten waarop ik word beoordeeld en hoe het proces eruitziet.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Geld en autonomie. Ik wil eerlijk worden betaald voor mijn resultaten en in rust kunnen werken.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    }
+]

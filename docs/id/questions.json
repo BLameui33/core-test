@@ -1,0 +1,2262 @@
+[
+    {
+        "id": "q1_meeting",
+        "category": "conflict_structure",
+        "question": "Sebuah 'rapat strategi' dua jam tanpa agenda yang jelas, di mana tiga rekan kerja muter-muter tanpa ujung. Apa yang terjadi di kepalamu?",
+        "answers": [
+            {
+                "text": "Bagus. Ruang untuk berpikir keras dan mengembangkan ide. Akhirnya bukan sekadar mengerjakan daftar Excel secara kaku.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "Itu bikin saya agresif. Setelah 15 menit saya minta keputusan yang jelas atau pembagian tugas, kalau tidak saya pergi.",
+                "scores": {
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Stres total di dalam. Saya terus memikirkan pekerjaan utama saya yang sekarang jadi terbengkalai di meja.",
+                "scores": {
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Saya mencoba menarik rekan yang lebih diam ke dalam diskusi dan meredakan suasana tegang di ruangan.",
+                "scores": {
+                    "katalysator": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q2_systemfehler",
+        "category": "conflict_structure",
+        "question": "Sebuah proyek penting gagal total. Kesalahannya ada pada proses perusahaan yang tidak jelas, bukan pada Anda — tapi dampaknya jatuh ke area Anda. Reaksi pertama Anda?",
+        "answers": [
+            {
+                "text": "Saya analisis bottleneck-nya dengan dingin, bikin perbaikan, lalu komunikasikan dengan sangat jelas ke atas siapa atau apa yang gagal.",
+                "scores": {
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Saya habiskan setengah malam untuk mendokumentasikan tanpa celah bahwa saya sudah mengikuti semua aturan dengan ketat.",
+                "scores": {
+                    "optimierer": 1,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Saya sudah punya tiga ide baru lagi untuk mengerjakan proyek berikutnya dengan cara yang sama sekali berbeda. Yang lalu biarlah berlalu.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "Saya merasa bersalah karena divisi lain sekarang ikut kena kacau, dan saya langsung menawarkan bantuan saya.",
+                "scores": {
+                    "katalysator": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q3_sinnlosaufgabe",
+        "category": "conflict_structure",
+        "question": "Atasan Anda memberi tugas yang benar-benar repetitif, sangat detail, dan menurut Anda sama sekali tidak efisien. Anda menghadapinya bagaimana?",
+        "answers": [
+            {
+                "text": "Saya malah masuk flow. Saya suka kalau di akhir semuanya pas sampai sen terakhir, terstruktur, dan selesai.",
+                "scores": {
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Saya mati rasa di dalam. Setelah 10 menit fokus saya hilang, saya kesal, lalu mulai mengerjakan hal lain.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "Saya diam-diam mengotomatiskannya, mendelegasikannya, atau cari cara untuk menyelesaikannya dalam sepertiga waktu dengan hasil yang 'cukup bagus'.",
+                "scores": {
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Saya kerjakan dengan terpaksa tapi teliti. Kalau tidak saya kerjakan, dampaknya jatuh ke rekan kerja saya, dan saya tidak mau itu.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_status": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q4_befoerderungsfalle",
+        "category": "conflict_structure",
+        "question": "Sebuah posisi kepemimpinan di atas Anda kosong. Kenapa Anda belum dapat pekerjaan itu?",
+        "answers": [
+            {
+                "text": "Karena saya sebenarnya sama sekali tidak mau hidup dengan tekanan terus-menerus, politik kantor, dan konflik di level itu.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Karena saya jual diri saya dengan sangat buruk. Saya yang kerja habis-habisan di belakang layar, tapi orang lain yang panen pujiannya.",
+                "scores": {
+                    "optimierer": 1,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Karena saya kurang punya 'bau kandang'. Saya terlalu mengganggu buat manajemen, karena saya terus mempertanyakan struktur yang sudah usang.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "Siapa bilang saya tidak punya? Saya aktif menuntut posisi seperti itu. Kalau mereka menghambat saya, saya pindah perusahaan.",
+                "scores": {
+                    "executor": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q5_sonntagabend",
+        "category": "conflict_structure",
+        "question": "Sekarang hari Minggu, pukul 20:00. Anda memikirkan minggu kerja yang akan datang. Apa yang paling memicu rasa tidak enak di perut Anda?",
+        "answers": [
+            {
+                "text": "Takut minggu ini saya lagi-lagi tidak sempat mengerjakan ide-ide saya yang sebenarnya, karena kerjaan harian menggerus saya habis-habisan.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "Pikiran tentang suasana beracun, konflik yang belum selesai di tim, dan rekan kerja yang harus saya motivasi lagi.",
+                "scores": {
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "Rasa tidak berdaya. Saya tahu persis apa yang salah, tapi saya tidak boleh mengambil keputusan untuk memperbaikinya.",
+                "scores": {
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Kekhawatiran bahwa saya akan kehilangan kendali atas banyaknya tugas dan membuat kesalahan fatal.",
+                "scores": {
+                    "optimierer": 1,
+                    "fear_versagen": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q6_feedback",
+        "category": "conflict_structure",
+        "question": "Atasan Anda (yang secara teknis lebih bodoh daripada Anda) memberi Anda feedback kritis tapi tidak berdasar. Reaksi batin Anda?",
+        "answers": [
+            {
+                "text": "Saya cuek saja. Pendapatnya tidak penting buat saya, selama dia membiarkan saya menjalankan pekerjaan saya dengan tenang.",
+                "scores": {
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Saya memikirkannya berhari-hari, meragukan kemampuan saya, dan terus bertanya apa yang salah dari saya.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Saya langsung membela diri dengan fakta keras, log, atau dokumen yang membuktikan bahwa penilaiannya salah.",
+                "scores": {
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Saya memutar mata di dalam hati. Dia memang tidak paham gambaran besarnya, jadi saya bahkan tidak mau berdebat.",
+                "scores": {
+                    "pionier": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q7_feierabend",
+        "category": "conflict_structure",
+        "question": "Dalam kondisi apa Anda bisa menutup laptop malam hari dengan perasaan benar-benar puas?",
+        "answers": [
+            {
+                "text": "Kalau hari ini saya berhasil memecahkan masalah kompleks atau mengembangkan ide baru yang brilian.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "Kalau daftar tugas saya kosong total dan tidak ada lagi titik notifikasi merah yang menyala di email atau tools saya.",
+                "scores": {
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Kalau tim saya punya hari yang bagus, kami tertawa bersama, dan saya bisa membantu seseorang menyelesaikan masalah.",
+                "scores": {
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "Kalau hari ini kami menghasilkan sesuatu yang nyata, yang membawa omzet, leads, atau kemajuan yang bisa diukur.",
+                "scores": {
+                    "executor": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q8_gehalt_vs_risiko",
+        "category": "frust_risiko_angst",
+        "question": "Sebuah startup inovatif menawarkan Anda pekerjaan impian mutlak. Masalahnya: gaji pokok 20% lebih rendah dan kontrak tahunan yang terbatas. Reaksi jujur Anda?",
+        "answers": [
+            {
+                "text": "Tidak mungkin. Saya punya biaya tetap, sewa, dan kewajiban. Risikonya bikin saya tidak bisa tidur.",
+                "scores": {
+                    "fear_existenz": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Saya langsung ambil. Saya butuh sensasi membangun sesuatu yang baru, keamanan itu malah membosankan.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Saya lebih khawatir startup yang gagal nanti jadi noda besar di CV saya.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Saya sebenarnya mau, tapi saya tidak tega meninggalkan tim saya sekarang begitu saja.",
+                "scores": {
+                    "fear_veraenderung": 1,
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q9_unterbezahlt",
+        "category": "frust_risiko_angst",
+        "question": "Anda tahu persis bahwa Anda dibayar sekitar 15% di bawah standar industri. Kenapa selama ini Anda diam saja?",
+        "answers": [
+            {
+                "text": "Saya takut ini malah berbalik dan akhirnya saya yang masuk daftar korban.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Kalau mereka bayar saya lebih, ekspektasi terhadap saya juga naik gila-gilaan. Bagaimana kalau saya tidak bisa memenuhi itu?",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Jabatan saya sekarang terdengar fantastis. Itu hampir lebih penting daripada uang, dan kelihatan sangat bagus di LinkedIn.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Pikiran tentang negosiasi gaji atau wawancara kerja terlalu melelahkan buat saya. Saya sudah pasrah dan menyesuaikan diri.",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q10_umstrukturierung",
+        "category": "frust_risiko_angst",
+        "question": "Tiba-tiba diumumkan ada merger. Divisi Anda akan dirombak total. Apa pikiran pertama Anda?",
+        "answers": [
+            {
+                "text": "'Apa saya akan kehilangan pekerjaan? Uang tabungan saya cukup untuk berapa lama?'",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "'Sial, apa saya sekarang bakal turun di hierarki di bawah bos baru yang sama sekali tidak kompeten?'",
+                "scores": {
+                    "fear_status": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "'Ya ampun, semua rutinitas sempurna dan proses yang sudah saya bangun susah payah sekarang jadi sia-sia.'",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "'Bos-bos baru itu akan langsung sadar kalau saya sebenarnya tidak sebaik yang semua orang kira di sini.'",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q11_golden_handcuffs",
+        "category": "frust_risiko_angst",
+        "question": "Kamu dapat bonus besar tiap tahun dan gajimu sangat bagus, tapi kamu benci pekerjaanmu sampai ke dasar. Kenapa kamu masih di sana?",
+        "answers": [
+            {
+                "text": "Sangkar emas: standar hidupnya terlalu enak. Aku nggak bisa balik lagi ke struktur gaji yang normal.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Prestise: kalau aku bilang kerja di mana, orang-orang terkesan. Ego butuh itu.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Rasa ragu pada diri sendiri: diam-diam aku merasa aku cuma beruntung di sini. Nggak ada orang lain yang mau bayar aku sebanyak ini.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Kemalasan: aku memang mengeluh tiap hari, tapi malamnya aku nggak punya energi sama sekali buat benar-benar melamar kerja baru.",
+                "scores": {
+                    "fear_veraenderung": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q12_linkedin_flex",
+        "category": "frust_risiko_angst",
+        "question": "Soal promosi diri dan visibilitas profesional (mis. di LinkedIn, di rapat besar). Kamu bersikap bagaimana?",
+        "answers": [
+            {
+                "text": "Siapa aku sampai harus pamer? Ada ribuan orang yang secara teknis jauh lebih bagus daripada aku.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Aku nggak butuh tepuk tangan digital. Slip gaji dan hasil kerjaku sudah cukup buat validasi.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Aku sebenarnya pengin posting sesuatu, tapi harus benar-benar sempurna dan tanpa cacat. Jadi ya sudah, nggak usah sama sekali.",
+                "scores": {
+                    "fear_versagen": 1,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Visibilitas itu kekuasaan. Aku aktif membagikan keberhasilan, karena itu menjaga nilai pasarku dan bikin pesaing tetap jauh.",
+                "scores": {
+                    "fear_status": 2,
+                    "pionier": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q13_befoerderung_abgelehnt",
+        "category": "frust_risiko_angst",
+        "question": "Bayangkan kamu menolak promosi yang jelas-jelas ada di depan mata. Apa alasan paling jujur untuk itu?",
+        "answers": [
+            {
+                "text": "Nggak ada mobil dinas sendiri dan nggak ada titel 'C-Level' yang beneran. Buat uang sedikit lebih banyak, aku nggak mau jual diri murah.",
+                "scores": {
+                    "fear_status": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Panik total harus memikul tanggung jawab atas orang lain, bikin keputusan salah, dan gagal sebagai pemimpin.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Aku harus ninggalin meja kerjaku yang biasa, tim yang sudah akrab, dan rutinitas yang aku sayangi.",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "Uang kompensasinya terlalu kecil. Kenaikan gaji segitu nggak sebanding dengan hilangnya masa pemberitahuan resign dan rasa aman.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q14_lob_vom_ceo",
+        "category": "frust_risiko_angst",
+        "question": "Kamu dipuji langsung oleh CEO di depan banyak orang karena sukses besar. Apa yang terjadi di dalam dirimu?",
+        "answers": [
+            {
+                "text": "Aku senyum, tapi dalam hati aku berkeringat: lain kali mereka bakal ngarep hal yang sama dariku, dan nanti aku ketahuan nggak mampu.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Aku langsung mengalihkan perhatian dan membagi pujian ke seluruh tim, biar jangan sampai ada yang menganggap aku arogan di kantor.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Aku menikmatinya. Aku memastikan semua orang di ruangan paham bahwa keberhasilan ini terutama karena aku.",
+                "scores": {
+                    "executor": 1,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Aku pakai perhatian itu dengan dingin buat pitching budget berikutnya yang jauh lebih besar atau ide gila.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q15_ki_bedrohung",
+        "category": "frust_risiko_angst",
+        "question": "Kecerdasan buatan sedang mengotomatiskan bagian besar dari industrimu. Kamu bereaksi bagaimana?",
+        "answers": [
+            {
+                "text": "Panik. Aku cek tabungan dan cari kursus ulang untuk pekerjaan 'aman' yang sifatnya manual.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Aku stres karena aku sudah nggak muda lagi. Aku ragu otakku masih sanggup belajar semua tools baru ini.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Aku langsung mengangkat diri sendiri jadi 'penanggung jawab AI' tidak resmi, biar tetap relevan dan statusku aman.",
+                "scores": {
+                    "fear_status": 2,
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "Aku mostly mengabaikannya. Itu semua nggak seburuk yang dibesar-besarkan. Prosesku masih jalan kok.",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q16_das_toxische_umfeld",
+        "category": "frust_risiko_angst",
+        "question": "Budaya perusahaanmu sangat toksik dan bikin kamu habis, tapi kontrak kerjamu permanen. Kamu ngapain?",
+        "answers": [
+            {
+                "text": "Aku bertahan. Kontrak permanen di ekonomi sekarang itu emas murni. Aku tinggal matikan perasaanku.",
+                "scores": {
+                    "fear_existenz": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Aku bertahan. Kalau sekarang aku cabut, di CV kelihatannya seolah-olah aku nggak cukup tahan banting.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Aku diam-diam nyusun jalan keluar, tapi aku nunggu 'momen yang benar-benar sempurna'. (Yang entah kenapa nggak pernah datang).",
+                "scores": {
+                    "fear_veraenderung": 2
+                }
+            },
+            {
+                "text": "Aku konfrontasi manajemen dengan keras soal masalahnya. Kalau mereka memecatku karena itu — malah bagus.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q17_wochenend_projekt",
+        "category": "frust_risiko_angst",
+        "question": "Kamu diminta Jumat sore untuk mendadak memimpin proyek akhir pekan yang bergengsi dan sangat terlihat.",
+        "answers": [
+            {
+                "text": "Aku setuju. Kalau aku nolak, para bos bakal mikir aku bukan 'high performer' lagi dan kasih proyeknya ke orang lain.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Aku setuju murni karena rasa bersalah, supaya rekan-rekanku nggak perlu kerja di akhir pekan.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Aku setuju, tapi 80% akhir pekan kuhabiskan buat panik kalau proyek yang terlihat ini bakal gagal.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Aku tolak mentah-mentah. Waktu luangku milikku, kecuali kalian gandakan tarif jamanku buat akhir pekan.",
+                "scores": {
+                    "executor": 2,
+                    "pionier": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q18_der_inkompetente_kollege",
+        "category": "team_leadership",
+        "question": "Seorang rekan di timmu terus-menerus menghasilkan kerja yang buruk. Itu juga kena ke proyekmu. Kamu ngapain?",
+        "answers": [
+            {
+                "text": "Aku diam-diam mengerjakan ulang atau memperbaiki pekerjaannya malam-malam. Yang penting hasil akhirnya tanpa cacat.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Aku ajak bicara dia dan menawarkan bantuan untuk tugas-tugasnya, supaya dia nggak ketahuan.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Aku pisahkan total alur kerjaku dari alurnya dan bangun sistem supaya aku nggak lagi bergantung padanya.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Aku tegur dia di meeting atau langsung eskalasi ke atasan. Aku nggak mau bawa beban mati.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q19_micromanagement",
+        "category": "team_leadership",
+        "question": "Bos barumu micromanager ekstrem. Dia mau baca setiap draft email sebelum kamu kirim. Strategimu?",
+        "answers": [
+            {
+                "text": "Aku menyesuaikan diri dan bikin checklist buat dia. Kalau dia butuh kontrol, aku kasih dokumentasi lengkap tanpa celah.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Aku memberontak terang-terangan. Aku abaikan arahannya, kirim hasil kerjaku, dan biarkan dia ngamuk.",
+                "scores": {
+                    "pionier": 1,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Aku jadi sangat nggak yakin diri dan mulai memeriksa setiap email tiga kali karena takut bikin kesalahan.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Aku coba cari tahu lewat banyak obrolan pribadi kenapa dia begitu nggak percaya, lalu aku menenangkannya.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q20_ideenklau",
+        "category": "team_leadership",
+        "question": "Kamu menyampaikan ide brilian di pantry kopi. Di meeting besar, seorang rekan tiba-tiba menjual ide itu seolah-olah miliknya. Kamu bereaksi bagaimana?",
+        "answers": [
+            {
+                "text": "Aku mendidih karena marah, tapi di meeting aku diam saja supaya nggak kelihatan nggak profesional, manja, atau 'kecil'.",
+                "scores": {
+                    "fear_status": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Aku potong dia dengan sopan tapi dingin: 'Betul, seperti yang tadi aku jelaskan ke kamu di pantry... Ini langkah-langkah berikutnya.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Biarin aja. Aku juga sudah punya tiga ide baru yang jauh lebih bagus di kepala. Dia juga bakal mentok sebentar lagi.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Setelah itu aku ajak bicara empat mata dan bilang kalau secara manusiawi aku sangat kecewa.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q21_teambuilding_horror",
+        "category": "team_leadership",
+        "question": "HR mewajibkan 'workshop team building' dengan lingkaran kursi dan kartu perasaan. Apa pendapatmu?",
+        "answers": [
+            {
+                "text": "Mantap! Akhirnya ada kesempatan untuk menyelesaikan ketegangan yang tak pernah diucapkan di tim secara terarah.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Pemborosan waktu. Dalam kepala saya, saya sudah menghitung berapa omzet yang sedang dibakar perusahaan saat kami duduk di sini.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Saya ikut dengan patuh, tapi cuma bilang hal-hal aman yang tidak penting supaya jangan sampai kelihatan negatif.",
+                "scores": {
+                    "fear_status": 1,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Saya pakai waktu yang tidak terstruktur itu untuk melayang total secara mental dan mengutak-atik proyek saya sendiri.",
+                "scores": {
+                    "pionier": 2,
+                    "optimierer": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q22_der_antwort_allen_fail",
+        "category": "team_leadership",
+        "question": "Sebuah daftar email meledak ('balas semua'). Nada mulai kasar, daftar CC makin panjang. Peranmu?",
+        "answers": [
+            {
+                "text": "Saya turun tangan sebagai penengah, pindah ke telepon, dan mencoba meredakan situasi secara offline.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Saya akhiri drama ini dengan email yang sangat keras, super berbasis fakta, dalam poin-poin. Diskusi selesai.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Saya lampirkan tiga PDF dan satu notulen yang membuktikan tanpa ragu bahwa departemen saya tidak bersalah.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Saya sudah mengarsipkan rangkaian email itu setelah email kedua dan sejak lama mengerjakan hal lain.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q23_unbezahlte_ueberstunden",
+        "category": "team_leadership",
+        "question": "Atasanmu secara implisit (tapi tidak tertulis di kontrak) mengharapkan kamu cek email di akhir pekan. Kenapa kamu tetap melakukannya?",
+        "answers": [
+            {
+                "text": "Karena saya panik kalau Senin pagi bakal ada kekacauan besar yang nanti sudah tidak bisa saya kendalikan.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Karena gelombang PHK sedang jalan dan saya harus memastikan saya dianggap tak tergantikan.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Karena saya ingin bos melihat betapa ekstremnya komitmen saya. Itu mengamankan posisi saya di peringkat alpha.",
+                "scores": {
+                    "fear_status": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Karena kalau saya tidak melakukannya, pekerjaan akan jatuh ke rekan saya yang malang. Dan dia memang sudah di ujung batas.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q24_onboarding",
+        "category": "team_leadership",
+        "question": "Kamu harus melatih karyawan baru. Apa pendekatanmu?",
+        "answers": [
+            {
+                "text": "Saya serahkan wiki 50 halaman yang saya tulis sendiri dan berharap dia mengikuti prosesnya.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Saya ajak dia ngopi dulu, kenalkan ke semua orang, dan pastikan dia merasa aman secara emosional.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Saya jelaskan visi besarnya, kasih dia masalah yang kompleks, lalu lihat apakah dia bisa berenang.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Saya langsung kasih tugas yang keras dan terukur. Kalau dia gagal, saya tahu posisinya.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q25_fuehrungsstil",
+        "category": "team_leadership",
+        "question": "Kalau jujur total: apa kelemahan terbesarmu kalau harus memimpin tim?",
+        "answers": [
+            {
+                "text": "Saya akan menghindar dari memberi umpan balik yang keras dan negatif, karena saya benci konflik.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Saya akan terlalu banyak micromanage, karena saya memang tidak percaya orang lain bisa seperfek saya.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Saya mungkin terlalu tidak sabar, kasar, dan akan terlalu cepat memecat orang yang membuang waktu saya.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Saya akan tenggelam dalam kekacauan, lupa urusan administratif, dan bikin orang kewalahan dengan perubahan arah saya yang terus-menerus.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q26_flurfunk",
+        "category": "team_leadership",
+        "question": "Di koridor, ada gosip yang sangat toksik tentang rekan kerja yang tidak ada di ruangan. Sikapmu?",
+        "answers": [
+            {
+                "text": "Saya menjauh tanpa komentar. Gosip itu tidak profesional dan tidak efisien.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Saya buka suara, bilang keras pendapat saya, dan langsung mengakhiri gosip itu.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Saya diam saja, mungkin ikut tertawa sopan, tapi di dalam saya merasa sangat buruk.",
+                "scores": {
+                    "fear_status": 1,
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "Saya diam-diam menemui rekan yang jadi korban nanti dan mencoba menenangkannya secara emosional.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q27_delegation",
+        "category": "team_leadership",
+        "question": "Atasanmu melempar proyek 'no-win' besar (risiko tinggi, anggaran kecil) sepenuhnya ke kamu. Kenapa kamu menerimanya?",
+        "answers": [
+            {
+                "text": "Saya memang tidak berani bilang 'tidak' langsung ke muka atasan saya.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "Saya pakai ini sebagai alat kuasa. Kalau saya menyelamatkan proyek ini, kejayaannya milik saya dan saya minta gaji lebih tinggi.",
+                "scores": {
+                    "executor": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Karena saya satu-satunya orang di tim yang mampu menata kekacauan ini secara struktural.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Saya abaikan saja aturan yang absurd itu dan pakai proyek ini sebagai kotak pasir untuk metode yang sama sekali baru.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q28_brainstorming",
+        "category": "team_leadership",
+        "question": "Sesi brainstorming: seseorang melempar ide yang sama sekali tidak realistis dan absurd. Reaksimu?",
+        "answers": [
+            {
+                "text": "Saya langsung menolak: 'Kita tidak punya anggaran untuk itu. Terlalu lama. Usulan berikutnya.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Saya ikut total dan mengembangkan ide itu jadi jauh lebih gila lagi. Kadang dari kegilaan lahir inovasi.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Saya tunjukkan masalah kepatuhan dan proses yang langsung akan muncul dari ide itu.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Saya lebih baik diam. Walaupun saya suka idenya, saya tidak mau mempermalukan diri di depan grup.",
+                "scores": {
+                    "fear_status": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q29_das_meeting_danach",
+        "category": "team_leadership",
+        "question": "Setelah rapat keras dengan debat panas, kamu kembali ke meja. Apa yang kamu lakukan pertama kali?",
+        "answers": [
+            {
+                "text": "Saya langsung menulis notulen dengan semua keputusan dan menyebarkannya, supaya tidak ada yang bisa mundur belakangan.",
+                "scores": {
+                    "optimierer": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Saya bertanya berjam-jam dalam kepala, apakah saya terlalu kasar di menit 14 dan apakah rekan X sekarang membenci saya.",
+                "scores": {
+                    "fear_versagen": 1,
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Saya langsung mengerjakan daftar tugas. Bicara sudah selesai, sekarang hasil yang dikirim.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Saya buang semua yang dibahas di rapat, lalu memikirkan solusi yang lebih elegan.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q30_der_grenzueberschreitende_kunde",
+        "category": "operations_clients",
+        "question": "Seorang pelanggan (atau klien/pasien) jadi sangat menuntut, mengabaikan kesepakatan, dan mulai berteriak. Reaksi pertamamu?",
+        "answers": [
+            {
+                "text": "Saya serap emosinya, tetap sangat tenang, dan mencoba menenangkannya secara manusiawi, meskipun dia yang salah.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Saya tegur dia dengan dingin dan tajam soal batas kontrak kami. Kalau dia tidak bisa bersikap, dia keluar.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Saya langsung dokumentasikan kejadian itu secara detail di sistem, supaya nanti tidak ada yang bisa menuduh saya salah bertindak.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Saya abaikan proses standar dan cari celah kreatif yang tidak biasa untuk cepat menyingkirkannya.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q31_die_leere_schreibtisch_panik",
+        "category": "operations_clients",
+        "question": "Ini Jumat sore, telepon tidak berbunyi dan kamu sudah menyelesaikan semua tugas. Apa yang kamu rasakan?",
+        "answers": [
+            {
+                "text": "Rasa tidak nyaman yang samar. Kalau aku tidak terus-menerus menghasilkan, perusahaan mungkin sadar kalau mereka sebenarnya tidak butuh aku.",
+                "scores": {
+                    "fear_existenz": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Enak banget! Aku pakai waktunya untuk akhirnya menyempurnakan struktur folder dan template untuk minggu depan.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Aku mulai, cuma karena bosan, merancang proyek atau sistem baru yang sama sekali tidak dibahas sebelumnya.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Aku jalan keliling kantor (atau chat) dan tanya rekan-rekanku apakah aku bisa bantu tugas mereka.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q32_der_falsche_prozess",
+        "category": "operations_clients",
+        "question": "Kamu harus menyelesaikan sebuah tugas, tapi proses resmi perusahaan untuk itu sudah sangat usang dan butuh tiga kali lebih lama. Apa yang kamu lakukan?",
+        "answers": [
+            {
+                "text": "Aku ikuti proses itu persis. Aturan ya aturan, dan kalau ada yang salah, setidaknya aku aman.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Aku langgar aturannya, kerjakan dengan cara cepatku sendiri, dan tidak bilang siapa-siapa. Yang penting hasilnya benar.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Aku menulis konsep 10 halaman tentang bagaimana proses itu bisa direvolusi (yang ujung-ujungnya juga bakal mandek).",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Aku tidak berani menyimpang dari proses, karena aku takut kena masalah dengan compliance/bos.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "fear_status": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q33_freitag_kurz_vor_feierabend",
+        "category": "operations_clients",
+        "question": "Pukul 16:55. Masuk 'email darurat mutlak' dari bos. Ini bukan darurat sungguhan, cuma timing yang buruk. Apa yang kamu lakukan?",
+        "answers": [
+            {
+                "text": "Aku kerjakan, sambil mendidih di dalam. Kalau aku menolak, aku kehilangan status sebagai 'karyawan paling bisa diandalkan'.",
+                "scores": {
+                    "fear_status": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Laptop ditutup. Akhir pekan dimulai. Perencanaan buruk di pihaknya bukan berarti darurat di pihakku.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Aku langsung terjun. Akhirnya ada sedikit chaos dan adrenalin, bukan tugas rutin membosankan dari pagi tadi.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Aku langsung kerjakan. Takut dipermalukan di depan semua orang pada hari Senin terlalu besar buatku.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q34_neue_software_ausgerollt",
+        "category": "operations_clients",
+        "question": "Manajemen meluncurkan software baru yang mahal, yang katanya 'akan membuat semuanya lebih baik'. Pikiran pertamamu?",
+        "answers": [
+            {
+                "text": "Ya ampun. Semua daftar Excel dan rutinitas buatanku sendiri sekarang jadi tidak berguna. Aku benci ini.",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Aku langsung coba bagaimana caranya membobol sistem, menyalahgunakannya, atau memakainya untuk hal yang sama sekali lain.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Softwarenya terlalu lambat. Aku menolak memakainya sampai itu tidak lagi menghambat workflow-ku.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Aku sukarela membantu rekan-rekan yang lebih tua, yang sekarang benar-benar kewalahan, dalam proses transisi.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q35_der_oeffentliche_fehler",
+        "category": "operations_clients",
+        "question": "Kamu membuat kesalahan yang terukur dan mahal. Itu ketahuan di rapat besar. Reaksi spontanmu?",
+        "answers": [
+            {
+                "text": "Syok total di dalam. Imposter syndrome-ku langsung 1000%. Aku berharap lantai menelanku.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Aku pasang cakar dan menjelaskan, berdasarkan tiga variabel, kenapa itu memang tak terhindarkan dalam kondisi seperti itu.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Aku langsung mengaku tanpa ampun. 'Ya, itu salahku. Tidak akan terjadi lagi. Ini rencana untuk memperbaikinya.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Aku langsung menyebut kesalahan itu sebagai 'learning' atau 'prototipe tak direncanakan' dan mengalihkan diskusi ke ide baru.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q36_die_junioren_gefahr",
+        "category": "operations_clients",
+        "question": "Seorang karyawan muda yang sangat termotivasi mulai di timmu dan dia sangat cepat. Apa yang paling dalam memicu sesuatu di dirimu?",
+        "answers": [
+            {
+                "text": "Ketakutan telanjang bahwa gajiku terlalu tinggi dan mereka akan segera menggantikanku dengan versi yang lebih murah dan lebih lapar ini.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Aku suka. Aku akan membimbingnya dan mencoba membangun dia secara emosional dan profesional.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Dia agak menggangguku. Dia kurang struktur, bikin kesalahan ceroboh, dan membahayakan proses kami yang rapi.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Persaingan. Aku akan menaikkan performaku supaya jelas siapa bos di sini.",
+                "scores": {
+                    "executor": 2,
+                    "fear_status": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q37_scope_creep",
+        "category": "operations_clients",
+        "question": "Sebuah proyek (atau tugas) melebar total. Terus-menerus ada permintaan baru, tapi budget/waktunya tetap sama.",
+        "answers": [
+            {
+                "text": "Aku pasang tanda berhenti yang keras. 'Kalau kalian mau fitur X, kita hapus Y atau kalian bayar lebih.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Aku kerja diam-diam 12 jam sehari supaya semua permintaan tetap terpenuhi, karena aku tidak mau mengecewakan siapa pun.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Aku benar-benar kehilangan kesabaran, karena jadwal rapi dan strukturnya sekarang sudah hancur total.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Aku suka. Makin kacau dan besar benda itu, makin banyak ruang buatku membangun solusi yang tidak konvensional.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q38_der_visionaere_chef",
+        "category": "operations_clients",
+        "question": "CEO menyampaikan pidato yang berapi-api dan sangat visioner tentang masa depan perusahaan — tapi tanpa rencana konkret sama sekali.",
+        "answers": [
+            {
+                "text": "Aku sangat terpompa. Akhirnya ada orang yang berpikir besar dan menghancurkan batas-batas lama yang membosankan!",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Aku memutar mata di dalam hati. Lagi-lagi cuma buzzword, tapi kerja sebenarnya tetap jatuh ke orang-orang seperti aku.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Aku langsung mulai bikin tabel Excel yang rumit untuk menghitung bagaimana kita seharusnya mewujudkan ide gila ini.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Aku benar-benar khawatir berapa banyak tekanan tambahan dan lembur yang 'visi' ini akan bawa ke timku lagi.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q39_das_externe_angebot",
+        "category": "operations_clients",
+        "question": "Seorang headhunter mengirim pesan ke LinkedIn dan menawarkan telepon. Kenapa kamu (biasanya) menolak?",
+        "answers": [
+            {
+                "text": "Karena setan yang kukenal lebih baik daripada setan yang tidak kukenal. Aku benci perubahan.",
+                "scores": {
+                    "fear_veraenderung": 2
+                }
+            },
+            {
+                "text": "Karena aku yakin banget aku tetap tidak akan lolos assessment center di pekerjaan baru itu.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Karena di perusahaan sekarang aku sudah punya semacam 'senioritas'. Aku tidak mau mulai lagi sebagai orang baru di tempat lain.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Karena masa percobaan di sana berarti aku tidak punya perlindungan dari pemecatan selama enam bulan. Terlalu berisiko.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q40_der_energie_vampir",
+        "category": "burnout_stress",
+        "question": "Apa yang paling cepat dan paling brutal menguras bateraimu dalam kehidupan kerja sehari-hari?",
+        "answers": [
+            {
+                "text": "Hambatan birokratis yang tidak masuk akal dan proses lambat yang menghambatku seperti permen karet.",
+                "scores": {
+                    "pionier": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Kalau rekan kerja terus-menerus menumpahkan masalah emosional, keluhan, dan frustrasi mereka ke aku.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Instruksi yang tidak jelas dan terus berubah, sehingga aku tidak bisa membangun struktur yang rapi.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Orang-orang yang kronis tidak kompeten, tapi tetap boleh mengambil keputusan.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q41_die_krankschreibung",
+        "category": "burnout_stress",
+        "question": "Kamu bangun pagi dengan gejala sakit ringan tapi terasa nyata. Apa yang kamu lakukan?",
+        "answers": [
+            {
+                "text": "Aku tetap kerja (dari rumah). Aku panik kalau ada bola penting yang jatuh dan aku yang disalahkan.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Aku izin sakit. Kesehatan nomor satu. Tapi seharian aku merasa bersalah banget ke tim.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Aku gigit gigi dan tetap masuk. Orang yang terus-terusan bolos sakit bakal dilewatin saat promosi berikutnya.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Aku tetap kerja. Di kondisi ekonomi sekarang, aku nggak mau kasih bos alasan buat meragukan aku.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q42_stress_kompensation",
+        "category": "burnout_stress",
+        "question": "Setelah minggu kerja yang benar-benar horor: bagaimana kamu paling mungkin membius frustrasi di akhir pekan?",
+        "answers": [
+            {
+                "text": "Aku beli barang mahal atau manjain diri dengan kemewahan (makan, pakaian, mobil). Aku harus membuktikan ke diri sendiri kenapa aku melakukan semua ini.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Aku mengisolasi diri total, rebahan di sofa, dan butuh keheningan mutlak buat nenangin sistem sarafku.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Aku ikut kursus pengembangan diri, belajar hal baru, atau merencanakan minggu depan supaya akhirnya merasa punya kontrol.",
+                "scores": {
+                    "optimierer": 1,
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Aku terjun ke hobi yang benar-benar beda dan intens (olahraga, pesta, bikin-bikin) buat maksa kepala ini lepas.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q43_schlaflos_um_drei",
+        "category": "burnout_stress",
+        "question": "Sekarang jam 3 pagi, kamu menatap langit-langit dan nggak bisa tidur. Pikiran apa yang muter di kepalamu?",
+        "answers": [
+            {
+                "text": "'Apa aku bikin kesalahan penting di email kemarin? Gimana kalau besok bos lihat?'",
+                "scores": {
+                    "fear_versagen": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "'Gimana caranya keluar dari roda hamster ini tanpa menghancurkan keamanan finansialku sepenuhnya?'",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "'Tadi aku harusnya lebih keras di meeting. Besok aku bakal ngomelin si idiot itu.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "'Sebenarnya produk ini harus dibangun total beda... gimana kalau kita masukin fitur X?'",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q44_der_breaking_point",
+        "category": "burnout_stress",
+        "question": "Kapan kamu langsung resign (setidaknya di dalam hati) dari sebuah pekerjaan?",
+        "answers": [
+            {
+                "text": "Saat loyalitasku yang bertahun-tahun dan tanpa cela diabaikan, sementara seorang pencitra berisik malah lewat di depanku.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Saat aku merasa lingkungan toksik ini pelan-pelan mengubahku jadi orang yang lebih buruk dan sinis.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Saat aku harus minta izin untuk setiap langkah kecil dan dikontrol seperti anak kecil yang belum dewasa.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Saat aku diberi tanggung jawab atas sebuah target, tapi nggak dikasih kuasa atau anggaran yang dibutuhkan buat mencapainya.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q45_quiet_quitting",
+        "category": "burnout_stress",
+        "question": "Kerja sesuai kontrak ('Quiet Quitting'): kalau kamu benar-benar frustrasi, seperti apa bentuk protesmu?",
+        "answers": [
+            {
+                "text": "Aku jadi super formal. Aku kerjakan tepat 100% dari deskripsi pekerjaanku — nggak satu menit lebih, nggak ada tugas tambahan.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Aku diam-diam pakai waktu di kantor buat proyek sendiri, side hustle, atau belajar pakai biaya perusahaan.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Aku jadi sangat sinis, bikin komentar terbuka yang sarkastik, dan nunjukin rasa jijikku ke manajemen.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Aku berhenti jadi 'jiwa baik'. Aku nggak lagi ngurus ulang tahun dan nggak lagi nenangin rekan kerja di lorong.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q46_die_urlaubs_stoerung",
+        "category": "burnout_stress",
+        "question": "Kamu lagi rebahan di pantai saat liburan. HP-mu bunyi, bos yang nelpon. Apa yang terjadi?",
+        "answers": [
+            {
+                "text": "Aku nggak angkat, tapi detak jantungku ngebut. Setengah hari pantai jadi rusak karena takut mikirin apa yang terjadi.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "Aku angkat. Sebagian diriku malah senang lihat kalau tanpa aku, kantor langsung kebakaran.",
+                "scores": {
+                    "executor": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Aku angkat, karena aku panik kalau mengabaikannya bakal ada konsekuensi negatif buat pekerjaanku.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Aku langsung tolak mentah-mentah. HP-ku di mode 'Jangan Ganggu' dan aku nggak mikir sedetik pun soal itu lagi.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q47_warnung_vom_arzt",
+        "category": "burnout_stress",
+        "question": "Doktermu bilang langsung ke wajahmu: 'Nilai stres Anda berbahaya tinggi. Anda harus mengurangi beban.' Alasan jujurmu?",
+        "answers": [
+            {
+                "text": "'Aku tahu, tapi kalau sekarang aku melambat, aku bakal kehilangan posisi yang sudah susah payah aku bangun di hierarki.'",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "'Lebih gampang diomongin daripada dijalanin. Gajiku yang bayar cicilan. Aku jelas nggak mampu sakit.'",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "'Aku cuma perlu selesaikan satu proyek raksasa ini dan mengoptimalkan sistemku, habis itu bakal membaik.'",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "'Nggak bisa. Kalau aku tumbang, seluruh timku ikut ambruk. Mereka lagi butuh aku.'",
+                "scores": {
+                    "fear_versagen": 1,
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q48_die_leere_auszeichnung",
+        "category": "burnout_stress",
+        "question": "Alih-alih bonus yang sangat dibutuhkan, HR cuma kasih jabat tangan basah dan 'Resilience & Team Spirit Award'. Reaksimu?",
+        "answers": [
+            {
+                "text": "Marah total. Aku mau hasil yang bisa diukur, uang, atau wewenang. Selembar kertas berlaminasi itu penghinaan.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Aku senyum sopan, taruh di laci, dan tahu persis itu cuma taktik murahan buat nenangin kami.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Di dalam hati aku tetap agak senang. Setidaknya ada juga yang pernah lihat seberapa keras aku berjuang.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Aku pakai momen perhatian saat penyerahan itu buat langsung pitch proyek baruku di depan semua orang.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q49_der_falsche_fokus",
+        "category": "burnout_stress",
+        "question": "Kalau kamu lagi stres berat di kerjaan, kesalahan apa yang paling mungkin kamu lakukan?",
+        "answers": [
+            {
+                "text": "Aku tenggelam dalam perfeksionisme. Aku malah format sel Excel, bukan menyelesaikan masalah besar yang sebenarnya.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Aku jadi tiran buldoser. Aku menggilas rekan kerja dan melukai perasaan demi sampai ke tujuan.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Aku bilang 'iya' ke semuanya, ambil alih tugas orang lain, dan akhirnya tenggelam dalam gunung kerjaan orang lain.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Aku mulai lima jalur solusi baru sekaligus, nggak ada satu pun yang selesai, dan bikin tim kacau total.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q50_die_sonntags_luege",
+        "category": "burnout_stress",
+        "question": "Kebohongan hidup apa yang paling sering kamu bilang ke diri sendiri pada Minggu malam?",
+        "answers": [
+            {
+                "text": "'Minggu depan pasti lebih santai. Kalau proyek X sudah beres, semuanya bakal tenang.' (Nggak pernah).",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "'Aku lakukan ini 2-3 tahun lagi buat CV/uang, lalu aku cari sesuatu yang benar-benar bikin aku puas.'",
+                "scores": {
+                    "fear_existenz": 2,
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "'Aku memang belum cukup bagus/cepat. Minggu depan aku harus usaha lebih keras lagi.'",
+                "scores": {
+                    "fear_versagen": 2,
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "'Sebenarnya aku nggak tergantikan. Perusahaan bakal hancur tanpa aku, jadi aku harus tahan semua sandiwara ini.'",
+                "scores": {
+                    "fear_status": 2,
+                    "executor": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q51_das_veraltete_werkzeug",
+        "category": "industry_pseo",
+        "question": "Alat kerja utama Anda (baik itu perangkat lunak, mesin, atau sistem) sudah ketinggalan zaman total dan terus-menerus crash. Apa yang Anda lakukan?",
+        "answers": [
+            {
+                "text": "Saya bikin workaround ilegal atau merakit solusi sendiri untuk mengakali masalahnya.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Saya menekan manajemen habis-habisan. Kalau alatnya tidak layak, saya menolak memberi performa penuh.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Saya mendokumentasikan setiap crash dengan teliti, supaya nanti tidak ada yang bisa menyalahkan saya atas keterlambatan.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Saya menyesuaikan diri seadanya dan mencoba membantu rekan kerja yang secara teknis bahkan lebih tidak sanggup menghadapinya.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q52_die_sinnlose_kpi",
+        "category": "industry_pseo",
+        "question": "Manajemen memperkenalkan metrik yang benar-benar absurd untuk mengukur performa, dan itu mengabaikan kualitas nyata pekerjaanmu. Taktikmu?",
+        "answers": [
+            {
+                "text": "Saya mengoptimalkan pekerjaan saya secara dingin untuk memaksimalkan angka itu. Kalau mereka mau mengukur omong kosong, mereka dapat omong kosong.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Saya panik. Saya ingin memberi kualitas yang nyata, tapi sekaligus memenuhi target. Saya habis terbakar di antara dua kursi.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Saya melacak angkanya dengan sangat detail dan patuh pada aturan baru, meskipun prosesnya jadi lebih birokratis.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Saya terang-terangan menertawakannya dan tanpa diminta mengajukan konsep pengukuran lain yang jauh lebih baik.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q53_die_schwierige_zielgruppe",
+        "category": "industry_pseo",
+        "question": "Anda berhadapan dengan stakeholder yang sangat sulit (klien, customer, atau pasien) yang menghambat keahlian Anda. Bagaimana Anda bereaksi?",
+        "answers": [
+            {
+                "text": "Saya memutus keterikatan emosional. Saya kirim persis apa yang tertulis di kontrak atau proses — tidak lebih satu milimeter pun.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Saya terlalu memikirkannya. Saya menginvestasikan lebih banyak waktu untuk menemukan sisi personal dan 'menaklukkannya'.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Saya patuh persis pada pedoman. Selama saya tidak membuat kesalahan formal, saya aman.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_existenz": 1
+                }
+            },
+            {
+                "text": "Saya mencoba pendekatan yang sama sekali tidak konvensional, bahkan mungkin berisiko, untuk mematahkan polanya.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q54_der_akute_notfall",
+        "category": "industry_pseo",
+        "question": "Lima menit sebelum pulang kerja, terjadi keadaan darurat besar yang tak terduga di area tugas Anda. Apa yang terjadi di dalam diri Anda?",
+        "answers": [
+            {
+                "text": "Adrenalin murni. Akhirnya chaos yang nyata! Saya langsung tampil maksimal dan suka menyelesaikan masalah secara kreatif.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Saya langsung mengambil alih komando tanpa diminta, membagi tugas dengan keras, dan mematikan empati saya sepenuhnya.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Saya stres, tapi tetap menjalankan protokol darurat dengan presisi seperti mesin, persis seperti yang sudah saya latih.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Pikiran pertama saya adalah kekhawatiran terhadap orang-orang, pelanggan, atau rekan kerja yang sekarang terdampak krisis ini.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q55_abteilungs_krieg",
+        "category": "industry_pseo",
+        "question": "Sebuah departemen lain melempar tugas yang sama sekali tidak realistis dan buruk perencanaannya ke kalian.",
+        "answers": [
+            {
+                "text": "Saya menolaknya dengan agresif. 'Bukan masalah kami. Perencanaan kalian payah. Kembali lagi kalau kalian sudah mengerjakan PR kalian.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Saya kerjakan dengan terpaksa, supaya tidak terjadi perang terbuka antar departemen dan demi menjaga perdamaian.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Saya menulis email sepanjang halaman yang membuktikan bahwa ini melanggar semua kesepakatan dan SLA.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Saya mengabaikan semua aturan bodoh mereka dan membangun solusinya seperti yang menurut saya memang lebih siap untuk masa depan.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q56_die_dinnerparty_identitaet",
+        "category": "industry_pseo",
+        "question": "Di sebuah pesta, seseorang bertanya apa sebenarnya tugas inti Anda sebagai {{JOB_NAME}}. Apa jawaban sarkastis jujur Anda?",
+        "answers": [
+            {
+                "text": "'Saya memastikan tempat ini tidak ambruk karena beban inefisiensi dan inkompetensinya sendiri.'",
+                "scores": {
+                    "executor": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "'Saya sebenarnya cuma pemadam kebakaran profesional dan tempat sampah emosional untuk tim saya.'",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "'Saya memindahkan data/proses dari A ke B dan memastikan pada akhirnya tidak ada yang bisa menuntut kami.'",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_existenz": 1
+                }
+            },
+            {
+                "text": "'Saya mencoba mendorong inovasi, tapi 80% waktu saya habis untuk melawan birokrasi.'",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q57_theorie_vs_praxis",
+        "category": "industry_pseo",
+        "question": "Seorang pendatang baru baru lulus dari pelatihan/kuliah dan terus mengutip teori yang sama sekali tidak jalan di praktik kalian.",
+        "answers": [
+            {
+                "text": "Saya habisi dia secara verbal. 'Lupakan semua yang kamu pelajari. Di luar sini anginnya beda.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Saya sengaja membiarkannya (tapi tetap aman) sekali menabrak tembok penuh, supaya dia belajar sendiri.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Saya menariknya ke samping dan dengan hati-hati menerjemahkan teori itu ke fakta keras dari praktik kami, tanpa mematikannya semangatnya.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Saya menjejalkan dokumen proses internal kami ke tangannya. Siapa pun yang patuh pada itu tidak bikin kesalahan.",
+                "scores": {
+                    "optimierer": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q58_das_gekappte_budget",
+        "category": "industry_pseo",
+        "question": "Sumber daya terpenting kalian (anggaran, material, atau personel) tiba-tiba dipotong 20%. Apa yang Anda lakukan?",
+        "answers": [
+            {
+                "text": "Saya memperingatkan manajemen secara tertulis bahwa kualitas sekarang akan turun tepat 20%. Itu bukan masalah saya.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Saya kerja lembur tanpa dibayar untuk menutup kekurangan itu, karena saya tidak bisa meninggalkan tim dan klien begitu saja.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_existenz": 1
+                }
+            },
+            {
+                "text": "Saya langsung memangkas 20% tugas yang paling sedikit memberi nilai, tanpa minta izin siapa pun.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Saya melihatnya sebagai batasan olahraga. Sering kali, pemotongan anggaran justru melahirkan hack paling inovatif.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q59_der_branchentrend",
+        "category": "industry_pseo",
+        "question": "Sebuah tren baru yang disruptif (misalnya kecerdasan buatan atau undang-undang baru) sedang melanda industri Anda. Sikap batin Anda?",
+        "answers": [
+            {
+                "text": "Terpesona. Saya orang pertama yang mencobanya, merusaknya, lalu melihat hal gila apa yang bisa kami bangun darinya.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Perhitungan dingin. Saya hanya memakainya kalau benar-benar menghemat waktu atau uang secara terukur. Hype-nya saya abaikan.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Takut. Apakah pengetahuan ahli yang susah payah saya bangun akan segera jadi tidak bernilai atau tergantikan?",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Khawatir. Dengan otomatisasi ini, apakah sisa sedikit kemanusiaan dalam profesi kita ikut hilang?",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q60_der_geheime_karrierewunsch",
+        "category": "industry_pseo",
+        "question": "Kalau Anda punya tongkat sihir untuk karier Anda sebagai {{JOB_NAME}}, apa yang akan Anda minta hari ini?",
+        "answers": [
+            {
+                "text": "Posisi dengan wewenang mutlak untuk mengambil keputusan, anggaran maksimal, dan nol micromanagement dari atas.",
+                "scores": {
+                    "executor": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Peran di mana saya boleh menciptakan masa depan setiap hari, tapi orang lain yang mengurus semua urusan administrasi yang menyebalkan.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Pekerjaan yang aman total, terstruktur sempurna, tanpa kejutan, dan bisa saya tinggalkan di kantor jam 5 sore.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Peran di mana saya punya pengaruh nyata dan mendalam pada orang lain, tanpa sampai burnout secara mental.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q61_die_kuendigungs_fantasie",
+        "category": "career_change_exit",
+        "question": "Kalau kamu duduk di kantor dan kepikiran resign: seperti apa fantasi rahasia di kepalamu?",
+        "answers": [
+            {
+                "text": "Aku lempar semua fakta keras soal inkompetensi bosku ke meja, lalu pergi dengan kepala tegak.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Aku menghilang begitu saja, tanpa drama. Aku bermimpi besoknya semua pengetahuanku mendadak hilang.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Aku nekat bikin usaha sendiri dengan ide radikal dan gila, lalu membuktikan ke semua orang kalau jalanku memang lebih baik.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Aku sering punya fantasi ini, tapi lalu aku ingat rekan-rekan favoritku dan langsung merasa bersalah.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_veraenderung": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q62_das_gegenangebot",
+        "category": "career_change_exit",
+        "question": "Kamu mengajukan resign. Bosmu panik dan langsung menawarkan gaji 20% lebih tinggi. Apa yang terjadi?",
+        "answers": [
+            {
+                "text": "Aku tetap tinggal. Tambahan 20% keamanan itu bantalan besar buat biaya tetapku. Emosi urusan belakangan.",
+                "scores": {
+                    "fear_existenz": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Aku tolak mentah-mentah. Terlambat. Siapa yang baru mau bayar saat aku pergi, sudah lama kehilangan respekku.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Aku tetap tinggal. Tapi cuma karena bayangan harus membuktikan diri lagi di perusahaan baru bikin aku panik.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Aku ambil uangnya, nego sekalian titel baru, lalu santai saja sambil nge-push nilai pasarku.",
+                "scores": {
+                    "fear_status": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q63_quereinstieg_blockade",
+        "category": "career_change_exit",
+        "question": "Kamu kepikiran pindah total ke industri lain. Apa yang paling menahanmu?",
+        "answers": [
+            {
+                "text": "Takut harus mulai lagi dari bawah secara finansial dan kehilangan standar hidupku.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Hilangnya 'senioritas'ku. Aku nggak mau jadi pemula bego yang dijelasin dunia sama anak 25 tahun.",
+                "scores": {
+                    "fear_status": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Bukti formal yang nggak ada. Tanpa kertas / sertifikat yang tepat untuk industri baru itu, aku nggak berani.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Aku punya terlalu banyak minat, jadi aku memang nggak bisa mengunci diri ke satu arah baru saja.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q64_bewerbungs_horror",
+        "category": "career_change_exit",
+        "question": "Apa pikiran horor paling parah buatmu saat harus wawancara kerja?",
+        "answers": [
+            {
+                "text": "Aku ditanya hal teknis yang nggak punya jawaban sempurna, lalu dibongkar sebagai 'penipu'.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Aku harus memelintir diri dan ikut main dalam drama HR palsu 'kami ini keluarga besar'.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Aku ditolak. Egoku susah banget menerima penolakan, apalagi kalau aku sudah membuka diri.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Aku sama sekali nggak tahu harus jawab apa saat mereka tanya: 'Lima tahun lagi Anda di mana?' (Aku benci rencana macam itu).",
+                "scores": {
+                    "pionier": 2,
+                    "fear_veraenderung": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q65_lebenslauf_luege",
+        "category": "career_change_exit",
+        "question": "Kalau kita bedah CV-mu tanpa ampun: di mana 'titik lemah' terbesarnya menurutmu?",
+        "answers": [
+            {
+                "text": "Di atas kertas aku kelihatan seperti birokrat kaku, karena kemampuan nyelesain masalahku yang asli nggak muat di sertifikat mana pun.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Aku menjual diriku terlalu murah. Aku pakai kata-kata rendah hati, padahal faktanya aku bertahun-tahun menopang seluruh departemen.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "CV-ku berantakan. Aku sering pindah atau berhenti di tengah jalan kalau struktur kaku sudah keterlaluan.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Sebenarnya nggak ada titik lemah, CV-ku kuat. Tapi aku khawatir ekspektasi gajiku bikin HR kabur.",
+                "scores": {
+                    "executor": 2,
+                    "fear_existenz": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q66_das_sabbatical",
+        "category": "career_change_exit",
+        "question": "Perusahaan memaksamu ambil sabbatical berbayar 6 bulan. Apa yang kamu lakukan setelah minggu ke-2?",
+        "answers": [
+            {
+                "text": "Aku langsung bangun proyek sendiri atau side business, karena otakku membusuk kalau nggak ada output kreatif.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Aku bantu teman, terlibat sosial, atau jatuh ke peran 'si pengurus' di lingkungan pribadi.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Aku pakai waktunya buat belajar obsesif (sertifikat, kursus) supaya nilai pasarku naik saat balik kerja.",
+                "scores": {
+                    "optimierer": 1,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Aku nggak ngapa-ngapain. Aku mengoptimalkan hidup pribadiku seperti proyek dan menikmati kuasa penuh atas waktuku.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q67_freelancing_traum",
+        "category": "career_change_exit",
+        "question": "Soal jadi mandiri / freelancing. Kenapa kamu belum benar-benar ambil langkah itu?",
+        "answers": [
+            {
+                "text": "Aku bukan sales. Aku benci harus jual diri sendiri dan mengejar klien.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Pajak, pembukuan, risiko hukum. Satu invoice salah dan kamu bisa satu kaki di penjara.",
+                "scores": {
+                    "fear_existenz": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Aku butuh tim tetap di sekitarku. Isolasi sebagai pejuang tunggal bakal menguras emosiku.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Aku sudah lama coba atau jalan sambil lalu. Kekhawatiran utamaku malah aku cepat bosan.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q68_der_tropfen_im_fass",
+        "category": "career_change_exit",
+        "question": "Kita semua punya batas toleransi. Hal kecil, hampir konyol, apa yang langsung bikin kamu resign?",
+        "answers": [
+            {
+                "text": "Kalau peralatanku diatur seenaknya (misalnya dipaksa pakai laptop Windows paling murahan) dan workflow-ku dihancurkan.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Kalau bosku menghapus tabel Excel atau proses rapi yang kubuat, lalu menggantinya dengan solusi darurat yang goyah.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Kalau aku dilarang menyelesaikan tugas simpel 5 menit dengan caraku sendiri karena 'prosesnya nggak mengatur begitu'.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Kalau ada rekan timku dimaki tanpa alasan dan aku satu-satunya yang harus diam melihat.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q69_die_gehaltsverhandlung",
+        "category": "career_change_exit",
+        "question": "Besok kamu punya pembicaraan penentu soal kenaikan gaji. Malam ini kamu menyiapkan diri bagaimana?",
+        "answers": [
+            {
+                "text": "Aku bikin daftar dingin KPI dan pencapaianku. Kalau mereka nggak bayar, aku sudah tahu rencana exit-ku.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Aku latihan di depan cermin, karena aku takut banget di momen penting jadi lembek atau mundur.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_veraenderung": 2
+                }
+            },
+            {
+                "text": "Aku kumpulkan tabel gaji dari internet supaya tuntutanku bisa dibenarkan secara lengkap dan objektif.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Aku lebih mikir soal kebebasan baru, budget, atau hari remote yang bisa dinegosiasikan. Uang saja nggak cukup buatku.",
+                "scores": {
+                    "pionier": 2,
+                    "fear_status": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q70_der_neustart",
+        "category": "career_change_exit",
+        "question": "Kalau besok kamu mulai di perusahaan baru, di [Cluster] yang sama sekali baru: prioritas nomor 1 kamu apa?",
+        "answers": [
+            {
+                "text": "Kepercayaan yang nyata. Aku nggak mau lagi harus membenarkan setiap keputusan kecil.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Kehangatan manusia. Aku butuh tim yang nggak saling tikam dari belakang terus-menerus.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Kejelasan mutlak. Aku mau tahu persis aku diukur dari apa dan prosesnya seperti apa.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Uang dan otonomi. Aku mau dibayar adil atas hasilku dan bisa kerja dengan tenang.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    }
+]

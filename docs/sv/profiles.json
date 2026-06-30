@@ -1,0 +1,370 @@
+[
+    {
+        "profile_id": "pionier_existenzangst",
+        "base_type": "Den strategiska pionjären",
+        "fear_mutation": "Existenzångest",
+        "name": "Den komprometterade pionjären",
+        "headline": "Du har briljanta idéer, men du sålde dig för smärtpengarna i slutet av månaden.",
+        "corporate_view": "Du ses i företaget som ett visionärt huvud som tänker långt bortom den egna avdelningens horisont. Man uppskattar att du direkt ser ineffektivitet, förstår helheten och i teorin har potential att radikalt uppfinna stelnade affärsmodeller på nytt. För ledningen är du en värdefull tillgång, eftersom du sätter fingret exakt på såret och avslöjar strategiska blinda fläckar.",
+        "shadow_conflict": "Du har anpassat dig till systemet – och just det dödar dig inifrån lite varje dag. Du ser knivskarpt hur företaget kör rakt mot väggen med öppna ögon, eller hur absurda och dumma de etablerade processerna är. Men du håller tyst i de avgörande mötena. Varför? För att rädslan för dina fasta kostnader, nästa avbetalning, din levnadsstandard och den bedrägliga tryggheten i ditt anställningsavtal är mycket större än din egentliga drift mot innovation. Du gör bara pliktskyldig tjänst, trots att din hjärna är gjord för disruption och verklig förändring. Det här gyllene buren du byggt åt dig själv gör dig allt mer cynisk, bitter och stjäl din kreativa livsenergi.",
+        "action_steps": [
+            "Kapa den emotionella avkastningen: Sluta lägga värdefull mental energi i ett system som ändå inte genomför dina idéer. Gör fortfarande ditt jobb bra och professionellt, men dra konsekvent bort din emotionella bindning. Företaget är inte din familj, det är din nuvarande betalare.",
+            "Bygg ditt 'Fuck-You-Money': Sänk din levnadsstandard tillfälligt och bygg aggressivt upp en ekonomisk buffert. Först när du realistiskt kan överleva 6 månader utan den här lönen kommer din hjärna att stänga av paniken och du vågar ta riktiga risker igen och säga vad du tycker.",
+            "Kanalisera din disruption: Använd din uppdämda, outnyttjade kreativitet till ett hemligt sidoprojekt. Alternativt: Förbered din exit och sök dig till starkt tillväxtdrivna startups eller scaleups som belönar just den här obändiga hungern efter innovation i stället för att kväva den."
+        ],
+        "monetization_hook": {
+            "topic": "Starta vid sidan av & ekonomiskt oberoende",
+            "keywords": [
+                "Fuck You Money",
+                "Side Hustle",
+                "Ekonomisk frihet",
+                "Egen verksamhet vid sidan av"
+            ]
+        }
+    },
+    {
+        "profile_id": "pionier_versagensangst",
+        "base_type": "Den strategiska pionjären",
+        "fear_mutation": "Rädsla för att misslyckas",
+        "name": "Den blockerade pionjären",
+        "headline": "Du planerar revolutionen i skrivbordslådan, för du får total panik av verkligheten.",
+        "corporate_view": "Man känner dig i företaget som en extremt djuptänkande analytiker och arkitekt. Du levererar aldrig halvfärdiga koncept. Kollegorna beundrar hur du tänker igenom nya strategier, produkter eller processer in i minsta detalj innan de ser dagens ljus. Du är garantin för intellektuell tyngd och vattentäta planer.",
+        "shadow_conflict": "Ditt impostor-syndrom har dig i ett totalt strypgrepp. På din hårddisk ligger hundratals påbörjade koncept, briljanta idéer och visioner – men du trycker aldrig på 'Launch'. Du intalar dig själv och andra att produkten eller idén 'bara inte är perfekt än'. Den brutala sanningen är en annan: Du är livrädd för att din idé ska misslyckas i verkligheten, slitas sönder av kritiker och att du till slut avslöjas som en bedragare. Din så hyllade perfektionism är inte längre kvalitetskontroll, utan din mest geniala ursäkt för att aldrig behöva ta verklig risk. Du gömmer dig bakom planeringen.",
+        "action_steps": [
+            "Inför 80%-paradigmet: Tvinga dig själv till den obekväma sanningen: 'Done is better than perfect'. Publicera, skicka eller presentera din nästa idé medvetet i ett ofärdigt skick. Lär dig att stå ut med obehaget i det ofullkomliga.",
+            "Koppla loss ditt egenvärde: Separera ditt personliga värde strikt från ditt arbete. Om ett concept från dig misslyckas betyder det inte att du som människa är en förlorare. Det betyder bara att en saklig hypotes testades och motbevisades på marknaden eller i teamet.",
+            "Hitta din motpol: Skaffa dig en pragmatisk genomförandepartner (en 'Executor'). Du behöver någon vid din sida som obarmhärtigt och snabbt får ut dina idéer på banan och trycker på knappen medan du fortfarande sitter fast i din själv-tvivel-loop."
+        ],
+        "monetization_hook": {
+            "topic": "Bli av med impostor-syndromet & exekveringsstrategier",
+            "keywords": [
+                "Impostor syndrom",
+                "Lean Startup",
+                "Släpp perfektionismen",
+                "Avsluta projekt"
+            ]
+        }
+    },
+    {
+        "profile_id": "pionier_statusverlust",
+        "base_type": "Den strategiska pionjären",
+        "fear_mutation": "Statusförlust",
+        "name": "Den iscensatta pionjären",
+        "headline": "Du älskar att hyllas som den kreativa rebellen – så länge tjänstebilen inte är i fara.",
+        "corporate_view": "Du uppträder i yrkeslivet som en extremt karismatisk förnyare som utan problem kan få med sig team, avdelningar och intressenter. Man beundrar din sällsynta förmåga att paketera komplex, torr innovation i spännande visioner och sälja dem uppåt till toppledningen på ett utmärkt sätt. Du är den lysande fanbäraren för framsteg.",
+        "shadow_conflict": "Du har blivit en mästare på självscenframställning. Du pratar högt och gärna om 'New Work', agilitet, disruption och platta hierarkier. Du är den som håller de flammande, inspirerande talen på townhall-mötena. Men så fort det blir skarpt läge – så fort du skulle behöva riskera din egen position, din budget eller ditt rykte hos styrelsen för en verklig övertygelse – viker du ner dig. Du faller direkt tillbaka in i det politiska spelet i de gamla hierarkierna. Din påstådda revolt är ofta bara smart kalkylerad PR för egen vinning. Långt där inne fruktar du inget mer än att förlora din status och försvinna in i den grå betydelselösheten i mellanchefsnivån.",
+        "action_steps": [
+            "Arbeta i skuggan: Sluta använda innovation som ett rent verktyg för ditt ego och din synlighet. Tvinga dig själv att genomföra ett viktigt projekt som hjälper företaget massivt, men där du officiellt inte får någon credit, ingen scen och inget beröm.",
+            "Omfamna konflikten: Lämna din politiska komfortzon. Verklig förändring betyder alltid att man angriper privilegier och skaffar sig fiender. Acceptera att du som sann pionjär inte kan vara allas favorit bland chefer och kollegor.",
+            "Ego-checken: Ställ dig före varje nytt initiativ den hårda, ärliga frågan: Handlar det här verkligen om sakfrågan och framsteg – eller putsar du just nu bara nyckelorden för din LinkedIn-profil?"
+        ],
+        "monetization_hook": {
+            "topic": "Autentiskt ledarskap & egohantering",
+            "keywords": [
+                "Ego is the Enemy",
+                "Autentiskt ledarskap",
+                "Tjänande ledarskap",
+                "Statusångest"
+            ]
+        }
+    },
+    {
+        "profile_id": "pionier_veraenderungsangst",
+        "base_type": "Den strategiska pionjären",
+        "fear_mutation": "Förändringsrädsla",
+        "name": "Den frustrerade drömmaren",
+        "headline": "Du gnäller varje dag över den byråkratiska helvetesmaskinen – men ironiskt nog är du alldeles för bekväm för att gå.",
+        "corporate_view": "Man känner dig i systemet som en pålitlig, om än kritisk, idégivare. Du kan svagheterna, flaskhalsarna och de historiska misstagen i det egna systemet utan och innan och kan peka ut dem träffsäkert. Alla vet: om man vill veta varför en process hackar, ska man fråga dig.",
+        "shadow_conflict": "Du är den högljuddaste och mest vältaliga kritikern i fikarummet. Du lider ärligt och tydligt under Excel-helvetet, de ändlösa godkännandekedjorna och företagets stela regler. Din standardsats är: 'Man borde egentligen riva hela det här stället och bygga om från grunden.' Men djupt där inne har du massiv, förlamande rädsla för att lämna dina bekväma, extremt förutsägbara rutiner. Ditt ständiga gnäll har paradoxalt nog blivit din säkraste komfortzon. En riktig omstart i ett annat företag skulle nämligen betyda att du förlorar nybörjarskyddet och plötsligt måste bevisa stenhårt igen hur bra du faktiskt är i praktiken.",
+        "action_steps": [
+            "30-dagarsultimatumet: Sätt en hård deadline idag. Antingen har du om exakt 30 dagar uppdaterat ditt CV och skickat din första ansökan, eller så förlorar du från och med idag den moraliska rätten att någonsin klaga på ditt jobb eller din chef igen. Acceptera eller exit.",
+            "Träna mikroförändringar: Träna den slappa förändringsmuskeln i det lilla. Bryt medvetet dina triviala dagliga rutiner (annan väg till jobbet, andra verktyg, andra pauser) för att ta bort hjärnans rädsla för kontrollförlust.",
+            "Döda nostalgins grepp: Sluta romantisera företagets förflutna ('Förr var allt mer agilt här'). Acceptera den kalla verkligheten: Systemet kommer inte att förändras för din skull. Det är du som måste röra på dig."
+        ],
+        "monetization_hook": {
+            "topic": "Beslutsfattande & radikal karriärväxling",
+            "keywords": [
+                "Ta beslut",
+                "Lämna komfortzonen",
+                "Våga byta bana",
+                "Karriärbyte"
+            ]
+        }
+    },
+    {
+        "profile_id": "executor_existenzangst",
+        "base_type": "Den pragmatiska executorn",
+        "fear_mutation": "Existensångest",
+        "name": "Den dresserade doern",
+        "headline": "Du skulle kunna vända hela stället själv, men du biter dig i tungan för att du behöver lönen.",
+        "corporate_view": "För företaget är du ett absolut arbetshäst och en extremt pålitlig pelare i den operativa vardagen. Du är den som översätter luddiga, verklighetsfrånvända direktiv från ledningen till hårda, mätbara resultat och ser till att siffrorna håller kursen till kvartalets slut.",
+        "shadow_conflict": "Du kokar inombords av ilska varje dag. Du ser den uppenbara ineffektiviteten, uthärdar ledningens dumma, verklighetsfrånvända beslut och drar med dig kollegor som helt enkelt inte levererar. Egentligen skriker varje instinkt i dig att du ska gå hårt fram, göra tabula rasa och rensa bordet. Men du gör det inte. Din ständiga, bultande rädsla för årsbonusen, det pågående bostadslånet eller din höga levnadsstandard tvingar dig in i underordning. Du sväljer din instinktiva pragmatism, gör motvilligt de mest meningslösa uppgifterna och förvandlas långsamt men säkert till en avtrubbad, bitter cyniker.",
+        "action_steps": [
+            "Stäng av den gyllene fällan: Sänk dina fasta kostnader direkt. Ditt ekonomiska beroende är den absolut enda anledningen till att du fortfarande accepterar inkompetensen uppifrån. Frihet börjar på kontot, inte i huvudet.",
+            "Emotionell avinvestering: Sluta engagera dig känslomässigt i projekt när du saknar mandat att faktiskt styra dem. Leverera exakt det du får betalt för, och stäng sedan av mentalt helt.",
+            "Byt spelplan: Du hör hemma i en renodlat prestationsdriven miljö (t.ex. försäljning, interim management eller ett eget företag). Sök dig till en miljö där det inte finns någon byråkratisk politik, utan där din obarmhärtiga pragmatism direkt översätts till pengar och mätbar framgång."
+        ],
+        "monetization_hook": {
+            "topic": "Stoicism i jobbet & prestationskarriärer",
+            "keywords": [
+                "Stoicism",
+                "Interim Management",
+                "Provisionsmodeller",
+                "Emotionell distans på jobbet"
+            ]
+        }
+    },
+    {
+        "profile_id": "executor_versagensangst",
+        "base_type": "Den pragmatiska executorn",
+        "fear_mutation": "Rädsla för att misslyckas",
+        "name": "Den tyranniske doern",
+        "headline": "Du tar på dig alla uppgifter för att du inte litar på andra – och brinner upp i ditt eget mikrostyrande.",
+        "corporate_view": "Du uppfattas i företaget som en extremt genomdrivande ledarpersonlighet. Du tar utan minsta tvekan fullt ansvar för högkritiska projekt, går före och driver teamet till synes outtröttligt mot topprestationer. När det brinner, ringer man dig.",
+        "shadow_conflict": "Du maskerar din nakna panik inför kontrollförlust som 'effektivitet' och 'kvalitetskrav'. Långt där inne fruktar du hela tiden att något ska gå fel och slå tillbaka på dig. Därför delegerar du aldrig på riktigt. Du lämnar visserligen över uppgifter, men är i slutändan flaskhalsen i din egen framgång, eftersom du till slut ändå sitter och korrigerar varje mejl, varje presentation och varje dokument själv klockan 23 på natten. Du intalar dig att ditt team är inkompetent, men den giftiga sanningen är: du ger dem aldrig ens utrymme att arbeta självständigt och göra misstag, eftersom DU skakar inför konsekvenserna av ett misstag.",
+        "action_steps": [
+            "80%-regeln som lag: Acceptera äntligen: En uppgift som en medarbetare gör 80% så bra som du är inte en kvalitetsförlust – det är en massiv vinst för din egen begränsade livstid.",
+            "Tillåt kontrollerad smärta: Låt medvetet och avsiktligt ett mindre, oviktigt projekt köra i diket eller tolerera ett synligt misstag i ditt team. Du måste uppleva att världen inte går under av det.",
+            "Arkitekt istället för hantverkare: Byt identitet. Du är inte längre den bästa 'utföraren'. Du är nu en 'systemarkitekt'. Din uppgift är att bygga robusta processer som fungerar även när du inte är i rummet."
+        ],
+        "monetization_hook": {
+            "topic": "Effektiv delegering & systematisering",
+            "keywords": [
+                "Lära sig delegera",
+                "Släppa mikrostyrning",
+                "Ledarskapsförmåga",
+                "Bygga system"
+            ]
+        }
+    },
+    {
+        "profile_id": "executor_statusverlust",
+        "base_type": "Den pragmatiska executorn",
+        "fear_mutation": "Statusförlust",
+        "name": "Den territoriella doern",
+        "headline": "Du blandar ihop ledarskap med dominans, för du är livrädd för att halka ner i rankingen.",
+        "corporate_view": "Man ser dig i organisationen som en högkompetitiv alpha-spelare som alltid vill vinna och oftast också gör det. Du säkrar marknadsandelar, vinner de tuffaste förhandlingarna och försvarar din egen avdelnings intressen och budgetar utåt på ett extremt hårt och kompromisslöst sätt.",
+        "shadow_conflict": "Ditt ego är din största och farligaste blinda fläck. Du mäter ditt personliga värde enbart utifrån storleken på din budget, din jobbtitel och vem som får sista ordet i det avgörande mötet. Du kör över andra kollegor retoriskt och tar åt dig teamets framgångar. Inte för att det vore bäst för saken eller företaget, utan för att du har en ofattbar, ständig rädsla för att någon annan, yngre eller högre ljudande alpha ska springa om dig. Din omgivning respekterar dig visserligen för din hårdhet och dina resultat, men bakom din rygg finns ingen verklig lojalitet. Egentligen väntar alla bara på att du någon gång ska snubbla.",
+        "action_steps": [
+            "Samarbete istället för krig: Sluta slåss mot ditt eget team eller andra avdelningar. Verklig, souverän styrka visar sig inte i att hålla andra nere, utan i att tåla kompetenta människor bredvid dig och till och med låta dem växa.",
+            "Radikal lyssningsträning: Tvinga dig själv i nästa viktiga möte att i tre minuter absolut inte avbryta någon, inte röra en min och inte komma med något eget lösningsförslag. Tåla tystnaden och låt andra glänsa.",
+            "Reflektera över skalbarheten: Att leda genom rädsla och dominans fungerar kortsiktigt och ger snabba siffror. Att leda genom djup respekt och psykologisk trygghet är däremot det enda som skalar långsiktigt och förhindrar utbrändhet."
+        ],
+        "monetization_hook": {
+            "topic": "Modernt ledarskap & maktdynamik",
+            "keywords": [
+                "Maktspel på kontoret",
+                "Tjänande ledarskap",
+                "Emotionell intelligens för chefer",
+                "Ego is the enemy"
+            ]
+        }
+    },
+    {
+        "profile_id": "executor_veraenderungsangst",
+        "base_type": "Den pragmatiska executorn",
+        "fear_mutation": "Förändringsrädsla",
+        "name": "Den envisa doern",
+        "headline": "Du försvarar dina gamla metoder med näbbar och klor, för du är rädd att bli nybörjare igen i det nya.",
+        "corporate_view": "Du är klippan i stormen. Du besitter ovärderlig, djup erfarenhetskunskap om de operativa flödena och vet som en av få fortfarande exakt hur och varför kärnverksamheten har varit lönsam i åratal. När systemet skakar är du det pålitliga ankaret.",
+        "shadow_conflict": "Du är den oomstridda mästaren i dina nuvarande verktyg, Excel-listor och processer. Ingen lurar dig, du får saker gjorda i blindo och snabbare än alla andra. Men så fort nya metoder – som artificiell intelligens, agila ramverk eller ny molnprogramvara – kastas in i rummet, bygger du murar. Du avfärdar det högljutt i möten som 'nymodigt bullshit' som 'ändå aldrig fungerar i praktiken hos oss'. Den bittra sanningen bakom den här arrogansen: du är bara fruktansvärt rädd för att förlora din hårt förvärvade expertstatus över en natt och behöva börja om från noll som en dum nybörjare inför de yngre kollegorna.",
+        "action_steps": [
+            "Verklighetschecken: Acceptera marknadens hårda verklighet: Den som envist lever i det förflutna kommer inte att få betalt i den nära framtiden. Din nuvarande, stela processkunskap tappar värde rasande snabbt.",
+            "Det hemliga laboratoriet: Avsätt från och med nu två timmar i veckan som fast blocktid i kalendern för att målmedvetet lära dig ett nytt, disruptivt verktyg från din bransch. Gör det vid behov helt i hemlighet tills du känner dig säker nog att visa det för teamet.",
+            "Använd reverse mentoring: Sluta nedvärdera yngre kollegors arbetssätt arrogant. Gör dem i stället till dina mentorer för ny teknik och AI. I gengäld lär du dem din ovärderliga strategiska branschkunskap."
+        ],
+        "monetization_hook": {
+            "topic": "Framtidskompetenser & AI i ledning",
+            "keywords": [
+                "AI för chefer",
+                "Change Management",
+                "Reverse Mentoring",
+                "Agila metoder"
+            ]
+        }
+    },
+    {
+        "profile_id": "optimierer_existenzangst",
+        "base_type": "Den strukturella optimeraren",
+        "fear_mutation": "Existensångest",
+        "name": "Den osynliga fången",
+        "headline": "Du gör jobbet för tre personer, får betalt som en, och är för rädd för att ändra på det.",
+        "corporate_view": "Du är en extremt lojal och helt felfri medarbetare. Du utgör det osynliga, men extremt säkra fundamentet i avdelningen. Du är den som man kan lägga alla otacksamma, små och bakgrundsjobb på, eftersom ledningen vet exakt: du kommer att göra dem utan klagan, i tid och med perfektion.",
+        "shadow_conflict": "Du sitter fast i det absolut perfekta ekorrhjulet. Du vet rationellt mycket väl att du är kraftigt underbetald och att systemet utnyttjar din godhet skamlöst. Men du sväljer det och är tyst. Din rädsla för ekonomisk osäkerhet, för stressen i ett jobbyte eller för 'risken' med provanställning hos en ny arbetsgivare är så övermäktig att du hellre uthärdar det välbekanta, invanda eländet. Din hemliga överlevnadsstrategi: du hoppas innerligt att din chef någon gång 'av sig själv' ska märka hur ofattbart värdefull du är och självmant erbjuda dig en löneförhöjning. Spoiler: det kommer aldrig att hända.",
+        "action_steps": [
+            "Sluta vänta på 'belönaren': I business belönas inte prestation rättvist, utan enbart det förhandlade marknadsvärdet. Ingen ger dig pengar för tyst pliktskyldighet. Du måste kräva ditt värde aktivt, nästan affärsmässigt.",
+            "För ett prestationsdagbok: Dokumentera från och med nu (i minst en vecka) absolut varje uppgift som ligger utanför ditt egentliga kontrakt. Översätt dessa uppgifter mentalt till konkret sparade kostnader eller avvärjda kriser för företaget. Det är din förhandlingsmassa.",
+            "Det strategiska nej: Öva på att säga 'nej' i en trygg miljö. När nästa oplanerade 'kan-du-bara-snabbt'-uppgift kastas över staketet, svara: 'Gärna, men då måste projekt X ligga still idag. Din prioritering.'"
+        ],
+        "monetization_hook": {
+            "topic": "Löneförhandling för introverta",
+            "keywords": [
+                "Förhandla lön som introvert",
+                "Lära sig säga nej",
+                "Sätta gränser på jobbet",
+                "Ta reda på marknadsvärde"
+            ]
+        }
+    },
+    {
+        "profile_id": "optimierer_versagensangst",
+        "base_type": "Den strukturella optimeraren",
+        "fear_mutation": "Rädsla för att misslyckas",
+        "name": "Den paralyserade perfektionisten",
+        "headline": "Du formaterar om Excel-celler klockan 22 för att du är livrädd att ett litet fel ska kosta dig jobbet.",
+        "corporate_view": "Du är den oomstridda mästaren i kvalitetskontroll. Du ser operativa risker, logiska luckor och compliance-problem långt innan de kan orsaka skada i den verkliga världen. När du lämnar ifrån dig något vet alla i teamet: det här är absolut guldstandard.",
+        "shadow_conflict": "Det som utifrån ser ut som föredömlig ambition och flit är i själva verket ett massivt psykologiskt skyddsskal. Din perfektionism har blivit sjuklig. Du är paniskt, nästan fysiskt rädd för att någon ska kunna bevisa ett fel hos dig och att du inför alla andra ska avslöjas som inkompetent. Därför bygger du heltäckande, överdrivna protokoll, säkrar dig dubbelt och tredubbelt i CC-mejl och kontrollerar i hemlighet kollegornas arbete i stället för att gå hem. Det här beteendet stjäl enormt mycket livsenergi. Du brinner inombords av ren, oavbruten rädsla för kritik.",
+        "action_steps": [
+            "Brutalt Pareto-principen (80/20): Tillämpa den här regeln skoningslöst. Perfektion efter 80%-gränsen kostar dig exponentiellt mer tid och nerver, men den hårda verkligheten är: ingen utom du ser den marginella skillnaden. Den är irrelevant för business.",
+            "Fel-toleransträning: Skicka medvetet och avsiktligt ett internt, oviktigt utkast till en kollega där det fortfarande finns ett litet formaterings- eller stavfel. Se vad som händer. Du måste uppleva att ditt rykte inte förstörs av det.",
+            "Pragmatism över överdesign: Sluta försöka göra dig oantastlig genom artificiellt uppblåst komplexitet. Ett snabbt och pragmatiskt löst problem har mycket högre värde för ett företag än ett till 100% perfekt dokumenterat men blockerat problem."
+        ],
+        "monetization_hook": {
+            "topic": "Släpp perfektionismen & tidshantering",
+            "keywords": [
+                "Pareto-principen",
+                "Övervinna impostor-syndrom",
+                "Stoppa överanalysering",
+                "Rädsla för kritik"
+            ]
+        }
+    },
+    {
+        "profile_id": "optimierer_statusverlust",
+        "base_type": "Den strukturella optimeraren",
+        "fear_mutation": "Statusförlust",
+        "name": "Den bittra experten",
+        "headline": "Du hatar de högljudda poserarna som ständigt befordras – men vägrar av stolthet att själv kliva fram i rampljuset.",
+        "corporate_view": "I teamet ses du som företagets tysta, djupa kunskapskälla. Du är den absoluta fackexperten som ingen kan gå förbi när ett ämne blir riktigt komplext, kritiskt eller tekniskt krävande. Du är företagets pålitliga, mänskliga arkiv.",
+        "shadow_conflict": "Du är vansinnigt frustrerad och cynisk. Varje dag ser du hur människor som inte ens kan en bråkdel av din kunskap drar in de stora jobbtitlarna och lönerna – bara för att de pratar bättre och känner rätt personer. Du föraktar dessa 'poserare' djupt. Men ditt eget ego står i vägen: du ser aktiv självmarknadsföring som 'oproffsigt', 'billigt' eller 'slemmigt'. Du intalar dig: 'Riktigt bra arbete ska tala för sig självt.' Det gör det inte i verkligheten. Din stolta vägran att åtminstone spela med i företagets politiska spel gör dig osynlig – och får dig att stå och stampa på samma plats.",
+        "action_steps": [
+            "Acceptera spelreglerna: Släpp din naivitet. I karriären gäller: uppfattning är verklighet. Att bygga egen synlighet är inget 'smutsigt trick', utan en helt legitim och nödvändig del av ditt jobb.",
+            "5-minutersregeln: Bestäm dig för att i varje möte ta ordet inom de första 5 minuterna – även om det bara är en högljudd, klok förståelsefråga. Det etablerar din akustiska och fysiska närvaro i rummet.",
+            "Kräv ägarskap för dina resultat: Om du har löst ett massivt problem i bakgrunden, stäng inte bara ärendet i tysthet. Skicka ett proaktivt mejl till relevanta intressenter där det subtilt, men glasklart, framgår att DU förhindrade det här avbrottet."
+        ],
+        "monetization_hook": {
+            "topic": "Själv-PR & synlighet för tysta högpresterare",
+            "keywords": [
+                "Synlighet för introverta",
+                "Personligt varumärke på jobbet",
+                "Förstå kontorspolitik",
+                "Tysta människor, stark effekt"
+            ]
+        }
+    },
+    {
+        "profile_id": "optimierer_veraenderungsangst",
+        "base_type": "Den strukturella optimeraren",
+        "fear_mutation": "Förändringsrädsla",
+        "name": "Den rigida byråkraten",
+        "headline": "Du försvarar helt föråldrade regler som en fästning, eftersom kaoset i den nya arbetsvärlden överväldigar dig totalt.",
+        "corporate_view": "Du är avdelningens garant för ordning. En klippa i stormen som noggrant ser till att allt det där hippa agila transformationssnacket och ledningens vilda idéer inte får kärnverksamheten att kollapsa. Du säkrar nödvändig stabilitet och compliance.",
+        "shadow_conflict": "Så fort orden 'agilitet', 'omstrukturering' eller 'ny mjukvaruimplementation' nämns i ett möte snörs det nästan åt i halsen på dig. Du älskar och behöver absolut förutsägbarhet. Under många år har du byggt ett perfekt, säkert bo av komplexa Excel-makron, egna mappstrukturer och fasta rutiner. Här är du den oomtvistade mästaren. Om allt nu förändras radikalt förlorar du din totala kontroll och din status som 'kunnig expert'. Just därför blockerar du nödvändiga förändringar extremt ofta – oftast skickligt maskerat bakom den oantastliga fasaden av 'compliance-bekymmer' eller 'kvalitetssäkring'. I själva verket är du bara livrädd för att plötsligt vara värdelös i det nya, dynamiska systemet.",
+        "action_steps": [
+            "Från bromskloss till arkitekt: Sluta kasta dig mot strömmen som ett stenras. Du kan inte stoppa digitaliseringen. Men du kan använda din strukturförmåga till att vara den som organiserar övergången säkert och felfritt.",
+            "Ta rollen som översättare: Utse dig proaktivt till 'översättare' mellan det gamla och det nya systemet. Din enorma kunskap om historiska misstag och dolda fallgropar är ren guldgruva när ny mjukvara eller nya processer införs. Använd den offensivt.",
+            "Lär dig tåla kaos: Gå medvetet utanför din strukturkomfortzon en gång i veckan. Lös en uppgift på ett helt nytt, subjektivt 'ineffektivt' sätt för att bevisa för din hjärna att tillfällig oreda inte dödar dig och ofta öppnar nya vägar."
+        ],
+        "monetization_hook": {
+            "topic": "Resiliens & förändringsledning för experter",
+            "keywords": [
+                "Change management",
+                "Hantera förändring",
+                "Agilt arbete för nybörjare",
+                "Psykologisk flexibilitet"
+            ]
+        }
+    },
+    {
+        "profile_id": "katalysator_existenzangst",
+        "base_type": "Den integrationskatalysatorn",
+        "fear_mutation": "Existensångest",
+        "name": "Den fångade hjälparen",
+        "headline": "Du offrar dig för 'företagsfamiljen' eftersom du är paniskt rädd att förlora din trygga hamn.",
+        "corporate_view": "Du är teamets absoluta lim. Du är personen som fångar upp spänningar och konflikter i korridoren innan de eskalerar. Du tar självklart över de otrevliga uppgifterna från överbelastade kollegor och ser dessutom till att personalomsättningen och sjukfrånvaron i teamet hålls låg.",
+        "shadow_conflict": "Du intalar dig själv och kallar dina kollegor för 'familj'. Men innerst inne vet du mycket väl: det här är ett stenhårt affärsförhållande. Du sväljer din egen frustration, bristen på uppskattning och de otaliga obetalda övertidstimmarna eftersom din existensångest paralyserar dig helt. Din till synes gränslösa hjälpsamhet är i själva verket ditt starkaste skyddsmekanism: du gör dig själv till den ständigt närvarande goda själen, i hopp om att du vid nästa uppsägningsvåg eller omstrukturering absolut inte ska hamna på listan bara av medlidande. Du byter din ekonomiska trygghet mot din psykiska hälsa – en fruktansvärd deal.",
+        "action_steps": [
+            "Aktivera business-mindset: Se den iskalla verkligheten: när siffrorna är röda sparkar företaget dig ändå – oavsett hur många kakor du har bakat. Verklig, hållbar trygghet ligger uteslutande i ditt fackliga marknadsvärde, inte i ditt självuppoffrande.",
+            "Kall avvänjning från överengagemang: Sluta med det emotionella överengagemanget direkt. Gör från och med idag konsekvent inga uppgifter som inte exakt står i din tjänstebeskrivning, bara för att andra ska 'gilla' dig.",
+            "Investera i dig själv: Ta den enorma energi du lägger varje dag på att fixa andras problem och investera den skoningslöst i ditt eget CV. Gör dig fackligt oersättlig istället för bara mänskligt bekväm."
+        ],
+        "monetization_hook": {
+            "topic": "Professionell gränssättning & resiliens",
+            "keywords": [
+                "Sätta gränser på jobbet",
+                "Sluta vara people pleaser",
+                "Ekonomisk oberoende",
+                "Toxisk lojalitet"
+            ]
+        }
+    },
+    {
+        "profile_id": "katalysator_versagensangst",
+        "base_type": "Den integrationskatalysatorn",
+        "fear_mutation": "Rädsla för att misslyckas",
+        "name": "Den överkompenserande räddaren",
+        "headline": "Du säger ja till varje extra uppgift eftersom du är paniskt rädd att annars avslöjas som en bluff.",
+        "corporate_view": "Du ses i företaget som den mest pålitliga brandkåren och som den ultimata lagspelaren. Du är den som räddar situationen på fredagseftermiddagen. Meningen 'Det där är egentligen inte mitt jobb' verkar du helt ha strukit ur ditt ordförråd.",
+        "shadow_conflict": "Ditt hyllade hjälparsyndrom är i själva verket en tjock mask för ditt massiva impostersyndrom. Eftersom du ofta känner dig osäker eller inte 'tillräckligt bra' i din egentliga roll kompenserar du med gränslös tillgänglighet. Du tar skituppgifterna och till och med andras misstag på dig utan att säga något. Din omedvetna logik lyder: 'Om jag alltid är snäll, tillgänglig och extremt hjälpsam kanske ingen märker att jag egentligen inte är så kompetent.' Resultatet: du drunknar i andras arbete och bränner ut dig, eftersom ett enda tydligt 'nej' för dig känns som ett farligt erkännande av egen svaghet.",
+        "action_steps": [
+            "Träna det taktiska 'nej': Lär dig att ett nej inte är en attack. Meningen 'Jag hjälper dig gärna med det, men min planering tillåter det först nästa torsdag' är en högprofessionell, respekterad gräns – inte ett personligt avvisande.",
+            "Separera sympati från prestation: Du får inte betalt av företaget för att vara 'älskad', utan för konkreta resultat. Om kollegor blir kortsiktigt besvikna över att du inte gör deras jobb, är det deras problem, inte ditt.",
+            "Ge tillbaka ansvaret: Lämna andra vuxna människors problem där de hör hemma. Om en kollega misslyckas med sin uppgift är det absolut inte ditt jobb att rädda honom i hemlighet inför chefen på kvällen."
+        ],
+        "monetization_hook": {
+            "topic": "Impostersyndrom & tidsplanering",
+            "keywords": [
+                "Lära sig säga nej",
+                "Övervinna impostersyndrom",
+                "Hjälparsyndrom i arbetslivet",
+                "Bygga självkänsla"
+            ]
+        }
+    },
+    {
+        "profile_id": "katalysator_statusverlust",
+        "base_type": "Den integrationskatalysatorn",
+        "fear_mutation": "Statusförlust",
+        "name": "Den sårade martyren",
+        "headline": "Du spelar kontorets goda själ, men är innerst inne djupt bitter över att ingen applåderar dig för det.",
+        "corporate_view": "Du är avdelningens oomtvistade emotionella centrum. Du känner till precis allt korridorsnack och alla outtalade dynamiker. Du är personen som ordnar teamaktiviteter, har koll på födelsedagar och bygger upp kollegor igen efter tuffa bakslag över en kopp kaffe.",
+        "shadow_conflict": "Du hämtar nästan hela ditt yrkesmässiga självvärde från att bli omtyckt av alla och ständigt 'behövd'. Du trycker dig nästan aggressivt in i rollen som den lidande martyren: du jobbar demonstrativt längst, tröstar alla – och får ett rasande vredesutbrott inombords när chefen vid befordran eller bonusrundan ännu en gång väljer den högljudda, kyliga egoisten. Du blandar grundläggande ihop 'popularitet' med verkligt 'inflytande'. Din hunger efter status och erkännande är egentligen enorm, men du tycker att det är moraliskt fel eller ohövligt att kräva den statusen öppet, direkt och brutalt för dig själv. Därför lider du i tysthet.",
+        "action_steps": [
+            "Sluta med 'office-parenting': Avsluta din roll som kontorets förälder direkt. Inga fler kakor, ingen mer gratis terapeutroll i korridoren. Du är där för att göra professionell business, inte för att uppfostra eller skämma bort vuxna människor.",
+            "Kräv makt istället för medlidande: Om du faktiskt är den person som håller ihop en avdelning, kräv då officiellt teamledarrollen och motsvarande lön. Sluta låta dig nöjas med varma ord.",
+            "Stoppa passiv aggressivitet: Att andra inte ser eller ignorerar din 'tysta uppoffring' är inte deras onda vilja. Det är helt och hållet ditt kommunikationsproblem. Säg tydligt vad du gör och vad du vill ha för det."
+        ],
+        "monetization_hook": {
+            "topic": "Ledarskapsförmåga för empatiska människor",
+            "keywords": [
+                "Empatiskt ledarskap",
+                "Löneförhandling",
+                "Ta sig ur offerrollen",
+                "Från omtyckt till respekterad"
+            ]
+        }
+    },
+    {
+        "profile_id": "katalysator_veraenderungsangst",
+        "base_type": "Den integrationskatalysatorn",
+        "fear_mutation": "Förändringsrädsla",
+        "name": "Den toxiska harmonisören",
+        "headline": "Du håller ihop ett helt trasigt team eftersom tanken på en nystart håller dig vaken om nätterna.",
+        "corporate_view": "I företaget ses du som en helt lojal medlare. Du håller organisationen trogen även genom de svåraste kriserna, uppsägningsvågorna och kaosfaserna. Du är företagets lugnande medel: du får teamet att varva ner direkt när stämningen vänder eller paniken slår till.",
+        "shadow_conflict": "Du sitter fast i en djupt toxisk arbetsrelation – och du vet det egentligen också. Du lider varje dag under de kaotiska, ohälsosamma strukturerna, men du förskönar situationen systematiskt och hårt: 'Sååå illa är det väl inte', eller 'Kollegorna behöver mig nu, jag kan ju inte bara gå.' Din extrema, ofta hyllade empati har i själva verket blivit din största och mest ödesdigra ursäkt för att aldrig behöva trycka på uppsägningsknappen. Ett nytt jobb skulle innebära att gå in i en kall, främmande miljö där du ännu inte har din sociala status som värdefull 'räddare'. Så du stannar på det sjunkande skeppet, spelar vidare på fiolen och går medvetet under med det.",
+        "action_steps": [
+            "Dra ur kontakten: Sluta omedelbart att konstgjort hålla liv i det helt trasiga och dysfunktionella systemet med din empati och övertid. Låt projektet eller avdelningen krascha. Det är inte ditt företag. Du är inte konkursförvaltaren.",
+            "Krossa din livslögn: Dina kollegor kommer att överleva utan dig också. Alla är utbytbara. Du ansvarar inte för andra vuxna människors personliga lycka, bara för din egen.",
+            "Omformulera jobbytet: Se inte ett jobbyte som det gråtiga 'förlusten av din familj', utan som en livsviktig flykt från en toxisk sekt. Uppdatera din profil och skriv din uppsägning redan idag."
+        ],
+        "monetization_hook": {
+            "topic": "Lämna toxiska arbetsplatser & börja om",
+            "keywords": [
+                "Toxisk arbetsmiljö",
+                "Uppsägningsrädsla",
+                "Emotionellt beroende i jobbet",
+                "Våga börja om"
+            ]
+        }
+    }
+]

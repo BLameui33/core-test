@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O C.O.R.E. | Konec kariérní esoteriky</title>
+    <meta name="description" content="Zjistěte, proč byl vyvinut index C.O.R.E. Nahrazujeme toxickou pozitivitu a barevné testy empirickými daty a radikální upřímností.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/core-social-share.jpg">
+
+    <style>     :root {
+            --bg-body: #ffffff;
+            --bg-surface: #FAFAFA;
+            --text-dark: #0f172a;
+            --text-body: #334155;
+            --text-muted: #64748B;
+            --border-light: #E2E8F0;
+            --accent-red: #c0392b; 
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+            background-color: var(--bg-body); 
+            color: var(--text-body); 
+            line-height: 1.8; 
+            -webkit-font-smoothing: antialiased;
+            font-size: 1.1rem; 
+        }
+
+        /* TYPOGRAFIE */
+        h1, h2, h3, h4 { color: var(--text-dark); line-height: 1.2; letter-spacing: -0.03em; }
+        h1 { font-size: 4rem; margin-bottom: 24px; font-weight: 800; }
+        h2 { font-size: 2.6rem; margin-bottom: 20px; font-weight: 700; }
+        h3 { font-size: 1.3rem; margin-bottom: 15px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px;}
+        p { margin-bottom: 24px; }
+
+        /* Edler Outline-Badge */
+        .badge { 
+            display: inline-block; 
+            color: var(--text-muted); 
+            border: 1px solid var(--border-light);
+            padding: 8px 24px; 
+            border-radius: 50px; 
+            font-size: 0.75rem; 
+            font-weight: 700; 
+            margin-bottom: 40px; 
+            text-transform: uppercase; 
+            letter-spacing: 2px; 
+        }
+
+        /* LAYOUT & WEISSRAUM (In die Breite gezogen) */
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 5%; }
+        .section { padding: 100px 0; }
+        
+        /* HEADER */
+        header { 
+            background-color: var(--bg-body); 
+            padding: 30px 5%; 
+            display: flex; justify-content: space-between; align-items: center; 
+            border-bottom: 1px solid var(--border-light); 
+            position: sticky; top: 0; z-index: 100; 
+        }
+        .logo { color: var(--text-dark); font-weight: 800; font-size: 1.2rem; letter-spacing: 1.5px; text-decoration: none; }
+        nav a { color: var(--text-muted); text-decoration: none; margin-left: 2.5rem; font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; transition: color 0.3s; }
+        nav a.active { color: var(--text-dark); }
+        nav a:hover { color: var(--accent-red); }
+
+        /* MANIFESTO BEREICH (Untereinander aufgebaut) */
+        .manifesto-grid { display: grid; grid-template-columns: 1fr; gap: 40px; margin-top: 60px; }
+        .manifesto-text { max-width: 800px; } /* Verhindert zu lange, unleserliche Zeilen */
+        .manifesto-text p { text-align: justify; margin-bottom: 30px; }
+        .manifesto-text p.lead { font-size: 1.35rem; color: var(--text-dark); font-weight: 500; line-height: 1.6; }
+
+        /* DEZENTES HIGHLIGHT FÜR DEN ANSATZ */
+        .statement-box { 
+            padding: 40px 0; 
+            border-top: 2px solid var(--text-dark);
+            border-bottom: 1px solid var(--border-light);
+            margin: 20px 0 40px 0;
+            max-width: 800px;
+        }
+        .statement-box h4 { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 20px; color: var(--text-muted); }
+
+        /* DIE 3 SÄULEN (Großzügiges Stapeln) */
+        .pillar-grid { display: grid; grid-template-columns: 1fr; gap: 60px; margin-top: 80px; }
+        .pillar-item { max-width: 800px; }
+        .pillar-item h3 { border-bottom: 1px solid var(--border-light); padding-bottom: 15px; display: block; margin-bottom: 20px; }
+        .pillar-item p { font-size: 1.05rem; color: var(--text-muted); }
+
+        /* HELLE ABGRENZUNGS-SEKTION (Disclaimer untereinander) */
+        .disclaimer-section {
+            background-color: var(--bg-surface);
+            border-top: 1px solid var(--border-light);
+            border-bottom: 1px solid var(--border-light);
+        }
+        .disclaimer-grid { display: grid; grid-template-columns: 1fr; gap: 40px; margin-top: 50px; }
+        .disclaimer-box { max-width: 800px; }
+        .disclaimer-box h4 { margin-bottom: 15px; font-size: 1rem; text-transform: uppercase; letter-spacing: 1px; }
+
+        /* CTA BUTTON */
+        .btn-cta {
+            background-color: var(--text-dark);
+            color: white;
+            padding: 20px 45px;
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            border-radius: 4px;
+            text-decoration: none;
+            display: inline-block;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        .btn-cta:hover { background-color: var(--accent-red); transform: translateY(-2px); }
+
+        /* FOOTER */
+        .site-footer { padding: 60px 5%; text-align: center; font-size: 0.85rem; color: var(--text-muted); }
+        .site-footer a { color: inherit; margin: 0 15px; text-decoration: none; text-transform: uppercase; letter-spacing: 1px; font-weight: 600; transition: color 0.2s;}
+        .site-footer a:hover { color: var(--text-dark); }
+
+        @media (max-width: 900px) {
+            h1 { font-size: 2.8rem; }
+            h2 { font-size: 2.2rem; }
+            .section { padding: 60px 0; }
+        }</style>
+    
+    
+    <link rel="canonical" href="https://www.coreindexanalytics.com/{{LANG}}/about.html">
+    
+
+    
+<!-- ========================================== -->
+<!-- 1. X-DEFAULT (Standard-Fallback weltweit) -->
+<!-- ========================================== -->
+<link rel="alternate" hreflang="x-default" href="https://www.coreindexanalytics.com/en/about.html">
+
+<!-- ========================================== -->
+<!-- 2. INTERNATIONALE TARGETS (Reine Sprach-Ordner) -->
+<!-- ========================================== -->
+<link rel="alternate" hreflang="de" href="https://www.coreindexanalytics.com/de/about.html">
+<link rel="alternate" hreflang="en" href="https://www.coreindexanalytics.com/en/about.html">
+<link rel="alternate" hreflang="es" href="https://www.coreindexanalytics.com/es/about.html">
+<link rel="alternate" hreflang="fr" href="https://www.coreindexanalytics.com/fr/about.html">
+<link rel="alternate" hreflang="it" href="https://www.coreindexanalytics.com/it/about.html">
+<link rel="alternate" hreflang="nl" href="https://www.coreindexanalytics.com/nl/about.html">
+<link rel="alternate" hreflang="pt" href="https://www.coreindexanalytics.com/pt/about.html">
+<link rel="alternate" hreflang="ar" href="https://www.coreindexanalytics.com/ar/about.html">
+<link rel="alternate" hreflang="sv" href="https://www.coreindexanalytics.com/sv/about.html">
+<link rel="alternate" hreflang="pl" href="https://www.coreindexanalytics.com/pl/about.html">
+<link rel="alternate" hreflang="tr" href="https://www.coreindexanalytics.com/tr/about.html">
+<link rel="alternate" hreflang="ja" href="https://www.coreindexanalytics.com/ja/about.html">
+<link rel="alternate" hreflang="ko" href="https://www.coreindexanalytics.com/ko/about.html">
+<link rel="alternate" hreflang="hi" href="https://www.coreindexanalytics.com/hi/about.html">
+<link rel="alternate" hreflang="da" href="https://www.coreindexanalytics.com/da/about.html">
+<link rel="alternate" hreflang="cs" href="https://www.coreindexanalytics.com/cs/about.html">
+<link rel="alternate" hreflang="no" href="https://www.coreindexanalytics.com/no/about.html">
+<link rel="alternate" hreflang="fi" href="https://www.coreindexanalytics.com/fi/about.html">
+<link rel="alternate" hreflang="id" href="https://www.coreindexanalytics.com/id/about.html">
+
+    
+   
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo">C.O.R.E. INDEX</a>
+        <nav>
+            <a href="index.html">Adresář</a>
+            <a href="profile.html">Profily</a>
+            <a href="about.html" class="active">O nás</a>
+        </nav>
+    </header>
+
+    <!-- HERO BEREICH -->
+    <section class="section">
+        <div class="container">
+            <div style="max-width: 850px;">
+                <span class="badge">Naše filozofie</span>
+                <h1>Konec kariérní esoteriky.</h1>
+                <p style="font-size: 1.45rem; color: var(--text-muted); line-height: 1.6; margin-top: 30px; font-weight: 400;">
+                    Index C.O.R.E. nebyl vyvinut proto, aby vám lichotil. Vytvořili jsme ho, aby zviditelnil neviditelné systémové i vnitřní překážky, kvůli nimž vysoce výkonní lidé každý den vyhořívají.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- DAS MANIFEST -->
+    <section class="section bg-surface" style="border-top: 1px solid var(--border-light);">
+        <div class="container">
+            <h2>Proč analyzujeme, místo abychom motivovali.</h2>
+            
+            <div class="manifesto-grid">
+                <div class="manifesto-text">
+                    <p class="lead">
+                        Trh s testy profesní způsobilosti trpí zásadní konstrukční chybou: je založen na principu vstřícnosti.
+                    </p>
+                    <p>
+                        Ať už jde o prosté rozdělení do čtyř barevných typů, nebo přiřazení líbivého archetypu z teorií počátku 20. století – většina nástrojů rozdává komplimenty místo toho, aby ukazovala skutečné příčinné souvislosti. Často jsou optimalizovány tak, aby v teambuildingových workshopech vytvářely dobrou náladu, ne aby vysvětlovaly hluboké profesní slepé uličky.
+                    </p>
+                    <p>
+                        Výsledkem je kultura „toxické pozitivity“. Vyčerpaným odborníkům se radí, aby si prostě „změnili mindset“ nebo „našli svou pravou vášeň“, zatímco selhávají v dysfunkčních firemních strukturách, pod nejasným vedením nebo na svém vlastním nevědomém perfekcionismu. Skutečná změna však nikdy nezačíná komplimentem, ale upřímnou inventurou.
+                    </p>
+                </div>
+
+                <div class="manifesto-text">
+                    <div class="statement-box">
+                        <h4>Náš přístup</h4>
+                        <p style="margin: 0; font-size: 1.25rem; color: var(--text-dark); font-weight: 500; line-height: 1.6;">
+                            Působíme na rozhraní datové architektury a pracovní reality. Místo vymýšlení nových abstraktních teorií používáme model Big Five (O.C.E.A.N.) jako neúplatný základ pro pracovní život.
+                        </p>
+                    </div>
+                    <p>
+                        Index C.O.R.E. (Career Obstacle & Resilience Evaluation) je radikálně pragmatický nástroj profilování. Náš primární fokus neleží jen na potvrzení vašich silných stránek, ale především na izolaci vašeho profesního „stínu“. Měříme, do jaké míry nevědomé faktory, jako je strach ze selhání, obava ze ztráty statusu nebo nedostatečné vymezování se (klasický syndrom zachránce), sabotují vaše ekonomická a strategická rozhodnutí.
+                    </p>
+                </div>
+            </div>
+
+            <!-- DIE 3 SÄULEN (Editorial Style ohne Rahmen) -->
+            <div class="pillar-grid">
+                <div class="pillar-item">
+                    <h3>01. Empirický základ</h3>
+                    <p>
+                        Vyhýbáme se pocitům a esoterickým zařazením. Analýza C.O.R.E. je založena na vyhodnocení standardizovaných behaviorálních vzorců. Základní škály odrážejí zavedený psychologický model, který je po celém světě považován za stabilní a spolehlivý.
+                    </p>
+                </div>
+                <div class="pillar-item">
+                    <h3>02. Zaměření na překážku</h3>
+                    <p>
+                        Kdo chce rozvinout svůj profesní potenciál, musí nejprve pochopit, co ho brzdí. Díváme se na dysfunkční vzorce, které vznikají zejména v náročných pracovních prostředích – od uvíznutí ve „zlaté kleci“ až po pouhé odškrtávání úkolů bez skutečného uznání.
+                    </p>
+                </div>
+                <div class="pillar-item">
+                    <h3>03. Jasný důsledek</h3>
+                    <p>
+                        Na konci testu nejsou žádné abstraktní metafory ani přirovnání ke zvířatům. Získáte exekutivní kroky, které vám věcně ukážou, zda je čas se vymezit, znovu vyjednat rozpočty nebo zatáhnout za záchrannou brzdu.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HELLE, EDLE ABGRENZUNG (Ohne medizinische Begriffe) -->
+    <section class="section disclaimer-section">
+        <div class="container">
+            <h2 style="margin-bottom: 20px;">Jasnost a hranice.</h2>
+            <p style="max-width: 750px; font-size: 1.25rem; color: var(--text-muted);">
+                Skutečný profesionalismus se projevuje i tím, že své hranice přesně pojmenujeme. C.O.R.E. je operativní analytický nástroj pro pracovní kontext, nikoli léčebna ani náhrada terapie.
+            </p>
+
+            <div class="disclaimer-grid">
+                <div class="disclaimer-box" style="border-top: 2px solid var(--text-dark); padding-top: 25px;">
+                    <h4>Co analýza umí</h4>
+                    <p style="color: var(--text-body);">
+                        Izolujeme souvislosti mezi vaším pracovním stylem a systémovými překážkami ve vaší práci. Nabízíme strukturovaný datový základ pro sebereflexi, pro nadcházející vyjednávání o platu nebo pro orientaci při profesním přesměrování. Jde o kariérní strategii a self-management.
+                    </p>
+                </div>
+                <!-- Der rote Akzent für die harte Grenze -->
+                <div class="disclaimer-box" style="border-top: 2px solid var(--accent-red); padding-top: 25px;">
+                    <h4 style="color: var(--accent-red);">Co systém výslovně NEDĚLÁ</h4>
+                    <p style="color: var(--text-body);">
+                        Neposkytujeme žádné lékařské, psychiatrické ani klinicko-psychologické diagnózy. Náš systém neléčí onemocnění, jako jsou klinické deprese, syndrom vyhoření nebo úzkostné poruchy. V případě zdravotních krizí nebo psychické zátěže důrazně odkazujeme na kvalifikované lékaře a psychoterapeutické odborníky.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CALL TO ACTION -->
+    <section class="section" style="text-align: center;">
+        <div class="container">
+            <h2 style="margin-bottom: 24px;">Připraveni na analýzu?</h2>
+            <p style="font-size: 1.25rem; color: var(--text-muted); max-width: 600px; margin: 0 auto 40px auto; line-height: 1.6;">
+                Přejděte do našeho adresáře, vyberte své odvětví a spusťte 8minutové vyhodnocení přímo ve svém prohlížeči. Bez registrace, 100% anonymně.
+            </p>
+            <a href="index.html" class="btn-cta">
+                Do profesního adresáře
+            </a>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <p class="site-footer-copyright">© 2026 C.O.R.E. Index. Všechna práva vyhrazena.</p>
+        
+        <p class="site-footer-disclaimer">
+            <strong>Důležité upozornění k vymezení a odpovědnosti:</strong> C.O.R.E. Index slouží výhradně k profesnímu sebehodnocení, analýze systémových pracovních situací a vyhodnocování profesních strategií. Nabídka nepředstavuje lékařské, psychiatrické ani psychologické poradenství, vyhodnocení nebo léčbu. Výsledky nemohou a nemají nahrazovat terapeutická opatření u onemocnění, jako je klinická deprese, syndrom vyhoření nebo úzkostné poruchy. V případě zdravotních krizí nebo přetrvávající psychické zátěže je nutné vyhledat lékařského nebo licencovaného psychoterapeutického odborníka.
+        </p>
+        
+        <div class="site-footer-links">
+            <a href="impressum.html">Impresum</a>
+            <a href="datenschutz.html">Ochrana osobních údajů</a>
+            <a href="methodik.html">Naše metodika</a>
+        </div>
+    </footer>
+
+</body>
+</html>

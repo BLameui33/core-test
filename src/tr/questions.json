@@ -1,0 +1,2262 @@
+[
+    {
+        "id": "q1_meeting",
+        "category": "conflict_structure",
+        "question": "Net bir gündemi olmayan iki saatlik bir 'strateji toplantısı'; üç meslektaş sonsuza kadar aynı yerde dönüp duruyor. Aklından ne geçiyor?",
+        "answers": [
+            {
+                "text": "Harika. Yüksek sesle düşünmek ve fikir üretmek için alan. Sonunda Excel listelerini körü körüne takip etmek zorunda değilim.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "Beni sinirlendirir. 15 dakika sonra net bir karar ya da görev dağılımı isterim, yoksa çıkar giderim.",
+                "scores": {
+                    "executor": 1
+                }
+            },
+            {
+                "text": "İçimde tam bir stres. Aklım sürekli asıl işimde; şimdi masamda yarım kalmış halde bekliyor.",
+                "scores": {
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Daha sessiz meslektaşları konuşmaya dahil etmeye ve odadaki gergin havayı yumuşatmaya çalışırım.",
+                "scores": {
+                    "katalysator": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q2_systemfehler",
+        "category": "conflict_structure",
+        "question": "Önemli bir proje fena halde batıyor. Hata sende değil, şirketin belirsiz sürecinde; ama sonuç senin alanına patlıyor. İlk tepkin ne olur?",
+        "answers": [
+            {
+                "text": "Darboğazı soğukkanlı biçimde analiz eder, bir çözüm kurar ve yukarıya net şekilde kimin ya da neyin çuvalladığını söylerim.",
+                "scores": {
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Gece yarısına kadar, tüm talimatlara harfiyen uyduğumu eksiksiz belgelemekle uğraşırım.",
+                "scores": {
+                    "optimierer": 1,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Zaten bir sürü yeni fikrim var; bir sonraki projeyi bambaşka kurarız. Geçmiş geçti.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "Başkaları şimdi bu kaosun yükünü çektiği için suçluluk duyarım ve hemen yardım teklif ederim.",
+                "scores": {
+                    "katalysator": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q3_sinnlosaufgabe",
+        "category": "conflict_structure",
+        "question": "Patronun sana tamamen tekrarlayan, aşırı detaylı ve sana göre düpedüz verimsiz bir görev veriyor. Bununla nasıl başa çıkarsın?",
+        "answers": [
+            {
+                "text": "Akışa girerim. Her şeyin sonunda kuruşu kuruşuna tutmasını, düzenli ve tamamlanmış olmasını severim.",
+                "scores": {
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "İçimden ölürüm. 10 dakika sonra odağımı kaybeder, sıkılır ve başka bir şey yapmaya başlarım.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "Bunu gizlice otomatikleştirir, başkasına devreder ya da üçte bir sürede 'idare eder' diye geçiştirmenin yolunu bulurum.",
+                "scores": {
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Dişimi sıkarak ve titizlikle yaparım. Yapmazsam meslektaşlarıma geri döner; bunu istemem.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_status": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q4_befoerderungsfalle",
+        "category": "conflict_structure",
+        "question": "Senin üstünde bir liderlik pozisyonu boşalıyor. Neden o işi hâlâ almadın?",
+        "answers": [
+            {
+                "text": "Çünkü o sürekli baskıyı, politikayı ve yukarıdaki çatışmaları aslında hayatımda hiç istemiyorum.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Çünkü kendimi rezalet satıyorum. Arkada bütün işi ben yapıyorum ama övgüyü başkaları topluyor.",
+                "scores": {
+                    "optimierer": 1,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Çünkü bende o 'kurum kokusu' yok. Yönetim için fazla rahatsız ediciyim; eski yapıları sürekli sorguluyorum.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "Kim diyor ki almadım? Böyle pozisyonları aktif olarak isterim. Beni yavaşlatırlarsa şirket değiştiririm.",
+                "scores": {
+                    "executor": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q5_sonntagabend",
+        "category": "conflict_structure",
+        "question": "Pazar, saat 20:00. Önündeki iş haftasını düşünüyorsun. Sende en çok hangi şey kötü bir his yaratır?",
+        "answers": [
+            {
+                "text": "Bu hafta da asıl, derin fikirlerime ulaşamayacağım korkusu; çünkü günlük işler beni yutacak.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "Takımdaki zehirli hava, çözülmemiş çatışmalar ve yine motive etmek zorunda kalacağım meslektaşlar.",
+                "scores": {
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "Güçsüzlük hissi. Neyin yanlış gittiğini net görüyorum ama düzeltmek için karar veremiyorum.",
+                "scores": {
+                    "executor": 1
+                }
+            },
+            {
+                "text": "İş yükü yüzünden kontrolü kaybedip ciddi bir hata yapma korkusu.",
+                "scores": {
+                    "optimierer": 1,
+                    "fear_versagen": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q6_feedback",
+        "category": "conflict_structure",
+        "question": "Senden daha az teknik bilgisi olan yöneticin sana eleştirel ama haksız bir geri bildirim veriyor. İç tepkin ne?",
+        "answers": [
+            {
+                "text": "Kulak asmam. Beni rahat bırakıp işlerimi yapmama izin verdiği sürece fikri umurumda değil.",
+                "scores": {
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Bunu günlerce aşırı üzerime alırım, yeteneklerimden şüphe ederim ve neyi yanlış yaptığımı düşünürüm.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Hemen sert verilerle, loglarla ya da belgelerle savunmaya geçer, değerlendirmesinin yanlış olduğunu kanıtlarım.",
+                "scores": {
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "İçimden gözlerimi deviririm. Büyük resmi zaten anlamıyor; o yüzden tartışmaya bile girmem.",
+                "scores": {
+                    "pionier": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q7_feierabend",
+        "category": "conflict_structure",
+        "question": "Akşam laptopunu gerçekten iyi bir hisle hangi koşulda kapatırsın?",
+        "answers": [
+            {
+                "text": "Bugün karmaşık bir problemi çözdüysem ya da parlak, yeni bir fikir geliştirdiysem.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "Yapılacaklar listem tamamen boşsa ve e-postalarımda ya da araçlarda kırmızı bildirim noktası kalmadıysa.",
+                "scores": {
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Takımın günü iyiyse, birlikte güldüysek ve birinin sorununa yardım edebildiysem.",
+                "scores": {
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "Bugün gelir, lead ya da ölçülebilir ilerleme getiren somut bir sonuç çıkardıysak.",
+                "scores": {
+                    "executor": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q8_gehalt_vs_risiko",
+        "category": "frust_risiko_angst",
+        "question": "Yenilikçi bir startup sana tam hayalindeki işi teklif ediyor. Ama bir sorun var: temel maaş %20 daha düşük ve sözleşme bir yıllık. Dürüst tepkin ne olur?",
+        "answers": [
+            {
+                "text": "Asla. Sabit giderlerim, kiram ve yükümlülüklerim var. Bu risk uykumu mahveder.",
+                "scores": {
+                    "fear_existenz": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Hemen yaparım. Yeni bir şey kurmanın heyecanına ihtiyacım var; güvenlik zaten beni sıkıyor.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Daha çok, başarısız bir startup'ın sonra özgeçmişimde koca bir leke olarak kalmasından endişe ederim.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "İsterim ama şu anki ekibimi yarı yolda bırakmaya içim el vermez.",
+                "scores": {
+                    "fear_veraenderung": 1,
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q9_unterbezahlt",
+        "category": "frust_risiko_angst",
+        "question": "Sektör ortalamasına göre yaklaşık %15 eksik maaş aldığını çok iyi biliyorsun. Bunu neden şimdiye kadar sineye çektin?",
+        "answers": [
+            {
+                "text": "İşin ters tepeceğinden ve sonunda hedef tahtasına oturacağımdan korkuyorum.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Bana daha çok öderlerse benden beklentiler de aşırı artar. Ya sonra bunu veremezsem?",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Şu anki iş unvanım harika duruyor. Neredeyse paradan daha önemli; LinkedIn'de aşırı iyi görünüyor.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Maaş pazarlığı ya da iş görüşmesi düşüncesi bana fazla yorucu geliyor. Duruma uyum sağladım.",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q10_umstrukturierung",
+        "category": "frust_risiko_angst",
+        "question": "Ani bir birleşme açıklandı. Departmanın tamamen yeniden yapılandırılıyor. İlk aklına gelen ne?",
+        "answers": [
+            {
+                "text": "'İşimi kaybeder miyim? Birikimim ne kadar yeter?'",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "'Kahretsin, şimdi hiyerarşide daha aşağıda, tamamen yetersiz yeni bir patronun altına mı düşüyorum?'",
+                "scores": {
+                    "fear_status": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "'Hayır ya, bütün kusursuz rutinlerim ve zorla kurduğum süreçler şimdi tamamen çöpe gitti.'",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "'Yeni patronlar, burada herkesin sandığı kadar iyi olmadığımı hemen anlayacak.'",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q11_golden_handcuffs",
+        "category": "frust_risiko_angst",
+        "question": "Her yıl yüklü bir bonus alıyorsun ve çok iyi para kazanıyorsun, ama işinden dibine kadar nefret ediyorsun. Neden hâlâ oradasın?",
+        "answers": [
+            {
+                "text": "Altın kafes: Yaşam standardı fazla tatlı. Artık normal bir maaş düzenine geri dönemem.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Prestij: Nerede çalıştığımı anlattığımda insanlar etkileniyor. Ego buna ihtiyaç duyuyor.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Kendinden şüphe: İçten içe burada sadece şansım yaver gittiğini düşünüyorum. Başka kimse bana bu kadar para vermezdi.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Atalet: Her gün şikâyet ediyorum ama akşam olunca gerçekten yeniden başvuracak enerjim kalmıyor.",
+                "scores": {
+                    "fear_veraenderung": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q12_linkedin_flex",
+        "category": "frust_risiko_angst",
+        "question": "Kendini pazarlama ve profesyonel görünürlük konusu (ör. LinkedIn'de, büyük toplantılarda). Nasıl davranırsın?",
+        "answers": [
+            {
+                "text": "Ben kim oluyorum da kendimi kutlayacağım? Benden çok daha iyi teknik insan bin tane var.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Dijital alkışa ihtiyacım yok. Maaş bordrom ve sonuçlarım yeterince doğrulama sağlıyor.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Bir şeyler paylaşmak isterdim ama o zaman kusursuz ve hatasız olması gerekirdi. O yüzden hiç yapmıyorum.",
+                "scores": {
+                    "fear_versagen": 1,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Görünürlük güçtür. Başarıları aktif olarak paylaşırım, çünkü bu piyasa değerimi korur ve rakipleri uzak tutar.",
+                "scores": {
+                    "fear_status": 2,
+                    "pionier": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q13_befoerderung_abgelehnt",
+        "category": "frust_risiko_angst",
+        "question": "Diyelim ki bariz bir terfiyi reddediyorsun. Bunun en dürüst nedeni ne olurdu?",
+        "answers": [
+            {
+                "text": "Ne şirket arabası vardı ne de gerçek bir 'C-Level' unvanı. Biraz daha fazla para için kendimi satmam.",
+                "scores": {
+                    "fear_status": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Personel sorumluluğu almak, yanlış kararlar vermek ve yönetici olarak çuvallamak fikri tam bir panik.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Alıştığım masayı, tanıdık ekibi ve sevdiğim rutinleri bırakmam gerekirdi.",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "Tazminat çok düşüktü. O kadar maaş artışı, ihbar süremi ve güvenliğimi kaybetmeme değmez.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q14_lob_vom_ceo",
+        "category": "frust_risiko_angst",
+        "question": "Büyük bir toplantıda CEO tarafından büyük bir başarı için kişisel olarak övülüyorsun. İçinde ne oluyor?",
+        "answers": [
+            {
+                "text": "Gülümsüyorum ama içten içe terliyorum: Bir dahaki sefere bunu yine benden bekleyecekler ve sonra rezil olacağım.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Hemen konuyu değiştirip övgüyü tüm ekiple paylaşıyorum, böylece ofiste kimse beni ukala sanmasın.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Keyfini çıkarıyorum. Odadaki herkesin bu başarının esas olarak benim eserim olduğunu anlamasını sağlıyorum.",
+                "scores": {
+                    "executor": 1,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Dikkati buz gibi kullanıp bir sonraki, çok daha büyük bütçemi ya da çılgın fikrimi sunmak için zemin hazırlıyorum.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q15_ki_bedrohung",
+        "category": "frust_risiko_angst",
+        "question": "Yapay zekâ şu anda sektörünün büyük kısmını otomatikleştiriyor. Nasıl tepki veriyorsun?",
+        "answers": [
+            {
+                "text": "Panik. Birikimime bakıyorum ve 'güvenli' el becerisi gerektiren işler için yeniden eğitim arıyorum.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Stresliyim, çünkü artık en genç ben değilim. Bu kadar yeni aracı beynimin hâlâ öğreneceğinden şüpheliyim.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Hemen kendimi gayriresmî 'AI sorumlusu' ilan ediyorum; böylece relevant kalıp statümü koruyayım.",
+                "scores": {
+                    "fear_status": 2,
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "Büyük ölçüde görmezden geliyorum. Dağ fare doğuracak. Süreçlerim hâlâ çalışıyor ya.",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q16_das_toxische_umfeld",
+        "category": "frust_risiko_angst",
+        "question": "Şirket kültürün aşırı toksik ve seni tüketiyor, ama iş sözleşmen süresiz. Ne yaparsın?",
+        "answers": [
+            {
+                "text": "Kalırım. Süresiz sözleşme bugünün ekonomisinde saf altın. Duygularımı kapatırım, olur biter.",
+                "scores": {
+                    "fear_existenz": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Kalırım. Şimdi istifa edersem özgeçmişte yeterince dayanıklı olmadığım görünür.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Gizlice çıkış planı yaparım ama 'tam mükemmel anı' beklerim. (Bir türlü gelmeyen o anı).",
+                "scores": {
+                    "fear_veraenderung": 2
+                }
+            },
+            {
+                "text": "Yönetimi sorunlarla sert biçimde yüzleştiririm. Bu yüzden beni kovarlarsa, daha iyi.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q17_wochenend_projekt",
+        "category": "frust_risiko_angst",
+        "question": "Cuma öğleden sonra senden kısa sürede, görünür ve prestijli bir hafta sonu projesini yönetmen isteniyor.",
+        "answers": [
+            {
+                "text": "Kabul ederim. Reddedersem patronlar artık 'High Performer' olmadığımı düşünür ve projeyi başkasına verir.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Sırf suçluluk duygusuyla kabul ederim, böylece meslektaşlarım hafta sonu çalışmak zorunda kalmasın.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Kabul ederim ama hafta sonunun %80'ini bu görünür projenin batacağı paniğiyle geçiririm.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Buz gibi reddederim. Hafta sonu benimdir; ta ki saatlik ücretimi iki katına çıkarmadıkça.",
+                "scores": {
+                    "executor": 2,
+                    "pionier": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q18_der_inkompetente_kollege",
+        "category": "team_leadership",
+        "question": "Ekibindeki bir meslektaş kronik olarak kötü iş çıkarıyor. Bu senin projelerini de etkiliyor. Ne yaparsın?",
+        "answers": [
+            {
+                "text": "Onun işini gizlice yeniden yaparım ya da geceleri düzeltirim. Önemli olan nihai ürünün hatasız olması.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Onunla konuşurum ve açıklarını kapatması için görevlerinde yardım etmeyi teklif ederim, böylece rezil olmaz.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Kendi iş akışlarımı onunkilerden tamamen ayırırım ve artık ona bağımlı olmadığım sistemler kurarım.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Toplantıda onu açıkça sorgularım ya da hemen patrona taşırım. Ben ölü ağırlık taşıyamam.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q19_micromanagement",
+        "category": "team_leadership",
+        "question": "Yeni patronun aşırı bir mikroyönetici. Göndermeden önce her e-posta taslağını görmek istiyor. Stratejin ne?",
+        "answers": [
+            {
+                "text": "Uyum sağlarım ve onun için kontrol listeleri hazırlarım. Kontrole ihtiyacı varsa, ona eksiksiz dokümantasyon veririm.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Açıkça isyan ederim. Talimatlarını umursamam, sonuçlarımı teslim ederim ve kudurmasına izin veririm.",
+                "scores": {
+                    "pionier": 1,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Aşırı derecede güvensiz hissederim ve hata yapma korkusuyla artık her e-postayı üç kez kontrol ederim.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Neden bu kadar az güveni olduğunu çok sayıda birebir konuşmayla anlamaya çalışır, onu sakinleştiririm.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q20_ideenklau",
+        "category": "team_leadership",
+        "question": "Kahve köşesinde harika bir fikir söylüyorsun. Büyük toplantıda bir meslektaş bu fikri aniden kendi fikriymiş gibi satıyor. Nasıl tepki verirsin?",
+        "answers": [
+            {
+                "text": "Öfkeden kaynarım ama profesyonel, huysuz ya da 'küçük' görünmemek için toplantıda hiçbir şey söylemem.",
+                "scores": {
+                    "fear_status": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Onu nazik ama buz gibi keserim: 'Evet, sana az önce mutfakta anlattığım gibi... İşte sonraki adımlar.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Bırak yapsın. Zaten kafamda üç yeni, çok daha iyi fikir var. O da yakında tökezler.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Sonrasında onunla baş başa konuşur ve bunun insan olarak beni aşırı hayal kırıklığına uğrattığını söylerim.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q21_teambuilding_horror",
+        "category": "team_leadership",
+        "question": "İK, sandalye çemberi ve duygu kartlarıyla zorunlu bir 'takım kurma atölyesi' dayatıyor. Ne düşünüyorsun?",
+        "answers": [
+            {
+                "text": "Harika! Sonunda takım içindeki söylenmeyen gerilimleri moderasyonla çözmek için bir fırsat.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Ne büyük zaman kaybı. Burada otururken şirketin ne kadar ciro yaktığını içimden hesaplıyorum.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Usulca katılırım ama kesinlikle göze batmamak için sadece önemsiz, güvenli şeyler söylerim.",
+                "scores": {
+                    "fear_status": 1,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Yapılandırılmamış zamanı kullanıp zihnen tamamen kayarım ve kendi projelerim üzerinde kafa yorarım.",
+                "scores": {
+                    "pionier": 2,
+                    "optimierer": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q22_der_antwort_allen_fail",
+        "category": "team_leadership",
+        "question": "Bir e-posta zinciri ('herkese yanıtla') kontrolden çıkıyor. Tonlar sertleşiyor, CC listesi büyüyor. Senin rolün ne?",
+        "answers": [
+            {
+                "text": "Araya girip uzlaştırıcı olurum, telefonu elime alırım ve ortamı çevrimdışı yumuşatmaya çalışırım.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Tartışmayı, madde madde yazılmış, son derece veri odaklı sert bir e-postayla bitiririm. Konu kapanır.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Üç PDF ve bir tutanak eklerim; bölümümün suçsuz olduğunu tartışmasız kanıtlar.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "E-posta zincirini ikinci mesajdan sonra arşivledim bile; çoktan başka bir şey üzerinde çalışıyorum.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q23_unbezahlte_ueberstunden",
+        "category": "team_leadership",
+        "question": "Patronun sözleşmede olmamasına rağmen hafta sonu e-postaları kontrol etmeni dolaylı olarak bekliyor. Buna rağmen neden yapıyorsun?",
+        "answers": [
+            {
+                "text": "Çünkü pazartesi sabahı kontrol edemeyeceğim dev bir kaosla karşılaşmaktan panik duyuyorum.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Çünkü işten çıkarma dalgası geliyor ve vazgeçilmez biri olduğumu garanti altına almam gerekiyor.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Çünkü patronun ne kadar aşırı bağlı olduğumu görmesini istiyorum. Bu, alfa sıralamasındaki yerimi güvenceye alır.",
+                "scores": {
+                    "fear_status": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Çünkü yapmazsam iş zavallı meslektaşımın üstüne kalacak. Zaten adamın sınırı dolmuş durumda.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q24_onboarding",
+        "category": "team_leadership",
+        "question": "Yeni bir çalışanı işe alıştırman gerekiyor. Yaklaşımın ne?",
+        "answers": [
+            {
+                "text": "Ona benim yazdığım 50 sayfalık bir wiki veririm ve süreçlere uymasını beklerim.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Önce kahveye davet ederim, herkese tanıştırırım ve duygusal olarak güvende hissetmesini sağlarım.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Ona büyük vizyonu anlatırım, eline karmaşık bir problem veririm ve yüzüp yüzemeyeceğine bakarım.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Ona doğrudan sert, ölçülebilir bir görev veririm. Batırırsa, ne olduğunu anlarım.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q25_fuehrungsstil",
+        "category": "team_leadership",
+        "question": "Tamamen dürüst olursan: Bir ekibi yönetmek zorunda kalsaydın en büyük zayıf noktan ne olurdu?",
+        "answers": [
+            {
+                "text": "Sert, olumsuz geri bildirim vermekten kaçardım; çünkü çatışmadan nefret ederim.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Aşırı mikroyönetim yapardım; çünkü başkalarının işi benim kadar kusursuz yapacağına güvenmem.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Muhtemelen fazla sabırsız, sert olurdum ve zamanımı boşa harcayan insanları çok hızlı kovardım.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Kaosun içinde kaybolur, idari işleri unutur ve sürekli yön değiştirmelerimle insanları bunaltırdım.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q26_flurfunk",
+        "category": "team_leadership",
+        "question": "Koridorda, odada olmayan bir meslektaş hakkında aşırı toksik dedikodu yapılıyor. Tavrın ne?",
+        "answers": [
+            {
+                "text": "Durumdan tek kelime etmeden uzaklaşırım. Dedikodu profesyonel değil ve verimsizdir.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Ağzımı açar, fikrimi sertçe söyler ve dedikoduyu anında bitiririm.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Sessizce dururum, nezaketen belki gülerim ama içten içe berbat hissederim.",
+                "scores": {
+                    "fear_status": 1,
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "Etkilenen meslektaşı sonra gizlice bulur ve onu duygusal olarak toparlamaya çalışırım.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q27_delegation",
+        "category": "team_leadership",
+        "question": "Patronun, büyük bir 'kazan-kazan olmayan proje'yi (yüksek risk, düşük bütçe) tamamen sana yüklüyor. Neden kabul ediyorsun?",
+        "answers": [
+            {
+                "text": "Patronuma yüzüne bakıp 'hayır' demeye cesaret edemiyorum.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "Bunu bir güç kaldıraç olarak kullanırım. Eğer bunu kurtarırsam şöhret benim olur ve daha fazla maaş isterim.",
+                "scores": {
+                    "executor": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Çünkü ekipte kaosu yapısal olarak kontrol altına alabilecek tek kişi benim.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Saçma talimatları umursamam ve projeyi tamamen yeni bir yöntem için kum havuzu olarak kullanırım.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q28_brainstorming",
+        "category": "team_leadership",
+        "question": "Beyin fırtınası oturumu: Biri ortaya tamamen gerçek dışı, absürt bir fikir atıyor. Tepkin ne?",
+        "answers": [
+            {
+                "text": "Hemen keserim: 'Bunun için bütçemiz yok. Çok sürer. Sıradaki öneri.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Tam dalarım ve fikri çok daha çılgın bir yere götürürüm. Bazen delilikten inovasyon çıkar.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Bu fikrin hemen doğuracağı uyum ve süreç sorunlarını ortaya koyarım.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Sessiz kalmayı tercih ederim. Fikri iyi bulsam bile grubun önünde rezil olmak istemem.",
+                "scores": {
+                    "fear_status": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q29_das_meeting_danach",
+        "category": "team_leadership",
+        "question": "Hararetli tartışmaların olduğu sert bir toplantıdan sonra yerine dönüyorsun. İlk ne yaparsın?",
+        "answers": [
+            {
+                "text": "Hemen tüm kararları içeren bir tutanak yazar ve dağıtırım; böylece kimse sonradan geri adım atamaz.",
+                "scores": {
+                    "optimierer": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Saatlerce, 14. dakikada fazla sert konuşup konuşmadığımı ve X meslektaşının şimdi benden nefret edip etmediğini düşünürüm.",
+                "scores": {
+                    "fear_versagen": 1,
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Doğrudan yapılacak işlerin uygulamasına geçerim. Konuşma bitti, şimdi iş teslim edilir.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Toplantıda söylenen her şeyi çöpe atar, daha zarif bir çözüm düşünürüm.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q30_der_grenzueberschreitende_kunde",
+        "category": "operations_clients",
+        "question": "Bir müşteri (veya danışan/hasta) aşırı talepkâr, anlaşmaları umursamıyor ve bağırıyor. İlk tepkin ne?",
+        "answers": [
+            {
+                "text": "Duygularını karşılarım, aşırı sakin kalırım ve haksız olsa bile onu insanca yatıştırmaya çalışırım.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Onu buz gibi ve keskin biçimde sözleşmesel sınırlarımız konusunda uyarırım. Uslu durmazsa kapı dışarı.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Olayı hemen sistemde noktasına virgülüne kadar belgelerim; sonra kimse bana yanlış yaptığımı söyleyemesin diye.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Standart süreçleri umursamam ve onu hızlıca savuşturmak için yaratıcı, alışılmadık bir açık ararım.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q31_die_leere_schreibtisch_panik",
+        "category": "operations_clients",
+        "question": "Cuma öğleden sonra, telefon çalmıyor ve tüm işleri bitirdin. Ne hissediyorsun?",
+        "answers": [
+            {
+                "text": "Belirsiz bir huzursuzluk. Eğer sürekli üretmezsem, şirket belki de bana aslında ihtiyacı olmadığını fark eder.",
+                "scores": {
+                    "fear_existenz": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Harika! Nihayet zamanımı, gelecek hafta için klasör düzenlerimi ve şablonlarımı mükemmelleştirmek için kullanıyorum.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Sırf can sıkıntısından, tamamen yeni, kimseyle konuşulmamış bir proje ya da sistem tasarlamaya başlarım.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Ofiste (ya da chatte) dolaşıp, işlerinde onlara yardım edip edemeyeceğimi sorarım.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q32_der_falsche_prozess",
+        "category": "operations_clients",
+        "question": "Bir işi yapman gerekiyor ama bunun için resmi şirket süreci feci şekilde eski ve üç kat daha uzun sürüyor. Ne yaparsın?",
+        "answers": [
+            {
+                "text": "Sürece harfiyen uyarım. Kural kuraldır; bir şey ters giderse en azından arkam sağlam olur.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Kuralı çiğnerim, işi kendi hızlı yöntemimle yaparım ve kimseye bir şey söylemem. Önemli olan sonuç.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Süreci nasıl devrimleştirebileceğimize dair 10 sayfalık bir konsept yazarım (sonra zaten çöpe gider).",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Süreçten sapmaya cesaret edemem, çünkü uyum/compliance ya da patronla yaşayacağım dertten korkarım.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "fear_status": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q33_freitag_kurz_vor_feierabend",
+        "category": "operations_clients",
+        "question": "16:55. Patrondan 'mutlak acil' bir mail geliyor. Gerçek bir acil değil, sadece kötü zamanlama. Ne yaparsın?",
+        "answers": [
+            {
+                "text": "İçimden kaynaya kaynaya yaparım. Reddedip yapmazsam, 'en güvenilir çalışan' statümü kaybederim.",
+                "scores": {
+                    "fear_status": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Laptop kapalı. Hafta sonu başladı. Onun kötü planlaması benim tarafımda acil durum yaratmaz.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Üzerine atlarım. Nihayet bugünün sıkıcı rutin işleri yerine biraz kaos ve adrenalin.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Hemen yaparım. Pazartesi bunu herkesin önünde rezil edilerek yaşayacağım korkusu bana fazla büyük geliyor.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q34_neue_software_ausgerollt",
+        "category": "operations_clients",
+        "question": "Yönetim, sözde 'her şeyi daha iyi' yapacak pahalı, yeni bir yazılımı devreye alıyor. İlk düşüncen?",
+        "answers": [
+            {
+                "text": "Aman Tanrım. Kendi yaptığım tüm Excel listeleri ve rutinler artık değersiz. Bundan nefret ediyorum.",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Hemen sistemi nasıl hackleyebileceğimi, amacından saptırabileceğimi ya da bambaşka şeyler için kullanabileceğimi denerim.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Yazılım çok yavaş. İş akışımı artık baltalamayana kadar kullanmayı reddederim.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Uyum sağlamakta tamamen zorlanan yaşlı meslektaşlara geçişte yardım etmek için gönüllü olurum.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q35_der_oeffentliche_fehler",
+        "category": "operations_clients",
+        "question": "Ölçülebilir, pahalı bir hata yaptın. Büyük bir toplantıda ortaya çıkıyor. Anlık tepkin?",
+        "answers": [
+            {
+                "text": "Tam bir içsel donma. Imposter sendromum %1000 patlıyor. Keşke yer beni yutsa.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Tırnaklarımı çıkarırım ve üç değişken üzerinden bunun neden bu koşullarda kaçınılmaz olduğunu açıklarım.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Hemen ve acımasızca kabul ederim. 'Evet, benim hatam. Bir daha olmayacak. İşte nasıl düzelteceğimizin planı.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Hatayı hemen 'öğrenme' ya da 'plansız prototip' diye ilan eder, tartışmayı yeni bir fikre çeviririm.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q36_die_junioren_gefahr",
+        "category": "operations_clients",
+        "question": "Takımına çok motive, daha genç bir çalışan başlıyor ve aşırı hızlı. İçinde en derinde ne tetikleniyor?",
+        "answers": [
+            {
+                "text": "Maaşımın fazla yüksek olduğu ve beni yakında bu daha ucuz, daha aç versiyonla değiştirecekleri çıplak korku.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Bence harika. Onu kanatlarımın altına alırım ve onu duygusal ve mesleki olarak geliştirmeye çalışırım.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Biraz sinir bozucu. Yapıdan yoksun, dikkatsiz hatalar yapıyor ve temiz süreçlerimizi riske atıyor.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Rekabet. Burada kimin patron olduğunu net göstermek için performansımı yükselteceğim.",
+                "scores": {
+                    "executor": 2,
+                    "fear_status": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q37_scope_creep",
+        "category": "operations_clients",
+        "question": "Bir proje (ya da görev) tamamen kontrolden çıkıyor. Sürekli yeni istekler geliyor ama bütçe/zaman aynı kalıyor.",
+        "answers": [
+            {
+                "text": "Çok sert bir dur işareti koyarım. 'Feature X istiyorsanız, Y'yi çıkarırız ya da daha fazla ödersiniz.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Kimseyi hayal kırıklığına uğratmamak için gizlice günde 12 saat çalışır, tüm istekleri bir şekilde yine de karşılamaya çalışırım.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Tamamen sinirlerim bozulur, çünkü temiz zaman planım ve yapım artık kesin olarak mahvolmuştur.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Buna bayılırım. İş ne kadar kaotik ve büyük olursa, alışılmadık çözümler kurmak için o kadar alanım olur.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q38_der_visionaere_chef",
+        "category": "operations_clients",
+        "question": "CEO, şirketin geleceği hakkında ateşli, aşırı vizyoner bir konuşma yapıyor — ama ortada tek bir somut plan yok.",
+        "answers": [
+            {
+                "text": "Aşırı gazlıyım. Nihayet burada biri büyük düşünüyor ve eski, sıkıcı sınırları patlatıyor!",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "İçimden gözlerimi deviriyorum. Yine sadece buzzword; asıl iş zaten benim gibi insanların üstünde kalacak.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Hemen, bu çılgın fikri nasıl uygulayacağımızı hesaplamak için karmaşık bir Excel tablosu yapmaya başlarım.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Bu 'vizyon'un şimdi benim takımım için ne kadar ekstra baskı ve fazla mesai anlamına geleceği konusunda ciddi ciddi endişelenirim.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q39_das_externe_angebot",
+        "category": "operations_clients",
+        "question": "LinkedIn'de bir headhunter sana yazıp telefon görüşmesi teklif ediyor. Neden (çoğunlukla) reddediyorsun?",
+        "answers": [
+            {
+                "text": "Çünkü bildiğim şeytan, bilmediğim şeytandan iyidir. Değişiklikten nefret ediyorum.",
+                "scores": {
+                    "fear_veraenderung": 2
+                }
+            },
+            {
+                "text": "Çünkü yeni işteki assessment center'ı zaten geçemeyeceğime taş gibi inanıyorum.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Çünkü mevcut firmamda belli bir 'kıdem' havası yayıyorum. Bir yerde yeniden acemi olarak başlamam.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Çünkü oradaki deneme sürem, altı ay boyunca iş güvencem olmayacağı anlamına gelir. Fazla riskli.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q40_der_energie_vampir",
+        "category": "burnout_stress",
+        "question": "İş gününde bataryanı en hızlı ve en acımasız şekilde ne sömürür?",
+        "answers": [
+            {
+                "text": "Saçma, bürokratik engeller ve beni sakız gibi yavaşlatan ağır süreçler.",
+                "scores": {
+                    "pionier": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Meslektaşlar duygusal sorunlarını, şikayetlerini ve öfkelerini sürekli bana boşalttığında.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Net olmayan, sürekli değişen talimatlar; bu yüzden düzgün bir yapı kuramam.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Kronik olarak yetersiz olan ama yine de karar verme yetkisi verilen insanlar.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q41_die_krankschreibung",
+        "category": "burnout_stress",
+        "question": "Sabah hafif ama hissedilir hastalık belirtileriyle uyanıyorsun. Ne yaparsın?",
+        "answers": [
+            {
+                "text": "Yine de çalışırım (evden). Önemli topların düşeceğinden ve suçun bana kalacağından panik olurum.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Hastayım diye haber veririm. Sağlık önce gelir. Ama bütün gün ekibe karşı korkunç bir suçluluk duyarım.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Dişimi sıkar giderim. Sürekli rapor alan biri, bir sonraki terfide kenara atılır.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Yine de çalışırım. Bugünün ekonomik durumunda patrona benden şüphe etmesi için bir sebep vermek istemem.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q42_stress_kompensation",
+        "category": "burnout_stress",
+        "question": "İş yerinde tam bir korku haftasından sonra: Hafta sonu öfkeni en çok nasıl uyuşturursun?",
+        "answers": [
+            {
+                "text": "Kendime pahalı şeyler alırım ya da lüks yaparım (yemek, kıyafet, araba). Bütün bunları neden yaptığımı kendime kanıtlamam lazım.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Kendimi tamamen izole ederim, kanepede yatarım ve sinir sistemimi sakinleştirmek için mutlak sessizliğe ihtiyaç duyarım.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Bir eğitim kursuna giderim, yeni bir şey öğrenirim ya da kontrol hissine sonunda kavuşmak için gelecek haftayı planlarım.",
+                "scores": {
+                    "optimierer": 1,
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Kendimi radikal biçimde farklı, yoğun bir hobiye atarım (spor, parti, el işi), kafamı zorla boşaltmak için.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q43_schlaflos_um_drei",
+        "category": "burnout_stress",
+        "question": "Saat gece 3, tavana bakıyorsun ve uyuyamıyorsun. Aklında hangi düşünce dönüp duruyor?",
+        "answers": [
+            {
+                "text": "'Dün o e-postada kritik bir hata yaptım mı? Ya patron yarın bunu görürse?'",
+                "scores": {
+                    "fear_versagen": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "'Bu hamster tekerinden finansal güvenliğimi tamamen mahvetmeden nasıl çıkarım?'",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "'Toplantıda çok daha sert davranmalıydım. Yarın şu salağa haddini bildireceğim.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "'Aslında tüm ürünü bambaşka kurmamız lazım... ya Feature X eklesek?'",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q44_der_breaking_point",
+        "category": "burnout_stress",
+        "question": "Bir işte ne zaman hemen istifa edersin (en azından içinden)?",
+        "answers": [
+            {
+                "text": "Yıllardır süren, hatasız sadakatim görmezden gelinip bağıran bir şarlatan önümden geçince.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Bu toksik ortamda yavaş yavaş daha kötü, daha alaycı birine dönüştüğümü hissettiğimde.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Her küçük adım için izin istemem gerekiyorsa ve sanki aklı olmayan bir çocuk gibi kontrol ediliyorsam.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Bana bir hedefin sorumluluğu verilip onu başarmak için gereken güç ya da bütçe verilmediğinde.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q45_quiet_quitting",
+        "category": "burnout_stress",
+        "question": "Görev tanımı kadar çalışma ('Quiet Quitting'): Tamamen bıktığında proteston nasıl görünür?",
+        "answers": [
+            {
+                "text": "Aşırı resmî olurum. İş tanımımın tam %100'ünü yaparım - bir dakika fazla yok, ekstra görev yok.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Ofisteki zamanı gizlice kendi projelerim, yan işlerim için kullanırım ya da şirketin parasıyla kendimi geliştiririm.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Aşırı derecede alaycı olurum, açık açık sarkastik yorumlar yaparım ve yönetime küçümsememi gösteririm.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "'İyi ruh' olmayı bırakırım. Artık doğum günü organize etmem, koridorda da iş arkadaşlarını teselli etmem.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q46_die_urlaubs_stoerung",
+        "category": "burnout_stress",
+        "question": "Tatil sırasında sahilde uzanıyorsun. Telefonun çalıyor, arayan patron. Ne olur?",
+        "answers": [
+            {
+                "text": "Açmam ama nabzım fırlar. Ne olduğunu düşünerek yarım plaj günümü mahvederim.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "Açarım. İçimdeki bir parça, bensiz işlerin anında alev almasını görmekten bile keyif alır.",
+                "scores": {
+                    "executor": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Açarım, çünkü onu görmezden gelirsem işim için kötü sonuçlar doğacağından düpedüz paniklerim.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Buz gibi reddederim. Telefonum 'Rahatsız Etme'de ve bir saniye daha düşünmem.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q47_warnung_vom_arzt",
+        "category": "burnout_stress",
+        "question": "Doktor yüzüne karşı şöyle diyor: 'Stres değerleriniz tehlikeli derecede yüksek. Yavaşlamanız lazım.' Senin dürüst bahanen ne?",
+        "answers": [
+            {
+                "text": "'Biliyorum, ama şimdi frene basarsam hiyerarşide zor kazandığım yerimi kaybederim.'",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "'Söylemesi kolay. Maaşım kredileri ödüyor. Hasta olmayı göze alamam.'",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "'Sadece şu tek, dev projeyi bitirmem ve sistemi optimize etmem lazım, sonra düzelir.'",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "'Olmaz. Ben devre dışı kalırsam tüm ekibim çöker. Şu an bana ihtiyaçları var.'",
+                "scores": {
+                    "fear_versagen": 1,
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q48_die_leere_auszeichnung",
+        "category": "burnout_stress",
+        "question": "Acil gereken bir bonus yerine İK sana ıslak bir tokalaşma ve 'Resilience & Team Spirit Award' veriyor. Tepkin ne?",
+        "answers": [
+            {
+                "text": "Tam bir öfke. Ölçülebilir sonuç, para ya da yetki isterim. Laminasyonlu bir kâğıt parçası hakarettir.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Kibarca gülümserim, çekmeceye koyarım ve bunun bizi susturmak için ucuz bir taktik olduğunu gayet iyi bilirim.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "İçten içe biraz da olsa sevinirim. En azından biri ne kadar sert savaştığımı bir kez olsun görmüştür.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Teslim sırasında ilgiyi buz gibi kullanır, herkesin önünde yeni projemi satarım.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q49_der_falsche_fokus",
+        "category": "burnout_stress",
+        "question": "İş yerinde aşırı stres altındayken en çok hangi hatayı yaparsın?",
+        "answers": [
+            {
+                "text": "Mükemmeliyetçiliğe saplanırım. Asıl büyük sorunu çözmek yerine Excel hücrelerini biçimlendiririm.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Bir silindir canavara dönüşürüm. Hedefe ulaşmak için iş arkadaşlarının üstünden geçer, duyguları ezerim.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Her şeye 'Evet' derim, başkalarının işlerini üstlenirim ve sonunda başkalarının iş yükü içinde boğulurum.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Aynı anda beş yeni çözüm yolu açarım, hiçbirini bitirmem ve ekibi tam bir kaosa sürüklerim.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q50_die_sonntags_luege",
+        "category": "burnout_stress",
+        "question": "Pazar akşamı kendine en sık hangi hayat yalanını söylüyorsun?",
+        "answers": [
+            {
+                "text": "'Gelecek hafta kesin daha sakin olacak. Şu X projesi bir elimden çıksın, her şey rahatlar.' (Asla olmaz).",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "'Bunu kariyer özgeçmişi/para için 2-3 yıl daha yaparım, sonra gerçekten beni tatmin eden bir şey bulurum.'",
+                "scores": {
+                    "fear_existenz": 2,
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "'Ben sadece yeterince iyi/hızlı değilim. Gelecek hafta daha da çok çabalamam lazım.'",
+                "scores": {
+                    "fear_versagen": 2,
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "'Aslında vazgeçilmezim. Şirket bensiz çöker, o yüzden bu tiyatroyu çekmek zorundayım.'",
+                "scores": {
+                    "fear_status": 2,
+                    "executor": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q51_das_veraltete_werkzeug",
+        "category": "industry_pseo",
+        "question": "Temel çalışma aracın (bir yazılım, bir makine ya da bir sistem olsun) tamamen eski ve sürekli çöküyor. Ne yaparsın?",
+        "answers": [
+            {
+                "text": "Kendime gayriresmî bir workaround kurarım ya da sorunu aşmak için kendi çözümümü uydururum.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Yönetim üzerinde ciddi baskı kurarım. Düzgün malzeme olmadan tam performans vermeyi reddederim.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Her çöküşü tek tek, didik didik belgelerim ki sonunda gecikmelerin suçu bana atılmasın.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Bir şekilde idare ederim ve teknik olarak daha da zorlanan iş arkadaşlarına yardım etmeye çalışırım.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q52_die_sinnlose_kpi",
+        "category": "industry_pseo",
+        "question": "Yönetim, işinin gerçek kalitesini umursamayan, performansı ölçmek için tamamen saçma bir metrik getiriyor. Taktik ne?",
+        "answers": [
+            {
+                "text": "İşimi soğukkanlı biçimde bu sayıyı maksimize edecek şekilde optimize ederim. Saçmalık ölçmek istiyorlarsa, saçmalık alırlar.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Strese girerim. Gerçek kalite sunmak istiyorum ama aynı zamanda hedefleri de tutturmam gerekiyor. İki sandalye arasında yanarım.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Sayıyı milim milim takip eder, yeni kurala sıkı sıkıya uyarım; süreç daha bürokratik hale gelse bile.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Bunu açık açık alaya alır, kimse sormadan tamamen farklı ve daha iyi bir ölçüm konsepti ortaya koyarım.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q53_die_schwierige_zielgruppe",
+        "category": "industry_pseo",
+        "question": "Aşırı zor bir paydaşla (müşteri, danışan ya da hasta) uğraşıyorsun; uzmanlığını bloke ediyor. Nasıl tepki verirsin?",
+        "answers": [
+            {
+                "text": "Duygusal bağı keserim. Sözleşmede ya da süreçte ne yazıyorsa onu teslim ederim — bir milim fazlası yok.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Bunu çok kişisel alırım. Onu 'çözmek' için daha da fazla zaman yatırırım, kişisel bir bağ kurmaya çalışırım.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Kurallara harfiyen uyarım. Resmî bir hata yapmadığım sürece güvendeyim.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_existenz": 1
+                }
+            },
+            {
+                "text": "Düzeni kırmak için tamamen alışılmadık, hatta belki riskli bir yöntem denerim.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q54_der_akute_notfall",
+        "category": "industry_pseo",
+        "question": "Mesai bitimine beş dakika kala, görev alanında büyük ve beklenmedik bir acil durum patlıyor. İçinde ne oluyor?",
+        "answers": [
+            {
+                "text": "Saf adrenalin. Nihayet gerçek kaos! En iyi halime geçerim ve sorunu yaratıcı biçimde çözmeyi severim.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Hemen sorgusuz sualsiz komutayı alırım, sertçe delege ederim ve empatiyi tamamen kapatırım.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Stresliyim, ama eğitimini aldığım acil durum protokolünü bir makine gibi eksiksiz uygularım.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "İlk düşüncem, şu an bu krizden zarar gören insanlar, müşteriler ya da iş arkadaşları için duyduğum endişe olur.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q55_abteilungs_krieg",
+        "category": "industry_pseo",
+        "question": "Başka bir departman size tamamen gerçek dışı, kötü planlanmış bir işi üstünüze atıyor.",
+        "answers": [
+            {
+                "text": "Bunu agresif biçimde reddederim. 'Bu bizim sorunumuz değil. Planlamanız berbat. Ödevinizi yapınca geri gelin.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Departmanlar arasında açık savaş çıkmasın, huzur bozulmasın diye dişimi sıkarak yaparım.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Saatler süren bir e-posta yazar, bunun tüm mutabakatlara ve SLA'lara aykırı olduğunu kanıtlarım.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Saçma talimatlarını tamamen görmezden gelir, çözümü zaten daha geleceğe dönük bulduğum şekilde kurarım.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q56_die_dinnerparty_identitaet",
+        "category": "industry_pseo",
+        "question": "Bir partide biri, {{JOB_NAME}} olarak asıl görevinin gerçekte ne olduğunu soruyor. Dürüst, alaycı cevabın ne?",
+        "answers": [
+            {
+                "text": "'Kendi verimsizliği ve beceriksizliğinin ağırlığı altında iş yerinin çökmesini engelliyorum.'",
+                "scores": {
+                    "executor": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "'Aslında sadece profesyonel bir yangın söndürücü ve ekibim için ruhsal çöp kutusuyum.'",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "'Verileri/süreçleri A'dan B'ye taşıyorum ve sonunda kimsenin bize dava açmamasına dikkat ediyorum.'",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_existenz": 1
+                }
+            },
+            {
+                "text": "'İnovasyonu ileri taşımaya çalışıyorum ama zamanımın %80'ini bürokrasiyle savaşarak geçiriyorum.'",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q57_theorie_vs_praxis",
+        "category": "industry_pseo",
+        "question": "Yeni biri eğitimden/üniversiteden taze çıkmış geliyor ve sizin pratikte sıfır işe yarayan teorileri sürekli alıntılıyor.",
+        "answers": [
+            {
+                "text": "Onu sözlü olarak haşlarım. 'Öğrendiğin her şeyi unut. Dışarıda bambaşka bir rüzgâr esiyor.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Onun bilinçli olarak (ama kontrollü biçimde) duvara toslamasına izin veririm ki dersi kendi başına öğrensin.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Onu kenara çeker, teoriyi bizim pratiğimizin sert gerçeklerine nazikçe çeviririm; moralini bozmadan.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "İç süreç dokümanlarımızı eline tutuştururum. Onlara uyan hata yapmaz.",
+                "scores": {
+                    "optimierer": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q58_das_gekappte_budget",
+        "category": "industry_pseo",
+        "question": "En önemli kaynaklarınız (bütçe, malzeme ya da personel) bir anda %20 kesiliyor. Ne yaparsın?",
+        "answers": [
+            {
+                "text": "Yönetimi yazılı olarak uyarırım: kalite şimdi tam olarak %20 düşecek. Bu benim sorunum değil.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Eksikliği bir şekilde telafi etmek için ücretsiz fazla mesai yaparım; çünkü ekibi ve danışanları yarı yolda bırakamam.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_existenz": 1
+                }
+            },
+            {
+                "text": "Kimseye sormadan, en az değer üreten işlerin %20'sini anında çöpe atarım.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Bunu sportif bir kısıtlama gibi görürüm. Bütçe kesintilerinden çoğu zaman en yenilikçi hileler çıkar.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q59_der_branchentrend",
+        "category": "industry_pseo",
+        "question": "Sektörünün üzerinden yeni, yıkıcı bir trend (ör. yapay zekâ ya da yeni yasalar) geçiyor. İç tutumun ne?",
+        "answers": [
+            {
+                "text": "Hayranlık. İlk deneyen, bozup ne kadar çılgın bir şey inşa edebileceğimize bakan kişi benim.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Soğuk hesap. Sadece sert biçimde ölçülebilir zaman ya da para kazandırıyorsa kullanırım. Hype'ı umursamam.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Korku. Zor bela kurduğum uzmanlık bilgisi bununla birlikte yakında değersizleşir ya da yerini bir şey alır mı?",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Kaygı. Bu otomasyon yüzünden mesleğimizde kalan son insanlık kırıntısı da yok mu oluyor?",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q60_der_geheime_karrierewunsch",
+        "category": "industry_pseo",
+        "question": "Kariyerin için bir sihirli değneğin olsaydı, {{JOB_NAME}} olarak bugün ne dilerdin?",
+        "answers": [
+            {
+                "text": "Mutlak karar yetkisi, maksimum bütçe ve yukarıdan sıfır mikroyönetim olan bir pozisyon.",
+                "scores": {
+                    "executor": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Her gün geleceği icat edebileceğim, ama bütün idari pisliği başkasının hallettiği bir rol.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Sürprizsiz, kusursuz yapılandırılmış, saat 17.00'de ofiste bırakabildiğim taş gibi güvenli bir iş.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "İnsanlar üzerinde gerçek, derin etki yaratabildiğim ama bunu yaparken psikolojik olarak tükenmediğim bir rol.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q61_die_kuendigungs_fantasie",
+        "category": "career_change_exit",
+        "question": "Ofiste oturup istifa etmeyi düşündüğünde: İçindeki gizli fantezi nasıl görünüyor?",
+        "answers": [
+            {
+                "text": "Patronumun beceriksizliğine dair topladığım sert gerçekleri masaya koyup başım dik çıkar giderim.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Sessizce kaybolurum, drama yok. Ertesi gün bütün bilgimin bir anda silinmiş olmasını hayal ederim.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Radikal, çılgın bir fikirle kendi işimi kurarım ve herkese yolumun daha iyi olduğunu kanıtlarım.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Bu fanteziyi sık sık kurarım ama sonra en sevdiğim iş arkadaşlarımı düşünürüm ve anında suçluluk duyarım.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_veraenderung": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q62_das_gegenangebot",
+        "category": "career_change_exit",
+        "question": "İstifanı veriyorsun. Patronun panikliyor ve sana hemen %20 daha fazla maaş teklif ediyor. Ne olur?",
+        "answers": [
+            {
+                "text": "Kalırım. %20 daha fazla güvence, sabit giderlerim için ciddi bir tampon. Duygular falan umurumda değil.",
+                "scores": {
+                    "fear_existenz": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Buz gibi reddederim. Çok geç. Ben giderken ancak para veren biri, saygımı çoktan kaybetmiştir.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Kalırım. Ama sadece, tamamen yeni bir şirkette kendimi yeniden kanıtlamak zorunda kalma fikri aslında bana panik verdiği için.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Parayı alırım, üstüne yeni bir unvan pazarlığı yaparım ve piyasa değerimi şişirmek için bunun keyfini sürerim.",
+                "scores": {
+                    "fear_status": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q63_quereinstieg_blockade",
+        "category": "career_change_exit",
+        "question": "Tamamen başka bir sektöre geçmeyi düşünüyorsun. Seni en çok ne durduruyor?",
+        "answers": [
+            {
+                "text": "Orada finansal olarak yeniden en alttan başlamam ve yaşam standardımı kaybetmem korkusu.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "'Kıdem'imi kaybetmek. 25 yaşındakilerin dünyayı anlattığı cahil acemi olmak istemiyorum.",
+                "scores": {
+                    "fear_status": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Resmî belgenin eksik olması. Yeni sektör için tam o kâğıt / sertifika olmadan buna cesaret edemem.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "O kadar çok farklı ilgim var ki zaten kendimi tek bir yeni yola bağlayamıyorum.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q64_bewerbungs_horror",
+        "category": "career_change_exit",
+        "question": "Yaklaşan bir iş görüşmesinde senin için tam bir korku senaryosu ne?",
+        "answers": [
+            {
+                "text": "Bana teknik sorular sorulması, mükemmel cevabımın olmaması ve 'sahtekâr' olarak ifşa edilmem.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Kendimi yapay biçimde eğip bükmek ve o sahte 'Biz büyük bir aileyiz' İK oyununa katlanmak zorunda kalmam.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Reddedilmek. Bir kez açılmışken reddedilmeyi egom zor kaldırır.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Bana '5 yıl sonra kendinizi nerede görüyorsunuz?' diye sorduklarında ne cevap vereceğimi hiç bilmemem. (Böyle planlardan nefret ederim).",
+                "scores": {
+                    "pionier": 2,
+                    "fear_veraenderung": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q65_lebenslauf_luege",
+        "category": "career_change_exit",
+        "question": "Özgeçmişini acımasızca analiz edersek: Sence en büyük 'zayıf nokta' nerede?",
+        "answers": [
+            {
+                "text": "Kâğıt üstünde katı bir bürokrat gibi görünüyorum, çünkü gerçek problem çözücü yeteneklerim hiçbir sertifikaya sığmıyor.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Kendimi değerimin altında satıyorum. Yıllarca fiilen bütün departmanları taşımış olmama rağmen mütevazı kelimeler kullanıyorum.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Özgeçmişim dağınık. Katı yapılar yettiğinde daha sık iş değiştirdim ya da bazı şeyleri yarım bıraktım.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Aslında zayıf noktası yok, güçlü. Ama maaş beklentilerimin İK'yı ürküteceğinden korkuyorum.",
+                "scores": {
+                    "executor": 2,
+                    "fear_existenz": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q66_das_sabbatical",
+        "category": "career_change_exit",
+        "question": "Şirket seni 6 aylık ücretli sabbaticale zorluyor. 2. haftadan sonra ne yaparsın?",
+        "answers": [
+            {
+                "text": "Doğrudan kendi projemi ya da yan işimi kurarım, çünkü beynim yaratıcı çıktı olmadan çürür.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Arkadaşlara yardım ederim, sosyal işlere girerim ya da özel hayatta 'kollayıcı' rolüne kayarım.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Zamanı, geri dönüşte piyasa değerimi artırmak için takıntılı biçimde kendimi geliştirmeye (sertifikalar, kurslar) harcarım.",
+                "scores": {
+                    "optimierer": 1,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Kesinlikle hiçbir şey yapmam. Özel hayatımı bir proje gibi optimize eder, zamanım üzerindeki tam hâkimiyetin tadını çıkarırım.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q67_freelancing_traum",
+        "category": "career_change_exit",
+        "question": "Konu serbest çalışma / freelancing. Bu adımı neden hâlâ tam atmadın?",
+        "answers": [
+            {
+                "text": "Ben satıcı değilim. Kendimi pazarlamak ve müşteri kovalamak zorunda kalmaktan nefret ediyorum.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Vergiler, muhasebe, hukuki riskler. Hatalı bir fatura ve bir ayağın hapiste olur.",
+                "scores": {
+                    "fear_existenz": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Etrafımda sabit bir ekibe ihtiyacım var. Tek başıma savaşmanın izolasyonu beni duygusal olarak tüketir.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Zaten çoktan denedim ya da yan iş olarak yapıyorum. Asıl derdim daha çok bunun çabuk sıkıcı hale gelmesi.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q68_der_tropfen_im_fass",
+        "category": "career_change_exit",
+        "question": "Hepimizin bir tahammül sınırı var. Seni anında istifaya götürecek küçük, neredeyse saçma bir şey ne olurdu?",
+        "answers": [
+            {
+                "text": "Bana ekipmanımı dayatırlarsa (mesela en ucuz Windows laptopu zorla verip) iş akışımı mahvederlerse.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Patronum Excel tablomı ya da temiz sürecimi silip yerine sallantılı bir geçici çözüm koyarsa.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Basit, 5 dakikalık bir işi kendi yöntemimle çözmem yasaklanırsa, çünkü 'süreç bunu öngörmüyor'.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Ekibimden birine haksız yere bağırılırsa ve tek başıma izlemek zorunda kalırsam.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q69_die_gehaltsverhandlung",
+        "category": "career_change_exit",
+        "question": "Yarın daha fazla maaş için her şeyi belirleyecek görüşmen var. Bu akşam nasıl hazırlanırsın?",
+        "answers": [
+            {
+                "text": "KPI'larımın ve başarılarımın buz gibi bir listesini yazarım. Ödemezlerse çıkış planımı biliyorum.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Aynanın karşısında prova yaparım, çünkü kritik anda yumuşayıp geri adım atmaktan korkarım.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_veraenderung": 2
+                }
+            },
+            {
+                "text": "Talebimi eksiksiz ve objektif biçimde gerekçelendirebilmek için internetten maaş tabloları toplarım.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Paradan çok, hangi yeni özgürlükleri, bütçeleri ya da uzaktan çalışma günlerini pazarlayabileceğimi düşünürüm. Sadece para yetmez.",
+                "scores": {
+                    "pionier": 2,
+                    "fear_status": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q70_der_neustart",
+        "category": "career_change_exit",
+        "question": "Yarın tamamen yeni bir şirkette, tamamen yeni bir [Cluster] içinde başlasan: 1 numaralı önceliğin ne olur?",
+        "answers": [
+            {
+                "text": "Gerçek güven. Bir daha her küçük kararı gerekçelendirmek zorunda kalmak istemiyorum.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "İnsani sıcaklık. Sürekli birbirinin arkasından iş çeviren bir ekip istemiyorum.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Mutlak netlik. Tam olarak neye göre ölçüldüğümü ve sürecin ne olduğunu bilmek istiyorum.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Para ve özerklik. Sonuçlarım için adil ücret almak ve rahatça çalışabilmek istiyorum.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    }
+]

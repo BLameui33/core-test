@@ -1,0 +1,2262 @@
+[
+    {
+        "id": "q1_meeting",
+        "category": "conflict_structure",
+        "question": "명확한 안건도 없는 2시간짜리 '전략 회의'에서 동료 셋이 끝도 없이 제자리만 맴돈다. 네 머릿속엔 뭐가 지나가?",
+        "answers": [
+            {
+                "text": "좋네. 큰소리로 생각하고 아이디어를 굴릴 공간이 생겼잖아. 드디어 엑셀 목록만 칼같이 처리하는 시간은 아니군.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "이건 나를 빡치게 한다. 15분 지나면 난 명확한 결정이나 할 일 배분을 요구할 거고, 아니면 나간다.",
+                "scores": {
+                    "executor": 1
+                }
+            },
+            {
+                "text": "속으로는 스트레스가 폭발한다. 지금 내 진짜 일은 책상 위에 미뤄진 채로 남아 있는데, 그 생각만 계속 든다.",
+                "scores": {
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "말이 적은 동료들도 대화에 끌어들이고, 방 안의 팽팽한 분위기를 좀 누그러뜨리려고 한다.",
+                "scores": {
+                    "katalysator": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q2_systemfehler",
+        "category": "conflict_structure",
+        "question": "중요한 프로젝트가 크게 망했다. 원인은 네가 아니라 회사의 불명확한 프로세스였지만, 책임은 네 부서로 돌아온다. 첫 반응은?",
+        "answers": [
+            {
+                "text": "병목을 냉정하게 분석하고, 수정안을 만들고, 위로는 누가 또는 무엇이 실패했는지 아주 분명하게 말한다.",
+                "scores": {
+                    "executor": 1
+                }
+            },
+            {
+                "text": "나는 밤 반을 써서 내가 모든 지침을 엄격히 지켰다는 걸 빈틈없이 문서화한다.",
+                "scores": {
+                    "optimierer": 1,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "이미 다음 프로젝트를 완전히 다르게 시작할 아이디어가 세 개나 떠오른다. 지난 일은 지난 일이다.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "다른 부서들이 이 혼란 때문에 피해를 보니까 죄책감이 든다. 그래서 바로 도움을 제안한다.",
+                "scores": {
+                    "katalysator": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q3_sinnlosaufgabe",
+        "category": "conflict_structure",
+        "question": "상사가 완전히 반복적이고, 지나치게 세세하며, 네 보기엔 완전히 비효율적인 일을 시킨다. 어떻게 하겠나?",
+        "answers": [
+            {
+                "text": "나는 오히려 몰입한다. 끝났을 때 모든 게 정확히 맞아떨어지고, 구조적이고, 체크 완료되는 걸 좋아한다.",
+                "scores": {
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "속으로 죽는다. 10분 지나면 집중이 깨지고 짜증이 나서 다른 걸 하기 시작한다.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "몰래 자동화하거나, 넘기거나, 아니면 3분의 1 시간 안에 '그럭저럭 괜찮게' 대충 끝내는 방법을 찾는다.",
+                "scores": {
+                    "executor": 1
+                }
+            },
+            {
+                "text": "이를 악물고 꼼꼼하게 한다. 내가 안 하면 동료들에게 피해가 가고, 그건 원치 않는다.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_status": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q4_befoerderungsfalle",
+        "category": "conflict_structure",
+        "question": "네 위의 리더 자리가 비었다. 그런데 왜 아직 네 자리가 아니지?",
+        "answers": [
+            {
+                "text": "그 위에 있는 끊임없는 압박, 정치질, 갈등을 사실 내 삶에 전혀 원하지 않기 때문이다.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "내가 너무 형편없이 나를 판다. 뒤에서 일은 다 내가 하는데, 공은 다른 사람들이 챙긴다.",
+                "scores": {
+                    "optimierer": 1,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "내게는 '현장 냄새'가 없기 때문이다. 나는 낡은 구조를 계속 문제 삼아서 경영진에겐 거슬리는 존재다.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "누가 내가 없다고 했나? 나는 그런 자리를 적극적으로 요구한다. 막으면 회사를 옮긴다.",
+                "scores": {
+                    "executor": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q5_sonntagabend",
+        "category": "conflict_structure",
+        "question": "일요일 20:00다. 다가오는 업무 주를 생각한다. 무엇이 가장 먼저 찝찝한 기분을 만들까?",
+        "answers": [
+            {
+                "text": "이번 주도 진짜 중요한 깊은 아이디어는 못 하고, 일상 업무가 나를 집어삼킬 거라는 두려움.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "독한 분위기, 해결되지 않은 팀 갈등, 그리고 또 내가 동기부여해야 하는 동료들을 떠올리는 것.",
+                "scores": {
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "무력감. 뭐가 잘못되는지는 정확히 보이는데, 고칠 결정을 내가 내릴 수는 없다.",
+                "scores": {
+                    "executor": 1
+                }
+            },
+            {
+                "text": "업무량 때문에 전체를 놓치고, 치명적인 실수를 저지를까 봐 걱정되는 것.",
+                "scores": {
+                    "optimierer": 1,
+                    "fear_versagen": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q6_feedback",
+        "category": "conflict_structure",
+        "question": "전문적으로는 너보다 덜 아는 상사가 비판적이지만 부당한 피드백을 준다. 네 속 반응은?",
+        "answers": [
+            {
+                "text": "나는 그냥 흘려듣는다. 그가 내 일을 방해하지 않고 내버려두기만 하면, 그의 의견은 신경도 안 쓴다.",
+                "scores": {
+                    "executor": 1
+                }
+            },
+            {
+                "text": "며칠 동안 엄청 마음에 담아두고, 내 능력을 의심하고, 내가 뭘 잘못했는지 계속 생각한다.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "로그나 문서 같은 확실한 증거를 바로 들이밀어서, 그의 판단이 틀렸다는 걸 증명한다.",
+                "scores": {
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "속으로 눈을 굴린다. 그는 큰 그림을 전혀 이해 못 한다. 그래서 애초에 논쟁할 가치도 없다.",
+                "scores": {
+                    "pionier": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q7_feierabend",
+        "category": "conflict_structure",
+        "question": "어떤 조건이어야 저녁에 노트북을 진짜 좋은 기분으로 닫을 수 있나?",
+        "answers": [
+            {
+                "text": "오늘 복잡한 문제를 하나 풀었거나, 새롭고 번뜩이는 아이디어를 만들어냈을 때.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "할 일 목록이 완전히 비어 있고, 메일이나 도구에 빨간 알림 점도 더 이상 안 보일 때.",
+                "scores": {
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "팀이 괜찮은 하루를 보냈고, 같이 웃었고, 누군가의 문제를 내가 도와줄 수 있었을 때.",
+                "scores": {
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "오늘 매출, 리드, 또는 측정 가능한 진전을 만드는 확실한 결과를 냈을 때.",
+                "scores": {
+                    "executor": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q8_gehalt_vs_risiko",
+        "category": "frust_risiko_angst",
+        "question": "혁신적인 스타트업이 네가 꿈꾸던 완벽한 직무를 제안한다. 단, 기본급은 20% 적고 1년 계약직이다. 솔직한 반응은?",
+        "answers": [
+            {
+                "text": "절대 안 된다. 고정비, 월세, 책임이 있다. 그 위험 때문에 잠도 못 잔다.",
+                "scores": {
+                    "fear_existenz": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "바로 한다. 새로 뭔가를 만드는 자극이 필요하다. 어차피 안정은 지루하다.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "나는 실패한 스타트업이 나중에 내 이력서에 큰 흠으로 남을까 봐 더 걱정된다.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "하고는 싶지만, 지금 내 팀을 버리고 떠나는 건 도저히 못 하겠다.",
+                "scores": {
+                    "fear_veraenderung": 1,
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q9_unterbezahlt",
+        "category": "frust_risiko_angst",
+        "question": "네가 업계 평균보다 대략 15% 덜 받고 있다는 걸 정확히 안다. 그런데 왜 지금까지 그냥 넘겼나?",
+        "answers": [
+            {
+                "text": "역풍 맞을까 봐 무섭다. 결국 나는 찍혀서 표적이 될까 걱정된다.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "더 받으면 나한테 거는 기대도 엄청 올라간다. 그걸 못 해내면 어떡하지?",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "지금 내 직함이 멋지다. 돈보다 그게 거의 더 중요하다. 링크드인에 엄청 좋아 보인다.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "연봉 협상이나 면접 생각만 해도 너무 지친다. 그냥 적응해버렸다.",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q10_umstrukturierung",
+        "category": "frust_risiko_angst",
+        "question": "갑작스러운 합병이 발표된다. 네 부서는 완전히 재편된다. 가장 먼저 드는 생각은?",
+        "answers": [
+            {
+                "text": "'내가 해고되는 건가? 모아둔 돈은 얼마나 버틸까?'",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "'젠장, 이제 완전히 무능한 새 상사 밑에서 계급이 더 아래로 떨어지는 건가?'",
+                "scores": {
+                    "fear_status": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "'아, 망했다. 내가 공들여 만든 완벽한 루틴이랑 프로세스가 이제 전부 물거품이네.'",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "'새 상사들은 금방 알아차리겠지. 내가 사실 여기 사람들이 생각하는 것만큼 그렇게 대단하진 않다는 걸.'",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q11_golden_handcuffs",
+        "category": "frust_risiko_angst",
+        "question": "매년 두둑한 보너스를 받고 돈도 아주 잘 벌지만, 너는 네 일을 뼛속까지 혐오한다. 왜 아직도 거기 있지?",
+        "answers": [
+            {
+                "text": "황금 우리: 생활 수준이 너무 달콤하다. 이제 평범한 연봉 체계로는 못 돌아간다.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "그 명성: 내가 어디서 일하는지 말하면 사람들이 감탄한다. 그게 자존심을 먹여 살린다.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "자기 의심: 속으로는 그냥 운이 좋았다고 믿는다. 다른 누구도 나한테 이렇게 많이는 안 줄 거다.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "관성: 매일 불평은 하지만, 밤이 되면 진짜로 다시 지원할 에너지가 하나도 없다.",
+                "scores": {
+                    "fear_veraenderung": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q12_linkedin_flex",
+        "category": "frust_risiko_angst",
+        "question": "자기 홍보와 직업적 가시성에 대한 주제다(예: 링크드인, 큰 회의). 너는 어떻게 행동하나?",
+        "answers": [
+            {
+                "text": "내가 뭐라고 나를 칭찬해? 나보다 실력 좋은 사람은 수천 명이나 있다.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "난 디지털 박수 같은 거 필요 없다. 내 급여명세서와 결과면 충분한 검증이다.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "나도 뭔가 올리고 싶긴 한데, 그러려면 완벽하고 흠 하나 없어야 한다. 그래서 아예 안 한다.",
+                "scores": {
+                    "fear_versagen": 1,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "가시성은 권력이다. 나는 성과를 적극적으로 공유한다. 내 시장가치를 지키고 경쟁자들을 멀리 두기 위해서다.",
+                "scores": {
+                    "fear_status": 2,
+                    "pionier": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q13_befoerderung_abgelehnt",
+        "category": "frust_risiko_angst",
+        "question": "눈에 보이는 승진 제안을 네가 거절한다고 해보자. 가장 솔직한 이유는 뭐겠나?",
+        "answers": [
+            {
+                "text": "회사 차도 없고 진짜 'C-Level' 타이틀도 없었다. 돈 조금 더 준다고 나를 싸게 팔진 않는다.",
+                "scores": {
+                    "fear_status": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "인사 책임을 지고, 잘못된 결정을 내리고, 리더로서 실패할 거라는 극도의 공포.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "익숙한 책상, 익숙한 팀, 내가 좋아하는 루틴을 다 버려야 한다.",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "위로금이 너무 적었다. 그 정도 연봉 인상으로는 내 해고 통보 기간과 안정성을 잃는 걸 못 메운다.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q14_lob_vom_ceo",
+        "category": "frust_risiko_angst",
+        "question": "큰 자리에서 CEO가 네 엄청난 성과를 직접 칭찬한다. 너 안에서는 무슨 일이 벌어지나?",
+        "answers": [
+            {
+                "text": "나는 웃지만 속으로는 식은땀이 난다: 다음번에도 저걸 기대할 거고, 그러면 나는 들통난다.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "나는 바로 화제를 돌리고 칭찬을 팀 전체와 나눈다. 사무실에서 나를 오만한 사람으로 보지 않게 하려고.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "나는 그걸 즐긴다. 이 성과가 주로 내 공로였다는 걸 방 안의 모두가 이해하게 만든다.",
+                "scores": {
+                    "executor": 1,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "나는 그 관심을 차갑게 이용해서, 다음 훨씬 더 큰 예산이나 미친 아이디어를 피치한다.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q15_ki_bedrohung",
+        "category": "frust_risiko_angst",
+        "question": "인공지능이 네 업계의 엄청난 부분을 자동화하고 있다. 너는 어떻게 반응하나?",
+        "answers": [
+            {
+                "text": "공황이다. 나는 내 저축을 확인하고 '안전한' 기술직으로 재교육받는 걸 검색한다.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "나는 스트레스를 받는다. 내가 이제 젊은 편이 아니기 때문이다. 내 머리가 이런 새 도구들을 아직도 배울 수 있을지 의심된다.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "나는 즉시 나 자신을 비공식 'AI 담당자'로 임명한다. 관련성을 유지하고 내 지위를 지키기 위해서다.",
+                "scores": {
+                    "fear_status": 2,
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "나는 대체로 무시한다. 다들 뜨겁게 말하지만 실제로는 별거 아니다. 내 프로세스는 아직 잘 돌아간다.",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q16_das_toxische_umfeld",
+        "category": "frust_risiko_angst",
+        "question": "네 회사 문화는 극도로 독하고 너를 지치게 하지만, 네 계약은 무기한이다. 너는 뭘 하나?",
+        "answers": [
+            {
+                "text": "나는 남는다. 무기한 계약은 요즘 경제에서 순금이다. 그냥 감정을 꺼버린다.",
+                "scores": {
+                    "fear_existenz": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "나는 남는다. 지금 그만두면 이력서에 내가 버틸 만큼 강하지 않았던 것처럼 보일 테니까.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "나는 몰래 퇴로를 준비하지만, '완벽한 순간'을 기다린다. (그런데 그건 어째서인지 절대 안 온다).",
+                "scores": {
+                    "fear_veraenderung": 2
+                }
+            },
+            {
+                "text": "나는 경영진에게 문제점을 세게 들이민다. 그 때문에 나를 자르면 오히려 좋다.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q17_wochenend_projekt",
+        "category": "frust_risiko_angst",
+        "question": "금요일 오후에 갑자기, 눈에 띄는 고급 주말 프로젝트를 이끌어 달라고 요청받았다.",
+        "answers": [
+            {
+                "text": "나는 수락한다. 거절하면 상사들이 내가 더 이상 '하이 퍼포머'가 아니라고 생각하고 그 프로젝트를 다른 사람에게 줄 테니까.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "나는 순전히 죄책감 때문에 수락한다. 동료들이 주말에 일하지 않아도 되게 하려고.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "나는 수락하지만, 주말의 80%를 이 눈에 띄는 프로젝트가 망할까 봐 공황 상태로 보낸다.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "나는 차갑게 거절한다. 내 자유시간은 내 것이다. 주말 시급을 두 배로 주지 않는 한은.",
+                "scores": {
+                    "executor": 2,
+                    "pionier": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q18_der_inkompetente_kollege",
+        "category": "team_leadership",
+        "question": "네 팀의 한 동료가 만성적으로 형편없는 일을 한다. 그건 네 프로젝트에도 영향을 준다. 너는 뭘 하나?",
+        "answers": [
+            {
+                "text": "나는 그의 일을 몰래 다시 하거나 밤에 고친다. 결과물만 완벽하면 된다.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "나는 그와 대화하고, 그가 들키지 않도록 그의 업무를 도와주겠다고 제안한다.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "나는 내 작업 흐름을 그의 것과 완전히 분리하고, 더 이상 그에게 의존하지 않는 시스템을 만든다.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "나는 회의에서 그를 공개적으로 문제 삼거나 바로 상사에게 에스컬레이션한다. 나는 짐짝을 끌고 가지 않는다.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q19_micromanagement",
+        "category": "team_leadership",
+        "question": "네 새 상사는 극단적인 마이크로매니저다. 네가 이메일을 보내기 전에 초안을 하나하나 다 읽고 싶어 한다. 네 전략은?",
+        "answers": [
+            {
+                "text": "나는 맞춰준다. 그리고 체크리스트를 만든다. 그가 통제를 원하면, 나는 빈틈없는 문서를 준다.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "나는 공개적으로 반항한다. 그의 지시를 무시하고 내 결과를 내놓고, 그가 발광하게 둔다.",
+                "scores": {
+                    "pionier": 1,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "나는 엄청 불안해지고, 이제부터는 실수할까 봐 모든 이메일을 세 번씩 확인한다.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "나는 여러 번의 개인 대화를 통해 그가 왜 이렇게 신뢰가 없는지 알아내고, 그를 안심시키려 한다.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q20_ideenklau",
+        "category": "team_leadership",
+        "question": "너는 커피 코너에서 기가 막힌 아이디어를 말한다. 그런데 큰 회의에서 동료가 그 아이디어를 갑자기 자기 것처럼 팔아먹는다. 너는 어떻게 반응하나?",
+        "answers": [
+            {
+                "text": "나는 분노로 끓어오르지만, 비전문적이거나 까칠하거나 '작아' 보일까 봐 회의에서는 아무 말도 안 한다.",
+                "scores": {
+                    "fear_status": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "나는 정중하지만 차갑게 끊는다: '맞아, 내가 아까 커피 코너에서 설명해준 그거야... 다음 단계는 이거고.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "그가 그러든지. 어차피 내 머릿속에는 이미 더 새롭고 훨씬 더 좋은 아이디어가 세 개나 있다. 저 사람은 곧 막힐 거다.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "나는 나중에 둘만 있을 때 대화를 요청하고, 그 행동이 인간적으로 엄청 실망스러웠다고 말한다.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q21_teambuilding_horror",
+        "category": "team_leadership",
+        "question": "HR이 의무적인 '팀빌딩 워크숍'을 지시한다. 의자 원형으로 둘러앉고 감정 카드까지 있다. 너는 어떻게 생각하나?",
+        "answers": [
+            {
+                "text": "좋지. 드디어 팀 안의 말 안 된 긴장을 중재해서 풀 기회다.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "시간 낭비다. 여기 앉아 있는 동안 회사가 지금 얼마나 돈을 태우는지 속으로 계산하게 된다.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "얌전히 참여는 하겠지만, 절대 부정적으로 보이지 않으려고 무난하고 안전한 말만 한다.",
+                "scores": {
+                    "fear_status": 1,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "이 구조 없는 시간을 이용해서 정신은 완전히 딴 데 가 있고, 내 개인 프로젝트를 머릿속으로 만지작거린다.",
+                "scores": {
+                    "pionier": 2,
+                    "optimierer": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q22_der_antwort_allen_fail",
+        "category": "team_leadership",
+        "question": "메일 배포판에서 '전체 답장' 사태가 터진다. 말투는 거칠어지고, CC는 점점 불어난다. 네 역할은?",
+        "answers": [
+            {
+                "text": "중재자로 끼어들어 전화로 바꾸고, 오프라인에서 파도를 좀 가라앉히려 한다.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "아주 냉정하고 극도로 사실만 담은 글머리표 메일로 드라마를 끝낸다. 토론 종료.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "우리 부서가 잘못 없다는 걸 의심의 여지 없이 증명하는 PDF 세 개와 회의록을 붙인다.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "두 번째 메일 이후 그 체인은 이미 보관해 버렸고, 나는 진작 다른 일 하고 있다.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q23_unbezahlte_ueberstunden",
+        "category": "team_leadership",
+        "question": "상사는 계약상 의무는 아니지만 주말에 메일을 확인하길 암묵적으로 기대한다. 그런데 왜 그래도 하냐?",
+        "answers": [
+            {
+                "text": "월요일 아침에 엄청난 난장판이 기다리고 있을까 봐 겁나서다. 그럼 나는 더 이상 통제 못 한다.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "해고 물결이 돌고 있어서, 내가 없어선 안 되는 사람으로 보이게 해야 하기 때문이다.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "상사가 내가 얼마나 극도로 헌신적인지 보게 하고 싶다. 그래야 알파 순위에서 내 자리가 지켜진다.",
+                "scores": {
+                    "fear_status": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "내가 안 하면 그 일이 불쌍한 동료에게 넘어가니까. 그 사람도 이미 한계다.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q24_onboarding",
+        "category": "team_leadership",
+        "question": "새 직원을 온보딩해야 한다. 네 방식은?",
+        "answers": [
+            {
+                "text": "내가 쓴 50쪽짜리 위키를 넘기고, 프로세스를 그대로 따르길 기대한다.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "일단 커피 한 잔 하자고 부르고, 다 소개해 주고, 정서적으로 안전하다고 느끼게 만든다.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "큰 비전을 설명하고, 복잡한 문제를 하나 쥐여 준 뒤, 이 사람이 헤엄칠 수 있는지 본다.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "바로 어렵고 측정 가능한 과제를 준다. 그걸 망치면 내가 뭘 기대할 수 있는지 바로 알 수 있다.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q25_fuehrungsstil",
+        "category": "team_leadership",
+        "question": "완전히 솔직해져 보자. 네가 팀을 이끌어야 한다면 가장 큰 약점은 뭐냐?",
+        "answers": [
+            {
+                "text": "갈등이 싫어서, 거칠고 부정적인 피드백을 주는 걸 피하려 할 것이다.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "남들이 나만큼 완벽하게 해낼 거라고 믿지 못해서, 너무 많이 마이크로매니지먼트할 것이다.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "아마 너무 참을성 없고 거칠어서, 내 시간을 낭비하는 사람은 너무 빨리 잘라버릴 것이다.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "혼란 속에 빠지고, 행정적인 걸 잊고, 계속 바뀌는 내 방향 전환 때문에 사람들을 지치게 할 것이다.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q26_flurfunk",
+        "category": "team_leadership",
+        "question": "복도에서 방 안에 없는 동료에 대해 극도로 독하게 뒷담화가 오간다. 네 태도는?",
+        "answers": [
+            {
+                "text": "나는 말없이 그 상황에서 빠져나온다. 험담은 비전문적이고 비효율적이다.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "입을 열고, 내 생각을 거칠게 말한 뒤, 그 뒷담화를 즉시 끝낸다.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "가만히 서 있다가 예의상 웃을 수도 있지만, 속으로는 엄청 비참하다.",
+                "scores": {
+                    "fear_status": 1,
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "나중에 그 동료를 몰래 찾아가서 정서적으로 좀 받쳐 주려 한다.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q27_delegation",
+        "category": "team_leadership",
+        "question": "상사가 고위험, 저예산의 대형 '망할 수밖에 없는 프로젝트'를 통째로 너에게 넘긴다. 왜 받냐?",
+        "answers": [
+            {
+                "text": "그냥 상사 얼굴 보고 '아니요'라고 말할 용기가 없다.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "그걸 권력 지렛대로 쓴다. 내가 이걸 살리면 공은 내 것이고, 더 많은 연봉을 요구할 수 있다.",
+                "scores": {
+                    "executor": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "팀에서 이 혼란을 구조적으로 정리할 수 있는 사람은 나뿐이기 때문이다.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "말도 안 되는 지시는 그냥 무시하고, 이 프로젝트를 완전히 새로운 방법을 실험하는 모래상자로 쓴다.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q28_brainstorming",
+        "category": "team_leadership",
+        "question": "브레인스토밍 세션: 누군가 완전히 비현실적이고 황당한 아이디어를 던진다. 네 반응은?",
+        "answers": [
+            {
+                "text": "바로 막는다: '그럴 예산 없어. 너무 오래 걸려. 다음 제안.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "완전히 받아들이고, 그 아이디어를 훨씬 더 미친 방향으로 밀어붙인다. 때로는 광기에서 혁신이 나온다.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "이 아이디어가 바로 불러올 컴플라이언스와 프로세스 문제를 짚어낸다.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "차라리 조용히 있는다. 아이디어가 좋다고 생각해도, 사람들 앞에서 망신당하고 싶지 않다.",
+                "scores": {
+                    "fear_status": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q29_das_meeting_danach",
+        "category": "team_leadership",
+        "question": "격한 토론이 오간 빡센 회의가 끝나고 자리로 돌아간다. 제일 먼저 뭘 하냐?",
+        "answers": [
+            {
+                "text": "결정된 모든 내용을 바로 회의록으로 써서 배포한다. 나중에 아무도 말을 바꾸지 못하게.",
+                "scores": {
+                    "optimierer": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "14분쯤에 내가 너무 거칠게 말했는지, 그리고 동료 X가 지금 나를 미워하는지 몇 시간 동안 곱씹는다.",
+                "scores": {
+                    "fear_versagen": 1,
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "바로 실행에 들어간다. 말은 끝났다. 이제 결과를 내야 한다.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "회의에서 나온 건 전부 버리고, 더 세련된 해결책을 다시 생각한다.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q30_der_grenzueberschreitende_kunde",
+        "category": "operations_clients",
+        "question": "고객(또는 클라이언트/환자)이 극도로 요구가 많고, 약속을 무시하고, 목소리까지 높인다. 첫 반응은?",
+        "answers": [
+            {
+                "text": "그 사람의 감정을 받아내고, 극도로 침착하게 있고, 그가 틀렸더라도 인간적으로 진정시키려 한다.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "계약상 한계를 차갑고 날카롭게 짚어 준다. 버릇없게 굴면 끝이다.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "나중에 아무도 내가 잘못 처리했다고 몰아붙이지 못하게, 사건을 시스템에 즉시 정확하게 기록한다.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "표준 프로세스는 무시하고, 그를 빨리 떼어낼 수 있는 창의적이고 비정통적인 허점을 찾는다.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q31_die_leere_schreibtisch_panik",
+        "category": "operations_clients",
+        "question": "금요일 오후, 전화는 울리지 않고 할 일은 전부 끝났다. 너는 뭘 느끼나?",
+        "answers": [
+            {
+                "text": "막연한 불편함. 내가 계속 성과를 내지 않으면, 회사가 내가 사실 필요 없다는 걸 알아차릴지도 모른다.",
+                "scores": {
+                    "fear_existenz": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "좋다! 드디어 다음 주를 위한 내 폴더 구조랑 템플릿을 완벽하게 다듬을 시간이 생겼다.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "심심해서 완전히 새로운, 아무도 상의하지 않은 프로젝트나 시스템을 그냥 만들어 보기 시작한다.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "사무실(또는 채팅방)을 돌아다니면서 동료들한테 내가 그들 일을 도와줄 수 있는지 묻는다.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q32_der_falsche_prozess",
+        "category": "operations_clients",
+        "question": "어떤 일을 해야 하는데, 그걸 위한 회사의 공식 프로세스가 심하게 낡았고 세 배나 더 오래 걸린다. 너는 어떻게 하나?",
+        "answers": [
+            {
+                "text": "나는 프로세스를 정확히 따른다. 규칙은 규칙이고, 뭔가 잘못되더라도 적어도 나는 보호받는다.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "규칙을 깨고, 내 빠른 방식으로 처리한 뒤 아무에게도 말하지 않는다. 결과만 맞으면 된다.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "프로세스를 혁명적으로 바꾸는 10페이지짜리 기획서를 쓴다. (어차피 흐지부지될 거지만.)",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "프로세스에서 벗어나는 게 무섭다. 컴플라이언스/상사한테 혼날까 봐 겁난다.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "fear_status": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q33_freitag_kurz_vor_feierabend",
+        "category": "operations_clients",
+        "question": "16:55. 상사에게서 '절대적 긴급 메일'이 들어온다. 진짜 긴급한 건 아니고 그냥 타이밍이 최악이다. 너는 어떻게 하나?",
+        "answers": [
+            {
+                "text": "속으로는 끓어오르지만 그냥 한다. 거절하면 '가장 믿을 만한 직원'이라는 내 지위를 잃을까 봐.",
+                "scores": {
+                    "fear_status": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "노트북 닫는다. 주말은 시작됐다. 그쪽의 형편없는 계획이 내 쪽의 긴급상황을 의미하진 않는다.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "바로 달려든다. 오늘 아침의 지루한 루틴 업무 대신, 드디어 좀 혼란스럽고 아드레날린 도는 일이 생겼다.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "즉시 처리한다. 월요일에 공개적으로 강등당할까 봐 두려운 게 너무 크다.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q34_neue_software_ausgerollt",
+        "category": "operations_clients",
+        "question": "경영진이 비싸고 새로운 소프트웨어를 도입한다. '모든 걸 더 좋게' 만들어 준다고 한다. 첫 생각은?",
+        "answers": [
+            {
+                "text": "아, 망했다. 내가 직접 만든 엑셀 목록이랑 루틴이 이제 다 쓸모없어졌다. 진짜 싫다.",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "바로 이 시스템을 어떻게 해킹하거나, 엉뚱하게 쓰거나, 완전히 다른 용도로 활용할 수 있을지 시험해 본다.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "이 소프트웨어는 너무 느리다. 내 워크플로를 더 이상 방해하지 않을 때까지는 쓰지 않겠다.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "지금 완전히 당황한 나이 많은 동료들이 적응할 수 있게 돕겠다고 자원한다.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q35_der_oeffentliche_fehler",
+        "category": "operations_clients",
+        "question": "측정 가능한, 비싼 실수를 했다. 큰 회의에서 드러났다. 즉각적인 반응은?",
+        "answers": [
+            {
+                "text": "완전한 내적 쇼크 상태. 내 임포스터 증후군이 1000%로 터진다. 바닥이 나를 삼켜버렸으면 좋겠다.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "나는 발톱을 세우고, 세 가지 변수로 왜 그 상황에서는 피할 수 없었는지 설명한다.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "즉시, 가차 없이 인정한다. '맞다, 내 실수다. 다시는 안 그러겠다. 여기 고치는 방법이 있다.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "그 실수를 바로 '학습' 또는 '비계획적 프로토타입'으로 선언하고, 논의를 새로운 아이디어 쪽으로 돌린다.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q36_die_junioren_gefahr",
+        "category": "operations_clients",
+        "question": "엄청 의욕적인 젊은 직원이 팀에 들어왔고, 속도가 매우 빠르다. 그게 너 안에서 깊은 곳에 뭘 건드리나?",
+        "answers": [
+            {
+                "text": "내 연봉이 너무 높고, 곧 이 더 싸고 더 배고픈 버전으로 나를 대체할 거라는 노골적인 공포.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "좋다. 내가 그를 챙기고, 정서적으로나 업무적으로 성장시키려고 한다.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "조금 거슬린다. 구조가 없고, 경솔한 실수를 하고, 우리 깔끔한 프로세스를 망칠 위험이 있다.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "경쟁이다. 내가 성과를 더 끌어올려서 여기서 누가 진짜 우두머리인지 분명히 보여주겠다.",
+                "scores": {
+                    "executor": 2,
+                    "fear_status": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q37_scope_creep",
+        "category": "operations_clients",
+        "question": "프로젝트(또는 업무)가 완전히 불어난다. 계속 새 요구가 붙는데 예산/시간은 그대로다.",
+        "answers": [
+            {
+                "text": "나는 냉정하게 중단선을 긋는다. 'Feature X를 원하면 Y를 빼거나 돈을 더 내세요.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "아무에게도 실망시키고 싶지 않아서, 몰래 하루 12시간씩 일하면서 어떻게든 다 맞춘다.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "완전히 멘탈이 나간다. 내 깔끔한 일정과 구조가 이제 완전히 망가졌기 때문이다.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "좋다. 더 혼란스럽고 더 커질수록, 비정형적인 해결책을 만들 공간이 더 생긴다.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q38_der_visionaere_chef",
+        "category": "operations_clients",
+        "question": "CEO가 회사의 미래에 대해 불타오르는, 극도로 비전적인 연설을 한다. 그런데 구체적인 계획은 하나도 없다.",
+        "answers": [
+            {
+                "text": "엄청 흥분된다. 드디어 여기서 누군가 크게 생각하고, 낡고 지루한 경계를 부순다!",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "속으로 눈을 굴린다. 또 허울뿐인 유행어뿐이고, 실제 일은 결국 나 같은 사람들한테 떨어질 뿐이다.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "이 미친 아이디어를 어떻게든 실행하려면 어떻게 해야 하는지 계산하려고, 바로 복잡한 엑셀 표를 만들기 시작한다.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "이 '비전' 때문에 내 팀에 또 얼마나 추가 압박과 야근이 생길지 진심으로 걱정된다.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q39_das_externe_angebot",
+        "category": "operations_clients",
+        "question": "헤드헌터가 LinkedIn으로 연락해서 통화를 제안한다. 왜 너는 (대부분) 거절하나?",
+        "answers": [
+            {
+                "text": "내가 아는 악마가, 내가 모르는 악마보다 낫기 때문이다. 나는 변화를 싫어한다.",
+                "scores": {
+                    "fear_veraenderung": 2
+                }
+            },
+            {
+                "text": "새 직장의 어세스먼트 센터를 어차피 못 버틸 거라고 확신하기 때문이다.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "지금 회사에서 이미 어느 정도 '연차'가 느껴지기 때문이다. 어디 가서 다시 신입으로 시작하고 싶지 않다.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "그곳의 수습기간은 6개월 동안 해고 보호가 없다는 뜻이기 때문이다. 너무 위험하다.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q40_der_energie_vampir",
+        "category": "burnout_stress",
+        "question": "직장 생활에서 네 배터리를 가장 빠르고 잔인하게 빨아먹는 건 뭐냐?",
+        "answers": [
+            {
+                "text": "의미 없는 관료적 장벽과 느린 프로세스. 껌처럼 나를 질질 끌어당기며 움직이지 못하게 한다.",
+                "scores": {
+                    "pionier": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "동료들이 자기 감정 문제, 불평, 분노를 계속 나한테 쏟아낼 때.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "불분명하고 계속 바뀌는 지시들. 나는 깔끔한 구조를 만들 수가 없다.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "만성적으로 무능한데도 여전히 결정을 내릴 수 있는 사람들.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q41_die_krankschreibung",
+        "category": "burnout_stress",
+        "question": "아침에 일어났는데 가볍지만 분명한 병 증상이 있다. 너는 어떻게 하냐?",
+        "answers": [
+            {
+                "text": "그래도 일한다(재택으로). 중요한 공을 놓치고 내가 책임질까 봐 공황이 온다.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "병가를 낸다. 건강이 우선이다. 하지만 하루 종일 팀에 대해 끔찍하게 죄책감이 든다.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "이를 악물고 출근한다. 맨날 아프다고 빠지는 사람은 다음 승진에서 밀린다.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "그래도 일한다. 지금 같은 경제 상황에서 사장이 나를 의심할 이유를 주고 싶지 않다.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q42_stress_kompensation",
+        "category": "burnout_stress",
+        "question": "직장에서 지옥 같은 한 주를 보낸 뒤: 주말에 그 분노를 가장 어떻게 마비시키냐?",
+        "answers": [
+            {
+                "text": "비싼 걸 사거나 사치(음식, 옷, 차)를 부린다. 내가 왜 이걸 다 하는지 스스로에게 증명해야 한다.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "완전히 고립돼서 소파에 누워 있고, 신경계를 진정시키려면 절대적인 침묵이 필요하다.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "교육 과정을 듣거나, 새 걸 배우거나, 다음 주를 계획해서 드디어 통제감을 느끼려 한다.",
+                "scores": {
+                    "optimierer": 1,
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "완전히 다른, 강도 높은 취미(운동, 파티, 만들기)에 몸을 던져서 억지로 머리를 비운다.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q43_schlaflos_um_drei",
+        "category": "burnout_stress",
+        "question": "새벽 3시, 천장을 보며 잠 못 이루고 있다. 머릿속을 도는 생각은 뭐냐?",
+        "answers": [
+            {
+                "text": "'어제 그 이메일에서 결정적인 실수를 했나? 내일 사장이 보면 어떡하지?'",
+                "scores": {
+                    "fear_versagen": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "'이 쳇바퀴에서 어떻게 빠져나오지, 재정적 안전을 완전히 박살내지 않고?'",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "'회의에서 더 세게 밀어붙였어야 했어. 내일은 그 멍청이한테 한마디 해줘야겠다.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "'사실 제품 전체를 완전히 다르게 짜야 해... Feature X를 넣으면 어떨까?'",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q44_der_breaking_point",
+        "category": "burnout_stress",
+        "question": "어떤 순간에 너는 직장을 바로 그만두냐(적어도 마음속으로는)?",
+        "answers": [
+            {
+                "text": "내가 수년간 실수 없이 충성한 건 무시되고, 시끄러운 허풍쟁이가 내 앞을 가로지를 때.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "이 독성 환경 속에서 내가 점점 더 나쁜, 냉소적인 인간이 되어 간다는 느낌이 들 때.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "사소한 한 걸음마다 허락을 구해야 하고, 미성숙한 애처럼 통제당할 때.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "목표에 대한 책임은 주면서, 그걸 해낼 권한이나 예산은 안 줄 때.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q45_quiet_quitting",
+        "category": "burnout_stress",
+        "question": "지시받은 것만 하는 태도('Quiet Quitting'): 완전히 짜증났을 때, 네 항의는 어떻게 보이냐?",
+        "answers": [
+            {
+                "text": "엄청 형식적으로 변한다. 내 직무기술서의 100%만 정확히 한다. 1분도 더 안 하고, 추가 업무도 없다.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "회사 시간에 몰래 내 프로젝트나 부업을 하거나, 회사 돈으로 자기계발을 한다.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "극도로 냉소적으로 변해서, 노골적이고 비꼬는 말을 하고 경영진에게 내 경멸을 보여준다.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "'좋은 사람' 역할을 그만둔다. 더 이상 생일 챙기지도 않고, 복도에서 동료를 달래지도 않는다.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q46_die_urlaubs_stoerung",
+        "category": "burnout_stress",
+        "question": "휴가 중 해변에 누워 있다. 휴대폰이 울리고, 사장이 전화했다. 무슨 일이 벌어지냐?",
+        "answers": [
+            {
+                "text": "안 받지만 심장이 미친 듯이 뛴다. 무슨 일인지 걱정하느라 해변에서 보낼 반나절을 망친다.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "받는다. 나 없이도 회사가 바로 불타버리는 걸 보는 게 은근히 즐겁기도 하다.",
+                "scores": {
+                    "executor": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "받는다. 그냥 무시하면 내 일에 부정적인 결과가 생길까 봐 공황이 오기 때문이다.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "냉정하게 끊어버린다. 내 폰은 '방해 금지'로 되어 있고, 더 생각하지도 않는다.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q47_warnung_vom_arzt",
+        "category": "burnout_stress",
+        "question": "의사가 네 얼굴에 대고 말한다: '스트레스 수치가 위험할 정도로 높습니다. 좀 줄이셔야 합니다.' 네 솔직한 변명은?",
+        "answers": [
+            {
+                "text": "'알아요. 하지만 지금 속도를 늦추면, 힘들게 쌓아 올린 서열 속 내 자리를 잃어요.'",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "'말은 쉽죠. 내 월급이 대출을 갚아요. 아프게 될 여유가 그냥 없어요.'",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "'이 거대한 프로젝트 하나만 끝내고 시스템을 최적화하면, 그다음엔 나아질 거예요.'",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "'안 됩니다. 내가 빠지면 팀 전체가 무너져요. 지금은 내가 필요해요.'",
+                "scores": {
+                    "fear_versagen": 1,
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q48_die_leere_auszeichnung",
+        "category": "burnout_stress",
+        "question": "절실히 필요한 보너스 대신, HR이 축축한 악수와 'Resilience & Team Spirit Award'를 준다. 네 반응은?",
+        "answers": [
+            {
+                "text": "완전한 분노. 나는 측정 가능한 결과, 돈, 또는 권한이 필요하다. 라미네이팅된 종이 한 장은 모욕이다.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "예의 바르게 웃고 서랍에 넣는다. 이건 우리를 달래려는 싸구려 수작일 뿐이라는 걸 정확히 안다.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "속으로는 그래도 조금 기쁘다. 적어도 누군가 내 노력이 얼마나 힘들었는지는 봤으니까.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "시상식의 관심을 냉정하게 이용해서, 사람들 앞에서 내 새 프로젝트를 피칭한다.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q49_der_falsche_fokus",
+        "category": "burnout_stress",
+        "question": "직장에서 극심한 스트레스를 받을 때, 네가 가장 자주 저지르는 실수는 뭐냐?",
+        "answers": [
+            {
+                "text": "완벽주의에 빠진다. 진짜 큰 문제를 해결하는 대신 엑셀 셀 서식만 만진다.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "나는 불도저 폭군이 된다. 목표를 위해 동료를 짓밟고 감정을 상하게 한다.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "모든 것에 '예'라고 하고, 남의 일을 떠맡다가 결국 남의 일 더미에 익사한다.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "동시에 다섯 개의 새 해결책을 시작하고, 그중 어느 것도 끝내지 못한 채 팀을 완전한 혼란에 빠뜨린다.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q50_die_sonntags_luege",
+        "category": "burnout_stress",
+        "question": "일요일 밤에 네가 가장 자주 스스로에게 하는 인생의 거짓말은 뭐냐?",
+        "answers": [
+            {
+                "text": "'다음 주는 분명 더 조용할 거야. 프로젝트 X만 치워버리면 다 편해질 거야.' (절대 안 그럼).",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "'이제 2~3년만 더 경력/돈 때문에 버티고, 그다음엔 진짜 나를 채워주는 걸 찾을 거야.'",
+                "scores": {
+                    "fear_existenz": 2,
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "'난 그냥 아직 충분히 잘하거나 빠르지 않아. 다음 주엔 그냥 더 열심히 해야 해.'",
+                "scores": {
+                    "fear_versagen": 2,
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "'사실 난 없어선 안 되는 존재야. 내가 없으면 회사는 망해. 그래서 이 쇼를 견뎌야 해.'",
+                "scores": {
+                    "fear_status": 2,
+                    "executor": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q51_das_veraltete_werkzeug",
+        "category": "industry_pseo",
+        "question": "당신의 주된 업무 도구(소프트웨어든, 기계든, 시스템이든)가 완전히 구식이고 계속 멈춥니다. 당신은 어떻게 합니까?",
+        "answers": [
+            {
+                "text": "비공식적인 우회책을 만들거나, 문제를 피하려고 내 방식대로 자체 해결책을 뜯어고칩니다.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "경영진에게 강하게 압박합니다. 제대로 된 장비 없이는 제대로 일할 생각이 없습니다.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "모든 오류를 꼼꼼히 기록합니다. 나중에 지연 책임을 뒤집어씌우는 사람이 없게 하려고요.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "어떻게든 적응하고, 기술적으로 더 못 따라오는 동료들을 돕습니다.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q52_die_sinnlose_kpi",
+        "category": "industry_pseo",
+        "question": "경영진이 당신의 실제 업무 품질은 무시한 채, 성과 측정을 위한 완전히 말도 안 되는 지표를 도입합니다. 당신의 대응은?",
+        "answers": [
+            {
+                "text": "그 숫자를 최대화하도록 내 일을 냉정하게 최적화합니다. 쓰레기를 측정하겠다면, 쓰레기를 받게 되겠죠.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "스트레스에 빠집니다. 진짜 품질도 내고 싶고, 지시도 맞추고 싶어서 두 사이에서 타버립니다.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "그 수치를 정확히 추적하고 새 지침을 엄격히 따릅니다. 그 과정이 더 관료적이 되더라도요.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "대놓고 비웃고, 아무도 묻지 않았는데도 완전히 다른 더 나은 측정 방식을 들이밉니다.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q53_die_schwierige_zielgruppe",
+        "category": "industry_pseo",
+        "question": "당신의 전문성을 막아서는 극도로 까다로운 이해관계자(고객, 클라이언트 또는 환자)를 상대하고 있습니다. 어떻게 반응합니까?",
+        "answers": [
+            {
+                "text": "감정적 연결을 끊습니다. 계약이나 절차에 적힌 것만 정확히 하고, 그 이상은 1밀리도 안 합니다.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "아주 심각하게 받아들입니다. 개인적인 접점을 찾고 그를 '뚫어' 보려고 시간을 더 쏟습니다.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "지침을 정확히 따릅니다. 형식적인 실수만 안 하면 안전하니까요.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_existenz": 1
+                }
+            },
+            {
+                "text": "완전히 비전형적이고, 어쩌면 위험할 수도 있는 방식을 시도해서 패턴을 깨봅니다.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q54_der_akute_notfall",
+        "category": "industry_pseo",
+        "question": "퇴근 5분 전에 당신 업무 영역에서 대형의 예기치 못한 비상사태가 터집니다. 당신 안에서는 무슨 일이 일어납니까?",
+        "answers": [
+            {
+                "text": "아드레날린이 솟습니다. 드디어 진짜 혼돈이네요! 저는 최고조로 올라가고, 문제를 창의적으로 푸는 걸 좋아합니다.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "즉시 묻지도 따지지도 않고 지휘권을 잡고, 냉정하게 지시를 내리고, 공감은 완전히 꺼버립니다.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "스트레스는 받지만, 훈련받은 비상 프로토콜을 기계처럼 정확히 실행합니다.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "가장 먼저 드는 생각은 지금 이 위기로 고통받는 사람들, 고객들, 동료들에 대한 걱정입니다.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q55_abteilungs_krieg",
+        "category": "industry_pseo",
+        "question": "다른 부서가 완전히 비현실적이고 형편없이 계획된 일을 당신들한테 떠넘깁니다.",
+        "answers": [
+            {
+                "text": "공격적으로 거절합니다. '우리 문제가 아닙니다. 당신들 계획이 엉망입니다. 숙제나 하고 다시 오세요.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "부서 간 공개 전쟁을 피하고 평화를 지키려고 이를 악물고 합니다.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "이게 모든 합의와 SLA를 위반한다는 걸 증명하는 장문의 이메일을 씁니다.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "그들의 멍청한 지시는 완전히 무시하고, 어차피 내가 더 미래지향적이라고 보는 방식으로 해결책을 만듭니다.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q56_die_dinnerparty_identitaet",
+        "category": "industry_pseo",
+        "question": "파티에서 누군가 당신의 핵심 업무가 {{JOB_NAME}}로서 정확히 뭐냐고 묻습니다. 당신의 솔직하고 비꼬는 대답은?",
+        "answers": [
+            {
+                "text": "'내 일은 이 조직이 자기 비효율과 무능의 무게에 깔려 무너지지 않게 하는 겁니다.'",
+                "scores": {
+                    "executor": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "'사실상 저는 팀의 전문 소방수이자 정신적 쓰레기통일 뿐입니다.'",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "'데이터/업무를 A에서 B로 옮기고, 결국 아무도 우리를 고소하지 못하게 하는 일을 합니다.'",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_existenz": 1
+                }
+            },
+            {
+                "text": "'혁신을 밀어붙이려 하지만, 시간의 80%는 관료주의와 싸우는 데 씁니다.'",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q57_theorie_vs_praxis",
+        "category": "industry_pseo",
+        "question": "갓 들어온 신입이 교육/대학에서 배운 이론만 계속 들먹이는데, 현장에서는 전혀 먹히지 않습니다.",
+        "answers": [
+            {
+                "text": "말로 박살 냅니다. '네가 배운 건 다 잊어. 여기서는 바람이 다르게 분다.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "일부러(하지만 안전하게) 한 번 제대로 벽에 부딪히게 해서 스스로 교훈을 배우게 합니다.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "따로 불러서, 그 이론을 우리 현장의 냉혹한 현실로 부드럽게 번역해 주되 의욕은 꺾지 않습니다.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "우리 내부 프로세스 문서를 쥐여줍니다. 그걸 따르면 실수할 일이 없습니다.",
+                "scores": {
+                    "optimierer": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q58_das_gekappte_budget",
+        "category": "industry_pseo",
+        "question": "가장 중요한 자원(예산, 자재 또는 인력)이 갑자기 20% 삭감됩니다. 당신은 어떻게 합니까?",
+        "answers": [
+            {
+                "text": "품질이 정확히 20% 떨어질 거라고 경영진에 서면으로 경고합니다. 그건 제 문제가 아닙니다.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "팀과 클라이언트를 버릴 수 없어서, 부족분을 어떻게든 메우려고 무급 초과근무를 합니다.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_existenz": 1
+                }
+            },
+            {
+                "text": "허락도 안 받고, 가치가 가장 낮은 업무 20%를 바로 잘라냅니다.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "이걸 스포츠 같은 제약으로 봅니다. 예산 삭감이야말로 가장 혁신적인 꼼수들을 낳기도 하니까요.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q59_der_branchentrend",
+        "category": "industry_pseo",
+        "question": "인공지능이나 새 법규 같은 파괴적인 새 흐름이 당신 업계를 덮칩니다. 당신의 내면적 태도는?",
+        "answers": [
+            {
+                "text": "흥미롭습니다. 제가 제일 먼저 써보고, 망가뜨리고, 이걸로 우리가 어떤 미친 걸 만들 수 있는지 봅니다.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "냉정한 계산입니다. 시간이나 돈을 확실하게 아낄 때만 씁니다. 과장은 무시합니다.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "두렵습니다. 제가 힘들게 쌓아온 전문성이 곧 무가치해지거나 대체되는 건 아닐까요?",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "걱정됩니다. 이런 자동화 때문에 우리 직업에서 마지막 남은 인간미마저 사라지는 건 아닐까요?",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q60_der_geheime_karrierewunsch",
+        "category": "industry_pseo",
+        "question": "{{JOB_NAME}}로서 당신의 경력에 마법 지팡이가 있다면, 오늘 무엇을 바라겠습니까?",
+        "answers": [
+            {
+                "text": "위에서의 마이크로매니지먼트는 전혀 없고, 절대적인 결정권과 최대 예산을 가진 자리.",
+                "scores": {
+                    "executor": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "매일 미래를 발명할 수 있지만, 지긋지긋한 행정 업무는 다른 누군가가 다 처리해 주는 역할.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "놀라움 없이 완벽하게 구조화된, 17시에 사무실에 두고 나올 수 있는 안전한 일자리.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "사람들에게 진짜로, 깊게 영향을 주되 정신적으로는 소진되지 않는 역할.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q61_die_kuendigungs_fantasie",
+        "category": "career_change_exit",
+        "question": "사무실에 앉아 사직을 생각할 때: 네 머릿속 비밀스러운 내면의 판타지는 어떤 모습이야?",
+        "answers": [
+            {
+                "text": "나는 상사 앞에 그의 무능함에 대한 차갑고 검증된 사실들을 모조리 쏟아놓고, 고개를 들고 당당하게 나간다.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "나는 그냥 조용히, 아무 소동 없이 사라진다. 다음 날엔 내 모든 지식이 갑자기 사라져 있기를 꿈꾼다.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "나는 미친 듯이 급진적인 아이디어로 독립해서, 내 길이 더 낫다는 걸 모두에게 증명한다.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "이런 판타지를 자주 떠올리지만, 좋아하는 동료들을 생각하면 바로 죄책감이 든다.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_veraenderung": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q62_das_gegenangebot",
+        "category": "career_change_exit",
+        "question": "네가 사직서를 냈다. 상사는 패닉에 빠져 바로 연봉 20% 인상을 제안한다. 어떻게 돼?",
+        "answers": [
+            {
+                "text": "나는 남는다. 20% 더 많은 안전망은 고정비를 버티는 데 엄청난 완충재다. 감정은 그다음 문제다.",
+                "scores": {
+                    "fear_existenz": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "나는 차갑게 거절한다. 너무 늦었다. 내가 떠나야만 돈을 주는 사람은 이미 내 존중을 잃었다.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "나는 남는다. 하지만 완전히 새로운 회사에서 다시 나를 증명해야 한다는 생각이 사실은 공포를 불러오기 때문이다.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "나는 돈을 받고, 새 직함까지 더 협상한 뒤, 내 시장가치를 끌어올리려고 그걸로 버틴다.",
+                "scores": {
+                    "fear_status": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q63_quereinstieg_blockade",
+        "category": "career_change_exit",
+        "question": "완전히 다른 업계로의 전직을 생각하고 있다. 가장 크게 널 막는 건 뭐야?",
+        "answers": [
+            {
+                "text": "거기서 다시 바닥부터 시작해야 하고, 내 생활 수준이 무너질지도 모른다는 두려움.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "내 '시니어성'을 잃는 것. 나는 25살짜리에게 세상을 설명 듣는 무지한 초보가 되고 싶지 않다.",
+                "scores": {
+                    "fear_status": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "형식적인 증명서가 없다는 것. 새 업계에 필요한 정확한 서류 / 자격증이 없으면 나는 자신이 없다.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "관심사가 너무 많아서, 애초에 하나의 새로운 방향에만 정착할 수가 없다.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q64_bewerbungs_horror",
+        "category": "career_change_exit",
+        "question": "다가오는 면접에서 너에게 가장 끔찍한 생각은 뭐야?",
+        "answers": [
+            {
+                "text": "내가 완벽한 답을 못 하는 전문 질문을 받고, '사기꾼'으로 들통나는 것.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "내가 억지로 나를 비틀어야 하고, 그 가짜 '우린 큰 가족입니다' HR 놀이에 맞장구쳐야 하는 것.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "거절당하는 것. 이미 마음을 열었는데 거절당하면 내 자존심은 그걸 잘 못 버틴다.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "그들이 '5년 후 어디에 있고 싶으세요?'라고 물을 때 내가 뭐라고 답해야 할지 전혀 모르는 것. (난 그런 계획이 싫다).",
+                "scores": {
+                    "pionier": 2,
+                    "fear_veraenderung": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q65_lebenslauf_luege",
+        "category": "career_change_exit",
+        "question": "네 이력서를 가차 없이 분석해보자: 네가 보기엔 가장 큰 '약점'은 어디야?",
+        "answers": [
+            {
+                "text": "나는 종이 위에서는 딱딱한 관료처럼 보인다. 내 진짜 문제 해결 능력은 어떤 자격증에도 안 들어가니까.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "나는 나를 너무 싸게 판다. 사실상 수년간 여러 부서를 떠받쳤는데도, 나는 겸손한 말만 쓴다.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "내 이력서는 뒤죽박죽이다. 나는 구조가 너무 답답하면 자주 옮기거나 중간에 그만뒀다.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "사실 약점은 없다. 강하다. 하지만 내 연봉 기대치가 HR을 겁먹게 할까 봐 걱정된다.",
+                "scores": {
+                    "executor": 2,
+                    "fear_existenz": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q66_das_sabbatical",
+        "category": "career_change_exit",
+        "question": "회사가 너에게 6개월 유급 안식휴가를 강제로 준다. 2주 후에 너는 뭘 하고 있을까?",
+        "answers": [
+            {
+                "text": "나는 바로 내 프로젝트나 사이드 비즈니스를 시작한다. 창의적인 출력이 없으면 내 뇌가 썩어버리니까.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "나는 친구들을 돕고, 사회활동을 하거나, 사적으로는 '돌보는 사람' 역할에 빠진다.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "나는 시간을 써서 집요하게 더 배운다(자격증, 강의). 돌아왔을 때 내 시장가치를 올리려고.",
+                "scores": {
+                    "optimierer": 1,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "나는 아무것도 안 한다. 내 사생활을 프로젝트처럼 최적화하고, 내 시간에 대한 완전한 지배를 즐긴다.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q67_freelancing_traum",
+        "category": "career_change_exit",
+        "question": "자영업 / 프리랜싱 얘기다. 왜 아직 그걸 완전히 못 질렀어?",
+        "answers": [
+            {
+                "text": "나는 영업하는 사람이 아니다. 나 자신을 팔아야 하고 고객을 쫓아다녀야 하는 게 너무 싫다.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "세금, 회계, 법적 리스크. 청구서 하나 잘못 쓰면 감옥 한 발짝 앞에 서는 거다.",
+                "scores": {
+                    "fear_existenz": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "나는 내 주변에 고정된 팀이 필요하다. 혼자 뛰는 고립감은 나를 감정적으로 소진시킬 거다.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "이미 해봤거나, 겸사겸사 하고 있다. 내 주된 걱정은 오히려 금방 질린다는 거다.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q68_der_tropfen_im_fass",
+        "category": "career_change_exit",
+        "question": "우리 모두는 한계치가 있다. 어떤 작고, 거의 우스울 정도의 일이 너를 바로 사직으로 몰아넣을까?",
+        "answers": [
+            {
+                "text": "내 장비를 회사가 지정할 때(예: 가장 싼 윈도우 노트북을 강요할 때) 내 작업 흐름을 망가뜨리는 것.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "상사가 내 엑셀 표나 깔끔한 프로세스를 지워버리고, 그걸 허술한 임시방편으로 바꿔버릴 때.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "단순한 5분짜리 일을 내 방식대로 처리하는 걸 금지당할 때. '프로세스에 없으니까'라는 이유로.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "팀 동료가 부당하게 고함을 듣는데 나만 그걸 지켜봐야 할 때.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q69_die_gehaltsverhandlung",
+        "category": "career_change_exit",
+        "question": "내일 연봉에 대한 모든 걸 결정짓는 대화가 있다. 오늘 밤 너는 어떻게 준비해?",
+        "answers": [
+            {
+                "text": "나는 내 KPI와 성과를 차갑게 정리한 목록을 쓴다. 안 주면, 내 퇴장 계획을 안다.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "나는 거울 앞에서 연습한다. 결정적인 순간에 약해지거나 무너질까 봐 너무 무섭기 때문이다.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_veraenderung": 2
+                }
+            },
+            {
+                "text": "나는 인터넷에서 연봉표를 모아, 내 요구를 빈틈없이 객관적으로 정당화하려고 한다.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "나는 돈 말고 어떤 새로운 자유, 예산, 원격 근무일을 협상할 수 있을지 생각한다. 돈만으로는 부족하다.",
+                "scores": {
+                    "pionier": 2,
+                    "fear_status": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q70_der_neustart",
+        "category": "career_change_exit",
+        "question": "내일 완전히 새로운 회사, 완전히 새로운 [Cluster]에서 시작한다면: 네 절대 우선순위 1순위는 뭐야?",
+        "answers": [
+            {
+                "text": "진짜 신뢰. 나는 다시는 사소한 결정 하나하나를 정당화해야 하는 상황을 원하지 않는다.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "사람다운 온기. 나는 서로를 계속 등 뒤에서 찌르는 팀은 필요 없다.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "절대적인 명확성. 나는 내가 무엇으로 평가받는지, 프로세스가 무엇인지 정확히 알고 싶다.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "돈과 자율성. 나는 내 결과에 대해 공정하게 보상받고, 조용히 일할 수 있길 원한다.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,370 @@
+[
+    {
+        "profile_id": "pionier_existenzangst",
+        "base_type": "The Strategic Pioneer",
+        "fear_mutation": "Existential fear",
+        "name": "The compromised pioneer",
+        "headline": "You have brilliant ideas, but you sold yourself for the pain money at the end of the month.",
+        "corporate_view": "In the company, you are seen as a visionary mind who thinks far beyond the boundaries of your own department. People value you because you spot inefficiencies immediately, understand the big picture, and theoretically have the potential to radically reinvent stale business models. For management, you are a valuable asset because you put your finger on the wound with precision and expose strategic blind spots.",
+        "shadow_conflict": "You have made peace with the system - and that is exactly what kills you a little more every day. You can see with brutal clarity how the company is driving straight into a wall, or how absurd and stupid the established processes are. But you stay silent in the decisive meetings. Why? Because the fear of your fixed costs, the next installment payment, your standard of living, and the fake security of your employment contract is much bigger than your actual drive for innovation. Internally, you are only doing the bare minimum, even though your brain was built for disruption and real change. This golden cage you built for yourself is making you more cynical, more bitter, and draining your creative life energy.",
+        "action_steps": [
+            "Cut the emotional return: Stop wasting valuable mental energy on a system that is not going to implement your ideas anyway. Keep doing your job well and professionally, but cut the emotional attachment completely. The company is not your family, it is your current payer.",
+            "Build your 'Fuck-You-Money': Temporarily lower your standard of living and aggressively build a financial cushion. Only when you can realistically survive 6 months without that salary will your brain switch off the panic and you will dare to take real risks again and speak your mind.",
+            "Channel your disruption: Use your pent-up, unused creativity for a secret side business. Alternatively: prepare your exit and apply to strongly growth-oriented startups or scale-ups that reward exactly this kind of relentless hunger for innovation instead of suffocating it."
+        ],
+        "monetization_hook": {
+            "topic": "Starting a side business & financial independence",
+            "keywords": [
+                "Fuck You Money",
+                "Side Hustle",
+                "Financial freedom",
+                "Self-employed on the side"
+            ]
+        }
+    },
+    {
+        "profile_id": "pionier_versagensangst",
+        "base_type": "The Strategic Pioneer",
+        "fear_mutation": "Fear of failure",
+        "name": "The blocked pioneer",
+        "headline": "You are planning the revolution in a drawer because you are absolutely terrified of reality.",
+        "corporate_view": "In the company, people know you as an extremely deep-thinking analyst and architect. You never hand in half-baked concepts. Colleagues admire how you think through new strategies, products, or processes down to the absolute last detail before they see the light of day. You are the guarantee for intellectual depth and airtight planning.",
+        "shadow_conflict": "Your imposter syndrome has you in a total chokehold. On your hard drive, hundreds of started concepts, brilliant ideas, and visions are sleeping - but you never hit 'Launch'. You tell yourself and others that the product or idea is 'just not perfect yet'. The brutal truth is different: you are panically afraid that your idea will fail in reality, get torn apart by critics, and that in the end you will be exposed as a fraud. Your much-praised perfectionism is no longer quality control, but your most brilliant excuse to never have to take a real risk. You hide behind planning.",
+        "action_steps": [
+            "Establish the 80% paradigm: Force yourself to face the uncomfortable truth: 'Done is better than perfect'. Publish, send, or present your next idea very deliberately in an unfinished state. Learn to tolerate the discomfort of imperfection.",
+            "Decouple your self-worth: Separate your personal value strictly from your work. If a concept of yours fails, that does not mean you are a failure as a person. It only means a factual hypothesis was tested and disproven in the market or in the team.",
+            "Find your counterweight: Look for a pragmatic execution partner (an 'Executor'). You need someone at your side who gets your ideas brutally and quickly out into the world and presses the button while you are still stuck in the loop of self-doubt."
+        ],
+        "monetization_hook": {
+            "topic": "Overcoming imposter syndrome & execution strategies",
+            "keywords": [
+                "Imposter syndrome",
+                "Lean Startup",
+                "Drop perfectionism",
+                "Finish projects"
+            ]
+        }
+    },
+    {
+        "profile_id": "pionier_statusverlust",
+        "base_type": "The Strategic Pioneer",
+        "fear_mutation": "Loss of status",
+        "name": "The staged pioneer",
+        "headline": "You love being celebrated as the creative rebel - as long as your company car is not at risk.",
+        "corporate_view": "In a professional context, you come across as an extremely charismatic thought leader who can effortlessly rally teams, departments, and stakeholders. People admire your rare ability to package complex, dry innovation into exciting visions and sell them excellently upward to top management. You are the shining poster child for progress.",
+        "shadow_conflict": "You have become a master of self-staging. You talk loudly and enthusiastically about 'New Work', agility, disruption, and flat hierarchies. You are the one giving the fiery, inspiring speeches in town hall meetings. But the moment things get serious - the moment you would have to risk your own position, your budget, or your reputation with the board for a real conviction - you fold. You immediately fall back into the political game of old hierarchies. Your supposed rebellion is often just cleverly calculated PR for yourself. Deep down, you fear nothing more than losing your status and disappearing into the gray irrelevance of middle management.",
+        "action_steps": [
+            "Work in the shadows: Stop using innovation as a tool for your ego and visibility. Force yourself to implement an important project that massively helps the company, but for which you officially get no credit, no stage, and no praise.",
+            "Embrace conflict: Leave your political comfort zone. Real change always means attacking privileges and making enemies. Accept the fact that as a true pioneer, you cannot be the favorite of every executive and colleague.",
+            "The ego check: Before every new initiative, ask yourself the hard, honest question: Is this really about the issue and progress - or are you just polishing the keywords for your LinkedIn profile?"
+        ],
+        "monetization_hook": {
+            "topic": "Authentic leadership & ego management",
+            "keywords": [
+                "Ego is the Enemy",
+                "Authentic Leadership",
+                "Servant Leadership",
+                "Fear of status"
+            ]
+        }
+    },
+    {
+        "profile_id": "pionier_veraenderungsangst",
+        "base_type": "The Strategic Pioneer",
+        "fear_mutation": "Fear of change",
+        "name": "The frustrated dreamer",
+        "headline": "You complain every day about the bureaucratic hell - but ironically, you are way too comfortable to leave.",
+        "corporate_view": "In the system, you are known as a reliable, if critical, source of ideas. You know the weak points, bottlenecks, and historical mistakes of your own system by heart and can name them precisely. Everyone knows: if you want to know why a process is stuck, you ask you.",
+        "shadow_conflict": "You are the loudest and most articulate critic in the coffee kitchen. You genuinely and visibly suffer under the Excel hell, the endless approval loops, and the rigid rules of your company. Your standard line is: 'This whole place really needs to be torn down and rebuilt from scratch.' But deep inside, you have massive, paralyzing fear of leaving your cozy, highly predictable routines. Your constant complaining has, paradoxically, become your safest comfort zone. A real fresh start in another company would mean losing your puppy protection and suddenly having to prove, brutally, how good you really are in practice.",
+        "action_steps": [
+            "The 30-day ultimatum: Set yourself a hard deadline today. Either in exactly 30 days your CV is updated and the first application has been sent, or from today you lose the moral right to ever complain about your job or your boss again. Accept it or exit.",
+            "Train micro-change: Train the atrophied muscle of change in small ways. Deliberately break your trivial daily routines (different commute, different tools, different break times) to take the fear of losing control out of your brain.",
+            "Kill the nostalgia: Stop romanticizing the company's past ('Back then everything was more agile here'). Accept the cold reality: the system will not change for you anymore. You are the one who has to move."
+        ],
+        "monetization_hook": {
+            "topic": "Decision-making & radical career change",
+            "keywords": [
+                "Making decisions",
+                "Leaving the comfort zone",
+                "Daring a career switch",
+                "Career change"
+            ]
+        }
+    },
+    {
+        "profile_id": "executor_existenzangst",
+        "base_type": "The Pragmatic Executor",
+        "fear_mutation": "Existential fear",
+        "name": "The trained doer",
+        "headline": "You could turn the whole place around on your own, but you bite your tongue because you need the paycheck.",
+        "corporate_view": "For the company, you are an absolute workhorse and an extremely reliable pillar of day-to-day operations. You are the one who translates vague, unrealistic management directives into hard, measurable results and makes sure the numbers stay on track by the end of the quarter.",
+        "shadow_conflict": "You are boiling with anger every day. You see the blatant inefficiency, you endure the stupid, impractical decisions from management, and you carry colleagues who simply do not deliver. Every instinct in you is screaming to take hard action, clear the table, and wipe the slate clean. But you do not. Your constant, pounding fear of the annual bonus, the ongoing mortgage, or your high standard of living forces you into submission. You swallow your instinctive pragmatism, grit your teeth through the most pointless tasks, and slowly but surely turn into a numb, bitter cynic.",
+        "action_steps": [
+            "Turn off the golden trap: Cut your fixed costs immediately. Your financial dependence is the only reason you still tolerate this incompetence from above. Freedom starts in your bank account, not in your head.",
+            "Emotional de-investment: Stop emotionally investing in projects when you do not have the authority to actually control them. Deliver exactly what you are paid for, then switch off mentally completely.",
+            "Change the playing field: You belong in a purely performance-driven environment (e.g. sales, interim management, or your own business). Find an environment with no office politics, where your ruthless pragmatism is translated directly into money and measurable success."
+        ],
+        "monetization_hook": {
+            "topic": "Stoicism at work & performance careers",
+            "keywords": [
+                "Stoicism",
+                "Interim Management",
+                "Commission models",
+                "Emotional distance at work"
+            ]
+        }
+    },
+    {
+        "profile_id": "executor_versagensangst",
+        "base_type": "The Pragmatic Executor",
+        "fear_mutation": "Fear of failure",
+        "name": "The tyrannical doer",
+        "headline": "You grab every task because you do not trust others - and burn out in your own micromanagement.",
+        "corporate_view": "In the company, you are seen as an extremely assertive leader. You take full responsibility for highly critical projects without hesitation, lead the way, and seemingly drive the team relentlessly toward top performance. When things are on fire, they call you.",
+        "shadow_conflict": "You cleverly disguise your naked panic about losing control as 'efficiency' and 'quality standards'. Deep down, you constantly fear that something could go wrong and come back to hit you. That is why you never truly delegate. You hand tasks over, but in the end you are the bottleneck of your own success because by 11 p.m. you are still correcting every email, every presentation, and every document yourself. You tell yourself your team is incompetent, but the toxic truth is: you never even give them the space to work independently and make mistakes, because YOU are trembling at the consequences of a mistake.",
+        "action_steps": [
+            "The 80% rule as law: Finally accept this: a task done by an employee at 80% of your level is not a loss in quality - it is a massive gain for your own limited lifetime.",
+            "Allow controlled pain: Deliberately let a smaller, unimportant project crash, or tolerate a visible mistake in your team. You need to experience that the world is not destroyed by it.",
+            "Architect, not craftsman: Change your identity. You are no longer the best 'doer'. You are now a 'system architect'. Your job is to build robust processes that work even when you are not in the room."
+        ],
+        "monetization_hook": {
+            "topic": "Effective delegation & systematization",
+            "keywords": [
+                "Learn to delegate",
+                "Drop micromanagement",
+                "Leadership skills",
+                "Build systems"
+            ]
+        }
+    },
+    {
+        "profile_id": "executor_statusverlust",
+        "base_type": "The Pragmatic Executor",
+        "fear_mutation": "Loss of status",
+        "name": "The territorial doer",
+        "headline": "You confuse leadership with dominance because you are terrified of sliding down the ranking.",
+        "corporate_view": "In the organization, you are seen as a highly competitive alpha player who always wants to win and usually does. You secure market share, win the toughest negotiations, and defend the interests and budgets of your own department to the outside world with extreme hardness and no compromise.",
+        "shadow_conflict": "Your ego is your biggest and most dangerous blind spot. You measure your personal worth solely by the size of your budget, your job title, and who gets the last word in the decisive meeting. You rhetorically flatten other colleagues and steal the team's successes. Not because it would be best for the cause or the company, but because you are insanely, constantly afraid that another, younger, or louder alpha will overtake you. Your environment respects you for your toughness and your results, but behind your back there is no real loyalty. In truth, everyone is just waiting for you to trip at some point.",
+        "action_steps": [
+            "Collaboration instead of war: Stop fighting your own team or other departments. Real, sovereign strength is not shown by keeping others small, but by tolerating capable people next to you and even letting them grow.",
+            "Radical listening training: Force yourself in the next important meeting to not interrupt anyone for three full minutes, not make a single face, and not offer your own solution. Endure the silence and let others shine.",
+            "Reflect on scalability: Leading through fear and dominance works in the short term and brings quick numbers. Leading through deep respect and psychological safety is the only thing that scales long term and prevents burnout."
+        ],
+        "monetization_hook": {
+            "topic": "Modern leadership & power dynamics",
+            "keywords": [
+                "Office power games",
+                "Servant Leadership",
+                "Emotional intelligence for leaders",
+                "Ego is the enemy"
+            ]
+        }
+    },
+    {
+        "profile_id": "executor_veraenderungsangst",
+        "base_type": "The Pragmatic Executor",
+        "fear_mutation": "Fear of change",
+        "name": "The stubborn doer",
+        "headline": "You defend your old methods with teeth and claws because you are afraid of being a beginner again in the new.",
+        "corporate_view": "You are the rock in the surf. You possess invaluable, deep experiential knowledge of operational processes and, as one of the few, still know exactly how and why the core business has been profitable for years. When the system shakes, you are the reliable anchor.",
+        "shadow_conflict": "You are the undisputed master of your current tools, Excel lists, and processes. Nobody can fool you, you get things done blindfolded and faster than anyone else. But the moment new methods - like artificial intelligence, agile frameworks, or new cloud software - are thrown into the room, you build a wall. In meetings, you dismiss them loudly as 'new-age bullshit' that 'would never work in practice here anyway'. The bitter truth behind this arrogance: you are simply terrified of losing your hard-earned expert status overnight and having to start from zero again as a stupid beginner in front of the younger colleagues.",
+        "action_steps": [
+            "Reality check: Accept the hard reality of the market: whoever stubbornly lives in the past will not be paid in the near future. Your current rigid process knowledge is losing value at high speed.",
+            "The secret lab: Starting now, block two fixed hours every week in your calendar to deliberately learn a new, disruptive tool from your industry. If necessary, do it completely secretly until you feel safe enough to show it to the team.",
+            "Use reverse mentoring: Stop arrogantly dismissing the way younger colleagues work. Instead, make them your mentors for new technologies and AI. In return, teach them your priceless strategic industry knowledge."
+        ],
+        "monetization_hook": {
+            "topic": "Future skills & AI in management",
+            "keywords": [
+                "AI for leaders",
+                "Change management",
+                "Reverse mentoring",
+                "Agile methods"
+            ]
+        }
+    },
+    {
+        "profile_id": "optimierer_existenzangst",
+        "base_type": "The Structural Optimizer",
+        "fear_mutation": "Existential fear",
+        "name": "The invisible prisoner",
+        "headline": "You do the work of three people, get paid like one, and are too afraid to change anything about it.",
+        "corporate_view": "You are an extremely loyal and completely error-free employee. You form the invisible but extremely solid foundation of the department. You are the one who can be handed all the thankless, small background tasks because management knows exactly: you will work through them without complaint, on time, and to perfection.",
+        "shadow_conflict": "You are trapped in the perfect hamster wheel. Rationally, you know very well that you are massively underpaid and that the system shamelessly exploits your kindness. But you swallow it and stay silent. Your fear of financial insecurity, of the stress of changing jobs, or of the 'risk' of probation at a new employer is so overwhelming that you would rather endure the familiar misery. Your secret survival strategy: you desperately hope that your boss will somehow 'notice on their own' how incredibly valuable you are and offer you a raise voluntarily. Spoiler alert: that will never happen.",
+        "action_steps": [
+            "Stop waiting for the 'rewarder': In business, performance is not paid fairly - only market value that has been negotiated is. Nobody gives you money for quietly getting things done. You have to demand your value actively, almost like a business deal.",
+            "Keep a performance log: Starting now, document absolutely every task for at least one week that goes beyond your actual contract. Mentally translate these tasks into concrete cost savings or prevented crises for the company. That is your bargaining chip.",
+            "The strategic no: Practice saying 'no' in a safe setting. When the next unplanned 'can you just quickly...' task gets thrown over the fence, answer: 'Gladly, but then Project X has to stay on hold today. Your prioritization.'"
+        ],
+        "monetization_hook": {
+            "topic": "Salary negotiation for introverts",
+            "keywords": [
+                "Negotiate salary as an introvert",
+                "Learn to say no",
+                "Set boundaries at work",
+                "Determine market value"
+            ]
+        }
+    },
+    {
+        "profile_id": "optimierer_versagensangst",
+        "base_type": "The Structural Optimizer",
+        "fear_mutation": "Fear of failure",
+        "name": "The paralyzed perfectionist",
+        "headline": "You reformat Excel cells at 10 p.m. because you are terrified that one small mistake could cost you your job.",
+        "corporate_view": "You are the undisputed master of quality control. You spot operational risks, logical gaps, and compliance problems long before they can cause real-world damage. When you hand something over, everyone on the team knows: this is the absolute gold standard.",
+        "shadow_conflict": "What looks from the outside like exemplary ambition and hard work is in reality a massive psychological shield. Your perfectionism has become pathological. You are panically, almost physically afraid that someone could prove you made a mistake and expose you as incompetent in front of everyone else. That is why you build airtight, overblown protocols, triple-check yourself in CC emails, and secretly re-check your colleagues' work instead of going home. This behavior drains an insane amount of life energy from you. You are burning out internally from pure, nonstop fear of criticism.",
+        "action_steps": [
+            "Brutal Pareto principle (80/20): Apply this rule without mercy. Perfection beyond the 80% mark costs you exponentially more time and nerves, but the hard reality is: nobody except you sees this marginal difference. The business does not care.",
+            "Error tolerance training: Deliberately send an internal, unimportant draft to a colleague that still contains a small formatting or typo error. Observe what happens. You need to experience that your reputation is not destroyed by it.",
+            "Pragmatism over over-engineering: Stop trying to make yourself untouchable through artificially inflated complexity. A problem solved quickly and pragmatically has far more value for a company than a problem documented to 100% perfection but blocked."
+        ],
+        "monetization_hook": {
+            "topic": "Dropping perfectionism & time management",
+            "keywords": [
+                "Pareto principle",
+                "Overcome imposter syndrome",
+                "Stop overthinking",
+                "Fear of criticism"
+            ]
+        }
+    },
+    {
+        "profile_id": "optimierer_statusverlust",
+        "base_type": "The Structural Optimizer",
+        "fear_mutation": "Status Loss",
+        "name": "The Bitter Expert",
+        "headline": "You hate the loud posers who keep getting promoted — but out of pride, you refuse to step into the spotlight yourself.",
+        "corporate_view": "In the team, you’re seen as the company’s quiet, deep source of knowledge. You’re the absolute subject-matter expert nobody can get around when something is truly complex, critical, or technically demanding. You’re the company’s reliable human archive.",
+        "shadow_conflict": "You’ve become insanely frustrated and cynical. Every day you watch people who don’t even know a fraction of what you know collect the big job titles and salaries — just because they can talk better and know the right people. You deeply despise these 'posers'. But your own ego is massively in your way: you see active self-promotion as 'unprofessional', 'cheap', or 'slimy'. You tell yourself: 'Real good work should speak for itself.' In the real world, it doesn’t. Your proud refusal to play even a basic version of the company’s political game makes you invisible — and keeps you stuck.",
+        "action_steps": [
+            "Accept the rules: Drop the naïveté. In your career, perception is reality. Building your own visibility is not a 'dirty trick' — it’s a completely legitimate and necessary part of your job.",
+            "The 5-minute rule: Make a firm decision to speak up in every single meeting within the first 5 minutes — even if it’s just a loud, smart clarifying question. That establishes your audible and physical presence in the room.",
+            "Claim your wins: If you solved a massive problem behind the scenes, don’t just quietly close the ticket. Send a proactive email to the relevant stakeholders that subtly, but unmistakably, makes it clear that YOU prevented that failure."
+        ],
+        "monetization_hook": {
+            "topic": "Self-PR & visibility for quiet performers",
+            "keywords": [
+                "Visibility for introverts",
+                "Personal branding at work",
+                "Understanding office politics",
+                "Quiet people, strong impact"
+            ]
+        }
+    },
+    {
+        "profile_id": "optimierer_veraenderungsangst",
+        "base_type": "The Structural Optimizer",
+        "fear_mutation": "Fear of Change",
+        "name": "The Rigid Bureaucrat",
+        "headline": "You defend completely outdated rules like a fortress because the chaos of the new working world overwhelms you.",
+        "corporate_view": "In your department, you’re the guarantee of order. A rock in the surf, meticulously making sure that all the trendy agile transformations and wild management ideas don’t actually break the core business. You secure the necessary stability and compliance.",
+        "shadow_conflict": "The moment the words 'agility', 'restructuring', or 'new software rollout' come up in a meeting, it practically tightens your throat. You love and need absolute predictability. Over many years, you’ve built yourself a perfect, safe nest out of complex Excel macros, your own folder structures, and fixed routines. Here, you’re the undisputed master. If everything changes radically now, you lose your total control and your status as the 'knowledgeable expert'. That’s exactly why you block necessary changes so often — usually cleverly disguised under the untouchable cover of 'compliance concerns' or 'quality assurance'. In truth, you’re just terrified of becoming useless in the new, dynamic system.",
+        "action_steps": [
+            "From blocker to architect: Stop acting like a rockslide against the current. You can’t stop digitalization. But with your structural talent, you can be the one who organizes the transition safely and without mistakes.",
+            "Take the translator role: Proactively appoint yourself as the 'translator' between the old and the new system. Your massive knowledge of historical mistakes and hidden pitfalls is pure gold when new software or a new process is introduced. Use that knowledge aggressively.",
+            "Learn to tolerate chaos: Once a week, deliberately leave your structure comfort zone. Do one task in a completely new, subjectively 'inefficient' way to prove to your brain that temporary disorder doesn’t kill you and often reveals new paths."
+        ],
+        "monetization_hook": {
+            "topic": "Resilience & change management for experts",
+            "keywords": [
+                "Change management",
+                "Dealing with change",
+                "Agile work for beginners",
+                "Psychological flexibility"
+            ]
+        }
+    },
+    {
+        "profile_id": "katalysator_existenzangst",
+        "base_type": "The Integration Catalyst",
+        "fear_mutation": "Existential Fear",
+        "name": "The Trapped Helper",
+        "headline": "You sacrifice yourself for the 'company family' because you’re panicking about losing your safe harbor.",
+        "corporate_view": "You’re the team’s absolute glue. You’re the person who catches tension and conflict in the hallway before it escalates. You naturally take on the unpleasant tasks of overloaded colleagues and, almost as a side effect, keep turnover and sick leave in the team low.",
+        "shadow_conflict": "You tell yourself your colleagues are 'family'. But deep down, you know damn well: this is a hard-nosed business relationship. You swallow your own frustration, the lack of appreciation, and the countless unpaid overtime hours because your existential fear has completely paralyzed you. Your seemingly boundless helpfulness is actually your strongest defense mechanism: you make yourself emotionally and operationally into the ever-present good soul, hoping that at the next layoff wave or restructuring you won’t end up on the chopping block out of pure pity. You buy financial security with your mental health — a terrible deal.",
+        "action_steps": [
+            "Activate the business mindset: Face the cold reality: if the numbers are red, the company will still fire you — no matter how many cakes you baked. Real, lasting security comes only from your market value, not from self-sacrifice.",
+            "Cold turkey on over-engagement: Stop the emotional over-engagement immediately. From today on, stop doing tasks that are not exactly in your job description just to make others 'like' you.",
+            "Invest in yourself: Take the massive energy you spend every day fixing other people’s problems and invest it ruthlessly in your own résumé. Make yourself professionally irreplaceable instead of just being conveniently nice."
+        ],
+        "monetization_hook": {
+            "topic": "Professional boundaries & resilience",
+            "keywords": [
+                "Setting boundaries at work",
+                "Dropping people-pleasing",
+                "Financial independence",
+                "Toxic loyalty"
+            ]
+        }
+    },
+    {
+        "profile_id": "katalysator_versagensangst",
+        "base_type": "The Integration Catalyst",
+        "fear_mutation": "Fear of Failure",
+        "name": "The Overcompensating Rescuer",
+        "headline": "You say 'yes' to every extra task because you’re terrified of being exposed as a fraud.",
+        "corporate_view": "In the company, you’re seen as the most reliable firefighter and the ultimate team player. You’re the one who pulls the chestnuts out of the fire on Friday afternoon. The phrase 'That’s not really my job' seems to have been completely erased from your vocabulary.",
+        "shadow_conflict": "Your celebrated helper syndrome is really just a thick mask for your massive imposter syndrome. Because you often feel uncertain or not 'good enough' in your actual role, you compensate by being endlessly available. You take on the crap tasks and even other people’s mistakes without comment. Your subconscious logic is: 'If I’m always nice, available, and extremely helpful, hopefully nobody will notice that I’m actually not that competent.' The result: you drown in other people’s work and burn out, because a single clear 'no' feels to you like a dangerous admission of weakness.",
+        "action_steps": [
+            "Train the tactical 'no': Learn that no is not an attack. The sentence 'I’d be happy to help, but my schedule only allows that next Thursday' is a highly professional, respected boundary — not a personal rejection.",
+            "Separate likability from performance: The company doesn’t pay you to be 'loved'; it pays you for tangible results. If colleagues are briefly disappointed that you won’t do their job, that’s their problem, not yours.",
+            "Give responsibility back: Leave other adults’ problems where they belong. If a colleague fails at their task, it is absolutely not your job to secretly rescue them from the boss at night."
+        ],
+        "monetization_hook": {
+            "topic": "Imposter syndrome & time management",
+            "keywords": [
+                "Learning to say no",
+                "Overcoming imposter syndrome",
+                "Helper syndrome at work",
+                "Building self-worth"
+            ]
+        }
+    },
+    {
+        "profile_id": "katalysator_statusverlust",
+        "base_type": "The Integration Catalyst",
+        "fear_mutation": "Status Loss",
+        "name": "The Wounded Martyr",
+        "headline": "You play the office sweetheart, but inside you’re deeply bitter that nobody applauds you for it.",
+        "corporate_view": "You’re the undisputed emotional center of the department. You know absolutely all the hallway gossip and unspoken dynamics. You’re the person who organizes team events, remembers birthdays, and helps colleagues get back on their feet after hard setbacks over a coffee.",
+        "shadow_conflict": "You derive almost all of your professional self-worth from being liked by everyone and urgently 'needed'. You almost aggressively force yourself into the role of the suffering martyr: you work visibly the longest, comfort everyone — and internally have a raging fit when the boss once again picks the loud, cold egoist for the promotion or bonus round. You fundamentally confuse 'popularity' with real 'influence'. Your hunger for status and recognition is actually huge, but you consider it morally wrong or rude to demand that status openly, directly, and bluntly for yourself. So you suffer in silence.",
+        "action_steps": [
+            "End the office-parenting: Stop being the office parent right now. No more baking cakes, no more free therapist role in the hallway. You’re there to do professional business, not to raise or coddle grown adults.",
+            "Demand power, not pity: If you are in fact the person holding a department together, then officially demand the team lead role and the corresponding salary. Stop letting yourself be placated with warm words.",
+            "Stop the passive aggression: If others don’t see or ignore your 'silent self-sacrifice', that is not their evil intent. It is entirely your communication problem. Say clearly what you do and what you want in return."
+        ],
+        "monetization_hook": {
+            "topic": "Leadership skills for empathetic people",
+            "keywords": [
+                "Empathetic leadership",
+                "Salary negotiation",
+                "Get out of victim mode",
+                "From liked to respected"
+            ]
+        }
+    },
+    {
+        "profile_id": "katalysator_veraenderungsangst",
+        "base_type": "The Integration Catalyst",
+        "fear_mutation": "Fear of Change",
+        "name": "The Toxic Harmonizer",
+        "headline": "You keep a completely broken team together because the thought of a fresh start keeps you awake at night.",
+        "corporate_view": "In the company, you’re seen as an absolutely loyal mediator. You stand by the organization through the hardest crises, layoff waves, and chaos phases. You’re the company’s sedative: you calm the team down immediately when the mood shifts or panic breaks out.",
+        "shadow_conflict": "You’re stuck deep inside a profoundly toxic work relationship — and you know it, really. You suffer every day under the chaotic, unhealthy structures, but you systematically talk yourself into believing it’s not that bad: 'It’s not that terrible,' or 'The colleagues need me now, I can’t just leave.' Your extreme, often praised empathy has become your biggest and most fatal excuse for never having to hit the quit button. A new job would mean walking into a cold, unfamiliar environment where you don’t yet have your social status as a valuable 'rescuer'. So you stay on the sinking ship, keep playing the violin, and knowingly go down with it.",
+        "action_steps": [
+            "Pull the plug: Stop immediately trying to artificially keep the completely broken, dysfunctional system alive with your empathy and overtime. Let the project or department crash. It’s not your company. You are not the insolvency administrator.",
+            "Destroy your self-lie: Your colleagues will survive without you. Everyone is replaceable. You are not responsible for the personal happiness of other adult human beings — only for your own.",
+            "Reframe the job change: Don’t see a job change as the pathetic 'loss of your family'; see it as a life-saving escape from a toxic cult. Update your profile and write your resignation today."
+        ],
+        "monetization_hook": {
+            "topic": "Leaving toxic workplaces & starting over",
+            "keywords": [
+                "Toxic work environment",
+                "Fear of quitting",
+                "Emotional dependency at work",
+                "Dare to start over"
+            ]
+        }
+    }
+]

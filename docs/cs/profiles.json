@@ -1,0 +1,370 @@
+[
+    {
+        "profile_id": "pionier_existenzangst",
+        "base_type": "Strategický pionýr",
+        "fear_mutation": "Existenciální strach",
+        "name": "Kompromitovaný pionýr",
+        "headline": "Máš brilantní nápady, ale prodal ses za bolestné na konci měsíce.",
+        "corporate_view": "Ve firmě tě berou jako vizionářskou hlavu, která přemýšlí daleko za hranice vlastní sekce. Váží si tě za to, že okamžitě rozpoznáš neefektivitu, chápeš celek a teoreticky máš potenciál radikálně přepsat zkostnatělé byznys modely. Pro management jsi cenný asset, protože přesně ukazuješ na problém a odhaluješ strategická slepá místa.",
+        "shadow_conflict": "Se systémem ses smířil – a přesně to tě každý den po kouskách zabíjí zevnitř. Vidíš naprosto jasně, jak firma slepě míří do zdi, nebo jak absurdní a hloupé jsou zavedené procesy. Ale v rozhodujících poradách mlčíš. Proč? Protože strach z fixních nákladů, další splátky, životní úrovně a falešného pocitu jistoty z pracovní smlouvy je mnohem větší než tvoje skutečná touha po inovaci. Vnitřně už jen odpracováváš to nejnutnější, i když tvůj mozek je stavěný na disruptivní změnu a skutečný posun. Ta zlatá klec, kterou sis sám postavil, z tebe dělá čím dál cyničtějšího, zatrpklejšího člověka a bere ti tvou kreativní životní energii.",
+        "action_steps": [
+            "Uřízni emoční výnos: Přestaň cpát cennou mentální energii do systému, který tvoje nápady stejně neimplementuje. Dělej svou práci dál dobře a profesionálně, ale důsledně odpoj emoční vazbu. Firma není tvoje rodina, je to tvůj aktuální plátce.",
+            "Vybuduj si 'Fuck-You-Money': Dočasně sniž životní standard a agresivně si vytvoř finanční polštář. Teprve když realisticky přežiješ 6 měsíců bez tohohle platu, mozek vypne paniku a ty se zase odvážíš riskovat a říkat nahlas svůj názor.",
+            "Směruj svou disruptivnost: Použij svou nahromaděnou, nevyužitou kreativitu na tajný side business. Nebo si připrav exit a hlás se do silně růstově orientovaných startupů nebo scale-upů, které tenhle nespoutaný hlad po inovaci odměňují místo toho, aby ho dusily."
+        ],
+        "monetization_hook": {
+            "topic": "Podnikání na vedlejšák a finanční nezávislost",
+            "keywords": [
+                "Fuck You Money",
+                "Side Hustle",
+                "Finanční svoboda",
+                "Podnikání na vedlejšák"
+            ]
+        }
+    },
+    {
+        "profile_id": "pionier_versagensangst",
+        "base_type": "Strategický pionýr",
+        "fear_mutation": "Strach ze selhání",
+        "name": "Blokovaný pionýr",
+        "headline": "Revoluci máš uloženou v šuplíku, protože máš absolutní paniku z reality.",
+        "corporate_view": "Ve firmě tě znají jako extrémně hlubokého analytika a architekta. Nikdy nevypouštíš polovičaté koncepty. Kolegové obdivují, jak nové strategie, produkty nebo procesy promýšlíš do absolutního detailu, než vůbec spatří světlo světa. Jsi záruka intelektuální hloubky a neprůstřelného plánování.",
+        "shadow_conflict": "Tvůj syndrom podvodníka tě drží v naprostém sevření. Na disku ti leží stovky rozpracovaných konceptů, brilantních nápadů a vizí – ale nikdy nestiskneš 'Launch'. Sám sobě i ostatním tvrdíš, že produkt nebo nápad je 'ještě prostě nedokonalý'. Brutální pravda je jiná: máš panický strach, že tvoje idea v realitě selže, kritici ji roztrhají na kusy a nakonec tě odhalí jako podvodníka. Tvůj tolik chválený perfekcionismus už není kontrola kvality, ale tvoje nejgeniálnější výmluva, jak se nikdy nemuset pustit do skutečného rizika. Schováváš se za plánování.",
+        "action_steps": [
+            "Zaveď 80% paradigma: Donuť se k nepříjemné pravdě: 'Hotové je lepší než dokonalé'. Svou další ideu zveřejni, pošli nebo prezentuj záměrně v nedokončeném stavu. Nauč se snášet nepohodlí nedokonalosti.",
+            "Odděl svůj sebehodnotu: Striktně odděl svou osobní hodnotu od práce. Když nějaký tvůj koncept selže, neznamená to, že jsi jako člověk neschopný. Znamená to jen, že se na trhu nebo v týmu otestovala a vyvrátila věcná hypotéza.",
+            "Najdi svůj protipól: Sežeň si pragmatického partnera na realizaci ('Executor'). Potřebuješ vedle sebe někoho, kdo tvoje nápady bez milosti a rychle dostane do praxe a zmáčkne tlačítko, zatímco ty ještě sedíš ve smyčce vlastních pochybností."
+        ],
+        "monetization_hook": {
+            "topic": "Překonání syndromu podvodníka a strategie exekuce",
+            "keywords": [
+                "Syndrom podvodníka",
+                "Lean Startup",
+                "Pustit perfekcionismus",
+                "Dokončovat projekty"
+            ]
+        }
+    },
+    {
+        "profile_id": "pionier_statusverlust",
+        "base_type": "Strategický pionýr",
+        "fear_mutation": "Ztráta statusu",
+        "name": "Inscenovaný pionýr",
+        "headline": "Miluješ, když tě oslavují jako kreativního rebela – dokud není v ohrožení firemní auto.",
+        "corporate_view": "V pracovním prostředí působíš jako extrémně charismatický vizionář, který dokáže strhnout týmy, oddělení i stakeholdery bez námahy. Obdivují tě za vzácnou schopnost zabalit složité, suché inovace do poutavých vizí a skvěle je prodat směrem nahoru top managementu. Jsi zářivá výkladní skříň pokroku.",
+        "shadow_conflict": "Stal ses mistrem sebeinscenace. Hlasitě a rád mluvíš o 'New Work', agilním přístupu, disruptivnosti a plochých hierarchiích. Jsi ten, kdo na townhall meetingách drží plamenné, inspirativní projevy. Ale jakmile dojde na lámání chleba – jakmile bys kvůli skutečnému přesvědčení musel riskovat vlastní pozici, rozpočet nebo reputaci u představenstva – okamžitě cukneš. Hned se vracíš do politické hry starých hierarchií. Tvoje údajná rebelie je často jen chytře kalkulované PR pro vlastní prospěch. Hluboko uvnitř se bojíš hlavně toho, že ztratíš status a zmizíš v šedé bezvýznamnosti středního managementu.",
+        "action_steps": [
+            "Pracuj ve stínu: Přestaň používat inovaci jen jako nástroj pro svoje ego a viditelnost. Donuť se dotáhnout důležitý projekt, který firmě masivně pomůže, ale za který oficiálně nedostaneš žádný credit, žádné pódium a žádnou pochvalu.",
+            "Přijmi konflikt: Opusť svou politickou komfortní zónu. Skutečná změna vždy znamená, že útočíš na privilegia a děláš si nepřátele. Přijmi fakt, že jako opravdový pionýr nemůžeš být miláčkem všech šéfů a kolegů.",
+            "Ego-check: Před každým novým záměrem si polož tvrdou a upřímnou otázku: Jde ti v tomhle tématu opravdu o věc a posun – nebo si právě jen leštíš klíčová slova pro svůj LinkedIn profil?"
+        ],
+        "monetization_hook": {
+            "topic": "Autentické vedení a řízení ega",
+            "keywords": [
+                "Ego is the Enemy",
+                "Autentické vedení",
+                "Servant Leadership",
+                "Strach ze ztráty statusu"
+            ]
+        }
+    },
+    {
+        "profile_id": "pionier_veraenderungsangst",
+        "base_type": "Strategický pionýr",
+        "fear_mutation": "Strach ze změny",
+        "name": "Frustrovaný snílek",
+        "headline": "Každý den nadáváš na byrokratické peklo – ale ironicky jsi až moc pohodlný na to, abys odešel.",
+        "corporate_view": "V systému tě znají jako spolehlivého, i když kritického člověka s nápady. Znáš slabá místa, úzká hrdla i historické chyby vlastního systému naprosto nazpaměť a umíš je přesně pojmenovat. Každý ví: když chce vědět, proč nějaký proces drhne, má se zeptat tebe.",
+        "shadow_conflict": "Jsi nejhlasitější a nejupovídanější kritik v kuchyňce. Upřímně a citelně trpíš v excelovém pekle, nekonečných schvalovacích smyčkách a strnulých pravidlech své firmy. Tvoje standardní věta zní: 'Tohle by se tady mělo celé zbourat a postavit znovu.' Ale hluboko uvnitř máš masivní, paralyzující strach opustit své pohodlné, vysoce předvídatelné rutiny. Tvoje neustálé stěžování se se paradoxně stalo tvou nejbezpečnější komfortní zónou. Skutečný restart v jiné firmě by totiž znamenal, že přijdeš o ochrannou lhůtu a budeš muset znovu tvrdě dokazovat, jak dobrý doopravdy jsi v praxi.",
+        "action_steps": [
+            "30denní ultimátum: Dej si dnes tvrdý deadline. Buď budeš mít přesně za 30 dní aktualizovaný životopis a odeslanou první přihlášku, nebo od dneška ztrácíš morální právo si kdykoli znovu stěžovat na práci nebo šéfa. Přijetí, nebo exit.",
+            "Trénuj mikro-změny: Trénuj ochablý sval změny v malém. Záměrně rozbij své banální denní rutiny (jiná cesta do práce, jiné nástroje, jiné pauzy), aby si mozek odvykl strachu ze ztráty kontroly.",
+            "Zabij nostalgii: Přestaň romantizovat minulost firmy ('Dřív to tady bylo mnohem agilnější'). Přijmi chladnou realitu: systém se kvůli tobě už nezmění. Pohyb musíš udělat ty."
+        ],
+        "monetization_hook": {
+            "topic": "Rozhodování a radikální změna oboru",
+            "keywords": [
+                "Rozhodování",
+                "Opustit komfortní zónu",
+                "Změna oboru",
+                "Změna kariéry"
+            ]
+        }
+    },
+    {
+        "profile_id": "executor_existenzangst",
+        "base_type": "Pragmatický exekutor",
+        "fear_mutation": "Existenciální strach",
+        "name": "Drezírovaný tahoun",
+        "headline": "Mohl bys tenhle podnik otočit sám, ale držíš jazyk za zuby, protože potřebuješ výplatu.",
+        "corporate_view": "Pro firmu jsi absolutní dříč a extrémně spolehlivý pilíř operativy. Jsi ten, kdo měkké, od reality odtržené pokyny managementu převádí na tvrdé, měřitelné výsledky a zajišťuje, že čísla na konci kvartálu zůstávají na správné cestě.",
+        "shadow_conflict": "Uvnitř každý den vaříš vztekem. Vidíš do očí bijící neefektivitu, snášíš hloupá a nepraktická rozhodnutí managementu a táhneš s sebou kolegy, kteří prostě nedodávají. Každý instinkt v tobě vlastně křičí, že máš tvrdě zasáhnout, udělat tabula rasa a uklidit stůl. Ale neděláš to. Tvůj neustálý, pulzující strach z ročního bonusu, běžící hypotéky nebo vysokého životního standardu tě drží v podřízenosti. Polykáš svůj instinktivní pragmatismus, se zaťatými zuby plníš ty nejnesmyslnější úkoly a pomalu, ale jistě se měníš v otupělého, zatrpklého cynika.",
+        "action_steps": [
+            "Vypni zlatou past: Okamžitě sniž fixní náklady. Tvoje finanční závislost je naprosto jediný důvod, proč si tuhle inkompetenci shora ještě necháváš líbit. Svoboda začíná na účtu, ne v hlavě.",
+            "Emoční dezinvestice: Přestaň se emočně vkládat do projektů, když nemáš pravomoc je skutečně řídit. Dodej přesně to, za co jsi placen, a pak se mentálně úplně vypni.",
+            "Přesuň se na jiné hřiště: Patříš do čistě výkonnostně řízeného prostředí (např. obchod, interim management nebo vlastní byznys). Najdi si prostředí, kde neexistuje kancelářská politika, ale kde se tvůj nekompromisní pragmatismus přímo mění v peníze a měřitelný úspěch."
+        ],
+        "monetization_hook": {
+            "topic": "Stoicismus v práci a výkonnostní kariéry",
+            "keywords": [
+                "Stoicismus",
+                "Interim Management",
+                "Provizní modely",
+                "Emoční odstup v práci"
+            ]
+        }
+    },
+    {
+        "profile_id": "executor_versagensangst",
+        "base_type": "Pragmatický exekutor",
+        "fear_mutation": "Strach ze selhání",
+        "name": "Tyranský tahoun",
+        "headline": "Bereš si všechny úkoly na sebe, protože nevěříš ostatním – a shoříš ve vlastním mikromanagementu.",
+        "corporate_view": "Ve firmě tě vnímají jako extrémně průraznou vůdčí osobnost. Bez váhání přebíráš plnou odpovědnost za vysoce kritické projekty, jdeš vpředu a tým ženeš zdánlivě neúnavně k maximálním výkonům. Když hoří, volají tebe.",
+        "shadow_conflict": "Svoji holou paniku ze ztráty kontroly chytře maskuješ jako 'efektivitu' a 'nároky na kvalitu'. Hluboko uvnitř se neustále bojíš, že se něco pokazí a vrátí se to na tebe. Proto nikdy opravdu nedeleguješ. Úkoly sice rozdáš, ale nakonec jsi úzkým hrdlem vlastního úspěchu, protože na konci dne stejně každou e-mailovou zprávu, každou prezentaci a každý dokument ještě jednou sám opravuješ ve 23:00 v noci. Namlouváš si, že tvůj tým je neschopný, ale toxická pravda je: vůbec jim nedáváš prostor pracovat samostatně a dělat chyby, protože TY se třeseš před důsledky chyby.",
+        "action_steps": [
+            "Pravidlo 80 % jako zákon: Konečně přijmi, že úkol, který zaměstnanec zvládne na 80 % stejně dobře jako ty, není ztráta kvality – je to masivní zisk pro tvůj vlastní omezený čas na zemi.",
+            "Připusť kontrolovanou bolest: Záměrně a vědomě nech menší, nedůležitý projekt narazit do zdi nebo toleruj viditelnou chybu ve svém týmu. Musíš zažít, že svět se tím nezhroutí.",
+            "Architekt místo řemeslníka: Změň identitu. Už nejsi nejlepší 'vykonavatel'. Teď jsi 'systémový architekt'. Tvým úkolem je stavět robustní procesy, které fungují i tehdy, když nejsi v místnosti."
+        ],
+        "monetization_hook": {
+            "topic": "Efektivní delegování a systematizace",
+            "keywords": [
+                "Naučit se delegovat",
+                "Pustit mikromanagement",
+                "Manažerské dovednosti",
+                "Budování systémů"
+            ]
+        }
+    },
+    {
+        "profile_id": "executor_statusverlust",
+        "base_type": "Pragmatický exekutor",
+        "fear_mutation": "Ztráta statusu",
+        "name": "Teritoriální tahoun",
+        "headline": "Měníš vedení za dominanci, protože máš panickou hrůzu, že v žebříčku spadneš dolů.",
+        "corporate_view": "V organizaci tě vidí jako vysoce kompetitivního alfa hráče, který chce vždy vyhrát a většinou taky vyhrává. Chráníš podíl na trhu, vyhráváš ty nejtvrdší vyjednávání a navenek extrémně tvrdě a nekompromisně bráníš zájmy a rozpočty vlastního oddělení.",
+        "shadow_conflict": "Tvoje ego je tvoje největší a nejnebezpečnější slepá skvrna. Svou osobní hodnotu měříš výhradně výší rozpočtu, pracovním titulem a tím, kdo má v rozhodující poradě poslední slovo. Rétoricky válcuješ ostatní kolegy a přivlastňuješ si úspěchy týmu. Ne proto, že by to bylo pro věc nebo firmu nejlepší, ale protože máš neuvěřitelný, stálý strach, že tě jiný, mladší nebo hlasitější alfa předběhne. Tvoje okolí tě sice respektuje pro tvrdost a výsledky, ale za tvými zády neexistuje žádná skutečná loajalita. Ve skutečnosti tam každý jen čeká, až jednou zakopneš.",
+        "action_steps": [
+            "Spolupráce místo války: Přestaň bojovat proti vlastnímu týmu nebo jiným oddělením. Skutečná, suverénní síla není v tom držet ostatní dole, ale snést vedle sebe schopné lidi a dokonce jim dovolit růst.",
+            "Radikální trénink naslouchání: Donuť se v příští důležité poradě tři minuty absolutně nikomu neskákat do řeči, nehnout ani brvou a nepřijít s vlastním řešením. Vydrž ticho a nech ostatní zazářit.",
+            "Zamysli se nad škálovatelností: Vedení skrz strach a dominanci funguje krátkodobě a přináší rychlá čísla. Vedení skrz hluboký respekt a psychologické bezpečí je ale jediné, co dlouhodobě škáluje a brání vyhoření."
+        ],
+        "monetization_hook": {
+            "topic": "Moderní vedení a mocenské dynamiky",
+            "keywords": [
+                "Mocenské hry v kanceláři",
+                "Servant Leadership",
+                "Emoční inteligence pro manažery",
+                "Ego is the enemy"
+            ]
+        }
+    },
+    {
+        "profile_id": "executor_veraenderungsangst",
+        "base_type": "Pragmatický exekutor",
+        "fear_mutation": "Strach ze změny",
+        "name": "Tvrdohlavý tahoun",
+        "headline": "Staré metody bráníš zuby nehty, protože se bojíš, že v novém budeš zase začátečník.",
+        "corporate_view": "Jsi skála v bouři. Máš neocenitelné, hluboké zkušenostní know-how o operativních procesech a jako jeden z mála ještě přesně víš, jak a proč hlavní byznys už roky funguje ziskově. Když se systém třese, jsi spolehlivá kotva.",
+        "shadow_conflict": "Jsi neotřesitelný mistr svých současných nástrojů, excelových tabulek a procesů. Nikdo na tebe nemá, věci zvládáš naslepo a rychleji než kdokoli jiný. Ale jakmile se do prostoru dostanou nové metody – jako umělá inteligence, agilní frameworky nebo nový cloudový software – okamžitě stavíš zeď. Na poradách to hlasitě shazuješ jako 'moderní blbost', která 'u nás v praxi stejně nikdy nebude fungovat'. Hořká pravda za touhle arogancí: máš prostě děsný strach, že přes noc ztratíš svůj těžce vybudovaný expertní status a před mladšími kolegy budeš muset znovu začínat od nuly jako hloupý začátečník.",
+        "action_steps": [
+            "Realitní check: Přijmi tvrdou realitu trhu: kdo tvrdohlavě žije v minulosti, nebude v blízké budoucnosti placen. Tvoje dnešní strnulé procesní know-how se strašně rychle znehodnocuje.",
+            "Tajná laboratoř: Od teď si každý týden vyhraď dvě hodiny pevného bloku v kalendáři, abys cíleně zvládl nový, disruptivní nástroj ze svého oboru. Když bude třeba, dělej to úplně potají, dokud se nebudeš cítit dost jistě, abys to ukázal týmu.",
+            "Využij reverse mentoring: Přestaň arogantně shazovat pracovní styl mladších kolegů. Udělej z nich naopak své mentory pro nové technologie a AI. Na oplátku jim předáš své neocenitelné strategické znalosti oboru."
+        ],
+        "monetization_hook": {
+            "topic": "Dovednosti budoucnosti a AI v managementu",
+            "keywords": [
+                "AI pro manažery",
+                "Change Management",
+                "Reverse Mentoring",
+                "Agilní metody"
+            ]
+        }
+    },
+    {
+        "profile_id": "optimierer_existenzangst",
+        "base_type": "Strukturální optimalizátor",
+        "fear_mutation": "Existenciální strach",
+        "name": "Neviditelný vězeň",
+        "headline": "Děláš práci tří lidí, jsi placený jako jeden a máš moc velký strach s tím něco udělat.",
+        "corporate_view": "Jsi extrémně loajální a naprosto bezchybný zaměstnanec. Tvoříš neviditelný, ale extrémně pevný základ oddělení. Jsi ten, komu lze naložit všechny nevděčné, drobné podpůrné úkoly, protože management přesně ví: zvládneš je bez řečí, včas a perfektně.",
+        "shadow_conflict": "Jsi uvězněný v naprosto dokonalém kolečku křečka. Racionálně víš, že jsi masivně podhodnocený a že systém tvou dobrotu bezostyšně zneužívá. Ale polykáš to a mlčíš. Strach z finanční nejistoty, ze stresu při změně práce nebo z 'rizika' zkušební doby u nového zaměstnavatele je tak obrovský, že radši snášíš známé, povědomé utrpení. Tvoje tajná strategie přežití: zoufale doufáš, že si tvůj šéf jednou 'sám od sebe' všimne, jak jsi neuvěřitelně cenný, a nabídne ti zvýšení platu. Spoiler: to se nikdy nestane.",
+        "action_steps": [
+            "Přestaň čekat na 'odměňovače': V byznysu se výkon neodměňuje spravedlivě, ale výhradně vyjednanou tržní hodnotou. Nikdo ti nedá peníze za tiché odpracování. Svou hodnotu musíš aktivně, skoro až obchodně, vymáhat.",
+            "Veď si deník výkonu: Od teď dokumentuj alespoň týden úplně každý úkol, který jde nad rámec tvé smlouvy. V hlavě si tyto úkoly převeď na konkrétně ušetřené náklady nebo odvrácené krize pro firmu. To je tvoje vyjednávací munice.",
+            "Strategické ne: Trénuj říkat 'ne' v bezpečném prostředí. Když ti příště přes plot přiletí neplánovaný úkol typu 'můžeš to prosím jen na chvilku', odpověz: 'Rád, ale pak dnes nutně zůstane ležet projekt X. Tvoje priorita.'"
+        ],
+        "monetization_hook": {
+            "topic": "Vyjednávání o platu pro introverty",
+            "keywords": [
+                "Vyjednávání o platu pro introverty",
+                "Naučit se říkat ne",
+                "Nastavování hranic v práci",
+                "Určení tržní hodnoty"
+            ]
+        }
+    },
+    {
+        "profile_id": "optimierer_versagensangst",
+        "base_type": "Strukturální optimalizátor",
+        "fear_mutation": "Strach ze selhání",
+        "name": "Paralyzovaný perfekcionista",
+        "headline": "Ve 22:00 přeformátováváš buňky v Excelu, protože máš panickou hrůzu, že tě malá chyba stojí práci.",
+        "corporate_view": "Jsi neotřesitelný mistr kontroly kvality. Rozpoznáš provozní rizika, logické díry a compliance problémy dávno předtím, než v reálném světě napáchají škodu. Když něco odevzdáš, každý v týmu ví: tohle je absolutní zlatý standard.",
+        "shadow_conflict": "To, co zvenku vypadá jako vzorná ambice a pracovitost, je ve skutečnosti masivní psychologický štít. Tvůj perfekcionismus se stal chorobným. Máš panický, skoro fyzický strach, že ti někdo prokáže chybu a před ostatními tě odhalí jako neschopného. Proto vytváříš bezchybné, přehnané protokoly, radši se třikrát jistíš v CC mailech a tajně kontroluješ práci kolegů místo toho, abys šel domů. To chování ti bere neuvěřitelné množství životní energie. Zevnitř hoříš čistým, nepřetržitým strachem z kritiky.",
+        "action_steps": [
+            "Brutální Pareto princip (80/20): Používej ho bez milosti. Dokonalost za hranicí 80 % tě stojí exponenciálně víc času a nervů, ale tvrdá realita je: nikdo kromě tebe ten marginální rozdíl nevidí. Byznysu je to jedno.",
+            "Trénink tolerance chyb: Záměrně pošli interní, nedůležitý návrh kolegovi, ve kterém zůstane malá formátovací nebo překlepová chyba. Sleduj, co se stane. Musíš zažít, že ti to nezničí reputaci.",
+            "Pragmatismus nad over-engineeringem: Přestaň se snažit udělat se neútočným skrz uměle nafouknutou složitost. Rychle a pragmaticky vyřešený problém má pro firmu mnohem vyšší hodnotu než ze 100 % perfektně zdokumentovaný, ale zablokovaný problém."
+        ],
+        "monetization_hook": {
+            "topic": "Pustit perfekcionismus a time management",
+            "keywords": [
+                "Pareto princip",
+                "Překonání syndromu podvodníka",
+                "Zastavit overthinking",
+                "Strach z kritiky"
+            ]
+        }
+    },
+    {
+        "profile_id": "optimierer_statusverlust",
+        "base_type": "Strukturální optimalizátor",
+        "fear_mutation": "Ztráta statusu",
+        "name": "Zahořklý expert",
+        "headline": "Nenávidíš ty hlučné pózery, co pořád postupují nahoru – ale z pýchy sám odmítáš vstoupit do světla reflektorů.",
+        "corporate_view": "V týmu tě vnímají jako tichý, hluboký zdroj znalostí firmy. Jsi absolutní odborník, přes kterého se nedá jít, když je téma opravdu složité, kritické nebo technicky náročné. Jsi spolehlivý, lidský archiv firmy.",
+        "shadow_conflict": "Jsi neuvěřitelně frustrovaný a cynický. Každý den sleduješ, jak lidé, kteří odborně neznají ani zlomek toho, co ty, berou tučné pracovní tituly a platy – jen proto, že umí líp mluvit a znají správné lidi. Tyhle 'pózery' hluboce opovrhuješ. Jenže vlastní ego ti stojí masivně v cestě: Aktivní sebeprezentaci považuješ za 'neprofesionální', 'lacinou' nebo 'slizkou'. Namlouváš si: 'Opravdu dobrá práce musí mluvit sama za sebe.' Jenže v reálném světě to tak nefunguje. Tvoje pyšné odmítání aspoň trochu hrát firemní politickou hru tě dělá neviditelným – a nechává tě přešlapovat na místě.",
+        "action_steps": [
+            "Přijmi pravidla hry: Sbohem naivitě. V kariéře platí: vnímání je realita. Budovat vlastní viditelnost není žádný 'špinavý trik', ale naprosto legitimní a nutná součást tvé práce.",
+            "Pravidlo 5 minut: Zavaz se, že v každém jediném meetingu do prvních 5 minut promluvíš – i kdyby to měla být jen hlasitá, chytrá otázka na upřesnění. Tím si vybuduješ akustickou i fyzickou přítomnost v místnosti.",
+            "Přivlastni si úspěchy: Když jsi v pozadí vyřešil masivní problém, prostě tiše nezavřeš ticket. Pošleš proaktivní mail relevantním stakeholderům, ve kterém nenápadně, ale naprosto jasně sdělíš, že JSI zabránil tomu výpadku."
+        ],
+        "monetization_hook": {
+            "topic": "Sebeprezentace a viditelnost pro tiché výkonné lidi",
+            "keywords": [
+                "Viditelnost pro introverty",
+                "Osobní značka v práci",
+                "Pochopení kancelářské politiky",
+                "Tichí lidé, silný dopad"
+            ]
+        }
+    },
+    {
+        "profile_id": "optimierer_veraenderungsangst",
+        "base_type": "Strukturální optimalizátor",
+        "fear_mutation": "Strach ze změny",
+        "name": "Strnulý byrokrat",
+        "headline": "Bráníš úplně zastaralá pravidla jako pevnost, protože tě chaos nového pracovního světa brutálně přetěžuje.",
+        "corporate_view": "V oddělení jsi záruka pořádku. Skála v rozbouřeném moři, která pečlivě hlídá, aby se při všech těch hip agilních transformacích a divokých nápadech managementu nerozpadlo skutečné jádro byznysu. Zajišťuješ potřebnou stabilitu a compliance.",
+        "shadow_conflict": "Jakmile v meetingu padne slovo 'agilita', 'restrukturalizace' nebo 'zavedení nového softwaru', sevře se ti doslova hrdlo. Miluješ a potřebuješ absolutní předvídatelnost. Během let sis vybudoval dokonalé, bezpečné hnízdo z komplexních Excel maker, vlastních složkových struktur a pevných procesů. Tady jsi neomezený mistr. Když se teď všechno radikálně změní, ztratíš totální kontrolu i status 'znalého experta'. Právě proto extrémně často blokuješ nutné novinky – většinou chytře maskované pod neprůstřelným pláštíkem 'obav o compliance' nebo 'zajištění kvality'. Ve skutečnosti máš prostě jen nahou hrůzu, že budeš v novém, dynamickém systému najednou k ničemu.",
+        "action_steps": [
+            "Od blokátora k architektovi: Přestaň se stavět proti proudu jako sesuv skály. Digitalizaci nezastavíš. Ale můžeš být díky svému talentu na strukturu ten, kdo přechod bezpečně a bez chyb zorganizuje.",
+            "Role překladatele: Proaktivně se jmenuj 'překladatelem' mezi starým a novým systémem. Tvoje obrovské znalosti historických chyb a skrytých pastí mají cenu zlata, když se zavádí nový software nebo proces. Použij je naplno.",
+            "Nauč se snášet chaos: Jednou týdně vědomě opusť svou strukturální komfortní zónu. Udělej jednu úlohu úplně novým, subjektivně 'neefektivním' způsobem, aby si tvůj mozek ověřil, že dočasný nepořádek tě nezabije a často otevře nové cesty."
+        ],
+        "monetization_hook": {
+            "topic": "Odolnost a change management pro experty",
+            "keywords": [
+                "Change management",
+                "Zvládání změny",
+                "Agilní práce pro začátečníky",
+                "Psychologická flexibilita"
+            ]
+        }
+    },
+    {
+        "profile_id": "katalysator_existenzangst",
+        "base_type": "Integrační katalyzátor",
+        "fear_mutation": "Existenciální strach",
+        "name": "Uvázaný pomocník",
+        "headline": "Obětuješ se pro 'firemní rodinu', protože máš panický strach, že ztratíš svůj bezpečný přístav.",
+        "corporate_view": "Jsi absolutní lepidlo týmu. Jsi ten člověk, který zachytává napětí a konflikty na chodbě dřív, než eskalují. Samozřejmě přebíráš nevděčné úkoly přetížených kolegů a mimochodem se staráš o to, aby fluktuace i nemocnost v týmu zůstaly nízké.",
+        "shadow_conflict": "Sám sobě říkáš, že tvoji kolegové jsou 'rodina'. Ale hluboko uvnitř moc dobře víš, že je to tvrdý byznysový vztah. Polykáš vlastní frustraci, nedostatek uznání i nespočet neplacených přesčasů, protože tě existenciální strach úplně paralyzuje. Tvoje zdánlivě bezbřehá ochota pomáhat je ve skutečnosti tvůj nejsilnější obranný mechanismus: Děláš ze sebe emocionálně i operativně všudypřítomnou dobrou duši v naději, že při příští vlně propouštění nebo restrukturalizace nebudeš z čistého soucitu na seznamu k odstřelu. Kupuješ si finanční jistotu za cenu duševního zdraví – hrozný obchod.",
+        "action_steps": [
+            "Zapni business mindset: Uvědom si ledovou realitu: když jsou čísla v červených číslech, firma tě stejně vyhodí – bez ohledu na to, kolik koláčů jsi upekla. Skutečná, udržitelná jistota leží výhradně v tvé tržní hodnotě, ne v sebeobětování.",
+            "Studený odvyk od přehnaného nasazení: Okamžitě zastav emoční přepínání. Od dneška důsledně nedělej žádné úkoly, které přesně nespadají do tvé pracovní náplně, jen abys ostatním 'vyhověl'.",
+            "Investice do sebe: Vezmi masivní energii, kterou denně cpeš do oprav problémů jiných lidí, a nekompromisně ji investuj do vlastního životopisu. Staň se odborně nenahraditelným, ne jen lidsky pohodlným."
+        ],
+        "monetization_hook": {
+            "topic": "Profesní hranice a odolnost",
+            "keywords": [
+                "Nastavování hranic v práci",
+                "Zbavit se people pleasingu",
+                "Finanční nezávislost",
+                "Toxální loajalita"
+            ]
+        }
+    },
+    {
+        "profile_id": "katalysator_versagensangst",
+        "base_type": "Integrační katalyzátor",
+        "fear_mutation": "Strach ze selhání",
+        "name": "Překompenzující zachránce",
+        "headline": "Na každý extra úkol říkáš 'ano', protože máš panický strach, že jinak vypluje na povrch, že jsi podvodník.",
+        "corporate_view": "Ve firmě tě berou jako nejspolehlivější hasičský sbor a ultimátního týmového hráče. Jsi ten, kdo v pátek odpoledne tahá kaštany z ohně. Věta 'To vlastně není moje práce' jako bys ze slovníku úplně vymazal.",
+        "shadow_conflict": "Tvůj oslavovaný syndrom pomáhání je ve skutečnosti jen tlustá maska pro tvůj masivní imposter syndrom. Protože se ve své skutečné roli často cítíš odborně nejistě nebo ne 'dost dobrý', kompenzuješ ten pocit bezbřehou časovou dostupností. Bereš na sebe odpadní úkoly a dokonce i chyby ostatních bez komentáře. Tvoje podvědomá logika zní: 'Když budu pořád milý, dostupný a extrémně nápomocný, snad si nikdo nevšimne, že vlastně nejsem tak kompetentní.' Výsledek: Topíš se v cizí práci a vyhoříš, protože jediné jasné 'ne' pro tebe působí jako nebezpečné přiznání vlastní slabosti.",
+        "action_steps": [
+            "Trénuj taktické 'ne': Nauč se, že ne není útok. Věta 'Rád ti s tím pomůžu, ale můj plán to dovolí až příští čtvrtek' je vysoce profesionální, respektovaná hranice – ne osobní odmítnutí.",
+            "Odděl sympatie od výkonu: Firma tě neplatí za to, že tě mají rádi, ale za hmatatelné výsledky. Když jsou kolegové krátkodobě zklamaní, že za ně neděláš jejich práci, je to jejich problém, ne tvůj.",
+            "Vrať odpovědnost zpět: Nech problémy jiných dospělých lidí tam, kam patří. Když kolega selže ve svém úkolu, absolutně není tvoje práce zachraňovat ho večer potají před šéfem."
+        ],
+        "monetization_hook": {
+            "topic": "Imposter syndrom a time management",
+            "keywords": [
+                "Naučit se říkat ne",
+                "Překonání imposter syndromu",
+                "Syndrom zachránce v práci",
+                "Budování sebevědomí"
+            ]
+        }
+    },
+    {
+        "profile_id": "katalysator_statusverlust",
+        "base_type": "Integrační katalyzátor",
+        "fear_mutation": "Ztráta statusu",
+        "name": "Ublížený mučedník",
+        "headline": "Hraješ dobrou duši kanceláře, ale uvnitř jsi hluboce zahořklý, že ti za to nikdo netleská.",
+        "corporate_view": "Jsi nesporné emocionální centrum oddělení. Znáš úplně všechny drby z chodby i nevyslovené dynamiky. Jsi ten, kdo organizuje týmové akce, pamatuje si narozeniny a po těžkých pádech zvedá kolegy zpátky na nohy u kávy.",
+        "shadow_conflict": "Celou svou pracovní hodnotu odvozuješ téměř výhradně od toho, že tě všichni mají rádi a nutně tě 'potřebují'. Tlačíš se skoro agresivně do role trpícího mučedníka: demonstrativně pracuješ nejdéle, utěšuješ všechny – a uvnitř dostáváš zuřivý záchvat vzteku, když šéf při povyšování nebo bonusové rundě zase upřednostní hlasitého, chladného egoistu. Zásadně si pleteš 'oblíbenost' se skutečným 'vlivem'. Tvoje touha po statusu a uznání je ve skutečnosti obrovská, ale považuješ za morálně závadné nebo nezdvořilé si ten status otevřeně, přímo a tvrdě vyžádat. Proto trpíš potichu.",
+        "action_steps": [
+            "Konec 'office parenting': Okamžitě ukonči roli kancelářského rodiče. Žádné další pečení koláčů, žádná bezplatná terapeutická role na chodbě. Jsi tam proto, abys dělal profesionální byznys, ne abys vychovával nebo rozmazloval dospělé lidi.",
+            "Požaduj moc, ne soucit: Pokud jsi fakticky ten člověk, který drží oddělení pohromadě, pak si oficiálně vyžádej roli teamleada a odpovídající plat. Přestaň se nechat odbýt teplými slovy.",
+            "Zastav pasivní agresi: To, že ostatní tvoji 'tichou obětavost' nevidí nebo ignorují, není jejich zlá vůle. Je to čistě tvůj komunikační problém. Řekni jasně, co děláš a co za to chceš."
+        ],
+        "monetization_hook": {
+            "topic": "Leadership pro empatické lidi",
+            "keywords": [
+                "Empatické vedení",
+                "Vyjednávání o platu",
+                "Ven z role oběti",
+                "Od oblíbeného k respektovanému"
+            ]
+        }
+    },
+    {
+        "profile_id": "katalysator_veraenderungsangst",
+        "base_type": "Integrační katalyzátor",
+        "fear_mutation": "Strach ze změny",
+        "name": "Toxický harmonizátor",
+        "headline": "Držíš pohromadě úplně rozbitý tým, protože tě představa nového začátku budí v noci ze spaní.",
+        "corporate_view": "Ve firmě tě vnímají jako absolutně loajálního mediátora. Držíš organizaci věrně v těžkých krizích, vlnách propouštění i chaotických obdobích. Jsi sedativum firmy: okamžitě uklidníš tým, jakmile se zhorší nálada nebo vypukne panika.",
+        "shadow_conflict": "Jsi hluboko uvězněný v naprosto toxickém pracovním vztahu – a vlastně to víš. Každý den trpíš pod chaotickými, nezdravými strukturami, ale situaci si masivně a systematicky přikrášluješ: 'Vždyť to není tak hrozné,' nebo 'Kolegové mě teď potřebují, přece nemůžu jen tak odejít.' Tvoje extrémní, často chválená empatie se stala tvou největší a nejfatálnější výmluvou, proč nikdy nestisknout tlačítko výpovědi. Nová práce by znamenala jít do chladného, cizího prostředí, kde ještě nemáš svůj sociální status cenného 'zachránce'. Takže zůstáváš na potápějící se lodi, hraješ dál na housle a vědomě jdeš ke dnu s ní.",
+        "action_steps": [
+            "Vytáhni zástrčku: Okamžitě přestaň ten úplně rozbitý a dysfunkční systém uměle udržovat při životě svou empatií a přesčasy. Nech projekt nebo oddělení spadnout. Není to tvoje firma. Nejsi insolvenční správce.",
+            "Znič svou životní lež: Tvoji kolegové přežijí i bez tebe. Každý je nahraditelný. Nejsi zodpovědný za osobní životní štěstí jiných dospělých lidí, ale výhradně za své vlastní.",
+            "Přerámuj změnu práce: Nevnímej změnu práce ufňukaně jako 'ztrátu rodiny', ale jako životně důležitý útěk z toxické sekty. Aktualizuj profil a napiš dnes ještě výpověď."
+        ],
+        "monetization_hook": {
+            "topic": "Odejít z toxického pracoviště a začít znovu",
+            "keywords": [
+                "Toxické pracovní prostředí",
+                "Strach z výpovědi",
+                "Emoční závislost v práci",
+                "Odvaha začít znovu"
+            ]
+        }
+    }
+]

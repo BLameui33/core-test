@@ -1,0 +1,2810 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C.O.R.E. 프로파일링 엔진 | 데이터 기반 커리어 분석</title>
+    <meta name="description" content="C.O.R.E. Index는 당신의 직업에서 작용하는 무의식적인 시스템적·심리적 장벽을 식별합니다. 8분 평가를 시작하세요.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/core-social-share.jpg">
+
+     <link rel="canonical" href="https://www.coreindexanalytics.com/ko/index.html">
+
+    
+<!-- ========================================== -->
+<!-- 1. X-DEFAULT (Standard-Fallback weltweit) -->
+<!-- ========================================== -->
+<link rel="alternate" hreflang="x-default" href="https://www.coreindexanalytics.com/en/index.html">
+
+<!-- ========================================== -->
+<!-- 2. INTERNATIONALE TARGETS (Reine Sprach-Ordner) -->
+<!-- ========================================== -->
+<link rel="alternate" hreflang="de" href="https://www.coreindexanalytics.com/de/index.html">
+<link rel="alternate" hreflang="en" href="https://www.coreindexanalytics.com/en/index.html">
+<link rel="alternate" hreflang="es" href="https://www.coreindexanalytics.com/es/index.html">
+<link rel="alternate" hreflang="fr" href="https://www.coreindexanalytics.com/fr/index.html">
+<link rel="alternate" hreflang="it" href="https://www.coreindexanalytics.com/it/index.html">
+<link rel="alternate" hreflang="nl" href="https://www.coreindexanalytics.com/nl/index.html">
+<link rel="alternate" hreflang="pt" href="https://www.coreindexanalytics.com/pt/index.html">
+<link rel="alternate" hreflang="ar" href="https://www.coreindexanalytics.com/ar/index.html">
+<link rel="alternate" hreflang="sv" href="https://www.coreindexanalytics.com/sv/index.html">
+<link rel="alternate" hreflang="pl" href="https://www.coreindexanalytics.com/pl/index.html">
+<link rel="alternate" hreflang="tr" href="https://www.coreindexanalytics.com/tr/index.html">
+<link rel="alternate" hreflang="ja" href="https://www.coreindexanalytics.com/ja/index.html">
+<link rel="alternate" hreflang="ko" href="https://www.coreindexanalytics.com/ko/index.html">
+<link rel="alternate" hreflang="hi" href="https://www.coreindexanalytics.com/hi/index.html">
+<link rel="alternate" hreflang="da" href="https://www.coreindexanalytics.com/da/index.html">
+<link rel="alternate" hreflang="cs" href="https://www.coreindexanalytics.com/cs/index.html">
+<link rel="alternate" hreflang="no" href="https://www.coreindexanalytics.com/no/index.html">
+<link rel="alternate" hreflang="fi" href="https://www.coreindexanalytics.com/fi/index.html">
+<link rel="alternate" hreflang="id" href="https://www.coreindexanalytics.com/id/index.html">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "C.O.R.E. Index",
+  "url": "https://www.coreindexanalytics.com",
+  "logo": "https://www.coreindexanalytics.com/core-social-share.jpg"
+}
+</script>
+
+
+    <style>/* Index.html / hub-master.html*/
+
+        :root { --text-dark: #0f172a; --text-muted: #64748B; --bg-surface: #FAFAFA; --border-light: #E2E8F0; --accent-red: #c0392b; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif; background: #ffffff; color: var(--text-dark); line-height: 1.6; margin: 0; }
+        
+        /* Header */
+        header { background: rgba(255,255,255,0.95); backdrop-filter: blur(10px); padding: 25px 5%; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border-light); position: sticky; top: 0; z-index: 100; }
+        .logo { color: var(--text-dark); font-weight: 800; font-size: 1.2rem; letter-spacing: 1.5px; text-decoration: none; }
+        nav a { color: var(--text-muted); text-decoration: none; margin-left: 2.5rem; font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; transition: color 0.2s; }
+        nav a:hover, nav a.active { color: var(--text-dark); }
+        
+        .container { max-width: 1000px; margin: 0 auto; padding: 0 5%; }
+        
+        /* Hero Section */
+        .hero { padding: 120px 0 80px 0; text-align: center; border-bottom: 1px solid var(--border-light); background: var(--bg-surface); }
+        .hero h1 { font-size: 4rem; font-weight: 800; margin-bottom: 24px; letter-spacing: -1.5px; line-height: 1.1; }
+        .hero p { font-size: 1.35rem; color: var(--text-muted); margin: 0 auto 50px auto; max-width: 750px; line-height: 1.6; }
+        
+        /* Suchleiste im Hero */
+        .search-wrapper { position: relative; max-width: 700px; margin: 0 auto; }
+        .search-box { width: 100%; padding: 22px 30px; font-size: 1.2rem; border: 1px solid var(--border-light); border-radius: 8px; outline: none; transition: all 0.3s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.03); color: var(--text-dark); }
+        .search-box:focus { border-color: var(--text-dark); box-shadow: 0 15px 40px rgba(0,0,0,0.08); }
+        .search-box::placeholder { color: #94a3b8; }
+        
+        /* Trust Bar */
+        .trust-bar { display: flex; justify-content: center; gap: 40px; margin-top: 40px; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1.5px; color: var(--text-muted); font-weight: 600; }
+        
+        /* Teaser Grid (Methodik) */
+        .teaser-section { padding: 100px 0; border-bottom: 1px solid var(--border-light); }
+        .teaser-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 50px; margin-top: 50px; }
+        .teaser-item h3 { font-size: 1.1rem; border-bottom: 2px solid var(--text-dark); padding-bottom: 15px; margin-bottom: 15px; }
+        .teaser-item p { color: var(--text-muted); font-size: 1.05rem; }
+        
+        /* Verzeichnis Sektion */
+        .directory-section { padding: 100px 0; }
+        
+        /* Cluster & Links */
+        .cluster-title { font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: var(--text-dark); border-bottom: 1px solid var(--border-light); padding-bottom: 15px; margin: 60px 0 30px 0; }
+        .job-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px; }
+        .job-link { display: flex; justify-content: space-between; align-items: center; padding: 16px 0; border-bottom: 1px solid #f1f5f9; text-decoration: none; color: var(--text-dark); transition: all 0.2s; }
+        .job-link:hover { color: var(--accent-red); padding-left: 10px; border-bottom-color: var(--accent-red); }
+        .job-link span.arrow { color: #cbd5e1; font-size: 1.2rem; transition: transform 0.2s; }
+        .job-link:hover span.arrow { transform: translateX(5px); color: var(--accent-red); }
+        
+        .hidden { display: none !important; }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.8rem; }
+            .teaser-grid { grid-template-columns: 1fr; gap: 40px; }
+            .trust-bar { flex-direction: column; gap: 15px; }
+        }
+</style>
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo">C.O.R.E. INDEX</a>
+        <nav>
+            <a href="index.html" class="active">테스트</a>
+            <a href="profile.html">16개 프로필</a>
+            <a href="methodik.html">방법론</a>
+        </nav>
+    </header>
+    
+    <!-- 1. HERO & SUCHE -->
+    <section class="hero">
+        <div class="container">
+            <span style="display: inline-block; border: 1px solid var(--border-light); padding: 6px 16px; border-radius: 50px; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: var(--text-muted); margin-bottom: 30px;">심리측정 프로파일링</span>
+            <h1>커리어 에소테리시즘의 종말.</h1>
+            <p>C.O.R.E. Index는 당신의 직업적 성장을 가로막는 무의식적 갈등을 식별합니다. 당신의 업무 분야를 선택하고 데이터 기반 8분 평가를 시작하세요.</p>
+            
+            <div class="search-wrapper">
+                <input type="text" id="jobSearch" class="search-box" placeholder="당신의 직업을 검색하세요(예: 카피라이터, 의사, 매니저)..." onkeyup="filterJobs()">
+            </div>
+            
+            <div class="trust-bar">
+                <span>✓ O.C.E.A.N. 표준에 따라 검증됨</span>
+                <span>✓ 100% 익명</span>
+                <span>✓ 등록 불필요</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. KURZER METHODIK-TEASER -->
+    <section class="teaser-section">
+        <div class="container">
+            <div style="text-align: center; max-width: 700px; margin: 0 auto;">
+                <h2 style="font-size: 2.2rem; font-weight: 700; margin-bottom: 20px;">동기부여가 아닌 진단.</h2>
+                <p style="font-size: 1.15rem; color: var(--text-muted);">우리는 색상 유형도, 칭찬도 제공하지 않습니다. 시스템적 인과관계를 분석합니다.</p>
+            </div>
+            
+            <div class="teaser-grid">
+                <div class="teaser-item">
+                    <h3>01. 정밀한 데이터</h3>
+                    <p>평가는 현대 심리측정의 과학적 표준인 빅파이브 모델을 기반으로 합니다.</p>
+                </div>
+                <div class="teaser-item">
+                    <h3>02. 그림자</h3>
+                    <p>우리는 당신의 강점만 측정하는 것이 아니라, 당신을 방해하는 존재 불안 또는 실패 불안을 분리해냅니다.</p>
+                </div>
+                <div class="teaser-item">
+                    <h3>03. 결과</h3>
+                    <p>당신은 어디에서 분명한 경계를 설정하거나 협상해야 하는지 객관적으로 보여주는 실행 단계들을 받게 됩니다.</p>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="methodik.html" style="color: var(--text-dark); font-weight: 600; text-transform: uppercase; letter-spacing: 1px; text-decoration: none; border-bottom: 1px solid var(--text-dark); padding-bottom: 2px;">전체 방법론 읽기 &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. DAS VERZEICHNIS -->
+    <section class="directory-section" id="directory">
+        <div class="container">
+            <h2 style="font-size: 2.5rem; font-weight: 800; margin-bottom: 10px;">직업 디렉터리.</h2>
+            <p style="color: var(--text-muted); font-size: 1.15rem; margin-bottom: 40px;">목록에서 당신의 구체적인 프로필을 선택하세요.</p>
+            
+            <div id="cluster-container">
+                                
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">기술 & IT</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-softwareentwickler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">소프트웨어 개발자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-systemadministrator.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">시스템 관리자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-data-analyst.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">데이터 분석가</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-data-scientist.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">데이터 사이언티스트</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-it-support-mitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">IT 지원 담당자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-devops-engineer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">DevOps 엔지니어</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-ux-ui-designer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">UX/UI 디자이너</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-frontend-entwickler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">프론트엔드 개발자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-backend-entwickler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">백엔드 개발자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-full-stack-entwickler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">풀스택 개발자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-netzwerkadministrator.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">네트워크 관리자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-data-engineer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">데이터 엔지니어</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-cloud-architekt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">클라우드 아키텍트</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-datenbankadministrator.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">데이터베이스 관리자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-it-sicherheitsexperte.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">IT 보안 전문가</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-digitaler-produktmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">디지털 제품 관리자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-scrum-master.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">스크럼 마스터</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">사무 & 경영</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-projektmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">프로젝트 매니저</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-geschaeftsfuehrer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">대표이사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-office-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">오피스 매니저</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-personalreferent.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">인사담당자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-buchhalter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">회계담당자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-teamleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">팀장</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-controller.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">컨트롤러</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-interner-revisor.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">내부 감사인</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-change-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">체인지 매니저</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-geschaeftsstellenleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">사무소장</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-abteilungsleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">부서장</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-personalentwickler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">인재개발 담당자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-lohn-und-gehaltsbuchhalter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">급여 회계 담당자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-sachbearbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">실무 담당자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-vertragsmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">계약 관리자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-strategieberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">전략 컨설턴트</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-verwaltungsleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">행정 책임자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">교육 & 사회</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-erzieher.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">보육교사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-lehrer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">교사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-sozialarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">사회복지사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-sonderpaedagoge.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">특수교사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-schulbegleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">학교보조인력</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-heilerziehungspfleger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">장애인 지원사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-hochschullehrer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">대학 교수</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-berufsschullehrer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">직업학교 교사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-sozialpaedagoge.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">사회교육사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-erwachsenenbildner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">성인교육자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-schulsozialarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">학교사회복지사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-tagespflegeperson.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">가정어린이집 돌봄 제공자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-streetworker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">거리상담사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-suchtberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">중독 상담사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-familienberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">가족 상담사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-inklusionshelfer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">통합 지원 도우미</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">교육 & 사회복지</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-kindheitspaedagoge.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">유아교육 전문가</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bildungsreferent.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">교육 담당자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-nachhilfelehrer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">과외 교사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-berufsberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">진로 상담사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-heilpaedagoge.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">치료교육사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-heimleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">시설장</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-heimerzieher.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">생활지도교사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-behindertenbetreuer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">장애인 돌봄사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-jugendamtsmitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">청소년복지국 직원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-gebaerdensprachdolmetscher.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">수어 통역사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-schulleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">교장</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">영업 & 세일즈</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-key-account-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Key Account Manager</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-vertriebsmitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">영업 담당자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-account-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Account Manager</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-sales-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">세일즈 매니저</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-vertriebsleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">영업 이사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-aussendienstmitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">영업 사원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-business-development-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">비즈니스 개발 매니저</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-verkaeufer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">판매원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-vertriebsinnendienst-mitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">영업 내근 담당자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-call-center-agent.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">콜센터 상담원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-handelsvertreter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">영업 대리인</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-pharmareferent.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">제약 영업 담당자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-kundenberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">고객 상담원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-einzelhandelskaufmann.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">소매 판매원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-grosshandelskaufmann.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">도매 판매원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-exportmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">수출 관리자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-category-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">카테고리 매니저</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-vertriebsingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">영업 엔지니어</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-franchise-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">프랜차이즈 매니저</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-e-commerce-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">이커머스 매니저</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-vertriebscontroller.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">영업 컨트롤러</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-direktvertriebsmitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">직접판매 영업사원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-automobilverkaeufer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">자동차 판매사원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-verkaufsleiter-einzelhandel.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">소매 영업팀장</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-vertriebstrainer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">영업 트레이너</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-merchandiser.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">머천다이저</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-tankstellenfachkraft.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">주유소 근무자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">기술직 & 건설</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-elektriker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">전기 기술자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-tischler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">목공 기술자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">수공업 & 건설</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-maler-und-lackierer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">도장공 및 도장기술자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-maurer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">미장공</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-installateur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">설비공</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-dachdecker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">지붕공</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-zimmerer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">목수</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">보건 & 돌봄</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-krankenpfleger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">간호사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-altenpfleger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">요양보호사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-physiotherapeut.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">물리치료사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-medizinischer-fachangestellter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">의료보조사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-ergotherapeut.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">작업치료사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-hebamme.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">조산사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-rettungssanitaeter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">응급구조사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">외식 & 호텔</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-koch.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">요리사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-servicekraft.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">서비스 직원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-hotelfachmann.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">호텔리어</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-barkeeper.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">바텐더</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-restaurantleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">레스토랑 매니저</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-konditor.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">제과사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-rezeptionist.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">리셉션 직원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">물류 & 운송</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-lagerist.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">창고 관리자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-lkw-fahrer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">트럭 운전사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-speditionskaufmann.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">운송주선사 사무원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-disponent.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">배차 담당자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-paketzusteller.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">택배 배송기사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-logistikmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">물류 관리자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-staplerfahrer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">지게차 운전사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-busfahrer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">버스 운전사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-taxifahrer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">택시 운전사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-lokfuehrer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">기관사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-fluglotse.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">항공 관제사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-flugbegleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">항공 승무원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-pilot.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">조종사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-kapitaen.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">선장</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-hafenarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">항만 노동자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-supply-chain-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">공급망 관리자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-fuhrparkmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">차량 관리 매니저</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-kurierfahrer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">택배 기사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-zollabwickler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">통관 담당자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-verkehrsplaner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">교통 계획자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-moebelpacker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">가구 운반 인부</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-zugbegleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">열차 승무원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-schiffsingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">선박 기관사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-hafenlotse.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">항만 도선사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-frachtkoordinator.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">화물 코디네이터</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-verkehrsmeister.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">운행 관리자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-zugabfertiger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">열차 발차 담당자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">재무 & 법률</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-steuerberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">세무사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-rechtsanwalt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">변호사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-wirtschaftspruefer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">회계감사인</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-versicherungskaufmann.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">보험 설계사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bankkaufmann.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">은행원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-notar.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">공증인</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-finanzberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">재무 상담사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-investmentbanker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">투자은행가</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-aktuar.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">계리사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-kreditanalyst.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">신용분석가</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-rechtsanwaltsfachangestellter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">법률사무원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-richter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">판사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-staatsanwalt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">검사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-gerichtsvollzieher.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">집행관</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-compliance-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">컴플라이언스 매니저</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-fondsmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">펀드매니저</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-finanzbuchhalter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">재무회계 담당자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-risikomanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">리스크 매니저</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-schadenregulierer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">손해사정사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-patentanwalt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">특허변호사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-mediator.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">조정자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-versicherungsmakler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">보험중개인</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-steuerfachangestellter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">세무사무원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-insolvenzverwalter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">파산관재인</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-rentenberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">연금상담사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-treuhaender.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">신탁관리인</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-vermoegensverwalter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">자산운용사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">미디어 & 크리에이티브 산업</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-grafikdesigner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">그래픽 디자이너</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-redakteur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">편집자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-social-media-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">소셜 미디어 매니저</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-fotograf.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">사진작가</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-texter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">카피라이터</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-marketing-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">마케팅 매니저</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-webdesigner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">웹 디자이너</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-online-marketing-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">온라인 마케팅 매니저</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-journalist.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">저널리스트</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-videoeditor.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">비디오 에디터</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-regisseur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">감독</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-drehbuchautor.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">시나리오 작가</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-pr-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">PR 매니저</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-uebersetzer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">번역가</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-lektor.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">레터러</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-motion-designer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">모션 디자이너</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-game-designer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">게임 디자이너</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-rundfunkmoderator.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">방송 진행자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-verlagskaufmann.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">출판사 경영/영업 담당자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-brand-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">브랜드 매니저</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-content-creator.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">콘텐츠 크리에이터</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-illustrator.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">일러스트레이터</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-comiczeichner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">만화가</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-synchronsprecher.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">성우</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-podcast-produzent.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">팟캐스트 프로듀서</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-community-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">커뮤니티 매니저</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-drohnenpilot.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">드론 파일럿</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Tech & IT</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-machine-learning-ingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">머신러닝 엔지니어</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-mobile-app-entwickler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">모바일 앱 개발자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-it-projektleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">IT 프로젝트 리더</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-softwaretester.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">소프트웨어 테스터</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-erp-berater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">ERP 컨설턴트</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-solution-architect.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">솔루션 아키텍트</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-embedded-systems-entwickler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">임베디드 시스템 개발자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-it-auditor.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">IT 감사자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-datenschutzbeauftragter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">개인정보보호책임자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-site-reliability-engineer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">사이트 신뢰성 엔지니어</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">사무 & 관리</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-assistenz-der-geschaeftsfuehrung.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">경영진 비서</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-sekretaer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">비서</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-personalleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">인사팀장</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-recruiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">채용담당자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-unternehmensberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">경영컨설턴트</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-qualitaetsmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">품질관리자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-prozessmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">프로세스 관리자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-einkaeufer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">구매담당자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-verwaltungsfachangestellter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">행정사무직</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-buerokaufmann.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">사무원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">건설 & 공사</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-fliesenleger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">타일 시공자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-estrichleger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">바닥 미장공</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-geruestbauer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">비계공</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-strassenbauer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">도로 공사 기술자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-steinmetz.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">석공</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-glaser.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">유리 시공자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-schornsteinfeger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">굴뚝 청소원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bauleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">현장소장</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-polier.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">반장</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-betonbauer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">콘크리트 시공자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Handwerk & Bau</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-trockenbauer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">건식벽체 시공자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-metallbauer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">금속가공 시공자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-klempner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">배관공</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-stuckateur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">미장공</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bodenleger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">바닥 시공자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-isolierer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">단열공</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-brunnenbauer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">우물 시공자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bauschlosser.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">건축 금속공</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-tiefbaufacharbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">토목 현장 작업자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-rohrleitungsbauer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">배관 배관공</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">보건 및 돌봄</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-allgemeinmediziner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">일반의</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-facharzt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">전문의</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-zahnarzt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">치과의사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-apotheker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">약사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-pharmazeutisch-technischer-assistent.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">약국기술보조원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-logopaede.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">언어치료사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-psychotherapeut.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">정신치료사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-psychologe.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">심리학자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-diaetassistent.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">영양사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-pflegehelfer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">요양보조원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">보건 & 간호</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-medizinischer-dokumentationsassistent.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">의료 문서화 보조원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-zahnmedizinischer-fachangestellter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">치과 의료 보조원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-medizinisch-technischer-radiologieassistent.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">의료기술 방사선 보조원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-heilpraktiker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">자연요법사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-augenoptiker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">안경사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-hoerakustiker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">청각보조기기 전문가</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-orthopaedietechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">정형보조기술사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-pflegedienstleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">방문간호 책임자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-operationstechnischer-assistent.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">수술실 보조원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-tierarzt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">수의사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">외식 & 호텔업</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-baecker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">제빵사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-sommelier.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">소믈리에</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-hotelmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">호텔 매니저</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-kuechenchef.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">주방장</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-catering-mitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">케이터링 직원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-housekeeping-mitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">하우스키핑 직원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-barista.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">바리스타</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-systemgastronomie-mitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">패스트푸드/체인 외식 직원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-tourismuskaufmann.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">여행사 직원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-reiseleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">여행 인솔자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-eventmanager-hotellerie.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">이벤트 매니저 호텔업</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-restaurantfachmann.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">레스토랑 서비스 직원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-animateur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">애니메이터</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-diaetkoch.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">다이어트 조리사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-wellnessmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">웰니스 매니저</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-nachtportier.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">야간 포터</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bankettleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">연회 책임자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-gaestebetreuer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">고객 응대 담당자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-kreuzfahrtberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">크루즈 상담사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-kantinenleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">구내식당 책임자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">농업 & 환경</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-landwirt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">농부</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-winzer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">와인 생산자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-gaertner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">정원사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-forstwirt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">임업 노동자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-tierwirt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">축산업자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-fischwirt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">어업 종사자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-agraringenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">농업 엔지니어</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-umweltschutztechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">환경보호 기술자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-landschaftsgaertner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">조경 정원사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-imker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">양봉가</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-agrarwissenschaftler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">농업과학자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-forstingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">산림공학자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-naturschutzwart.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">자연보호 담당자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-recyclingfachkraft.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">재활용 작업자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-wasserwirtschaftler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">수자원 관리 전문가</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-gartenbauingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">원예공학자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-tierpfleger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">동물 돌봄사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-pflanzentechnologe.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">식물기술자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-umweltberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">환경 컨설턴트</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-klimaschutzmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">기후보호 관리자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">과학 & 연구</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-physiker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">물리학자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-chemiker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">화학자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-biologe.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">생물학자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-mathematiker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">수학자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-geologe.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">지질학자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-astronom.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">천문학자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-forschungswissenschaftler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">연구과학자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-laborant.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">실험실 기술자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-biotechnologe.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">생명공학자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-pharmaforscher.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">제약 연구자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-meteorologe.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">기상학자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-statistiker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">통계학자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-historiker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">역사학자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-archaeologe.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">고고학자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-soziologe.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">사회학자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-politikwissenschaftler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">정치학자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-geograf.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">지리학자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-materialwissenschaftler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">재료과학자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-genetiker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">유전학자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-wissenschaftsjournalist.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">과학 저널리스트</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">안전 및 공공 서비스</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-polizist.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">경찰관</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-feuerwehrmann.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">소방관</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-soldat.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">군인</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-sicherheitsmitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">보안요원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-detektiv.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">탐정</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-zollbeamter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">세관 공무원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-justizvollzugsbeamter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">교정 공무원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-rettungsschwimmer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">구조요원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-verwaltungsbeamter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">행정 공무원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-diplomat.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">외교관</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-standesbeamter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">호적공무원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-mitarbeiter-im-ordnungsamt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">질서행정과 직원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-nachrichtendienstmitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">정보기관 직원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bewaehrungshelfer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">보호관찰관</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-fachkraft-fuer-arbeitssicherheit.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">산업안전 담당자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">예술 및 문화</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-schauspieler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">배우</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-musiker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">음악가</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-taenzer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">무용수</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bildender-kuenstler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">시각예술가</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bildhauer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">조각가</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">예술 & 문화</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-kurator.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">큐레이터</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-museumspaedagoge.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">박물관 교육자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bibliothekar.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">사서</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-archivar.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">기록관리사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-dirigent.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">지휘자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-komponist.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">작곡가</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-tontechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">음향 엔지니어</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-buehnenbildner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">무대미술가</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-kostuembildner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">의상 디자이너</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-maskenbildner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">분장사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-tanzpaedagoge.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">무용 교육자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-kunsthistoriker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">미술사학자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-veranstaltungstechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">행사 기술자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-veranstaltungsmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">행사 매니저</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-schriftsteller.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">작가</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">안전 & 공공 서비스</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-brandschutzbeauftragter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">소방안전책임자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-personenschuetzer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">경호원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-katastrophenschutzhelfer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">재난구호요원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bademeister.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">수영장 안전요원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-luftsicherheitsassistent.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">항공보안요원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">공학 & 기술</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-maschinenbauingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">기계공학 엔지니어</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-elektroingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">전기공학 엔지니어</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bauingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">토목공학 엔지니어</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-wirtschaftsingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">산업공학 엔지니어</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-verfahrenstechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">공정기술 엔지니어</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-fahrzeugtechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">차량기술자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-luft-und-raumfahrtingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">항공우주 엔지니어</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-mechatroniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">메카트로닉스 기술자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-konstrukteur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">설계 엔지니어</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-qualitaetsingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">품질 엔지니어</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-produktionsingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">생산 엔지니어</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-energietechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">에너지 기술자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-umweltingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">환경 엔지니어</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-robotikingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">로보틱스 엔지니어</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-vermessungsingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">측량 엔지니어</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-werkstoffingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">재료 엔지니어</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-schiffbauingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">조선 엔지니어</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-industriedesigner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">산업 디자이너</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-automatisierungstechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">자동화 기술자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bauphysiker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">건축물리 엔지니어</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">생산 & 제조</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-industriemechaniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">산업기계정비사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-werkzeugmechaniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">공구제작정비사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-schweisser.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">용접사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-zerspanungsmechaniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">절삭가공정비사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-fertigungsmitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">생산직 근로자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-qualitaetspruefer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">품질검사원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-maschinenbediener.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">기계조작원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-fleischer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">정육사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-lebensmitteltechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">식품기술자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-textiltechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">섬유기술자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-schuhmacher.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">구두수선공</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-mediengestalter-druck.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">인쇄 매체 디자이너</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-verpackungsmittelmechaniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">포장기계 정비사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-montagemitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">조립 작업자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-feinmechaniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">정밀기계공</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-glasblaeser.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">유리세공사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-goldschmied.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">금세공사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-polsterer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">가구장식사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-anlagenmechaniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">설비기계공</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-chemikant.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">화학공정기사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">에너지 & 공급</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-elektrotechniker-energieversorgung.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">전력공급 전기기술자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-kraftwerksoperator.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">발전소 운전원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-netzmonteur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">배전망 설치·정비 기사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-windenergieanlagenmechatroniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">풍력발전설비 메카트로닉스 기술자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-solartechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">태양광 기술자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-versorgungstechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">설비공급 기술자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-energieberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">에너지 컨설턴트</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-klimatechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">냉난방공조 기술자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-fernwaermetechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">지역난방 기술자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bioenergieanlagenbetreiber.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">바이오에너지 설비 운영자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">에너지 & 공공서비스</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-netzplaner-energie.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">전력망 기획자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-stadtwerke-mitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">공공유틸리티 직원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-entsorgungsfachkraft.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">폐기물 처리 전문가</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-klaerwerksmitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">하수처리장 직원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-messtechniker-energie.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">에너지 계측 기술자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-energiemanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">에너지 관리자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-glasfasertechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">광섬유 기술자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-schaltanlagenbauer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">배전반 제작자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-wassermeister.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">상수도 책임자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-strahlenschutzbeauftragter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">방사선 방호 책임자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">청소 & 시설 관리</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-gebaeudereiniger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">건물 청소원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-hausmeister.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">관리인</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-facility-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">시설 관리자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-gebaeudetechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">건물 기술자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-schaedlingsbekaempfer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">해충 방제사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-reinigungskraft-industrie.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">산업 청소원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-glas-und-fassadenreiniger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">유리 및 외벽 청소원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-winterdienst-mitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">제설·제빙 작업자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-hygienefachkraft.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">위생 전문가</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-aufzugsmonteur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">엘리베이터 정비사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">청소 및 시설 관리</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-alarmanlagen-installateur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">경보 시스템 설치기사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-hausverwalter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">건물 관리자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-concierge.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">콘시어지</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-reinigungsmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">청소 관리자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-raumausstatter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">실내장식 시공자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-reinraumtechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">클린룸 기술자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-parkhaus-mitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">주차장 직원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-klimaanlagen-wartungstechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">에어컨 유지보수 기술자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-gruenflaechenpfleger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">녹지 관리원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-schliessdienst-mitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">출입 통제 직원</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">대인 서비스</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-friseur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">미용사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-kosmetiker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">피부미용사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-visagist.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">메이크업 아티스트</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-taetowierer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">타투이스트</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-nageldesigner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">네일 디자이너</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-masseur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">마사지사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-personal-trainer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">퍼스널 트레이너</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-yogalehrer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">요가 강사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-stylist.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">스타일리스트</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bestatter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">장의사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">개인 서비스</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-tierfriseur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">반려동물 미용사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-haushaltshilfe.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">가사도우미</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-kinderbetreuer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">아동 돌봄 종사자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-hochzeitsplaner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">웨딩 플래너</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-eheberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">부부 상담사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-fusspfleger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">발 관리사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-ernaehrungsberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">영양 상담사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-lebensberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">라이프 코치</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-haustierbetreuer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">반려동물 돌봄사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-umzugshelfer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">이삿짐 도우미</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">부동산 & 건축</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-architekt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">건축가</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-innenarchitekt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">실내건축가</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-immobilienmakler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">부동산 중개인</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-immobilienverwalter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">부동산 관리자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bauzeichner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">건축 도면 작성자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-stadtplaner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">도시계획가</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-landschaftsarchitekt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">조경건축가</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bausachverstaendiger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">건축 감정인</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-immobiliengutachter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">부동산 감정평가사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-immobilienkaufmann.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">부동산 실무자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-projektentwickler-immobilien.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">부동산 프로젝트 개발자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-vermessungstechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">측량 기술자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-denkmalpfleger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">문화재 보존 담당자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-baufinanzierungsberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">주택금융 상담사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-generalunternehmer-bau.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">종합 시공사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bautraeger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">시행사</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-lichtplaner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">조명 설계자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-tga-planer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">설비 설계자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-brandschutzplaner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">방재 설계자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-statiker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">구조기술자</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+            </div>
+            
+            <div id="no-results" class="hidden" style="text-align: center; padding: 80px 0; color: #64748B; font-size: 1.2rem;">
+                직접 일치하는 결과가 없습니다. 상위 개념을 시도해 보세요.
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer style="padding: 60px 5%; text-align: center; border-top: 1px solid var(--border-light); font-size: 0.85rem; color: var(--text-muted); background: var(--bg-surface);">
+        <p>© 2026 C.O.R.E. Index</p>
+        <div style="margin-top: 15px;">
+            <a href="impressum.html" style="color: inherit; text-decoration: none; margin: 0 15px; text-transform: uppercase; letter-spacing: 1px; font-weight: 600;">법적 고지</a>
+            <a href="datenschutz.html" style="color: inherit; text-decoration: none; margin: 0 15px; text-transform: uppercase; letter-spacing: 1px; font-weight: 600;">개인정보처리방침</a>
+            <a href="methodik.html" style="color: inherit; text-decoration: none; margin: 0 15px; text-transform: uppercase; letter-spacing: 1px; font-weight: 600;">방법론</a>
+        </div>
+    </footer>
+
+    <!-- LIVE SEARCH SCRIPT (Erweitert mit Smooth Scroll) -->
+        <!-- LIVE SEARCH SCRIPT (Repariert ohne hartes Springen) -->
+    <script>
+        function filterJobs() {
+            const input = document.getElementById('jobSearch').value.toLowerCase();
+            const clusters = document.querySelectorAll('#cluster-container > div');
+            let hasVisibleJobs = false;
+
+            clusters.forEach(cluster => {
+                const clusterName = cluster.querySelector('h2').innerText.toLowerCase();
+                const jobs = cluster.querySelectorAll('a');
+                let clusterHasMatch = false;
+
+                jobs.forEach(job => {
+                    const jobName = job.innerText.toLowerCase();
+                    if (jobName.includes(input) || clusterName.includes(input)) {
+                        job.style.display = 'flex';
+                        clusterHasMatch = true;
+                        hasVisibleJobs = true;
+                    } else {
+                        job.style.display = 'none';
+                    }
+                });
+
+                cluster.style.display = clusterHasMatch ? 'block' : 'none';
+            });
+
+            document.getElementById('no-results').classList.toggle('hidden', hasVisibleJobs || clusters.length === 0);
+        }
+    </script>
+</body>
+</html>

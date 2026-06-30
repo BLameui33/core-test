@@ -1,0 +1,370 @@
+[
+    {
+        "profile_id": "pionier_existenzangst",
+        "base_type": "De Strategische Pionier",
+        "fear_mutation": "Existentiële angst",
+        "name": "De gecompromitteerde pionier",
+        "headline": "Je hebt briljante ideeën, maar je hebt je verkocht voor het smartengeld aan het einde van de maand.",
+        "corporate_view": "Binnen het bedrijf word je gezien als een visionaire denker die veel verder kijkt dan de eigen afdeling. Men waardeert je omdat je inefficiënties meteen ziet, het grote geheel begrijpt en theoretisch het potentieel hebt om vastgeroeste businessmodellen radicaal opnieuw uit te vinden. Voor het management ben je een waardevol bezit, omdat je feilloos de vinger op de zere plek legt en strategische blinde vlekken blootlegt.",
+        "shadow_conflict": "Je hebt je geschikt naar het systeem — en precies dat maakt je elke dag een beetje kapot vanbinnen. Je ziet messcherp hoe het bedrijf met open ogen op de muur afstevent, of hoe absurd en dom de bestaande processen zijn. Maar je zwijgt in de beslissende meetings. Waarom? Omdat de angst voor je vaste lasten, de volgende afbetaling, je levensstandaard en de schijnveiligheid van je arbeidscontract veel groter is dan je echte drang naar innovatie. Je draait innerlijk alleen nog maar op de automatische piloot, terwijl je brein gemaakt is voor disruptie en echte verandering. Deze gouden kooi die je zelf hebt gebouwd, maakt je steeds cynischer, verbitterder en rooft je creatieve levensenergie.",
+        "action_steps": [
+            "Snijd de emotionele opbrengst af: stop met waardevolle mentale energie steken in een systeem dat je ideeën toch niet uitvoert. Doe je werk goed en professioneel, maar trek je emotionele betrokkenheid er consequent uit. Het bedrijf is niet je familie, het is je huidige geldschieter.",
+            "Bouw je 'Fuck-You-Money' op: verlaag tijdelijk je levensstandaard en bouw agressief een financiële buffer op. Pas als je realistisch 6 maanden zonder dit salaris kunt overleven, schakelt je brein de paniek uit en durf je weer echte risico's te nemen en je mening te geven.",
+            "Kanaal je disruptie: gebruik je opgekropte, ongebruikte creativiteit voor een geheime side business. Alternatief: bereid je exit voor en solliciteer bij sterk groeigerichte startups of scale-ups die precies die onverzadigbare honger naar innovatie belonen in plaats van verstikken."
+        ],
+        "monetization_hook": {
+            "topic": "Naast je baan ondernemen & financiële onafhankelijkheid",
+            "keywords": [
+                "Fuck You Money",
+                "Side Hustle",
+                "Financiële vrijheid",
+                "Naast je baan zelfstandig"
+            ]
+        }
+    },
+    {
+        "profile_id": "pionier_versagensangst",
+        "base_type": "De Strategische Pionier",
+        "fear_mutation": "Faalangst",
+        "name": "De geblokkeerde pionier",
+        "headline": "Je plant de revolutie in de la, omdat je doodsbang bent voor de realiteit.",
+        "corporate_view": "Binnen het bedrijf kent men je als een extreem diepgravende analist en architect. Je levert nooit halfbakken concepten af. Collega's bewonderen hoe je nieuwe strategieën, producten of processen tot in het allerlaatste detail doorrekent voordat ze het daglicht zien. Je bent de garantie voor intellectuele diepgang en waterdichte plannen.",
+        "shadow_conflict": "Je imposter-syndroom heeft je volledig in de wurggreep. Op je harde schijf liggen honderden half afgemaakte concepten, briljante ideeën en visies te sluimeren — maar je drukt nooit op 'Launch'. Je praat jezelf en anderen aan dat het product of idee 'gewoon nog niet perfect' is. De brute waarheid is anders: je bent doodsbang dat je idee in de realiteit faalt, door critici wordt afgemaakt en dat men je uiteindelijk ontmaskert als bedrieger. Je veelgeprezen perfectionisme is geen kwaliteitscontrole meer, maar je slimste smoes om nooit echt risico te hoeven nemen. Je verschuilt je achter de planning.",
+        "action_steps": [
+            "Voer het 80%-paradigma in: dwing jezelf tot de ongemakkelijke waarheid: 'Done is better than perfect'. Publiceer, verstuur of presenteer je volgende idee bewust in een onafgemaakte staat. Leer het ongemak van onvolmaaktheid verdragen.",
+            "Ontkoppel je eigenwaarde: scheid je persoonlijke waarde strikt van je werk. Als een concept van jou faalt, betekent dat niet dat jij als mens een mislukkeling bent. Het betekent alleen dat een zakelijke hypothese in de markt of in het team is getest en weerlegd.",
+            "Vind je tegenpool: zoek een pragmatische uitvoeringspartner (een 'Executor'). Je hebt iemand naast je nodig die je ideeën genadeloos en snel de wereld in duwt en op de knop drukt terwijl jij nog vastzit in je kringetje van zelftwijfel."
+        ],
+        "monetization_hook": {
+            "topic": "Imposter-syndroom verslaan & executiestrategieën",
+            "keywords": [
+                "Imposter Syndroom",
+                "Lean Startup",
+                "Perfectionisme loslaten",
+                "Projecten afronden"
+            ]
+        }
+    },
+    {
+        "profile_id": "pionier_statusverlust",
+        "base_type": "De Strategische Pionier",
+        "fear_mutation": "Statusverlies",
+        "name": "De geënsceneerde pionier",
+        "headline": "Je vindt het heerlijk om als creatieve rebel gevierd te worden — zolang je bedrijfswagen maar niet in gevaar komt.",
+        "corporate_view": "In een professionele context kom je over als een extreem charismatische denker die teams, afdelingen en stakeholders moeiteloos mee kan krijgen. Men bewondert je zeldzame gave om complexe, droge innovaties te verpakken in spannende visies en ze uitstekend omhoog te verkopen aan het topmanagement. Je bent het stralende uithangbord van vooruitgang.",
+        "shadow_conflict": "Je bent een meester geworden in zelfvertoning. Je praat luid en graag over 'New Work', wendbaarheid, disruptie en platte hiërarchieën. Jij bent degene die de vurige, inspirerende speeches houdt in de townhall-meetings. Maar zodra het erop aankomt — zodra je voor een echte overtuiging je eigen positie, budget of reputatie bij de directie op het spel zou moeten zetten — krimp je in elkaar. Je valt meteen terug in het politieke spel van de oude hiërarchieën. Je vermeende rebellie is vaak niet meer dan slim berekende PR voor jezelf. Diep vanbinnen ben je het meest bang om status te verliezen en te verdwijnen in de grijze onbeduidendheid van het middenmanagement.",
+        "action_steps": [
+            "Werk in de schaduw: stop met innovatie gebruiken als puur middel voor je ego en zichtbaarheid. Dwing jezelf om een belangrijk project uit te voeren dat het bedrijf enorm helpt, maar waarvoor je officieel geen credit, geen podium en geen lof krijgt.",
+            "Omarm het conflict: verlaat je politieke comfortzone. Echte verandering betekent altijd dat je privileges aanvalt en vijanden maakt. Accepteer dat je als echte pionier niet ieders lieveling kunt zijn, ook niet van de directie of je collega's.",
+            "De ego-check: stel jezelf vóór elk nieuw plan de harde, eerlijke vraag: gaat het je hier echt om de zaak en vooruitgang — of poets je nu alleen de keywords voor je LinkedIn-profiel op?"
+        ],
+        "monetization_hook": {
+            "topic": "Authentiek leiderschap & ego-management",
+            "keywords": [
+                "Ego is the Enemy",
+                "Authentic Leadership",
+                "Servant Leadership",
+                "Statusangst"
+            ]
+        }
+    },
+    {
+        "profile_id": "pionier_veraenderungsangst",
+        "base_type": "De Strategische Pionier",
+        "fear_mutation": "Veranderingsangst",
+        "name": "De gefrustreerde dromer",
+        "headline": "Je klaagt elke dag over de bureaucratische hel — maar ironisch genoeg ben je veel te comfortabel om weg te gaan.",
+        "corporate_view": "Binnen het systeem kent men je als een betrouwbare, al is het kritische, ideeënbron. Je kent de zwakke plekken, de flessenhalzen en de historische fouten van het systeem uit je hoofd en kunt ze scherp benoemen. Iedereen weet: als je wilt weten waarom een proces vastloopt, moet je bij jou zijn.",
+        "shadow_conflict": "Je bent de luidste en meest welbespraakte criticus in de koffiehoek. Je lijdt eerlijk en zichtbaar onder de Excel-hel, de eindeloze goedkeuringsrondes en de starre regels van je bedrijf. Je standaardzin is: 'Eigenlijk zou je dit hele zooitje hier moeten afbreken en helemaal opnieuw bouwen.' Maar diep vanbinnen ben je doodsbang om je comfortabele, extreem voorspelbare routines los te laten. Je constante geklaag is paradoxaal genoeg je veiligste comfortzone geworden. Een echte reset bij een ander bedrijf zou namelijk betekenen dat je je beschermde status verliest en ineens weer keihard moet bewijzen hoe goed je in de praktijk echt bent.",
+        "action_steps": [
+            "Het 30-dagenultimatum: zet vandaag een harde deadline. Of je hebt over precies 30 dagen je cv bijgewerkt en de eerste sollicitatie verstuurd, of je verliest vanaf vandaag het morele recht om ooit nog te klagen over je baan of je baas. Accepteren of weggaan.",
+            "Train microveranderingen: train de verslapte spier van verandering in het klein. Breek bewust je dagelijkse triviale routines open (andere route naar werk, andere tools, andere pauzetijden) om je brein minder bang te maken voor controleverlies.",
+            "Dood de nostalgie: stop met het verleden van het bedrijf romantiseren ('vroeger was hier alles wendbaarder'). Accepteer de kille realiteit: het systeem gaat zich niet meer voor jou veranderen. Jij bent degene die moet bewegen."
+        ],
+        "monetization_hook": {
+            "topic": "Besluitvorming & radicale carrièreswitch",
+            "keywords": [
+                "Beslissingen nemen",
+                "Comfortzone verlaten",
+                "Carrièreswitch wagen",
+                "Loopbaanverandering"
+            ]
+        }
+    },
+    {
+        "profile_id": "executor_existenzangst",
+        "base_type": "De Pragmatische Executor",
+        "fear_mutation": "Existentiële angst",
+        "name": "De gedresseerde doener",
+        "headline": "Je zou de boel in je eentje kunnen omgooien, maar je bijt op je tong omdat je dat salarisstrookje nodig hebt.",
+        "corporate_view": "Voor het bedrijf ben je een absolute werkpaard en een extreem betrouwbare pijler in de operationele dagelijkse praktijk. Jij bent degene die vage, wereldvreemde instructies van het management omzet in harde, meetbare resultaten en ervoor zorgt dat de cijfers aan het einde van het kwartaal op koers blijven.",
+        "shadow_conflict": "Je kookt vanbinnen elke dag van woede. Je ziet de flagrante inefficiëntie, verdraagt de domme, praktijkvreemde beslissingen van het management en sleept collega's mee die gewoon niet leveren. Eigenlijk schreeuwt elk instinct in je om hard in te grijpen, tabula rasa te maken en de tafel leeg te vegen. Maar je doet het niet. Je voortdurende, kloppende angst voor de jaarbonus, de lopende hypotheek of je hoge levensstandaard dwingt je in onderwerping. Je slikt je instinctieve pragmatisme in, doet tandenknarsend de meest zinloze taken mee en verandert daarbij langzaam maar zeker in een afgestompte, verbitterde cynicus.",
+        "action_steps": [
+            "Zet de gouden val uit: verlaag direct je vaste lasten. Je financiële afhankelijkheid is de enige reden waarom je deze incompetentie van boven nog pikt. Vrijheid begint op je bankrekening, niet in je hoofd.",
+            "Emotionele de-investering: stop met je emotioneel vastbijten in projecten als je niet de bevoegdheid hebt om ze echt te sturen. Lever precies af waarvoor je betaald wordt en schakel daarna mentaal volledig uit.",
+            "Verander het speelveld: jij hoort in een puur performance-gedreven omgeving (bijv. sales, interim management of een eigen bedrijf). Zoek een omgeving zonder kantoorpraat, waar jouw meedogenloze pragmatisme direct wordt omgezet in geld en meetbaar succes."
+        ],
+        "monetization_hook": {
+            "topic": "Stoïcisme op het werk & performance-carrières",
+            "keywords": [
+                "Stoïcisme",
+                "Interim Management",
+                "Provisiemodellen",
+                "Emotionele afstand op het werk"
+            ]
+        }
+    },
+    {
+        "profile_id": "executor_versagensangst",
+        "base_type": "De Pragmatische Executor",
+        "fear_mutation": "Faalangst",
+        "name": "De tirannieke doener",
+        "headline": "Je trekt alle taken naar je toe omdat je anderen niet vertrouwt — en verbrandt in je eigen micromanagement.",
+        "corporate_view": "Binnen het bedrijf word je gezien als een extreem daadkrachtige leider. Je neemt zonder aarzelen de volledige verantwoordelijkheid voor kritieke projecten, gaat voorop en jaagt het team ogenschijnlijk onvermoeibaar naar topprestaties. Als het brandt, bellen ze jou.",
+        "shadow_conflict": "Je vermomt je blinde paniek voor controleverlies handig als 'efficiëntie' en 'kwaliteitsnorm'. Diep vanbinnen ben je voortdurend bang dat er iets misgaat en dat het op jou terugvalt. Daarom delegeer je nooit echt. Je geeft taken wel uit handen, maar bent uiteindelijk de bottleneck van je eigen succes, omdat je aan het einde van de dag toch elke e-mail, presentatie en elk document om 23:00 uur 's nachts nog eens zelf corrigeert. Je praat jezelf aan dat je team incompetent is, maar de giftige waarheid is: je geeft ze niet eens de ruimte om zelfstandig te werken en fouten te maken, omdat JIJ trilt voor de gevolgen van een fout.",
+        "action_steps": [
+            "De 80%-regel als wet: accepteer eindelijk: een taak die door een medewerker voor 80% zo goed wordt gedaan als door jou, is geen kwaliteitsverlies — het is een enorme winst voor je eigen, beperkte levensduur.",
+            "Gecontroleerde pijn toelaten: laat bewust en opzettelijk een klein, onbelangrijk project tegen de muur lopen of tolereer een zichtbare fout in je team. Je moet ervaren dat de wereld daar niet van instort.",
+            "Architect in plaats van vakman: verander je identiteit. Je bent niet langer de beste 'uitvoerder'. Je bent nu een 'systeemarchitect'. Jouw taak is robuuste processen bouwen die ook werken als jij niet in de ruimte bent."
+        ],
+        "monetization_hook": {
+            "topic": "Effectief delegeren & systematiseren",
+            "keywords": [
+                "Leren delegeren",
+                "Micromanagement loslaten",
+                "Leiderschapsvaardigheden",
+                "Systemen bouwen"
+            ]
+        }
+    },
+    {
+        "profile_id": "executor_statusverlust",
+        "base_type": "De Pragmatische Executor",
+        "fear_mutation": "Statusverlies",
+        "name": "De territoriale doener",
+        "headline": "Je verwart leidinggeven met domineren, omdat je doodsbang bent om in de rangorde naar beneden te zakken.",
+        "corporate_view": "Men ziet je in de organisatie als een uiterst competitieve alfaspeler die altijd wil winnen en meestal ook wint. Je verdedigt marktaandeel, wint de zwaarste onderhandelingen en verdedigt de belangen en budgetten van je eigen afdeling naar buiten toe extreem hard en compromisloos.",
+        "shadow_conflict": "Je ego is je grootste en gevaarlijkste blinde vlek. Je meet je persoonlijke waarde uitsluitend aan de hoogte van je budget, je functietitel en aan wie in de beslissende meeting het laatste woord heeft. Je walst andere collega's verbaal plat en kaapt de successen van het team. Niet omdat dat het beste zou zijn voor de zaak of het bedrijf, maar omdat je onvoorstelbaar veel, constante angst hebt dat een andere, jongere of luidere alpha je voorbijstreeft. Je omgeving respecteert je wel voor je hardheid en je resultaten, maar achter je rug bestaat geen echte loyaliteit. Eigenlijk wacht daar iedereen alleen maar tot je ooit struikelt.",
+        "action_steps": [
+            "Samenwerking in plaats van oorlog: stop met vechten tegen je eigen team of andere afdelingen. Echte, zelfverzekerde kracht zit niet in anderen klein houden, maar in capabele mensen naast je dulden en ze zelfs laten groeien.",
+            "Radicale luistertraining: dwing jezelf in de volgende belangrijke meeting om drie minuten lang absoluut niemand in de rede te vallen, geen spier te vertrekken en geen eigen oplossing te geven. Verdraag de stilte en laat anderen schitteren.",
+            "Reflecteer op schaalbaarheid: leiden via angst en dominantie werkt op korte termijn en levert snelle cijfers op. Leiden via diep respect en psychologische veiligheid is echter het enige dat op lange termijn schaalt en burn-outs voorkomt."
+        ],
+        "monetization_hook": {
+            "topic": "Modern leiderschap & machtsdynamiek",
+            "keywords": [
+                "Machtsspelletjes op kantoor",
+                "Servant Leadership",
+                "Emotionele intelligentie voor leidinggevenden",
+                "Ego is the enemy"
+            ]
+        }
+    },
+    {
+        "profile_id": "executor_veraenderungsangst",
+        "base_type": "De Pragmatische Executor",
+        "fear_mutation": "Veranderingsangst",
+        "name": "De koppige doener",
+        "headline": "Je verdedigt je oude methodes met hand en tand, omdat je bang bent om in het nieuwe weer een beginner te zijn.",
+        "corporate_view": "Jij bent de rots in de branding. Je bezit onschatbare, diepe ervaringskennis over de operationele processen en weet als een van de weinigen nog precies hoe en waarom de kern van het bedrijf al jaren winstgevend draait. Als het systeem wankelt, ben jij het betrouwbare anker.",
+        "shadow_conflict": "Je bent de onbetwiste meester van je huidige tools, Excel-lijsten en processen. Niemand maakt je iets wijs, je krijgt dingen blind en sneller voor elkaar dan wie dan ook. Maar zodra nieuwe methodes — zoals kunstmatige intelligentie, agile frameworks of nieuwe cloudsoftware — ter sprake komen, ga je massaal in de verdediging. Je doet dat in meetings luidkeels af als 'moderne onzin' die 'in de praktijk bij ons toch nooit werkt'. De bittere waarheid achter die arrogantie: je bent gewoon doodsbang om je hard verdiende expertstatus van de ene op de andere dag te verliezen en voor jongere collega's weer als een domme beginner vanaf nul te moeten beginnen.",
+        "action_steps": [
+            "De realiteitscheck: accepteer de harde realiteit van de markt: wie koppig in het verleden leeft, wordt in de nabije toekomst niet meer betaald. Je huidige, starre proceskennis verliest razendsnel zijn waarde.",
+            "Het geheime laboratorium: blok vanaf nu elke week twee uur vaste tijd in je agenda om gericht een nieuwe, disruptieve tool uit jouw branche te leren. Doe dat desnoods volledig stiekem, totdat je je zeker genoeg voelt om het aan het team te laten zien.",
+            "Reverse mentoring gebruiken: stop met de werkwijze van jonge collega's arrogant af te doen. Maak hen in plaats daarvan je mentoren voor nieuwe technologie en AI. In ruil daarvoor geef jij hen je onbetaalbare strategische branchekennis."
+        ],
+        "monetization_hook": {
+            "topic": "Toekomstvaardigheden & AI in management",
+            "keywords": [
+                "AI voor leidinggevenden",
+                "Change Management",
+                "Reverse Mentoring",
+                "Agile methoden"
+            ]
+        }
+    },
+    {
+        "profile_id": "optimierer_existenzangst",
+        "base_type": "De Structurele Optimalisator",
+        "fear_mutation": "Existentiële angst",
+        "name": "De onzichtbare gevangene",
+        "headline": "Je doet het werk van drie mensen, krijgt betaald als één, en bent te bang om daar iets aan te veranderen.",
+        "corporate_view": "Je bent een extreem loyale en volledig foutloze medewerker. Je vormt het onzichtbare, maar extreem stevige fundament van de afdeling. Jij bent degene op wiens bureau al die ondankbare, kleine achtergrondtaken kunnen worden gelegd, omdat het management precies weet: jij werkt ze zonder klagen, op tijd en perfect af.",
+        "shadow_conflict": "Je zit vast in een volmaakt hamsterwiel. Je weet rationeel heel goed dat je zwaar onderbetaald bent en dat het systeem je goedheid schaamteloos uitbuit. Maar je slikt het in en zwijgt. Je angst voor financiële onzekerheid, voor de stress van een baanwissel of voor het 'risico' van de proeftijd bij een nieuwe werkgever is zo overweldigend dat je liever het bekende, vertrouwde ellende verdraagt. Je geheime overlevingsstrategie: je hoopt vurig dat je baas op een dag 'vanzelf' merkt hoe ongelooflijk waardevol je bent en je uit zichzelf een salarisverhoging aanbiedt. Spoiler: dat gaat nooit gebeuren.",
+        "action_steps": [
+            "Stop met wachten op de 'beloner': in business wordt niet prestatie eerlijk beloond, maar uitsluitend de onderhandelde marktwaarde. Niemand geeft je geld voor stilletjes afwerken. Je moet je waarde actief, bijna zakelijk, opeisen.",
+            "Houd een prestatiedagboek bij: documenteer vanaf nu (minstens een week lang) werkelijk elke taak die buiten je eigen contract valt. Vertaal die taken in gedachten naar concreet bespaarde kosten of voorkomen crises voor het bedrijf. Dat is je onderhandelingsmateriaal.",
+            "Het strategische nee: oefen met 'nee' zeggen in een veilige setting. Als de volgende ongeplande 'kun-je-even'-taak over de schutting wordt gegooid, antwoord dan: 'Doe ik graag, maar dan blijft project X vandaag per se liggen. Jouw prioriteit.'"
+        ],
+        "monetization_hook": {
+            "topic": "Salarisonderhandeling voor introverten",
+            "keywords": [
+                "Salaris onderhandelen als introvert",
+                "Nee leren zeggen",
+                "Grenzen stellen op het werk",
+                "Marktwaarde bepalen"
+            ]
+        }
+    },
+    {
+        "profile_id": "optimierer_versagensangst",
+        "base_type": "De Structurele Optimalisator",
+        "fear_mutation": "Faalangst",
+        "name": "De verlamde perfectionist",
+        "headline": "Je zit om 22:00 uur Excel-cellen te formatteren, omdat je doodsbang bent dat een kleine fout je je baan kost.",
+        "corporate_view": "Je bent de onbetwiste meester van kwaliteitscontrole. Je ziet operationele risico's, logische gaten en complianceproblemen lang voordat ze in de echte wereld schade kunnen aanrichten. Als jij iets overdraagt, weet iedereen in het team: dit is de absolute gold standard.",
+        "shadow_conflict": "Wat van buitenaf lijkt op voorbeeldige ambitie en ijver, is in werkelijkheid een massief psychologisch schild. Je perfectionisme is ziekelijk geworden. Je bent panisch, bijna fysiek bang dat iemand je op een fout kan betrappen en je voor iedereen als incompetent ontmaskerd wordt. Daarom bouw je waterdichte, overdreven protocollen, dek je jezelf liever drie keer in cc-mails af en controleer je stiekem het werk van collega's na in plaats van naar huis te gaan. Dit gedrag rooft je ongelooflijk veel levensenergie. Je brandt vanbinnen op uit pure, ononderbroken angst voor kritiek.",
+        "action_steps": [
+            "Brutale Pareto-regel (80/20): pas deze regel genadeloos toe. Perfectie voorbij de 80%-grens kost je exponentieel meer tijd en zenuwen, maar de harde realiteit is: niemand behalve jij ziet dat marginale verschil. Het boeit het bedrijf niet.",
+            "Fouttolerantie-training: stuur bewust en opzettelijk een interne, onbelangrijke draft naar een collega waarin nog een kleine opmaak- of typefout zit. Kijk wat er gebeurt. Je moet ervaren dat je reputatie daar niet door wordt vernietigd.",
+            "Pragmatisme boven over-engineering: stop met jezelf onaantastbaar willen maken door kunstmatig opgeblazen complexiteit. Een snel en pragmatisch opgelost probleem heeft voor een bedrijf veel meer waarde dan een 100% perfect gedocumenteerd, maar geblokkeerd probleem."
+        ],
+        "monetization_hook": {
+            "topic": "Perfectionisme loslaten & timemanagement",
+            "keywords": [
+                "Pareto Principe",
+                "Imposter Syndroom overwinnen",
+                "Overthinking stoppen",
+                "Angst voor kritiek"
+            ]
+        }
+    },
+    {
+        "profile_id": "optimierer_statusverlust",
+        "base_type": "De Structurele Optimalisator",
+        "fear_mutation": "Statusverlies",
+        "name": "De verbitterde expert",
+        "headline": "Je haat de luidruchtige bluffer die steeds promotie krijgen — maar uit trots weiger je zelf in de schijnwerpers te stappen.",
+        "corporate_view": "Binnen het team ziet men jou als de stille, diepe bron van kennis van het bedrijf. Jij bent de absolute vakexpert waar niemand omheen kan als een onderwerp inhoudelijk echt complex, kritisch of technisch veeleisend wordt. Jij bent het betrouwbare, menselijke archief van de firma.",
+        "shadow_conflict": "Je bent ongelooflijk gefrustreerd en cynisch geworden. Je ziet elke dag hoe mensen die inhoudelijk niet eens een fractie van jouw kennis hebben, de dikke functietitels en salarissen binnenhalen — alleen maar omdat ze beter kunnen praten en de juiste mensen kennen. Je veracht die 'bluffers' diep. Maar je eigen ego zit je enorm in de weg: actieve zelfpromotie vind je 'onprofessioneel', 'goedkoop' of 'slijmerig'. Je praat jezelf aan: 'Echt goed werk spreekt vanzelf.' Maar dat doet het in de echte wereld niet. Je trotse weigering om in elk geval een beetje mee te doen aan het politieke spel van het bedrijf maakt je onzichtbaar — en laat je ter plekke vastlopen.",
+        "action_steps": [
+            "Accepteer de spelregels: Neem afscheid van je naïviteit. In je carrière geldt: perceptie is realiteit. Zichtbaarheid opbouwen is geen 'vuile truc', maar een volkomen legitiem en noodzakelijk deel van je werk.",
+            "De 5-minutenregel: Spreek met jezelf af dat je in elk overleg binnen de eerste 5 minuten het woord neemt — al is het maar een luide, slimme verduidelijkende vraag. Dat zet je auditieve en fysieke aanwezigheid in de ruimte neer.",
+            "Claim je successen: Als je achter de schermen een groot probleem hebt opgelost, sluit je niet stilletjes alleen het ticket. Je stuurt een proactieve mail naar de relevante stakeholders waarin subtiel, maar glashelder wordt gecommuniceerd dat JIJ deze uitval hebt voorkomen."
+        ],
+        "monetization_hook": {
+            "topic": "Zelf-PR & zichtbaarheid voor stille performers",
+            "keywords": [
+                "Zichtbaarheid voor introverten",
+                "Personal branding op het werk",
+                "Bureaupolitiek begrijpen",
+                "Stille mensen, sterke impact"
+            ]
+        }
+    },
+    {
+        "profile_id": "optimierer_veraenderungsangst",
+        "base_type": "De Structurele Optimalisator",
+        "fear_mutation": "Veranderingsangst",
+        "name": "De starre bureaucraat",
+        "headline": "Je verdedigt compleet verouderde regels als een vesting, omdat de chaos van de nieuwe werkwereld je totaal overrompelt.",
+        "corporate_view": "Jij bent op de afdeling de garantie voor orde. Een rots in de branding die er nauwgezet voor zorgt dat bij al die hippe agile transformaties en wilde ideeën van het management het echte kernwerk niet instort. Jij bewaakt de noodzakelijke stabiliteit en compliance.",
+        "shadow_conflict": "Zodra in een meeting de woorden 'agility', 'reorganisatie' of 'nieuwe software-implementatie' vallen, slaat het je letterlijk op de keel. Je houdt van en hebt absolute voorspelbaarheid nodig. In de loop van vele jaren heb je een perfect, veilig nest gebouwd van complexe Excel-macro's, eigen mappenstructuren en vaste routines. Hier ben jij de onbetwiste meester. Als nu alles radicaal verandert, verlies je je totale controle en je status als 'kennisexpert'. Precies daarom blokkeer je noodzakelijke vernieuwingen extreem vaak — meestal slim verpakt onder het onaantastbare mom van 'compliance-zorgen' of 'kwaliteitsborging'. In werkelijkheid ben je gewoon doodsbang om in het nieuwe, dynamische systeem ineens nutteloos te zijn.",
+        "action_steps": [
+            "Van blokkade naar architect: Stop met je als een rotsblok tegen de stroom te verzetten. Je kunt digitalisering niet tegenhouden. Maar je kunt met je structuur-talent degene zijn die de overgang veilig en foutloos organiseert.",
+            "De rol van vertaler: Benoem jezelf proactief tot 'vertaler' tussen het oude en het nieuwe systeem. Je enorme kennis van historische fouten en verborgen valkuilen is goud waard wanneer nieuwe software of een nieuw proces wordt ingevoerd. Gebruik die kennis offensief.",
+            "Leer de chaos verdragen: Verlaat één keer per week bewust je structuur-comfortzone. Doe een taak op een totaal nieuwe, subjectief 'inefficiënte' manier, om je brein te bewijzen dat tijdelijke rommel je niet sloopt en vaak nieuwe mogelijkheden blootlegt."
+        ],
+        "monetization_hook": {
+            "topic": "Veerkracht & change management voor experts",
+            "keywords": [
+                "Change management",
+                "Omgaan met verandering",
+                "Agile werken voor beginners",
+                "Psychologische flexibiliteit"
+            ]
+        }
+    },
+    {
+        "profile_id": "katalysator_existenzangst",
+        "base_type": "De Integratie-Katalysator",
+        "fear_mutation": "Existentiële angst",
+        "name": "De gevangen helper",
+        "headline": "Je offert jezelf op voor de 'bedrijfsfamilie', omdat je panisch bang bent je veilige haven te verliezen.",
+        "corporate_view": "Jij bent de absolute lijm van het team. Jij bent degene die spanningen en conflicten op de gang opvangt voordat ze escaleren. Je neemt vanzelfsprekend de vervelende taken over van overbelaste collega's en zorgt er ondertussen voor dat het verloop en ziekteverzuim in het team laag blijven.",
+        "shadow_conflict": "Je praat jezelf aan en noemt je collega's 'familie'. Maar diep vanbinnen weet je heel goed: dit is een keiharde zakelijke relatie. Je slikt je eigen frustratie, het gebrek aan waardering en de talloze onbetaalde overuren weg, omdat je existentiële angst je volledig verlamt. Je ogenschijnlijk grenzeloze behulpzaamheid is in werkelijkheid je sterkste verdedigingsmechanisme: je maakt jezelf emotioneel en operationeel tot de altijd aanwezige goede ziel, in de hoop dat je bij de volgende ontslagronde of reorganisatie uit pure medelijden zeker niet op de lijst komt. Je koopt je financiële zekerheid met je mentale gezondheid — een verschrikkelijke deal.",
+        "action_steps": [
+            "Activeer de business-mindset: Zie de keiharde realiteit onder ogen: als de cijfers rood zijn, ontslaat het bedrijf je alsnog — hoeveel taarten je ook hebt gebakken. Echte, duurzame zekerheid zit uitsluitend in je vakinhoudelijke marktwaarde, niet in je zelfopoffering.",
+            "Koude ontwenning van over-engagement: Stop direct met emotioneel over-engagement. Doe vanaf vandaag consequent geen taken meer die niet exact in je functieomschrijving staan, alleen maar om anderen 'tevreden' te houden.",
+            "Investeer in jezelf: Neem de enorme energie die je dagelijks steekt in het oplossen van andermans problemen en investeer die meedogenloos in je eigen cv. Maak jezelf inhoudelijk onmisbaar, in plaats van alleen maar menselijk handig."
+        ],
+        "monetization_hook": {
+            "topic": "Professionele grenzen & veerkracht",
+            "keywords": [
+                "Grenzen stellen op het werk",
+                "People pleaser afleren",
+                "Financiële onafhankelijkheid",
+                "Toxische loyaliteit"
+            ]
+        }
+    },
+    {
+        "profile_id": "katalysator_versagensangst",
+        "base_type": "De Integratie-Katalysator",
+        "fear_mutation": "Faalangst",
+        "name": "De overcompenserende redder",
+        "headline": "Je zegt tegen elke extra taak 'ja', omdat je panisch bang bent anders als oplichter door de mand te vallen.",
+        "corporate_view": "Je geldt binnen het bedrijf als de meest betrouwbare brandblusser en als de ultieme teamspeler. Jij bent degene die op vrijdagmiddag de kastanjes uit het vuur haalt. De zin 'Dat is eigenlijk niet mijn werk' lijkt volledig uit je vocabulaire verdwenen.",
+        "shadow_conflict": "Je geprezen helpersyndroom is in werkelijkheid een dikke maskering van je zware imposter-syndroom. Omdat je je in je eigen rol inhoudelijk vaak onzeker of niet 'goed genoeg' voelt, compenseer je dat gevoel met grenzeloze beschikbaarheid in tijd. Je neemt de rotklussen en zelfs de fouten van anderen zonder commentaar op je schouders. Je onderbewuste logica luidt: 'Als ik altijd aardig, beschikbaar en extreem behulpzaam ben, merkt hopelijk niemand dat ik eigenlijk helemaal niet zo competent ben.' Het resultaat: je verzuipt in andermans werk en brandt op, omdat één enkel, duidelijk 'nee' voor jou voelt als een gevaarlijke bekentenis van eigen zwakte.",
+        "action_steps": [
+            "Train het tactische 'nee': Leer dat een nee geen aanval is. De zin 'Ik help je daar graag mee, maar mijn planning laat dat pas volgende week donderdag toe' is een hoogprofessionele, gerespecteerde grens — geen persoonlijke afwijzing.",
+            "Maak onderscheid tussen sympathie en prestatie: Je wordt door het bedrijf niet betaald om 'geliefd' te zijn, maar voor tastbare resultaten. Als collega's op korte termijn teleurgesteld zijn dat jij hun werk niet doet, is dat hun probleem, niet het jouwe.",
+            "Geef de verantwoordelijkheid terug: Laat de problemen van andere volwassen mensen waar ze horen. Als een collega faalt in zijn taak, is het absoluut niet jouw taak om hem 's avonds stiekem voor de baas te redden."
+        ],
+        "monetization_hook": {
+            "topic": "Imposter-syndroom & timemanagement",
+            "keywords": [
+                "Nee leren zeggen",
+                "Imposter-syndroom overwinnen",
+                "Helpersyndroom op het werk",
+                "Zelfvertrouwen opbouwen"
+            ]
+        }
+    },
+    {
+        "profile_id": "katalysator_statusverlust",
+        "base_type": "De Integratie-Katalysator",
+        "fear_mutation": "Statusverlies",
+        "name": "De gekwetste martelaar",
+        "headline": "Je speelt de goede ziel van het kantoor, maar vanbinnen ben je diep verbitterd dat niemand je daarvoor applaudisseert.",
+        "corporate_view": "Jij bent het onbetwiste emotionele centrum van de afdeling. Je kent werkelijk alle roddels op de gang en de onuitgesproken dynamieken. Jij bent degene die teamevents organiseert, verjaardagen onthoudt en collega's na harde tegenslagen weer overeind helpt met een kop koffie.",
+        "shadow_conflict": "Je haalt je volledige professionele eigenwaarde bijna uitsluitend uit het feit dat iedereen je aardig vindt en je dringend 'nodig' heeft. Je dringt jezelf bijna agressief op in de rol van lijdende martelaar: je werkt demonstratief het langst, troost iedereen — en krijgt vanbinnen een razende woedeaanval wanneer de baas bij de promotie- of bonusronde weer de luidruchtige, koele egoïst verkiest. Je verwart fundamenteel 'populariteit' met echte 'invloed'. Je honger naar status en erkenning is eigenlijk enorm, maar je vindt het moreel verwerpelijk of onbeleefd om die status openlijk, direct en keihard voor jezelf op te eisen. Daarom lijd je in stilte.",
+        "action_steps": [
+            "Klaar met 'office parenting': Stop onmiddellijk met je rol als kantoorouder. Geen taarten meer bakken, geen gratis therapeut meer spelen op de gang. Je bent daar om professioneel zaken te doen, niet om volwassen mensen op te voeden of te vertroetelen.",
+            "Eis macht in plaats van medelijden: Als jij feitelijk degene bent die een afdeling bij elkaar houdt, eis dan officieel de teamlead-rol en het bijbehorende salaris op. Stop met je te laten afschepen met warme woorden.",
+            "Stop de passief-agressiviteit: Dat anderen je 'stille opofferingsgezindheid' niet zien of negeren, is niet hun kwade wil. Het is volledig jouw communicatieprobleem. Zeg duidelijk wat je levert en wat je daarvoor wilt."
+        ],
+        "monetization_hook": {
+            "topic": "Leiderschapsvaardigheden voor empathische mensen",
+            "keywords": [
+                "Empathisch leiderschap",
+                "Salarisonderhandeling",
+                "Uit de slachtofferrol",
+                "Van geliefd naar gerespecteerd"
+            ]
+        }
+    },
+    {
+        "profile_id": "katalysator_veraenderungsangst",
+        "base_type": "De Integratie-Katalysator",
+        "fear_mutation": "Veranderingsangst",
+        "name": "De toxische harmoniseerder",
+        "headline": "Je houdt een compleet kapot team bij elkaar, omdat het idee van een nieuwe start je 's nachts wakker houdt.",
+        "corporate_view": "Men ziet jou binnen het bedrijf als een absoluut loyale bemiddelaar. Je blijft de organisatie ook in de zwaarste crises, ontslagrondes en chaosfasen trouw steunen. Jij bent het kalmeringsmiddel van het bedrijf: je stelt het team meteen gerust zodra de sfeer omslaat of paniek uitbreekt.",
+        "shadow_conflict": "Je zit diep vast in een uiterst toxische werkrelatie — en dat weet je eigenlijk ook. Je lijdt elke dag onder de chaotische, ongezonde structuren, maar je praat de situatie massaal en systematisch goed: 'Zo erg is het toch niet', of 'De collega's hebben me nu nodig, ik kan toch niet zomaar weggaan.' Je extreme, vaak geprezen empathie is in werkelijkheid je grootste, meest fatale excuus geworden om vooral nooit op de ontslagknop te hoeven drukken. Een nieuwe baan zou betekenen dat je naar een koude, vreemde omgeving gaat waarin je je sociale status als waardevolle 'redder' nog niet hebt. Dus blijf je op het zinkende schip, speel je verder viool en ga je bewust mee ten onder.",
+        "action_steps": [
+            "Trek de stekker eruit: Stop onmiddellijk met het volledig kapotte en disfunctionele systeem kunstmatig in leven te houden met je empathie en overuren. Laat het project of de afdeling crashen. Het is niet jouw bedrijf. Jij bent niet de curator van een faillissement.",
+            "Verwoest je leugen tegen jezelf: Je collega's zullen ook zonder jou overleven. Iedereen is vervangbaar. Jij bent niet verantwoordelijk voor het persoonlijke levensgeluk van andere volwassen mensen, alleen voor dat van jezelf.",
+            "Herframe de jobwissel: Zie een jobwissel niet huilerig als het 'verlies van je familie', maar als een levensnoodzakelijke vlucht uit een toxische sekte. Werk je profiel bij en schrijf vandaag nog je ontslagbrief."
+        ],
+        "monetization_hook": {
+            "topic": "Toxische werkplekken verlaten & opnieuw beginnen",
+            "keywords": [
+                "Toxische werkomgeving",
+                "Ontslagangst",
+                "Emotionele afhankelijkheid op het werk",
+                "Een nieuwe start wagen"
+            ]
+        }
+    }
+]

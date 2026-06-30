@@ -1,0 +1,2768 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C.O.R.E. Profiling Engine | L'analisi di carriera basata sui dati</title>
+    <meta name="description" content="L'indice C.O.R.E. identifica gli ostacoli sistemici e psicologici inconsci nel tuo lavoro. Inizia la valutazione di 8 minuti.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/core-social-share.jpg">
+
+     <link rel="canonical" href="https://www.coreindexanalytics.com/it/index.html">
+
+    
+<!-- ========================================== -->
+<!-- 1. X-DEFAULT (Fallback standard globale) -->
+<!-- ========================================== -->
+<link rel="alternate" hreflang="x-default" href="https://www.coreindexanalytics.com/en/index.html">
+
+<!-- ========================================== -->
+<!-- 2. TARGET INTERNAZIONALI (Semplici cartelle linguistiche) -->
+<!-- ========================================== -->
+<link rel="alternate" hreflang="de" href="https://www.coreindexanalytics.com/de/index.html">
+<link rel="alternate" hreflang="en" href="https://www.coreindexanalytics.com/en/index.html">
+<link rel="alternate" hreflang="es" href="https://www.coreindexanalytics.com/es/index.html">
+<link rel="alternate" hreflang="fr" href="https://www.coreindexanalytics.com/fr/index.html">
+<link rel="alternate" hreflang="it" href="https://www.coreindexanalytics.com/it/index.html">
+<link rel="alternate" hreflang="nl" href="https://www.coreindexanalytics.com/nl/index.html">
+<link rel="alternate" hreflang="pt" href="https://www.coreindexanalytics.com/pt/index.html">
+<link rel="alternate" hreflang="ar" href="https://www.coreindexanalytics.com/ar/index.html">
+<link rel="alternate" hreflang="sv" href="https://www.coreindexanalytics.com/sv/index.html">
+<link rel="alternate" hreflang="pl" href="https://www.coreindexanalytics.com/pl/index.html">
+<link rel="alternate" hreflang="tr" href="https://www.coreindexanalytics.com/tr/index.html">
+<link rel="alternate" hreflang="ja" href="https://www.coreindexanalytics.com/ja/index.html">
+<link rel="alternate" hreflang="ko" href="https://www.coreindexanalytics.com/ko/index.html">
+<link rel="alternate" hreflang="hi" href="https://www.coreindexanalytics.com/hi/index.html">
+<link rel="alternate" hreflang="da" href="https://www.coreindexanalytics.com/da/index.html">
+<link rel="alternate" hreflang="cs" href="https://www.coreindexanalytics.com/cs/index.html">
+<link rel="alternate" hreflang="no" href="https://www.coreindexanalytics.com/no/index.html">
+<link rel="alternate" hreflang="fi" href="https://www.coreindexanalytics.com/fi/index.html">
+<link rel="alternate" hreflang="id" href="https://www.coreindexanalytics.com/id/index.html">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "C.O.R.E. Index",
+  "url": "https://www.coreindexanalytics.com",
+  "logo": "https://www.coreindexanalytics.com/core-social-share.jpg"
+}
+</script>
+
+
+    <style>/* Index.html / hub-master.html*/
+
+        :root { --text-dark: #0f172a; --text-muted: #64748B; --bg-surface: #FAFAFA; --border-light: #E2E8F0; --accent-red: #c0392b; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif; background: #ffffff; color: var(--text-dark); line-height: 1.6; margin: 0; }
+        
+        /* Header */
+        header { background: rgba(255,255,255,0.95); backdrop-filter: blur(10px); padding: 25px 5%; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border-light); position: sticky; top: 0; z-index: 100; }
+        .logo { color: var(--text-dark); font-weight: 800; font-size: 1.2rem; letter-spacing: 1.5px; text-decoration: none; }
+        nav a { color: var(--text-muted); text-decoration: none; margin-left: 2.5rem; font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; transition: color 0.2s; }
+        nav a:hover, nav a.active { color: var(--text-dark); }
+        
+        .container { max-width: 1000px; margin: 0 auto; padding: 0 5%; }
+        
+        /* Hero Section */
+        .hero { padding: 120px 0 80px 0; text-align: center; border-bottom: 1px solid var(--border-light); background: var(--bg-surface); }
+        .hero h1 { font-size: 4rem; font-weight: 800; margin-bottom: 24px; letter-spacing: -1.5px; line-height: 1.1; }
+        .hero p { font-size: 1.35rem; color: var(--text-muted); margin: 0 auto 50px auto; max-width: 750px; line-height: 1.6; }
+        
+        /* Suchleiste im Hero */
+        .search-wrapper { position: relative; max-width: 700px; margin: 0 auto; }
+        .search-box { width: 100%; padding: 22px 30px; font-size: 1.2rem; border: 1px solid var(--border-light); border-radius: 8px; outline: none; transition: all 0.3s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.03); color: var(--text-dark); }
+        .search-box:focus { border-color: var(--text-dark); box-shadow: 0 15px 40px rgba(0,0,0,0.08); }
+        .search-box::placeholder { color: #94a3b8; }
+        
+        /* Trust Bar */
+        .trust-bar { display: flex; justify-content: center; gap: 40px; margin-top: 40px; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1.5px; color: var(--text-muted); font-weight: 600; }
+        
+        /* Teaser Grid (Methodik) */
+        .teaser-section { padding: 100px 0; border-bottom: 1px solid var(--border-light); }
+        .teaser-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 50px; margin-top: 50px; }
+        .teaser-item h3 { font-size: 1.1rem; border-bottom: 2px solid var(--text-dark); padding-bottom: 15px; margin-bottom: 15px; }
+        .teaser-item p { color: var(--text-muted); font-size: 1.05rem; }
+        
+        /* Verzeichnis Sektion */
+        .directory-section { padding: 100px 0; }
+        
+        /* Cluster & Links */
+        .cluster-title { font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: var(--text-dark); border-bottom: 1px solid var(--border-light); padding-bottom: 15px; margin: 60px 0 30px 0; }
+        .job-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px; }
+        .job-link { display: flex; justify-content: space-between; align-items: center; padding: 16px 0; border-bottom: 1px solid #f1f5f9; text-decoration: none; color: var(--text-dark); transition: all 0.2s; }
+        .job-link:hover { color: var(--accent-red); padding-left: 10px; border-bottom-color: var(--accent-red); }
+        .job-link span.arrow { color: #cbd5e1; font-size: 1.2rem; transition: transform 0.2s; }
+        .job-link:hover span.arrow { transform: translateX(5px); color: var(--accent-red); }
+        
+        .hidden { display: none !important; }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.8rem; }
+            .teaser-grid { grid-template-columns: 1fr; gap: 40px; }
+            .trust-bar { flex-direction: column; gap: 15px; }
+        }
+</style>
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo">C.O.R.E. INDEX</a>
+        <nav>
+            <a href="index.html" class="active">Il test</a>
+            <a href="profile.html">I 16 profili</a>
+            <a href="methodik.html">Metodologia</a>
+        </nav>
+    </header>
+    
+    <!-- 1. HERO & SUCHE -->
+    <section class="hero">
+        <div class="container">
+            <span style="display: inline-block; border: 1px solid var(--border-light); padding: 6px 16px; border-radius: 50px; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: var(--text-muted); margin-bottom: 30px;">Profilazione psicometrica</span>
+            <h1>La fine dell'esoterismo di carriera.</h1>
+            <p>L'indice C.O.R.E. identifica i conflitti inconsci che ti bloccano professionalmente. Scegli il tuo ambito di lavoro e avvia la valutazione basata sui dati di 8 minuti.</p>
+            
+            <div class="search-wrapper">
+                <input type="text" id="jobSearch" class="search-box" placeholder="Cerca la tua professione (ad es. copywriter, medico, manager)..." onkeyup="filterJobs()">
+            </div>
+            
+            <div class="trust-bar">
+                <span>✓ Convalidato secondo lo standard O.C.E.A.N.</span>
+                <span>✓ 100% anonimo</span>
+                <span>✓ Nessuna registrazione</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. KURZER METHODIK-TEASER -->
+    <section class="teaser-section">
+        <div class="container">
+            <div style="text-align: center; max-width: 700px; margin: 0 auto;">
+                <h2 style="font-size: 2.2rem; font-weight: 700; margin-bottom: 20px;">Diagnosi invece di motivazione.</h2>
+                <p style="font-size: 1.15rem; color: var(--text-muted);">Non distribuiamo tipi di colore né complimenti. Analizziamo le causalità sistemiche.</p>
+            </div>
+            
+            <div class="teaser-grid">
+                <div class="teaser-item">
+                    <h3>01. Dati concreti</h3>
+                    <p>La valutazione si basa sul modello Big Five, lo standard scientifico d'oro della psicometria moderna.</p>
+                </div>
+                <div class="teaser-item">
+                    <h3>02. L'ombra</h3>
+                    <p>Non misuriamo solo i tuoi punti di forza, ma isoliamo le paure di esistenza o di fallimento che ti sabotano.</p>
+                </div>
+                <div class="teaser-item">
+                    <h3>03. La conseguenza</h3>
+                    <p>Ricevi passi operativi che ti mostrano in modo concreto dove devi porre limiti chiari o negoziare.</p>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="methodik.html" style="color: var(--text-dark); font-weight: 600; text-transform: uppercase; letter-spacing: 1px; text-decoration: none; border-bottom: 1px solid var(--text-dark); padding-bottom: 2px;">Leggi la metodologia completa &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. DAS VERZEICHNIS -->
+    <section class="directory-section" id="directory">
+        <div class="container">
+            <h2 style="font-size: 2.5rem; font-weight: 800; margin-bottom: 10px;">Elenco delle professioni.</h2>
+            <p style="color: var(--text-muted); font-size: 1.15rem; margin-bottom: 40px;">Seleziona il tuo profilo specifico dall'elenco.</p>
+            
+            <div id="cluster-container">
+                                
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Tech & IT</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-softwareentwickler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Sviluppatore software</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-systemadministrator.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Amministratore di sistema</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-data-analyst.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Analista dati</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-data-scientist.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Data Scientist</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-it-support-mitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Addetto al supporto IT</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-devops-engineer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ingegnere DevOps</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-ux-ui-designer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Designer UX/UI</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-frontend-entwickler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Sviluppatore Frontend</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-backend-entwickler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Sviluppatore Backend</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-full-stack-entwickler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Sviluppatore Full-Stack</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-netzwerkadministrator.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Amministratore di rete</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-data-engineer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Data Engineer</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-cloud-architekt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Architetto Cloud</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-datenbankadministrator.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Amministratore di database</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-it-sicherheitsexperte.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Esperto di sicurezza IT</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-digitaler-produktmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Product Manager digitale</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-scrum-master.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Scrum Master</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-machine-learning-ingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ingegnere di Machine Learning</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-mobile-app-entwickler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Sviluppatore di App Mobile</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-it-projektleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Project Manager IT</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-softwaretester.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tester Software</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-erp-berater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Consulente ERP</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-solution-architect.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Solution Architect</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-embedded-systems-entwickler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Sviluppatore di Sistemi Embedded</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-it-auditor.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">IT Auditor</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-datenschutzbeauftragter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Responsabile della protezione dei dati</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-site-reliability-engineer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Site Reliability Engineer</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Ufficio e management</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-projektmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Project Manager</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-geschaeftsfuehrer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Amministratore delegato</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-office-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Office Manager</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-personalreferent.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Referente HR</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-buchhalter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Contabile</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-teamleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Responsabile di team</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-controller.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Controller</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-assistenz-der-geschaeftsfuehrung.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Assistente della direzione</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-sekretaer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Segretario</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-personalleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Responsabile HR</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-recruiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Recruiter</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-unternehmensberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Consulente aziendale</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-qualitaetsmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Responsabile qualità</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-prozessmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Responsabile di processo</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-einkaeufer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Acquirente</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-verwaltungsfachangestellter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Impiegato amministrativo</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-buerokaufmann.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Impiegato d'ufficio</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-interner-revisor.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Revisore interno</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-change-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Change Manager</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-geschaeftsstellenleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Responsabile di sede</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-abteilungsleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Responsabile di reparto</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-personalentwickler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Responsabile sviluppo del personale</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-lohn-und-gehaltsbuchhalter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Addetto paghe e stipendi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-sachbearbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Impiegato amministrativo</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-vertragsmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Contract manager</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-strategieberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Consulente strategico</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-verwaltungsleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Responsabile amministrativo</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Istruzione e sociale</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-erzieher.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Educatore</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-lehrer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Insegnante</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-sozialarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Assistente sociale</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-sonderpaedagoge.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Docente di sostegno</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-schulbegleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Assistente scolastico</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-heilerziehungspfleger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Educatore socio-sanitario</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-kindheitspaedagoge.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Pedagogista dell'infanzia</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-hochschullehrer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Docente universitario</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-berufsschullehrer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Docente di scuola professionale</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-sozialpaedagoge.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Pedagogista sociale</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-erwachsenenbildner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Formatore per adulti</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-schulsozialarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Assistente sociale scolastico</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-tagespflegeperson.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Educatore/trice familiare diurno/a</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-streetworker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Operatore di strada</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-suchtberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Consulente per le dipendenze</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-familienberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Consulente familiare</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-inklusionshelfer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Assistente all’inclusione</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bildungsreferent.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Referente per la formazione</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-nachhilfelehrer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Insegnante di ripetizioni</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-berufsberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Consulente di orientamento professionale</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-heilpaedagoge.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Pedagogista curativo</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-heimleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Direttore di struttura residenziale</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-heimerzieher.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Educatore in struttura residenziale</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-behindertenbetreuer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Operatore per persone con disabilità</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-jugendamtsmitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Operatore dei servizi sociali per i minori</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-gebaerdensprachdolmetscher.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Interprete di lingua dei segni</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-schulleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Dirigente scolastico</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Vendite e Sales</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-key-account-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Key Account Manager</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-vertriebsmitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Addetto alle vendite</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-account-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Account Manager</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-sales-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Sales Manager</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-vertriebsleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Responsabile vendite</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-aussendienstmitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Addetto alle vendite esterne</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-business-development-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Business Development Manager</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Artigianato e edilizia</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-elektriker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Elettricista</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-tischler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Falegname</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-maler-und-lackierer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Pittore e verniciatore</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-maurer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Muratore</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-installateur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Installatore</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-dachdecker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Lattoniere e copritetto</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-zimmerer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Carpentiere</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-fliesenleger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Posatore di piastrelle</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-estrichleger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Posatore di massetti</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-geruestbauer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Montatore di ponteggi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-strassenbauer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Costruttore stradale</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-steinmetz.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Scalpellino</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-glaser.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Vetraio</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-schornsteinfeger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Spazzacamino</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bauleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Direttore lavori</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-polier.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Capocantiere</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-betonbauer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Cofrattista</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-trockenbauer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Cartongessista</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-metallbauer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Costruttore metallico</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-klempner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Lattoniere</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-stuckateur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Stuccatore</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bodenleger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Posatore di pavimenti</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-isolierer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Isolatore</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-brunnenbauer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Costruttore di pozzi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bauschlosser.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Fabbro edile</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-tiefbaufacharbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Operaio specializzato in lavori di scavo</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-rohrleitungsbauer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Costruttore di tubazioni</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Salute e assistenza</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-krankenpfleger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Infermiere</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-altenpfleger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Operatore socio-sanitario per anziani</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-physiotherapeut.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Fisioterapista</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-medizinischer-fachangestellter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Assistente medico</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-ergotherapeut.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Terapista occupazionale</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-allgemeinmediziner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Medico di medicina generale</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-facharzt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Medico specialista</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-zahnarzt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Dentista</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-apotheker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Farmacista</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-pharmazeutisch-technischer-assistent.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Assistente tecnico di farmacia</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-logopaede.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Logopedista</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-psychotherapeut.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Psicoterapeuta</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-psychologe.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Psicologo</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-diaetassistent.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Assistente dietetico</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-pflegehelfer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Assistente di cura</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-medizinischer-dokumentationsassistent.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Assistente alla documentazione medica</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-zahnmedizinischer-fachangestellter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Assistente di studio odontoiatrico</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-medizinisch-technischer-radiologieassistent.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Assistente tecnico di radiologia medica</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-heilpraktiker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Naturopata</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-augenoptiker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ottico-optometrista</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-hoerakustiker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Audioprotesista</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-orthopaedietechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tecnico ortopedico</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-pflegedienstleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Responsabile del servizio di assistenza</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-operationstechnischer-assistent.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Assistente tecnico di sala operatoria</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-tierarzt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Veterinario</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Sanità e assistenza</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-hebamme.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ostetrica</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-rettungssanitaeter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Soccorritore sanitario</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Ristorazione e hotellerie</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-koch.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Cuoco</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-servicekraft.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Cameriere</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-hotelfachmann.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Addetto alberghiero</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-barkeeper.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Barista</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-restaurantleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Responsabile di ristorante</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-konditor.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Pasticcere</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-rezeptionist.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Receptionist</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Logistica e trasporti</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-lagerist.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Magazziniere</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-lkw-fahrer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Autista di camion</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-speditionskaufmann.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Impiegato di spedizione</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-disponent.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Pianificatore logistico</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-paketzusteller.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Corriere pacchi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-logistikmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Responsabile logistico</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-staplerfahrer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Carrellista</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-busfahrer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Autista di autobus</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-taxifahrer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Autista di taxi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-lokfuehrer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Macchinista</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-fluglotse.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Controllore del traffico aereo</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-flugbegleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Assistente di volo</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-pilot.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Pilota</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-kapitaen.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Comandante</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-hafenarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Operaio portuale</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-supply-chain-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Responsabile supply chain</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-fuhrparkmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Responsabile flotta</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-kurierfahrer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Corriere</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-zollabwickler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Addetto allo sdoganamento</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-verkehrsplaner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Pianificatore dei trasporti</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-moebelpacker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Facchino di mobili</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-zugbegleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Capotreno</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-schiffsingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ingegnere di bordo</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-hafenlotse.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Pilota portuale</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-frachtkoordinator.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Coordinatore delle merci</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-verkehrsmeister.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Capo esercizio</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-zugabfertiger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Addetto all’avviamento treni</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Finanza e diritto</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-steuerberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Consulente fiscale</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-rechtsanwalt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Avvocato</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-wirtschaftspruefer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Revisore contabile</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-versicherungskaufmann.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Impiegato assicurativo</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bankkaufmann.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Impiegato bancario</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-notar.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Notaio</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-finanzberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Consulente finanziario</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-investmentbanker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Investment banker</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-aktuar.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Attuario</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-kreditanalyst.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Analista del credito</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-rechtsanwaltsfachangestellter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Assistente legale</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-richter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Giudice</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-staatsanwalt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Pubblico ministero</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-gerichtsvollzieher.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ufficiale giudiziario</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-compliance-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Compliance manager</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-fondsmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Gestore di fondi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-finanzbuchhalter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Contabile</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-risikomanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Risk manager</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-schadenregulierer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Liquidatore sinistri</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-patentanwalt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Avvocato brevettuale</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-mediator.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Mediatore</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-versicherungsmakler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Broker assicurativo</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-steuerfachangestellter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Impiegato fiscale</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-insolvenzverwalter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Curatore fallimentare</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-rentenberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Consulente pensionistico</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-treuhaender.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Fiduciario</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-vermoegensverwalter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Gestore patrimoniale</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Media e industria creativa</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-grafikdesigner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Grafico</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-redakteur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Redattore</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-social-media-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Social media manager</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-fotograf.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Fotografo</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-texter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Copywriter</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-marketing-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Marketing Manager</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-webdesigner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Web designer</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-online-marketing-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Responsabile di Online Marketing</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-journalist.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Giornalista</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-videoeditor.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Video editor</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-regisseur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Regista</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-drehbuchautor.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Sceneggiatore</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-pr-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Responsabile PR</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-uebersetzer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Traduttore</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-lektor.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Editor</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-motion-designer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Motion Designer</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-game-designer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Game Designer</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-rundfunkmoderator.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Conduttore radiofonico</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-verlagskaufmann.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Impiegato editoriale</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-brand-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Brand Manager</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-content-creator.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Content Creator</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-illustrator.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Illustratore</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-comiczeichner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Disegnatore di fumetti</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-synchronsprecher.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Doppiatore</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-podcast-produzent.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Produttore di podcast</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-community-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Community Manager</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-drohnenpilot.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Pilota di droni</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Vendite & Sales</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-verkaeufer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Venditore</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-vertriebsinnendienst-mitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Addetto al back office vendite</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-call-center-agent.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Operatore call center</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-handelsvertreter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Agente di commercio</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-pharmareferent.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Informatori scientifico del farmaco</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-kundenberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Consulente clienti</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-einzelhandelskaufmann.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Commesso di negozio</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-grosshandelskaufmann.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Impiegato commerciale all’ingrosso</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-exportmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Export manager</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-category-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Category Manager</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-vertriebsingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ingegnere commerciale</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-franchise-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Franchise Manager</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-e-commerce-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">E-Commerce Manager</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-vertriebscontroller.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Controllore vendite</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-direktvertriebsmitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Addetto alla vendita diretta</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-automobilverkaeufer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Venditore auto</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-verkaufsleiter-einzelhandel.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Responsabile vendite retail</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-vertriebstrainer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Formatore vendite</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-merchandiser.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Merchandiser</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-tankstellenfachkraft.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Addetto stazione di servizio</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Gastronomia e ospitalità</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-baecker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Panettiere</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-sommelier.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Sommelier</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-hotelmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Hotelmanager</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-kuechenchef.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Chef di cucina</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-catering-mitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Addetto catering</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-housekeeping-mitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Addetto housekeeping</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-barista.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Barista</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-systemgastronomie-mitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Addetto alla ristorazione di catena</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-tourismuskaufmann.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Impiegato nel turismo</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-reiseleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Accompagnatore turistico</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Gastronomia & Hotellerie</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-eventmanager-hotellerie.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Responsabile eventi in hotellerie</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-restaurantfachmann.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Addetto di sala</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-animateur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Animatore</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-diaetkoch.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Cuoco dietetico</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-wellnessmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Responsabile wellness</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-nachtportier.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Portiere notturno</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bankettleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Responsabile banchetti</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-gaestebetreuer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Addetto all’accoglienza ospiti</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-kreuzfahrtberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Consulente crociere</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-kantinenleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Responsabile mensa</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Agricoltura e ambiente</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-landwirt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Agricoltore</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-winzer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Viticoltore</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-gaertner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Giardiniere</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-forstwirt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Operaio forestale</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-tierwirt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Allevatore</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-fischwirt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Pescicoltore</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-agraringenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ingegnere agrario</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-umweltschutztechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tecnico della protezione ambientale</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-landschaftsgaertner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Giardiniere paesaggista</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-imker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Apicoltore</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Agricoltura & ambiente</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-agrarwissenschaftler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Agronomo</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-forstingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ingegnere forestale</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-naturschutzwart.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Guardia ambientale</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-recyclingfachkraft.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Operatore del riciclo</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-wasserwirtschaftler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Idraulico ambientale</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-gartenbauingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ingegnere orticolo</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-tierpfleger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Addetto alla cura degli animali</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-pflanzentechnologe.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tecnologo delle piante</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-umweltberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Consulente ambientale</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-klimaschutzmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Responsabile clima</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Scienza e ricerca</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-physiker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Fisico</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-chemiker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Chimico</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-biologe.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Biologo</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-mathematiker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Matematico</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-geologe.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Geologo</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-astronom.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Astronomo</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-forschungswissenschaftler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Scienziato della ricerca</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-laborant.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tecnico di laboratorio</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-biotechnologe.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Biotecnologo</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-pharmaforscher.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ricercatore farmaceutico</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-meteorologe.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Meteorologo</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-statistiker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Statistico</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-historiker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Storico</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-archaeologe.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Archeologo</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-soziologe.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Sociologo</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-politikwissenschaftler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Scienziato politico</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-geograf.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Geografo</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-materialwissenschaftler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Scienziato dei materiali</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-genetiker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Genetista</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-wissenschaftsjournalist.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Giornalista scientifico</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Sicurezza e servizio pubblico</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-polizist.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Poliziotto</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-feuerwehrmann.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Vigile del fuoco</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-soldat.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Soldato</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-sicherheitsmitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Addetto alla sicurezza</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-detektiv.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Investigatore privato</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-zollbeamter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Funzionario doganale</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-justizvollzugsbeamter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Agente di polizia penitenziaria</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-rettungsschwimmer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Bagnino</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-verwaltungsbeamter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Funzionario amministrativo</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-diplomat.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Diplomatico</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-standesbeamter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ufficiale di stato civile</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-mitarbeiter-im-ordnungsamt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Dipendente dell'ufficio di polizia amministrativa</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-nachrichtendienstmitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Operatore dei servizi segreti</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bewaehrungshelfer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Assistente alla probatione</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-fachkraft-fuer-arbeitssicherheit.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tecnico della sicurezza sul lavoro</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Arte e cultura</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-schauspieler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Attore</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-musiker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Musicista</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-taenzer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ballerino</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bildender-kuenstler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Artista visivo</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bildhauer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Scultore</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-kurator.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Curatore</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-museumspaedagoge.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Pedagogo museale</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bibliothekar.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Bibliotecario</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-archivar.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Archivista</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-dirigent.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Direttore d’orchestra</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-komponist.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Compositore</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-tontechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tecnico del suono</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-buehnenbildner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Scenografo</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-kostuembildner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Costumista</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-maskenbildner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Truccatore</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-tanzpaedagoge.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Insegnante di danza</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-kunsthistoriker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Storico dell’arte</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-veranstaltungstechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tecnico di eventi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-veranstaltungsmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Responsabile eventi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-schriftsteller.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Scrittore</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Sicurezza e pubblica amministrazione</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-brandschutzbeauftragter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Responsabile antincendio</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-personenschuetzer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Addetto alla protezione personale</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-katastrophenschutzhelfer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Volontario della protezione civile</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bademeister.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Bagnino</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-luftsicherheitsassistent.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Assistente alla sicurezza aeroportuale</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Ingegneria e tecnologia</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-maschinenbauingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ingegnere meccanico</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-elektroingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ingegnere elettrico</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bauingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ingegnere civile</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-wirtschaftsingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ingegnere gestionale</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-verfahrenstechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tecnologo di processo</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-fahrzeugtechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tecnico automobilistico</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-luft-und-raumfahrtingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ingegnere aerospaziale</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-mechatroniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Meccatronico</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-konstrukteur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Progettista</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-qualitaetsingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ingegnere della qualità</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-produktionsingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ingegnere di produzione</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-energietechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tecnico energetico</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-umweltingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ingegnere ambientale</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-robotikingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ingegnere robotico</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-vermessungsingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ingegnere topografo</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-werkstoffingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ingegnere dei materiali</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-schiffbauingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ingegnere navale</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-industriedesigner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Designer industriale</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-automatisierungstechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tecnico dell’automazione</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bauphysiker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Fisico edile</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Produzione e fabbricazione</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-industriemechaniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Meccanico industriale</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-werkzeugmechaniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Meccanico di attrezzi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-schweisser.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Saldatore</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-zerspanungsmechaniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Meccanico di lavorazioni meccaniche</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-fertigungsmitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Addetto alla produzione</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-qualitaetspruefer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Addetto al controllo qualità</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-maschinenbediener.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Operatore di macchina</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-fleischer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Macellaio</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-lebensmitteltechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tecnologo alimentare</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-textiltechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tecnologo tessile</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Produzione e manifattura</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-schuhmacher.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Calzolaio</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-mediengestalter-druck.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Grafico per la stampa</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-verpackungsmittelmechaniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Meccanico di materiali per imballaggio</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-montagemitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Addetto al montaggio</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-feinmechaniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Meccanico di precisione</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-glasblaeser.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Vetraio soffiatore</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-goldschmied.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Orafo</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-polsterer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tappezziere</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-anlagenmechaniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Meccanico di impianti</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-chemikant.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Operatore chimico</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Energia e approvvigionamento</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-elektrotechniker-energieversorgung.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Elettrotecnico per l'approvvigionamento energetico</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-kraftwerksoperator.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Operatore di centrale elettrica</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-netzmonteur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Montatore di rete</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-windenergieanlagenmechatroniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Meccatronico di impianti eolici</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-solartechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tecnico solare</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-versorgungstechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tecnico dei servizi di approvvigionamento</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-energieberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Consulente energetico</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-klimatechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tecnico della climatizzazione</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-fernwaermetechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tecnico del teleriscaldamento</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bioenergieanlagenbetreiber.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Gestore di impianti a bioenergia</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-netzplaner-energie.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Pianificatore di rete energia</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-stadtwerke-mitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Dipendente delle municipalizzate</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-entsorgungsfachkraft.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Addetto allo smaltimento</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-klaerwerksmitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Operatore di depuratore</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-messtechniker-energie.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tecnico di misura energia</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-energiemanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Energy manager</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-glasfasertechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tecnico fibra ottica</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-schaltanlagenbauer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Costruttore di quadri elettrici</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-wassermeister.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Maestro dell’acqua</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-strahlenschutzbeauftragter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Responsabile della radioprotezione</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Pulizie e facility management</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-gebaeudereiniger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Addetto alle pulizie</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-hausmeister.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Custode</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-facility-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Facility Manager</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-gebaeudetechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tecnico di edificio</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-schaedlingsbekaempfer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Disinfestatore</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-reinigungskraft-industrie.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Addetto alle pulizie industriali</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-glas-und-fassadenreiniger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Addetto alla pulizia di vetri e facciate</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-winterdienst-mitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Addetto allo sgombero neve</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-hygienefachkraft.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Specialista in igiene</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-aufzugsmonteur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Montatore di ascensori</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Pulizia e Facility Management</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-alarmanlagen-installateur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Installatore di impianti d'allarme</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-hausverwalter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Amministratore di condominio</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-concierge.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Concierge</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-reinigungsmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Responsabile delle pulizie</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-raumausstatter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Arredatore d'interni</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-reinraumtechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tecnico di camera bianca</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-parkhaus-mitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Addetto al parcheggio multipiano</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-klimaanlagen-wartungstechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tecnico di manutenzione impianti di climatizzazione</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-gruenflaechenpfleger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Addetto alla manutenzione del verde</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-schliessdienst-mitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Addetto al servizio di chiusura</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Servizi alla persona</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-friseur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Parrucchiere</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-kosmetiker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Estetista</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-visagist.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Make-up artist</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-taetowierer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tatuatore</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-nageldesigner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Nail designer</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-masseur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Massaggiatore</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-personal-trainer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Personal trainer</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-yogalehrer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Insegnante di yoga</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-stylist.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Stylist</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bestatter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Impresa funebre</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-tierfriseur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Toelettatore per animali</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-haushaltshilfe.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Addetta alle pulizie domestiche</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-kinderbetreuer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Educatore per l’infanzia</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-hochzeitsplaner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Wedding planner</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-eheberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Consulente di coppia</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-fusspfleger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Podologo estetico</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-ernaehrungsberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Consulente nutrizionale</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-lebensberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Consulente di vita</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-haustierbetreuer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Pet sitter</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-umzugshelfer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Facchino per traslochi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Immobiliare e architettura</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-architekt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Architetto</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-innenarchitekt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Architetto d’interni</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-immobilienmakler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Agente immobiliare</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-immobilienverwalter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Amministratore immobiliare</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bauzeichner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Disegnatore edile</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-stadtplaner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Urbanista</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-landschaftsarchitekt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Architetto paesaggista</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bausachverstaendiger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Perito edile</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-immobiliengutachter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Valutatore immobiliare</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-immobilienkaufmann.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Impiegato immobiliare</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-projektentwickler-immobilien.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Sviluppatore immobiliare</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-vermessungstechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tecnico topografo</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-denkmalpfleger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Conservatore dei beni culturali</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-baufinanzierungsberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Consulente di finanziamento edilizio</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-generalunternehmer-bau.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">General contractor edile</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bautraeger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Sviluppatore immobiliare per conto proprio</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-lichtplaner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Progettista illuminotecnico</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-tga-planer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Progettista impianti</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-brandschutzplaner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Progettista antincendio</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-statiker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ingegnere strutturista</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+            </div>
+            
+            <div id="no-results" class="hidden" style="text-align: center; padding: 80px 0; color: #64748B; font-size: 1.2rem;">
+                Nessuna corrispondenza diretta. Prova un termine più generale.
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer style="padding: 60px 5%; text-align: center; border-top: 1px solid var(--border-light); font-size: 0.85rem; color: var(--text-muted); background: var(--bg-surface);">
+        <p>© 2026 C.O.R.E. Index</p>
+        <div style="margin-top: 15px;">
+            <a href="impressum.html" style="color: inherit; text-decoration: none; margin: 0 15px; text-transform: uppercase; letter-spacing: 1px; font-weight: 600;">Note legali</a>
+            <a href="datenschutz.html" style="color: inherit; text-decoration: none; margin: 0 15px; text-transform: uppercase; letter-spacing: 1px; font-weight: 600;">Privacy</a>
+            <a href="methodik.html" style="color: inherit; text-decoration: none; margin: 0 15px; text-transform: uppercase; letter-spacing: 1px; font-weight: 600;">Metodologia</a>
+        </div>
+    </footer>
+
+    <!-- LIVE SEARCH SCRIPT (Erweitert mit Smooth Scroll) -->
+        <!-- LIVE SEARCH SCRIPT (Repariert ohne hartes Springen) -->
+    <script>
+        function filterJobs() {
+            const input = document.getElementById('jobSearch').value.toLowerCase();
+            const clusters = document.querySelectorAll('#cluster-container > div');
+            let hasVisibleJobs = false;
+
+            clusters.forEach(cluster => {
+                const clusterName = cluster.querySelector('h2').innerText.toLowerCase();
+                const jobs = cluster.querySelectorAll('a');
+                let clusterHasMatch = false;
+
+                jobs.forEach(job => {
+                    const jobName = job.innerText.toLowerCase();
+                    if (jobName.includes(input) || clusterName.includes(input)) {
+                        job.style.display = 'flex';
+                        clusterHasMatch = true;
+                        hasVisibleJobs = true;
+                    } else {
+                        job.style.display = 'none';
+                    }
+                });
+
+                cluster.style.display = clusterHasMatch ? 'block' : 'none';
+            });
+
+            document.getElementById('no-results').classList.toggle('hidden', hasVisibleJobs || clusters.length === 0);
+        }
+    </script>
+</body>
+</html>

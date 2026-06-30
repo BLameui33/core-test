@@ -1,0 +1,855 @@
+
+/* CLEAN PREMIUM DESIGN */
+:root {
+    --primary-bg: #f8fafc; 
+    --section-bg: #ffffff; 
+    --text-main: #334155;
+    --text-muted: #64748b; 
+    --brand-dark: #0f172a; 
+    --brand-accent: #2563eb;
+    --border-color: #e2e8f0;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { 
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+    background-color: var(--primary-bg); 
+    color: var(--text-main); 
+    line-height: 1.6; 
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Navigation */
+header { background-color: var(--section-bg); padding: 1.2rem 5%; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border-color); position: sticky; top: 0; z-index: 100; }
+.logo { color: var(--brand-dark); font-weight: 800; font-size: 1.2rem; letter-spacing: 1px; text-decoration: none; }
+nav a { color: var(--text-muted); text-decoration: none; margin-left: 1.5rem; font-size: 0.9rem; font-weight: 500; transition: color 0.2s; }
+nav a:hover { color: var(--brand-accent); }
+
+/* Layout & Container */
+.section { padding: 80px 5%; background-color: var(--section-bg); }
+.section.alt { background-color: var(--primary-bg); }
+.container { max-width: 1200px; margin: 0 auto; }
+
+/* Hero Section (Zweispaltig) */
+.hero-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
+.badge { display: inline-block; background: #e0f2fe; color: #0284c7; padding: 6px 12px; border-radius: 4px; font-size: 0.8rem; font-weight: 700; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 0.5px; }
+h1 { font-size: 3rem; color: var(--brand-dark); margin-bottom: 20px; line-height: 1.1; letter-spacing: -1px; }
+.hero-subtitle { font-size: 1.2rem; color: var(--text-muted); margin-bottom: 30px; line-height: 1.5; }
+
+/* Feature List im Hero */
+.hero-features { list-style: none; margin-bottom: 35px; }
+.hero-features li { margin-bottom: 10px; font-size: 0.95rem; font-weight: 500; color: var(--brand-dark); display: flex; align-items: center; }
+.hero-features li::before { content: "✓"; color: var(--brand-accent); margin-right: 10px; font-weight: bold; }
+
+/* Buttons */
+.btn { background-color: var(--brand-dark); color: white; border: none; padding: 16px 32px; font-size: 1.1rem; border-radius: 8px; cursor: pointer; transition: all 0.2s; font-weight: 600; display: inline-block; text-align: center; text-decoration: none; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+.btn:hover { background-color: var(--brand-accent); transform: translateY(-2px); box-shadow: 0 6px 12px rgba(37, 99, 235, 0.2); }
+
+/* Hero Visual Placeholder (Später für Grafik) */
+.hero-visual { background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%); border-radius: 12px; aspect-ratio: 1 / 1; display: flex; align-items: center; justify-content: center; border: 1px solid var(--border-color); box-shadow: 0 20px 40px rgba(0,0,0,0.05); }
+
+/* Trust Bar */
+.trust-bar { border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color); padding: 20px 5%; background: var(--section-bg); }
+.trust-content { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; font-size: 0.85rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; }
+
+/* Responsive für Mobile */
+@media (max-width: 900px) {
+    .hero-grid { grid-template-columns: 1fr; gap: 40px; }
+    h1 { font-size: 2.2rem; }
+    .hero-visual { display: none; /* Auf kleinen Bildschirmen Grafik ausblenden für besseren Fokus */ }
+    .trust-content { flex-direction: column; gap: 10px; text-align: center; }
+}
+
+/* --- SCHRITT 2: GRID-LAYOUTS FÜR DEN INHALT --- */
+
+/* Zentrierte Überschriften für Sektionen */
+.section-header { text-align: center; margin-bottom: 50px; max-width: 700px; margin-left: auto; margin-right: auto; }
+.section-header h2 { font-size: 2rem; color: var(--brand-dark); margin-bottom: 15px; letter-spacing: -0.5px; }
+.section-header p { font-size: 1.1rem; color: var(--text-muted); }
+
+/* Card-Grid für Methodik (3 Spalten) */
+.feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; }
+.feature-card { background: #ffffff; padding: 35px 25px; border-radius: 12px; border: 1px solid var(--border-color); box-shadow: 0 4px 6px rgba(0,0,0,0.02); transition: transform 0.2s, box-shadow 0.2s; }
+.feature-card:hover { transform: translateY(-5px); box-shadow: 0 12px 24px rgba(0,0,0,0.06); }
+.feature-icon { width: 50px; height: 50px; background: #eff6ff; color: var(--brand-accent); border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 20px; }
+.feature-card h3 { font-size: 1.1rem; color: var(--brand-dark); margin-bottom: 10px; }
+.feature-card p { font-size: 0.95rem; color: var(--text-muted); }
+
+/* 2x2 Grid für Zielgruppen */
+.target-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 25px; }
+.target-card { padding: 30px; background: var(--primary-bg); border-radius: 12px; border-left: 4px solid var(--brand-dark); position: relative; overflow: hidden; }
+.target-card::before { content: ""; position: absolute; top: 0; right: 0; width: 100px; height: 100px; background: radial-gradient(circle, rgba(15,23,42,0.03) 0%, rgba(255,255,255,0) 70%); border-radius: 50%; transform: translate(30%, -30%); }
+.target-card h3 { font-size: 1.1rem; color: var(--brand-dark); margin-bottom: 8px; }
+.target-card p { font-size: 0.95rem; color: var(--text-muted); }
+
+/* FAQ Listen-Design */
+.faq-list { max-width: 800px; margin: 0 auto; }
+.faq-item { border-bottom: 1px solid var(--border-color); padding: 25px 0; }
+.faq-item:last-child { border-bottom: none; }
+.faq-item h3 { font-size: 1.1rem; color: var(--brand-dark); margin-bottom: 10px; }
+.faq-item p { font-size: 0.95rem; color: var(--text-main); }
+
+/* Banner für Infobox */
+.highlight-banner { background: var(--brand-dark); color: white; padding: 40px 5%; text-align: center; margin: 40px 0; }
+.highlight-banner p { max-width: 800px; margin: 0 auto; font-size: 1.1rem; font-weight: 500; line-height: 1.6; }
+
+/* Responsive Updates für Sektion 2 */
+@media (max-width: 768px) {
+    .target-grid { grid-template-columns: 1fr; }
+    .section-header h2 { font-size: 1.6rem; }
+}
+
+/* --- SCHRITT 3: PREMIUM QUIZ UI & ANIMATIONEN --- */
+
+/* Wir verbergen anfangs das Quiz, den Ladebildschirm und die Resultate */
+#quiz-screen, #loading-screen, #result-screen { display: none; }
+
+/* Quiz Container - Macht den Test zur ablenkungsfreien Zone */
+.quiz-wrapper { max-width: 800px; margin: 40px auto; padding: 40px 20px; text-align: center; background: transparent; }
+
+/* Der minimalistische Fortschrittsbalken */
+.progress-container { width: 100%; background-color: var(--border-color); height: 6px; border-radius: 10px; margin-bottom: 40px; overflow: hidden; }
+.progress-bar { height: 100%; background-color: var(--brand-accent); width: 0%; transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
+
+/* Frage-Text */
+#question-counter { font-size: 0.85rem; color: var(--text-muted); font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 15px; }
+.question-text { font-size: 1.8rem; font-weight: 700; color: var(--brand-dark); line-height: 1.3; margin-bottom: 50px; min-height: 80px; display: flex; align-items: center; justify-content: center; }
+
+/* Die 16Personalities Style Skala (Likert) */
+.likert-scale { display: flex; align-items: center; justify-content: center; gap: 15px; margin-bottom: 30px; }
+.likert-label { font-size: 0.9rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; width: 100px; }
+.likert-label.agree { color: #16a34a; text-align: right; } /* Grün */
+.likert-label.disagree { color: #dc2626; text-align: left; } /* Rot */
+
+.likert-btn { border: 2px solid var(--border-color); border-radius: 50%; background: white; cursor: pointer; transition: all 0.2s; display: flex; align-items: center; justify-content: center; }
+.likert-btn:hover { transform: scale(1.1); }
+.likert-btn:active { transform: scale(0.9); }
+
+/* Größen der Buttons (Groß zu Klein zu Groß) */
+.likert-btn.size-lg { width: 60px; height: 60px; border-width: 3px; }
+.likert-btn.size-md { width: 50px; height: 50px; }
+.likert-btn.size-sm { width: 40px; height: 40px; }
+
+/* Farben bei Hover (Zustimmung = Grün, Ablehnung = Rot) */
+.likert-btn.agree:hover { border-color: #16a34a; background-color: #f0fdf4; }
+.likert-btn.neutral:hover { border-color: #94a3b8; background-color: #f8fafc; }
+.likert-btn.disagree:hover { border-color: #dc2626; background-color: #fef2f2; }
+
+/* Ladebildschirm (Psychologischer Effekt) */
+.spinner { width: 50px; height: 50px; border: 4px solid var(--border-color); border-top: 4px solid var(--brand-accent); border-radius: 50%; animation: spin 1s linear infinite; margin: 0 auto 30px auto; }
+@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+.loading-text { font-size: 1.2rem; font-weight: 600; color: var(--brand-dark); transition: opacity 0.3s; }
+
+/* Animation für die Fragen (Sanftes Einfliegen) */
+.fade-in-right { animation: fadeInRight 0.4s forwards; }
+@keyframes fadeInRight {
+    from { opacity: 0; transform: translateX(30px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .question-text { font-size: 1.4rem; min-height: 100px; }
+    .likert-scale { gap: 8px; }
+    .likert-label { display: none; /* Text-Labels auf Handy ausblenden, nur Buttons zeigen */ }
+    .likert-btn.size-lg { width: 50px; height: 50px; }
+    .likert-btn.size-md { width: 42px; height: 42px; }
+    .likert-btn.size-sm { width: 34px; height: 34px; }
+}
+
+.answers-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 25px;
+    width: 100%;
+}
+
+.answer-text-btn {
+    padding: 16px 24px;
+    background: #ffffff;
+    border: 1px solid var(--border-color, #e2e8f0);
+    border-radius: 8px;
+    font-size: 1rem;
+    color: var(--text-main, #334155);
+    text-align: left; /* Wichtig, damit lange Texte linksbündig sind */
+    line-height: 1.5;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.answer-text-btn:hover {
+    border-color: var(--brand-dark, #0f172a);
+    background: #f8fafc;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.answer-text-btn.selected-answer {
+    border-color: var(--brand-dark, #0f172a);
+    background: #f1f5f9; /* Ein ganz leichtes Grau/Blau */
+    box-shadow: inset 0 0 0 1px var(--brand-dark, #0f172a);
+    font-weight: 500;
+}
+
+/* --- SCHRITT 4: PREMIUM EDITORIAL RESULT SCREEN --- */
+
+#result-screen {
+    max-width: 800px;
+    margin: 80px auto;
+    padding: 0 20px;
+    background: transparent;
+    text-align: left; /* Linksbündig wirkt bei langen Texten edler und lesbarer */
+}
+
+/* Minimalistischer, typografie-getriebener Header */
+.result-header {
+    text-align: center;
+    margin-bottom: 80px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.result-header .badge {
+    display: inline-block;
+    background: transparent;
+    color: var(--text-muted);
+    border: 1px solid var(--border-color);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.75rem;
+    padding: 8px 18px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+.result-header h1 {
+    color: var(--brand-dark);
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 1.1;
+    letter-spacing: -1.5px;
+    margin-bottom: 25px;
+}
+
+.result-headline {
+    font-size: 1.35rem;
+    color: var(--text-muted);
+    font-weight: 400;
+    max-width: 650px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Sektionen - Puristisch durch Weißraum getrennt */
+.result-section {
+    margin-bottom: 70px;
+}
+
+/* Editorial Sub-Headings (Wie in einem Magazin) */
+.result-section h3 {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--text-muted);
+    margin-bottom: 25px;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 12px;
+}
+
+.result-section p {
+    font-size: 1.15rem;
+    color: var(--brand-dark);
+    line-height: 1.8;
+    font-weight: 400;
+}
+
+/* Subtile Warnfarbe für die Hürde - kein roter Kasten mehr, nur ein eleganter Akzent */
+.result-section.shadow-section h3 {
+    color: #991b1b; /* Ein sehr dunkles, edles Rot */
+    border-bottom-color: #fca5a5;
+}
+
+/* Minimalistische Listen */
+.action-steps {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.action-steps li {
+    font-size: 1.15rem;
+    line-height: 1.7;
+    color: var(--brand-dark);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Ein eleganter Spiegelstrich statt aufdringlicher Pfeile */
+.action-steps li::before {
+    content: "—";
+    color: var(--text-muted);
+    margin-right: 20px;
+    font-weight: 300;
+}
+
+/* Call to Action - Schlicht und dominant */
+.monetization-box {
+    margin-top: 80px;
+    padding-top: 60px;
+    border-top: 1px solid var(--border-color);
+    text-align: center;
+}
+
+.monetization-box p {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    margin-bottom: 35px;
+}
+
+.monetization-box strong {
+    color: var(--brand-dark);
+    font-size: 1.4rem;
+    display: block;
+    margin-top: 10px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+
+/* "Quiet Luxury" Button (Tiefschwarz/Dunkelgrau, keine bunten Gradients) */
+.btn-premium {
+    background-color: var(--brand-dark);
+    color: white;
+    padding: 20px 45px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    border-radius: 4px; /* Sehr subtile Rundung, fast eckig */
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition: transform 0.3s, background-color 0.3s;
+    width: 100%;
+    max-width: 380px;
+}
+
+.btn-premium:hover {
+    background-color: #000000;
+    transform: translateY(-2px);
+}
+
+/* Responsive Anpassungen */
+@media (max-width: 600px) {
+    #result-screen { margin: 40px auto; }
+    .result-header h1 { font-size: 2.5rem; }
+    .result-headline { font-size: 1.15rem; }
+    .result-section p, .action-steps li { font-size: 1.05rem; }
+}
+
+/* --- SCHRITT 5: UNIVERSAL EDITORIAL DESIGN (Für Unterseiten) --- */
+
+.editorial-wrapper {
+    max-width: 800px;
+    margin: 80px auto 120px auto;
+    padding: 0 20px;
+    text-align: left;
+}
+
+/* Der Titelbereich der Seite */
+.editorial-header {
+    margin-bottom: 60px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.editorial-header h1 {
+    color: var(--brand-dark);
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 1.1;
+    letter-spacing: -1.5px;
+    margin-bottom: 20px;
+}
+
+.editorial-lead {
+    font-size: 1.35rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+/* Fließtext auf den Unterseiten */
+.editorial-content p {
+    font-size: 1.15rem;
+    color: var(--brand-dark);
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.editorial-content strong {
+    font-weight: 600;
+}
+
+.editorial-content em {
+    font-style: italic;
+    color: var(--text-muted);
+}
+
+/* Zwischenüberschriften */
+.editorial-content h2 {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--text-muted);
+    margin-top: 60px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 12px;
+}
+
+/* Aufzählungen im Text */
+.editorial-content ul {
+    list-style: none;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.editorial-content li {
+    font-size: 1.15rem;
+    line-height: 1.7;
+    color: var(--brand-dark);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.editorial-content li::before {
+    content: "—";
+    color: var(--text-muted);
+    margin-right: 20px;
+    font-weight: 300;
+}
+
+/* Allgemeiner Footer (Damit du keine Inline-Styles mehr brauchst) */
+.site-footer {
+    border-top: 1px solid var(--border-color);
+    margin-top: 60px;
+    padding: 40px 20px;
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+    background: var(--primary-bg);
+}
+
+.site-footer-copyright {
+    font-weight: 600;
+    color: var(--brand-dark);
+    margin-bottom: 15px;
+}
+
+.site-footer-disclaimer {
+    max-width: 740px;
+    margin: 0 auto 20px auto;
+    text-align: justify;
+    font-size: 0.75rem;
+    font-style: italic;
+}
+
+.site-footer-links a {
+    color: var(--text-muted);
+    text-decoration: none;
+    margin: 0 12px;
+    transition: color 0.2s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.site-footer-links a:hover {
+    color: var(--brand-dark);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .editorial-wrapper { margin-top: 40px; }
+    .editorial-header h1 { font-size: 2.5rem; }
+    .editorial-lead { font-size: 1.15rem; }
+    .editorial-content p, .editorial-content li { font-size: 1.05rem; }
+}
+
+/* --- SCHRITT 6: EDITORIAL DESIGN FÜR DIE PROFILE --- */
+
+/* Trennung der 4 Haupt-Basis-Typen */
+.profile-section {
+    margin-bottom: 100px;
+    border-top: 3px solid var(--brand-dark); /* Markante Editorial-Linie */
+    padding-top: 40px;
+}
+
+.profile-section h2 {
+    font-size: 2.2rem;
+    color: var(--brand-dark);
+    margin-bottom: 15px;
+    letter-spacing: -0.5px;
+    font-weight: 800;
+}
+
+/* Minimalistische psychologische Tags */
+.trait-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.trait-tags .tag {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--text-muted);
+    border: 1px solid var(--border-color);
+    padding: 6px 16px;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+.profile-description {
+    font-size: 1.25rem;
+    color: var(--brand-dark);
+    line-height: 1.7;
+    margin-bottom: 40px;
+    max-width: 700px;
+}
+
+/* Das Grid für die 4 Mutationen (Die Schatten) */
+.mutation-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    border-top: 1px solid var(--border-color);
+    padding-top: 40px;
+}
+
+.mutation-box {
+    background: transparent; /* Keine Boxen mehr! */
+}
+
+/* Der Titel der Mutation (Die Angst-Komponente) in elegantem Warn-Rot */
+.mutation-box h4 {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #991b1b; 
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.mutation-box h4::before {
+    content: "✕"; /* Subtiles Kreuz als Schatten-Symbol */
+    margin-right: 8px;
+    font-size: 1rem;
+    opacity: 0.7;
+}
+
+.mutation-box p {
+    font-size: 1.05rem;
+    color: var(--text-main);
+    line-height: 1.7;
+}
+
+.mutation-box strong {
+    color: var(--brand-dark);
+    font-weight: 700;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .mutation-grid { grid-template-columns: 1fr; gap: 30px; }
+    .profile-section h2 { font-size: 1.8rem; }
+    .profile-description { font-size: 1.1rem; }
+}
+
+
+/* --- PREMIUM RESULT DOSSIER & AFFILIATE --- */
+#result-screen { display: none; padding: 80px 0; background-color: var(--bg-body, #FAFAFA); }
+
+.dossier-container { max-width: 1000px; margin: 0 auto; padding: 0 5%; }
+
+/* Editorial Header */
+.dossier-header { text-align: center; max-width: 800px; margin: 0 auto 80px auto; }
+.dossier-header .badge { display: inline-block; background: var(--text-dark, #0F172A); color: white; padding: 8px 16px; border-radius: 20px; font-size: 0.75rem; font-weight: 700; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 1px; }
+.dossier-header h1 { font-size: 3rem; color: var(--text-dark, #0F172A); margin-bottom: 20px; line-height: 1.2; letter-spacing: -0.03em; font-weight: 800; }
+.dossier-header .subtitle { font-size: 1.4rem; color: var(--text-muted, #64748B); font-style: italic; font-weight: 400; line-height: 1.6; }
+
+/* 2-Spalten Layout mit viel Whitespace */
+.dossier-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start; }
+
+/* Text Sektionen */
+.dossier-section { margin-bottom: 60px; }
+.dossier-section h3 { font-size: 0.9rem; text-transform: uppercase; letter-spacing: 2px; color: var(--text-muted, #64748B); margin-bottom: 24px; border-bottom: 1px solid var(--border-light, #E2E8F0); padding-bottom: 12px; font-weight: 600; }
+.dossier-section p { font-size: 1.1rem; line-height: 1.8; color: var(--text-body, #334155); text-align: justify; }
+
+/* Action Steps Liste */
+.action-list { list-style: none; padding: 0; }
+.action-list li { position: relative; padding-left: 30px; margin-bottom: 24px; font-size: 1.1rem; line-height: 1.6; color: var(--text-body, #334155); }
+.action-list li::before { content: "→"; position: absolute; left: 0; top: 0; color: var(--text-muted, #64748B); font-weight: bold; }
+
+/* AFFILIATE BEREICH (Dezent & Wertig) */
+.affiliate-section { background-color: var(--bg-surface, #FFFFFF); border-radius: 16px; padding: 50px; border: 1px solid rgba(0,0,0,0.05); margin-top: 40px; box-shadow: 0 10px 40px rgba(0,0,0,0.02); }
+.affiliate-section h3 { border: none; margin-bottom: 8px; color: var(--text-dark, #0F172A); font-size: 1.2rem; text-transform: none; letter-spacing: normal; padding-bottom: 0; }
+
+.affiliate-card { display: flex; gap: 20px; align-items: center; padding: 24px; background: var(--bg-body, #FAFAFA); border-radius: 12px; margin-bottom: 16px; transition: background 0.3s; text-decoration: none; color: inherit; border: 1px solid transparent; }
+.affiliate-card:hover { background: #F1F5F9; border-color: var(--border-light, #E2E8F0); }
+.affiliate-icon { width: 60px; height: 60px; background: white; border-radius: 8px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 10px rgba(0,0,0,0.03); flex-shrink: 0; }
+.affiliate-info h4 { font-size: 1.1rem; color: var(--text-dark, #0F172A); margin-bottom: 4px; font-weight: 600; }
+.affiliate-info p { font-size: 0.9rem; color: var(--text-muted, #64748B); margin: 0; line-height: 1.4; }
+
+/* Sanfte Einblendung */
+.fade-in { animation: fadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards; opacity: 0; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+
+/* Restart Button */
+.btn-restart { background-color: var(--bg-surface, #FFFFFF); color: var(--text-dark, #0F172A); border: 1px solid var(--border-light, #E2E8F0); padding: 16px 32px; font-size: 1rem; border-radius: 8px; cursor: pointer; transition: all 0.3s ease; font-weight: 500; display: inline-block; }
+.btn-restart:hover { background-color: #F1F5F9; transform: translateY(-2px); }
+
+/* Responsive Dashboard */
+@media (max-width: 900px) {
+    .dossier-grid { grid-template-columns: 1fr; gap: 40px; }
+    .dossier-header h1 { font-size: 2.2rem; }
+    .affiliate-section { padding: 30px; }
+    .affiliate-card { flex-direction: column; text-align: center; }
+}
+
+/* --- ACTION BUTTONS (PDF, Share, Restart) --- */
+.btn-action { 
+    display: flex; align-items: center; gap: 10px; padding: 14px 28px; font-size: 1rem; 
+    border-radius: 8px; cursor: pointer; transition: all 0.3s ease; font-weight: 500; 
+}
+.btn-action.primary { background-color: var(--text-dark, #0F172A); color: white; border: 1px solid var(--text-dark, #0F172A); box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+.btn-action.primary:hover { background-color: #1E293B; transform: translateY(-2px); }
+
+.btn-action.secondary { background-color: #F1F5F9; color: var(--text-dark, #0F172A); border: 1px solid transparent; }
+.btn-action.secondary:hover { background-color: #E2E8F0; transform: translateY(-2px); }
+
+.btn-action.outline { background-color: white; color: var(--text-muted, #64748B); border: 1px solid var(--border-light, #E2E8F0); }
+.btn-action.outline:hover { background-color: #F8FAFC; color: var(--text-dark, #0F172A); transform: translateY(-2px); }
+
+/* Fließtext auf den Unterseiten - Listen repariert */
+.editorial-content ul {
+    list-style: none;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    padding-left: 0;
+}
+
+.editorial-content li {
+    font-size: 1.15rem;
+    line-height: 1.7;
+    color: var(--brand-dark);
+    margin-bottom: 25px;
+    padding-left: 40px; /* Platz für den Spiegelstrich machen */
+    position: relative;
+}
+
+.editorial-content li::before {
+    content: "—";
+    position: absolute; /* Löst den Strich aus dem Textfluss */
+    left: 0;
+    top: 0;
+    color: var(--text-muted);
+    font-weight: 300;
+}
+
+/* Die fetten Überschriften in den Listen sauber formatieren */
+.editorial-content li strong {
+    font-weight: 700;
+    color: var(--text-dark);
+    display: inline-block; /* Sorgt dafür, dass Abstände respektiert werden */
+    margin-right: 8px; /* Zwingt einen festen Abstand zum folgenden Text */
+}
+        @media (max-width: 768px) {
+            /* Nur das Verzeichnis verstecken */
+            .hide-on-mobile { display: none !important; }
+            
+            /* Die Text-Links wieder etwas größer machen */
+            nav a { margin-left: 0.8rem; font-size: 0.85rem; }
+            
+            /* Den Button leicht vergrößern und DEUTLICH mehr Abstand nach links geben */
+            nav button { 
+                margin-left: 1.8rem !important; /* Hier ist der extra Abstand! */
+                padding: 9px 15px !important;   /* Wieder etwas entspanntere Klickfläche */
+                font-size: 0.75rem !important; 
+            }
+            
+            /* Damit es auf ganz schmalen Handys (z.B. iPhone SE) nicht kaputt geht, 
+               erlauben wir dem Header zur Not einen weichen Zeilenumbruch */
+            header { flex-wrap: wrap; gap: 10px; }
+            
+            .search-box { padding: 18px 20px; font-size: 1rem; }
+        }
+
+       /* --- DAS NEUE BREITERE ERGEBNIS-LAYOUT (Aggressive Variante) --- */
+
+#result-screen .dossier-container {
+    max-width: 1200px !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding: 60px 5% !important;
+}
+
+#result-screen .dossier-header {
+    max-width: 900px !important;
+    margin: 0 auto 60px auto !important;
+}
+
+#result-screen .dossier-grid { 
+    display: flex !important; 
+    flex-wrap: wrap !important; 
+    gap: 80px !important; 
+    margin-top: 40px !important;
+    width: 100% !important;
+}
+
+#result-screen .dossier-grid > div.fade-in { 
+    flex: 1 1 calc(50% - 40px) !important; 
+    min-width: 350px !important; 
+}
+
+/* Blocksatz killen */
+#res-corporate, #res-shadow, #result-screen .dossier-section p {
+    text-align: left !important;
+    font-size: 1.15rem !important;
+}
+
+
+ /* --- CSS for other Sites --- */
+
+  /* ---about.html --- */
+   
+
+         /* datenschutz.html */
+        .legal-wrapper {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 80px 5% 120px 5%;
+        }
+        
+        .legal-header {
+            margin-bottom: 60px;
+            border-bottom: 2px solid var(--text-dark, #0f172a);
+            padding-bottom: 20px;
+        }
+
+        .legal-header h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            color: var(--text-dark, #0f172a);
+            letter-spacing: -1px;
+            margin: 0;
+        }
+
+        .legal-content h2 {
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: var(--text-dark, #0f172a);
+            margin: 50px 0 20px 0;
+            border-bottom: 1px solid var(--border-light, #e2e8f0);
+            padding-bottom: 10px;
+        }
+
+        .legal-content h3 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--text-dark, #0f172a);
+            margin: 30px 0 15px 0;
+        }
+
+        .legal-content p, .legal-content li {
+            font-size: 1.05rem;
+            line-height: 1.7;
+            color: var(--text-muted, #64748B);
+            margin-bottom: 20px;
+        }
+
+        .legal-content ul {
+            padding-left: 20px;
+            margin-bottom: 30px;
+        }
+
+        .legal-content a {
+            color: var(--text-dark, #0f172a);
+            text-decoration: underline;
+            text-underline-offset: 4px;
+        }
+        
+        .legal-content a:hover {
+            color: var(--accent-red, #c0392b);
+        }
+
+        /* Hervorhebung für den wichtigsten Punkt (Lokale Verarbeitung) */
+        .privacy-highlight {
+            background-color: var(--bg-surface, #FAFAFA);
+            border-left: 4px solid var(--accent-red, #c0392b);
+            padding: 25px 30px;
+            margin: 40px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .privacy-highlight p {
+            margin: 0;
+            color: var(--text-dark, #0f172a);
+            font-weight: 500;
+        }
+
+         
+
+         /* Impressum */
+        .legal-wrapper {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 80px 5% 120px 5%;
+        }
+        
+        .legal-header {
+            margin-bottom: 60px;
+            border-bottom: 2px solid var(--text-dark, #0f172a);
+            padding-bottom: 20px;
+        }
+
+        .legal-header h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            color: var(--text-dark, #0f172a);
+            letter-spacing: -1px;
+            margin: 0;
+        }
+
+        .legal-content h3 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--text-dark, #0f172a);
+            margin: 40px 0 15px 0;
+        }
+
+        .legal-content p {
+            font-size: 1.05rem;
+            line-height: 1.7;
+            color: var(--text-muted, #64748B);
+            margin-bottom: 20px;
+        }
+
+        .legal-content a {
+            color: var(--text-dark, #0f172a);
+            text-decoration: underline;
+            text-underline-offset: 4px;
+        }
+        
+        .legal-content a:hover {
+            color: var(--accent-red, #c0392b);
+        }

@@ -1,0 +1,1613 @@
+[
+  {
+    "id": "q1_meeting",
+    "category": "conflict_structure",
+    "question": "Ein zweistündiges 'Strategie-Meeting' ohne klare Agenda, in dem sich drei Kollegen endlos im Kreis drehen. Was geht in deinem Kopf vor?",
+    "answers": [
+      {
+        "text": "Großartig. Raum zum lauten Nachdenken und Ideen spinnen. Endlich mal kein striktes Abarbeiten von Excel-Listen.",
+        "scores": { "pionier": 1 }
+      },
+      {
+        "text": "Mich macht das aggressiv. Nach 15 Minuten fordere ich einen klaren Beschluss oder eine Zuteilung von To-Dos, sonst gehe ich.",
+        "scores": { "executor": 1 }
+      },
+      {
+        "text": "Innerlich Stress pur. Ich denke die ganze Zeit an meine eigentliche Arbeit, die jetzt unerledigt auf dem Schreibtisch liegen bleibt.",
+        "scores": { "optimierer": 1 }
+      },
+      {
+        "text": "Ich versuche, die stilleren Kollegen mit in die Diskussion zu holen und die angespannte Stimmung im Raum zu glätten.",
+        "scores": { "katalysator": 1 }
+      }
+    ]
+  },
+  {
+    "id": "q2_systemfehler",
+    "category": "conflict_structure",
+    "question": "Ein wichtiges Projekt geht massiv schief. Der Fehler lag an einem unklaren Prozess der Firma, nicht an dir – aber es fällt auf deinen Bereich zurück. Deine erste Reaktion?",
+    "answers": [
+      {
+        "text": "Ich analysiere eiskalt den Flaschenhals, baue einen Fix und kommuniziere glasklar nach oben, wer oder was versagt hat.",
+        "scores": { "executor": 1 }
+      },
+      {
+        "text": "Ich verbringe die halbe Nacht damit, lückenlos zu dokumentieren, dass ich mich strikt an alle Vorgaben gehalten habe.",
+        "scores": { "optimierer": 1, "fear_versagen": 1 }
+      },
+      {
+        "text": "Ich habe schon wieder drei neue Ideen, wie wir das nächste Projekt ganz anders aufziehen. Vergangenes ist vergangen.",
+        "scores": { "pionier": 1 }
+      },
+      {
+        "text": "Ich habe ein schlechtes Gewissen, weil andere Abteilungen jetzt unter dem Chaos leiden und biete direkt meine Hilfe an.",
+        "scores": { "katalysator": 1 }
+      }
+    ]
+  },
+  {
+    "id": "q3_sinnlosaufgabe",
+    "category": "conflict_structure",
+    "question": "Dein Chef gibt dir eine Aufgabe, die völlig repetitiv, extrem kleinteilig und aus deiner Sicht absolut ineffizient ist. Wie gehst du damit um?",
+    "answers": [
+      {
+        "text": "Ich komme in einen Flow. Ich liebe es, wenn am Ende alles auf den Cent genau stimmt, strukturiert und abgehakt ist.",
+        "scores": { "optimierer": 1 }
+      },
+      {
+        "text": "Ich sterbe innerlich. Nach 10 Minuten verliere ich den Fokus, bin genervt und fange an, etwas anderes zu machen.",
+        "scores": { "pionier": 1 }
+      },
+      {
+        "text": "Ich automatisiere es heimlich, delegiere es oder finde einen Weg, es in einem Drittel der Zeit 'gut genug' hinzuklatschen.",
+        "scores": { "executor": 1 }
+      },
+      {
+        "text": "Ich mache es zähneknirschend und gründlich. Wenn ich es nicht tue, fällt es auf meine Kollegen zurück, und das will ich nicht.",
+        "scores": { "katalysator": 1, "fear_status": 1 }
+      }
+    ]
+  },
+  {
+    "id": "q4_befoerderungsfalle",
+    "category": "conflict_structure",
+    "question": "Eine Führungsposition über dir wird frei. Warum hast du den Job noch nicht?",
+    "answers": [
+      {
+        "text": "Weil ich den ständigen Druck, die Politik und die Konflikte da oben eigentlich überhaupt nicht in meinem Leben will.",
+        "scores": { "katalysator": 1, "fear_veraenderung": 1 }
+      },
+      {
+        "text": "Weil ich mich brutal schlecht verkaufe. Ich mache im Hintergrund die ganze Arbeit, aber andere heimsen die Lorbeeren dafür ein.",
+        "scores": { "optimierer": 1, "fear_status": 1 }
+      },
+      {
+        "text": "Weil mir der 'Stallgeruch' fehlt. Ich bin dem Management zu unbequem, weil ich veraltete Strukturen ständig in Frage stelle.",
+        "scores": { "pionier": 1 }
+      },
+      {
+        "text": "Wer sagt, dass ich ihn nicht habe? Ich fordere solche Positionen aktiv ein. Wenn sie mich ausbremsen, wechsle ich die Firma.",
+        "scores": { "executor": 1 }
+      }
+    ]
+  },
+  {
+    "id": "q5_sonntagabend",
+    "category": "conflict_structure",
+    "question": "Es ist Sonntag, 20:00 Uhr. Du denkst an die kommende Arbeitswoche. Was löst am ehesten ein ungutes Gefühl bei dir aus?",
+    "answers": [
+      {
+        "text": "Die Angst, dass ich diese Woche wieder nicht zu meinen eigentlichen, tiefgreifenden Ideen komme, weil das Tagesgeschäft mich auffrisst.",
+        "scores": { "pionier": 1 }
+      },
+      {
+        "text": "Der Gedanke an die toxische Stimmung, die ungelösten Konflikte im Team und die Kollegen, die ich wieder motivieren muss.",
+        "scores": { "katalysator": 1 }
+      },
+      {
+        "text": "Das Gefühl der Ohnmacht. Ich sehe genau, was schiefläuft, darf aber nicht die Entscheidungen treffen, um es zu reparieren.",
+        "scores": { "executor": 1 }
+      },
+      {
+        "text": "Die Sorge, dass ich bei der Menge an Aufgaben den Überblick verliere und mir ein folgenschwerer Fehler unterläuft.",
+        "scores": { "optimierer": 1, "fear_versagen": 1 }
+      }
+    ]
+  },
+  {
+    "id": "q6_feedback",
+    "category": "conflict_structure",
+    "question": "Dein Vorgesetzter (der fachlich weniger Ahnung hat als du) gibt dir ein kritisches, aber ungerechtfertigtes Feedback. Deine innere Reaktion?",
+    "answers": [
+      {
+        "text": "Ich schalte auf Durchzug. Seine Meinung juckt mich nicht, solange er mich in Ruhe meine Sachen umsetzen lässt.",
+        "scores": { "executor": 1 }
+      },
+      {
+        "text": "Ich nehme es mir tagelang extrem zu Herzen, zweifle an meinen Fähigkeiten und überlege, was ich falsch gemacht habe.",
+        "scores": { "katalysator": 1, "fear_versagen": 1 }
+      },
+      {
+        "text": "Ich verteidige mich sofort mit harten Fakten, Logs oder Dokumenten, die beweisen, dass seine Einschätzung falsch ist.",
+        "scores": { "optimierer": 1 }
+      },
+      {
+        "text": "Ich verdrehe innerlich die Augen. Er versteht einfach nicht das große Ganze, also diskutiere ich gar nicht erst.",
+        "scores": { "pionier": 1 }
+      }
+    ]
+  },
+  {
+    "id": "q7_feierabend",
+    "category": "conflict_structure",
+    "question": "Unter welcher Bedingung kannst du abends deinen Laptop mit einem richtig guten Gefühl zuklappen?",
+    "answers": [
+      {
+        "text": "Wenn ich heute ein komplexes Problem geknackt oder eine brillante, neue Idee entwickelt habe.",
+        "scores": { "pionier": 1 }
+      },
+      {
+        "text": "Wenn meine To-Do-Liste komplett leer ist und kein roter Notification-Punkt mehr in meinen Mails oder Tools leuchtet.",
+        "scores": { "optimierer": 1 }
+      },
+      {
+        "text": "Wenn mein Team einen guten Tag hatte, wir gemeinsam gelacht haben und ich jemandem bei einem Problem helfen konnte.",
+        "scores": { "katalysator": 1 }
+      },
+      {
+        "text": "Wenn wir heute ein handfestes Ergebnis abgeliefert haben, das Umsatz, Leads oder messbaren Fortschritt bringt.",
+        "scores": { "executor": 1 }
+      }
+    ]
+  },
+  
+{
+    "id": "q8_gehalt_vs_risiko",
+    "category": "frust_risiko_angst",
+    "question": "Ein innovatives Startup bietet dir deinen absoluten Traumjob an. Der Haken: 20% weniger Grundgehalt und ein befristeter Jahresvertrag. Deine ehrliche Reaktion?",
+    "answers": [
+      {
+        "text": "Auf keinen Fall. Ich habe Fixkosten, Miete und Verpflichtungen. Das Risiko ruiniert mir den Schlaf.",
+        "scores": { "fear_existenz": 2, "optimierer": 1 }
+      },
+      {
+        "text": "Ich mache es sofort. Ich brauche den Kick, etwas Neues aufzubauen, Sicherheit langweilt mich ohnehin.",
+        "scores": { "pionier": 2 }
+      },
+      {
+        "text": "Ich sorge mich eher darum, dass ein gescheitertes Startup danach als fetter Makel in meinem Lebenslauf steht.",
+        "scores": { "fear_status": 2 }
+      },
+      {
+        "text": "Ich würde ja gerne, aber ich bringe es nicht übers Herz, mein aktuelles Team jetzt im Stich zu lassen.",
+        "scores": { "fear_veraenderung": 1, "katalysator": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q9_unterbezahlt",
+    "category": "frust_risiko_angst",
+    "question": "Du weißt ganz genau, dass du branchenüblich etwa 15% unterbezahlt bist. Warum hast du das bisher einfach hingenommen?",
+    "answers": [
+      {
+        "text": "Ich habe Angst, dass der Schuss nach hinten losgeht und ich am Ende auf der Abschussliste stehe.",
+        "scores": { "fear_existenz": 2 }
+      },
+      {
+        "text": "Wenn sie mir mehr zahlen, steigen auch die Erwartungen an mich extrem. Was, wenn ich das dann nicht liefern kann?",
+        "scores": { "fear_versagen": 2 }
+      },
+      {
+        "text": "Mein aktueller Jobtitel klingt fantastisch. Der ist mir fast wichtiger als das Geld, das sieht auf LinkedIn extrem gut aus.",
+        "scores": { "fear_status": 2 }
+      },
+      {
+        "text": "Der Gedanke an Gehaltsverhandlungen oder Bewerbungsgespräche ist mir einfach zu anstrengend. Ich habe mich arrangiert.",
+        "scores": { "fear_veraenderung": 2, "optimierer": 1 }
+      }
+    ]
+  },
+  {
+    "id": "q10_umstrukturierung",
+    "category": "frust_risiko_angst",
+    "question": "Es wird eine plötzliche Fusion bekannt gegeben. Deine Abteilung wird komplett umstrukturiert. Was ist dein allererster Gedanke?",
+    "answers": [
+      {
+        "text": "'Verliere ich meinen Job? Wie lange reicht mein Erspartes?'",
+        "scores": { "fear_existenz": 2 }
+      },
+      {
+        "text": "'Verdammt, lande ich jetzt in der Hierarchie weiter unten unter einem völlig inkompetenten, neuen Chef?'",
+        "scores": { "fear_status": 2, "executor": 1 }
+      },
+      {
+        "text": "'Oh nein, alle meine perfekten Routinen und hart erarbeiteten Prozesse sind jetzt komplett für die Katz.'",
+        "scores": { "fear_veraenderung": 2, "optimierer": 1 }
+      },
+      {
+        "text": "'Die neuen Chefs werden sofort durchschauen, dass ich eigentlich gar nicht so gut bin, wie alle hier dachten.'",
+        "scores": { "fear_versagen": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q11_golden_handcuffs",
+    "category": "frust_risiko_angst",
+    "question": "Du bekommst jedes Jahr einen satten Bonus und verdienst sehr gutes Geld, aber du hasst deinen Job abgrundtief. Warum bist du noch da?",
+    "answers": [
+      {
+        "text": "Der goldene Käfig: Der Lebensstandard ist zu süß. Ich kann nicht mehr zurück in ein normales Gehaltsgefüge.",
+        "scores": { "fear_existenz": 2 }
+      },
+      {
+        "text": "Das Prestige: Wenn ich erzähle, wo ich arbeite, sind die Leute beeindruckt. Das Ego braucht das.",
+        "scores": { "fear_status": 2 }
+      },
+      {
+        "text": "Der Selbstzweifel: Ich glaube insgeheim, ich hatte hier einfach nur Glück. Niemand sonst würde mir so viel zahlen.",
+        "scores": { "fear_versagen": 2 }
+      },
+      {
+        "text": "Die Trägheit: Ich beschwere mich zwar täglich, aber abends habe ich null Energie, um mich wirklich neu zu bewerben.",
+        "scores": { "fear_veraenderung": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q12_linkedin_flex",
+    "category": "frust_risiko_angst",
+    "question": "Thema Eigenwerbung und berufliche Sichtbarkeit (z.B. auf LinkedIn, in großen Meetings). Wie verhältst du dich?",
+    "answers": [
+      {
+        "text": "Wer bin ich schon, mich zu feiern? Es gibt tausend Leute, die fachlich viel besser sind als ich.",
+        "scores": { "fear_versagen": 2, "optimierer": 1 }
+      },
+      {
+        "text": "Ich brauche keinen digitalen Applaus. Mein Gehaltszettel und meine Ergebnisse sind Validation genug.",
+        "scores": { "executor": 2 }
+      },
+      {
+        "text": "Ich würde ja gerne mal was posten, aber dann müsste es absolut perfekt und fehlerfrei sein. Also lasse ich es ganz.",
+        "scores": { "fear_versagen": 1, "optimierer": 1 }
+      },
+      {
+        "text": "Sichtbarkeit ist Macht. Ich teile Erfolge aktiv, weil es meinen Marktwert sichert und Konkurrenten auf Abstand hält.",
+        "scores": { "fear_status": 2, "pionier": 1 }
+      }
+    ]
+  },
+  {
+    "id": "q13_befoerderung_abgelehnt",
+    "category": "frust_risiko_angst",
+    "question": "Stell dir vor, du lehnst eine offensichtliche Beförderung ab. Was wäre der ehrlichste Grund dafür?",
+    "answers": [
+      {
+        "text": "Es gab keinen eigenen Firmenwagen und keinen echten 'C-Level'-Titel. Für nur ein bisschen mehr Geld verkaufe ich mich nicht.",
+        "scores": { "fear_status": 2, "executor": 1 }
+      },
+      {
+        "text": "Die absolute Panik, Personalverantwortung zu tragen, falsche Entscheidungen zu treffen und als Führungskraft zu versagen.",
+        "scores": { "fear_versagen": 2 }
+      },
+      {
+        "text": "Ich müsste meinen gewohnten Schreibtisch, mein vertrautes Team und meine geliebten Routinen aufgeben.",
+        "scores": { "fear_veraenderung": 2, "katalysator": 1 }
+      },
+      {
+        "text": "Das Schmerzensgeld war zu gering. Das bisschen Gehaltserhöhung rechtfertigt nicht den Verlust meiner Kündigungsfrist und Sicherheit.",
+        "scores": { "fear_existenz": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q14_lob_vom_ceo",
+    "category": "frust_risiko_angst",
+    "question": "Du wirst in einer großen Runde vom CEO für einen massiven Erfolg persönlich gelobt. Was passiert in dir?",
+    "answers": [
+      {
+        "text": "Ich lächle, aber innerlich schwitze ich: Nächstes Mal erwarten sie das wieder von mir, und dann fliege ich auf.",
+        "scores": { "fear_versagen": 2 }
+      },
+      {
+        "text": "Ich lenke sofort ab und teile das Lob mit dem gesamten Team, damit mich bloß niemand im Büro für arrogant hält.",
+        "scores": { "katalysator": 2, "fear_status": 1 }
+      },
+      {
+        "text": "Ich genieße es. Ich stelle sicher, dass jeder im Raum versteht, dass dieser Erfolg primär mein Verdienst war.",
+        "scores": { "executor": 1, "fear_status": 1 }
+      },
+      {
+        "text": "Ich nutze die Aufmerksamkeit eiskalt, um mein nächstes, viel größeres Budget oder eine irre Idee zu pitchen.",
+        "scores": { "pionier": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q15_ki_bedrohung",
+    "category": "frust_risiko_angst",
+    "question": "Künstliche Intelligenz automatisiert gerade massive Teile deiner Branche. Wie reagierst du?",
+    "answers": [
+      {
+        "text": "Panik. Ich checke meine Ersparnisse und google Umschulungen für 'sichere', handwerkliche Berufe.",
+        "scores": { "fear_existenz": 2 }
+      },
+      {
+        "text": "Ich bin gestresst, weil ich nicht mehr der Jüngste bin. Ich bezweifle, dass mein Gehirn diese ganzen neuen Tools noch lernt.",
+        "scores": { "fear_versagen": 2 }
+      },
+      {
+        "text": "Ich ernenne mich sofort selbst zum inoffiziellen 'AI-Beauftragten', um relevant zu bleiben und meinen Status zu schützen.",
+        "scores": { "fear_status": 2, "pionier": 1 }
+      },
+      {
+        "text": "Ich ignoriere es weitestgehend. Das wird alles nicht so heiß gegessen, wie es gekocht wird. Meine Prozesse laufen ja noch.",
+        "scores": { "fear_veraenderung": 2, "optimierer": 1 }
+      }
+    ]
+  },
+  {
+    "id": "q16_das_toxische_umfeld",
+    "category": "frust_risiko_angst",
+    "question": "Deine Unternehmenskultur ist extrem toxisch und macht dich mürbe, aber dein Arbeitsvertrag ist unbefristet. Was tust du?",
+    "answers": [
+      {
+        "text": "Ich bleibe. Ein unbefristeter Vertrag ist in der heutigen Wirtschaft pures Gold. Ich schalte einfach meine Gefühle ab.",
+        "scores": { "fear_existenz": 2, "optimierer": 1 }
+      },
+      {
+        "text": "Ich bleibe. Wenn ich jetzt hinwerfe, sieht das im Lebenslauf so aus, als wäre ich nicht belastbar genug gewesen.",
+        "scores": { "fear_status": 2 }
+      },
+      {
+        "text": "Ich plane heimlich meinen Ausstieg, aber ich warte auf den 'absolut perfekten Moment'. (Der irgendwie nie kommt).",
+        "scores": { "fear_veraenderung": 2 }
+      },
+      {
+        "text": "Ich konfrontiere das Management hart mit den Missständen. Wenn sie mich deshalb feuern – umso besser.",
+        "scores": { "executor": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q17_wochenend_projekt",
+    "category": "frust_risiko_angst",
+    "question": "Du wirst am Freitagnachmittag gebeten, kurzfristig ein hochkarätiges, sichtbares Wochenend-Projekt zu leiten.",
+    "answers": [
+      {
+        "text": "Ich sage zu. Wenn ich ablehne, denken die Chefs, ich bin kein 'High Performer' mehr und geben das Projekt wem anders.",
+        "scores": { "fear_status": 2 }
+      },
+      {
+        "text": "Ich sage aus reinem Schuldgefühl zu, damit meine Kollegen nicht am Wochenende arbeiten müssen.",
+        "scores": { "katalysator": 2 }
+      },
+      {
+        "text": "Ich sage zu, verbringe aber 80% des Wochenendes mit der Panik, dass dieses sichtbare Projekt schiefgeht.",
+        "scores": { "fear_versagen": 2 }
+      },
+      {
+        "text": "Ich lehne eiskalt ab. Meine Freizeit gehört mir, es sei denn, ihr verdoppelt meinen Stundensatz für das Wochenende.",
+        "scores": { "executor": 2, "pionier": 1 }
+      }
+    ]
+  },
+  {
+    "id": "q18_der_inkompetente_kollege",
+    "category": "team_leadership",
+    "question": "Ein Kollege in deinem Team liefert chronisch schlechte Arbeit ab. Es betrifft auch deine Projekte. Was tust du?",
+    "answers": [
+      {
+        "text": "Ich mache seine Arbeit heimlich neu oder korrigiere sie nachts. Hauptsache, das Endprodukt ist fehlerfrei.",
+        "scores": { "optimierer": 2, "fear_versagen": 1 }
+      },
+      {
+        "text": "Ich suche das Gespräch mit ihm und biete an, ihm bei seinen Aufgaben zu helfen, damit er nicht auffliegt.",
+        "scores": { "katalysator": 2 }
+      },
+      {
+        "text": "Ich isoliere meine Arbeitstränge komplett von seinen und baue Systeme, bei denen ich nicht mehr von ihm abhängig bin.",
+        "scores": { "pionier": 2 }
+      },
+      {
+        "text": "Ich stelle ihn im Meeting zur Rede oder eskaliere es sofort zum Chef. Ich trage keine Totgewichte mit durch.",
+        "scores": { "executor": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q19_micromanagement",
+    "category": "team_leadership",
+    "question": "Dein neuer Chef ist ein extremer Micromanager. Er will jeden E-Mail-Entwurf lesen, bevor du ihn verschickst. Deine Strategie?",
+    "answers": [
+      {
+        "text": "Ich passe mich an und baue Checklisten für ihn. Wenn er die Kontrolle braucht, gebe ich ihm lückenlose Dokumentation.",
+        "scores": { "optimierer": 2 }
+      },
+      {
+        "text": "Ich rebelliere offen. Ich ignoriere seine Vorgaben, liefere meine Ergebnisse ab und lasse ihn toben.",
+        "scores": { "pionier": 1, "executor": 1 }
+      },
+      {
+        "text": "Ich bin massiv verunsichert und überprüfe ab jetzt jede E-Mail dreimal aus Angst, einen Fehler zu machen.",
+        "scores": { "fear_versagen": 2 }
+      },
+      {
+        "text": "Ich versuche durch viele persönliche Gespräche herauszufinden, warum er so wenig Vertrauen hat, und beruhige ihn.",
+        "scores": { "katalysator": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q20_ideenklau",
+    "category": "team_leadership",
+    "question": "Du äußerst in der Kaffeeküche eine geniale Idee. Im großen Meeting verkauft ein Kollege diese Idee plötzlich als seine eigene. Wie reagierst du?",
+    "answers": [
+      {
+        "text": "Ich koche vor Wut, sage aber im Meeting nichts, um nicht unprofessionell, zickig oder 'klein' zu wirken.",
+        "scores": { "fear_status": 2, "optimierer": 1 }
+      },
+      {
+        "text": "Ich unterbreche ihn freundlich, aber eiskalt: 'Genau, wie ich dir vorhin in der Küche erklärt habe... Hier sind die weiteren Schritte.'",
+        "scores": { "executor": 2 }
+      },
+      {
+        "text": "Soll er doch. Ich habe ohnehin schon wieder drei neue, viel bessere Ideen im Kopf. Der hängt eh bald fest.",
+        "scores": { "pionier": 2 }
+      },
+      {
+        "text": "Ich suche danach unter vier Augen das Gespräch und sage ihm, dass mich das menschlich extrem enttäuscht hat.",
+        "scores": { "katalysator": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q21_teambuilding_horror",
+    "category": "team_leadership",
+    "question": "HR verordnet einen verpflichtenden 'Teambuilding-Workshop' mit Stuhlkreis und Gefühls-Karten. Was denkst du?",
+    "answers": [
+      {
+        "text": "Super! Endlich eine Gelegenheit, die unausgesprochenen Spannungen im Team moderiert aufzulösen.",
+        "scores": { "katalysator": 2 }
+      },
+      {
+        "text": "Welche Zeitverschwendung. Ich rechne innerlich aus, wie viel Umsatz die Firma gerade verbrennt, während wir hier sitzen.",
+        "scores": { "executor": 2 }
+      },
+      {
+        "text": "Ich mache artig mit, sage aber nur belanglose, sichere Dinge, um auf keinen Fall negativ aufzufallen.",
+        "scores": { "fear_status": 1, "fear_versagen": 1 }
+      },
+      {
+        "text": "Ich nutze die unstrukturierte Zeit, um mental komplett abzudriften und an meinen eigenen Projekten zu tüfteln.",
+        "scores": { "pionier": 2, "optimierer": 1 }
+      }
+    ]
+  },
+  {
+    "id": "q22_der_antwort_allen_fail",
+    "category": "team_leadership",
+    "question": "Es eskaliert ein E-Mail-Verteiler ('Allen antworten'). Die Töne werden rauer, der CC-Verteiler wächst. Deine Rolle?",
+    "answers": [
+      {
+        "text": "Ich schalte mich als Schlichter ein, wechsle auf den Telefonhörer und versuche, die Wogen offline zu glätten.",
+        "scores": { "katalysator": 2 }
+      },
+      {
+        "text": "Ich beende das Drama mit einer knallharten, extrem faktenbasierten Mail in Stichpunkten. Diskussion beendet.",
+        "scores": { "executor": 2 }
+      },
+      {
+        "text": "Ich hänge drei PDFs und ein Protokoll an, das zweifelsfrei beweist, dass meine Abteilung keine Schuld trifft.",
+        "scores": { "optimierer": 2 }
+      },
+      {
+        "text": "Ich habe die E-Mail-Kette nach der zweiten Mail archiviert und arbeite längst an etwas anderem.",
+        "scores": { "pionier": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q23_unbezahlte_ueberstunden",
+    "category": "team_leadership",
+    "question": "Dein Chef erwartet implizit (aber nicht vertraglich), dass du am Wochenende Mails checkst. Warum tust du es trotzdem?",
+    "answers": [
+      {
+        "text": "Weil ich Panik habe, dass am Montagmorgen ein riesiges Chaos auf mich wartet, das ich dann nicht mehr kontrollieren kann.",
+        "scores": { "optimierer": 2, "fear_versagen": 1 }
+      },
+      {
+        "text": "Weil die Kündigungswelle rollt und ich sicherstellen muss, dass ich als unverzichtbar gelte.",
+        "scores": { "fear_existenz": 2 }
+      },
+      {
+        "text": "Weil ich will, dass der Chef sieht, wie extrem committed ich bin. Das sichert mir meine Position im Alpha-Ranking.",
+        "scores": { "fear_status": 2, "executor": 1 }
+      },
+      {
+        "text": "Weil, wenn ich es nicht tue, die Arbeit an meinem armen Kollegen hängen bleibt. Und der ist eh schon am Limit.",
+        "scores": { "katalysator": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q24_onboarding",
+    "category": "team_leadership",
+    "question": "Du musst einen neuen Mitarbeiter einarbeiten. Was ist dein Ansatz?",
+    "answers": [
+      {
+        "text": "Ich übergebe ihm ein 50-seitiges, von mir geschriebenes Wiki und erwarte, dass er sich an die Prozesse hält.",
+        "scores": { "optimierer": 2 }
+      },
+      {
+        "text": "Ich lade ihn erstmal zum Kaffee ein, stelle ihn allen vor und sorge dafür, dass er sich emotional sicher fühlt.",
+        "scores": { "katalysator": 2 }
+      },
+      {
+        "text": "Ich erkläre ihm die große Vision, drücke ihm ein komplexes Problem in die Hand und schaue, ob er schwimmen kann.",
+        "scores": { "pionier": 2 }
+      },
+      {
+        "text": "Ich gebe ihm direkt eine harte, messbare Aufgabe. Wenn er die verbockt, weiß ich, woran ich bin.",
+        "scores": { "executor": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q25_fuehrungsstil",
+    "category": "team_leadership",
+    "question": "Wenn du absolut ehrlich bist: Was wäre dein größter Schwachpunkt, wenn du ein Team leiten müsstest?",
+    "answers": [
+      {
+        "text": "Ich würde mich davor drücken, hartes, negatives Feedback zu geben, weil ich Konflikte hasse.",
+        "scores": { "katalysator": 2, "fear_veraenderung": 1 }
+      },
+      {
+        "text": "Ich würde zu viel micromanagen, weil ich anderen einfach nicht zutraue, es so perfekt zu machen wie ich.",
+        "scores": { "optimierer": 2, "fear_versagen": 1 }
+      },
+      {
+        "text": "Ich wäre wahrscheinlich zu ungeduldig, harsch und würde Leute zu schnell feuern, die meine Zeit verschwenden.",
+        "scores": { "executor": 2 }
+      },
+      {
+        "text": "Ich würde im Chaos versinken, administrative Dinge vergessen und Leute mit meinen ständigen neuen Richtungswechseln überfordern.",
+        "scores": { "pionier": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q26_flurfunk",
+    "category": "team_leadership",
+    "question": "Auf dem Flur wird extrem toxisch über einen Kollegen gelästert, der nicht im Raum ist. Deine Haltung?",
+    "answers": [
+      {
+        "text": "Ich entziehe mich kommentarlos der Situation. Klatsch und Tratsch sind unprofessionell und ineffizient.",
+        "scores": { "optimierer": 2 }
+      },
+      {
+        "text": "Ich mache den Mund auf, sage hart meine Meinung dazu und beende die Lästerei augenblicklich.",
+        "scores": { "executor": 2 }
+      },
+      {
+        "text": "Ich bleibe stumm stehen, lache vielleicht aus Höflichkeit mit, fühle mich aber innerlich miserabel dabei.",
+        "scores": { "fear_status": 1, "katalysator": 1 }
+      },
+      {
+        "text": "Ich suche den betroffenen Kollegen später heimlich auf und versuche, ihn emotional aufzufangen.",
+        "scores": { "katalysator": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q27_delegation",
+    "category": "team_leadership",
+    "question": "Dein Chef delegiert ein massives 'No-Win-Projekt' (hohes Risiko, wenig Budget) komplett an dich ab. Warum nimmst du es an?",
+    "answers": [
+      {
+        "text": "Ich traue mich einfach nicht, meinem Chef ins Gesicht 'Nein' zu sagen.",
+        "scores": { "fear_versagen": 2, "katalysator": 1 }
+      },
+      {
+        "text": "Ich nutze es als Machthebel. Wenn ich das Ding rette, gehört der Ruhm mir und ich fordere mehr Gehalt.",
+        "scores": { "executor": 2, "fear_status": 1 }
+      },
+      {
+        "text": "Weil ich als Einziger im Team fähig bin, das Chaos strukturell in den Griff zu bekommen.",
+        "scores": { "optimierer": 2 }
+      },
+      {
+        "text": "Ich ignoriere die absurden Vorgaben einfach und nutze das Projekt als Sandkasten für eine völlig neue Methode.",
+        "scores": { "pionier": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q28_brainstorming",
+    "category": "team_leadership",
+    "question": "Brainstorming-Session: Jemand wirft eine völlig unrealistische, absurde Idee in den Raum. Deine Reaktion?",
+    "answers": [
+      {
+        "text": "Ich blocke sofort ab: 'Haben wir kein Budget für. Dauert zu lange. Nächster Vorschlag.'",
+        "scores": { "executor": 2 }
+      },
+      {
+        "text": "Ich steige voll ein und spinne die Idee noch viel verrückter weiter. Manchmal entsteht aus Wahnsinn Innovation.",
+        "scores": { "pionier": 2 }
+      },
+      {
+        "text": "Ich zeige auf, welche Compliance- und Prozess-Probleme diese Idee sofort nach sich ziehen würde.",
+        "scores": { "optimierer": 2 }
+      },
+      {
+        "text": "Ich schweige lieber. Selbst wenn ich die Idee gut finde, will ich mich nicht vor der Gruppe blamieren.",
+        "scores": { "fear_status": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q29_das_meeting_danach",
+    "category": "team_leadership",
+    "question": "Nach einem harten Meeting mit hitzigen Debatten gehst du zurück an deinen Platz. Was machst du als Erstes?",
+    "answers": [
+      {
+        "text": "Ich schreibe sofort ein Protokoll mit allen Entscheidungen und verteile es, damit niemand im Nachhinein zurückrudern kann.",
+        "scores": { "optimierer": 2, "executor": 1 }
+      },
+      {
+        "text": "Ich frage mich stundenlang, ob ich in Minute 14 zu harsch formuliert habe und ob mich Kollege X jetzt hasst.",
+        "scores": { "fear_versagen": 1, "katalysator": 2 }
+      },
+      {
+        "text": "Ich setze mich direkt an die Umsetzung der To-Dos. Reden ist vorbei, jetzt wird geliefert.",
+        "scores": { "executor": 2 }
+      },
+      {
+        "text": "Ich verwerfe alles, was im Meeting gesagt wurde, und überlege mir eine elegantere Lösung.",
+        "scores": { "pionier": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q30_der_grenzueberschreitende_kunde",
+    "category": "operations_clients",
+    "question": "Ein Kunde (oder Klient/Patient) wird extrem fordernd, ignoriert Absprachen und wird laut. Deine erste Reaktion?",
+    "answers": [
+      {
+        "text": "Ich fange seine Emotionen ab, bleibe extrem ruhig und versuche, ihn menschlich zu beruhigen, auch wenn er im Unrecht ist.",
+        "scores": { "katalysator": 2 }
+      },
+      {
+        "text": "Ich weise ihn eiskalt und messerscharf auf unsere vertraglichen Grenzen hin. Wenn er sich nicht benimmt, fliegt er.",
+        "scores": { "executor": 2 }
+      },
+      {
+        "text": "Ich dokumentiere den Vorfall sofort haargenau im System, damit mir später niemand vorwerfen kann, ich hätte falsch gehandelt.",
+        "scores": { "optimierer": 2, "fear_versagen": 1 }
+      },
+      {
+        "text": "Ich ignoriere die Standard-Prozesse und suche nach einem kreativen, unorthodoxen Loophole, um ihn schnell abzuwimmeln.",
+        "scores": { "pionier": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q31_die_leere_schreibtisch_panik",
+    "category": "operations_clients",
+    "question": "Es ist Freitagnachmittag, das Telefon klingelt nicht und du hast alle Aufgaben erledigt. Was fühlst du?",
+    "answers": [
+      {
+        "text": "Ein diffuses Unbehagen. Wenn ich nicht permanent liefere, merkt die Firma vielleicht, dass sie mich gar nicht braucht.",
+        "scores": { "fear_existenz": 2, "fear_versagen": 1 }
+      },
+      {
+        "text": "Herrlich! Ich nutze die Zeit, um endlich meine Ordnerstrukturen und Vorlagen für die nächste Woche zu perfektionieren.",
+        "scores": { "optimierer": 2 }
+      },
+      {
+        "text": "Ich fange aus reiner Langeweile an, ein völlig neues, unabgesprochenes Projekt oder System zu entwerfen.",
+        "scores": { "pionier": 2 }
+      },
+      {
+        "text": "Ich laufe durchs Büro (oder den Chat) und frage meine Kollegen, ob ich ihnen bei ihren Aufgaben helfen kann.",
+        "scores": { "katalysator": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q32_der_falsche_prozess",
+    "category": "operations_clients",
+    "question": "Du musst eine Aufgabe erledigen, aber der offizielle Firmen-Prozess dafür ist massiv veraltet und dauert dreimal so lange. Was tust du?",
+    "answers": [
+      {
+        "text": "Ich halte mich exakt an den Prozess. Regeln sind Regeln, und wenn was schiefgeht, bin ich wenigstens abgesichert.",
+        "scores": { "optimierer": 2, "fear_veraenderung": 1 }
+      },
+      {
+        "text": "Ich breche die Regel, mache es auf meine schnelle Art und sage niemandem etwas. Hauptsache, das Ergebnis stimmt.",
+        "scores": { "executor": 2 }
+      },
+      {
+        "text": "Ich schreibe ein 10-seitiges Konzept, wie man den Prozess revolutionieren könnte (das dann eh im Sande verläuft).",
+        "scores": { "pionier": 2 }
+      },
+      {
+        "text": "Ich traue mich nicht, vom Prozess abzuweichen, weil ich Angst vor dem Ärger mit der Compliance/dem Chef habe.",
+        "scores": { "fear_versagen": 2, "fear_status": 1 }
+      }
+    ]
+  },
+  {
+    "id": "q33_freitag_kurz_vor_feierabend",
+    "category": "operations_clients",
+    "question": "16:55 Uhr. Eine 'absolute Notfall-Mail' vom Chef kommt rein. Es ist kein echter Notfall, sondern nur schlechtes Timing. Was tust du?",
+    "answers": [
+      {
+        "text": "Ich mache es, während ich innerlich koche. Wenn ich es ablehne, verliere ich meinen Status als der 'zuverlässigste Mitarbeiter'.",
+        "scores": { "fear_status": 2, "optimierer": 1 }
+      },
+      {
+        "text": "Laptop zu. Das Wochenende beginnt. Schlechte Planung auf seiner Seite bedeutet keinen Notfall auf meiner Seite.",
+        "scores": { "executor": 2 }
+      },
+      {
+        "text": "Ich stürze mich drauf. Endlich etwas Chaos und Adrenalin statt der langweiligen Routine-Aufgaben von heute Morgen.",
+        "scores": { "pionier": 2 }
+      },
+      {
+        "text": "Ich mache es sofort. Die Angst, am Montag dafür vor versammelter Mannschaft degradiert zu werden, ist mir zu groß.",
+        "scores": { "fear_existenz": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q34_neue_software_ausgerollt",
+    "category": "operations_clients",
+    "question": "Die Geschäftsführung rollt eine teure, neue Software aus, die angeblich 'alles besser' machen soll. Dein erster Gedanke?",
+    "answers": [
+      {
+        "text": "Oh Gott. Meine ganzen selbstgebauten Excel-Listen und Routinen sind jetzt wertlos. Ich hasse das.",
+        "scores": { "fear_veraenderung": 2, "optimierer": 1 }
+      },
+      {
+        "text": "Ich probiere direkt aus, wie ich das System hacken, zweckentfremden oder für völlig andere Dinge nutzen kann.",
+        "scores": { "pionier": 2 }
+      },
+      {
+        "text": "Die Software ist zu langsam. Ich weigere mich, sie zu nutzen, bis sie meinen Workflow nicht mehr ausbremst.",
+        "scores": { "executor": 2 }
+      },
+      {
+        "text": "Ich melde mich freiwillig, um den älteren Kollegen, die jetzt völlig überfordert sind, bei der Umstellung zu helfen.",
+        "scores": { "katalysator": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q35_der_oeffentliche_fehler",
+    "category": "operations_clients",
+    "question": "Du hast einen messbaren, teuren Fehler gemacht. Es fällt in einem großen Meeting auf. Deine spontane Reaktion?",
+    "answers": [
+      {
+        "text": "Totale innere Schockstarre. Mein Imposter-Syndrom kickt mit 1000%. Ich wünschte, der Boden würde mich verschlucken.",
+        "scores": { "fear_versagen": 2 }
+      },
+      {
+        "text": "Ich fahre die Krallen aus und erkläre anhand von drei Variablen, warum das unter diesen Umständen unvermeidbar war.",
+        "scores": { "optimierer": 2, "fear_status": 1 }
+      },
+      {
+        "text": "Ich gebe es sofort und gnadenlos zu. 'Ja, mein Fehler. Passiert nicht nochmal. Hier ist der Plan, wie wir es reparieren.'",
+        "scores": { "executor": 2 }
+      },
+      {
+        "text": "Ich deklariere den Fehler sofort als 'Learning' oder 'ungeplanten Prototypen' und lenke die Diskussion auf eine neue Idee.",
+        "scores": { "pionier": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q36_die_junioren_gefahr",
+    "category": "operations_clients",
+    "question": "Ein hochmotivierter, jüngerer Mitarbeiter fängt in deinem Team an und ist extrem schnell. Was löst das tief in dir aus?",
+    "answers": [
+      {
+        "text": "Die nackte Angst, dass mein Gehalt zu hoch ist und sie mich bald durch diese billigere, hungrigere Version ersetzen.",
+        "scores": { "fear_existenz": 2 }
+      },
+      {
+        "text": "Ich finde es klasse. Ich nehme ihn unter meine Fittiche und versuche, ihn emotional und fachlich aufzubauen.",
+        "scores": { "katalysator": 2 }
+      },
+      {
+        "text": "Er nervt mich ein bisschen. Ihm fehlt die Struktur, er macht Leichtsinnsfehler und gefährdet unsere sauberen Prozesse.",
+        "scores": { "optimierer": 2 }
+      },
+      {
+        "text": "Konkurrenzkampf. Ich werde meine Performance hochschrauben, um glasklar zu zeigen, wer hier der Platzhirsch ist.",
+        "scores": { "executor": 2, "fear_status": 1 }
+      }
+    ]
+  },
+  {
+    "id": "q37_scope_creep",
+    "category": "operations_clients",
+    "question": "Ein Projekt (oder eine Aufgabe) ufert komplett aus. Ständig kommen neue Wünsche dazu, aber das Budget/die Zeit bleibt gleich.",
+    "answers": [
+      {
+        "text": "Ich setze ein knallhartes Stop-Schild. 'Wenn ihr Feature X wollt, streichen wir Y oder ihr zahlt mehr.'",
+        "scores": { "executor": 2 }
+      },
+      {
+        "text": "Ich arbeite heimlich 12 Stunden am Tag, um alle Wünsche irgendwie doch zu erfüllen, weil ich niemanden enttäuschen will.",
+        "scores": { "katalysator": 1, "fear_versagen": 2 }
+      },
+      {
+        "text": "Ich verliere komplett die Nerven, weil mein sauberer Zeitplan und meine Struktur jetzt endgültig ruiniert sind.",
+        "scores": { "optimierer": 2 }
+      },
+      {
+        "text": "Ich liebe es. Je chaotischer und größer das Ding wird, desto mehr Platz habe ich, um unkonventionelle Lösungen zu bauen.",
+        "scores": { "pionier": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q38_der_visionaere_chef",
+    "category": "operations_clients",
+    "question": "Der CEO hält eine flammende, extrem visionäre Rede über die Zukunft der Firma – aber ohne jeglichen konkreten Plan.",
+    "answers": [
+      {
+        "text": "Ich bin extrem gehypt. Endlich denkt hier mal jemand groß und sprengt die alten, langweiligen Grenzen!",
+        "scores": { "pionier": 2 }
+      },
+      {
+        "text": "Ich verdrehe innerlich die Augen. Wieder nur Buzzwords, aber die eigentliche Arbeit bleibt eh an Leuten wie mir hängen.",
+        "scores": { "executor": 2 }
+      },
+      {
+        "text": "Ich fange sofort an, eine komplexe Excel-Tabelle zu bauen, um zu berechnen, wie wir diese Wahnsinns-Idee überhaupt umsetzen sollen.",
+        "scores": { "optimierer": 2 }
+      },
+      {
+        "text": "Ich mache mir ernsthaft Sorgen, wie viel extra Druck und Überstunden diese 'Vision' jetzt wieder für mein Team bedeutet.",
+        "scores": { "katalysator": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q39_das_externe_angebot",
+    "category": "operations_clients",
+    "question": "Ein Headhunter schreibt dir auf LinkedIn und bietet ein Telefonat an. Warum lehnst du (meistens) ab?",
+    "answers": [
+      {
+        "text": "Weil der Teufel, den ich kenne, besser ist als der Teufel, den ich nicht kenne. Ich hasse Veränderungen.",
+        "scores": { "fear_veraenderung": 2 }
+      },
+      {
+        "text": "Weil ich felsenfest davon überzeugt bin, dass ich das Assessment-Center im neuen Job eh nicht überstehen würde.",
+        "scores": { "fear_versagen": 2 }
+      },
+      {
+        "text": "Weil ich bei meiner aktuellen Firma schon eine gewisse 'Seniorität' ausstrahle. Ich fange nicht irgendwo wieder als Neuling an.",
+        "scores": { "fear_status": 2 }
+      },
+      {
+        "text": "Weil meine Probezeit dort bedeuten würde, dass ich sechs Monate lang keinen Kündigungsschutz habe. Zu riskant.",
+        "scores": { "fear_existenz": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q40_der_energie_vampir",
+    "category": "burnout_stress",
+    "question": "Was saugt im Arbeitsalltag deine Batterien am schnellsten und brutalsten leer?",
+    "answers": [
+      {
+        "text": "Sinnlose, bürokratische Hürden und langsame Prozesse, die mich wie Kaugummi am Laufen hindern.",
+        "scores": { "pionier": 2, "executor": 1 }
+      },
+      {
+        "text": "Wenn Kollegen ihre emotionalen Probleme, Beschwerden und ihren Frust ständig bei mir abladen.",
+        "scores": { "katalysator": 2 }
+      },
+      {
+        "text": "Unklare, sich ständig ändernde Anweisungen, bei denen ich keine saubere Struktur aufbauen kann.",
+        "scores": { "optimierer": 2 }
+      },
+      {
+        "text": "Menschen, die chronisch inkompetent sind, aber trotzdem Entscheidungen treffen dürfen.",
+        "scores": { "executor": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q41_die_krankschreibung",
+    "category": "burnout_stress",
+    "question": "Du wachst morgens mit leichten, aber spürbaren Krankheitssymptomen auf. Was tust du?",
+    "answers": [
+      {
+        "text": "Ich arbeite trotzdem (im Home-Office). Ich habe Panik, dass wichtige Bälle fallen gelassen werden und ich die Schuld trage.",
+        "scores": { "fear_versagen": 2, "optimierer": 1 }
+      },
+      {
+        "text": "Ich melde mich krank. Gesundheit geht vor. Aber ich habe den ganzen Tag ein furchtbar schlechtes Gewissen gegenüber dem Team.",
+        "scores": { "katalysator": 2 }
+      },
+      {
+        "text": "Ich beiße die Zähne zusammen und gehe hin. Wer ständig krankfeiert, wird bei der nächsten Beförderung übergangen.",
+        "scores": { "fear_status": 2 }
+      },
+      {
+        "text": "Ich arbeite trotzdem. In der heutigen Wirtschaftslage will ich dem Chef keinen Grund geben, an mir zu zweifeln.",
+        "scores": { "fear_existenz": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q42_stress_kompensation",
+    "category": "burnout_stress",
+    "question": "Nach einer absoluten Horror-Woche im Job: Wie betäubst du den Frust am Wochenende am ehesten?",
+    "answers": [
+      {
+        "text": "Ich kaufe mir teure Dinge oder gönne mir Luxus (Essen, Kleidung, Auto). Ich muss mir beweisen, wofür ich das alles mache.",
+        "scores": { "fear_status": 2 }
+      },
+      {
+        "text": "Ich isoliere mich komplett, liege auf der Couch und brauche absolute Stille, um mein Nervensystem runterzufahren.",
+        "scores": { "katalysator": 2, "fear_veraenderung": 1 }
+      },
+      {
+        "text": "Ich mache einen Weiterbildungskurs, lerne etwas Neues oder plane die nächste Woche, um endlich das Gefühl von Kontrolle zu haben.",
+        "scores": { "optimierer": 1, "fear_versagen": 2 }
+      },
+      {
+        "text": "Ich stürze mich in ein radikal anderes, intensives Hobby (Sport, Party, Basteln), um den Kopf mit Gewalt freizubekommen.",
+        "scores": { "pionier": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q43_schlaflos_um_drei",
+    "category": "burnout_stress",
+    "question": "Es ist 3 Uhr nachts, du starrst an die Decke und kannst nicht schlafen. Welcher Gedanke kreist in deinem Kopf?",
+    "answers": [
+      {
+        "text": "'Habe ich in dieser E-Mail gestern einen entscheidenden Fehler gemacht? Was, wenn der Chef das morgen sieht?'",
+        "scores": { "fear_versagen": 2, "optimierer": 1 }
+      },
+      {
+        "text": "'Wie komme ich aus diesem Hamsterrad raus, ohne meine finanzielle Sicherheit komplett zu ruinieren?'",
+        "scores": { "fear_existenz": 2 }
+      },
+      {
+        "text": "'Ich hätte im Meeting viel härter durchgreifen müssen. Morgen werde ich diesem Idioten mal die Meinung geigen.'",
+        "scores": { "executor": 2 }
+      },
+      {
+        "text": "'Eigentlich müssten wir das gesamte Produkt ganz anders aufziehen... was wäre, wenn wir Feature X einbauen?'",
+        "scores": { "pionier": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q44_der_breaking_point",
+    "category": "burnout_stress",
+    "question": "Wann kündigst du (zumindest innerlich) in einem Job sofort?",
+    "answers": [
+      {
+        "text": "Wenn meine jahrelange, fehlerfreie Loyalität ignoriert wird und ein lauter Blender an mir vorbeizieht.",
+        "scores": { "optimierer": 2, "fear_status": 1 }
+      },
+      {
+        "text": "Wenn ich das Gefühl habe, dass ich in diesem toxischen Umfeld langsam zu einem schlechteren, zynischen Menschen werde.",
+        "scores": { "katalysator": 2 }
+      },
+      {
+        "text": "Wenn ich für jeden kleinsten Schritt um Erlaubnis fragen muss und wie ein unmündiges Kind kontrolliert werde.",
+        "scores": { "pionier": 2 }
+      },
+      {
+        "text": "Wenn mir die Verantwortung für ein Ziel gegeben wird, aber nicht die nötige Macht oder das Budget, um es zu erreichen.",
+        "scores": { "executor": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q45_quiet_quitting",
+    "category": "burnout_stress",
+    "question": "Dienst nach Vorschrift ('Quiet Quitting'): Wenn du völlig frustriert bist, wie sieht dein Protest aus?",
+    "answers": [
+      {
+        "text": "Ich werde extrem formal. Ich arbeite exakt 100% meiner Jobbeschreibung ab – keine Minute mehr, keine Aufgabe extra.",
+        "scores": { "optimierer": 2 }
+      },
+      {
+        "text": "Ich nutze die Zeit im Büro heimlich für eigene Projekte, Side-Hustles oder bilde mich auf Firmenkosten weiter.",
+        "scores": { "pionier": 2 }
+      },
+      {
+        "text": "Ich werde hochgradig zynisch, mache offene, sarkastische Bemerkungen und zeige dem Management meine Verachtung.",
+        "scores": { "executor": 2 }
+      },
+      {
+        "text": "Ich höre auf, die 'Gute Seele' zu sein. Ich organisiere keine Geburtstage mehr und tröste keine Kollegen im Flur.",
+        "scores": { "katalysator": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q46_die_urlaubs_stoerung",
+    "category": "burnout_stress",
+    "question": "Du liegst am Strand im Urlaub. Dein Handy klingelt, der Chef ist dran. Was passiert?",
+    "answers": [
+      {
+        "text": "Ich gehe nicht ran, aber mein Puls rast. Ich ruiniere mir den halben Strandtag mit der Angst, was wohl passiert ist.",
+        "scores": { "fear_versagen": 2, "katalysator": 1 }
+      },
+      {
+        "text": "Ich gehe ran. Ein Teil von mir genießt es sogar zu sehen, dass der Laden ohne mich sofort in Flammen steht.",
+        "scores": { "executor": 2, "fear_status": 1 }
+      },
+      {
+        "text": "Ich gehe ran, weil ich schlichtweg Panik habe, dass es negative Konsequenzen für meinen Job hat, wenn ich ihn ignoriere.",
+        "scores": { "fear_existenz": 2 }
+      },
+      {
+        "text": "Ich drücke ihn eiskalt weg. Mein Handy ist auf 'Nicht stören' und ich denke keine Sekunde weiter darüber nach.",
+        "scores": { "pionier": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q47_warnung_vom_arzt",
+    "category": "burnout_stress",
+    "question": "Dein Arzt sagt dir ins Gesicht: 'Ihre Stresswerte sind gefährlich hoch. Sie müssen kürzertreten.' Deine ehrliche Ausrede?",
+    "answers": [
+      {
+        "text": "'Ich weiß, aber wenn ich jetzt vom Gas gehe, verliere ich meinen hart erarbeiteten Platz in der Hierarchie.'",
+        "scores": { "fear_status": 2 }
+      },
+      {
+        "text": "'Leichter gesagt als getan. Mein Gehalt zahlt die Kredite. Ich kann es mir schlicht nicht leisten, krank zu werden.'",
+        "scores": { "fear_existenz": 2 }
+      },
+      {
+        "text": "'Ich muss nur noch dieses eine, riesige Projekt abschließen und mein System optimieren, dann wird es besser.'",
+        "scores": { "fear_veraenderung": 2, "optimierer": 1 }
+      },
+      {
+        "text": "'Das geht nicht. Wenn ich ausfalle, bricht mein gesamtes Team zusammen. Die brauchen mich gerade.'",
+        "scores": { "fear_versagen": 1, "katalysator": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q48_die_leere_auszeichnung",
+    "category": "burnout_stress",
+    "question": "Anstelle eines dringend nötigen Bonus gibt dir HR einen feuchten Händedruck und den 'Resilience & Team Spirit Award'. Deine Reaktion?",
+    "answers": [
+      {
+        "text": "Absolute Wut. Ich will messbare Resultate, Geld oder Befugnisse. Ein laminiertes Stück Papier ist eine Beleidigung.",
+        "scores": { "executor": 2 }
+      },
+      {
+        "text": "Ich lächle höflich, lege ihn in die Schublade und weiß genau, dass das nur eine billige Taktik ist, um uns ruhigzustellen.",
+        "scores": { "optimierer": 2 }
+      },
+      {
+        "text": "Tief in mir drinnen freue ich mich trotzdem ein bisschen. Immerhin hat überhaupt mal jemand gesehen, wie hart ich kämpfe.",
+        "scores": { "katalysator": 2, "fear_status": 1 }
+      },
+      {
+        "text": "Ich nutze die Aufmerksamkeit bei der Übergabe eiskalt, um vor versammelter Mannschaft mein neues Projekt zu pitchen.",
+        "scores": { "pionier": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q49_der_falsche_fokus",
+    "category": "burnout_stress",
+    "question": "Wenn du im Job extrem im Stress bist, welchen Fehler machst du am ehesten?",
+    "answers": [
+      {
+        "text": "Ich verliere mich im Perfektionismus. Ich formatiere Excel-Zellen, anstatt das eigentliche, große Problem zu lösen.",
+        "scores": { "optimierer": 2, "fear_versagen": 1 }
+      },
+      {
+        "text": "Ich werde zu einem Dampfwalzen-Tyrannen. Ich laufe über Kollegen hinweg und verletze Gefühle, um ans Ziel zu kommen.",
+        "scores": { "executor": 2 }
+      },
+      {
+        "text": "Ich sage zu allem 'Ja', übernehme die Aufgaben von anderen und ertrinke letztendlich in einem Berg von Fremdarbeit.",
+        "scores": { "katalysator": 2 }
+      },
+      {
+        "text": "Ich fange fünf neue Lösungswege gleichzeitig an, mache keinen davon fertig und stürze das Team ins völlige Chaos.",
+        "scores": { "pionier": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q50_die_sonntags_luege",
+    "category": "burnout_stress",
+    "question": "Welche Lebenslüge erzählst du dir am Sonntagabend am häufigsten selbst?",
+    "answers": [
+      {
+        "text": "'Nächste Woche wird bestimmt ruhiger. Wenn ich erstmal Projekt X vom Tisch habe, entspannt sich alles.' (Wird es nie).",
+        "scores": { "fear_veraenderung": 2, "optimierer": 1 }
+      },
+      {
+        "text": "'Ich mache das jetzt noch 2-3 Jahre für den Lebenslauf/das Geld, und dann suche ich mir etwas, das mich wirklich erfüllt.'",
+        "scores": { "fear_existenz": 2, "pionier": 1 }
+      },
+      {
+        "text": "'Ich bin halt einfach noch nicht gut/schnell genug. Ich muss mich nächste Woche einfach noch mehr anstrengen.'",
+        "scores": { "fear_versagen": 2, "katalysator": 1 }
+      },
+      {
+        "text": "'Eigentlich bin ich unverzichtbar. Die Firma würde ohne mich untergehen, deshalb muss ich dieses Theater ertragen.'",
+        "scores": { "fear_status": 2, "executor": 1 }
+      }
+    ]
+  },
+ {
+    "id": "q51_das_veraltete_werkzeug",
+    "category": "industry_pseo",
+    "question": "Dein primäres Arbeitswerkzeug (sei es eine Software, eine Maschine oder ein System) ist völlig veraltet und stürzt ständig ab. Was tust du?",
+    "answers": [
+      {
+        "text": "Ich baue mir einen inoffiziellen Workaround oder bastle eine eigene Lösung, um das Problem zu umgehen.",
+        "scores": { "pionier": 2 }
+      },
+      {
+        "text": "Ich mache massiv Druck beim Management. Ohne anständiges Material weigere ich mich, die volle Leistung zu bringen.",
+        "scores": { "executor": 2 }
+      },
+      {
+        "text": "Ich dokumentiere jeden Absturz penibel, damit mir am Ende niemand die Verzögerungen in die Schuhe schieben kann.",
+        "scores": { "optimierer": 2, "fear_versagen": 1 }
+      },
+      {
+        "text": "Ich richte mich irgendwie damit ein und versuche den Kollegen zu helfen, die technisch noch weniger damit klarkommen.",
+        "scores": { "katalysator": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q52_die_sinnlose_kpi",
+    "category": "industry_pseo",
+    "question": "Das Management führt eine völlig absurde Kennzahl zur Leistungsmessung ein, die die echte Qualität deiner Arbeit ignoriert. Deine Taktik?",
+    "answers": [
+      {
+        "text": "Ich optimiere meine Arbeit eiskalt darauf, diese Zahl zu maximieren. Wenn sie Bullshit messen wollen, kriegen sie Bullshit.",
+        "scores": { "executor": 2 }
+      },
+      {
+        "text": "Ich verfalle in Stress. Ich will echte Qualität liefern, aber gleichzeitig die Vorgaben erfüllen. Ich verbrenne mich zwischen beiden Stühlen.",
+        "scores": { "katalysator": 1, "fear_versagen": 2 }
+      },
+      {
+        "text": "Ich tracke die Zahl haargenau und halte mich strikt an die neue Vorgabe, auch wenn der Prozess dadurch bürokratischer wird.",
+        "scores": { "optimierer": 2, "fear_veraenderung": 1 }
+      },
+      {
+        "text": "Ich mache mich offen darüber lustig und lege ungefragt ein völlig anderes, besseres Mess-Konzept vor.",
+        "scores": { "pionier": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q53_die_schwierige_zielgruppe",
+    "category": "industry_pseo",
+    "question": "Du hast es mit einem extrem schwierigen Stakeholder (Kunde, Klient oder Patient) zu tun, der deine Expertise blockiert. Wie reagierst du?",
+    "answers": [
+      {
+        "text": "Ich kappe die emotionale Bindung. Ich liefere genau das, was im Vertrag oder Prozess steht – keinen Millimeter mehr.",
+        "scores": { "executor": 2 }
+      },
+      {
+        "text": "Ich nehme es mir sehr zu Herzen. Ich investiere noch mehr Zeit, um eine persönliche Ebene zu finden und ihn zu 'knacken'.",
+        "scores": { "katalysator": 2 }
+      },
+      {
+        "text": "Ich halte mich exakt an die Richtlinien. Solange ich keinen formalen Fehler mache, bin ich sicher.",
+        "scores": { "optimierer": 2, "fear_existenz": 1 }
+      },
+      {
+        "text": "Ich probiere einen völlig unkonventionellen, vielleicht sogar riskanten Ansatz aus, um das Muster zu durchbrechen.",
+        "scores": { "pionier": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q54_der_akute_notfall",
+    "category": "industry_pseo",
+    "question": "Fünf Minuten vor Feierabend passiert ein massiver, unvorhergesehener Notfall in deinem Aufgabenbereich. Was passiert in dir?",
+    "answers": [
+      {
+        "text": "Adrenalin pur. Endlich echtes Chaos! Ich fahre zur Hochform auf und liebe es, das Problem kreativ zu lösen.",
+        "scores": { "pionier": 2 }
+      },
+      {
+        "text": "Ich übernehme sofort ungefragt das Kommando, delegiere hart und schalte meine Empathie komplett ab.",
+        "scores": { "executor": 2 }
+      },
+      {
+        "text": "Ich bin gestresst, spule aber wie eine Maschine exakt das Notfall-Protokoll ab, für das ich trainiert/ausgebildet bin.",
+        "scores": { "optimierer": 2 }
+      },
+      {
+        "text": "Mein erster Gedanke ist die Sorge um die Menschen, Kunden oder Kollegen, die jetzt unter dieser Krise leiden.",
+        "scores": { "katalysator": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q55_abteilungs_krieg",
+    "category": "industry_pseo",
+    "question": "Eine andere Abteilung wirft euch eine völlig unrealistische, schlecht geplante Aufgabe über den Zaun.",
+    "answers": [
+      {
+        "text": "Ich lehne es aggressiv ab. 'Nicht unser Problem. Eure Planung ist miserabel. Kommt wieder, wenn ihr eure Hausaufgaben gemacht habt.'",
+        "scores": { "executor": 2 }
+      },
+      {
+        "text": "Ich mache es zähneknirschend, um einen offenen Krieg zwischen den Abteilungen zu vermeiden und den Frieden zu wahren.",
+        "scores": { "katalysator": 2, "fear_status": 1 }
+      },
+      {
+        "text": "Ich schreibe eine seitenlange E-Mail, in der ich beweise, dass dies gegen alle Absprachen und SLAs verstößt.",
+        "scores": { "optimierer": 2 }
+      },
+      {
+        "text": "Ich ignoriere ihre dummen Vorgaben komplett und baue die Lösung so, wie ich sie ohnehin für zukunftsfähiger halte.",
+        "scores": { "pionier": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q56_die_dinnerparty_identitaet",
+    "category": "industry_pseo",
+    "question": "Auf einer Party fragt jemand, was deine Kernaufgabe als {{JOB_NAME}} eigentlich wirklich ist. Was ist deine ehrliche, sarkastische Antwort?",
+    "answers": [
+      {
+        "text": "'Ich sorge dafür, dass der Laden nicht unter dem Gewicht seiner eigenen Ineffizienz und Inkompetenz zusammenbricht.'",
+        "scores": { "executor": 2, "fear_status": 1 }
+      },
+      {
+        "text": "'Ich bin eigentlich nur professioneller Feuerlöscher und der seelische Mülleimer für mein Team.'",
+        "scores": { "katalysator": 2 }
+      },
+      {
+        "text": "'Ich schiebe Daten/Vorgänge von A nach B und achte darauf, dass uns am Ende niemand verklagen kann.'",
+        "scores": { "optimierer": 2, "fear_existenz": 1 }
+      },
+      {
+        "text": "'Ich versuche, Innovationen voranzutreiben, verbringe aber 80% meiner Zeit damit, gegen Bürokratie zu kämpfen.'",
+        "scores": { "pionier": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q57_theorie_vs_praxis",
+    "category": "industry_pseo",
+    "question": "Ein Neuling kommt frisch aus der Ausbildung/Uni und zitiert ständig Theorien, die in eurer Praxis null funktionieren.",
+    "answers": [
+      {
+        "text": "Ich rasiere ihn verbal. 'Vergiss alles, was du gelernt hast. Hier draußen weht ein anderer Wind.'",
+        "scores": { "executor": 2 }
+      },
+      {
+        "text": "Ich lasse ihn bewusst (aber gesichert) einmal voll gegen die Wand fahren, damit er die Lektion selbst lernt.",
+        "scores": { "pionier": 2 }
+      },
+      {
+        "text": "Ich nehme ihn beiseite und übersetze ihm schonend die Theorie in die harten Fakten unserer Praxis, ohne ihn zu demotivieren.",
+        "scores": { "katalysator": 2 }
+      },
+      {
+        "text": "Ich drücke ihm unsere internen Prozess-Dokumente in die Hand. Wer sich an die hält, macht keine Fehler.",
+        "scores": { "optimierer": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q58_das_gekappte_budget",
+    "category": "industry_pseo",
+    "question": "Eure wichtigsten Ressourcen (Budget, Material oder Personal) werden plötzlich um 20% gekürzt. Was tust du?",
+    "answers": [
+      {
+        "text": "Ich warne das Management schriftlich, dass die Qualität nun exakt um 20% sinken wird. Mein Problem ist das nicht.",
+        "scores": { "optimierer": 2, "fear_versagen": 1 }
+      },
+      {
+        "text": "Ich arbeite unbezahlte Überstunden, um den Mangel irgendwie zu kompensieren, weil ich das Team und die Klienten nicht im Stich lassen kann.",
+        "scores": { "katalysator": 2, "fear_existenz": 1 }
+      },
+      {
+        "text": "Ich streiche sofort die 20% der Aufgaben, die am wenigsten Wert bringen, ohne jemanden um Erlaubnis zu fragen.",
+        "scores": { "executor": 2 }
+      },
+      {
+        "text": "Ich sehe es als sportliche Einschränkung. Oft entstehen durch Budgetkürzungen die innovativsten Hacks.",
+        "scores": { "pionier": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q59_der_branchentrend",
+    "category": "industry_pseo",
+    "question": "Ein neuer, disruptiver Trend (z.B. Künstliche Intelligenz oder neue Gesetze) rollt durch deine Branche. Deine innere Haltung?",
+    "answers": [
+      {
+        "text": "Faszination. Ich bin der Erste, der es ausprobiert, kaputt macht und schaut, was wir Verrücktes damit bauen können.",
+        "scores": { "pionier": 2 }
+      },
+      {
+        "text": "Kühle Berechnung. Ich nutze es nur, wenn es hart messbar Zeit oder Geld spart. Den Hype ignoriere ich.",
+        "scores": { "executor": 2 }
+      },
+      {
+        "text": "Angst. Wird mein mühsam aufgebautes Expertenwissen dadurch bald entwertet oder ersetzt?",
+        "scores": { "fear_veraenderung": 2, "fear_versagen": 1 }
+      },
+      {
+        "text": "Sorge. Geht durch diese Automatisierung nicht das letzte bisschen Menschlichkeit in unserem Beruf verloren?",
+        "scores": { "katalysator": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q60_der_geheime_karrierewunsch",
+    "category": "industry_pseo",
+    "question": "Wenn du für deine Karriere als {{JOB_NAME}} einen Zauberstab hättest, was würdest du dir heute wünschen?",
+    "answers": [
+      {
+        "text": "Eine Position mit absoluter Entscheidungsgewalt, maximalem Budget und absolut null Micromanagement von oben.",
+        "scores": { "executor": 2, "fear_status": 1 }
+      },
+      {
+        "text": "Eine Rolle, in der ich jeden Tag die Zukunft erfinden darf, aber jemand anderes den ganzen Verwaltungs-Mist erledigt.",
+        "scores": { "pionier": 2 }
+      },
+      {
+        "text": "Einen bombensicheren, perfekt strukturierten Job ohne Überraschungen, den ich um 17 Uhr im Büro lassen kann.",
+        "scores": { "optimierer": 2, "fear_existenz": 2 }
+      },
+      {
+        "text": "Eine Rolle, in der ich echten, tiefgreifenden Einfluss auf Menschen habe, ohne dabei psychisch auszubrennen.",
+        "scores": { "katalysator": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q61_die_kuendigungs_fantasie",
+    "category": "career_change_exit",
+    "question": "Wenn du im Büro sitzt und ans Kündigen denkst: Wie sieht deine heimliche, innere Fantasie aus?",
+    "answers": [
+      {
+        "text": "Ich werfe meinem Chef die gesammelten, harten Fakten seiner Inkompetenz auf den Tisch und gehe erhobenen Hauptes.",
+        "scores": { "executor": 2 }
+      },
+      {
+        "text": "Ich verschwinde einfach leise, ohne Drama. Ich träume davon, dass am nächsten Tag auf einmal mein ganzes Wissen fehlt.",
+        "scores": { "optimierer": 2, "fear_status": 1 }
+      },
+      {
+        "text": "Ich mache mich mit einer radikalen, verrückten Idee selbstständig und beweise allen, dass mein Weg der bessere war.",
+        "scores": { "pionier": 2 }
+      },
+      {
+        "text": "Ich habe diese Fantasie oft, aber dann denke ich an meine Lieblingskollegen und bekomme sofort ein schlechtes Gewissen.",
+        "scores": { "katalysator": 2, "fear_veraenderung": 1 }
+      }
+    ]
+  },
+  {
+    "id": "q62_das_gegenangebot",
+    "category": "career_change_exit",
+    "question": "Du reichst die Kündigung ein. Dein Chef gerät in Panik und bietet dir sofort 20% mehr Gehalt an. Was passiert?",
+    "answers": [
+      {
+        "text": "Ich bleibe. 20% mehr Sicherheit sind ein massives Polster für meine Fixkosten. Emotionen hin oder her.",
+        "scores": { "fear_existenz": 2, "optimierer": 1 }
+      },
+      {
+        "text": "Ich lehne eiskalt ab. Zu spät. Wer mich erst bezahlt, wenn ich gehe, hat meinen Respekt längst verloren.",
+        "scores": { "executor": 2 }
+      },
+      {
+        "text": "Ich bleibe. Aber nur, weil mir der Gedanke, mich in einer völlig neuen Firma neu beweisen zu müssen, eigentlich Panik macht.",
+        "scores": { "fear_versagen": 2, "fear_veraenderung": 1 }
+      },
+      {
+        "text": "Ich nehme das Geld, verhandle noch einen neuen Titel dazu und ruhe mich darauf aus, um meinen Marktwert zu pushen.",
+        "scores": { "fear_status": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q63_quereinstieg_blockade",
+    "category": "career_change_exit",
+    "question": "Du denkst über einen kompletten Quereinstieg in eine andere Branche nach. Was hält dich am meisten davon ab?",
+    "answers": [
+      {
+        "text": "Die Angst, dass ich dort finanziell wieder ganz unten anfangen muss und meinen Lebensstandard verliere.",
+        "scores": { "fear_existenz": 2 }
+      },
+      {
+        "text": "Der Verlust meiner 'Seniorität'. Ich will nicht der unwissende Anfänger sein, dem 25-Jährige die Welt erklären.",
+        "scores": { "fear_status": 2, "executor": 1 }
+      },
+      {
+        "text": "Das fehlende formelle Zeugnis. Ohne das exakte Papier / Zertifikat für die neue Branche traue ich mir das nicht zu.",
+        "scores": { "optimierer": 2, "fear_versagen": 1 }
+      },
+      {
+        "text": "Ich habe so viele verschiedene Interessen, dass ich mich ohnehin nicht auf eine einzige neue Richtung festlegen kann.",
+        "scores": { "pionier": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q64_bewerbungs_horror",
+    "category": "career_change_exit",
+    "question": "Was ist für dich der absolute Horror-Gedanke bei einem anstehenden Bewerbungsgespräch?",
+    "answers": [
+      {
+        "text": "Dass ich fachliche Fragen gestellt bekomme, auf die ich keine perfekte Antwort habe, und als 'Betrüger' entlarvt werde.",
+        "scores": { "fear_versagen": 2, "optimierer": 1 }
+      },
+      {
+        "text": "Dass ich mich künstlich verbiegen und dieses falsche 'Wir sind eine große Familie'-HR-Spiel mitspielen muss.",
+        "scores": { "executor": 2 }
+      },
+      {
+        "text": "Dass ich eine Absage bekomme. Mein Ego verkraftet es nur schwer, abgelehnt zu werden, wenn ich mich schon mal öffne.",
+        "scores": { "fear_status": 2 }
+      },
+      {
+        "text": "Dass ich gar nicht weiß, was ich antworte, wenn sie fragen: 'Wo sehen Sie sich in 5 Jahren?' (Ich hasse solche Pläne).",
+        "scores": { "pionier": 2, "fear_veraenderung": 1 }
+      }
+    ]
+  },
+  {
+    "id": "q65_lebenslauf_luege",
+    "category": "career_change_exit",
+    "question": "Wenn wir deinen Lebenslauf schonungslos analysieren: Wo liegt die größte 'Schwachstelle' aus deiner Sicht?",
+    "answers": [
+      {
+        "text": "Ich wirke auf dem Papier wie ein starrer Bürokrat, weil meine echten Problemlöser-Qualitäten in kein Zertifikat passen.",
+        "scores": { "optimierer": 2 }
+      },
+      {
+        "text": "Ich verkaufe mich unter Wert. Ich nutze bescheidene Worte, obwohl ich de facto jahrelang ganze Abteilungen getragen habe.",
+        "scores": { "katalysator": 2, "fear_versagen": 1 }
+      },
+      {
+        "text": "Mein Lebenslauf ist kraus. Ich habe öfter gewechselt oder Dinge abgebrochen, wenn mir die starren Strukturen gereicht haben.",
+        "scores": { "pionier": 2 }
+      },
+      {
+        "text": "Er hat eigentlich keine Schwachstelle, er ist stark. Aber ich habe Sorge, dass meine Gehaltsvorstellungen HR abschrecken.",
+        "scores": { "executor": 2, "fear_existenz": 1 }
+      }
+    ]
+  },
+  {
+    "id": "q66_das_sabbatical",
+    "category": "career_change_exit",
+    "question": "Die Firma zwingt dich zu 6 Monaten bezahltem Sabbatical. Was tust du nach Woche 2?",
+    "answers": [
+      {
+        "text": "Ich baue direkt mein eigenes Projekt oder Side-Business auf, weil mein Gehirn ohne kreativen Output verkümmert.",
+        "scores": { "pionier": 2 }
+      },
+      {
+        "text": "Ich helfe Freunden, engagiere mich sozial oder verfalle in die Rolle des 'Kümmerers' im privaten Umfeld.",
+        "scores": { "katalysator": 2 }
+      },
+      {
+        "text": "Ich nutze die Zeit, um mich obsessiv weiterzubilden (Zertifikate, Kurse), um meinen Marktwert nach der Rückkehr zu steigern.",
+        "scores": { "optimierer": 1, "fear_versagen": 1 }
+      },
+      {
+        "text": "Ich mache absolut nichts. Ich optimiere mein Privatleben wie ein Projekt und genieße die totale Herrschaft über meine Zeit.",
+        "scores": { "executor": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q67_freelancing_traum",
+    "category": "career_change_exit",
+    "question": "Thema Selbstständigkeit / Freelancing. Warum hast du den Schritt noch nicht komplett gewagt?",
+    "answers": [
+      {
+        "text": "Ich bin kein Verkäufer. Ich hasse es, mich selbst vermarkten zu müssen und Kunden hinterherzurennen.",
+        "scores": { "optimierer": 2, "fear_status": 1 }
+      },
+      {
+        "text": "Die Steuern, die Buchhaltung, die rechtlichen Risiken. Eine fehlerhafte Rechnung und man steht mit einem Bein im Gefängnis.",
+        "scores": { "fear_existenz": 2, "fear_versagen": 1 }
+      },
+      {
+        "text": "Ich brauche ein festes Team um mich herum. Die Isolation als Einzelkämpfer würde mich emotional auslaugen.",
+        "scores": { "katalysator": 2, "fear_veraenderung": 1 }
+      },
+      {
+        "text": "Ich hab's längst probiert oder mache es nebenbei. Meine Hauptsorge ist eher, dass ich mich dabei schnell langweile.",
+        "scores": { "pionier": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q68_der_tropfen_im_fass",
+    "category": "career_change_exit",
+    "question": "Wir alle haben eine Toleranzgrenze. Welche kleine, fast schon lächerliche Sache würde dich sofort in die Kündigung treiben?",
+    "answers": [
+      {
+        "text": "Wenn man mir mein Equipment vorschreibt (z.B. den billigsten Windows-Laptop aufzwingt) und damit meinen Workflow zerstört.",
+        "scores": { "executor": 2 }
+      },
+      {
+        "text": "Wenn mein Chef meine Excel-Tabelle oder meinen sauberen Prozess löscht, um ihn durch ein wackeliges Provisorium zu ersetzen.",
+        "scores": { "optimierer": 2 }
+      },
+      {
+        "text": "Wenn mir verboten wird, eine simple, 5-minütige Aufgabe auf meine Art zu lösen, weil 'der Prozess das nicht vorsieht'.",
+        "scores": { "pionier": 2 }
+      },
+      {
+        "text": "Wenn ein Kollege aus meinem Team ungerechtfertigt angeschrien wird und ich als Einziger zusehen muss.",
+        "scores": { "katalysator": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q69_die_gehaltsverhandlung",
+    "category": "career_change_exit",
+    "question": "Du hast morgen das alles entscheidende Gespräch über mehr Gehalt. Wie bereitest du dich heute Abend vor?",
+    "answers": [
+      {
+        "text": "Ich schreibe eine eiskalte Liste meiner KPIs und Erfolge. Wenn sie nicht zahlen, kenne ich meinen Exit-Plan.",
+        "scores": { "executor": 2 }
+      },
+      {
+        "text": "Ich übe im Spiegel, weil ich furchtbare Angst habe, im entscheidenden Moment weich zu werden oder einzuknicken.",
+        "scores": { "katalysator": 1, "fear_veraenderung": 2 }
+      },
+      {
+        "text": "Ich sammle Gehaltstabellen aus dem Internet, um meine Forderung lückenlos und objektiv rechtfertigen zu können.",
+        "scores": { "optimierer": 2, "fear_versagen": 1 }
+      },
+      {
+        "text": "Ich überlege mir eher, welche neuen Freiheiten, Budgets oder Remote-Tage ich aushandeln kann. Geld allein reicht mir nicht.",
+        "scores": { "pionier": 2, "fear_status": 1 }
+      }
+    ]
+  },
+  {
+    "id": "q70_der_neustart",
+    "category": "career_change_exit",
+    "question": "Wenn du morgen in einer völlig neuen Firma, in einem völlig neuen [Cluster] anfängst: Was ist deine absolute Prio 1?",
+    "answers": [
+      {
+        "text": "Echtes Vertrauen. Ich will nie wieder jede kleine Entscheidung rechtfertigen müssen.",
+        "scores": { "pionier": 2 }
+      },
+      {
+        "text": "Menschliche Wärme. Ich brauche ein Team, das sich nicht permanent in den Rücken fällt.",
+        "scores": { "katalysator": 2 }
+      },
+      {
+        "text": "Absolute Klarheit. Ich will exakt wissen, woran ich gemessen werde und was der Prozess ist.",
+        "scores": { "optimierer": 2 }
+      },
+      {
+        "text": "Geld und Autonomie. Ich will für meine Ergebnisse fair entlohnt werden und in Ruhe arbeiten können.",
+        "scores": { "executor": 2 }
+      }
+    ]
+  }
+]

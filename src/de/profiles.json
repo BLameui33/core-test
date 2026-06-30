@@ -1,0 +1,370 @@
+[
+  {
+    "profile_id": "pionier_existenzangst",
+    "base_type": "Der Strategische Pionier",
+    "fear_mutation": "Existenzangst",
+    "name": "Der kompromittierte Pionier",
+    "headline": "Du hast brillante Ideen, aber du hast dich für das Schmerzensgeld am Monatsende verkauft.",
+    "corporate_view": "Du gilst im Unternehmen als visionärer Kopf, der weit über den Tellerrand der eigenen Abteilung hinausdenkt. Man schätzt dich dafür, dass du Ineffizienzen sofort erkennst, das große Ganze verstehst und theoretisch das Potenzial hast, verkrustete Geschäftsmodelle radikal neu zu erfinden. Für das Management bist du ein wertvolles Asset, weil du den Finger zielsicher in die Wunde legst und strategische blinde Flecken aufdeckst.",
+    "shadow_conflict": "Du hast dich mit dem System arrangiert – und genau das tötet dich innerlich jeden Tag ein Stück mehr. Du siehst messerscharf, wie die Firma sehenden Auges gegen die Wand fährt oder wie absurd und dumm die etablierten Prozesse sind. Aber du schweigst in den entscheidenden Meetings. Warum? Weil die Angst um deine Fixkosten, die nächste Ratenzahlung, deinen Lebensstandard und die trügerische Sicherheit deines Arbeitsvertrages viel größer ist als dein eigentlicher Drang nach Innovation. Du schiebst innerlich nur noch Dienst nach Vorschrift, obwohl dein Gehirn für Disruption und echten Wandel gemacht ist. Dieser goldene Käfig, den du dir selbst gebaut hast, macht dich zunehmend zynisch, verbittert und raubt dir deine kreative Lebensenergie.",
+    "action_steps": [
+      "Kappe die emotionale Rendite: Hör auf, wertvolle mentale Energie in ein System zu stecken, das deine Ideen ohnehin nicht umsetzt. Mache deinen Job weiterhin gut und professionell, aber ziehe deine emotionale Bindung konsequent ab. Die Firma ist nicht deine Familie, sie ist dein aktueller Geldgeber.",
+      "Baue dein 'Fuck-You-Money' auf: Reduziere deinen Lebensstandard temporär und baue dir aggressiv ein finanzielles Polster auf. Erst wenn du realistisch 6 Monate ohne dieses Gehalt überleben kannst, wird dein Gehirn die Panik ausschalten und du traust dich, wieder echte Risiken einzugehen und deine Meinung zu sagen.",
+      "Kanalisere deine Disruption: Nutze deine aufgestaute, brachliegende Kreativität für ein heimliches Side-Business. Alternativ: Bereite deinen Exit vor und bewirb dich in stark wachstumsorientierten Startups oder Scale-ups, die genau diesen unbändigen Hunger nach Innovation belohnen, statt ihn zu ersticken."
+    ],
+    "monetization_hook": {
+      "topic": "Nebenberuflich Gründen & Finanzielle Unabhängigkeit",
+      "keywords": [
+        "Fuck You Money",
+        "Side Hustle",
+        "Finanzielle Freiheit",
+        "Nebenberuflich selbstständig"
+      ]
+    }
+  },
+  {
+    "profile_id": "pionier_versagensangst",
+    "base_type": "Der Strategische Pionier",
+    "fear_mutation": "Versagensangst",
+    "name": "Der blockierte Pionier",
+    "headline": "Du planst die Revolution in der Schublade, weil du absolute Panik vor der Realität hast.",
+    "corporate_view": "Man kennt dich im Unternehmen als extrem tiefgründigen Analytiker und Architekten. Du lieferst niemals halbgare Konzepte ab. Die Kollegen bewundern, wie du neue Strategien, Produkte oder Prozesse bis ins absolut letzte Detail durchdenkst, bevor sie das Licht der Welt erblicken. Du bist der Garant für intellektuelle Tiefe und wasserdichte Planungen.",
+    "shadow_conflict": "Dein Imposter-Syndrom hat dich im absoluten Würgegriff. Auf deiner Festplatte schlummern hunderte angefangene Konzepte, brillante Ideen und Visionen – aber du drückst niemals auf 'Launch'. Du redest dir selbst und anderen ein, das Produkt oder die Idee sei 'einfach noch nicht perfekt'. Die brutale Wahrheit ist eine andere: Du hast panische Angst davor, dass deine Idee in der Realität scheitert, von Kritikern zerrissen wird und man dich am Ende als Betrüger entlarvt. Dein vielgelobter Perfektionismus ist keine Qualitätskontrolle mehr, sondern deine genialste Ausrede, um niemals ins echte Risiko gehen zu müssen. Du versteckst dich hinter der Planung.",
+    "action_steps": [
+      "Etabliere das 80%-Paradigma: Zwinge dich zur ungemütlichen Wahrheit: 'Done is better than perfect'. Veröffentliche, verschicke oder präsentiere deine nächste Idee ganz bewusst in einem unfertigen Zustand. Lerne, das Unbehagen der Unvollkommenheit auszuhalten.",
+      "Entkopple deinen Selbstwert: Trenne deinen persönlichen Wert strikt von deiner Arbeit. Wenn ein concept von dir scheitert, bedeutet das nicht, dass du als Mensch ein Versager bist. Es bedeutet lediglich, dass eine sachliche Hypothese am Markt oder im Team getestet und widerlegt wurde.",
+      "Finde deinen Gegenpol: Suche dir einen pragmatischen Umsetzungspartner (einen 'Executor'). Du brauchst jemanden an deiner Seite, der deine Ideen gnadenlos und schnell auf die Straße bringt und den Knopf drückt, während du noch in der Schleife deiner Selbstzweifel hängst."
+    ],
+    "monetization_hook": {
+      "topic": "Imposter-Syndrom besiegen & Execution-Strategien",
+      "keywords": [
+        "Imposter Syndrom",
+        "Lean Startup",
+        "Perfektionismus ablegen",
+        "Projekte abschließen"
+      ]
+    }
+  },
+  {
+    "profile_id": "pionier_statusverlust",
+    "base_type": "Der Strategische Pionier",
+    "fear_mutation": "Statusverlust",
+    "name": "Der inszenierte Pionier",
+    "headline": "Du liebst es, als der kreative Rebell gefeiert zu werden – solange dein Firmenwagen nicht in Gefahr ist.",
+    "corporate_view": "Du trittst im beruflichen Kontext als extrem charismatischer Vordenker auf, der Teams, Abteilungen und Stakeholder mühelos mitreißen kann. Man bewundert deine seltene Gabe, komplexe, trockene Innovationen in spannende Visionen zu verpacken und sie exzellent nach oben an das Top-Management zu verkaufen. Du bist das leuchtende Aushängeschild für Fortschritt.",
+    "shadow_conflict": "Du bist zu einem Meister der Selbstinszenierung geworden. Du redest laut und gerne über 'New Work', Agilität, Disruption und flache Hierarchien. Du bist derjenige, der die flammenden, inspirierenden Reden in den Townhall-Meetings hält. Aber sobald es hart auf hart kommt – sobald du für eine echte Überzeugung deine eigene Position, dein Budget oder deinen Ruf beim Vorstand riskieren müsstest – knickst du ein. Du fällst sofort zurück in das politische Spiel der alten Hierarchien. Deine angebliche Rebellion ist oft nur clever kalkulierte PR in eigener Sache. Tief im Inneren fürchtest du nichts mehr, als deinen Status zu verlieren und in der grauen Bedeutungslosigkeit des Mittelmanagements zu verschwinden.",
+    "action_steps": [
+      "Arbeite im Schatten: Hör auf, Innovation als reines Werkzeug für dein Ego und deine Sichtbarkeit zu nutzen. Zwinge dich, ein wichtiges Projekt umzusetzen, das der Firma massiv hilft, für das du aber offiziell keinen Credit, keine Bühne und kein Lob bekommst.",
+      "Umarme den Konflikt: Verlasse deine politische Komfortzone. Echter Wandel bedeutet immer, dass man Privilegien angreift und sich Feinde macht. Akzeptiere die Tatsache, dass du als wahrer Pionier nicht der Liebling aller Vorstände und Kollegen sein kannst.",
+      "Der Ego-Check: Stelle dir vor jedem neuen Vorhaben die harte, ehrliche Frage: Geht es dir bei diesem Thema wirklich um die Sache und den Fortschritt – oder polierst du gerade nur die Keywords für dein LinkedIn-Profil auf?"
+    ],
+    "monetization_hook": {
+      "topic": "Authentisches Leadership & Ego-Management",
+      "keywords": [
+        "Ego is the Enemy",
+        "Authentic Leadership",
+        "Servant Leadership",
+        "Statusangst"
+      ]
+    }
+  },
+  {
+    "profile_id": "pionier_veraenderungsangst",
+    "base_type": "Der Strategische Pionier",
+    "fear_mutation": "Veränderungsangst",
+    "name": "Der frustrierte Träumer",
+    "headline": "Du jammerst jeden Tag über die bürokratische Hölle – aber ironischerweise bist du viel zu bequem, um zu gehen.",
+    "corporate_view": "Man kennt dich im System als verlässlichen, wenn auch kritischen Ideengeber. Du kennst die Schwachstellen, die Flaschenhälse und die historischen Fehler des eigenen Systems absolut auswendig und kannst sie pointiert benennen. Jeder weiß: Wenn man wissen will, warum ein Prozess hakt, muss man dich fragen.",
+    "shadow_conflict": "Du bist der lauteste und wortgewandteste Kritiker in der Kaffeeküche. Du leidest ehrlich und spürbar unter der Excel-Hölle, den endlosen Freigabeschleifen und den starren Regeln deines Unternehmens. Dein Standard-Satz lautet: 'Man müsste diesen ganzen Laden hier eigentlich mal abreißen und völlig neu bauen.' Aber tief in dir drin hast du massive, lähmende Angst davor, deine gemütlichen, hochgradig vorhersehbaren Routinen zu verlassen. Dein ständiges Jammern ist paradoxerweise zu deiner sichersten Komfortzone geworden. Ein echter Neustart in einer anderen Firma würde nämlich bedeuten, dass du den Welpenschutz verlierst und plötzlich wieder knallhart beweisen müsstest, wie gut du in der Praxis wirklich bist.",
+    "action_steps": [
+      "Das 30-Tage-Ultimatum: Setze dir heute eine harte Deadline. Entweder du hast in genau 30 Tagen deinen Lebenslauf aktualisiert und die erste Bewerbung abgeschickt, oder du verlierst ab heute das moralische Recht, dich jemals wieder über deinen Job oder deinen Chef zu beschweren. Akzeptanz oder Exit.",
+      "Mikro-Veränderungen trainieren: Trainiere den erschlafften Muskel der Veränderung im Kleinen. Brich ganz bewusst deine trivialen täglichen Routinen auf (anderer Arbeitsweg, andere Tools, andere Pausenzeiten), um deinem Gehirn die Angst vor dem Kontrollverlust zu nehmen.",
+      "Töte die Nostalgie: Hör auf, die Vergangenheit der Firma ('Früher war hier alles agiler') zu romantisieren. Akzeptiere die kalte Realität: Das System wird sich für dich nicht mehr ändern. Du bist derjenige, der sich bewegen muss."
+    ],
+    "monetization_hook": {
+      "topic": "Entscheidungsfindung & Radikaler Quereinstieg",
+      "keywords": [
+        "Entscheidungen treffen",
+        "Komfortzone verlassen",
+        "Quereinstieg wagen",
+        "Karrierewechsel"
+      ]
+    }
+  },
+  {
+    "profile_id": "executor_existenzangst",
+    "base_type": "Der Pragmatische Executor",
+    "fear_mutation": "Existenzangst",
+    "name": "Der dressierte Macher",
+    "headline": "Du könntest den Laden im Alleingang drehen, aber du beißt dir auf die Zunge, weil du den Gehaltsscheck brauchst.",
+    "corporate_view": "Für das Unternehmen bist du ein absolutes Arbeitstier und eine extrem verlässliche Säule im operativen Tagesgeschäft. Du bist derjenige, der schwammige, realitätsfremde Vorgaben des Managements in harte, messbare Ergebnisse übersetzt und dafür sorgt, dass die Zahlen am Ende des Quartals auf Kurs bleiben.",
+    "shadow_conflict": "Du kochst innerlich jeden Tag vor Wut. Du siehst die eklatante Ineffizienz, erträgst die dummen, praxisfernen Entscheidungen des Managements und trägst Kollegen mit, die einfach nicht abliefern. Eigentlich schreit jeder Instinkt in dir danach, hart durchzugreifen, Tabula Rasa zu machen und den Tisch abzuräumen. Aber du tust es nicht. Deine ständige, pochende Angst um den Jahresbonus, den laufenden Immobilienkredit oder deinen hohen Lebensstandard zwingt dich in die Unterordnung. Du schluckst deinen instinktiven Pragmatismus herunter, machst zähneknirschend die unsinnigsten Aufgaben mit und verwandelst dich dabei langsam, aber sicher in einen abgestumpften, verbitterten Zyniker.",
+    "action_steps": [
+      "Stelle die goldene Falle ab: Senke sofort deine Fixkosten. Deine finanzielle Abhängigkeit ist der absolut einzige Grund, warum du dir diese Inkompetenz von oben noch gefallen lässt. Freiheit beginnt auf dem Konto, nicht im Kopf.",
+      "Emotionale Deinvestition: Hör auf, dich emotional in Projekte reinzuhängen, wenn dir die Befugnis fehlt, sie wirklich zu steuern. Liefere exakt das ab, wofür du bezahlt wirst, und schalte danach mental komplett ab.",
+      "Wechsle das Spielfeld: Du gehörst in eine rein performance-getriebene Umgebung (z.B. Vertrieb, Interim-Management, oder ein eigenes Business). Such dir ein Umfeld, in dem es keine Büropolitik gibt, sondern in dem dein gnadenloser Pragmatismus direkt in Geld und messbaren Erfolg übersetzt wird."
+    ],
+    "monetization_hook": {
+      "topic": "Stoizismus im Job & Performance-Karrieren",
+      "keywords": [
+        "Stoizismus",
+        "Interim Management",
+        "Provisionsmodelle",
+        "Emotionale Distanz im Job"
+      ]
+    }
+  },
+  {
+    "profile_id": "executor_versagensangst",
+    "base_type": "Der Pragmatische Executor",
+    "fear_mutation": "Versagensangst",
+    "name": "Der tyrannische Macher",
+    "headline": "Du reißt alle Aufgaben an dich, weil du anderen nicht vertraust – und verbrennst in deinem eigenen Mikromanagement.",
+    "corporate_view": "Du wirst im Unternehmen als extrem durchsetzungsstarke Führungspersönlichkeit wahrgenommen. Du übernimmst ohne jegliches Zögern die volle Verantwortung für hochkritische Projekte, gehst voran und treibst das Team scheinbar unermüdlich zu Höchstleistungen an. Wenn es brennt, ruft man dich.",
+    "shadow_conflict": "Du tarnst deine nackte Panik vor dem Kontrollverlust geschickt als 'Effizienz' und 'Qualitätsanspruch'. Tief in dir fürchtest du pausenlos, dass etwas schiefgehen könnte und das auf dich zurückfällt. Deshalb delegierst du niemals wirklich. Du gibst Aufgaben zwar ab, aber bist letztlich der Flaschenhals deines eigenen Erfolgs, weil du am Ende des Tages jede E-Mail, jede Präsentation und jedes Dokument doch noch einmal selbst nachts um 23 Uhr korrigierst. Du redest dir ein, dein Team sei inkompetent, aber die toxische Wahrheit ist: Du gibst ihnen gar nicht erst den Raum, eigenständig zu arbeiten und Fehler zu machen, weil DU vor den Konsequenzen eines Fehlers zitterst.",
+    "action_steps": [
+      "Die 80%-Regel als Gesetz: Akzeptiere endlich: Eine Aufgabe, die von einem Mitarbeiter zu 80% so gut erledigt wird wie von dir, ist kein Verlust an Qualität – es ist ein massiver Gewinn für deine eigene, begrenzte Lebenszeit.",
+      "Kontrollierten Schmerz zulassen: Lasse ganz bewusst und absichtlich einen kleineres, unwichtiges Projekt gegen die Wand fahren oder toleriere einen sichtbaren Fehler in deinem Team. Du musst erleben, dass die Welt davon nicht zerstört wird.",
+      "Architekt statt Handwerker: Wechsle deine Identität. Du bist nicht länger der beste 'Ausführende'. Du bist jetzt ein 'System-Architekt'. Deine Aufgabe ist es, robuste Prozesse zu bauen, die auch dann funktionieren, wenn du nicht im Raum bist."
+    ],
+    "monetization_hook": {
+      "topic": "Effektive Delegation & Systematisierung",
+      "keywords": [
+        "Delegieren lernen",
+        "Mikromanagement ablegen",
+        "Führungskompetenz",
+        "Systeme aufbauen"
+      ]
+    }
+  },
+  {
+    "profile_id": "executor_statusverlust",
+    "base_type": "Der Pragmatische Executor",
+    "fear_mutation": "Statusverlust",
+    "name": "Der territoriale Macher",
+    "headline": "Du verwechselst Führung mit Dominanz, weil du panische Angst hast, im Ranking nach unten zu rutschen.",
+    "corporate_view": "Man sieht dich in der Organisation als hochkompetitiven Alpha-Spieler, der immer gewinnen will und meistens auch gewinnt. Du sicherst Marktanteile, gewinnst die härtesten Verhandlungen und verteidigst die Interessen und Budgets deiner eigenen Abteilung nach außen hin extrem hart und kompromisslos.",
+    "shadow_conflict": "Dein Ego ist dein größter und gefährlichster Blinder Fleck. Du misst deinen persönlichen Wert ausschließlich an der Höhe deines Budgets, an deinem Jobtitel und daran, wer im entscheidenden Meeting das letzte Wort hat. Du walzt andere Kollegen rhetorisch platt und reißt die Erfolge des Teams an dich. Nicht, weil es für die Sache oder die Firma das Beste wäre, sondern weil du unfassbare, ständige Angst hast, dass ein anderer, jüngerer oder lauterer Alpha dir den Rang abläuft. Dein Umfeld respektiert dich zwar für deine Härte und deine Ergebnisse, aber hinter deinem Rücken existiert keine echte Loyalität. Eigentlich wartet dort nur jeder darauf, dass du irgendwann stolperst.",
+    "action_steps": [
+      "Kollaboration statt Krieg: Hör auf, gegen dein eigenes Team oder andere Abteilungen zu kämpfen. Wahre, souveräne Stärke zeigt sich nicht darin, andere klein zu halten, sondern fähige Leute neben dir zu dulden und sie sogar wachsen zu lassen.",
+      "Radikales Zuhör-Training: Zwinge dich im nächsten wichtigen Meeting dazu, drei Minuten lang absolut niemandem ins Wort zu fallen, keine Miene zu verziehen und keinen eigenen Lösungsvorschlag zu machen. Ertrage die Stille und lass andere glänzen.",
+      "Reflektiere die Skalierbarkeit: Führen durch Angst und Dominanz funktioniert kurzfristig und bringt schnelle Zahlen. Führen durch tiefen Respekt und psychologische Sicherheit ist jedoch das Einzige, was langfristig skaliert und Burnouts verhindert."
+    ],
+    "monetization_hook": {
+      "topic": "Moderne Führung & Machtdynamiken",
+      "keywords": [
+        "Machtspiele im Büro",
+        "Servant Leadership",
+        "Emotionale Intelligenz für Führungskräfte",
+        "Ego is the enemy"
+      ]
+    }
+  },
+  {
+    "profile_id": "executor_veraenderungsangst",
+    "base_type": "Der Pragmatische Executor",
+    "fear_mutation": "Veränderungsangst",
+    "name": "Der sture Macher",
+    "headline": "Du verteidigst deine alten Methoden mit Zähnen und Klauen, weil du Angst hast, im Neuen wieder ein Anfänger zu sein.",
+    "corporate_view": "Du bist der Fels in der Brandung. Du besitzt unschätzbares, tiefes Erfahrungswissen über die operativen Abläufe und weißt als einer der Wenigen noch genau, wie und warum das Kerngeschäft seit Jahren profitabel funktioniert. Wenn das System wackelt, bist du der verlässliche Anker.",
+    "shadow_conflict": "Du bist der unangefochtene Meister deiner aktuellen Werkzeuge, Excel-Listen und Prozesse. Keiner macht dir etwas vor, du kriegst die Dinge blind und schneller hin als jeder andere. Aber sobald neue Methoden – wie Künstliche Intelligenz, agile Frameworks oder neue Cloud-Software – in den Raum geworfen werden, mauerst du massiv. Du tust das in Meetings lautstark als 'neumodischen Bullshit' ab, der 'in der Praxis bei uns sowieso niemals funktioniert'. Die bittere Wahrheit hinter dieser Arroganz: Du hast einfach nur furchtbare Angst davor, deinen hart erarbeiteten Expertenstatus über Nacht zu verlieren und vor den jüngeren Kollegen noch einmal als dummer Anfänger bei Null starten zu müssen.",
+    "action_steps": [
+      "Der Realitäts-Check: Akzeptiere die harte Realität des Marktes: Wer stur in der Vergangenheit lebt, wird in der nahen Zukunft nicht mehr bezahlt. Dein heutiges, starres Prozesswissen entwertet sich rasend schnell.",
+      "Das heimliche Labor: Nimm dir ab sofort jede Woche zwei Stunden feste Blockzeit im Kalender, um gezielt ein neues, disruptives Tool aus deiner Branche zu erlernen. Mach das notfalls völlig heimlich, bis du dich sicher genug fühlst, um es im Team zu zeigen.",
+      "Reverse Mentoring nutzen: Hör auf, die Arbeitsweise junger Kollegen arrogant abzuwerten. Mach sie stattdessen zu deinen Mentoren für neue Technologien und KI. Im Gegenzug bringst du ihnen dein unbezahlbares strategisches Branchenwissen bei."
+    ],
+    "monetization_hook": {
+      "topic": "Zukunftskompetenzen & KI im Management",
+      "keywords": [
+        "KI für Führungskräfte",
+        "Change Management",
+        "Reverse Mentoring",
+        "Agile Methoden"
+      ]
+    }
+  },
+  {
+    "profile_id": "optimierer_existenzangst",
+    "base_type": "Der Strukturelle Optimierer",
+    "fear_mutation": "Existenzangst",
+    "name": "Der unsichtbare Gefangene",
+    "headline": "Du machst die Arbeit von drei Leuten, wirst bezahlt wie einer, und hast zu viel Angst, etwas daran zu ändern.",
+    "corporate_view": "Du bist ein extrem loyaler und absolut fehlerfreier Mitarbeiter. Du bildest das unsichtbare, aber extrem sichere Fundament der Abteilung. Du bist derjenige, dem man all die undankbaren, kleinteiligen Hintergrundaufgaben auf den Tisch legen kann, weil das Management genau weiß: Du wirst sie klaglos, pünktlich und in Perfektion abarbeiten.",
+    "shadow_conflict": "Du bist im absolut perfekten Hamsterrad gefangen. Du weißt rational ganz genau, dass du massiv unterbezahlt bist und das System deine Gutmütigkeit schamlos ausnutzt. Aber du schluckst es herunter und schweigst. Deine Angst vor finanzieller Unsicherheit, vor dem Stress eines Jobwechsels oder vor dem 'Risiko' der Probezeit bei einem neuen Arbeitgeber ist so übermächtig, dass du lieber das bekannte, vertraute Elend erträgst. Deine heimliche Überlebensstrategie: Du hoffst inständig darauf, dass dein Chef irgendwann 'von ganz allein' merkt, wie unfassbar wertvoll du bist und dir von sich aus eine Gehaltserhöhung anbietet. Spoiler-Alarm: Das wird niemals passieren.",
+    "action_steps": [
+      "Beende das Warten auf den 'Belohner': Im Business wird nicht Leistung fair entlohnt, sondern ausschließlich der verhandelte Marktwert. Niemand schenkt dir Geld für leises Abarbeiten. Du musst deinen Wert aktiv, fast schon geschäftsmäßig einfordern.",
+      "Führe ein Leistungs-Tagebuch: Dokumentiere ab sofort (für mindestens eine Woche) absolut jede Aufgabe, die über deinen eigentlichen Vertrag hinausgeht. Übersetze diese Aufgaben gedanklich in konkret eingesparte Kosten oder verhinderte Krisen für die firma. Das ist deine Verhandlungsmasse.",
+      "Das strategische Nein: Übe das 'Nein'-Sagen in einem sicheren Rahmen. Wenn die nächste ungeplante 'Kannst-du-mal-kurz'-Aufgabe über den Zaun geworfen wird, antworte: 'Mache ich gerne, aber dafür bleibt Projekt X heute zwingend liegen. Deine Priorisierung.'"
+    ],
+    "monetization_hook": {
+      "topic": "Gehaltsverhandlung für Introvertierte",
+      "keywords": [
+        "Gehalt verhandeln als Introvertierter",
+        "Nein sagen lernen",
+        "Grenzen setzen im Job",
+        "Marktwert ermitteln"
+      ]
+    }
+  },
+  {
+    "profile_id": "optimierer_versagensangst",
+    "base_type": "Der Strukturelle Optimierer",
+    "fear_mutation": "Versagensangst",
+    "name": "Der paralysierte Perfektionist",
+    "headline": "Du formatierst Excel-Zellen um 22 Uhr, weil du panische Angst hast, dass ein kleiner Fehler dich den Job kostet.",
+    "corporate_view": "Du bist der unangefochtene Meister der Qualitätskontrolle. Du erkennst operative Risiken, logische Lücken und Compliance-Probleme, lange bevor sie in der echten Welt einen Schaden anrichten können. Wenn du etwas abgibst, weiß jeder im Team: Das ist der absolute Gold-Standard.",
+    "shadow_conflict": "Was von außen wie vorbildliche Ambition und Fleiß aussieht, ist in Wahrheit ein massives psychologisches Schutzschild. Dein Perfektionismus ist krankhaft geworden. Du hast panische, fast schon physische Angst davor, dass dir jemand einen Fehler nachweisen könnte und du vor allen anderen als inkompetent entlarvt wirst. Deshalb baust du lückenlose, übertriebene Protokolle, sicherst dich in CC-Mails lieber dreifach ab und kontrollierst die Arbeit deiner Kollegen heimlich nach, anstatt in den Feierabend zu gehen. Dieses Verhalten raubt dir unfassbar viel Lebensenergie. Du verbrennst innerlich aus der reinen, ununterbrochenen Angst vor Kritik.",
+    "action_steps": [
+      "Brutales Pareto-Prinzip (80/20): Wende diese Regel schonungslos an. Perfektion ab der 80%-Marke kostet dich exponentiell mehr Zeit und Nerven, aber die harte Realität ist: Niemand außer dir sieht diesen marginalen Unterschied. Er ist dem Business egal.",
+      "Fehler-Toleranz-Training: Schicke ganz bewusst und absichtlich einen internen, unwichtigen Entwurf an einen Kollegen ab, in dem noch ein kleiner Formatierungs- oder Tippfehler steckt. Beobachte, was passiert. Du musst erleben, dass dein Ruf davon nicht zerstört wird.",
+      "Pragmatismus über Over-Engineering: Hör auf, dich durch künstlich aufgeblasene Komplexität unangreifbar machen zu wollen. Ein schnell und pragmatisch gelöstes Problem hat für ein Unternehmen einen weitaus höheren Wert als ein zu 100% perfekt dokumentiertes, aber blockiertes Problem."
+    ],
+    "monetization_hook": {
+      "topic": "Perfektionismus ablegen & Zeitmanagement",
+      "keywords": [
+        "Pareto Prinzip",
+        "Imposter Syndrom überwinden",
+        "Overthinking stoppen",
+        "Angst vor Kritik"
+      ]
+    }
+  },
+  {
+    "profile_id": "optimierer_statusverlust",
+    "base_type": "Der Strukturelle Optimierer",
+    "fear_mutation": "Statusverlust",
+    "name": "Der verbitterte Experte",
+    "headline": "Du hasst die lauten Blender, die ständig befördert werden – weigerst dich aber aus Stolz, selbst ins Rampenlicht zu treten.",
+    "corporate_view": "Man betrachtet dich im Team als die stille, tiefe Wissensquelle des Unternehmens. Du bist der absolute Fach-Experte, an dem niemand vorbeikommt, wenn ein Thema inhaltlich wirklich komplex, kritisch oder technisch anspruchsvoll wird. Du bist das verlässliche, menschliche Archiv der Firma.",
+    "shadow_conflict": "Du bist unfassbar frustriert und zynisch geworden. Du siehst jeden Tag mit an, wie Leute, die fachlich nicht einmal einen Bruchteil deines Wissens besitzen, die dicken Jobtitel und Gehälter kassieren – nur weil sie besser reden können und die richtigen Leute kennen. Du verachtest diese 'Blender' zutiefst. Aber dein eigenes Ego steht dir massiv im Weg: Du hältst aktive Selbstvermarktung für 'unprofessionell', 'billig' oder 'schleimig'. Du redest dir ein: 'Wirklich gute Arbeit muss ganz allein für sich selbst sprechen.' Das tut sie in der echten Welt aber nicht. Deine stolze Verweigerung, das politische Spiel des Unternehmens zumindest in Ansätzen mitzuspielen, macht dich unsichtbar – und lässt dich auf der Stelle treten.",
+    "action_steps": [
+      "Spielregeln akzeptieren: Verabschiede dich von deiner Naivität. In der Karriere gilt: Wahrnehmung ist Realität. Eigene Sichtbarkeit aufzubauen ist kein 'schmutziger Trick', sondern ein völlig legitimer und notwendiger Teil deines Jobs.",
+      "Die 5-Minuten-Regel: Nimm dir fest vor, in jedem einzelnen Meeting innerhalb der ersten 5 Minuten das Wort zu ergreifen – und wenn es nur eine laute, kluge Verständnisfrage ist. Das etabliert deine akustische und physische Präsenz im Raum.",
+      "Erfolge claimen: Wenn du ein massives Problem im Hintergrund gelöst hast, schließt du nicht einfach schweigend das Ticket. Du schickst eine proaktive Mail an die relevanten Stakeholder, in der subtil, aber glasklar kommuniziert wird, dass DU diesen Ausfall verhindert hast."
+    ],
+    "monetization_hook": {
+      "topic": "Selbst-PR & Sichtbarkeit für stille Performer",
+      "keywords": [
+        "Sichtbarkeit für Introvertierte",
+        "Personal Branding im Job",
+        "Büropolitik verstehen",
+        "Leise Menschen starke Wirkung"
+      ]
+    }
+  },
+  {
+    "profile_id": "optimierer_veraenderungsangst",
+    "base_type": "Der Strukturelle Optimierer",
+    "fear_mutation": "Veränderungsangst",
+    "name": "Der starre Bürokrat",
+    "headline": "Du verteidigst völlig veraltete Regeln wie eine Festung, weil dich das Chaos der neuen Arbeitswelt unfassbar überfordert.",
+    "corporate_view": "Du bist in der Abteilung der Garant für Ordnung. Ein Fels in der Brandung, der akribisch dafür sorgt, dass bei all den hippen agilen Transformationen und wilden Ideen des Managements das tatsächliche Kerngeschäft nicht zusammenbricht. Du sicherst die notwendige Stabilität und Compliance.",
+    "shadow_conflict": "Sobald im Meeting das Wort 'Agilität', 'Umstrukturierung' oder 'Neue Software-Einführung' fällt, schnürt es dir förmlich den Hals zu. Du liebst und brauchst absolute Vorhersehbarkeit. Du hast dir über viele Jahre ein perfektes, sicheres Nest aus komplexen Excel-Makros, eigenen Ordnerstrukturen und festen Abläufen gebaut. Hier bist du der uneingeschränkte Meister. Wenn sich jetzt alles radikal ändert, verlierst du deine totale Kontrolle und deinen Status als 'wissender Experte'. Genau deshalb blockierst du notwendige Neuerungen extrem oft – meistens geschickt getarnt unter dem unangreifbaren Deckmantel von 'Compliance-Bedenken' oder 'Qualitätssicherung'. In Wahrheit hast du einfach nur nackte Angst, im neuen, dynamischen System plötzlich nutzlos zu sein.",
+    "action_steps": [
+      "Vom Blocker zum Architekten: Hör auf, dich wie ein Felssturz gegen den Strom zu stellen. Du kannst die Digitalisierung nicht aufhalten. Aber du kannst mit deinem Struktur-Talent derjenige sein, der den Übergang sicher und fehlerfrei organisiert.",
+      "Die Rolle des Übersetzers: Ernenne dich proaktiv selbst zum 'Übersetzer' zwischen dem alten und dem neuen System. Dein immenses Wissen über historische Fehler und versteckte Fallstricke ist absolutes Gold wert, wenn eine neue Software oder ein neuer Prozess eingeführt wird. Nutze dieses Wissen offensiv.",
+      "Das Chaos aushalten lernen: Verlasse einmal pro Woche bewusst deine Struktur-Komfortzone. Mach eine Aufgabe auf einem völlig neuen, subjektiv 'ineffizienten' Weg, um deinem Gehirn zu beweisen, dass temporäre Unordnung dich nicht tötet und oft neue Wege offenbart."
+    ],
+    "monetization_hook": {
+      "topic": "Resilienz & Change-Management für Experten",
+      "keywords": [
+        "Change Management",
+        "Umgang mit Veränderung",
+        "Agiles Arbeiten für Einsteiger",
+        "Psychologische Flexibilität"
+      ]
+    }
+  },
+  {
+    "profile_id": "katalysator_existenzangst",
+    "base_type": "Der Integrations-Katalysator",
+    "fear_mutation": "Existenzangst",
+    "name": "Der gefangene Helfer",
+    "headline": "Du opferst dich für die 'Firmen-Familie' auf, weil du panische Angst hast, deinen sicheren Hafen zu verlieren.",
+    "corporate_view": "Du bist der absolute Klebstoff des Teams. Du bist die Person, die Spannungen und Konflikte im Flur abfängt, bevor sie eskalieren. Du übernimmst selbstverständlich die unliebsamen Aufgaben von überlasteten Kollegen und sorgst ganz nebenbei dafür, dass die Fluktuation und der Krankenstand im Team niedrig bleiben.",
+    "shadow_conflict": "Du redest dir selbst ein und nennst deine Kollegen 'Familie'. Aber tief in dir drin weißt du ganz genau: Das ist ein knallhartes Geschäftsverhältnis. Du schluckst deinen eigenen Frust, die mangelnde Wertschätzung und die zahllosen unbezahlten Überstunden hinunter, weil deine Existenzangst dich völlig lähmt. Deine scheinbar grenzenlose Hilfsbereitschaft ist in Wahrheit dein stärkster Schutzmechanismus: Du machst dich emotional und operativ zur allgegenwärtigen guten Seele, in der Hoffnung, dass du bei der nächsten Entlassungswelle oder Umstrukturierung aus reinem Mitleid auf keinen Fall auf der Abschussliste stehst. Du erkaufst dir deine finanzielle Sicherheit mit deiner psychischen Gesundheit – ein furchtbarer Deal.",
+    "action_steps": [
+      "Das Business-Mindset aktivieren: Erkenne die eiskalte Realität: Wenn die Zahlen rot sind, feuert dich das Unternehmen trotzdem – egal wie viele Kuchen du gebacken hast. Wahre, nachhaltige Sicherheit liegt ausschließlich in deinem fachlichen Marktwert, nicht in deiner Aufopferung.",
+      "Kalter Entzug des Over-Engagements: Stoppe das emotionale Über-Engagement sofort. Mache ab heute konsequent keine Aufgaben mehr, die nicht exakt in deiner Stellenbeschreibung stehen, nur um anderen 'gefallen' zu wollen.",
+      "Investment in dich selbst: Nimm die massive Energie, die du täglich in das Fixen der Probleme anderer Leute steckst, und investiere sie rigoros in deinen eigenen Lebenslauf. Mach dich fachlich unersetzlich, anstatt nur menschlich bequem zu sein."
+    ],
+    "monetization_hook": {
+      "topic": "Berufliche Abgrenzung & Resilienz",
+      "keywords": [
+        "Grenzen setzen im Job",
+        "People Pleaser ablegen",
+        "Finanzielle Unabhängigkeit",
+        "Toxische Loyalität"
+      ]
+    }
+  },
+  {
+    "profile_id": "katalysator_versagensangst",
+    "base_type": "Der Integrations-Katalysator",
+    "fear_mutation": "Versagensangst",
+    "name": "Der überkompensierende Retter",
+    "headline": "Du sagst zu jeder Zusatzaufgabe 'Ja', weil du panische Angst hast, sonst als Hochstapler aufzufliegen.",
+    "corporate_view": "Du gilst im Unternehmen als der verlässlichste Feuerlöscher und als der ultimative Teamplayer. Du bist derjenige, der am Freitagnachmittag die Kohlen aus dem Feuer holt. Den Satz 'Das ist eigentlich nicht mein Job' scheinst du komplett aus deinem Vokabular gestrichen zu haben.",
+    "shadow_conflict": "Dein gelobtes Helfersyndrom ist in Wahrheit eine dicke Maske für dein massives Imposter-Syndrom. Weil du dich in deiner eigentlichen Rolle fachlich oft unsicher oder nicht 'gut genug' fühlst, kompensierst du dieses Gefühl durch grenzenlose, zeitliche Verfügbarkeit. Du nimmst die Schrott-Aufgaben und sogar die Fehler anderer unkommentiert auf deine Kappe. Deine unterbewusste Logik lautet: 'Wenn ich immer nett, verfügbar und extrem hilfreich bin, merkt hoffentlich niemand, dass ich eigentlich gar nicht so kompetent bin.' Das Resultat: Du ertrinkst in Fremdarbeit und brennst aus, weil ein einziges, klares 'Nein' für dich wie das gefährliche Eingeständnis von eigener Schwäche wirkt.",
+    "action_steps": [
+      "Das taktische 'Nein' trainieren: Lerne, dass ein Nein kein Angriff ist. Der Satz 'Ich kann dir dabei gerne helfen, aber mein Zeitplan lässt das erst nächste Woche Donnerstag zu' ist eine hochprofessionelle, respektierte Grenze – keine persönliche Ablehnung.",
+      "Trennung von Sympathie und Leistung: Du wirst vom Unternehmen nicht fürs 'Geliebtwerden' bezahlt, sondern für greifbare Ergebnisse. Wenn Kollegen kurzfristig enttäuscht sind, dass du ihren Job nicht machst, ist das deren Problem, nicht deins.",
+      "Die Verantwortung zurückgeben: Lass die Probleme anderer erwachsener Menschen dort, wo sie hingehören. Wenn ein Kollege an seiner Aufgabe scheitert, ist es absolut nicht deine Aufgabe, ihn abends heimlich vor dem Chef zu retten."
+    ],
+    "monetization_hook": {
+      "topic": "Imposter-Syndrom & Zeitmanagement",
+      "keywords": [
+        "Nein sagen lernen",
+        "Imposter Syndrom überwinden",
+        "Helfersyndrom im Beruf",
+        "Selbstwertgefühl aufbauen"
+      ]
+    }
+  },
+  {
+    "profile_id": "katalysator_statusverlust",
+    "base_type": "Der Integrations-Katalysator",
+    "fear_mutation": "Statusverlust",
+    "name": "Der gekränkte Märtyrer",
+    "headline": "Du spielst die gute Seele des Büros, bist aber innerlich tief verbittert, dass dir niemand dafür applaudiert.",
+    "corporate_view": "Du bist das unangefochtene, emotionale Zentrum der Abteilung. Du kennst absolut alle Flurfunk-Themen und unausgesprochenen Dynamiken. Du bist die Person, die Teamevents organisiert, Geburtstage im Kopf hat und Kollegen nach harten Rückschlägen bei einem Kaffee wieder aufbaut.",
+    "shadow_conflict": "Du ziehst deinen gesamten beruflichen Selbstwert fast ausschließlich daraus, von allen gemocht und dringend 'gebraucht' zu werden. Du drängst dich schon fast aggressiv in die Rolle des leidenden Märtyrers: Du arbeitest demonstrativ am längsten, tröstest alle – und kriegst innerlich einen rasenden Wutanfall, wenn der Chef bei der Beförderung oder Bonusrunde schon wieder den lauten, kühlen Egoisten vorzieht. Du verwechselst grundlegend 'Beliebtheit' mit echtem 'Einfluss'. Dein Hunger nach Status und Anerkennung ist eigentlich riesig, aber du hältst es für moralisch verwerflich oder unhöflich, diesen Status offen, direkt und knallhart für dich einzufordern. Deshalb leidest du stumm.",
+    "action_steps": [
+      "Schluss mit 'Office-Parenting': Beende deine Rolle als Büro-Elternteil sofort. Keine Kuchen mehr backen, keine kostenlose Therapeuten-Rolle mehr im Flur. Du bist dort, um professionelles Business zu machen, nicht um erwachsene Menschen zu erziehen oder zu verhätscheln.",
+      "Macht statt Mitleid einfordern: Wenn du faktisch diejenige Person bist, die eine Abteilung zusammenhält, dann fordere offiziell die Teamlead-Rolle und das entsprechende Gehalt ein. Hör auf, dich mit warmen Worten abspeisen zu lassen.",
+      "Stoppe die Passiv-Aggressivität: Dass andere deine 'stille Opferbereitschaft' nicht sehen oder ignorieren, ist nicht deren böser Wille. Es ist ganz allein dein Kommunikationsproblem. Sag klar, was du leistest und was du dafür willst."
+    ],
+    "monetization_hook": {
+      "topic": "Führungskompetenz für empathische Menschen",
+      "keywords": [
+        "Empathische Führung",
+        "Gehaltsverhandlung",
+        "Raus aus der Opferrolle",
+        "Von beliebt zu respektiert"
+      ]
+    }
+  },
+  {
+    "profile_id": "katalysator_veraenderungsangst",
+    "base_type": "Der Integrations-Katalysator",
+    "fear_mutation": "Veränderungsangst",
+    "name": "Der toxische Harmonisierer",
+    "headline": "Du hält ein völlig kaputtes Team zusammen, weil dich der Gedanke an einen Neuanfang nachts wachhält.",
+    "corporate_view": "Man sieht dich im Unternehmen als absolut loyalen Mediator. Du hältst der Organisation auch in den schwersten Krisen, Entlassungswellen und Chaos-Phasen treu die Stange. Du bist das Sedativum der Firma: Du beruhigst das Team sofort, wenn die Stimmung kippt oder Panik ausbricht.",
+    "shadow_conflict": "Du steckst tief in einer zutiefst toxischen Arbeitsbeziehung fest – und du weißt es eigentlich auch. Du leidest jeden Tag unter den chaotischen, ungesunden Strukturen, aber du redest dir die Situation massiv und systematisch schön: 'Sooo schlimm ist es doch gar nicht', oder 'Die Kollegen brauchen mich jetzt, ich kann doch nicht einfach gehen.' Deine extreme, oft gelobte Empathie ist in Wahrheit zu deiner größten, fatalsten Ausrede geworden, um bloß niemals den Kündigungs-Knopf drücken zu müssen. Ein neuer Job würde bedeuten, in eine kalte, fremde Umgebung zu gehen, in der du deinen sozialen Status als wertvoller 'Retter' noch nicht hast. Also bleibst du auf dem sinkenden Schiff, spielst die Geige weiter und gehst wissentlich mit unter.",
+    "action_steps": [
+      "Zieh den Stecker: Hör sofort auf, das völlig kaputte und dysfunktionale System mit deiner Empathie und Überstunden künstlich zu beatmen. Lass das Projekt oder die Abteilung crashen. Es ist nicht deine Firma. Du bist nicht der Insolvenzverwalter.",
+      "Zerstöre deine Lebenslüge: Deine Kollegen werden auch ohne dich überleben. Jeder ist ersetzbar. Du bist nicht für das persönliche Lebensglück anderer erwachsener Menschen verantwortlich, sondern ausschließlich für dein eigenes.",
+      "Reframing des Jobwechsels: Betrachte einen Jobwechsel nicht weinerlich als den 'Verlust deiner Familie', sondern als überlebenswichtige Flucht aus einer toxischen Sekte. Aktualisiere dein Profil und schreibe heute noch deine Kündigung."
+    ],
+    "monetization_hook": {
+      "topic": "Toxische Arbeitsplätze verlassen & Neustart",
+      "keywords": [
+        "Toxisches Arbeitsumfeld",
+        "Kündigungsangst",
+        "Emotionale Abhängigkeit im Job",
+        "Neuanfang wagen"
+      ]
+    }
+  }
+]

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C.O.R.E. 소개 | 커리어 영성주의의 종말</title>
+    <meta name="description" content="C.O.R.E. Index가 왜 개발되었는지 알아보세요. 우리는 독성 긍정주의와 색상 테스트를 경험적 데이터와 급진적 솔직함으로 대체합니다.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/core-social-share.jpg">
+
+    <style>     :root {
+            --bg-body: #ffffff;
+            --bg-surface: #FAFAFA;
+            --text-dark: #0f172a;
+            --text-body: #334155;
+            --text-muted: #64748B;
+            --border-light: #E2E8F0;
+            --accent-red: #c0392b; 
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+            background-color: var(--bg-body); 
+            color: var(--text-body); 
+            line-height: 1.8; 
+            -webkit-font-smoothing: antialiased;
+            font-size: 1.1rem; 
+        }
+
+        /* TYPOGRAFIE */
+        h1, h2, h3, h4 { color: var(--text-dark); line-height: 1.2; letter-spacing: -0.03em; }
+        h1 { font-size: 4rem; margin-bottom: 24px; font-weight: 800; }
+        h2 { font-size: 2.6rem; margin-bottom: 20px; font-weight: 700; }
+        h3 { font-size: 1.3rem; margin-bottom: 15px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px;}
+        p { margin-bottom: 24px; }
+
+        /* Edler Outline-Badge */
+        .badge { 
+            display: inline-block; 
+            color: var(--text-muted); 
+            border: 1px solid var(--border-light);
+            padding: 8px 24px; 
+            border-radius: 50px; 
+            font-size: 0.75rem; 
+            font-weight: 700; 
+            margin-bottom: 40px; 
+            text-transform: uppercase; 
+            letter-spacing: 2px; 
+        }
+
+        /* LAYOUT & WEISSRAUM (In die Breite gezogen) */
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 5%; }
+        .section { padding: 100px 0; }
+        
+        /* HEADER */
+        header { 
+            background-color: var(--bg-body); 
+            padding: 30px 5%; 
+            display: flex; justify-content: space-between; align-items: center; 
+            border-bottom: 1px solid var(--border-light); 
+            position: sticky; top: 0; z-index: 100; 
+        }
+        .logo { color: var(--text-dark); font-weight: 800; font-size: 1.2rem; letter-spacing: 1.5px; text-decoration: none; }
+        nav a { color: var(--text-muted); text-decoration: none; margin-left: 2.5rem; font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; transition: color 0.3s; }
+        nav a.active { color: var(--text-dark); }
+        nav a:hover { color: var(--accent-red); }
+
+        /* MANIFESTO BEREICH (Untereinander aufgebaut) */
+        .manifesto-grid { display: grid; grid-template-columns: 1fr; gap: 40px; margin-top: 60px; }
+        .manifesto-text { max-width: 800px; } /* Verhindert zu lange, unleserliche Zeilen */
+        .manifesto-text p { text-align: justify; margin-bottom: 30px; }
+        .manifesto-text p.lead { font-size: 1.35rem; color: var(--text-dark); font-weight: 500; line-height: 1.6; }
+
+        /* DEZENTES HIGHLIGHT FÜR DEN ANSATZ */
+        .statement-box { 
+            padding: 40px 0; 
+            border-top: 2px solid var(--text-dark);
+            border-bottom: 1px solid var(--border-light);
+            margin: 20px 0 40px 0;
+            max-width: 800px;
+        }
+        .statement-box h4 { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 20px; color: var(--text-muted); }
+
+        /* DIE 3 SÄULEN (Großzügiges Stapeln) */
+        .pillar-grid { display: grid; grid-template-columns: 1fr; gap: 60px; margin-top: 80px; }
+        .pillar-item { max-width: 800px; }
+        .pillar-item h3 { border-bottom: 1px solid var(--border-light); padding-bottom: 15px; display: block; margin-bottom: 20px; }
+        .pillar-item p { font-size: 1.05rem; color: var(--text-muted); }
+
+        /* HELLE ABGRENZUNGS-SEKTION (Disclaimer untereinander) */
+        .disclaimer-section {
+            background-color: var(--bg-surface);
+            border-top: 1px solid var(--border-light);
+            border-bottom: 1px solid var(--border-light);
+        }
+        .disclaimer-grid { display: grid; grid-template-columns: 1fr; gap: 40px; margin-top: 50px; }
+        .disclaimer-box { max-width: 800px; }
+        .disclaimer-box h4 { margin-bottom: 15px; font-size: 1rem; text-transform: uppercase; letter-spacing: 1px; }
+
+        /* CTA BUTTON */
+        .btn-cta {
+            background-color: var(--text-dark);
+            color: white;
+            padding: 20px 45px;
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            border-radius: 4px;
+            text-decoration: none;
+            display: inline-block;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        .btn-cta:hover { background-color: var(--accent-red); transform: translateY(-2px); }
+
+        /* FOOTER */
+        .site-footer { padding: 60px 5%; text-align: center; font-size: 0.85rem; color: var(--text-muted); }
+        .site-footer a { color: inherit; margin: 0 15px; text-decoration: none; text-transform: uppercase; letter-spacing: 1px; font-weight: 600; transition: color 0.2s;}
+        .site-footer a:hover { color: var(--text-dark); }
+
+        @media (max-width: 900px) {
+            h1 { font-size: 2.8rem; }
+            h2 { font-size: 2.2rem; }
+            .section { padding: 60px 0; }
+        }</style>
+    
+    
+    <link rel="canonical" href="https://www.coreindexanalytics.com/{{LANG}}/about.html">
+    
+
+    
+<!-- ========================================== -->
+<!-- 1. X-DEFAULT (Standard-Fallback weltweit) -->
+<!-- ========================================== -->
+<link rel="alternate" hreflang="x-default" href="https://www.coreindexanalytics.com/en/about.html">
+
+<!-- ========================================== -->
+<!-- 2. INTERNATIONALE TARGETS (Reine Sprach-Ordner) -->
+<!-- ========================================== -->
+<link rel="alternate" hreflang="de" href="https://www.coreindexanalytics.com/de/about.html">
+<link rel="alternate" hreflang="en" href="https://www.coreindexanalytics.com/en/about.html">
+<link rel="alternate" hreflang="es" href="https://www.coreindexanalytics.com/es/about.html">
+<link rel="alternate" hreflang="fr" href="https://www.coreindexanalytics.com/fr/about.html">
+<link rel="alternate" hreflang="it" href="https://www.coreindexanalytics.com/it/about.html">
+<link rel="alternate" hreflang="nl" href="https://www.coreindexanalytics.com/nl/about.html">
+<link rel="alternate" hreflang="pt" href="https://www.coreindexanalytics.com/pt/about.html">
+<link rel="alternate" hreflang="ar" href="https://www.coreindexanalytics.com/ar/about.html">
+<link rel="alternate" hreflang="sv" href="https://www.coreindexanalytics.com/sv/about.html">
+<link rel="alternate" hreflang="pl" href="https://www.coreindexanalytics.com/pl/about.html">
+<link rel="alternate" hreflang="tr" href="https://www.coreindexanalytics.com/tr/about.html">
+<link rel="alternate" hreflang="ja" href="https://www.coreindexanalytics.com/ja/about.html">
+<link rel="alternate" hreflang="ko" href="https://www.coreindexanalytics.com/ko/about.html">
+<link rel="alternate" hreflang="hi" href="https://www.coreindexanalytics.com/hi/about.html">
+<link rel="alternate" hreflang="da" href="https://www.coreindexanalytics.com/da/about.html">
+<link rel="alternate" hreflang="cs" href="https://www.coreindexanalytics.com/cs/about.html">
+<link rel="alternate" hreflang="no" href="https://www.coreindexanalytics.com/no/about.html">
+<link rel="alternate" hreflang="fi" href="https://www.coreindexanalytics.com/fi/about.html">
+<link rel="alternate" hreflang="id" href="https://www.coreindexanalytics.com/id/about.html">
+
+    
+   
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo">C.O.R.E. INDEX</a>
+        <nav>
+            <a href="index.html">디렉터리</a>
+            <a href="profile.html">프로필</a>
+            <a href="about.html" class="active">회사 소개</a>
+        </nav>
+    </header>
+
+    <!-- HERO BEREICH -->
+    <section class="section">
+        <div class="container">
+            <div style="max-width: 850px;">
+                <span class="badge">우리의 철학</span>
+                <h1>커리어 영성주의의 종말.</h1>
+                <p style="font-size: 1.45rem; color: var(--text-muted); line-height: 1.6; margin-top: 30px; font-weight: 400;">
+                    C.O.R.E. Index는 당신을 기분 좋게 하려고 만든 것이 아닙니다. 우리는 성과를 내는 사람들을 매일 소진시키는 보이지 않는 구조적·내적 장벽을 드러내기 위해 이 도구를 만들었습니다.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- DAS MANIFEST -->
+    <section class="section bg-surface" style="border-top: 1px solid var(--border-light);">
+        <div class="container">
+            <h2>우리가 동기부여보다 분석을 선택하는 이유.</h2>
+            
+            <div class="manifesto-grid">
+                <div class="manifesto-text">
+                    <p class="lead">
+                        직업 적성 검사의 시장은 근본적인 설계 결함을 안고 있습니다. 바로 호의성의 원칙에 기반하고 있다는 점입니다.
+                    </p>
+                    <p>
+                        네 가지 화려한 색상 유형으로 단순 분류하든, 20세기 초 이론에서 가져온 그럴듯한 원형을 부여하든, 대부분의 도구는 실제 인과관계를 보여주기보다 칭찬을 나눠줍니다. 이들은 종종 팀 빌딩 워크숍에서 분위기를 좋게 만드는 데 최적화되어 있을 뿐, 깊은 직업적 막다른 길을 설명하는 데는 그렇지 않습니다.
+                    </p>
+                    <p>
+                        그 결과는 "독성 긍정주의" 문화입니다. 지친 전문가들에게는 단지 "마인드셋을 바꾸라"거나 "진정한 열정을 찾으라"고 조언하면서, 그들이 기능 장애가 있는 조직 구조, 불명확한 관리, 혹은 자신도 모르는 완벽주의에 의해 무너지고 있다는 사실은 외면합니다. 진정한 변화는 칭찬에서 시작되지 않습니다. 정직한 현황 파악에서 시작됩니다.
+                    </p>
+                </div>
+
+                <div class="manifesto-text">
+                    <div class="statement-box">
+                        <h4>우리의 접근 방식</h4>
+                        <p style="margin: 0; font-size: 1.25rem; color: var(--text-dark); font-weight: 500; line-height: 1.6;">
+                            우리는 데이터 아키텍처와 업무 현실의 교차점에서 작동합니다. 새로운 추상 이론을 만들어내는 대신, 빅파이브 모델(O.C.E.A.N.)을 직장 생활을 위한 타협 없는 기반으로 사용합니다.
+                        </p>
+                    </div>
+                    <p>
+                        C.O.R.E. (Career Obstacle & Resilience Evaluation) Index는 급진적으로 실용적인 프로파일링 도구입니다. 우리의 주요 초점은 당신의 강점을 확인하는 데만 있지 않고, 무엇보다도 당신의 직업적 "그림자"를 분리해내는 데 있습니다. 우리는 실패에 대한 두려움, 지위 상실에 대한 걱정, 또는 경계 설정의 부족(전형적인 도우미 증후군) 같은 무의식적 요인이 당신의 경제적·전략적 결정을 어느 정도까지 방해하는지 측정 가능하게 만듭니다.
+                    </p>
+                </div>
+            </div>
+
+            <!-- DIE 3 SÄULEN (Editorial Style ohne Rahmen) -->
+            <div class="pillar-grid">
+                <div class="pillar-item">
+                    <h3>01. 경험적 기반</h3>
+                    <p>
+                        우리는 직감과 영성주의적 분류를 배제합니다. C.O.R.E. 분석은 표준화된 행동 패턴의 평가에 기반합니다. 그 기저 척도는 전 세계적으로 안정적이고 신뢰할 수 있는 것으로 인정받는 확립된 심리학 모델을 반영합니다.
+                    </p>
+                </div>
+                <div class="pillar-item">
+                    <h3>02. 장벽에 대한 집중</h3>
+                    <p>
+                        자신의 직업적 잠재력을 발휘하려면 먼저 무엇이 자신을 가로막는지 이해해야 합니다. 우리는 특히 요구 수준이 높은 업무 환경에서 생겨나는 기능 장애 패턴을 살펴봅니다. 이른바 "황금 우리"에 갇히는 것부터, 진정한 인정 없이 단순히 일만 처리하는 상태까지 포함합니다.
+                    </p>
+                </div>
+                <div class="pillar-item">
+                    <h3>03. 명확한 결론</h3>
+                    <p>
+                        테스트의 끝에는 추상적인 은유나 동물 비유가 없습니다. 대신 경계를 설정해야 할 때인지, 예산을 다시 협상해야 할 때인지, 아니면 과감히 끊어내야 할 때인지 객관적으로 보여주는 실행 단계가 제공됩니다.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HELLE, EDLE ABGRENZUNG (Ohne medizinische Begriffe) -->
+    <section class="section disclaimer-section">
+        <div class="container">
+            <h2 style="margin-bottom: 20px;">명확성과 한계.</h2>
+            <p style="max-width: 750px; font-size: 1.25rem; color: var(--text-muted);">
+                진정한 전문성은 자신의 한계를 정확히 규정하는 데서도 드러납니다. C.O.R.E.는 직업적 맥락을 위한 운영 분석 도구이며, 치료 기관도 아니고 치료 대체물도 아닙니다.
+            </p>
+
+            <div class="disclaimer-grid">
+                <div class="disclaimer-box" style="border-top: 2px solid var(--text-dark); padding-top: 25px;">
+                    <h4>분석이 제공하는 것</h4>
+                    <p style="color: var(--text-body);">
+                        우리는 당신의 업무 방식과 직무 내 구조적 장벽 사이의 연관성을 분리해냅니다. 우리는 자기 성찰, 예정된 연봉 협상, 또는 경력 방향 전환을 위한 구조화된 데이터 기반을 제공합니다. 핵심은 커리어 전략과 자기 관리입니다.
+                    </p>
+                </div>
+                <!-- Der rote Akzent für die harte Grenze -->
+                <div class="disclaimer-box" style="border-top: 2px solid var(--accent-red); padding-top: 25px;">
+                    <h4 style="color: var(--accent-red);">이 시스템이 명시적으로 하지 않는 것</h4>
+                    <p style="color: var(--text-body);">
+                        우리는 어떠한 의학적, 정신의학적, 또는 임상심리학적 진단도 내리지 않습니다. 우리의 시스템은 임상적 우울증, 번아웃 증후군, 불안장애와 같은 질환을 다루지 않습니다. 건강 위기나 심리적 고통이 있는 경우, 반드시 훈련된 의사와 심리치료 전문 인력을 찾아야 합니다.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CALL TO ACTION -->
+    <section class="section" style="text-align: center;">
+        <div class="container">
+            <h2 style="margin-bottom: 24px;">분석할 준비가 되셨나요?</h2>
+            <p style="font-size: 1.25rem; color: var(--text-muted); max-width: 600px; margin: 0 auto 40px auto; line-height: 1.6;">
+                디렉터리로 이동해 업종을 선택하고 브라우저에서 바로 8분 평가를 시작하세요. 가입 없이, 100% 익명으로 진행됩니다.
+            </p>
+            <a href="index.html" class="btn-cta">
+                직업 디렉터리로 이동
+            </a>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <p class="site-footer-copyright">© 2026 C.O.R.E. Index. 모든 권리 보유.</p>
+        
+        <p class="site-footer-disclaimer">
+            <strong>구분 및 책임에 대한 중요 안내:</strong> C.O.R.E. Index는 오직 직업적 자기 평가, 구조적 업무 상황 분석, 그리고 직업 전략 평가를 위한 것입니다. 이 서비스는 의학적, 정신의학적, 또는 심리학적 조언, 평가, 치료를 제공하지 않습니다. 결과는 임상적 우울증, 번아웃 증후군, 불안장애와 같은 질환에 대한 치료적 조치를 대체할 수 없으며, 또한 대체해서도 안 됩니다. 건강 위기나 지속적인 심리적 고통이 있는 경우, 반드시 의사 또는 면허를 가진 심리치료 전문가를 찾아야 합니다.
+        </p>
+        
+        <div class="site-footer-links">
+            <a href="impressum.html">법적 고지</a>
+            <a href="datenschutz.html">개인정보 보호</a>
+            <a href="methodik.html">우리의 방법론</a>
+        </div>
+    </footer>
+
+</body>
+</html>

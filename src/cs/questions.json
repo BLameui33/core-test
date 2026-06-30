@@ -1,0 +1,2262 @@
+[
+    {
+        "id": "q1_meeting",
+        "category": "conflict_structure",
+        "question": "Dvouhodinová „strategická porada“ bez jasné agendy, kde se tři kolegové donekonečna točí v kruhu. Co se ti honí hlavou?",
+        "answers": [
+            {
+                "text": "Skvělé. Prostor pro hlasité přemýšlení a vymýšlení nápadů. Konečně žádné striktní odškrtávání Excelových seznamů.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "To mě sere. Po 15 minutách chci jasné rozhodnutí nebo rozdělení úkolů, jinak odcházím.",
+                "scores": {
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Vnitřně čistý stres. Celou dobu myslím na svou skutečnou práci, která teď zůstává nedodělaná na stole.",
+                "scores": {
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Snažím se zapojit tišší kolegy do diskuse a zklidnit napjatou atmosféru v místnosti.",
+                "scores": {
+                    "katalysator": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q2_systemfehler",
+        "category": "conflict_structure",
+        "question": "Důležitý projekt se brutálně pokazí. Chyba byla v nejasném firemním procesu, ne v tobě – ale padá to na tvůj tým. Tvoje první reakce?",
+        "answers": [
+            {
+                "text": "Ledově analyzuju úzké místo, udělám opravu a nahoře naprosto jasně komunikuju, kdo nebo co selhalo.",
+                "scores": {
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Strávím půl noci tím, že bez jediné mezery zdokumentuju, že jsem se striktně držel všech pravidel.",
+                "scores": {
+                    "optimierer": 1,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Už mám zase tři nové nápady, jak příští projekt postavit úplně jinak. Minulost je minulost.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "Mám výčitky, protože jiné oddělení teď trpí kvůli tomu chaosu, a hned nabízím pomoc.",
+                "scores": {
+                    "katalysator": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q3_sinnlosaufgabe",
+        "category": "conflict_structure",
+        "question": "Šéf ti dá úkol, který je úplně repetitivní, extrémně drobný a z tvého pohledu naprosto neefektivní. Jak s tím naložíš?",
+        "answers": [
+            {
+                "text": "Dostanu se do flow. Miluju, když je na konci všechno přesně na cent, strukturované a odškrtnuté.",
+                "scores": {
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Umírám uvnitř. Po 10 minutách ztratím fokus, jsem otrávený a začnu dělat něco jiného.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "Potají to zautomatizuju, deleguju nebo najdu způsob, jak to za třetinu času prostě nějak odfláknout jako ‚dost dobré‘.",
+                "scores": {
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Udělám to se zaťatými zuby a pořádně. Když to neudělám, odskáčou to kolegové, a to nechci.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_status": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q4_befoerderungsfalle",
+        "category": "conflict_structure",
+        "question": "Nad tebou se uvolní vedoucí pozice. Proč ten job ještě nemáš?",
+        "answers": [
+            {
+                "text": "Protože ten stálý tlak, politika a konflikty nahoře vlastně vůbec nechci mít v životě.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Protože se brutálně špatně prodávám. Dělám v pozadí veškerou práci, ale uznání sklízí někdo jiný.",
+                "scores": {
+                    "optimierer": 1,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Protože mi chybí ten správný ‚stájový pach‘. Managementu jsem moc nepohodlný, protože pořád zpochybňuju zastaralé struktury.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "Kdo říká, že ho nemám? Takové pozice si aktivně říkám. Když mě brzdí, měním firmu.",
+                "scores": {
+                    "executor": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q5_sonntagabend",
+        "category": "conflict_structure",
+        "question": "Je neděle, 20:00. Myslíš na nadcházející pracovní týden. Co u tebe nejspíš vyvolá nepříjemný pocit?",
+        "answers": [
+            {
+                "text": "Strach, že se zase nedostanu ke svým skutečným, hlubším nápadům, protože mě sežere každodenní provoz.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "Myšlenka na toxickou atmosféru, nevyřešené konflikty v týmu a kolegy, které budu zase muset motivovat.",
+                "scores": {
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "Pocit bezmoci. Přesně vidím, co je špatně, ale nesmím dělat rozhodnutí, abych to opravil.",
+                "scores": {
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Obava, že v tom množství úkolů ztratím přehled a udělám chybu s vážnými následky.",
+                "scores": {
+                    "optimierer": 1,
+                    "fear_versagen": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q6_feedback",
+        "category": "conflict_structure",
+        "question": "Tvůj nadřízený (který fachově ví míň než ty) ti dá kritickou, ale neoprávněnou zpětnou vazbu. Tvoje vnitřní reakce?",
+        "answers": [
+            {
+                "text": "Vypnu se. Jeho názor mě nezajímá, pokud mě nechá v klidu dělat moje věci.",
+                "scores": {
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Vezmu si to extrémně k srdci na několik dní, začnu pochybovat o svých schopnostech a přemýšlím, co jsem udělal špatně.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Okamžitě se bráním tvrdými fakty, logy nebo dokumenty, které dokazují, že se mýlí.",
+                "scores": {
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Vnitřně protočím oči. Prostě nechápe širší souvislosti, tak se s ním ani nehádám.",
+                "scores": {
+                    "pionier": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q7_feierabend",
+        "category": "conflict_structure",
+        "question": "Za jaké podmínky můžeš večer s opravdu dobrým pocitem zavřít notebook?",
+        "answers": [
+            {
+                "text": "Když jsem dnes vyřešil složitý problém nebo vymyslel brilantní nový nápad.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "Když je můj to-do list úplně prázdný a v mailu ani nástrojích nesvítí žádná červená notifikace.",
+                "scores": {
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Když měl tým dobrý den, společně jsme se zasmáli a já jsem někomu pomohl s problémem.",
+                "scores": {
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "Když jsme dnes dodali hmatatelný výsledek, který přináší obrat, leady nebo měřitelný posun.",
+                "scores": {
+                    "executor": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q8_gehalt_vs_risiko",
+        "category": "frust_risiko_angst",
+        "question": "Inovativní startup ti nabídne práci snů. Háček: o 20 % nižší základní plat a roční smlouvu na dobu určitou. Tvoje upřímná reakce?",
+        "answers": [
+            {
+                "text": "Ani náhodou. Mám fixní výdaje, nájem a závazky. To riziko by mi zničilo spánek.",
+                "scores": {
+                    "fear_existenz": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Jdu do toho hned. Potřebuju ten náboj budovat něco nového, jistota mě stejně nudí.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Spíš se bojím, že neúspěšný startup pak bude v životopise jako pořádná ostuda.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Rád bych, ale nedokážu si představit, že bych teď nechal svůj současný tým ve štychu.",
+                "scores": {
+                    "fear_veraenderung": 1,
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q9_unterbezahlt",
+        "category": "frust_risiko_angst",
+        "question": "Víš naprosto přesně, že jsi podle běžných standardů asi o 15 % podhodnocený. Proč jsi to doteď prostě snášel?",
+        "answers": [
+            {
+                "text": "Bojím se, že se to obrátí proti mně a nakonec skončím na odstřel.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Když mi přidají, extrémně porostou i očekávání. Co když to pak nedokážu dodat?",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Můj současný pracovní titul zní fantasticky. Je pro mě skoro důležitější než peníze, na LinkedIn to vypadá extrémně dobře.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Myšlenka na vyjednávání o platu nebo pohovory je pro mě prostě moc vyčerpávající. Smířil jsem se s tím.",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q10_umstrukturierung",
+        "category": "frust_risiko_angst",
+        "question": "Je oznámena náhlá fúze. Tvoje oddělení se kompletně restrukturalizuje. Co je tvoje úplně první myšlenka?",
+        "answers": [
+            {
+                "text": "'Přijdu o práci? Jak dlouho mi vydrží úspory?'",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "'Do háje, skončím teď v hierarchii níž pod úplně neschopným novým šéfem?'",
+                "scores": {
+                    "fear_status": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "'A sakra, všechny moje perfektní rutiny a tvrdě vybudované procesy jsou teď úplně k ničemu.'",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "'Noví šéfové hned prokouknou, že ve skutečnosti nejsem tak dobrý, jak si tady všichni mysleli.'",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q11_golden_handcuffs",
+        "category": "frust_risiko_angst",
+        "question": "Dostáváš každý rok tučný bonus a vyděláváš hodně slušné peníze, ale svou práci bytostně nenávidíš. Proč tam pořád jsi?",
+        "answers": [
+            {
+                "text": "Zlatá klec: životní úroveň je až moc sladká. Už se nemůžu vrátit do normální mzdové reality.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Prestiž: když řeknu, kde pracuju, lidi jsou ohromení. Ego to potřebuje.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Sebedůvěra je v háji: tajně si myslím, že jsem měl prostě jen štěstí. Nikdo jiný by mi tolik nezaplatil.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Setrvačnost: sice si denně stěžuju, ale večer nemám žádnou energii se fakt znovu hlásit jinam.",
+                "scores": {
+                    "fear_veraenderung": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q12_linkedin_flex",
+        "category": "frust_risiko_angst",
+        "question": "Téma sebeprezentace a profesní viditelnosti (např. na LinkedInu, na velkých poradách). Jak se chováš?",
+        "answers": [
+            {
+                "text": "Kdo jsem, abych se oslavoval? Je tu tisíc lidí, co jsou fachově mnohem lepší než já.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Digitální potlesk nepotřebuju. Můj výplatní lístek a moje výsledky jsou validace dost.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Rád bych něco někdy zveřejnil, ale muselo by to být absolutně perfektní a bez chyby. Takže to radši nedělám vůbec.",
+                "scores": {
+                    "fear_versagen": 1,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Viditelnost je moc. Úspěchy sdílím aktivně, protože tím chráním svou tržní hodnotu a držím konkurenci od těla.",
+                "scores": {
+                    "fear_status": 2,
+                    "pionier": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q13_befoerderung_abgelehnt",
+        "category": "frust_risiko_angst",
+        "question": "Představ si, že odmítneš očividné povýšení. Co by byl ten nejupřímnější důvod?",
+        "answers": [
+            {
+                "text": "Nebyl k tomu služební vůz ani žádný skutečný titul 'C-level'. Za pár korun navíc se neprodám.",
+                "scores": {
+                    "fear_status": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Absolutní panika z odpovědnosti za lidi, z toho, že udělám špatná rozhodnutí a jako manažer selžu.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Musel bych se vzdát svého zaběhnutého stolu, známého týmu a milovaných rutin.",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "Odškodné za bolest bylo moc nízké. To malé navýšení platu nevyváží ztrátu výpovědní lhůty a jistoty.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q14_lob_vom_ceo",
+        "category": "frust_risiko_angst",
+        "question": "Na velké poradě tě CEO osobně pochválí za obrovský úspěch. Co se v tobě děje?",
+        "answers": [
+            {
+                "text": "Usmívám se, ale uvnitř se potím: příště to budou čekat znovu a pak se ukáže, že na to nemám.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Hned to odkloním a podělím se o pochvalu s celým týmem, aby si o mně v kanceláři nikdo nemyslel, že jsem arogantní.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Užívám si to. Postarám se, aby každý v místnosti pochopil, že tenhle úspěch byl hlavně moje zásluha.",
+                "scores": {
+                    "executor": 1,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Tu pozornost využiju ledově chladně, abych prodal svůj další, mnohem větší rozpočet nebo šílený nápad.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q15_ki_bedrohung",
+        "category": "frust_risiko_angst",
+        "question": "Umělá inteligence právě automatizuje obrovské části tvého oboru. Jak reaguješ?",
+        "answers": [
+            {
+                "text": "Panika. Kontroluju úspory a googlím rekvalifikace na 'bezpečná' řemesla.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Jsem ve stresu, protože už nejsem nejmladší. Pochybuju, že se ten můj mozek ještě naučí všechny ty nové nástroje.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Okamžitě se sám jmenuju neoficiálním 'AI koordinátorem', abych zůstal relevantní a chránil svůj status.",
+                "scores": {
+                    "fear_status": 2,
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "V podstatě to ignoruju. Není to tak horké, jak se to vaří. Moje procesy přece ještě běží.",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q16_das_toxische_umfeld",
+        "category": "frust_risiko_angst",
+        "question": "Tvoje firemní kultura je extrémně toxická a ničí tě, ale pracovní smlouvu máš na dobu neurčitou. Co uděláš?",
+        "answers": [
+            {
+                "text": "Zůstanu. Smlouva na dobu neurčitou je v dnešní ekonomice čisté zlato. Prostě vypnu emoce.",
+                "scores": {
+                    "fear_existenz": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Zůstanu. Kdybych teď odešel, v životopise by to vypadalo, že jsem to nezvládl.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Potají plánuju odchod, ale čekám na 'naprosto ideální moment'. (Který nějak nikdy nepřijde).",
+                "scores": {
+                    "fear_veraenderung": 2
+                }
+            },
+            {
+                "text": "Tvrdě konfrontuju vedení s těmi průšvihy. Když mě kvůli tomu vyhodí, tím líp.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q17_wochenend_projekt",
+        "category": "frust_risiko_angst",
+        "question": "V pátek odpoledne tě požádají, abys na poslední chvíli vedl vysoce viditelný víkendový projekt.",
+        "answers": [
+            {
+                "text": "Souhlasím. Když odmítnu, šéfové si budou myslet, že už nejsem 'high performer', a dají projekt někomu jinému.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Souhlasím čistě ze studu a pocitu viny, aby kolegové nemuseli o víkendu pracovat.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Souhlasím, ale 80 % víkendu strávím panikou, že tenhle viditelný projekt skončí průšvihem.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Ledově odmítnu. Můj volný čas je můj, pokud mi na víkend nezdvojnásobíte hodinovku.",
+                "scores": {
+                    "executor": 2,
+                    "pionier": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q18_der_inkompetente_kollege",
+        "category": "team_leadership",
+        "question": "Jeden kolega v tvém týmu chronicky odvádí mizernou práci. Týká se to i tvých projektů. Co uděláš?",
+        "answers": [
+            {
+                "text": "Jeho práci potají předělám nebo opravím v noci. Hlavně ať je finální výstup bez chyby.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Promluvím si s ním a nabídnu mu pomoc s jeho úkoly, aby nevyplaval na povrch.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Svoje pracovní proudy úplně oddělím od jeho a postavím systémy, kde už na něm nebudu závislý.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Vytáhnu ho na meetingu nebo to hned eskaluju šéfovi. Nebudu tahat mrtvou váhu.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q19_micromanagement",
+        "category": "team_leadership",
+        "question": "Tvůj nový šéf je extrémní mikromanažer. Chce číst každý návrh e-mailu, než ho odešleš. Tvoje strategie?",
+        "answers": [
+            {
+                "text": "Přizpůsobím se a udělám pro něj checklisty. Když potřebuje kontrolu, dám mu kompletní dokumentaci.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Otevřeně se vzbouřím. Budu ignorovat jeho pokyny, dodám výsledky a nechám ho se vztekat.",
+                "scores": {
+                    "pionier": 1,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Jsem masivně nejistý a odteď kontroluju každý e-mail třikrát ze strachu, že udělám chybu.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Zkusím přes spoustu osobních rozhovorů zjistit, proč má tak málo důvěry, a uklidním ho.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q20_ideenklau",
+        "category": "team_leadership",
+        "question": "V kuchyňce u kávy vyslovíš geniální nápad. Na velké poradě ten nápad najednou prodá kolega jako svůj. Jak zareaguješ?",
+        "answers": [
+            {
+                "text": "Vařím se vzteky, ale na poradě neřeknu nic, abych nepůsobil neprofesionálně, hystericky nebo 'malý'.",
+                "scores": {
+                    "fear_status": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Přeruším ho zdvořile, ale ledově: 'Přesně, jak jsem ti to předtím vysvětlil v kuchyni... Tady jsou další kroky.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Ať si to vezme. V hlavě už mám stejně další tři nové, mnohem lepší nápady. On se stejně brzy zasekne.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Pak si s ním mezi čtyřma očima promluvím a řeknu mu, že mě to lidsky extrémně zklamalo.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q21_teambuilding_horror",
+        "category": "team_leadership",
+        "question": "HR nařídí povinný „teambuildingový workshop“ s posezením v kruhu a kartičkami pocitů. Co si o tom myslíš?",
+        "answers": [
+            {
+                "text": "Super! Konečně příležitost moderovaně vyřešit nevyslovené napětí v týmu.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Jaké plýtvání časem. V duchu počítám, kolik tržeb firma právě pálí, zatímco tu sedíme.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Poctivě se zapojím, ale řeknu jen bezvýznamné, bezpečné věci, abych za žádnou cenu nevyčníval negativně.",
+                "scores": {
+                    "fear_status": 1,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Využiju tu neorganizovanou dobu k tomu, abych mentálně úplně odplul a vrtal se ve vlastních projektech.",
+                "scores": {
+                    "pionier": 2,
+                    "optimierer": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q22_der_antwort_allen_fail",
+        "category": "team_leadership",
+        "question": "Rozjede se e-mailový řetězec („Odpovědět všem“). Tóny houstnou, CC seznam roste. Tvoje role?",
+        "answers": [
+            {
+                "text": "Zapojím se jako smírčí prostředník, přejdu na telefon a zkusím to offline uklidnit.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Ukončím drama tvrdým, extrémně faktickým e-mailem v bodech. Diskuse končí.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Přiložím tři PDF a protokol, který nepochybně dokazuje, že moje oddělení nenese žádnou vinu.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "E-mailový řetězec jsem po druhé zprávě archivoval a dávno dělám na něčem jiném.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q23_unbezahlte_ueberstunden",
+        "category": "team_leadership",
+        "question": "Tvůj šéf implicitně očekává (ale ne smluvně), že o víkendu kontroluješ maily. Proč to stejně děláš?",
+        "answers": [
+            {
+                "text": "Protože mám paniku, že mě v pondělí ráno čeká obrovský chaos, který už pak nebudu schopný kontrolovat.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Protože se valí vlna výpovědí a já si musím zajistit, aby mě brali jako nepostradatelného.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Protože chci, aby šéf viděl, jak extrémně jsem oddaný. Tím si zajistím pozici v alfa žebříčku.",
+                "scores": {
+                    "fear_status": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Protože když to neudělám, práce zůstane na mém chudákovi kolegovi. A ten je už stejně na hraně.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q24_onboarding",
+        "category": "team_leadership",
+        "question": "Musíš zaučit nového zaměstnance. Jaký je tvůj přístup?",
+        "answers": [
+            {
+                "text": "Předám mu padesátistránkový wiki dokument, který jsem napsal, a čekám, že se bude držet procesů.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Nejdřív ho vezmu na kafe, představím ho všem a zajistím, aby se cítil emočně v bezpečí.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Vysvětlím mu velkou vizi, hodím mu do ruky složitý problém a sleduju, jestli umí plavat.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Dám mu rovnou tvrdý, měřitelný úkol. Když ho zpacká, vím, na čem jsem.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q25_fuehrungsstil",
+        "category": "team_leadership",
+        "question": "Když budeš naprosto upřímný: co by byla tvoje největší slabina, kdybys měl vést tým?",
+        "answers": [
+            {
+                "text": "Vyhýbal bych se tvrdé, negativní zpětné vazbě, protože nesnáším konflikty.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Mikromanažoval bych až moc, protože ostatním prostě nevěřím, že to udělají tak perfektně jako já.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Nejspíš bych byl moc netrpělivý, drsný a lidi, co mi plýtvají časem, bych vyhazoval příliš rychle.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Utápěl bych se v chaosu, zapomínal administrativní věci a lidi zahlcoval svými neustálými změnami směru.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q26_flurfunk",
+        "category": "team_leadership",
+        "question": "Na chodbě se extrémně toxicky pomlouvá kolega, který v místnosti není. Tvůj postoj?",
+        "answers": [
+            {
+                "text": "Beze slova se z té situace stáhnu. Drby jsou neprofesionální a neefektivní.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Otevřu pusu, řeknu na to tvrdě svůj názor a pomlouvání okamžitě ukončím.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Zůstanu stát mlčky, možná se ze zdvořilosti zasměju, ale uvnitř je mi z toho mizerně.",
+                "scores": {
+                    "fear_status": 1,
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "Později si dotčeného kolegu tajně najdu a zkusím ho emočně podržet.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q27_delegation",
+        "category": "team_leadership",
+        "question": "Tvůj šéf na tebe hodí masivní „no-win projekt“ (vysoké riziko, malý rozpočet). Proč to vezmeš?",
+        "answers": [
+            {
+                "text": "Prostě se neodvážím říct šéfovi do očí „ne“.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "Využiju to jako páku moci. Když to zachráním, sláva je moje a řeknu si o vyšší plat.",
+                "scores": {
+                    "executor": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Protože jsem jediný v týmu, kdo dokáže ten chaos strukturálně dostat pod kontrolu.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Prostě ignoruju absurdní zadání a použiju ten projekt jako pískoviště pro úplně novou metodu.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q28_brainstorming",
+        "category": "team_leadership",
+        "question": "Brainstorming: někdo hodí do prostoru úplně nereálný, absurdní nápad. Tvoje reakce?",
+        "answers": [
+            {
+                "text": "Okamžitě to utnu: „Na to nemáme rozpočet. Trvá to moc dlouho. Další návrh.“",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Naskočím do toho naplno a ten nápad ještě mnohem víc zblázním. Někdy z šílenství vznikne inovace.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Ukážu, jaké compliance a procesní problémy by ten nápad okamžitě způsobil.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Radši mlčím. I kdyby se mi ten nápad líbil, nechci se před skupinou ztrapnit.",
+                "scores": {
+                    "fear_status": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q29_das_meeting_danach",
+        "category": "team_leadership",
+        "question": "Po tvrdé schůzce s ostrou debatou jdeš zpátky ke stolu. Co uděláš jako první?",
+        "answers": [
+            {
+                "text": "Hned sepíšu protokol se všemi rozhodnutími a rozešlu ho, aby nikdo nemohl později couvnout.",
+                "scores": {
+                    "optimierer": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Hodiny přemýšlím, jestli jsem ve 14. minutě neformuloval moc tvrdě a jestli mě kolega X teď nesnáší.",
+                "scores": {
+                    "fear_versagen": 1,
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Sednu si rovnou k realizaci úkolů. Mluvení skončilo, teď se dodává.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Všechno, co se na schůzce řeklo, zahodím a vymyslím elegantnější řešení.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q30_der_grenzueberschreitende_kunde",
+        "category": "operations_clients",
+        "question": "Zákazník (nebo klient/pacient) je extrémně náročný, ignoruje dohody a zvyšuje hlas. Tvoje první reakce?",
+        "answers": [
+            {
+                "text": "Zachytím jeho emoce, zůstanu extrémně klidný a zkusím ho lidsky uklidnit, i když nemá pravdu.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Ledově a přesně ho upozorním na naše smluvní hranice. Když se neumí chovat, letí.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Okamžitě a přesně zdokumentuju incident v systému, aby mi později nikdo nemohl vyčítat, že jsem postupoval špatně.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Ignoruju standardní procesy a hledám kreativní, neortodoxní skulinu, jak ho rychle odbýt.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q31_die_leere_schreibtisch_panik",
+        "category": "operations_clients",
+        "question": "Je páteční odpoledne, telefon nezvoní a ty už máš všechny úkoly hotové. Co cítíš?",
+        "answers": [
+            {
+                "text": "Nejasný neklid. Když nebudu pořád dodávat, firma si možná všimne, že mě vlastně nepotřebuje.",
+                "scores": {
+                    "fear_existenz": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Skvělé! Využiju ten čas k tomu, abych konečně dotáhl strukturu složek a šablony na příští týden k dokonalosti.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Z nudy začnu navrhovat úplně nový, předem neprojednaný projekt nebo systém.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Projdu se po kanceláři (nebo po chatu) a ptám se kolegů, jestli jim můžu pomoct s jejich úkoly.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q32_der_falsche_prozess",
+        "category": "operations_clients",
+        "question": "Musíš splnit úkol, ale oficiální firemní proces je na to brutálně zastaralý a trvá třikrát déle. Co uděláš?",
+        "answers": [
+            {
+                "text": "Držím se procesu přesně. Pravidla jsou pravidla, a když se něco pokazí, aspoň jsem krytý.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Poruším pravidlo, udělám to po svém rychlém způsobu a nikomu nic neřeknu. Hlavně že výsledek sedí.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Napíšu desetistránkový koncept, jak by se ten proces dal zrevolucionizovat (a pak to stejně vyšumí do ztracena).",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Neodvážím se od procesu odchýlit, protože mám strach z průšvihu s compliance / šéfem.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "fear_status": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q33_freitag_kurz_vor_feierabend",
+        "category": "operations_clients",
+        "question": "16:55. Přijde 'absolutně urgentní' mail od šéfa. Ve skutečnosti to není žádná urgence, jen mizerné načasování. Co uděláš?",
+        "answers": [
+            {
+                "text": "Udělám to, i když uvnitř vře. Kdybych to odmítl, přišel bych o status 'nejspolehlivějšího zaměstnance'.",
+                "scores": {
+                    "fear_status": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Notebook zavřu. Víkend začíná. Špatné plánování na jeho straně neznamená nouzi na mojí straně.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Vrhnu se na to. Konečně trochu chaosu a adrenalinu místo nudných rutinních úkolů z dnešního rána.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Udělám to hned. Strach, že mě kvůli tomu v pondělí před všemi poníží, je na mě moc velký.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q34_neue_software_ausgerollt",
+        "category": "operations_clients",
+        "question": "Vedení nasazuje drahý nový software, který prý 'všechno zlepší'. Tvoje první myšlenka?",
+        "answers": [
+            {
+                "text": "Do háje. Všechny moje vlastní Excel tabulky a rutiny jsou teď k ničemu. Nesnáším to.",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Hned zkusím, jak ten systém hacknout, zneužít nebo použít na úplně jiné věci.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Software je moc pomalý. Odmítám ho používat, dokud mi nebude brzdit workflow méně.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Dobrovolně se přihlásím, abych pomohl starším kolegům, kteří jsou teď úplně mimo, s přechodem.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q35_der_oeffentliche_fehler",
+        "category": "operations_clients",
+        "question": "Udělalsi měřitelnou, drahou chybu. Vyplyne to na velké poradě. Tvoje spontánní reakce?",
+        "answers": [
+            {
+                "text": "Totální vnitřní šok. Můj syndrom podvodníka jede na 1000 %. Přál bych si, aby mě spolkla zem.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Vytáhnu drápy a na třech proměnných vysvětlím, proč to za těchto okolností bylo nevyhnutelné.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Okamžitě a bez milosti to přiznám. 'Jo, moje chyba. Už se to nestane. Tady je plán, jak to opravíme.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Chybu hned označím jako 'learning' nebo 'neplánovaný prototyp' a odvedu debatu k novému nápadu.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q36_die_junioren_gefahr",
+        "category": "operations_clients",
+        "question": "Do tvého týmu nastoupí vysoce motivovaný mladší člověk a je extrémně rychlý. Co to hluboko uvnitř spustí?",
+        "answers": [
+            {
+                "text": "Nahý strach, že mám moc vysoký plat a brzy mě nahradí tahle levnější, hladovější verze.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Přijde mi to super. Vezmu si ho pod křídla a zkusím ho rozvíjet po lidské i odborné stránce.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Trochu mě štve. Chybí mu struktura, dělá lehkomyslné chyby a ohrožuje naše čisté procesy.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Soutěž. Zvednu svůj výkon, abych jasně ukázal, kdo je tady pánem.",
+                "scores": {
+                    "executor": 2,
+                    "fear_status": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q37_scope_creep",
+        "category": "operations_clients",
+        "question": "Projekt (nebo úkol) se úplně rozlévá. Pořád přibývají nové požadavky, ale rozpočet/čas zůstává stejný.",
+        "answers": [
+            {
+                "text": "Nasadím tvrdou stopku. 'Jestli chcete feature X, tak Y škrtáme, nebo si připlatíte.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Tajně makám 12 hodin denně, abych všechny požadavky nějak splnil, protože nechci nikoho zklamat.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Úplně ztratím nervy, protože můj čistý plán a struktura jsou teď definitivně v háji.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Miluju to. Čím chaotičtější a větší to je, tím víc prostoru mám na stavění nekonvenčních řešení.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q38_der_visionaere_chef",
+        "category": "operations_clients",
+        "question": "CEO drží ohnivý, extrémně vizionářský projev o budoucnosti firmy – ale bez jediného konkrétního plánu.",
+        "answers": [
+            {
+                "text": "Jsem extrémně nadšený. Konečně tu někdo myslí ve velkém a rozbíjí staré, nudné hranice!",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Vnitřně obracím oči v sloup. Zase jen buzzwordy, ale skutečná práce stejně zůstane na lidech jako já.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Hned začnu stavět složitou Excel tabulku, abych spočítal, jak tuhle šílenou myšlenku vůbec realizovat.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Upřímně se bojím, kolik navíc tlaku a přesčasů tahle 'vize' zase přinese mému týmu.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q39_das_externe_angebot",
+        "category": "operations_clients",
+        "question": "Headhunter ti napíše na LinkedIn a nabídne telefonát. Proč to (většinou) odmítáš?",
+        "answers": [
+            {
+                "text": "Protože čert, kterého znám, je lepší než čert, kterého neznám. Nesnáším změny.",
+                "scores": {
+                    "fear_veraenderung": 2
+                }
+            },
+            {
+                "text": "Protože jsem pevně přesvědčený, že bych stejně neprošel assessment centrem v nové práci.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Protože v současné firmě už vyzařuju určitou 'senioritu'. Nechci zase někde začínat jako nováček.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Protože zkušební doba by znamenala, že bych šest měsíců neměl ochranu před výpovědí. Moc riskantní.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q40_der_energie_vampir",
+        "category": "burnout_stress",
+        "question": "Co ti v pracovním dni vysává baterky nejrychleji a nejbrutálněji?",
+        "answers": [
+            {
+                "text": "Bezsmyšlenkové, byrokratické překážky a pomalé procesy, které mě brzdí jako žvýkačka na podrážce.",
+                "scores": {
+                    "pionier": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Když na mě kolegové pořád sypou své emoční problémy, stížnosti a frustraci.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Nejasné, neustále se měnící pokyny, u kterých nemůžu postavit žádnou čistou strukturu.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Lidé, kteří jsou chronicky neschopní, ale stejně smějí dělat rozhodnutí.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q41_die_krankschreibung",
+        "category": "burnout_stress",
+        "question": "Ráno se probudíš s mírnými, ale znatelnými příznaky nemoci. Co uděláš?",
+        "answers": [
+            {
+                "text": "Stejně pracuju (z domova). Mám paniku, že se něco důležitého podělá a vina půjde za mnou.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Nahlásím se nemocný/á. Zdraví je přednější. Ale celý den mám strašně špatné svědomí vůči týmu.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Skřípnu zuby a jdu tam. Kdo se pořád vymlouvá na nemoc, toho při příštím povýšení přeskočí.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Stejně pracuju. V dnešní ekonomické situaci nechci dát šéfovi žádný důvod, aby o mně pochyboval.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q42_stress_kompensation",
+        "category": "burnout_stress",
+        "question": "Po naprosto děsivém týdnu v práci: Jak nejspíš o víkendu otupíš frustraci?",
+        "answers": [
+            {
+                "text": "Koupím si drahé věci nebo si dopřeju luxus (jídlo, oblečení, auto). Musím si dokázat, proč to všechno dělám.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Úplně se izoluju, ležím na gauči a potřebuju absolutní ticho, abych uklidnil/a nervový systém.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Přihlásím se do kurzu, naučím se něco nového nebo si naplánuju příští týden, abych konečně měl/a pocit kontroly.",
+                "scores": {
+                    "optimierer": 1,
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Vrhnu se do radikálně jiného, intenzivního koníčku (sport, párty, tvoření), abych si násilím vyčistil/a hlavu.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q43_schlaflos_um_drei",
+        "category": "burnout_stress",
+        "question": "Jsou 3 ráno, zíráš do stropu a nemůžeš spát. Jaká myšlenka ti běží hlavou?",
+        "answers": [
+            {
+                "text": "'Neudělal/a jsem v tom e-mailu včera zásadní chybu? Co když to zítra uvidí šéf?'",
+                "scores": {
+                    "fear_versagen": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "'Jak se dostanu z tohohle kolotoče, aniž bych úplně zničil/a svou finanční jistotu?'",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "'Na poradě jsem měl/a zasáhnout mnohem tvrději. Zítra tomu debilovi řeknu, co si o něm myslím.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "'Ve skutečnosti bychom ten celý produkt měli postavit úplně jinak... co kdybychom přidali funkci X?'",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q44_der_breaking_point",
+        "category": "burnout_stress",
+        "question": "Kdy v práci okamžitě dáváš výpověď (aspoň v hlavě)?",
+        "answers": [
+            {
+                "text": "Když je moje roky budovaná, bezchybná loajalita ignorovaná a přede mě se dostane hlučný pózer.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Když mám pocit, že se v tom toxickém prostředí pomalu měním v horšího, cynického člověka.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Když se musím na každý nejmenší krok ptát o povolení a jsem kontrolovaný/á jako nesvéprávné dítě.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Když mi dají odpovědnost za cíl, ale ne potřebnou moc ani rozpočet, abych ho splnil/a.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q45_quiet_quitting",
+        "category": "burnout_stress",
+        "question": "Práce přesně podle smlouvy ('Quiet Quitting'): Když jsi úplně frustrovaný/á, jak vypadá tvůj protest?",
+        "answers": [
+            {
+                "text": "Stanu se extrémně formální. Dělám přesně 100 % toho, co je v popisu práce – ani minutu navíc, ani jednu úlohu extra.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Čas v kanceláři tajně využívám pro vlastní projekty, side hustle nebo se vzdělávám na náklady firmy.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Stanu se brutálně cynickým/á, dělám otevřené sarkastické poznámky a dávám managementu najevo pohrdání.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Přestanu být ta 'hodná duše'. Už neorganizuju narozeniny a neutěšuju kolegy na chodbě.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q46_die_urlaubs_stoerung",
+        "category": "burnout_stress",
+        "question": "Ležíš na pláži na dovolené. Zazvoní ti telefon, volá šéf. Co se stane?",
+        "answers": [
+            {
+                "text": "Nezvednu to, ale tep mi vystřelí. Zničím si půl dne na pláži strachem, co se asi stalo.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "Zvednu to. Část mě si dokonce užívá, že vidím, jak se to bez mě okamžitě hroutí.",
+                "scores": {
+                    "executor": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Zvednu to, protože mám prostě paniku, že když ho ignoruju, budou z toho negativní důsledky pro mou práci.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Ledově ho odmítnu. Mám telefon na 'Nerušit' a už nad tím ani vteřinu nepřemýšlím.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q47_warnung_vom_arzt",
+        "category": "burnout_stress",
+        "question": "Doktor ti řekne do očí: 'Vaše stresové hodnoty jsou nebezpečně vysoké. Musíte zpomalit.' Jaká je tvoje upřímná výmluva?",
+        "answers": [
+            {
+                "text": "'Já vím, ale když teď uberu, ztratím své těžce vybojované místo v hierarchii.'",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "'Snadno se to řekne. Můj plat splácí úvěry. Prostě si nemůžu dovolit onemocnět.'",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "'Musím jen dokončit tenhle jeden obří projekt a optimalizovat svůj systém, pak to bude lepší.'",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "'To nejde. Když vypadnu, rozpadne se celý můj tým. Teď mě potřebují.'",
+                "scores": {
+                    "fear_versagen": 1,
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q48_die_leere_auszeichnung",
+        "category": "burnout_stress",
+        "question": "Místo nutného bonusu ti HR dá vlhký stisk ruky a cenu 'Resilience & Team Spirit Award'. Tvoje reakce?",
+        "answers": [
+            {
+                "text": "Totální vztek. Chci měřitelné výsledky, peníze nebo pravomoci. Zalaminovaný papír je urážka.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Zdvořile se usměju, hodím to do šuplíku a přesně vím, že je to jen levná taktika, jak nás uklidnit.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Hluboko uvnitř mám stejně trochu radost. Aspoň si někdo všiml, jak tvrdě bojuju.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Pozornost při předávání chladnokrevně využiju k tomu, abych před celým týmem odprezentoval/a svůj nový projekt.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q49_der_falsche_fokus",
+        "category": "burnout_stress",
+        "question": "Když jsi v práci extrémně ve stresu, jakou chybu děláš nejspíš?",
+        "answers": [
+            {
+                "text": "Ztratím se v perfekcionismu. Formátuji buňky v Excelu místo toho, abych vyřešil/a skutečný velký problém.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Stanu se parním válcem. Převálcuju kolegy a zraňuju city, jen abych se dostal/a k cíli.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Na všechno říkám 'ano', beru na sebe úkoly ostatních a nakonec se utopím v hromadě cizí práce.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Začnu pět nových řešení najednou, nedokončím ani jedno a uvrhnu tým do úplného chaosu.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q50_die_sonntags_luege",
+        "category": "burnout_stress",
+        "question": "Jakou životní lež si nejčastěji říkáš v neděli večer?",
+        "answers": [
+            {
+                "text": "'Příští týden bude určitě klidnější. Jakmile dám pryč projekt X, všechno se uvolní.' (Nikdy se to nestane).",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "'Ještě to budu dělat 2–3 roky kvůli životopisu/penězům a pak si najdu něco, co mě opravdu naplní.'",
+                "scores": {
+                    "fear_existenz": 2,
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "'Prostě ještě nejsem dost dobrý/á nebo rychlý/á. Příští týden se musím jen víc snažit.'",
+                "scores": {
+                    "fear_versagen": 2,
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "'Ve skutečnosti jsem nenahraditelný/á. Firma by beze mě šla ke dnu, proto tohle divadlo musím snášet.'",
+                "scores": {
+                    "fear_status": 2,
+                    "executor": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q51_das_veraltete_werkzeug",
+        "category": "industry_pseo",
+        "question": "Tvoje hlavní pracovní nástroj (ať už software, stroj nebo systém) je úplně zastaralý a pořád padá. Co uděláš?",
+        "answers": [
+            {
+                "text": "Udělám si neoficiální workaround nebo si zbastlím vlastní řešení, abych ten problém obešel.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Přitlačím na management. Bez pořádného vybavení odmítám podávat plný výkon.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Pečlivě zdokumentuju každý pád, aby mi nakonec nikdo nehodil zpoždění na krk.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Nějak se s tím smířím a snažím se pomoct kolegům, kteří si s tím technicky poradí ještě míň.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q52_die_sinnlose_kpi",
+        "category": "industry_pseo",
+        "question": "Management zavede úplně absurdní metriku pro měření výkonu, která ignoruje skutečnou kvalitu tvé práce. Tvoje taktika?",
+        "answers": [
+            {
+                "text": "Chladnokrevně optimalizuju svou práci tak, abych tuhle číslici maximalizoval. Když chtějí měřit blbost, dostanou blbost.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Začnu být ve stresu. Chci odvádět skutečnou kvalitu, ale zároveň splnit zadání. Spálím se mezi dvěma židlemi.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Sleduju tu číslici do posledního detailu a držím se nové směrnice striktně, i když je tím proces víc byrokratický.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Otevřeně se tomu vysměju a bez vyzvání předložím úplně jiný, lepší koncept měření.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q53_die_schwierige_zielgruppe",
+        "category": "industry_pseo",
+        "question": "Máš co do činění s extrémně obtížným stakeholderem (zákazník, klient nebo pacient), který blokuje tvoji expertizu. Jak reaguješ?",
+        "answers": [
+            {
+                "text": "Přeruším emoční vazbu. Dodám přesně to, co je ve smlouvě nebo procesu – ani o milimetr víc.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Vezmu si to hodně osobně. Investuju ještě víc času, abych našel osobní rovinu a 'prolomil' ho.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Držím se přesně pravidel. Dokud neudělám formální chybu, jsem v bezpečí.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_existenz": 1
+                }
+            },
+            {
+                "text": "Zkusím úplně nekonvenční, možná i riskantní přístup, abych ten vzorec prolomil.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q54_der_akute_notfall",
+        "category": "industry_pseo",
+        "question": "Pět minut před koncem směny se v tvé oblasti práce stane masivní, nečekaný nouzový stav. Co se v tobě děje?",
+        "answers": [
+            {
+                "text": "Čistý adrenalin. Konečně opravdový chaos! Jedu na plný výkon a miluju, když můžu problém vyřešit kreativně.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Okamžitě bez ptaní převezmu velení, tvrdě deleguju a úplně vypnu empatii.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Jsem ve stresu, ale jako stroj přesně spustím nouzový protokol, na který jsem trénovaný/vyškolený.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Můj první myšlenka je starost o lidi, zákazníky nebo kolegy, kteří teď tou krizí trpí.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q55_abteilungs_krieg",
+        "category": "industry_pseo",
+        "question": "Jiný oddělení vám hodí přes plot úplně nereálný, špatně naplánovaný úkol.",
+        "answers": [
+            {
+                "text": "Agresivně to odmítnu. 'Není to náš problém. Vaše plánování je mizerné. Vraťte se, až budete mít hotové domácí úkoly.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Udělám to se zaťatými zuby, abych zabránil otevřené válce mezi odděleními a udržel klid.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Napíšu stránkový e-mail, ve kterém dokážu, že to porušuje všechny dohody a SLA.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Úplně ignoruju jejich hloupé pokyny a postavím řešení tak, jak ho stejně považuju za budoucnostnější.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q56_die_dinnerparty_identitaet",
+        "category": "industry_pseo",
+        "question": "Na párty se někdo zeptá, co je vlastně tvoje hlavní úloha jako {{JOB_NAME}}. Jaká je tvoje upřímná, sarkastická odpověď?",
+        "answers": [
+            {
+                "text": "'Zajišťuju, aby se tenhle podnik nezhroutil pod vahou vlastní neefektivity a neschopnosti.'",
+                "scores": {
+                    "executor": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "'Ve skutečnosti jsem jen profesionální hasič a duševní odpadkový koš pro svůj tým.'",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "'Přesouvám data/procesy z A do B a hlídám, aby nás nakonec nikdo nezažaloval.'",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_existenz": 1
+                }
+            },
+            {
+                "text": "'Snažím se tlačit inovace dopředu, ale 80 % času bojuju s byrokracií.'",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q57_theorie_vs_praxis",
+        "category": "industry_pseo",
+        "question": "Nováček čerstvě po škole/uni pořád cituje teorie, které v praxi vůbec nefungují.",
+        "answers": [
+            {
+                "text": "Seřvu ho verbálně. 'Zapomeň na všechno, co ses naučil. Tady venku fouká jiný vítr.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Nechám ho schválně (ale pod kontrolou) jednou tvrdě narazit, aby se tu lekci naučil sám.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Vezmu si ho stranou a šetrně mu přeložím teorii do tvrdých faktů naší praxe, aniž bych ho demotivoval.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Strčím mu do ruky naše interní procesní dokumenty. Kdo se jimi řídí, nedělá chyby.",
+                "scores": {
+                    "optimierer": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q58_das_gekappte_budget",
+        "category": "industry_pseo",
+        "question": "Vaše nejdůležitější zdroje (rozpočet, materiál nebo lidi) jsou najednou seškrtány o 20 %. Co uděláš?",
+        "answers": [
+            {
+                "text": "Písemně upozorním management, že kvalita teď přesně o 20 % klesne. Není to můj problém.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Dělám neplacené přesčasy, abych ten nedostatek nějak kompenzoval, protože tým a klienty nemůžu nechat ve štychu.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_existenz": 1
+                }
+            },
+            {
+                "text": "Okamžitě škrtám 20 % úkolů, které přinášejí nejmenší hodnotu, bez ptaní na svolení.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Beru to jako sportovní omezení. Často právě z rozpočtových škrtů vznikají nejvíc inovativní hacky.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q59_der_branchentrend",
+        "category": "industry_pseo",
+        "question": "Nový, disruptivní trend (např. umělá inteligence nebo nové zákony) se valí přes tvoje odvětví. Tvůj vnitřní postoj?",
+        "answers": [
+            {
+                "text": "Fascinace. Jsem první, kdo to zkusí, rozbije a podívá se, co šíleného z toho můžeme postavit.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Chladný kalkul. Použiju to jen tehdy, když to tvrdě měřitelně šetří čas nebo peníze. Hype ignoruju.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Strach. Neznehodnotí nebo nenahradí to moje těžce vybudované odborné znalosti?",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Obava. Nezmizí tímhle automatizováním poslední zbytek lidskosti v našem oboru?",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q60_der_geheime_karrierewunsch",
+        "category": "industry_pseo",
+        "question": "Kdybys měl pro svou kariéru jako {{JOB_NAME}} kouzelnou hůlku, co by sis dnes přál?",
+        "answers": [
+            {
+                "text": "Pozici s absolutní rozhodovací pravomocí, maximálním rozpočtem a absolutně nulovým mikromanagementem shora.",
+                "scores": {
+                    "executor": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Roli, ve které můžu každý den vymýšlet budoucnost, ale někdo jiný vyřídí ten celý administrativní bordel.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Železně bezpečnou, dokonale strukturovanou práci bez překvapení, kterou můžu v 17:00 nechat v kanceláři.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Roli, ve které mám skutečný, hluboký vliv na lidi, aniž bych se u toho psychicky spálil.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q61_die_kuendigungs_fantasie",
+        "category": "career_change_exit",
+        "question": "Když sedíš v kanceláři a myslíš na výpověď: jak vypadá tvoje tajná vnitřní fantazie?",
+        "answers": [
+            {
+                "text": "Hodím svému šéfovi na stůl sebraná tvrdá fakta o jeho neschopnosti a odejdu se vztyčenou hlavou.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Prostě tiše zmizím, bez dramatu. Sním o tom, že druhý den mi najednou zmizí všechny znalosti.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Rozjedu se s radikálním, šíleným nápadem na vlastní nohy a všem dokážu, že moje cesta byla lepší.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Tu fantazii mám často, ale pak si vzpomenu na své oblíbené kolegy a hned mě přepadne špatné svědomí.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_veraenderung": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q62_das_gegenangebot",
+        "category": "career_change_exit",
+        "question": "Podáš výpověď. Šéf spanikaří a hned ti nabídne o 20 % vyšší plat. Co se stane?",
+        "answers": [
+            {
+                "text": "Zůstanu. 20 % navíc je masivní polštář pro moje fixní náklady. Emoce stranou.",
+                "scores": {
+                    "fear_existenz": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Ledově odmítnu. Pozdě. Kdo mě začne platit až ve chvíli, kdy odcházím, ten už dávno ztratil můj respekt.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Zůstanu. Ale jen proto, že představa, že se budu muset znovu dokazovat v úplně nové firmě, ve mně vlastně vyvolává paniku.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Vezmu peníze, vyjednám si k tomu nový titul a budu z toho žít, abych si zvedl tržní hodnotu.",
+                "scores": {
+                    "fear_status": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q63_quereinstieg_blockade",
+        "category": "career_change_exit",
+        "question": "Přemýšlíš o úplném přestupu do jiného oboru. Co tě od toho drží nejvíc?",
+        "answers": [
+            {
+                "text": "Strach, že tam budu muset začít finančně zase od nuly a ztratím svůj životní standard.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Ztráta mé 'seniority'. Nechci být ten neznalý začátečník, kterému pětadvacetiletí vysvětlují svět.",
+                "scores": {
+                    "fear_status": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Chybějící formální potvrzení. Bez přesného papíru / certifikátu pro nový obor si na to netroufám.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Mám tolik různých zájmů, že se stejně nedokážu upnout na jediný nový směr.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q64_bewerbungs_horror",
+        "category": "career_change_exit",
+        "question": "Co je pro tebe absolutní hororová představa u nadcházejícího pohovoru?",
+        "answers": [
+            {
+                "text": "Že dostanu odborné otázky, na které nemám perfektní odpověď, a budu odhalen jako 'podvodník'.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Že se budu muset uměle přetvařovat a hrát tu falešnou HR hru na 'jsme jedna velká rodina'.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Že dostanu zamítnutí. Moje ego těžko snáší, když mě odmítnou ve chvíli, kdy se konečně otevřu.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Že vůbec nebudu vědět, co odpovědět, když se zeptají: 'Kde se vidíte za 5 let?' (Nenávidím takové plány).",
+                "scores": {
+                    "pionier": 2,
+                    "fear_veraenderung": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q65_lebenslauf_luege",
+        "category": "career_change_exit",
+        "question": "Když tvůj životopis analyzujeme bez milosti: kde je podle tebe největší 'slabina'?",
+        "answers": [
+            {
+                "text": "Na papíře působím jako strnulý byrokrat, protože moje skutečné schopnosti řešit problémy se nevejdou do žádného certifikátu.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Prodávám se pod cenou. Používám skromná slova, i když jsem fakticky roky držel celé oddělení nad vodou.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Můj životopis je rozházený. Často jsem měnil práci nebo věci nedotáhl, když mi došly strnulé struktury.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Ve skutečnosti nemá slabinu, je silný. Ale bojím se, že moje platové požadavky odradí HR.",
+                "scores": {
+                    "executor": 2,
+                    "fear_existenz": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q66_das_sabbatical",
+        "category": "career_change_exit",
+        "question": "Firma tě donutí k 6 měsícům placeného sabbaticalu. Co děláš po 2. týdnu?",
+        "answers": [
+            {
+                "text": "Hned rozjedu vlastní projekt nebo side business, protože můj mozek bez kreativního výstupu zakrní.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Pomáhám přátelům, zapojím se sociálně nebo sklouznu do role toho, kdo se v soukromí o všechno stará.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Využiju čas k obsesivnímu dalšímu vzdělávání (certifikáty, kurzy), abych po návratu zvýšil svou tržní hodnotu.",
+                "scores": {
+                    "optimierer": 1,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Nedělám vůbec nic. Optimalizuji si soukromý život jako projekt a užívám si totální vládu nad svým časem.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q67_freelancing_traum",
+        "category": "career_change_exit",
+        "question": "Téma samostatná výdělečná činnost / freelancing. Proč jsi ten krok ještě úplně neudělal?",
+        "answers": [
+            {
+                "text": "Nejsem obchodník. Nesnáším, že se musím prodávat a běhat za klienty.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Daně, účetnictví, právní rizika. Jedna chybná faktura a člověk má jednu nohu ve vězení.",
+                "scores": {
+                    "fear_existenz": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Potřebuju kolem sebe pevný tým. Izolace jako sólista by mě emočně vyždímala.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Už jsem to dávno zkusil nebo to dělám bokem. Můj hlavní problém je spíš to, že mě to rychle začne nudit.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q68_der_tropfen_im_fass",
+        "category": "career_change_exit",
+        "question": "Všichni máme hranici tolerance. Jaká malá, skoro směšná věc by tě okamžitě dohnala k výpovědi?",
+        "answers": [
+            {
+                "text": "Když mi někdo předepisuje vybavení (např. mi vnutí nejlevnější Windows notebook) a tím zničí můj workflow.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Když můj šéf smaže moji Excel tabulku nebo čistý proces a nahradí ho vratkým provizoriem.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Když mi zakážou vyřešit jednoduchý pětiminutový úkol po svém, protože 'proces to nepředpokládá'.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Když je někdo z mého týmu neprávem seřván a já jsem jediný, kdo se na to musí dívat.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q69_die_gehaltsverhandlung",
+        "category": "career_change_exit",
+        "question": "Zítra máš to úplně rozhodující jednání o vyšším platu. Jak se připravíš dnes večer?",
+        "answers": [
+            {
+                "text": "Sepíšu ledově chladný seznam svých KPI a úspěchů. Když nezaplatí, znám svůj exit plán.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Trénuju před zrcadlem, protože mám děsný strach, že v rozhodující chvíli změknu nebo ustoupím.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_veraenderung": 2
+                }
+            },
+            {
+                "text": "Sbírám platové tabulky z internetu, abych svůj požadavek mohl bez mezer a objektivně obhájit.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Spíš přemýšlím, jaké nové svobody, rozpočty nebo remote dny si můžu vyjednat. Samotné peníze mi nestačí.",
+                "scores": {
+                    "pionier": 2,
+                    "fear_status": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q70_der_neustart",
+        "category": "career_change_exit",
+        "question": "Když zítra začneš v úplně nové firmě, v úplně novém [Cluster]: co je tvoje absolutní priorita číslo 1?",
+        "answers": [
+            {
+                "text": "Skutečná důvěra. Nechci už nikdy muset obhajovat každé malé rozhodnutí.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Lidské teplo. Potřebuju tým, který si neustále neháže nůž do zad.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Absolutní jasno. Chci přesně vědět, podle čeho mě hodnotí a jaký je proces.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Peníze a autonomie. Chci být za své výsledky férově odměněn a pracovat v klidu.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,370 @@
+[
+    {
+        "profile_id": "pionier_existenzangst",
+        "base_type": "Strateginen pioneeri",
+        "fear_mutation": "Existenssipelko",
+        "name": "Kompromissoitu pioneeri",
+        "headline": "Sinulla on loistavia ideoita, mutta myit itsesi kuukausipalkan lopun säälirahasta.",
+        "corporate_view": "Sinua pidetään yrityksessä visionäärisenä ajattelijana, joka ajattelee paljon oman osastonsa rajojen yli. Sinua arvostetaan siitä, että huomaat tehottomuudet heti, ymmärrät kokonaisuuden ja sinulla olisi teoriassa potentiaalia keksiä jäykistyneet liiketoimintamallit täysin uusiksi. Johdolle olet arvokas resurssi, koska osut ongelmakohtiin tarkasti ja paljastat strategiset sokeat pisteet.",
+        "shadow_conflict": "Olet sopeutunut järjestelmään – ja juuri se tappaa sinua sisältä vähän joka päivä. Näet terävästi, miten firma ajaa silmät auki seinään tai miten järjettömiä ja tyhmiä vakiintuneet prosessit ovat. Mutta olet hiljaa ratkaisevissa palavereissa. Miksi? Koska pelko kiinteistä kuluistasi, seuraavasta lainanlyhennyksestä, elintasostasi ja työsopimuksesi valheellisesta turvasta on paljon suurempi kuin todellinen halusi innovoida. Vedät sisäisesti enää vain pakolliset työt, vaikka aivosi on tehty disruptiota ja oikeaa muutosta varten. Tämä kultainen häkki, jonka olet rakentanut itse, tekee sinusta yhä kyynisemmän, katkeramman ja vie luovan elinvoimasi.",
+        "action_steps": [
+            "Katkaise emotionaalinen tuotto: Lopeta arvokkaan henkisen energian syytäminen järjestelmään, joka ei kuitenkaan toteuta ideoitasi. Tee työsi edelleen hyvin ja ammattimaisesti, mutta irrota tunneside johdonmukaisesti. Firma ei ole perheesi, se on tämänhetkinen maksajasi.",
+            "Rakenna 'Fuck-You-Money': Karsi elintasoasi väliaikaisesti ja rakenna aggressiivisesti taloudellinen puskuri. Vasta kun selviät realistisesti 6 kuukautta ilman tätä palkkaa, aivosi lakkaavat panikoimasta ja uskallat taas ottaa oikeita riskejä ja sanoa mielipiteesi.",
+            "Kanavoi disruptiosi: Käytä patoutunutta, käyttämätöntä luovuuttasi salaisessa sivubisneksessä. Vaihtoehtoisesti: valmistele lähtösi ja hae vahvasti kasvuhakuisiin startupeihin tai scale-up-yrityksiin, jotka palkitsevat juuri tämän hillittömän innon innovointiin sen sijaan, että tukahduttaisivat sen."
+        ],
+        "monetization_hook": {
+            "topic": "Sivutoiminen yrittäjyys ja taloudellinen riippumattomuus",
+            "keywords": [
+                "Fuck You Money",
+                "Side Hustle",
+                "Taloudellinen vapaus",
+                "Sivutoiminen yrittäjyys"
+            ]
+        }
+    },
+    {
+        "profile_id": "pionier_versagensangst",
+        "base_type": "Strateginen pioneeri",
+        "fear_mutation": "Epäonnistumisen pelko",
+        "name": "Lukkiutunut pioneeri",
+        "headline": "Suunnittelet vallankumouksen laatikkoon, koska sinulla on täysi paniikki todellisuutta kohtaan.",
+        "corporate_view": "Sinut tunnetaan yrityksessä äärimmäisen syvällisenä analyytikkona ja arkkitehtina. Et koskaan tarjoa puolivalmiita konsepteja. Kollegat ihailevat sitä, miten mietit uusia strategioita, tuotteita tai prosesseja aivan viimeiseen yksityiskohtaan asti ennen kuin ne näkevät päivänvalon. Olet älyllisen syvyyden ja vedenpitävän suunnittelun tae.",
+        "shadow_conflict": "Huijarisyndroomasi pitää sinua kuristusotteessa. Kovalevylläsi lepää satoja keskeneräisiä konsepteja, loistavia ideoita ja visioita – mutta et koskaan paina 'Launch'. Selität itsellesi ja muille, että tuote tai idea ei ole 'vielä tarpeeksi valmis'. Raaka totuus on toinen: pelkäät paniikissa, että ideasi epäonnistuu todellisuudessa, kriitikot repivät sen palasiksi ja sinut paljastetaan lopulta huijariksi. Ylistetty perfektionismisi ei ole enää laadunvalvontaa, vaan nerokkain tekosyysi sille, ettet koskaan joudu oikeaan riskiin. Piiloudut suunnittelun taakse.",
+        "action_steps": [
+            "Ota käyttöön 80 % -periaate: Pakota itsesi epämukavaan totuuteen: 'Valmis on parempi kuin täydellinen'. Julkaise, lähetä tai esitä seuraava ideasi tietoisesti keskeneräisessä tilassa. Opettele kestämään keskeneräisyyden epämukavuus.",
+            "Irrota itsetuntosi työstä: Erota henkilökohtainen arvosi tiukasti työstäsi. Jos jokin concept sinulta epäonnistuu, se ei tarkoita, että olet ihmisenä epäonnistuja. Se tarkoittaa vain, että asiallinen hypoteesi testattiin markkinassa tai tiimissä ja kumottiin.",
+            "Löydä vastaparisi: Etsi käytännönläheinen toteutuskumppani ('Executor'). Tarvitset rinnallesi ihmisen, joka vie ideasi armottomasti ja nopeasti käytäntöön ja painaa nappia samalla kun sinä vielä pyörit itseepäilyn silmukassa."
+        ],
+        "monetization_hook": {
+            "topic": "Huijarisyndrooman voittaminen ja toteutusstrategiat",
+            "keywords": [
+                "Imposter Syndrom",
+                "Lean Startup",
+                "Perfektionismin poisoppiminen",
+                "Projektien saattaminen loppuun"
+            ]
+        }
+    },
+    {
+        "profile_id": "pionier_statusverlust",
+        "base_type": "Strateginen pioneeri",
+        "fear_mutation": "Statuksen menetys",
+        "name": "Lavastettu pioneeri",
+        "headline": "Rakastat sitä, että sinua juhlitaan luovana kapinallisena – kunhan työsuhdeautosi ei ole vaarassa.",
+        "corporate_view": "Toimit työelämässä äärimmäisen karismaattisena edelläkävijänä, joka saa tiimit, osastot ja sidosryhmät mukaansa vaivatta. Sinua ihaillaan harvinaisesta kyvystäsi paketoida monimutkaiset, kuivat innovaatiot kiinnostaviksi visioiksi ja myydä ne erinomaisesti ylöspäin ylimmälle johdolle. Olet kehityksen loistava näyteikkuna.",
+        "shadow_conflict": "Sinusta on tullut itseilmaisun mestari. Puhut kovaan ääneen ja mielelläsi 'New Workista', ketteryydestä, disruptiosta ja matalista hierarkioista. Olet se, joka pitää liekehtivät, inspiroivat puheet townhall-palavereissa. Mutta heti kun tulee tosi paikka – heti kun joutuisit riskeeraamaan oman asemasi, budjettisi tai maineesi hallituksen edessä oikean vakaumuksen vuoksi – peräännyt. Palaat välittömästi vanhojen hierarkioiden poliittiseen peliin. Väitetty kapinasi on usein vain fiksusti laskelmoitua omaa PR:ää. Syvällä sisällä pelkäät eniten statuksesi menettämistä ja katoamista harmaaseen merkityksettömyyteen keskijohdossa.",
+        "action_steps": [
+            "Tee töitä varjossa: Lopeta innovaation käyttäminen pelkkänä työkaluna egollesi ja näkyvyydellesi. Pakota itsesi toteuttamaan tärkeä projekti, joka auttaa firmaa merkittävästi, mutta josta et virallisesti saa krediittiä, näyttämöä tai kehuja.",
+            "Syleile konfliktia: Poistu poliittisesta mukavuusalueestasi. Oikea muutos tarkoittaa aina sitä, että etuoikeuksia haastetaan ja vihollisia syntyy. Hyväksy se, että todellisena pioneerina et voi olla kaikkien johtajien ja kollegoiden lemmikki.",
+            "Ego-tarkistus: Kysy ennen jokaista uutta hanketta itseltäsi rehellisesti: onko tässä oikeasti kyse asiasta ja edistyksestä – vai kiillotatko juuri vain LinkedIn-profiilisi avainsanoja?"
+        ],
+        "monetization_hook": {
+            "topic": "Aito johtajuus ja egon hallinta",
+            "keywords": [
+                "Ego is the Enemy",
+                "Authentic Leadership",
+                "Servant Leadership",
+                "Statuksen pelko"
+            ]
+        }
+    },
+    {
+        "profile_id": "pionier_veraenderungsangst",
+        "base_type": "Strateginen pioneeri",
+        "fear_mutation": "Muutoksen pelko",
+        "name": "Turhautunut unelmoija",
+        "headline": "Valitat joka päivä byrokraattisesta helvetistä – mutta ironisesti olet liian mukavuudenhaluinen lähtemään.",
+        "corporate_view": "Sinut tunnetaan järjestelmässä luotettavana, joskin kriittisenä ideanikkarina. Tiedät oman systeemisi heikkoudet, pullonkaulat ja historialliset virheet täysin ulkoa ja osaat nimetä ne terävästi. Kaikki tietävät: jos haluaa tietää, miksi jokin prosessi tökkii, sinulta kannattaa kysyä.",
+        "shadow_conflict": "Olet kahvihuoneen äänekkäin ja sanavalmiin kriitikko. Kärsit aidosti ja näkyvästi Excel-helvetistä, loputtomista hyväksyntäketjuista ja yrityksesi jäykistä säännöistä. Vakiosanasi on: 'Tämä koko paikka pitäisi oikeastaan purkaa ja rakentaa täysin uudelleen.' Mutta syvällä sisälläsi pelkäät valtavasti sitä, että joutuisit jättämään mukavat, äärimmäisen ennustettavat rutiinisi. Jatkuvasta valittamisesta on paradoksaalisesti tullut turvallisin mukavuusalueesi. Oikea uusi alku toisessa firmassa tarkoittaisi nimittäin sitä, että menettäisit aloittelijan suojan ja joutuisit taas todistamaan käytännössä, kuinka hyvä oikeasti olet.",
+        "action_steps": [
+            "30 päivän ultimaatumi: Aseta itsellesi tänään kova takaraja. Joko sinulla on tasan 30 päivän päästä ansioluettelosi päivitettynä ja ensimmäinen hakemus lähetettynä, tai menetät tästä päivästä alkaen moraalisen oikeuden valittaa työstäsi tai pomostasi. Hyväksyminen tai lähtö.",
+            "Harjoittele mikromuutoksia: Treenaa muutoksen löystynyttä lihasta pienissä asioissa. Riko tietoisesti arkiset rutiinisi (toinen työmatka, toiset työkalut, toiset taukoajat), jotta aivosi oppivat pelkäämään kontrollin menettämistä vähemmän.",
+            "Tapa nostalgia: Lopeta yrityksen menneisyyden romantisointi ('ennen täällä oli kaikki ketterämpää'). Hyväksy kylmä todellisuus: järjestelmä ei muutu sinun vuoksesi enää. Sinun on liikuttava itse."
+        ],
+        "monetization_hook": {
+            "topic": "Päätöksenteko ja radikaali alanvaihto",
+            "keywords": [
+                "Päätösten tekeminen",
+                "Mukavuusalueelta poistuminen",
+                "Alanvaihto",
+                "Uranvaihto"
+            ]
+        }
+    },
+    {
+        "profile_id": "executor_existenzangst",
+        "base_type": "Käytännöllinen toteuttaja",
+        "fear_mutation": "Existenssipelko",
+        "name": "Koulutettu tekijä",
+        "headline": "Voisit kääntää koko firman yksin, mutta puret kieltäsi, koska tarvitset palkkakuittia.",
+        "corporate_view": "Yritykselle olet ehdoton työjuhta ja äärimmäisen luotettava tukipilari operatiivisessa arjessa. Olet se, joka muuntaa johdon epämääräiset, todellisuudesta irtautuneet ohjeet koviksi, mitattaviksi tuloksiksi ja varmistaa, että kvartaalin luvut pysyvät kurssissa.",
+        "shadow_conflict": "Kiehut sisäisesti joka päivä raivosta. Näet räikeän tehottomuuden, siedät johdon typeriä ja käytännöstä irtautuneita päätöksiä ja kannat mukana kollegoita, jotka eivät yksinkertaisesti suoriudu. Oikeastaan jokainen vaisto sinussa huutaa, että pitäisi iskeä kovaa, tehdä tabula rasa ja tyhjentää pöytä. Mutta et tee sitä. Jatkuva, jyskyttävä huolesi vuosibonuksesta, käynnissä olevasta asuntolainasta tai korkeasta elintasostasi pakottaa sinut alistumaan. Nielettynä käytännöllisyytesi, teet hampaat irvessä järjettömimmätkin tehtävät ja muutut hitaasti mutta varmasti turtuneeksi, katkeraksi kyynikoksi.",
+        "action_steps": [
+            "Sammuta kultainen ansa: Laske kiinteitä kulujasi heti. Taloudellinen riippuvuutesi on täysin ainoa syy, miksi siedät tätä ylhäältä tulevaa osaamattomuutta. Vapaus alkaa tililtä, ei päästä.",
+            "Tee emotionaalinen irtisanoutuminen: Lopeta tunteiden sijoittaminen projekteihin, jos sinulla ei ole valtaa oikeasti ohjata niitä. Toimita täsmälleen se, mistä sinulle maksetaan, ja sammuta sen jälkeen mielesi kokonaan.",
+            "Vaihda pelikenttää: Sinun paikkasi on puhtaasti suorituskykyvetoisessa ympäristössä (esim. myynti, interim-johtaminen tai oma bisnes). Etsi ympäristö, jossa ei ole toimistopolitiikkaa, vaan jossa armoton käytännöllisyytesi muuttuu suoraan rahaksi ja mitattavaksi menestykseksi."
+        ],
+        "monetization_hook": {
+            "topic": "Stoalaisuus työssä ja suorituskykyurat",
+            "keywords": [
+                "Stoalaisuus",
+                "Interim Management",
+                "Provisionaaliset mallit",
+                "Tunne-etäisyys työssä"
+            ]
+        }
+    },
+    {
+        "profile_id": "executor_versagensangst",
+        "base_type": "Käytännöllinen toteuttaja",
+        "fear_mutation": "Epäonnistumisen pelko",
+        "name": "Tyranninen tekijä",
+        "headline": "Vedät kaikki tehtävät itsellesi, koska et luota muihin – ja palat loppuun omassa mikromanageerauksessasi.",
+        "corporate_view": "Sinut nähdään yrityksessä äärimmäisen määrätietoisena johtohahmona. Otat ilman pienintäkään epäröintiä täyden vastuun kriittisistä projekteista, menet edellä ja pusket tiimiä näennäisesti väsymättä huipputuloksiin. Kun palaa, sinut kutsutaan.",
+        "shadow_conflict": "Naamioit alastoman kontrollinmenetyksen paniikkisi taitavasti 'tehokkuudeksi' ja 'laatuvaatimukseksi'. Syvällä sisälläsi pelkäät taukoamatta, että jokin menee pieleen ja osuu sinuun takaisin. Siksi et koskaan delegoi oikeasti. Annat kyllä tehtäviä pois, mutta olet lopulta oman menestyksesi pullonkaula, koska päivän päätteeksi korjaat silti itse jokaisen sähköpostin, jokaisen esityksen ja jokaisen dokumentin vielä yöllä klo 23. Selität itsellesi, että tiimisi on kyvytön, mutta myrkyllinen totuus on: et anna heille edes tilaa työskennellä itsenäisesti ja tehdä virheitä, koska SINÄ vapiset virheen seurausten edessä.",
+        "action_steps": [
+            "80 % -sääntö laiksi: Hyväksy vihdoin: tehtävä, jonka työntekijä tekee 80-prosenttisesti yhtä hyvin kuin sinä, ei ole laadun menetys – se on valtava voitto omalle rajalliselle elinajallesi.",
+            "Salli kontrolloitu kipu: Anna tietoisesti ja tarkoituksella jonkin pienen, merkityksettömän projektin mennä seinään tai siedä näkyvä virhe tiimissäsi. Sinun on koettava, ettei maailma romahda siitä.",
+            "Arkkitehti käsityöläisen sijaan: Vaihda identiteettiäsi. Et ole enää paras 'toteuttaja'. Olet nyt 'järjestelmäarkkitehti'. Tehtäväsi on rakentaa kestäviä prosesseja, jotka toimivat silloinkin, kun et ole huoneessa."
+        ],
+        "monetization_hook": {
+            "topic": "Tehokas delegointi ja systematisointi",
+            "keywords": [
+                "Delegoinnin opettelu",
+                "Mikromanageerauksen poisoppiminen",
+                "Johtamistaidot",
+                "Järjestelmien rakentaminen"
+            ]
+        }
+    },
+    {
+        "profile_id": "executor_statusverlust",
+        "base_type": "Käytännöllinen toteuttaja",
+        "fear_mutation": "Statuksen menetys",
+        "name": "Alueellinen tekijä",
+        "headline": "Sekoitat johtamisen dominointiin, koska pelkäät paniikissa putoavasi rankingissa alemmas.",
+        "corporate_view": "Sinut nähdään organisaatiossa erittäin kilpailuhenkisenä alfa-pelaajana, joka haluaa aina voittaa ja yleensä myös voittaa. Varmistat markkinaosuuksia, voitat kovimmat neuvottelut ja puolustat oman osastosi etuja ja budjetteja ulospäin äärimmäisen kovaa ja kompromissittomasti.",
+        "shadow_conflict": "Egosi on suurin ja vaarallisin sokea pisteesi. Mittaat henkilökohtaista arvoasi yksinomaan budjettisi suuruudella, tittelilläsi ja sillä, kuka ratkaisevassa palaverissa saa viimeisen sanan. Jyräät muut kollegat retorisesti ja kaappaat tiimin onnistumiset itsellesi. Et siksi, että se olisi asian tai firman kannalta parasta, vaan koska pelkäät käsittämättömän paljon, että joku toinen, nuorempi tai äänekkäämpi alfa ajaa sinut ohi. Ympäristösi kyllä kunnioittaa kovuuttasi ja tuloksiasi, mutta selkäsi takana ei ole aitoa lojaaliutta. Oikeastaan siellä vain odotetaan, että joskus kompastut.",
+        "action_steps": [
+            "Yhteistyö sodan sijaan: Lopeta taistelu omaa tiimiäsi tai muita osastoja vastaan. Todellinen, varma vahvuus ei näy siinä, että pidät muut pieninä, vaan siinä, että siedät kyvykkäitä ihmisiä vierelläsi ja annat heidän jopa kasvaa.",
+            "Radikaali kuunteluharjoitus: Pakota itsesi seuraavassa tärkeässä palaverissa olemaan kolme minuuttia keskeyttämättä ketään, ilmettä väräyttämättä ja ilman omaa ratkaisuehdotusta. Kestä hiljaisuus ja anna muiden loistaa.",
+            "Pohdi skaalautuvuutta: Johtaminen pelolla ja dominoinnilla toimii lyhyellä aikavälillä ja tuo nopeita lukuja. Johtaminen syvällä kunnioituksella ja psykologisella turvallisuudella on kuitenkin ainoa tapa, joka skaalautuu pitkällä aikavälillä ja estää loppuunpalamisen."
+        ],
+        "monetization_hook": {
+            "topic": "Nykyaikainen johtaminen ja valtadynamiikat",
+            "keywords": [
+                "Valtapelejä toimistossa",
+                "Servant Leadership",
+                "Tunneäly johtajille",
+                "Ego is the enemy"
+            ]
+        }
+    },
+    {
+        "profile_id": "executor_veraenderungsangst",
+        "base_type": "Käytännöllinen toteuttaja",
+        "fear_mutation": "Muutoksen pelko",
+        "name": "Jäykkä tekijä",
+        "headline": "Puolustat vanhoja menetelmiäsi kynsin ja hampain, koska pelkäät olevasi uudessa taas aloittelija.",
+        "corporate_view": "Olet kallio myrskyssä. Sinulla on korvaamatonta, syvää kokemustietoa operatiivisista prosesseista ja tiedät harvojen joukossa vielä tarkasti, miten ja miksi ydinliiketoiminta on pysynyt kannattavana vuosia. Kun järjestelmä horjuu, olet luotettava ankkuri.",
+        "shadow_conflict": "Olet nykyisten työkalujesi, Excel-listojesi ja prosessiesi kiistaton mestari. Kukaan ei vedä sinua nenästä, saat asiat tehtyä sokkona ja nopeammin kuin kukaan muu. Mutta heti kun uudet menetelmät – kuten tekoäly, ketterät viitekehykset tai uusi pilviohjelmisto – nostetaan esiin, rakennat muurin. Leimaat ne palavereissa äänekkäästi 'uusmuotisiksi paskapuheiksi', jotka 'eivät meidän käytännössä koskaan toimi'. Tämän ylimielisyyden karu totuus: pelkäät vain hirveästi menettäväsi kovalla työllä ansaitun asiantuntija-asemasi yhdessä yössä ja joutuvasi nuorempien kollegoiden edessä taas tyhmäksi aloittelijaksi nollasta.",
+        "action_steps": [
+            "Todellisuustarkistus: Hyväksy markkinan kova todellisuus: se, joka elää itsepäisesti menneisyydessä, ei saa enää palkkaa lähitulevaisuudessa. Nykyinen jäykkä prosessitietosi menettää arvonsa nopeasti.",
+            "Salainen laboratorio: Varaa tästä lähtien joka viikko kaksi tuntia kalenterista kiinteää blokki-aikaa oppiaksesi tarkoituksella yhden uuden, disruptiivisen työkalun omalta alaltasi. Tee se tarvittaessa täysin salaa, kunnes tunnet olosi tarpeeksi varmaksi näyttääksesi sen tiimille.",
+            "Käänteinen mentorointi käyttöön: Lopeta nuorempien kollegoiden työskentelytavan ylimielinen vähättely. Tee heistä sen sijaan mentoreitasi uusissa teknologioissa ja tekoälyssä. Vastineeksi opetat heille korvaamatonta strategista toimialaosaamistasi."
+        ],
+        "monetization_hook": {
+            "topic": "Tulevaisuuden taidot ja tekoäly johdossa",
+            "keywords": [
+                "Tekoäly johtajille",
+                "Change Management",
+                "Reverse Mentoring",
+                "Ketterät menetelmät"
+            ]
+        }
+    },
+    {
+        "profile_id": "optimierer_existenzangst",
+        "base_type": "Rakenteellinen optimoija",
+        "fear_mutation": "Existenssipelko",
+        "name": "Näkymätön vanki",
+        "headline": "Teet kolmen ihmisen työt, saat palkkaa kuin yksi, ja pelkäät liikaa muuttaa mitään.",
+        "corporate_view": "Olet äärimmäisen lojaali ja täysin virheetön työntekijä. Muodostat osaston näkymättömän mutta erittäin turvallisen perustan. Olet se, jolle voi kasata kaikki kiittämättömät, pienet taustatehtävät, koska johto tietää tarkalleen: hoidat ne valittamatta, ajallaan ja täydellisesti.",
+        "shadow_conflict": "Olet jumissa täysin täydellisessä oravanpyörässä. Tiedät rationaalisesti aivan hyvin, että sinua alipalkataan rajusti ja järjestelmä käyttää hyväntahtoisuuttasi häikäilemättömästi hyväksi. Mutta nielet sen ja olet hiljaa. Pelkosi taloudellisesta epävarmuudesta, työpaikan vaihdon stressistä tai uuden työnantajan koeajan 'riskistä' on niin ylivoimainen, että siedät mieluummin tutun, turvallisen kurjuuden. Salainen selviytymisstrategiasi: toivot hartaasti, että pomosi joskus 'ihan itse' huomaa, kuinka uskomattoman arvokas olet, ja tarjoaa sinulle oma-aloitteisesti palkankorotuksen. Spoileri: sitä ei tule koskaan tapahtumaan.",
+        "action_steps": [
+            "Lopeta 'palkitsijan' odottaminen: Bisneksessä ei palkita suoritusta reilusti, vaan ainoastaan neuvoteltu markkina-arvo. Kukaan ei anna sinulle rahaa hiljaisesta puurtamisesta. Sinun on vaadittava arvosi aktiivisesti, melkein liiketoimintamaisesti.",
+            "Pidä suorituspäiväkirjaa: Dokumentoi tästä lähtien (vähintään viikon ajan) aivan jokainen tehtävä, joka menee varsinaisen sopimuksesi yli. Muunna nämä tehtävät mielessäsi konkreettisiksi säästyneiksi kustannuksiksi tai estetyiksi kriiseiksi yritykselle. Se on neuvotteluvaltisi.",
+            "Strateginen ei: Harjoittele 'ei'-sanomista turvallisessa ympäristössä. Kun seuraava suunnittelematon 'voisitko nopeasti' -tehtävä heitetään yli aidan, vastaa: 'Teen mielelläni, mutta silloin projekti X jää tänään väistämättä odottamaan. Sinun priorisointisi.'"
+        ],
+        "monetization_hook": {
+            "topic": "Palkkaneuvottelu introverteille",
+            "keywords": [
+                "Palkan neuvottelu introverttina",
+                "Ei sanomisen opettelu",
+                "Rajojen asettaminen työssä",
+                "Markkina-arvon määrittäminen"
+            ]
+        }
+    },
+    {
+        "profile_id": "optimierer_versagensangst",
+        "base_type": "Rakenteellinen optimoija",
+        "fear_mutation": "Epäonnistumisen pelko",
+        "name": "Halvaantunut perfektionisti",
+        "headline": "Muotoilet Excel-soluja klo 22, koska pelkäät paniikissa, että pieni virhe maksaa sinulle työpaikan.",
+        "corporate_view": "Olet kiistaton laadunvalvonnan mestari. Huomaat operatiiviset riskit, loogiset aukot ja compliance-ongelmat kauan ennen kuin ne ehtivät aiheuttaa oikeaa vahinkoa. Kun luovutat jotain eteenpäin, kaikki tiimissä tietävät: tämä on ehdoton kultastandardi.",
+        "shadow_conflict": "Se, mikä ulospäin näyttää esimerkilliseltä kunnianhimolta ja ahkeruudelta, on todellisuudessa massiivinen psykologinen kilpi. Perfektionismisi on muuttunut sairaalloiseksi. Pelkäät paniikinomaisesti, melkein fyysisesti, että joku pystyy osoittamaan sinussa virheen ja paljastat itsesi kaikkien edessä kyvyttömäksi. Siksi rakennat aukottomia, liioiteltuja protokollia, varmistat itsesi CC-sähköposteissa kolminkertaisesti ja tarkistat kollegoidesi työt salaa uudelleen sen sijaan, että lähtisit kotiin. Tämä käytös vie sinulta järjettömästi elinvoimaa. Palaat sisältä loppuun pelkästä, katkeamattomasta kritiikin pelosta.",
+        "action_steps": [
+            "Brutaali Pareto-periaate (80/20): Käytä tätä sääntöä armotta. Täydellisyyden tavoittelu 80 prosentin jälkeen maksaa sinulle eksponentiaalisesti enemmän aikaa ja hermoja, mutta karu todellisuus on: kukaan muu kuin sinä ei näe tätä marginaalista eroa. Bisnekselle se on yhdentekevää.",
+            "Virheensietoharjoitus: Lähetä tietoisesti ja tarkoituksella sisäinen, merkityksetön luonnos kollegalle, jossa on vielä pieni muotoilu- tai kirjoitusvirhe. Katso, mitä tapahtuu. Sinun on koettava, ettei maineesi romahda siitä.",
+            "Käytännöllisyys yli ylitekemisen: Lopeta yrittämästä tehdä itsestäsi koskematon keinotekoisesti paisutetulla monimutkaisuudella. Nopeasti ja käytännöllisesti ratkaistu ongelma on yritykselle paljon arvokkaampi kuin 100-prosenttisesti täydellisesti dokumentoitu mutta jumissa oleva ongelma."
+        ],
+        "monetization_hook": {
+            "topic": "Perfektionismista irti päästäminen ja ajanhallinta",
+            "keywords": [
+                "Pareto-periaate",
+                "Huijarisyndrooman voittaminen",
+                "Yliajattelun lopettaminen",
+                "Kritiikin pelko"
+            ]
+        }
+    },
+    {
+        "profile_id": "optimierer_statusverlust",
+        "base_type": "Rakenteellinen optimoija",
+        "fear_mutation": "Statuksen menetys",
+        "name": "Katkeroitunut asiantuntija",
+        "headline": "Vihaat äänekkäitä poseeraajia, joita ylennetään jatkuvasti – mutta kieltäydyt ylpeydestäsi itse astumasta esiin.",
+        "corporate_view": "Sinua pidetään tiimissä yrityksen hiljaisena, syvänä tietolähteenä. Olet ehdoton substanssiasiantuntija, jonka ohi kukaan ei pääse, kun jokin aihe on oikeasti monimutkainen, kriittinen tai teknisesti vaativa. Olet firman luotettava, inhimillinen arkisto.",
+        "shadow_conflict": "Olet käsittämättömän turhautunut ja kyynistynyt. Näet joka päivä, kuinka ihmiset, joilla ei ole edes murto-osaa sinun osaamisestasi, kuittaavat isot tittelit ja palkat – vain siksi, että osaavat puhua paremmin ja tuntevat oikeat ihmiset. Inhoat näitä 'poseeraajia' syvästi. Mutta oma egosi on tielläsi: pidät aktiivista itsensä markkinointia 'epäammattimaisena', 'halpana' tai 'nuoleskeluna'. Selität itsellesi: 'Oikeasti hyvä työ puhuu kyllä puolestaan.' Todellisessa maailmassa se ei kuitenkaan puhu. Ylpeä kieltäytymisesi osallistua edes vähän yrityksen poliittiseen peliin tekee sinusta näkymättömän – ja saa sinut junnaamaan paikallasi.",
+        "action_steps": [
+            "Hyväksy pelisäännöt: Luovu naiiviudestasi. Uralla pätee yksi asia: havainto on todellisuutta. Oman näkyvyyden rakentaminen ei ole 'likainen temppu', vaan täysin legitiimi ja välttämätön osa työtäsi.",
+            "5 minuutin sääntö: Päätä, että otat jokaisessa palaverissa puheenvuoron ensimmäisten 5 minuutin aikana – vaikka se olisi vain äänekäs, fiksu tarkentava kysymys. Se tekee läsnäolostasi kuuluvan ja näkyvän.",
+            "Ota onnistumiset omiin nimiisi: Kun olet ratkaissut ison ongelman taustalla, älä vain sulje tikettiä hiljaa. Lähetä relevantille sidosryhmälle proaktiivinen viesti, jossa hienovaraisesti mutta täysin selvästi kerrotaan, että SINÄ estit tämän häiriön."
+        ],
+        "monetization_hook": {
+            "topic": "Itsensä PR ja näkyvyys hiljaisille tekijöille",
+            "keywords": [
+                "Näkyvyys introverteille",
+                "Henkilöbrändäys työssä",
+                "Toimistopolitiikan ymmärtäminen",
+                "Hiljaiset ihmiset, vahva vaikutus"
+            ]
+        }
+    },
+    {
+        "profile_id": "optimierer_veraenderungsangst",
+        "base_type": "Rakenteellinen optimoija",
+        "fear_mutation": "Muutoksen pelko",
+        "name": "Jäykkä byrokraatti",
+        "headline": "Puolustat täysin vanhentuneita sääntöjä kuin linnoitusta, koska uuden työelämän kaaos kuormittaa sinua järjettömästi.",
+        "corporate_view": "Olet osastolla järjestyksen takuumies. Kallio myrskyssä, joka huolehtii pedantisti siitä, että kaikkien trendikkäiden ketterien muutoshankkeiden ja johdon villejen ideoiden keskellä varsinainen ydinliiketoiminta ei romahda. Varmistat tarvittavan vakauden ja compliance-vaatimusten toteutumisen.",
+        "shadow_conflict": "Heti kun palaverissa mainitaan 'ketteryys', 'uudelleenjärjestely' tai 'uuden ohjelmiston käyttöönotto', kurkkusi menee käytännössä umpeen. Rakastat ja tarvitset ehdotonta ennustettavuutta. Olet vuosien aikana rakentanut täydellisen, turvallisen pesän monimutkaisista Excel-makroista, omista kansiorakenteista ja tiukoista prosesseista. Täällä olet kiistaton mestari. Jos kaikki muuttuu nyt radikaalisti, menetät täydellisen kontrollisi ja statuksesi 'tietävänä asiantuntijana'. Juuri siksi blokkaat tarpeellisia uudistuksia todella usein – yleensä taitavasti naamioituna 'compliance-huolien' tai 'laadunvarmistuksen' alle. Totuus on, että pelkäät vain sitä, että uudessa, dynaamisessa järjestelmässä olet yhtäkkiä hyödytön.",
+        "action_steps": [
+            "Blokkaajasta arkkitehdiksi: Lopeta käyttäytyminen kuin kivivyöry virtaa vastaan. Et voi pysäyttää digitalisaatiota. Mutta voit käyttää rakenteellista osaamistasi siihen, että organisoit siirtymän turvallisesti ja virheettömästi.",
+            "Tulkitsijan rooli: Nimeä itsesi proaktiivisesti vanhan ja uuden järjestelmän 'tulkiksi'. Massiivinen tietosi historiallisista virheistä ja piilossa olevista sudenkuopista on kullanarvoista, kun uusi ohjelmisto tai prosessi otetaan käyttöön. Käytä sitä aktiivisesti.",
+            "Opettele sietämään kaaosta: Poistu kerran viikossa tietoisesti rakenteellisesta mukavuusalueestasi. Tee yksi tehtävä täysin uudella, omasta mielestäsi 'tehottomalla' tavalla, jotta todistat aivoillesi, että tilapäinen epäjärjestys ei tapa sinua ja avaa usein uusia reittejä."
+        ],
+        "monetization_hook": {
+            "topic": "Resilienssi ja muutosjohtaminen asiantuntijoille",
+            "keywords": [
+                "Muutosjohtaminen",
+                "Muutoksen käsittely",
+                "Ketterä työskentely aloittelijoille",
+                "Psykologinen joustavuus"
+            ]
+        }
+    },
+    {
+        "profile_id": "katalysator_existenzangst",
+        "base_type": "Integroiva katalyytti",
+        "fear_mutation": "Olemassaolon pelko",
+        "name": "Vangittu auttaja",
+        "headline": "Uhraudut 'firman perheen' puolesta, koska pelkäät paniikissa menettäväsi turvallisen satamasi.",
+        "corporate_view": "Olet tiimin liima. Olet se henkilö, joka nappaa jännitteet ja konfliktit käytävältä ennen kuin ne eskaloituvat. Hoidat luonnostaan vastenmieliset tehtävät ylikuormittuneilta kollegoilta ja varmistat samalla, että tiimin vaihtuvuus ja sairauspoissaolot pysyvät alhaalla.",
+        "shadow_conflict": "Selität itsellesi, että kollegasi ovat 'perhettä'. Mutta syvällä sisälläsi tiedät tasan tarkkaan: kyse on kylmästä bisnes­suhteesta. Niele oma turhautumisesi, arvostuksen puute ja lukemattomat palkattomat ylityöt, koska olemassaolon pelkosi lamaannuttaa sinut täysin. Näennäisesti rajaton auttamishalusi on oikeasti vahvin suojamekanismisi: teet itsestäsi emotionaalisesti ja operatiivisesti kaikkialla läsnä olevan hyvän sielun siinä toivossa, että seuraavassa irtisanomisaallossa tai uudelleenjärjestelyssä et joudu säälistä koskaan listalle. Vaihdat taloudellisen turvallisuutesi mielenterveyteesi – hirveä diili.",
+        "action_steps": [
+            "Aktivoi bisnesajattelu: Näe kylmä todellisuus: jos luvut ovat punaisella, yritys irtisanoo sinut silti – vaikka olisit leiponut kuinka monta kakkua. Todellinen, kestävä turva löytyy vain ammatillisesta markkina-arvostasi, ei uhrautumisestasi.",
+            "Yli-innokkuuden kylmä vieroitus: Lopeta emotionaalinen ylivastuullisuus heti. Älä enää tee tänään yhtään tehtävää, joka ei täsmälleen kuulu työnkuvaasi, vain jotta muut pitäisivät sinusta.",
+            "Sijoita itseesi: Ota se valtava energia, jonka käytät muiden ongelmien paikkaamiseen päivittäin, ja sijoita se armottomasti omaan ansioluetteloosi. Tee itsestäsi ammatillisesti korvaamaton sen sijaan, että olisit vain ihmisenä mukava."
+        ],
+        "monetization_hook": {
+            "topic": "Ammatillinen rajojen asettaminen ja resilienssi",
+            "keywords": [
+                "Rajojen asettaminen työssä",
+                "People pleaser -käytöksen lopettaminen",
+                "Taloudellinen riippumattomuus",
+                "Myrkyllinen lojaalius"
+            ]
+        }
+    },
+    {
+        "profile_id": "katalysator_versagensangst",
+        "base_type": "Integroiva katalyytti",
+        "fear_mutation": "Epäonnistumisen pelko",
+        "name": "Ylikompensoiva pelastaja",
+        "headline": "Sanot jokaiseen lisätehtävään 'kyllä', koska pelkäät paniikissa muuten paljastuvasi huijariksi.",
+        "corporate_view": "Sinua pidetään yrityksessä luotettavimpana tulipalojen sammuttajana ja lopullisena tiimipelaajana. Olet se, joka perjantai-iltapäivänä pelastaa tilanteen. Lause 'Se ei oikeastaan kuulu työnkuvaani' näyttää kadonneen kokonaan sanavarastostasi.",
+        "shadow_conflict": "Ylistetty auttajan roolisi on oikeasti paksu naamio massiivisen huijarisyndroomasi päällä. Koska tunnet varsinaisessa roolissasi usein epävarmuutta tai et koe olevasi 'tarpeeksi hyvä', kompensoit sitä olemalla rajattomasti käytettävissä ajallisesti. Otat vastaan paskat tehtävät ja jopa muiden virheet kommentoimatta omaksesi. Alitajuntainen logiikkasi kuuluu: 'Jos olen aina kiltti, saatavilla ja äärimmäisen avulias, kukaan ei ehkä huomaa, etten oikeasti ole niin pätevä.' Lopputulos: hukut muiden töihin ja palaudut loppuun, koska yksi ainoa selkeä 'ei' tuntuu sinusta vaaralliselta oman heikkouden myöntämiseltä.",
+        "action_steps": [
+            "Harjoittele taktista 'ei': Opi, että ei ei ole hyökkäys. Lause 'Voin auttaa siinä mielelläni, mutta aikatauluni sallii sen vasta ensi viikon torstaina' on erittäin ammattimainen ja arvostettu raja – ei henkilökohtainen torjunta.",
+            "Erota miellyttävyys ja suoritus: Yritys ei maksa sinulle siitä, että sinusta pidetään, vaan konkreettisista tuloksista. Jos kollegat pettyvät lyhyellä aikavälillä siihen, ettet tee heidän työtään, se on heidän ongelmansa, ei sinun.",
+            "Palauta vastuu takaisin: Jätä muiden aikuisten ihmisten ongelmat sinne, minne ne kuuluvat. Jos kollega epäonnistuu omassa tehtävässään, ei ole millään tavalla sinun tehtäväsi pelastaa häntä illalla salaa pomolta."
+        ],
+        "monetization_hook": {
+            "topic": "Huijarisyndrooma ja ajanhallinta",
+            "keywords": [
+                "Opettele sanomaan ei",
+                "Huijarisyndrooman voittaminen",
+                "Auttajasyndrooma työelämässä",
+                "Itsetunnon rakentaminen"
+            ]
+        }
+    },
+    {
+        "profile_id": "katalysator_statusverlust",
+        "base_type": "Integroiva katalyytti",
+        "fear_mutation": "Statuksen menetys",
+        "name": "Loukkautunut marttyyri",
+        "headline": "Leikit toimiston hyvää sielua, mutta sisälläsi olet syvästi katkera siitä, ettei kukaan taputa sinulle.",
+        "corporate_view": "Olet osaston kiistaton emotionaalinen keskus. Tiedät käytäväpuheet ja sanattomat dynamiikat täysin. Olet se henkilö, joka järjestää tiimitapahtumat, muistaa syntymäpäivät ja nostaa kollegat takaisin jaloilleen kahvikupin ääressä kovien takaiskujen jälkeen.",
+        "shadow_conflict": "Johdatat lähes kaiken ammatillisen itsetuntosi siitä, että kaikki pitävät sinusta ja 'tarvitsevat' sinua kipeästi. Tunget itsesi jo melkein aggressiivisesti kärsivän marttyyrin rooliin: teet demonstratiivisesti pisimmät päivät, lohdutat kaikkia – ja saat sisälläsi raivokohtauksen, kun pomo valitsee ylennyksessä tai bonuskierroksella taas sen äänekkään, kylmän egoistin. Sekoitat perustavanlaatuisesti 'suosion' ja todellisen 'vaikutusvallan'. Nälkäsi statukseen ja tunnustukseen on oikeasti valtava, mutta pidät sitä moraalisesti vääränä tai epäkohteliaana vaatia sitä itsellesi avoimesti, suoraan ja kovalla äänellä. Siksi kärsit hiljaa.",
+        "action_steps": [
+            "Lopeta 'office-parenting': Lopeta toimiston vanhemman rooli heti. Ei enää kakkujen leipomista, ei enää ilmaista terapeutin roolia käytävällä. Olet siellä tekemässä ammattimaista bisnestä, et kasvattamassa tai paapomassa aikuisia ihmisiä.",
+            "Vaadi valtaa, älä sääliä: Jos olet käytännössä se henkilö, joka pitää osaston kasassa, vaadi virallisesti tiiminvetäjän roolia ja siihen kuuluvaa palkkaa. Lopeta tyytyminen lämpimiin sanoihin.",
+            "Lopeta passiivis-aggressiivisuus: Se, etteivät muut näe tai huomioi 'hiljaista uhrautumistasi', ei ole heidän pahantahtoisuuttaan. Se on täysin sinun viestintäongelmasi. Sano selvästi, mitä teet ja mitä haluat siitä vastineeksi."
+        ],
+        "monetization_hook": {
+            "topic": "Johtamistaidot empaattisille ihmisille",
+            "keywords": [
+                "Empaattinen johtaminen",
+                "Palkkaneuvottelu",
+                "Pois uhrin roolista",
+                "Suositusta arvostetuksi"
+            ]
+        }
+    },
+    {
+        "profile_id": "katalysator_veraenderungsangst",
+        "base_type": "Integroiva katalyytti",
+        "fear_mutation": "Muutoksen pelko",
+        "name": "Myrkyllinen harmonisoija",
+        "headline": "Pidät täysin rikkinäisen tiimin kasassa, koska ajatus uudesta alusta pitää sinut öisin hereillä.",
+        "corporate_view": "Sinua pidetään yrityksessä äärimmäisen lojaalina sovittelijana. Pidät organisaation puolta myös vaikeimmissa kriiseissä, irtisanomisaalloissa ja kaaosvaiheissa. Olet firman rauhoittava lääke: saat tiimin heti rauhoittumaan, kun tunnelma kääntyy tai paniikki iskee.",
+        "shadow_conflict": "Olet syvällä äärimmäisen myrkyllisessä työsuhteessa – ja tiedät sen itsekin. Kärsit joka päivä kaoottisista, epäterveistä rakenteista, mutta kaunistelet tilannetta järjestelmällisesti: 'Ei se nyt niin paha ole' tai 'Kollegat tarvitsevat minua, en voi vain lähteä.' Äärimmäisestä, usein kehutusta empatiastasi on tullut suurin ja kohtalokkain tekosyysi sille, ettet koskaan painaisi irtisanoutumispainiketta. Uusi työ tarkoittaisi kylmään, vieraaseen ympäristöön menemistä, jossa sinulla ei vielä ole arvokkaan 'pelastajan' sosiaalista statusta. Niinpä jäät uppoavaan laivaan, soitat viulua loppuun asti ja menet tietoisesti mukana pohjaan.",
+        "action_steps": [
+            "Vedä töpseli irti: Lopeta heti täysin rikkinäisen ja toimimattoman järjestelmän keinotekoinen elvyttäminen empatialla ja ylitöillä. Anna projektin tai osaston kaatua. Se ei ole sinun firmasi. Et ole konkurssipesän hoitaja.",
+            "Riko elämäsi valhe: Kollegasi selviävät ilman sinuakin. Kaikki ovat korvattavissa. Et ole vastuussa muiden aikuisten ihmisten henkilökohtaisesta onnesta, vaan ainoastaan omastasi.",
+            "Uudelleenkehystä työnvaihto: Älä näe työnvaihtoa itkuisena 'perheesi menetyksenä', vaan elintärkeänä pakona myrkyllisestä lahkosta. Päivitä profiilisi ja kirjoita irtisanoutumisesi jo tänään."
+        ],
+        "monetization_hook": {
+            "topic": "Myrkyllisistä työpaikoista lähteminen ja uusi alku",
+            "keywords": [
+                "Myrkyllinen työympäristö",
+                "Irtisanoutumisen pelko",
+                "Emotionaalinen riippuvuus työssä",
+                "Uuden alun uskaltaminen"
+            ]
+        }
+    }
+]

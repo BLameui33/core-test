@@ -1,0 +1,370 @@
+[
+    {
+        "profile_id": "pionier_existenzangst",
+        "base_type": "Stratejik Öncü",
+        "fear_mutation": "Varoluş kaygısı",
+        "name": "Uzlaşmış Öncü",
+        "headline": "Parlak fikirlerin var, ama ay sonundaki acı parası için kendini satmışsın.",
+        "corporate_view": "Şirkette seni, kendi departmanının sınırlarının çok ötesini düşünen vizyoner bir zihin olarak görüyorlar. Verimsizlikleri anında fark etmen, büyük resmi anlaman ve teoride köhneleşmiş iş modellerini kökten yeniden icat etme potansiyelin olduğu için sana değer veriyorlar. Yönetim için sen, parmağını tam yerine basan ve stratejik kör noktaları açığa çıkaran değerli bir varlıksın.",
+        "shadow_conflict": "Sistemle uzlaşmışsın — ve bu, içini her gün biraz daha öldürüyor. Şirketin göz göre göre duvara tosladığını ya da yerleşik süreçlerin ne kadar saçma ve aptalca olduğunu bıçak gibi görüyorsun. Ama kritik toplantılarda susuyorsun. Neden? Çünkü sabit giderlerin, bir sonraki taksit ödemenin, yaşam standardının ve iş sözleşmenin sahte güvenliğinin yarattığı korku, asıl inovasyon dürtünden çok daha büyük. İçten içe sadece mesai dolduruyorsun, halbuki beynin yıkım ve gerçek değişim için yapılmış. Kendi kurduğun bu altın kafes seni giderek daha sinik, daha kırgın yapıyor ve yaratıcı yaşam enerjini çalıyor.",
+        "action_steps": [
+            "Duygusal getiriyi kes: Fikirlerini zaten uygulamayan bir sisteme değerli zihinsel enerji harcamayı bırak. İşini iyi ve profesyonel yapmaya devam et, ama duygusal bağını net biçimde çek. Şirket ailen değil, şu anki para veren tarafın.",
+            "'Siktir et parası'nı biriktir: Yaşam standardını geçici olarak düşür ve agresif biçimde finansal bir yastık oluştur. Ancak bu maaş olmadan gerçekçi olarak 6 ay hayatta kalabildiğinde beynin paniği kapatır; o zaman yeniden gerçek risk almaya ve fikrini söylemeye cesaret edersin.",
+            "Yıkıcı enerjini yönlendir: Bastırılmış, atıl kalmış yaratıcılığını gizli bir yan işe kanalize et. Alternatif olarak: Çıkış planını hazırla ve inovasyon açlığını bastırmak yerine ödüllendiren, büyüme odaklı startup'lara veya scale-up'lara başvur."
+        ],
+        "monetization_hook": {
+            "topic": "Yan iş kurmak & finansal bağımsızlık",
+            "keywords": [
+                "Siktir et parası",
+                "Side Hustle",
+                "Finansal özgürlük",
+                "Yan iş olarak kendi işini kurmak"
+            ]
+        }
+    },
+    {
+        "profile_id": "pionier_versagensangst",
+        "base_type": "Stratejik Öncü",
+        "fear_mutation": "Başarısızlık korkusu",
+        "name": "Bloke olmuş Öncü",
+        "headline": "Gerçeklikten ödünç aldığın mutlak panik yüzünden devrimi çekmecede planlıyorsun.",
+        "corporate_view": "Şirkette seni aşırı derinlikli bir analist ve mimar olarak tanıyorlar. Asla yarım yamalak konseptler sunmazsın. Yeni stratejileri, ürünleri ya da süreçleri dünyaya çıkmadan önce en son ayrıntısına kadar düşünüşüne herkes hayran. Sen entelektüel derinliğin ve su geçirmez planlamanın garantisisin.",
+        "shadow_conflict": "İmposter sendromun seni tam anlamıyla boğazından yakalamış durumda. Diskinde yüzlerce yarım kalmış konsept, parlak fikir ve vizyon var — ama asla 'Launch'a basmıyorsun. Kendine ve başkalarına ürünün ya da fikrin 'henüz mükemmel olmadığını' söylüyorsun. Acı gerçek başka: Fikrinin gerçek hayatta çuvallamasından, eleştirmenler tarafından lime lime edilmesinden ve sonunda seni sahtekar olarak ifşa etmelerinden ölümüne korkuyorsun. Çok övülen mükemmeliyetçiliğin artık kalite kontrol değil, gerçek riske hiç girmemek için kullandığın en zekice bahane. Planlamanın arkasına saklanıyorsun.",
+        "action_steps": [
+            "80% paradigmasını yerleştir: Kendini şu rahatsız edici gerçeğe zorla: 'Bitti, mükemmelden iyidir.' Bir sonraki fikrini bilerek eksik halde yayınla, gönder ya da sun. Eksikliğin yarattığı huzursuzluğa dayanmayı öğren.",
+            "Özdeğerini ayır: Kişisel değerini işinden kesin biçimde ayır. Senden çıkan bir konsept başarısız olursa, bu senin insan olarak başarısız olduğun anlamına gelmez. Sadece bir iş hipotezinin piyasada ya da ekipte test edilip çürütüldüğü anlamına gelir.",
+            "Karşı kutbunu bul: Pratik bir uygulama ortağı bul ('Executor'). Fikirlerini acımasızca ve hızlıca hayata geçirecek, sen hâlâ kendi şüphe döngünde debelenirken düğmeye basacak birine ihtiyacın var."
+        ],
+        "monetization_hook": {
+            "topic": "İmposter sendromunu yenmek & uygulama stratejileri",
+            "keywords": [
+                "İmposter sendromu",
+                "Lean Startup",
+                "Mükemmeliyetçiliği bırakmak",
+                "Projeleri tamamlamak"
+            ]
+        }
+    },
+    {
+        "profile_id": "pionier_statusverlust",
+        "base_type": "Stratejik Öncü",
+        "fear_mutation": "Statü kaybı",
+        "name": "Sahneye konmuş Öncü",
+        "headline": "Kurumsal araban tehlikeye girmediği sürece yaratıcı asi olarak alkışlanmayı seviyorsun.",
+        "corporate_view": "Profesyonel bağlamda seni, ekipleri, departmanları ve paydaşları zahmetsizce peşinden sürükleyebilen aşırı karizmatik bir öncü olarak görüyorlar. Karmaşık, kuru inovasyonları heyecan verici vizyonlara dönüştürme ve bunları üst yönetime mükemmel şekilde satma konusundaki nadir yeteneğine hayranlar. Sen ilerlemenin parlayan vitrinisin.",
+        "shadow_conflict": "Kendini sergileme ustasına dönüştün. 'New Work', çeviklik, yıkım ve düz hiyerarşiler hakkında yüksek sesle ve keyifle konuşuyorsun. Townhall toplantılarında ateşli, ilham verici konuşmaları yapan sensin. Ama iş ciddiye bindiğinde — gerçek bir inanç uğruna kendi pozisyonunu, bütçeni ya da yönetim kurulundaki itibarını riske atman gerektiğinde — hemen geri çekiliyorsun. Eski hiyerarşilerin politik oyununa anında geri dönüyorsun. Sözde isyanın çoğu zaman sadece kendi çıkarına akıllıca hesaplanmış PR. İçten içe en çok korktuğun şey statünü kaybetmek ve orta yönetimin gri önemsizliğinde kaybolmak.",
+        "action_steps": [
+            "Gölgede çalış: İnovasyonu sadece egonu ve görünürlüğünü besleyen bir araç olarak kullanmayı bırak. Şirkete ciddi fayda sağlayacak ama resmi olarak sana kredi, sahne ya da övgü getirmeyecek önemli bir projeyi zorla hayata geçir.",
+            "Çatışmayı kucakla: Politik konfor alanından çık. Gerçek değişim, her zaman ayrıcalıklara saldırmak ve düşman edinmek demektir. Gerçek bir öncü olarak tüm yöneticilerin ve meslektaşlarının gözdesi olamayacağını kabul et.",
+            "Ego kontrolü: Her yeni girişimden önce kendine şu sert ve dürüst soruyu sor: Bu konuda gerçekten meseleye ve ilerlemeye mi odaklanıyorsun — yoksa şu an sadece LinkedIn profilin için anahtar kelimeleri mi parlatıyorsun?"
+        ],
+        "monetization_hook": {
+            "topic": "Otantik liderlik & ego yönetimi",
+            "keywords": [
+                "Ego is the Enemy",
+                "Otantik liderlik",
+                "Hizmetkâr liderlik",
+                "Statü korkusu"
+            ]
+        }
+    },
+    {
+        "profile_id": "pionier_veraenderungsangst",
+        "base_type": "Stratejik Öncü",
+        "fear_mutation": "Değişim korkusu",
+        "name": "Hayal kırıklığına uğramış Hayalperest",
+        "headline": "Her gün bürokratik cehennemden yakınıyorsun — ama ironik biçimde gitmeyecek kadar rahatsın.",
+        "corporate_view": "Sistemde seni güvenilir ama eleştirel bir fikir insanı olarak tanıyorlar. Kendi sisteminin zayıf noktalarını, darboğazlarını ve tarihsel hatalarını ezbere biliyorsun ve bunları net biçimde ifade edebiliyorsun. Herkes bilir: Bir süreç neden tıkanıyor öğrenmek istiyorsa sana sorar.",
+        "shadow_conflict": "Sen kahve köşesinin en gürültülü ve en lafı dolandırmayan eleştirmenisin. Excel cehenneminden, bitmek bilmeyen onay döngülerinden ve şirketinin katı kurallarından gerçekten acı çekiyorsun. Standart cümlen şu: 'Bu bütün yeri aslında yıkıp baştan kurmak lazım.' Ama içten içe, rahat ve son derece öngörülebilir rutinlerini terk etmekten büyük, felç edici bir korkun var. Sürekli yakınman paradoksal biçimde en güvenli konfor alanına dönüşmüş durumda. Başka bir şirkette gerçek bir yeniden başlangıç, yavru köpek korumasını kaybetmen ve pratikte ne kadar iyi olduğunu yeniden kanıtlamak zorunda kalman demek olurdu.",
+        "action_steps": [
+            "30 günlük ültimatom: Bugün kendine sert bir son tarih koy. Ya tam 30 gün içinde CV'ni güncelleyip ilk başvurunu göndermiş olacaksın ya da bugünden itibaren işin ya da patronun hakkında bir daha şikayet etme ahlaki hakkını kaybedersin. Kabullen ya da çık.",
+            "Mikro değişimleri çalış: Değişim kasının sönmüş halini küçük ölçekte çalıştır. Günlük önemsiz rutinlerini bilinçli biçimde boz (farklı yol, farklı araçlar, farklı mola saatleri) ki beynin kontrol kaybı korkusunu söküp atsın.",
+            "Nostaljiyi öldür: Şirketin geçmişini ('Eskiden burada her şey daha çevikti') romantize etmeyi bırak. Soğuk gerçeği kabul et: Sistem senin için artık değişmeyecek. Hareket etmesi gereken sensin."
+        ],
+        "monetization_hook": {
+            "topic": "Karar verme & radikal kariyer değişimi",
+            "keywords": [
+                "Karar vermek",
+                "Konfor alanından çıkmak",
+                "Kariyer değişimi",
+                "Meslek değiştirmeye cesaret etmek"
+            ]
+        }
+    },
+    {
+        "profile_id": "executor_existenzangst",
+        "base_type": "Pragmatik Uygulayıcı",
+        "fear_mutation": "Varoluş kaygısı",
+        "name": "Ehlileştirilmiş Yapıcı",
+        "headline": "Tek başına bütün düzeni değiştirebilirsin, ama maaş çekine ihtiyacın olduğu için dilini ısırıyorsun.",
+        "corporate_view": "Şirket için sen tam bir iş makinesi ve operasyonel günlük işlerin aşırı güvenilir bir direğisin. Yönetimin muğlak, gerçeklikten kopuk talimatlarını sert, ölçülebilir sonuçlara çeviren ve çeyrek sonu rakamlarının rayında kalmasını sağlayan kişisin.",
+        "shadow_conflict": "İçten içe her gün öfkeden kaynıyorsun. Bariz verimsizliği görüyorsun, yönetimin aptalca ve pratikten kopuk kararlarına katlanıyorsun ve işini yapmayan meslektaşları da sırtında taşıyorsun. Aslında her içgüdün sertçe müdahale etmeyi, tabula rasa yapmayı ve masayı dağıtmayı haykırıyor. Ama yapmıyorsun. Yıllık bonus, devam eden konut kredisi ya da yüksek yaşam standardın için duyduğun sürekli, zonklayan korku seni boyun eğmeye zorluyor. İçgüdüsel pragmatizmini yutuyor, dişini sıkarak en saçma görevleri bile yapıyor ve yavaş yavaş hissiz, kırgın bir sinik haline geliyorsun.",
+        "action_steps": [
+            "Altın kafesi kapat: Sabit giderlerini hemen düşür. Finansal bağımlılığın, üstten gelen bu beceriksizliğe hâlâ katlanmanın tek gerçek nedeni. Özgürlük kafada değil, hesapta başlar.",
+            "Duygusal yatırımı çek: Yetkin olmadan gerçekten yön veremediğin projelere duygusal olarak gömülmeyi bırak. Senden ne için para alınıyorsa onu teslim et, sonra zihnen tamamen kapan.",
+            "Sahneyi değiştir: Sen saf performans odaklı bir ortama aitsin (ör. satış, interim yönetim ya da kendi işin). Büro siyaseti olmayan, acımasız pragmatizminin doğrudan paraya ve ölçülebilir başarıya dönüştüğü bir yer bul."
+        ],
+        "monetization_hook": {
+            "topic": "İş yerinde stoacılık & performans kariyerleri",
+            "keywords": [
+                "Stoacılık",
+                "Interim Management",
+                "Prim modeli",
+                "İş yerinde duygusal mesafe"
+            ]
+        }
+    },
+    {
+        "profile_id": "executor_versagensangst",
+        "base_type": "Pragmatik Uygulayıcı",
+        "fear_mutation": "Başarısızlık korkusu",
+        "name": "Tiran Yapıcı",
+        "headline": "Başkalarına güvenmediğin için bütün işleri üstüne alıyorsun — ve kendi mikro yönetiminin içinde yanıp gidiyorsun.",
+        "corporate_view": "Şirkette seni aşırı kararlı bir lider figürü olarak görüyorlar. Yüksek kritik projelerin tam sorumluluğunu hiç tereddüt etmeden üstleniyor, öne çıkıyor ve ekibi görünüşte yorulmak bilmeden en yüksek performansa itiyorsun. Ortalık yanıyorsa seni çağırırlar.",
+        "shadow_conflict": "Kontrol kaybı karşısındaki çıplak paniğini ustaca 'verimlilik' ve 'kalite standardı' diye maskeliyorsun. İçten içe sürekli bir şeylerin ters gitmesinden ve bunun sana patlamasından korkuyorsun. Bu yüzden asla gerçekten delege etmiyorsun. Görev veriyorsun ama günün sonunda kendi başarının darboğazı sensin; çünkü akşam 23.00'te her e-postayı, her sunumu ve her belgeyi yine kendin düzeltiyorsun. Ekibinin yetersiz olduğuna kendini inandırıyorsun, ama toksik gerçek şu: Hata yapmalarına ve bağımsız çalışmasına alan açmıyorsun, çünkü hatanın sonuçlarından SEN titriyorsun.",
+        "action_steps": [
+            "80% kuralını yasa yap: Nihayet kabul et: Bir çalışan tarafından senin yaptığının %80'i kadar iyi yapılan bir iş, kalite kaybı değildir — senin sınırlı yaşam süren için büyük bir kazançtır.",
+            "Kontrollü acıya izin ver: Bilerek ve isteyerek küçük, önemsiz bir projeyi duvara toslat ya da ekibindeki görünür bir hataya tolerans göster. Dünyanın bununla yıkılmadığını deneyimlemek zorundasın.",
+            "Usta değil mimar ol: Kimliğini değiştir. Artık en iyi 'uygulayıcı' sen değilsin. Şimdi bir 'sistem mimarı'sın. Görevin, sen odada olmasan da çalışan sağlam süreçler kurmak."
+        ],
+        "monetization_hook": {
+            "topic": "Etkili delege etme & sistemleştirme",
+            "keywords": [
+                "Delege etmeyi öğrenmek",
+                "Mikro yönetimi bırakmak",
+                "Liderlik becerisi",
+                "Sistem kurmak"
+            ]
+        }
+    },
+    {
+        "profile_id": "executor_statusverlust",
+        "base_type": "Pragmatik Uygulayıcı",
+        "fear_mutation": "Statü kaybı",
+        "name": "Toprakçı Yapıcı",
+        "headline": "Liderliği dominasyonla karıştırıyorsun, çünkü sıralamada aşağı düşmekten ölümüne korkuyorsun.",
+        "corporate_view": "Organizasyonda seni, her zaman kazanmak isteyen ve çoğu zaman da kazanan aşırı rekabetçi bir alfa oyuncu olarak görüyorlar. Pazar payını güvence altına alıyor, en sert pazarlıkları kazanıyor ve kendi departmanının çıkarlarını dışarıya karşı son derece sert ve tavizsiz biçimde savunuyorsun.",
+        "shadow_conflict": "Egon en büyük ve en tehlikeli kör noktan. Kişisel değerini yalnızca bütçenin büyüklüğüyle, iş unvanınla ve kritik toplantıda son sözü kimin söylediğiyle ölçüyorsun. Başka meslektaşlarını retorik olarak eziyor ve ekibin başarılarını kendine mal ediyorsun. Çünkü işin ya da şirketin için en iyisi bu olduğu için değil; senden daha genç, daha gürültülü bir alfa'nın seni geçip gitmesinden akıl almaz, sürekli bir korku duyduğun için. Çevren sertliğin ve sonuçların için sana saygı duyuyor olabilir, ama arkanda gerçek bir sadakat yok. Aslında herkes sadece bir gün tökezlemeni bekliyor.",
+        "action_steps": [
+            "Savaş yerine işbirliği: Kendi ekibinle ya da diğer departmanlarla savaşmayı bırak. Gerçek, kendinden emin güç; başkalarını küçük tutmakta değil, yetenekli insanları yanında tutabilmekte ve hatta büyümelerine izin vermekte görünür.",
+            "Radikal dinleme antrenmanı: Bir sonraki önemli toplantıda kendini üç dakika boyunca kimsenin sözünü kesmemeye, yüzünü buruşturmamaya ve kendi çözüm önerini sunmamaya zorla. Sessizliğe katlan ve başkalarının parlamasına izin ver.",
+            "Ölçeklenebilirliği düşün: Korku ve dominasyonla liderlik kısa vadede çalışır ve hızlı rakam getirir. Ama derin saygı ve psikolojik güvenle liderlik etmek, uzun vadede ölçeklenen ve tükenmişliği önleyen tek şeydir."
+        ],
+        "monetization_hook": {
+            "topic": "Modern liderlik & güç dinamikleri",
+            "keywords": [
+                "Ofiste güç oyunları",
+                "Hizmetkâr liderlik",
+                "Yöneticiler için duygusal zekâ",
+                "Ego is the enemy"
+            ]
+        }
+    },
+    {
+        "profile_id": "executor_veraenderungsangst",
+        "base_type": "Pragmatik Uygulayıcı",
+        "fear_mutation": "Değişim korkusu",
+        "name": "İnatçı Yapıcı",
+        "headline": "Eski yöntemlerini dişinle tırnağınla savunuyorsun, çünkü yenide yeniden acemi olmaktan korkuyorsun.",
+        "corporate_view": "Sen fırtınadaki kayasın. Operasyonel süreçler hakkında paha biçilemez, derin bir deneyim bilgisine sahipsin ve çekirdek işin yıllardır nasıl ve neden kârlı çalıştığını hâlâ en iyi bilen az sayıdaki kişiden birisin. Sistem sallandığında güvenilir çapasın.",
+        "shadow_conflict": "Mevcut araçlarının, Excel listelerinin ve süreçlerinin tartışmasız ustasısın. Kimse sana laf geçiremez; işleri körlemesine ve herkesten hızlı halledersin. Ama yapay zekâ, çevik çerçeveler ya da yeni bulut yazılımları gibi yeni yöntemler ortaya atılır atılmaz duvar örüyorsun. Toplantılarda bunu yüksek sesle 'modası geçmiş saçmalık' diye geçiştiriyor ve 'bizde pratikte zaten asla çalışmaz' diyorsun. Bu kibirin arkasındaki acı gerçek şu: Yıllarca emek vererek kazandığın uzmanlık statünü bir gecede kaybetmekten ve genç meslektaşların önünde yeniden sıfırdan başlayan aptal bir acemi olmaktan korkuyorsun.",
+        "action_steps": [
+            "Gerçeklik kontrolü: Piyasanın sert gerçeğini kabul et: Geçmişte inatla yaşayan, yakın gelecekte para kazanamayacak. Bugünkü katı süreç bilgin çok hızlı değer kaybediyor.",
+            "Gizli laboratuvar: Şimdiden her hafta takvimine iki saatlik sabit blok koy ve sektöründen yeni, yıkıcı bir aracı öğrenmeye odaklan. Gerekirse bunu tamamen gizli yap; ekipte göstermeye hazır hissedene kadar.",
+            "Tersine mentorluk kullan: Genç meslektaşların çalışma biçimini kibirle küçümsemeyi bırak. Onları yeni teknolojiler ve yapay zekâ için mentorun yap. Karşılığında sen de onlara paha biçilemez stratejik sektör bilgini öğret."
+        ],
+        "monetization_hook": {
+            "topic": "Gelecek yetkinlikleri & yönetimde yapay zekâ",
+            "keywords": [
+                "Yöneticiler için yapay zekâ",
+                "Değişim yönetimi",
+                "Tersine mentorluk",
+                "Çevik yöntemler"
+            ]
+        }
+    },
+    {
+        "profile_id": "optimierer_existenzangst",
+        "base_type": "Yapısal Optimizatör",
+        "fear_mutation": "Varoluş kaygısı",
+        "name": "Görünmez Mahkûm",
+        "headline": "Üç kişinin işini yapıyorsun, bir kişi kadar maaş alıyorsun ve bunu değiştirmeye korkuyorsun.",
+        "corporate_view": "Sen aşırı sadık ve tamamen hatasız bir çalışansın. Departmanın görünmez ama son derece sağlam temelisin. Yönetim, o nankör ve küçük arka plan işlerini önüne koyabilir; çünkü seni bilirler: Şikayet etmeden, zamanında ve kusursuz biçimde halledeceksin.",
+        "shadow_conflict": "Mükemmel bir koşu bandına sıkışmış durumdasın. Mantıken çok düşük ücret aldığını ve sistemin iyi niyetini utanmazca sömürdüğünü gayet iyi biliyorsun. Ama yutkunup susuyorsun. Finansal güvensizlik korkun, iş değiştirmenin stresi ya da yeni bir işverende deneme sürecinin 'riski' o kadar baskın ki, bilinen, tanıdık sefaleti tercih ediyorsun. Gizli hayatta kalma stratejin şu: Patronunun bir gün 'kendi kendine' ne kadar inanılmaz değerli olduğunu fark edip sana durduk yere zam teklif etmesini umuyorsun. Spoiler: Bu asla olmayacak.",
+        "action_steps": [
+            "'Ödüllendirici'yi beklemeyi bırak: İş dünyasında performans adil biçimde ödüllendirilmez; sadece pazarlık edilmiş piyasa değeri ödüllendirilir. Kimse sessizce iş yapıyorsun diye sana para vermez. Değerini aktif, neredeyse ticari bir şekilde talep etmelisin.",
+            "Bir performans günlüğü tut: Şimdiden en az bir hafta boyunca, sözleşmendeki işlerin dışında yaptığın her şeyi tek tek kaydet. Bu görevleri, şirket için somut olarak tasarruf edilen maliyetlere ya da önlenen krizlere çevir. Bu senin pazarlık gücün.",
+            "Stratejik hayır: 'Hayır' demeyi güvenli bir ortamda çalış. Bir sonraki plansız 'bir bakabilir misin' işi üstüne atıldığında şöyle cevap ver: 'Memnuniyetle, ama o zaman X projesi bugün kesin olarak bekleyecek. Önceliklendirme sende.'"
+        ],
+        "monetization_hook": {
+            "topic": "İçedönükler için maaş pazarlığı",
+            "keywords": [
+                "İçedönük olarak maaş pazarlığı",
+                "Hayır demeyi öğrenmek",
+                "İşte sınır koymak",
+                "Piyasa değerini belirlemek"
+            ]
+        }
+    },
+    {
+        "profile_id": "optimierer_versagensangst",
+        "base_type": "Yapısal Optimizatör",
+        "fear_mutation": "Başarısızlık korkusu",
+        "name": "Felç olmuş Mükemmeliyetçi",
+        "headline": "Küçük bir hata işine mal olur diye ölümüne korktuğun için saat 22.00'de Excel hücrelerini biçimlendiriyorsun.",
+        "corporate_view": "Sen kalite kontrolün tartışmasız ustasısın. Operasyonel riskleri, mantık boşluklarını ve uyum sorunlarını, gerçek dünyada zarar vermeden çok önce fark ediyorsun. Bir şey teslim ettiğinde ekipte herkes bilir: Bu, mutlak altın standarttır.",
+        "shadow_conflict": "Dışarıdan örnek bir hırs ve çalışkanlık gibi görünen şey, aslında dev bir psikolojik kalkan. Mükemmeliyetçiliğin hastalıklı hale gelmiş. Birinin sana hata kanıtlamasından ve herkesin önünde yetersiz biri olarak ifşa edilmekten ölümüne, neredeyse fiziksel bir korku duyuyorsun. Bu yüzden boşluk bırakmayan, aşırı protokoller kuruyor, e-postalarda kendini üç kez CC'ye alıyor ve işten çıkmak yerine meslektaşlarının işini gizlice tekrar kontrol ediyorsun. Bu davranış sana inanılmaz miktarda yaşam enerjisi kaybettiriyor. Sürekli ve kesintisiz eleştiri korkusundan içten içe yanıp gidiyorsun.",
+        "action_steps": [
+            "Acımasız Pareto ilkesi (80/20): Bu kuralı acımasızca uygula. %80 seviyesinden sonra mükemmellik sana katlanarak daha fazla zaman ve sinir kaybettirir; ama sert gerçek şu: Bu marjinal farkı senden başka kimse görmez. İş için önemsizdir.",
+            "Hata toleransı eğitimi: Bilerek ve isteyerek, küçük bir biçimlendirme ya da yazım hatası olan önemsiz bir iç taslağı bir meslektaşına gönder. Ne olduğunu izle. İtibarının bununla yıkılmadığını deneyimlemek zorundasın.",
+            "Aşırı mühendislik yerine pragmatizm: Kendini yapay biçimde şişirilmiş karmaşıklıkla dokunulmaz kılmaya çalışmayı bırak. Hızlı ve pragmatik çözülmüş bir problem, bir şirket için %100 kusursuz belgelenmiş ama kilitlenmiş bir problemden çok daha değerlidir."
+        ],
+        "monetization_hook": {
+            "topic": "Mükemmeliyetçiliği bırakmak & zaman yönetimi",
+            "keywords": [
+                "Pareto ilkesi",
+                "İmposter sendromunu aşmak",
+                "Aşırı düşünmeyi durdurmak",
+                "Eleştiri korkusu"
+            ]
+        }
+    },
+    {
+        "profile_id": "optimierer_statusverlust",
+        "base_type": "Yapısal Optimize Edici",
+        "fear_mutation": "Statü kaybı",
+        "name": "Kırgın uzman",
+        "headline": "Sürekli terfi alan o gürültücü gösteriş meraklılarından nefret ediyorsun — ama gururundan dolayı kendini öne çıkarmayı da reddediyorsun.",
+        "corporate_view": "Ekip içinde seni şirketin sessiz, derin bilgi kaynağı olarak görüyorlar. Bir konu gerçekten karmaşık, kritik ya da teknik olarak zor olduğunda kimsenin etrafından dolaşamadığı mutlak uzman sensin. Şirketin güvenilir, insan arşivisin.",
+        "shadow_conflict": "İnanılmaz derecede hırçın ve alaycı hale geldin. Her gün, senin bilginin yanına bile yaklaşamayan insanların sadece daha iyi konuştukları ve doğru insanları tanıdıkları için büyük unvanlar ve maaşlar aldığını izliyorsun. Bu 'gösteriş meraklılarını' derinden küçümsüyorsun. Ama kendi egon da önünde büyük bir engel: Aktif kendini pazarlamayı 'profesyonel olmayan', 'ucuz' ya da 'yağcılık' olarak görüyorsun. Kendine şunu söylüyorsun: 'Gerçekten iyi iş, kendi adına konuşmalıdır.' Ama gerçek dünyada öyle olmuyor. Şirketin politik oyununa en azından biraz olsun katılmayı gururundan reddetmen seni görünmez yapıyor — ve olduğun yerde saydırıyor.",
+        "action_steps": [
+            "Oyun kurallarını kabul et: Saflığını bırak. Kariyerde gerçek şu: Algı, gerçektir. Kendi görünürlüğünü inşa etmek 'kirli bir numara' değil, işinin tamamen meşru ve gerekli bir parçasıdır.",
+            "5 dakikalık kural: Her toplantıda ilk 5 dakika içinde mutlaka söz almaya karar ver — bu sadece yüksek sesli, akıllı bir anlama sorusu bile olsa. Bu, odadaki işitsel ve fiziksel varlığını yerleştirir.",
+            "Başarıyı sahiplen: Arka planda büyük bir sorunu çözdüysen, oturup sessizce ticket'ı kapatma. İlgili paydaşlara proaktif bir mail at; içinde ince ama son derece net biçimde BU aksaklığı senin önlediğin yazsın."
+        ],
+        "monetization_hook": {
+            "topic": "Sessiz performans gösterenler için öz-PR ve görünürlük",
+            "keywords": [
+                "İçe dönükler için görünürlük",
+                "İş yerinde kişisel marka",
+                "Ofis politikasını anlamak",
+                "Sessiz insanların güçlü etkisi"
+            ]
+        }
+    },
+    {
+        "profile_id": "optimierer_veraenderungsangst",
+        "base_type": "Yapısal Optimize Edici",
+        "fear_mutation": "Değişim korkusu",
+        "name": "Katı bürokrat",
+        "headline": "Yeni çalışma dünyasının kaosu seni inanılmaz derecede bunaltıyor diye, tamamen demode kuralları bir kale gibi savunuyorsun.",
+        "corporate_view": "Bölümde düzenin garantisisin. Tüm o havalı çevik dönüşümler ve yönetimin çılgın fikirleri arasında, asıl işin dağılmaması için titizlikle çalışan bir kaya gibisin. Gerekli istikrarı ve uyumu sağlıyorsun.",
+        "shadow_conflict": "Toplantıda 'çeviklik', 'yeniden yapılanma' ya da 'yeni yazılım devreye alma' kelimeleri geçer geçmez boğazın düğümleniyor. Mutlak öngörülebilirliği seviyor ve ona ihtiyaç duyuyorsun. Yıllar içinde karmaşık Excel makroları, kendi klasör yapın ve sabit süreçlerden oluşan kusursuz, güvenli bir yuva kurdun. Burada tartışmasız ustasın. Şimdi her şey radikal biçimde değişirse, tam kontrolünü ve 'bilen uzman' statünü kaybedersin. Tam da bu yüzden gerekli yenilikleri çoğu zaman sert biçimde engelliyorsun — genelde bunu 'uyum kaygıları' ya da 'kalite güvencesi' kılıfına ustaca sararak yapıyorsun. Aslında tek korkun, yeni ve dinamik sistemde bir anda işe yaramaz hale gelmek.",
+        "action_steps": [
+            "Engelleyiciden mimara dönüş: Akıntıya karşı kaya gibi durmayı bırak. Dijitalleşmeyi durduramazsın. Ama yapı yeteneğinle geçişi güvenli ve hatasız organize eden kişi olabilirsin.",
+            "Çevirmen rolü: Kendini proaktif biçimde eski sistem ile yeni sistem arasında 'çevirmen' ilan et. Yeni bir yazılım ya da süreç devreye girerken, tarihsel hatalar ve gizli tuzaklar hakkındaki devasa bilgin altın değerinde. Bu bilgiyi açıkça kullan.",
+            "Kaosu tolere etmeyi öğren: Haftada bir kez bilinçli olarak yapı konfor alanından çık. Bir görevi tamamen yeni, öznel olarak 'verimsiz' bir yolla yap; beynine geçici düzensizliğin seni öldürmediğini ve çoğu zaman yeni yollar açtığını kanıtla."
+        ],
+        "monetization_hook": {
+            "topic": "Uzmanlar için dayanıklılık ve değişim yönetimi",
+            "keywords": [
+                "Değişim yönetimi",
+                "Değişimle başa çıkma",
+                "Yeni başlayanlar için çevik çalışma",
+                "Psikolojik esneklik"
+            ]
+        }
+    },
+    {
+        "profile_id": "katalysator_existenzangst",
+        "base_type": "Entegrasyon Katalizörü",
+        "fear_mutation": "Varoluş korkusu",
+        "name": "Tutsak yardımcı",
+        "headline": "'Şirket ailesi' için kendini feda ediyorsun, çünkü güvenli limanını kaybetmekten panik halinde korkuyorsun.",
+        "corporate_view": "Sen ekibin mutlak yapıştırıcısısın. Koridorda büyümeden önce gerilimleri ve çatışmaları yakalayan kişisin. Aşırı yük altındaki meslektaşlarının istemediği işleri doğal olarak üstleniyor ve yan etkisi olarak ekipteki devir oranı ile hastalık izinlerinin düşük kalmasını sağlıyorsun.",
+        "shadow_conflict": "Kendine yalan söylüyor ve meslektaşlarına 'aile' diyorsun. Ama derinlerde çok iyi biliyorsun: Bu, acımasız bir iş ilişkisinden ibaret. Kendi öfkeni, takdir eksikliğini ve sayısız ödenmemiş fazla mesaiyi yutuyorsun, çünkü varoluş korkun seni tamamen felç ediyor. Görünüşte sınırsız yardımseverliğin aslında en güçlü savunma mekanizman: Kendini duygusal ve operasyonel olarak her yerde bulunan iyi ruh haline getiriyorsun; umudun şu ki, bir sonraki işten çıkarma dalgasında ya da yeniden yapılanmada sırf acıma duygusuyla hedef listesine girmeyesin. Finansal güvenliğini ruh sağlığınla satın alıyorsun — berbat bir anlaşma.",
+        "action_steps": [
+            "İş zihniyetini aç: Soğuk gerçeği gör: Rakamlar kırmızıya dönerse, şirket seni yine de kovar — kaç kek yaptığın umurlarında olmaz. Gerçek ve sürdürülebilir güvenlik yalnızca mesleki piyasa değerinde yatar, kendini feda etmede değil.",
+            "Aşırı yüklenmeden soğuk çekilme: Duygusal aşırı yüklenmeyi hemen durdur. Bugünden itibaren, başkalarının hoşuna gitmek için, iş tanımında tam olarak olmayan hiçbir görevi bilinçli olarak üstlenme.",
+            "Kendine yatırım yap: Her gün başkalarının sorunlarını düzeltmeye harcadığın devasa enerjiyi al ve acımasızca kendi özgeçmişine yatır. Sadece insan olarak rahat olmaya çalışmak yerine, mesleki olarak vazgeçilmez hale gel."
+        ],
+        "monetization_hook": {
+            "topic": "İş hayatında sınır koyma ve dayanıklılık",
+            "keywords": [
+                "İşte sınır koymak",
+                "People pleaser alışkanlığını bırakmak",
+                "Finansal bağımsızlık",
+                "Toksik sadakat"
+            ]
+        }
+    },
+    {
+        "profile_id": "katalysator_versagensangst",
+        "base_type": "Entegrasyon Katalizörü",
+        "fear_mutation": "Başarısızlık korkusu",
+        "name": "Aşırı telafi eden kurtarıcı",
+        "headline": "Her ek göreve 'evet' diyorsun, çünkü aksi halde sahtekar olarak ifşa olmaktan panik halinde korkuyorsun.",
+        "corporate_view": "Şirkette en güvenilir yangın söndürücü ve nihai takım oyuncusu olarak görülüyorsun. Cuma öğleden sonra ortalığı toparlayan sensin. 'Bu aslında benim işim değil' cümlesini sözlüğünden tamamen silmiş gibisin.",
+        "shadow_conflict": "Övülen yardımseverlik sendromun aslında devasa imposter sendromunun kalın bir maskesi. Kendi rolünde çoğu zaman teknik olarak güvensiz ya da 'yeterince iyi' hissetmediğin için, bunu sınırsız ve zamansal erişilebilirlikle telafi ediyorsun. Çöp işleri ve hatta başkalarının hatalarını bile sorgulamadan üstleniyorsun. Bilinçaltındaki mantık şu: 'Eğer hep nazik, ulaşılabilir ve aşırı yardımcı olursam, umarım kimse aslında o kadar yetkin olmadığımı fark etmez.' Sonuç: Başkalarının işinde boğuluyorsun ve tükeniyorsun; çünkü tek bir net 'hayır' bile sana kendi zayıflığını tehlikeli biçimde itiraf etmek gibi geliyor.",
+        "action_steps": [
+            "Taktiksel 'hayır'ı çalış: Hayır demenin saldırı olmadığını öğren. 'Sana memnuniyetle yardım ederim, ama programım buna ancak gelecek hafta perşembe izin veriyor' cümlesi son derece profesyonel, saygı duyulan bir sınırdır — kişisel bir reddediş değil.",
+            "Sempati ile performansı ayır: Şirket sana 'sevilmek' için değil, somut sonuçlar için para ödüyor. Meslektaşların kısa vadede işlerini senin yapmaman yüzünden hayal kırıklığına uğrarsa, bu onların sorunu, senin değil.",
+            "Sorumluluğu geri ver: Diğer yetişkin insanların sorunlarını ait oldukları yerde bırak. Bir meslektaş kendi görevinde başarısız oluyorsa, onu akşam gizlice patrondan kurtarmak kesinlikle senin işin değil."
+        ],
+        "monetization_hook": {
+            "topic": "Imposter sendromu ve zaman yönetimi",
+            "keywords": [
+                "Hayır demeyi öğrenmek",
+                "Imposter sendromunu aşmak",
+                "İş hayatında yardımseverlik sendromu",
+                "Özdeğer inşa etmek"
+            ]
+        }
+    },
+    {
+        "profile_id": "katalysator_statusverlust",
+        "base_type": "Entegrasyon Katalizörü",
+        "fear_mutation": "Statü kaybı",
+        "name": "Kırgın şehit",
+        "headline": "Ofisin iyi ruhu rolünü oynuyorsun, ama içten içe bunun için kimsenin seni alkışlamamasına derinden içerliyorsun.",
+        "corporate_view": "Sen bölümün tartışmasız duygusal merkezisin. Koridor dedikodularını ve söylenmeyen dinamikleri eksiksiz bilirsin. Ekip etkinliklerini organize eden, doğum günlerini aklında tutan ve sert darbelerden sonra meslektaşlarını bir kahveyle yeniden ayağa kaldıran kişisin.",
+        "shadow_conflict": "Mesleki özdeğerini neredeyse tamamen herkes tarafından sevilmekten ve acilen 'gerekli' olmaktan alıyorsun. Neredeyse agresif biçimde kendini acı çeken şehit rolüne itiyorsun: Gösterişli biçimde en uzun süre çalışıyor, herkesi teselli ediyor — ve terfi ya da prim turunda patronun yine gürültücü, soğuk egoisti seçmesine içten içe öfke krizine giriyorsun. Temelde 'popülerlik' ile gerçek 'etki'yi karıştırıyorsun. Statü ve takdir açlığın aslında devasa, ama bunu açık, doğrudan ve sert biçimde talep etmeyi ahlaken yanlış ya da kaba buluyorsun. Bu yüzden sessizce acı çekiyorsun.",
+        "action_steps": [
+            "'Ofis ebeveynliği'ne son ver: Büro ebeveyni rolünü hemen bitir. Artık kek yapma, koridorda ücretsiz terapist rolünü de bırak. Orada profesyonel iş yapmak için varsın; yetişkin insanları terbiye etmek ya da şımartmak için değil.",
+            "Acıma değil güç talep et: Eğer fiilen bir bölümü ayakta tutan kişi sensen, resmi olarak takım liderliği rolünü ve buna uygun maaşı talep et. Sıcak sözlerle oyalanmayı bırak.",
+            "Pasif-agresifliği durdur: Başkalarının senin 'sessiz fedakarlığını' görmemesi ya da görmezden gelmesi onların kötü niyeti değil. Bu tamamen senin iletişim problemin. Ne yaptığını ve bunun karşılığında ne istediğini açıkça söyle."
+        ],
+        "monetization_hook": {
+            "topic": "Empatik insanlar için liderlik becerisi",
+            "keywords": [
+                "Empatik liderlik",
+                "Maaş pazarlığı",
+                "Mağdur rolünden çıkmak",
+                "Sevilenden saygı duyulana"
+            ]
+        }
+    },
+    {
+        "profile_id": "katalysator_veraenderungsangst",
+        "base_type": "Entegrasyon Katalizörü",
+        "fear_mutation": "Değişim korkusu",
+        "name": "Toksik uyum sağlayıcı",
+        "headline": "Tamamen bozuk bir ekibi bir arada tutuyorsun, çünkü yeni bir başlangıç fikri seni geceleri uykusuz bırakıyor.",
+        "corporate_view": "Şirkette seni mutlak sadık bir arabulucu olarak görüyorlar. En ağır krizlerde, işten çıkarmalarda ve kaos dönemlerinde bile organizasyona sadakatle omuz veriyorsun. Sen şirketin sakinleştiricisisin: Moral bozulduğunda ya da panik patladığında ekibi anında yatıştırıyorsun.",
+        "shadow_conflict": "Derin derecede toksik bir iş ilişkisinin içinde sıkışıp kaldın — ve bunu aslında sen de biliyorsun. Her gün kaotik, sağlıksız yapılardan acı çekiyorsun, ama durumu sistematik biçimde güzelleştirip kendine yalan söylüyorsun: 'O kadar da kötü değil' ya da 'Meslektaşlarımın bana ihtiyacı var, öylece gidemem.' Aşırı ve sıkça övülen empatin aslında, istifa düğmesine asla basmamak için kullandığın en büyük ve en ölümcül bahaneye dönüştü. Yeni bir iş, soğuk ve yabancı bir ortama gitmek demek; orada değerli 'kurtarıcı' sosyal statün henüz yok. Bu yüzden batan gemide kalıyor, keman çalmaya devam ediyor ve bilerek onunla birlikte batıyorsun.",
+        "action_steps": [
+            "Fişi çek: Tamamen bozuk ve işlevsiz sistemi empatin ve fazla mesainle yapay olarak yaşatmayı hemen bırak. Projenin ya da bölümün çökmesine izin ver. Burası senin şirketin değil. Sen iflas yöneticisi değilsin.",
+            "Hayat yalanını parçala: Meslektaşların sensiz de hayatta kalır. Herkes yerine konabilir. Başka yetişkin insanların kişisel mutluluğundan sen sorumlu değilsin; yalnızca kendi mutluluğundan sorumlusun.",
+            "İş değişimini yeniden çerçevele: İş değişimini ağlak bir şekilde 'aileni kaybetmek' olarak değil, toksik bir tarikattan hayati bir kaçış olarak gör. Profilini güncelle ve bugün istifanı yaz."
+        ],
+        "monetization_hook": {
+            "topic": "Toksik iş yerlerinden ayrılma ve yeniden başlama",
+            "keywords": [
+                "Toksik çalışma ortamı",
+                "İstifa korkusu",
+                "İşte duygusal bağımlılık",
+                "Yeni bir başlangıç yapmak"
+            ]
+        }
+    }
+]

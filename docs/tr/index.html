@@ -1,0 +1,2796 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C.O.R.E. Profiling Engine | Veri odaklı kariyer analizi</title>
+    <meta name="description" content="C.O.R.E. Index, mesleğinizdeki bilinçdışı sistemik ve psikolojik engelleri tespit eder. 8 dakikalık değerlendirmeyi başlatın.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/core-social-share.jpg">
+
+     <link rel="canonical" href="https://www.coreindexanalytics.com/tr/index.html">
+
+    
+<!-- ========================================== -->
+<!-- 1. X-DEFAULT (Standard-Fallback weltweit) -->
+<!-- ========================================== -->
+<link rel="alternate" hreflang="x-default" href="https://www.coreindexanalytics.com/en/index.html">
+
+<!-- ========================================== -->
+<!-- 2. INTERNATIONALE TARGETS (Reine Sprach-Ordner) -->
+<!-- ========================================== -->
+<link rel="alternate" hreflang="de" href="https://www.coreindexanalytics.com/de/index.html">
+<link rel="alternate" hreflang="en" href="https://www.coreindexanalytics.com/en/index.html">
+<link rel="alternate" hreflang="es" href="https://www.coreindexanalytics.com/es/index.html">
+<link rel="alternate" hreflang="fr" href="https://www.coreindexanalytics.com/fr/index.html">
+<link rel="alternate" hreflang="it" href="https://www.coreindexanalytics.com/it/index.html">
+<link rel="alternate" hreflang="nl" href="https://www.coreindexanalytics.com/nl/index.html">
+<link rel="alternate" hreflang="pt" href="https://www.coreindexanalytics.com/pt/index.html">
+<link rel="alternate" hreflang="ar" href="https://www.coreindexanalytics.com/ar/index.html">
+<link rel="alternate" hreflang="sv" href="https://www.coreindexanalytics.com/sv/index.html">
+<link rel="alternate" hreflang="pl" href="https://www.coreindexanalytics.com/pl/index.html">
+<link rel="alternate" hreflang="tr" href="https://www.coreindexanalytics.com/tr/index.html">
+<link rel="alternate" hreflang="ja" href="https://www.coreindexanalytics.com/ja/index.html">
+<link rel="alternate" hreflang="ko" href="https://www.coreindexanalytics.com/ko/index.html">
+<link rel="alternate" hreflang="hi" href="https://www.coreindexanalytics.com/hi/index.html">
+<link rel="alternate" hreflang="da" href="https://www.coreindexanalytics.com/da/index.html">
+<link rel="alternate" hreflang="cs" href="https://www.coreindexanalytics.com/cs/index.html">
+<link rel="alternate" hreflang="no" href="https://www.coreindexanalytics.com/no/index.html">
+<link rel="alternate" hreflang="fi" href="https://www.coreindexanalytics.com/fi/index.html">
+<link rel="alternate" hreflang="id" href="https://www.coreindexanalytics.com/id/index.html">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "C.O.R.E. Index",
+  "url": "https://www.coreindexanalytics.com",
+  "logo": "https://www.coreindexanalytics.com/core-social-share.jpg"
+}
+</script>
+
+
+    <style>/* Index.html / hub-master.html*/
+
+        :root { --text-dark: #0f172a; --text-muted: #64748B; --bg-surface: #FAFAFA; --border-light: #E2E8F0; --accent-red: #c0392b; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif; background: #ffffff; color: var(--text-dark); line-height: 1.6; margin: 0; }
+        
+        /* Header */
+        header { background: rgba(255,255,255,0.95); backdrop-filter: blur(10px); padding: 25px 5%; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border-light); position: sticky; top: 0; z-index: 100; }
+        .logo { color: var(--text-dark); font-weight: 800; font-size: 1.2rem; letter-spacing: 1.5px; text-decoration: none; }
+        nav a { color: var(--text-muted); text-decoration: none; margin-left: 2.5rem; font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; transition: color 0.2s; }
+        nav a:hover, nav a.active { color: var(--text-dark); }
+        
+        .container { max-width: 1000px; margin: 0 auto; padding: 0 5%; }
+        
+        /* Hero Section */
+        .hero { padding: 120px 0 80px 0; text-align: center; border-bottom: 1px solid var(--border-light); background: var(--bg-surface); }
+        .hero h1 { font-size: 4rem; font-weight: 800; margin-bottom: 24px; letter-spacing: -1.5px; line-height: 1.1; }
+        .hero p { font-size: 1.35rem; color: var(--text-muted); margin: 0 auto 50px auto; max-width: 750px; line-height: 1.6; }
+        
+        /* Suchleiste im Hero */
+        .search-wrapper { position: relative; max-width: 700px; margin: 0 auto; }
+        .search-box { width: 100%; padding: 22px 30px; font-size: 1.2rem; border: 1px solid var(--border-light); border-radius: 8px; outline: none; transition: all 0.3s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.03); color: var(--text-dark); }
+        .search-box:focus { border-color: var(--text-dark); box-shadow: 0 15px 40px rgba(0,0,0,0.08); }
+        .search-box::placeholder { color: #94a3b8; }
+        
+        /* Trust Bar */
+        .trust-bar { display: flex; justify-content: center; gap: 40px; margin-top: 40px; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1.5px; color: var(--text-muted); font-weight: 600; }
+        
+        /* Teaser Grid (Methodik) */
+        .teaser-section { padding: 100px 0; border-bottom: 1px solid var(--border-light); }
+        .teaser-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 50px; margin-top: 50px; }
+        .teaser-item h3 { font-size: 1.1rem; border-bottom: 2px solid var(--text-dark); padding-bottom: 15px; margin-bottom: 15px; }
+        .teaser-item p { color: var(--text-muted); font-size: 1.05rem; }
+        
+        /* Verzeichnis Sektion */
+        .directory-section { padding: 100px 0; }
+        
+        /* Cluster & Links */
+        .cluster-title { font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: var(--text-dark); border-bottom: 1px solid var(--border-light); padding-bottom: 15px; margin: 60px 0 30px 0; }
+        .job-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px; }
+        .job-link { display: flex; justify-content: space-between; align-items: center; padding: 16px 0; border-bottom: 1px solid #f1f5f9; text-decoration: none; color: var(--text-dark); transition: all 0.2s; }
+        .job-link:hover { color: var(--accent-red); padding-left: 10px; border-bottom-color: var(--accent-red); }
+        .job-link span.arrow { color: #cbd5e1; font-size: 1.2rem; transition: transform 0.2s; }
+        .job-link:hover span.arrow { transform: translateX(5px); color: var(--accent-red); }
+        
+        .hidden { display: none !important; }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.8rem; }
+            .teaser-grid { grid-template-columns: 1fr; gap: 40px; }
+            .trust-bar { flex-direction: column; gap: 15px; }
+        }
+</style>
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo">C.O.R.E. INDEX</a>
+        <nav>
+            <a href="index.html" class="active">Test</a>
+            <a href="profile.html">16 Profil</a>
+            <a href="methodik.html">Metodoloji</a>
+        </nav>
+    </header>
+    
+    <!-- 1. HERO & SUCHE -->
+    <section class="hero">
+        <div class="container">
+            <span style="display: inline-block; border: 1px solid var(--border-light); padding: 6px 16px; border-radius: 50px; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: var(--text-muted); margin-bottom: 30px;">Psikometrik Profilleme</span>
+            <h1>Kariyer ezoterizminin sonu.</h1>
+            <p>C.O.R.E. Index, sizi profesyonel olarak engelleyen bilinçdışı çatışmaları tespit eder. Çalışma alanınızı seçin ve veri odaklı 8 dakikalık değerlendirmeyi başlatın.</p>
+            
+            <div class="search-wrapper">
+                <input type="text" id="jobSearch" class="search-box" placeholder="Mesleğini ara (örn. metin yazarı, doktor, yönetici)..." onkeyup="filterJobs()">
+            </div>
+            
+            <div class="trust-bar">
+                <span>✓ O.C.E.A.N. Standardına göre doğrulandı</span>
+                <span>✓ %100 Anonim</span>
+                <span>✓ Kayıt yok</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. KURZER METHODIK-TEASER -->
+    <section class="teaser-section">
+        <div class="container">
+            <div style="text-align: center; max-width: 700px; margin: 0 auto;">
+                <h2 style="font-size: 2.2rem; font-weight: 700; margin-bottom: 20px;">Motivasyon yerine teşhis.</h2>
+                <p style="font-size: 1.15rem; color: var(--text-muted);">Renk tipleri ve iltifatlar dağıtmıyoruz. Sistemik nedensellikleri analiz ediyoruz.</p>
+            </div>
+            
+            <div class="teaser-grid">
+                <div class="teaser-item">
+                    <h3>01. Sert veriler</h3>
+                    <p>Değerlendirme, modern psikometrinin bilimsel altın standardı olan Big Five modeline dayanır.</p>
+                </div>
+                <div class="teaser-item">
+                    <h3>02. Gölge</h3>
+                    <p>Yalnızca güçlü yönlerini ölçmekle kalmıyor, seni sabote eden varoluş veya başarısızlık korkularını da izole ediyoruz.</p>
+                </div>
+                <div class="teaser-item">
+                    <h3>03. Sonuç</h3>
+                    <p>Size, nerede net sınırlar çizmeniz veya müzakere etmeniz gerektiğini somut olarak gösteren yürütücü eylem adımları alırsınız.</p>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="methodik.html" style="color: var(--text-dark); font-weight: 600; text-transform: uppercase; letter-spacing: 1px; text-decoration: none; border-bottom: 1px solid var(--text-dark); padding-bottom: 2px;">Tam metodolojiyi oku &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. DAS VERZEICHNIS -->
+    <section class="directory-section" id="directory">
+        <div class="container">
+            <h2 style="font-size: 2.5rem; font-weight: 800; margin-bottom: 10px;">Meslek dizini.</h2>
+            <p style="color: var(--text-muted); font-size: 1.15rem; margin-bottom: 40px;">Listeden spesifik profilini seç.</p>
+            
+            <div id="cluster-container">
+                                
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Teknoloji & BT</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-softwareentwickler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Yazılım Geliştirici</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-systemadministrator.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Sistem Yöneticisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-data-analyst.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Veri Analisti</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-data-scientist.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Veri Bilimci</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-it-support-mitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">BT Destek Çalışanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-devops-engineer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">DevOps Mühendisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-ux-ui-designer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">UX/UI Tasarımcısı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-frontend-entwickler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Frontend Geliştirici</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-backend-entwickler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Backend Geliştirici</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-full-stack-entwickler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Full-Stack Geliştirici</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-netzwerkadministrator.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ağ Yöneticisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-data-engineer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Veri Mühendisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-cloud-architekt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Bulut Mimarı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-datenbankadministrator.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Veritabanı Yöneticisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-it-sicherheitsexperte.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">BT Güvenlik Uzmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-digitaler-produktmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Dijital Ürün Yöneticisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-scrum-master.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Scrum Master</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-machine-learning-ingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Makine Öğrenimi Mühendisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-mobile-app-entwickler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Mobil Uygulama Geliştiricisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-it-projektleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">BT Proje Yöneticisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-softwaretester.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Yazılım Test Uzmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-erp-berater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">ERP Danışmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-solution-architect.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Çözüm Mimarı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-embedded-systems-entwickler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Gömülü Sistemler Geliştiricisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-it-auditor.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">BT Denetçisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-datenschutzbeauftragter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Veri Koruma Görevlisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-site-reliability-engineer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Site Reliability Engineer</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Ofis & Yönetim</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-projektmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Proje Yöneticisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-geschaeftsfuehrer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Genel Müdür</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-office-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ofis Yöneticisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-personalreferent.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">İK Uzmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-buchhalter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Muhasebeci</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-teamleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ekip Lideri</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-controller.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Kontrolör</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-assistenz-der-geschaeftsfuehrung.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Genel Müdür Asistanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-sekretaer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Sekreter</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-personalleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">İK Müdürü</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-recruiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">İşe Alım Uzmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-unternehmensberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Yönetim Danışmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-qualitaetsmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Kalite Yöneticisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-prozessmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Süreç Yöneticisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-einkaeufer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Satınalma Uzmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-verwaltungsfachangestellter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">İdari Memur</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-buerokaufmann.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Büro Elemanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-interner-revisor.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">İç Denetçi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-change-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Değişim Yöneticisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-geschaeftsstellenleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Şube Müdürü</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-abteilungsleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Bölüm Müdürü</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-personalentwickler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">İnsan Kaynakları Gelişim Uzmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-lohn-und-gehaltsbuchhalter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Maaş ve Ücret Muhasebecisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-sachbearbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Uzman Memur</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-vertragsmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Sözleşme Yöneticisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-strategieberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Strateji Danışmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-verwaltungsleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">İdari İşler Müdürü</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Eğitim & Sosyal</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-erzieher.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Çocuk Gelişimcisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-lehrer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Öğretmen</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-sozialarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Sosyal Hizmet Uzmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-sonderpaedagoge.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Özel Eğitim Öğretmeni</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-schulbegleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Okul Destek Görevlisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-heilerziehungspfleger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Engelli Bakım ve Destek Uzmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Eğitim & Sosyal Hizmetler</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-kindheitspaedagoge.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Çocukluk pedagogu</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-hochschullehrer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Üniversite öğretim üyesi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-berufsschullehrer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Meslek okulu öğretmeni</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-sozialpaedagoge.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Sosyal pedagog</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-erwachsenenbildner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Yetişkin eğitimcisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-schulsozialarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Okul sosyal hizmet uzmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-tagespflegeperson.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Gündüz bakım veren kişi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-streetworker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Sokak çalışanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-suchtberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Bağımlılık danışmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-familienberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Aile danışmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-inklusionshelfer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Kapsayıcı eğitim destekçisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bildungsreferent.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Eğitim referansı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-nachhilfelehrer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Özel ders öğretmeni</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-berufsberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Kariyer danışmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-heilpaedagoge.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Özel eğitim pedagogu</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-heimleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Yurt müdürü</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-heimerzieher.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Yurt eğitmeni</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-behindertenbetreuer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Engelli bakım görevlisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-jugendamtsmitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Gençlik dairesi çalışanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-gebaerdensprachdolmetscher.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">İşaret dili tercümanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-schulleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Okul müdürü</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Satış & Ticaret</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-key-account-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Key Account Manager</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-vertriebsmitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Satış temsilcisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-account-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Account Manager</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-sales-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Satış Müdürü</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-vertriebsleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Satış Direktörü</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-aussendienstmitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Saha satış temsilcisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-business-development-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">İş Geliştirme Müdürü</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Zanaat & İnşaat</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-elektriker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Elektrikçi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-tischler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Marangoz</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-fliesenleger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Fayans ustası</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-estrichleger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Şap ustası</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-geruestbauer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">İskele ustası</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-strassenbauer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Yol yapım ustası</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-steinmetz.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Taş ustası</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-glaser.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Camcı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-schornsteinfeger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Baca temizleyicisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bauleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Şantiye şefi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-polier.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ustabaşı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-betonbauer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Beton ustası</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Zanaat ve İnşaat</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-maler-und-lackierer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Boyacı ve Vernikçi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-maurer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Duvarcı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-installateur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tesisatçı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-dachdecker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Çatı Ustası</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-zimmerer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Marangoz</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Sağlık ve Bakım</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-krankenpfleger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Hemşire</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-altenpfleger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Yaşlı Bakım Görevlisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-physiotherapeut.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Fizyoterapist</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-medizinischer-fachangestellter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tıbbi Sekreter</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-ergotherapeut.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ergoterapist</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Sağlık & Bakım</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-hebamme.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ebe</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-rettungssanitaeter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Acil Tıp Teknisyeni</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-allgemeinmediziner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Aile hekimi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-facharzt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Uzman hekim</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-zahnarzt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Diş hekimi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-apotheker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Eczacı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-pharmazeutisch-technischer-assistent.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Eczacılık teknikeri</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-logopaede.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Dil ve konuşma terapisti</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-psychotherapeut.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Psikoterapist</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-psychologe.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Psikolog</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-diaetassistent.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Diyetisyen yardımcısı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-pflegehelfer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Bakım yardımcısı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-medizinischer-dokumentationsassistent.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tıbbi Dokümantasyon Asistanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-zahnmedizinischer-fachangestellter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Diş Hekimliği Asistanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-medizinisch-technischer-radiologieassistent.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tıbbi-Teknik Radyoloji Asistanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-heilpraktiker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Doğal Tedavi Uygulayıcısı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-augenoptiker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Optisyen</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-hoerakustiker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">İşitme Cihazı Uzmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-orthopaedietechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ortopedik Tekniker</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-pflegedienstleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Bakım Hizmetleri Müdürü</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-operationstechnischer-assistent.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ameliyathane Teknik Asistanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-tierarzt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Veteriner Hekim</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Gastronomi & Otelcilik</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-koch.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Aşçı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-servicekraft.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Servis Elemanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-hotelfachmann.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Otelcilik Uzmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-barkeeper.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Barmen</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-restaurantleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Restoran Müdürü</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-konditor.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Pastacı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-rezeptionist.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Resepsiyonist</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-baecker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Fırıncı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-sommelier.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Somelye</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-hotelmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Otel Müdürü</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-kuechenchef.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Mutfak Şefi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-catering-mitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Catering Çalışanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-housekeeping-mitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Housekeeping Çalışanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-barista.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Barista</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-systemgastronomie-mitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Sistem Gastronomisi Çalışanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-tourismuskaufmann.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Turizm Satış Uzmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-reiseleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tur Rehberi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-eventmanager-hotellerie.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Etkinlik Yöneticisi Otelcilik</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-restaurantfachmann.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Restoran Servis Uzmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-animateur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Animatör</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-diaetkoch.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Diyet Aşçısı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-wellnessmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Wellness Yöneticisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-nachtportier.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Gece Resepsiyonisti</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bankettleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Banket Yöneticisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-gaestebetreuer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Misafir İlişkileri Sorumlusu</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-kreuzfahrtberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Kruvaziyer Danışmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-kantinenleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Yemekhane Yöneticisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Lojistik & Taşımacılık</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-lagerist.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Depo Görevlisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-lkw-fahrer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Kamyon şoförü</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-speditionskaufmann.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Nakliye memuru</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-disponent.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Sevkiyat planlamacısı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-paketzusteller.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Paket dağıtıcısı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-logistikmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Lojistik yöneticisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-staplerfahrer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Forklift operatörü</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-busfahrer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Otobüs şoförü</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-taxifahrer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Taksi şoförü</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-lokfuehrer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tren makinisti</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-fluglotse.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Hava trafik kontrolörü</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-flugbegleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Kabin memuru</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-pilot.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Pilot</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-kapitaen.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Kaptan</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-hafenarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Liman işçisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-supply-chain-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tedarik zinciri yöneticisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-fuhrparkmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Filo yöneticisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-kurierfahrer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Kurye sürücüsü</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-zollabwickler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Gümrük işlemleri uzmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-verkehrsplaner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ulaşım planlamacısı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-moebelpacker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Mobilya taşıyıcısı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-zugbegleiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tren görevlisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-schiffsingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Gemi mühendisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-hafenlotse.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Liman kılavuzu</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-frachtkoordinator.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Yük koordinatörü</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-verkehrsmeister.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ulaşım amiri</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-zugabfertiger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tren sevk görevlisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Finans & Hukuk</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-steuerberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Vergi danışmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-rechtsanwalt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Avukat</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-wirtschaftspruefer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Bağımsız denetçi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-versicherungskaufmann.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Sigorta satış danışmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-investmentbanker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Yatırım bankacısı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-aktuar.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Aktüer</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-kreditanalyst.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Kredi analisti</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-rechtsanwaltsfachangestellter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Avukatlık bürosu personeli</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-richter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Hâkim</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-staatsanwalt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Savcı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-gerichtsvollzieher.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">İcra memuru</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-compliance-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Uyum yöneticisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-fondsmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Fon yöneticisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-finanzbuchhalter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Finans muhasebecisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-risikomanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Risk yöneticisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-schadenregulierer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Hasar tazmin uzmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-patentanwalt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Patent avukatı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-mediator.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Arabulucu</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-versicherungsmakler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Sigorta brokeri</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-steuerfachangestellter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Vergi uzmanı asistanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-insolvenzverwalter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">İflas yöneticisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-rentenberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Emeklilik danışmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-treuhaender.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Mali müşavir</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-vermoegensverwalter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Varlık yöneticisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Finans ve Hukuk</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-bankkaufmann.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Banka memuru</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-notar.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Noter</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-finanzberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Finans danışmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Medya ve Yaratıcı Endüstri</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-grafikdesigner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Grafik tasarımcı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-redakteur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Editör</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-social-media-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Sosyal Medya Yöneticisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-fotograf.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Fotoğrafçı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-texter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Metin yazarı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-marketing-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Pazarlama yöneticisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-webdesigner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Web tasarımcı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Satış & Satış Yönetimi</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-verkaeufer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Satıcı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-vertriebsinnendienst-mitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Satış iç operasyon çalışanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-call-center-agent.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Çağrı merkezi temsilcisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-handelsvertreter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ticari temsilci</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-pharmareferent.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">İlaç tanıtım temsilcisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-kundenberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Müşteri danışmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-einzelhandelskaufmann.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Perakende satış elemanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-grosshandelskaufmann.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Toptan satış elemanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-exportmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">İhracat yöneticisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-category-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Kategori yöneticisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Satış & Sales</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-vertriebsingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Satış Mühendisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-franchise-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Franchise Yöneticisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-e-commerce-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">E-Ticaret Yöneticisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-vertriebscontroller.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Satış Kontrolörü</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-direktvertriebsmitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Doğrudan Satış Temsilcisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-automobilverkaeufer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Otomobil Satış Danışmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-verkaufsleiter-einzelhandel.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Perakende Satış Müdürü</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-vertriebstrainer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Satış Eğitmeni</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-merchandiser.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Merchandiser</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-tankstellenfachkraft.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Akaryakıt İstasyonu Çalışanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">El Sanatları & İnşaat</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-trockenbauer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Alçıpan Ustası</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-metallbauer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Metal Ustası</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-klempner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tesisatçı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-stuckateur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Sıvacı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bodenleger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Döşemeci</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-isolierer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Yalıtım Ustası</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-brunnenbauer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Kuyu Ustası</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bauschlosser.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Şantiye Demircisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-tiefbaufacharbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Altyapı İşçisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-rohrleitungsbauer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Boru Hattı Ustası</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Medya & Yaratıcı Endüstri</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-online-marketing-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Online Pazarlama Yöneticisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-journalist.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Gazeteci</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-videoeditor.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Video Editörü</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-regisseur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Yönetmen</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-drehbuchautor.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Senarist</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-pr-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">PR Yöneticisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-uebersetzer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Çevirmen</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-lektor.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Redaktör</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-motion-designer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Motion Designer</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-game-designer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Oyun Tasarımcısı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Medya & yaratıcı endüstri</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-rundfunkmoderator.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Radyo ve yayın sunucusu</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-verlagskaufmann.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Yayınevi ticaret uzmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-brand-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Marka yöneticisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-content-creator.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">İçerik üreticisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-illustrator.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">İllüstratör</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-comiczeichner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Çizgi roman çizeri</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-synchronsprecher.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Dublaj sanatçısı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-podcast-produzent.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Podcast yapımcısı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-community-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Topluluk yöneticisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-drohnenpilot.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Drone pilotu</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Tarım & Çevre</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-landwirt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Çiftçi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-winzer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Şarap üreticisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-gaertner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Bahçıvan</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-forstwirt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ormancı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-tierwirt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Hayvancı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-fischwirt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Balık yetiştiricisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-agraringenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ziraat mühendisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-umweltschutztechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Çevre koruma teknisyeni</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-landschaftsgaertner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Peyzaj bahçıvanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-imker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Arıcı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-agrarwissenschaftler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tarım bilimci</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-forstingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ormancılık mühendisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-naturschutzwart.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Doğa koruma görevlisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-recyclingfachkraft.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Geri dönüşüm uzmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-wasserwirtschaftler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Su yönetimi uzmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-gartenbauingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Bahçe bitkileri mühendisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-tierpfleger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Hayvan bakıcısı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-pflanzentechnologe.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Bitki teknolojisi uzmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-umweltberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Çevre danışmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-klimaschutzmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">İklim koruma yöneticisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Bilim & Araştırma</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-physiker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Fizikçi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-chemiker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Kimyager</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-biologe.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Biyolog</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-mathematiker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Matematikçi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-geologe.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Jeolog</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-astronom.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Astronom</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-forschungswissenschaftler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Araştırma Bilim İnsanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-laborant.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Laborant</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-biotechnologe.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Biyoteknolog</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-pharmaforscher.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">İlaç Araştırmacısı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-meteorologe.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Meteorolog</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-statistiker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">İstatistikçi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-historiker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tarihçi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-archaeologe.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Arkeolog</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-soziologe.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Sosyolog</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-politikwissenschaftler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Siyaset Bilimci</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-geograf.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Coğrafyacı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-materialwissenschaftler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Malzeme Bilimci</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-genetiker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Genetikçi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-wissenschaftsjournalist.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Bilim Gazetecisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Güvenlik & Kamu Hizmeti</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-polizist.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Polis</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-feuerwehrmann.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">İtfaiyeci</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-soldat.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Asker</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-sicherheitsmitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Güvenlik Görevlisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-detektiv.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Dedektif</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-zollbeamter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Gümrük Memuru</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-justizvollzugsbeamter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Cezaevi Memuru</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-rettungsschwimmer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Cankurtaran</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-verwaltungsbeamter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">İdari Memur</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-diplomat.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Diplomat</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-brandschutzbeauftragter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Yangın güvenliği sorumlusu</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-personenschuetzer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Yakın koruma görevlisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-katastrophenschutzhelfer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Afet yardım gönüllüsü</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bademeister.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Cankurtaran</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-luftsicherheitsassistent.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Hava güvenliği asistanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Güvenlik ve Kamu Hizmeti</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-standesbeamter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Nüfus memuru</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-mitarbeiter-im-ordnungsamt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Zabıta memuru</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-nachrichtendienstmitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">İstihbarat çalışanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bewaehrungshelfer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Denetimli serbestlik görevlisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-fachkraft-fuer-arbeitssicherheit.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">İş güvenliği uzmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Sanat ve Kültür</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-schauspieler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Oyuncu</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-musiker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Müzisyen</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-taenzer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Dansçı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bildender-kuenstler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Görsel sanatçı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bildhauer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Heykeltıraş</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Sanat & Kültür</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-kurator.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Küratör</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-museumspaedagoge.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Müze Pedagogu</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bibliothekar.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Kütüphaneci</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-archivar.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Arşivci</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-dirigent.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Orkestra Şefi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-komponist.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Besteci</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-tontechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ses Teknisyeni</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-buehnenbildner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Sahne Tasarımcısı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-kostuembildner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Kostüm Tasarımcısı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-maskenbildner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Makyaj ve Protez Sanatçısı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-tanzpaedagoge.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Dans eğitmeni</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-kunsthistoriker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Sanat tarihçisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-veranstaltungstechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Etkinlik teknisyeni</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-veranstaltungsmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Etkinlik yöneticisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-schriftsteller.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Yazar</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Mühendislik & Teknoloji</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-maschinenbauingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Makine Mühendisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-elektroingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Elektrik Mühendisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bauingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">İnşaat Mühendisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-wirtschaftsingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Endüstri Mühendisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-verfahrenstechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Proses Mühendisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-fahrzeugtechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Araç Teknisyeni</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-luft-und-raumfahrtingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Havacılık ve Uzay Mühendisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-mechatroniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Mekatronikçi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-konstrukteur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tasarım Mühendisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-qualitaetsingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Kalite Mühendisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-produktionsingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Üretim Mühendisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-energietechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Enerji Teknisyeni</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-umweltingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Çevre Mühendisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-robotikingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Robotik Mühendisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-vermessungsingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Harita Mühendisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-werkstoffingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Malzeme Mühendisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-schiffbauingenieur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Gemi İnşa Mühendisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-industriedesigner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Endüstriyel Tasarımcı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-automatisierungstechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Otomasyon Teknisyeni</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bauphysiker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Yapı Fiziği Mühendisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Üretim & İmalat</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-industriemechaniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Endüstri mekanikçisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-werkzeugmechaniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Takım mekanikçisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-schweisser.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Kaynakçı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-zerspanungsmechaniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Talaşlı imalat mekanikçisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-fertigungsmitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Üretim çalışanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-qualitaetspruefer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Kalite kontrol uzmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-maschinenbediener.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Makine operatörü</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-fleischer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Kasap</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-lebensmitteltechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Gıda teknisyeni</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-textiltechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tekstil teknisyeni</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-schuhmacher.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ayakkabıcı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-mediengestalter-druck.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Baskı Medya Tasarımcısı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-verpackungsmittelmechaniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ambalaj Makinesi Teknisyeni</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-montagemitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Montaj İşçisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-feinmechaniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Hassas Mekanikçi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-glasblaeser.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Cam Üfleyici</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-goldschmied.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Kuyumcu</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-polsterer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Döşemeci</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-anlagenmechaniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tesisat ve Sistem Mekanikçisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-chemikant.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Kimya Operatörü</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Enerji & Tedarik</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-elektrotechniker-energieversorgung.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Elektrikçi Enerji Tedariki</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-kraftwerksoperator.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Santral Operatörü</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-netzmonteur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Şebeke Montajcısı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-windenergieanlagenmechatroniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Rüzgar Enerjisi Tesisleri Mekatronikçisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-solartechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Solar Teknisyeni</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-versorgungstechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tedarik Teknisyeni</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-energieberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Enerji Danışmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-klimatechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">İklim Teknisyeni</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-fernwaermetechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Bölgesel Isıtma Teknisyeni</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bioenergieanlagenbetreiber.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Biyoenerji Tesisi İşletmecisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-netzplaner-energie.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Şebeke Planlayıcısı Enerji</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-stadtwerke-mitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Belediye Hizmetleri Çalışanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-entsorgungsfachkraft.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Atık Yönetimi Uzmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-klaerwerksmitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Arıtma Tesisi Çalışanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-messtechniker-energie.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Enerji Ölçüm Teknisyeni</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-energiemanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Enerji Yöneticisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-glasfasertechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Fiber Teknisyeni</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-schaltanlagenbauer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Pano İmalatçısı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-wassermeister.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Su Ustası</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-strahlenschutzbeauftragter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Radyasyon Koruma Sorumlusu</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Temizlik & Tesis Yönetimi</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-gebaeudereiniger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Bina temizleyicisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-hausmeister.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Bina görevlisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-facility-manager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Facility Manager</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-gebaeudetechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Bina teknisyeni</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-schaedlingsbekaempfer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Haşere kontrol uzmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-reinigungskraft-industrie.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Endüstriyel temizlik personeli</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-glas-und-fassadenreiniger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Cam ve cephe temizleyicisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-winterdienst-mitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Kış hizmeti çalışanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-hygienefachkraft.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Hijyen uzmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-aufzugsmonteur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Asansör montajcısı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-alarmanlagen-installateur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Alarm Sistemi Montajcısı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-hausverwalter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Apartman Yöneticisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-concierge.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Concierge</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-reinigungsmanager.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Temizlik Müdürü</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-raumausstatter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">İç Mekan Döşemecisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-reinraumtechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Temiz Oda Teknisyeni</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-parkhaus-mitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Otopark Görevlisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-klimaanlagen-wartungstechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Klima Bakım Teknisyeni</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-gruenflaechenpfleger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Yeşil Alan Bakım Görevlisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-schliessdienst-mitarbeiter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Kilit Kapama Görevlisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Kişiye yönelik hizmetler</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-friseur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Kuaför</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-kosmetiker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Kozmetik uzmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-visagist.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Makyaj sanatçısı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-taetowierer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Dövmeci</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-nageldesigner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Tırnak tasarımcısı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-masseur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Masör</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-personal-trainer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Kişisel antrenör</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-yogalehrer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Yoga öğretmeni</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-stylist.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Stilist</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bestatter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Cenaze levazımatçısı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Kişiye Yönelik Hizmetler</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-tierfriseur.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Evcil Hayvan Kuaförü</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-haushaltshilfe.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ev Yardımcısı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-kinderbetreuer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Çocuk Bakıcısı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-hochzeitsplaner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Düğün Planlayıcısı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-eheberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Evlilik Danışmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-fusspfleger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ayak Bakım Uzmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-ernaehrungsberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Beslenme Danışmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-lebensberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Yaşam Danışmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-haustierbetreuer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Evcil Hayvan Bakıcısı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-umzugshelfer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Nakliye Yardımcısı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 60px;">
+                    <h2 style="font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: #0f172a; border-bottom: 2px solid #0f172a; padding-bottom: 15px; margin-bottom: 20px;">Gayrimenkul & Mimarlık</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 40px;">
+                        
+                <a href="karriere-test-architekt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Mimar</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-innenarchitekt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">İç Mimar</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-immobilienmakler.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Emlakçı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-immobilienverwalter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Gayrimenkul Yöneticisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bauzeichner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Teknik Ressam</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-stadtplaner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Şehir Plancısı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-landschaftsarchitekt.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Peyzaj Mimarı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bausachverstaendiger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Yapı Uzmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-immobiliengutachter.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Gayrimenkul Değerleme Uzmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-immobilienkaufmann.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Gayrimenkul Uzmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-projektentwickler-immobilien.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Gayrimenkul Proje Geliştiricisi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-vermessungstechniker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ölçüm Teknisyeni</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-denkmalpfleger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Koruma Uzmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-baufinanzierungsberater.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Konut Finansmanı Danışmanı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-generalunternehmer-bau.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Ana Yüklenici İnşaat</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-bautraeger.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Proje Geliştirici Müteahhit</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-lichtplaner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Aydınlatma Tasarımcısı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-tga-planer.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">MEP Planlamacısı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-brandschutzplaner.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Yangın Güvenliği Planlamacısı</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                <a href="karriere-test-statiker.html" class="job-link">
+                    <span style="font-size: 1.1rem; font-weight: 500;">Statikçi</span>
+                    <span class="arrow">&rarr;</span>
+                </a>
+            
+                    </div>
+                </div>
+            
+            </div>
+            
+            <div id="no-results" class="hidden" style="text-align: center; padding: 80px 0; color: #64748B; font-size: 1.2rem;">
+                Doğrudan eşleşme yok. Daha genel bir terim deneyin.
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer style="padding: 60px 5%; text-align: center; border-top: 1px solid var(--border-light); font-size: 0.85rem; color: var(--text-muted); background: var(--bg-surface);">
+        <p>© 2026 C.O.R.E. Index</p>
+        <div style="margin-top: 15px;">
+            <a href="impressum.html" style="color: inherit; text-decoration: none; margin: 0 15px; text-transform: uppercase; letter-spacing: 1px; font-weight: 600;">Yasal Bilgiler</a>
+            <a href="datenschutz.html" style="color: inherit; text-decoration: none; margin: 0 15px; text-transform: uppercase; letter-spacing: 1px; font-weight: 600;">Gizlilik</a>
+            <a href="methodik.html" style="color: inherit; text-decoration: none; margin: 0 15px; text-transform: uppercase; letter-spacing: 1px; font-weight: 600;">Metodoloji</a>
+        </div>
+    </footer>
+
+    <!-- LIVE SEARCH SCRIPT (Erweitert mit Smooth Scroll) -->
+        <!-- LIVE SEARCH SCRIPT (Repariert ohne hartes Springen) -->
+    <script>
+        function filterJobs() {
+            const input = document.getElementById('jobSearch').value.toLowerCase();
+            const clusters = document.querySelectorAll('#cluster-container > div');
+            let hasVisibleJobs = false;
+
+            clusters.forEach(cluster => {
+                const clusterName = cluster.querySelector('h2').innerText.toLowerCase();
+                const jobs = cluster.querySelectorAll('a');
+                let clusterHasMatch = false;
+
+                jobs.forEach(job => {
+                    const jobName = job.innerText.toLowerCase();
+                    if (jobName.includes(input) || clusterName.includes(input)) {
+                        job.style.display = 'flex';
+                        clusterHasMatch = true;
+                        hasVisibleJobs = true;
+                    } else {
+                        job.style.display = 'none';
+                    }
+                });
+
+                cluster.style.display = clusterHasMatch ? 'block' : 'none';
+            });
+
+            document.getElementById('no-results').classList.toggle('hidden', hasVisibleJobs || clusters.length === 0);
+        }
+    </script>
+</body>
+</html>

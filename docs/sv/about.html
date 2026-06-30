@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om C.O.R.E. | Slutet på karriär-esoterin</title>
+    <meta name="description" content="Ta reda på varför C.O.R.E.-indexet utvecklades. Vi ersätter toxisk positivitet och färgtester med empiriska data och radikal ärlighet.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/core-social-share.jpg">
+
+    <style>     :root {
+            --bg-body: #ffffff;
+            --bg-surface: #FAFAFA;
+            --text-dark: #0f172a;
+            --text-body: #334155;
+            --text-muted: #64748B;
+            --border-light: #E2E8F0;
+            --accent-red: #c0392b; 
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+            background-color: var(--bg-body); 
+            color: var(--text-body); 
+            line-height: 1.8; 
+            -webkit-font-smoothing: antialiased;
+            font-size: 1.1rem; 
+        }
+
+        /* TYPOGRAFI */
+        h1, h2, h3, h4 { color: var(--text-dark); line-height: 1.2; letter-spacing: -0.03em; }
+        h1 { font-size: 4rem; margin-bottom: 24px; font-weight: 800; }
+        h2 { font-size: 2.6rem; margin-bottom: 20px; font-weight: 700; }
+        h3 { font-size: 1.3rem; margin-bottom: 15px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px;}
+        p { margin-bottom: 24px; }
+
+        /* Elegant outline-badge */
+        .badge { 
+            display: inline-block; 
+            color: var(--text-muted); 
+            border: 1px solid var(--border-light);
+            padding: 8px 24px; 
+            border-radius: 50px; 
+            font-size: 0.75rem; 
+            font-weight: 700; 
+            margin-bottom: 40px; 
+            text-transform: uppercase; 
+            letter-spacing: 2px; 
+        }
+
+        /* LAYOUT & LUFT (utdragen på bredden) */
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 5%; }
+        .section { padding: 100px 0; }
+        
+        /* HEADER */
+        header { 
+            background-color: var(--bg-body); 
+            padding: 30px 5%; 
+            display: flex; justify-content: space-between; align-items: center; 
+            border-bottom: 1px solid var(--border-light); 
+            position: sticky; top: 0; z-index: 100; 
+        }
+        .logo { color: var(--text-dark); font-weight: 800; font-size: 1.2rem; letter-spacing: 1.5px; text-decoration: none; }
+        nav a { color: var(--text-muted); text-decoration: none; margin-left: 2.5rem; font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; transition: color 0.3s; }
+        nav a.active { color: var(--text-dark); }
+        nav a:hover { color: var(--accent-red); }
+
+        /* MANIFESTO-OMRÅDE (uppbyggt vertikalt) */
+        .manifesto-grid { display: grid; grid-template-columns: 1fr; gap: 40px; margin-top: 60px; }
+        .manifesto-text { max-width: 800px; } /* Förhindrar för långa, oläsliga rader */
+        .manifesto-text p { text-align: justify; margin-bottom: 30px; }
+        .manifesto-text p.lead { font-size: 1.35rem; color: var(--text-dark); font-weight: 500; line-height: 1.6; }
+
+        /* SUBTIL HIGHLIGHT FÖR ANSATSEN */
+        .statement-box { 
+            padding: 40px 0; 
+            border-top: 2px solid var(--text-dark);
+            border-bottom: 1px solid var(--border-light);
+            margin: 20px 0 40px 0;
+            max-width: 800px;
+        }
+        .statement-box h4 { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 20px; color: var(--text-muted); }
+
+        /* DE 3 PELARNA (Generös stapling) */
+        .pillar-grid { display: grid; grid-template-columns: 1fr; gap: 60px; margin-top: 80px; }
+        .pillar-item { max-width: 800px; }
+        .pillar-item h3 { border-bottom: 1px solid var(--border-light); padding-bottom: 15px; display: block; margin-bottom: 20px; }
+        .pillar-item p { font-size: 1.05rem; color: var(--text-muted); }
+
+        /* LJUS AVGRÄNSNINGSSEKTION (Disclaimer vertikalt) */
+        .disclaimer-section {
+            background-color: var(--bg-surface);
+            border-top: 1px solid var(--border-light);
+            border-bottom: 1px solid var(--border-light);
+        }
+        .disclaimer-grid { display: grid; grid-template-columns: 1fr; gap: 40px; margin-top: 50px; }
+        .disclaimer-box { max-width: 800px; }
+        .disclaimer-box h4 { margin-bottom: 15px; font-size: 1rem; text-transform: uppercase; letter-spacing: 1px; }
+
+        /* CTA-KNAPP */
+        .btn-cta {
+            background-color: var(--text-dark);
+            color: white;
+            padding: 20px 45px;
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            border-radius: 4px;
+            text-decoration: none;
+            display: inline-block;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        .btn-cta:hover { background-color: var(--accent-red); transform: translateY(-2px); }
+
+        /* FOOTER */
+        .site-footer { padding: 60px 5%; text-align: center; font-size: 0.85rem; color: var(--text-muted); }
+        .site-footer a { color: inherit; margin: 0 15px; text-decoration: none; text-transform: uppercase; letter-spacing: 1px; font-weight: 600; transition: color 0.2s;}
+        .site-footer a:hover { color: var(--text-dark); }
+
+        @media (max-width: 900px) {
+            h1 { font-size: 2.8rem; }
+            h2 { font-size: 2.2rem; }
+            .section { padding: 60px 0; }
+        }</style>
+    
+    
+    <link rel="canonical" href="https://www.coreindexanalytics.com/sv/about.html">
+    
+
+    
+<!-- ========================================== -->
+<!-- 1. X-DEFAULT (Standardfallback globalt) -->
+<!-- ========================================== -->
+<link rel="alternate" hreflang="x-default" href="https://www.coreindexanalytics.com/en/about.html">
+
+<!-- ========================================== -->
+<!-- 2. INTERNATIONELLA MÅL (Endast språkmappar) -->
+<!-- ========================================== -->
+<link rel="alternate" hreflang="de" href="https://www.coreindexanalytics.com/de/about.html">
+<link rel="alternate" hreflang="en" href="https://www.coreindexanalytics.com/en/about.html">
+<link rel="alternate" hreflang="es" href="https://www.coreindexanalytics.com/es/about.html">
+<link rel="alternate" hreflang="fr" href="https://www.coreindexanalytics.com/fr/about.html">
+<link rel="alternate" hreflang="it" href="https://www.coreindexanalytics.com/it/about.html">
+<link rel="alternate" hreflang="nl" href="https://www.coreindexanalytics.com/nl/about.html">
+<link rel="alternate" hreflang="pt" href="https://www.coreindexanalytics.com/pt/about.html">
+<link rel="alternate" hreflang="ar" href="https://www.coreindexanalytics.com/ar/about.html">
+<link rel="alternate" hreflang="sv" href="https://www.coreindexanalytics.com/sv/about.html">
+<link rel="alternate" hreflang="pl" href="https://www.coreindexanalytics.com/pl/about.html">
+<link rel="alternate" hreflang="tr" href="https://www.coreindexanalytics.com/tr/about.html">
+<link rel="alternate" hreflang="ja" href="https://www.coreindexanalytics.com/ja/about.html">
+<link rel="alternate" hreflang="ko" href="https://www.coreindexanalytics.com/ko/about.html">
+<link rel="alternate" hreflang="hi" href="https://www.coreindexanalytics.com/hi/about.html">
+<link rel="alternate" hreflang="da" href="https://www.coreindexanalytics.com/da/about.html">
+<link rel="alternate" hreflang="cs" href="https://www.coreindexanalytics.com/cs/about.html">
+<link rel="alternate" hreflang="no" href="https://www.coreindexanalytics.com/no/about.html">
+<link rel="alternate" hreflang="fi" href="https://www.coreindexanalytics.com/fi/about.html">
+<link rel="alternate" hreflang="id" href="https://www.coreindexanalytics.com/id/about.html">
+
+    
+   
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo">C.O.R.E. INDEX</a>
+        <nav>
+            <a href="index.html">Katalog</a>
+            <a href="profile.html">Profiler</a>
+            <a href="about.html" class="active">Om oss</a>
+        </nav>
+    </header>
+
+    <!-- HERO-OMRÅDE -->
+    <section class="section">
+        <div class="container">
+            <div style="max-width: 850px;">
+                <span class="badge">Vår filosofi</span>
+                <h1>Slutet på karriär-esoterin.</h1>
+                <p style="font-size: 1.45rem; color: var(--text-muted); line-height: 1.6; margin-top: 30px; font-weight: 400;">
+                    C.O.R.E.-indexet utvecklades inte för att smickra dig. Vi byggde det för att synliggöra de osynliga systemiska och inre hinder som får högpresterande människor att bränna ut sig varje dag.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- MANIFESTET -->
+    <section class="section bg-surface" style="border-top: 1px solid var(--border-light);">
+        <div class="container">
+            <h2>Varför vi analyserar, i stället för att motivera.</h2>
+            
+            <div class="manifesto-grid">
+                <div class="manifesto-text">
+                    <p class="lead">
+                        Marknaden för yrkesmässiga lämplighetstester lider av ett grundläggande konstruktionsfel: den bygger på principen om tillmötesgående.
+                    </p>
+                    <p>
+                        Oavsett om det handlar om den enkla indelningen i fyra färgglada typer eller tilldelningen av en välklingande arketyp från teorierna från tidigt 1900-tal – de flesta instrument delar ut komplimanger i stället för att visa verkliga kausaliteter. De är ofta optimerade för att skapa god stämning i teambuilding-workshops, inte för att förklara djupgående karriärmässiga återvändsgränder.
+                    </p>
+                    <p>
+                        Resultatet är en kultur av "toxisk positivitet". Utslitna yrkespersoner får rådet att bara "ändra sitt mindset" eller "hitta sin sanna passion", medan de misslyckas i dysfunktionella företagsstrukturer, under otydligt ledarskap eller på grund av sitt eget omedvetna perfektionism. Verklig förändring börjar dock aldrig med en komplimang, utan med en ärlig nulägesanalys.
+                    </p>
+                </div>
+
+                <div class="manifesto-text">
+                    <div class="statement-box">
+                        <h4>Vår ansats</h4>
+                        <p style="margin: 0; font-size: 1.25rem; color: var(--text-dark); font-weight: 500; line-height: 1.6;">
+                            Vi verkar i skärningspunkten mellan dataarkitektur och arbetslivets verklighet. I stället för att uppfinna nya, abstrakta teorier använder vi Big Five-modellen (O.C.E.A.N.) som en obeveklig grund för arbetsvardagen.
+                        </p>
+                    </div>
+                    <p>
+                        C.O.R.E. (Career Obstacle & Resilience Evaluation) Index är ett radikalt pragmatiskt profileringsverktyg. Vårt primära fokus ligger inte bara på att bekräfta dina styrkor, utan framför allt på att isolera din yrkesmässiga "skugga". Vi gör mätbart i vilken utsträckning omedvetna faktorer som rädsla för att misslyckas, oro för statusförlust eller bristande gränssättning (det klassiska hjälparsyndromet) saboterar dina ekonomiska och strategiska beslut.
+                    </p>
+                </div>
+            </div>
+
+            <!-- DE 3 PELARNA (redaktionell stil utan ram) -->
+            <div class="pillar-grid">
+                <div class="pillar-item">
+                    <h3>01. Empirisk grund</h3>
+                    <p>
+                        Vi avstår från magkänsla och esoteriska kategoriseringar. C.O.R.E.-analysen bygger på utvärdering av standardiserade beteendemönster. De underliggande skalorna utgör en etablerad psykologisk modell som världen över anses stabil och tillförlitlig.
+                    </p>
+                </div>
+                <div class="pillar-item">
+                    <h3>02. Fokus på hindret</h3>
+                    <p>
+                        Den som vill frigöra sin yrkesmässiga potential måste först förstå vad som håller en tillbaka. Vi betraktar de dysfunktionella mönster som särskilt uppstår i krävande arbetsmiljöer – från att fastna i "den gyllene buren" till att bara beta av uppgifter utan verkligt erkännande.
+                    </p>
+                </div>
+                <div class="pillar-item">
+                    <h3>03. Tydlig konsekvens</h3>
+                    <p>
+                        I slutet av testet finns inga abstrakta metaforer eller djurjämförelser. Du får exekutiva handlingssteg som sakligt visar om det är dags att sätta gränser, omförhandla budgetar eller dra i nödbromsen.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LJUS, ELEGANT AVGRÄNSNING (utan medicinska termer) -->
+    <section class="section disclaimer-section">
+        <div class="container">
+            <h2 style="margin-bottom: 20px;">Tydlighet och gränser.</h2>
+            <p style="max-width: 750px; font-size: 1.25rem; color: var(--text-muted);">
+                Äkta professionalism visar sig också i att exakt kunna formulera sina gränser. C.O.R.E. är ett operativt analysverktyg för yrkeskontexten, inte en vårdinrättning och inte en ersättning för terapi.
+            </p>
+
+            <div class="disclaimer-grid">
+                <div class="disclaimer-box" style="border-top: 2px solid var(--text-dark); padding-top: 25px;">
+                    <h4>Vad analysen gör</h4>
+                    <p style="color: var(--text-body);">
+                        Vi isolerar sambanden mellan ditt arbetssätt och de systemiska hindren i ditt jobb. Vi erbjuder ett strukturerat datagrundlag för självreflektion, inför kommande löneförhandlingar eller som vägledning vid en yrkesmässig omorientering. Det handlar om karriärstrategi och självledning.
+                    </p>
+                </div>
+                <!-- Den röda accenten för den hårda gränsen -->
+                <div class="disclaimer-box" style="border-top: 2px solid var(--accent-red); padding-top: 25px;">
+                    <h4 style="color: var(--accent-red);">Vad systemet uttryckligen INTE gör</h4>
+                    <p style="color: var(--text-body);">
+                        Vi ställer inga medicinska, psykiatriska eller kliniskt-psykologiska diagnoser. Vårt system behandlar inte sjukdomstillstånd som klinisk depression, utmattningssyndrom eller ångeststörningar. Vid hälsokriser eller psykiskt lidande hänvisar vi alltid till utbildade läkare och legitimerad psykoterapeutisk personal.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CALL TO ACTION -->
+    <section class="section" style="text-align: center;">
+        <div class="container">
+            <h2 style="margin-bottom: 24px;">Redo för analysen?</h2>
+            <p style="font-size: 1.25rem; color: var(--text-muted); max-width: 600px; margin: 0 auto 40px auto; line-height: 1.6;">
+                Gå till vårt katalog, välj din bransch och starta den 8 minuter långa utvärderingen direkt i din webbläsare. Ingen registrering, 100 % anonymt.
+            </p>
+            <a href="index.html" class="btn-cta">
+                Till yrkeskatalogen
+            </a>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <p class="site-footer-copyright">© 2026 C.O.R.E. Index. Alla rättigheter förbehållna.</p>
+        
+        <p class="site-footer-disclaimer">
+            <strong>Viktig information om avgränsning och ansvar:</strong> C.O.R.E. Index är uteslutande avsett för yrkesmässig självbedömning, analys av systemiska arbetssituationer och utvärdering av yrkesstrategier. Tjänsten utgör ingen medicinsk, psykiatrisk eller psykologisk rådgivning, utvärdering eller behandling. Resultaten kan och ska inte ersätta terapeutiska åtgärder vid sjukdomstillstånd som klinisk depression, utmattningssyndrom eller ångeststörningar. Vid hälsokriser eller ihållande psykiskt lidande ska alltid läkare eller legitimerad psykoterapeutisk personal kontaktas.
+        </p>
+        
+        <div class="site-footer-links">
+            <a href="impressum.html">Impressum</a>
+            <a href="datenschutz.html">Dataskydd</a>
+            <a href="methodik.html">Vår metodik</a>
+        </div>
+    </footer>
+
+</body>
+</html>

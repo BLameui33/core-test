@@ -1,0 +1,370 @@
+[
+    {
+        "profile_id": "pionier_existenzangst",
+        "base_type": "Il Pioniere Strategico",
+        "fear_mutation": "Paura esistenziale",
+        "name": "Il pioniere compromesso",
+        "headline": "Hai idee brillanti, ma ti sei venduto per il contentino di fine mese.",
+        "corporate_view": "In azienda vieni considerato una mente visionaria, capace di pensare ben oltre i confini del tuo reparto. Ti apprezzano perché riconosci subito le inefficienze, capisci il quadro generale e, in teoria, hai il potenziale per reinventare da zero modelli di business incrostati. Per il management sei un asset prezioso, perché vai dritto al punto e metti in luce i punti ciechi strategici.",
+        "shadow_conflict": "Ti sei adattato al sistema — e proprio questo ti sta uccidendo dentro, un pezzo alla volta, ogni giorno. Vedi con chiarezza chirurgica come l’azienda stia andando a sbattere contro il muro o quanto siano assurdi e stupidi i processi consolidati. Ma nei meeting decisivi stai zitto. Perché? Perché la paura delle spese fisse, della prossima rata, del tuo tenore di vita e della falsa sicurezza del contratto è molto più forte del tuo vero impulso all’innovazione. Dentro di te fai solo più il minimo sindacale, anche se il tuo cervello è fatto per la disruption e il cambiamento vero. Questa gabbia dorata che ti sei costruito da solo ti rende sempre più cinico, amareggiato e ti succhia via l’energia creativa.",
+        "action_steps": [
+            "Taglia il rendimento emotivo: smetti di sprecare energia mentale preziosa in un sistema che comunque non mette in pratica le tue idee. Continua a fare bene il tuo lavoro, in modo professionale, ma stacca con decisione il coinvolgimento emotivo. L’azienda non è la tua famiglia, è il tuo attuale finanziatore.",
+            "Costruisci il tuo 'Fuck-You-Money': abbassa temporaneamente il tuo tenore di vita e crea in modo aggressivo un cuscinetto finanziario. Solo quando potrai realisticamente sopravvivere 6 mesi senza quello stipendio, il tuo cervello spegnerà il panico e avrai il coraggio di tornare a correre rischi veri e dire la tua.",
+            "Canalizza la tua disruption: usa la creatività repressa e inutilizzata per un side business segreto. In alternativa: prepara l’uscita e candidati in startup o scale-up fortemente orientate alla crescita, che premiano proprio questa fame incontrollabile di innovazione invece di soffocarla."
+        ],
+        "monetization_hook": {
+            "topic": "Avviare un'attività secondaria e indipendenza finanziaria",
+            "keywords": [
+                "Fuck You Money",
+                "Side Hustle",
+                "Libertà finanziaria",
+                "Lavoro autonomo part-time"
+            ]
+        }
+    },
+    {
+        "profile_id": "pionier_versagensangst",
+        "base_type": "Il Pioniere Strategico",
+        "fear_mutation": "Paura del fallimento",
+        "name": "Il pioniere bloccato",
+        "headline": "Progetti la rivoluzione nel cassetto, perché hai il terrore assoluto della realtà.",
+        "corporate_view": "In azienda ti conoscono come un analista e architetto estremamente profondo. Non consegni mai concetti raffazzonati. I colleghi ammirano il modo in cui pensi fino all’ultimo dettaglio nuove strategie, prodotti o processi prima che vedano la luce. Sei la garanzia di profondità intellettuale e pianificazioni a prova di bomba.",
+        "shadow_conflict": "La tua sindrome dell’impostore ti tiene in una morsa totale. Sul tuo disco rigido dormono centinaia di concetti iniziati, idee brillanti e visioni — ma non premi mai su 'Launch'. Ti racconti da solo e racconti agli altri che il prodotto o l’idea 'non è ancora perfetto'. La verità brutale è un’altra: hai una paura panica che la tua idea fallisca nella realtà, venga fatta a pezzi dai critici e che alla fine ti smascherino come un truffatore. Il tuo perfezionismo, tanto lodato, non è più controllo qualità, ma la tua scusa più geniale per non dover mai entrare nel rischio vero. Ti nascondi dietro la pianificazione.",
+        "action_steps": [
+            "Stabilisci il paradigma dell’80%: costringiti alla verità scomoda: 'Fatto è meglio che perfetto'. Pubblica, invia o presenta la tua prossima idea in modo consapevole quando è ancora incompleta. Impara a reggere il disagio dell’imperfezione.",
+            "Scollega il tuo valore personale: separa in modo netto il tuo valore umano dal tuo lavoro. Se un tuo concept fallisce, non significa che tu sia un fallito come persona. Significa solo che un’ipotesi concreta è stata testata sul mercato o nel team ed è stata smentita.",
+            "Trova il tuo contrappeso: cerca un partner pragmatico per l’esecuzione (un 'Executor'). Ti serve qualcuno al tuo fianco che porti le tue idee brutalmente e velocemente sul mercato e prema il pulsante mentre tu sei ancora impantanato nel loop dei tuoi dubbi."
+        ],
+        "monetization_hook": {
+            "topic": "Sconfiggere la sindrome dell'impostore e strategie di execution",
+            "keywords": [
+                "Sindrome dell'impostore",
+                "Lean Startup",
+                "Lasciare andare il perfezionismo",
+                "Portare a termine i progetti"
+            ]
+        }
+    },
+    {
+        "profile_id": "pionier_statusverlust",
+        "base_type": "Il Pioniere Strategico",
+        "fear_mutation": "Perdita di status",
+        "name": "Il pioniere messo in scena",
+        "headline": "Ti piace essere celebrato come il ribelle creativo — purché la tua auto aziendale non sia in pericolo.",
+        "corporate_view": "Nel contesto professionale appari come un visionario estremamente carismatico, capace di trascinare senza sforzo team, reparti e stakeholder. Ti ammirano per la rara capacità di impacchettare innovazioni complesse e fredde in visioni coinvolgenti e di venderle in modo eccellente verso l’alto, al top management. Sei il volto luminoso del progresso.",
+        "shadow_conflict": "Sei diventato un maestro dell’auto-messa in scena. Parli forte e volentieri di 'New Work', agilità, disruption e gerarchie piatte. Sei quello che tiene i discorsi infuocati e ispiranti nelle town hall. Ma appena la situazione si fa seria — appena dovresti rischiare la tua posizione, il tuo budget o la tua reputazione davanti al board per una vera convinzione — ti pieghi. Ricadi subito nel gioco politico delle vecchie gerarchie. La tua presunta ribellione è spesso solo PR calcolata con intelligenza per il tuo tornaconto. In fondo temi più di ogni altra cosa di perdere status e sparire nella grigia irrilevanza del middle management.",
+        "action_steps": [
+            "Lavora nell’ombra: smetti di usare l’innovazione come semplice strumento per il tuo ego e la tua visibilità. Costringiti a realizzare un progetto importante che aiuti pesantemente l’azienda, ma per il quale ufficialmente non ricevi credito, palco o lodi.",
+            "Abbraccia il conflitto: esci dalla tua zona di comfort politica. Il cambiamento vero significa sempre attaccare privilegi e farsi nemici. Accetta il fatto che, da vero pioniere, non puoi essere il preferito di tutti i board e di tutti i colleghi.",
+            "Il controllo dell’ego: prima di ogni nuova iniziativa, fatti la domanda dura e onesta: ti interessa davvero la sostanza e il progresso — oppure stai solo lucidando le keyword per il tuo profilo LinkedIn?"
+        ],
+        "monetization_hook": {
+            "topic": "Leadership autentica e gestione dell'ego",
+            "keywords": [
+                "L'ego è il nemico",
+                "Leadership autentica",
+                "Servant Leadership",
+                "Paura di perdere status"
+            ]
+        }
+    },
+    {
+        "profile_id": "pionier_veraenderungsangst",
+        "base_type": "Il Pioniere Strategico",
+        "fear_mutation": "Paura del cambiamento",
+        "name": "Il sognatore frustrato",
+        "headline": "Ti lamenti ogni giorno dell’inferno burocratico — ma ironicamente sei troppo comodo per andartene.",
+        "corporate_view": "Nel sistema sei conosciuto come una fonte di idee affidabile, anche se critica. Conosci a memoria i punti deboli, i colli di bottiglia e gli errori storici del tuo sistema e sai nominarli con precisione. Tutti sanno: se vuoi capire perché un processo si inceppa, devi chiedere a te.",
+        "shadow_conflict": "Sei il critico più rumoroso e più eloquente della macchinetta del caffè. Soffri davvero e in modo evidente per l’inferno di Excel, i loop infiniti di approvazione e le regole rigide della tua azienda. La tua frase standard è: 'Bisognerebbe demolire tutto questo posto e ricostruirlo da zero'. Ma in fondo hai una paura enorme e paralizzante di lasciare le tue routine comode e altamente prevedibili. Il tuo lamento continuo è diventato, paradossalmente, la tua zona di comfort più sicura. Un vero nuovo inizio in un’altra azienda significherebbe infatti perdere la protezione da principiante e dover dimostrare di nuovo, senza sconti, quanto vali davvero nella pratica.",
+        "action_steps": [
+            "L’ultimatum dei 30 giorni: fissati oggi una scadenza dura. O entro esattamente 30 giorni hai aggiornato il CV e inviato la prima candidatura, oppure da oggi perdi il diritto morale di lamentarti ancora del tuo lavoro o del tuo capo. Accettazione o uscita.",
+            "Allenare i micro-cambiamenti: allena il muscolo atrofizzato del cambiamento nelle piccole cose. Rompi consapevolmente le tue routine quotidiane banali (strada diversa per andare al lavoro, strumenti diversi, orari di pausa diversi) per togliere al cervello la paura di perdere il controllo.",
+            "Uccidi la nostalgia: smetti di romanticizzare il passato dell’azienda ('Prima qui era tutto più agile'). Accetta la realtà fredda: il sistema non cambierà per te. Sei tu quello che deve muoversi."
+        ],
+        "monetization_hook": {
+            "topic": "Processo decisionale e cambio carriera radicale",
+            "keywords": [
+                "Prendere decisioni",
+                "Uscire dalla zona di comfort",
+                "Osare un cambio di carriera",
+                "Cambio professionale"
+            ]
+        }
+    },
+    {
+        "profile_id": "executor_existenzangst",
+        "base_type": "L'Executor Pragmatico",
+        "fear_mutation": "Paura esistenziale",
+        "name": "Il fattore addestrato",
+        "headline": "Potresti ribaltare l’intera baracca da solo, ma ti mordi la lingua perché ti serve lo stipendio.",
+        "corporate_view": "Per l’azienda sei un vero mulo da lavoro e una colonna estremamente affidabile del quotidiano operativo. Sei quello che trasforma le direttive vaghe e scollegate dalla realtà del management in risultati concreti e misurabili, assicurando che i numeri restino in rotta fino alla fine del trimestre.",
+        "shadow_conflict": "Dentro di te ribolli di rabbia ogni giorno. Vedi l’inefficienza palese, sopporti le decisioni stupide e lontane dalla pratica del management e ti porti dietro colleghi che semplicemente non rendono. In realtà ogni tuo istinto ti urla di intervenire duro, fare tabula rasa e ripulire il tavolo. Ma non lo fai. La tua paura costante e pulsante per il bonus annuale, il mutuo in corso o il tuo alto tenore di vita ti costringe alla sottomissione. Ti ingoi il tuo pragmatismo istintivo, fai con i denti stretti anche i compiti più insensati e lentamente, ma inesorabilmente, ti trasformi in un cinico intorpidito e amareggiato.",
+        "action_steps": [
+            "Disattiva la trappola dorata: abbassa subito i costi fissi. La tua dipendenza finanziaria è l’unico motivo assoluto per cui continui a tollerare questa incompetenza dall’alto. La libertà inizia sul conto, non nella testa.",
+            "Disinvestimento emotivo: smetti di buttarti emotivamente nei progetti quando non hai il potere di guidarli davvero. Consegnare esattamente ciò per cui vieni pagato e poi spegnerti mentalmente del tutto.",
+            "Cambia campo di gioco: tu appartieni a un ambiente puramente orientato alla performance (per esempio vendite, interim management o un business tuo). Cerca un contesto in cui non esiste politica d’ufficio, ma in cui il tuo pragmatismo spietato si traduce direttamente in soldi e successo misurabile."
+        ],
+        "monetization_hook": {
+            "topic": "Stoicismo nel lavoro e carriere orientate alla performance",
+            "keywords": [
+                "Stoicismo",
+                "Interim Management",
+                "Modelli a provvigione",
+                "Distanza emotiva nel lavoro"
+            ]
+        }
+    },
+    {
+        "profile_id": "executor_versagensangst",
+        "base_type": "L'Executor Pragmatico",
+        "fear_mutation": "Paura del fallimento",
+        "name": "Il fattore tirannico",
+        "headline": "Ti prendi addosso tutti i compiti perché non ti fidi degli altri — e bruci nel tuo stesso micromanagement.",
+        "corporate_view": "In azienda vieni percepito come una figura di leadership estremamente assertiva. Ti assumi senza esitazione la piena responsabilità di progetti ad alta criticità, vai avanti e spingi il team verso prestazioni elevate con una tenacia apparentemente instancabile. Quando c’è da spegnere un incendio, chiamano te.",
+        "shadow_conflict": "Mascheri la tua nuda paura di perdere il controllo dietro parole come 'efficienza' e 'standard qualitativo'. In profondità temi senza sosta che qualcosa possa andare storto e ricadere su di te. Per questo non deleghi mai davvero. Affidi i compiti, sì, ma alla fine sei il collo di bottiglia del tuo stesso successo, perché a fine giornata correggi di nuovo da solo ogni email, ogni presentazione e ogni documento alle 23:00 di notte. Ti racconti che il tuo team sia incompetente, ma la verità tossica è questa: non gli dai nemmeno lo spazio per lavorare in autonomia e sbagliare, perché TU tremi davanti alle conseguenze di un errore.",
+        "action_steps": [
+            "La regola dell’80% come legge: accetta finalmente questo fatto: un compito svolto da un collaboratore all’80% bene quanto te non è una perdita di qualità — è un guadagno enorme per il tuo tempo di vita, che è limitato.",
+            "Lascia entrare il dolore controllato: lascia andare di proposito e in modo consapevole un progetto piccolo e poco importante contro il muro, oppure tollera un errore visibile nel tuo team. Devi vedere che il mondo non si distrugge per questo.",
+            "Architetto invece di artigiano: cambia identità. Non sei più il miglior 'esecutore'. Ora sei un 'system architect'. Il tuo compito è costruire processi robusti che funzionino anche quando tu non sei nella stanza."
+        ],
+        "monetization_hook": {
+            "topic": "Delega efficace e sistematizzazione",
+            "keywords": [
+                "Imparare a delegare",
+                "Lasciare andare il micromanagement",
+                "Competenze di leadership",
+                "Costruire sistemi"
+            ]
+        }
+    },
+    {
+        "profile_id": "executor_statusverlust",
+        "base_type": "L'Executor Pragmatico",
+        "fear_mutation": "Perdita di status",
+        "name": "Il fattore territoriale",
+        "headline": "Scambi la leadership per dominio, perché hai il terrore di scendere nel ranking.",
+        "corporate_view": "Nell’organizzazione vieni visto come un giocatore alpha altamente competitivo, che vuole sempre vincere e per lo più vince davvero. Difendi quote di mercato, vinci le trattative più dure e proteggi gli interessi e i budget del tuo reparto con estrema durezza e senza compromessi verso l’esterno.",
+        "shadow_conflict": "Il tuo ego è il tuo punto cieco più grande e più pericoloso. Misuri il tuo valore personale solo in base all’ampiezza del tuo budget, al tuo titolo e a chi ha l’ultima parola nel meeting decisivo. Schiacci gli altri colleghi con la retorica e ti prendi i successi del team. Non perché sia la cosa migliore per il progetto o per l’azienda, ma perché hai una paura costante e assurda che un altro alpha, più giovane o più rumoroso, ti superi. Il tuo ambiente ti rispetta per la tua durezza e i tuoi risultati, ma alle tue spalle non esiste vera lealtà. In realtà lì tutti aspettano solo che prima o poi tu inciampi.",
+        "action_steps": [
+            "Collaborazione invece di guerra: smetti di combattere contro il tuo stesso team o contro gli altri reparti. La vera forza, sicura di sé, non si vede nel tenere gli altri piccoli, ma nel tollerare persone capaci accanto a te e persino nel farle crescere.",
+            "Allenamento radicale all’ascolto: costringiti nel prossimo meeting importante a non interrompere nessuno per tre minuti, a non cambiare espressione e a non proporre nessuna soluzione tua. Sopporta il silenzio e lascia brillare gli altri.",
+            "Rifletti sulla scalabilità: guidare con paura e dominio funziona nel breve periodo e porta numeri rapidi. Ma guidare con rispetto profondo e sicurezza psicologica è l’unica cosa che scala davvero nel lungo termine e previene il burnout."
+        ],
+        "monetization_hook": {
+            "topic": "Leadership moderna e dinamiche di potere",
+            "keywords": [
+                "Giochi di potere in ufficio",
+                "Servant Leadership",
+                "Intelligenza emotiva per manager",
+                "L'ego è il nemico"
+            ]
+        }
+    },
+    {
+        "profile_id": "executor_veraenderungsangst",
+        "base_type": "L'Executor Pragmatico",
+        "fear_mutation": "Paura del cambiamento",
+        "name": "Il fattore ostinato",
+        "headline": "Difendi i tuoi vecchi metodi con le unghie e con i denti, perché hai paura di essere di nuovo un principiante nel nuovo.",
+        "corporate_view": "Sei la roccia nella tempesta. Possiedi una conoscenza esperienziale profonda e inestimabile dei processi operativi e sei uno dei pochi che sa ancora con precisione come e perché il core business funzioni in modo profittevole da anni. Quando il sistema vacilla, sei l’ancora affidabile.",
+        "shadow_conflict": "Sei il maestro indiscusso dei tuoi strumenti attuali, delle liste Excel e dei processi. Nessuno ti fa fesso, fai le cose a occhi chiusi e più velocemente di chiunque altro. Ma appena vengono tirati in ballo nuovi metodi — come l’intelligenza artificiale, i framework agili o nuovi software cloud — alzi subito un muro. Nei meeting liquidi tutto come 'cazzate alla moda' che 'nella pratica da noi non funzioneranno mai'. La verità amara dietro questa arroganza: hai semplicemente una paura tremenda di perdere da un giorno all’altro il tuo status di esperto conquistato con fatica e di dover ricominciare da zero, come un idiota principiante, davanti ai colleghi più giovani.",
+        "action_steps": [
+            "Controllo della realtà: accetta la dura realtà del mercato: chi vive ostinatamente nel passato non verrà più pagato nel futuro prossimo. La tua conoscenza rigida dei processi di oggi si svaluta a una velocità impressionante.",
+            "Il laboratorio segreto: da subito ritagliati ogni settimana due ore fisse in calendario per imparare in modo mirato un nuovo strumento dirompente del tuo settore. Fallo pure di nascosto, se serve, finché non ti senti abbastanza sicuro da mostrarlo al team.",
+            "Usa il reverse mentoring: smetti di svalutare con arroganza il modo di lavorare dei colleghi più giovani. Trasformali invece nei tuoi mentori per le nuove tecnologie e per l’IA. In cambio, tu insegni loro il tuo inestimabile know-how strategico di settore."
+        ],
+        "monetization_hook": {
+            "topic": "Competenze del futuro e IA nel management",
+            "keywords": [
+                "IA per manager",
+                "Change Management",
+                "Reverse Mentoring",
+                "Metodi agili"
+            ]
+        }
+    },
+    {
+        "profile_id": "optimierer_existenzangst",
+        "base_type": "L'Ottimizzatore Strutturale",
+        "fear_mutation": "Paura esistenziale",
+        "name": "Il prigioniero invisibile",
+        "headline": "Fai il lavoro di tre persone, vieni pagato come una, e hai troppa paura per cambiare qualcosa.",
+        "corporate_view": "Sei un dipendente estremamente leale e assolutamente senza errori. Costituisci il fondamento invisibile ma solidissimo del reparto. Sei quello a cui si possono scaricare addosso tutti i compiti ingrati e minuti di retrovia, perché il management sa benissimo che li porterai a termine senza lamentarti, in tempo e alla perfezione.",
+        "shadow_conflict": "Sei intrappolato nella ruota del criceto perfetta. Sai razionalmente benissimo di essere pagato troppo poco e che il sistema sfrutta senza vergogna la tua bontà. Ma te lo ingoi e stai zitto. La tua paura dell’insicurezza finanziaria, dello stress di cambiare lavoro o del 'rischio' del periodo di prova in una nuova azienda è così enorme che preferisci sopportare la miseria nota e familiare. La tua strategia segreta di sopravvivenza: speri con tutto il cuore che il tuo capo, prima o poi, si accorga 'da solo' di quanto sei incredibilmente prezioso e ti offra spontaneamente un aumento. Spoiler: non succederà mai.",
+        "action_steps": [
+            "Smetti di aspettare il 'premiatore': nel business non viene pagata in modo equo la performance, ma solo il valore di mercato negoziato. Nessuno ti regala soldi per il lavoro silenzioso e diligente. Devi rivendicare il tuo valore in modo attivo, quasi commerciale.",
+            "Tieni un diario delle prestazioni: documenta da subito, per almeno una settimana, ogni singolo compito che va oltre il tuo contratto reale. Traduci mentalmente questi compiti in costi risparmiati o crisi evitate per l’azienda. Questa è la tua leva negoziale.",
+            "Il no strategico: allenati a dire 'no' in un contesto sicuro. Quando arriva il prossimo compito improvviso del tipo 'puoi fare una cosa al volo?', rispondi: 'Volentieri, ma allora oggi il progetto X deve per forza restare fermo. La priorità è tua.'"
+        ],
+        "monetization_hook": {
+            "topic": "Negoziazione salariale per introversi",
+            "keywords": [
+                "Negoziare lo stipendio da introverso",
+                "Imparare a dire no",
+                "Mettere confini nel lavoro",
+                "Determinare il valore di mercato"
+            ]
+        }
+    },
+    {
+        "profile_id": "optimierer_versagensangst",
+        "base_type": "L'Ottimizzatore Strutturale",
+        "fear_mutation": "Paura del fallimento",
+        "name": "Il perfezionista paralizzato",
+        "headline": "Riformatti le celle di Excel alle 22:00 perché hai il terrore che un piccolo errore ti faccia perdere il lavoro.",
+        "corporate_view": "Sei il maestro indiscusso del controllo qualità. Riconosci rischi operativi, buchi logici e problemi di compliance molto prima che possano causare danni nel mondo reale. Quando consegni qualcosa, tutti nel team sanno: questo è lo standard assoluto d’oro.",
+        "shadow_conflict": "Quello che da fuori sembra ambizione esemplare e grande impegno, in realtà è un enorme scudo psicologico. Il tuo perfezionismo è diventato patologico. Hai una paura panica, quasi fisica, che qualcuno possa dimostrarti un errore e smascherarti davanti a tutti come incompetente. Per questo costruisci protocolli senza buchi e iperbolici, ti copri tre volte nelle email in CC e ricontrolli di nascosto il lavoro dei colleghi invece di andare a casa. Questo comportamento ti ruba una quantità assurda di energia vitale. Bruci dentro per la sola, continua paura della critica.",
+        "action_steps": [
+            "Principio di Pareto brutale (80/20): applicalo senza pietà. La perfezione oltre la soglia dell’80% ti costa in modo esponenziale più tempo e nervi, ma la realtà dura è questa: nessuno, tranne te, vede quella differenza marginale. Al business non importa.",
+            "Allenamento alla tolleranza dell’errore: invia di proposito a un collega una bozza interna e poco importante con un piccolo errore di formattazione o di battitura. Osserva cosa succede. Devi vedere che la tua reputazione non viene distrutta.",
+            "Pragmatismo contro over-engineering: smetti di voler diventare intoccabile attraverso una complessità artificiale e gonfiata. Un problema risolto in modo rapido e pragmatico ha per un’azienda un valore molto più alto di un problema documentato al 100% ma bloccato."
+        ],
+        "monetization_hook": {
+            "topic": "Lasciare andare il perfezionismo e gestione del tempo",
+            "keywords": [
+                "Principio di Pareto",
+                "Superare la sindrome dell'impostore",
+                "Bloccare l'overthinking",
+                "Paura della critica"
+            ]
+        }
+    },
+    {
+        "profile_id": "optimierer_statusverlust",
+        "base_type": "Der Strukturelle Optimierer",
+        "fear_mutation": "Statusverlust",
+        "name": "L'esperto amareggiato",
+        "headline": "Odi i palloni gonfiati rumorosi che vengono promossi di continuo, ma per orgoglio ti rifiuti di metterti tu stesso sotto i riflettori.",
+        "corporate_view": "Nel team vieni visto come la fonte silenziosa e profonda di conoscenza dell'azienda. Sei l'esperto assoluto, quello che nessuno può aggirare quando un tema diventa davvero complesso, critico o tecnicamente impegnativo. Sei l'archivio umano affidabile della ditta.",
+        "shadow_conflict": "Sei diventato incredibilmente frustrato e cinico. Ogni giorno guardi persone che non possiedono nemmeno una frazione delle tue competenze incassare titoli di lavoro e stipendi pesanti, solo perché sanno parlare meglio e conoscono le persone giuste. Disprezzi profondamente questi 'palloni gonfiati'. Ma il tuo ego ti si mette pesantemente di traverso: consideri l'autopromozione attiva 'non professionale', 'cheap' o 'viscida'. Ti racconti: 'Il vero buon lavoro deve parlare da solo.' Nella realtà però non funziona così. Il tuo orgoglioso rifiuto di partecipare almeno in parte al gioco politico dell'azienda ti rende invisibile e ti fa restare fermo sul posto.",
+        "action_steps": [
+            "Accetta le regole del gioco: smettila di essere ingenuo. Nella carriera vale questo: la percezione è realtà. Costruire visibilità non è un 'trucco sporco', ma una parte del tutto legittima e necessaria del tuo lavoro.",
+            "La regola dei 5 minuti: impegnati a prendere la parola in ogni singola riunione entro i primi 5 minuti — anche solo con una domanda di comprensione forte e intelligente. Questo stabilisce la tua presenza acustica e fisica nella stanza.",
+            "Rivendica i risultati: quando hai risolto un problema enorme dietro le quinte, non chiudere semplicemente il ticket in silenzio. Invia una mail proattiva agli stakeholder rilevanti, in cui comunichi in modo sottile ma chiarissimo che SEI TU ad aver evitato quel disastro."
+        ],
+        "monetization_hook": {
+            "topic": "Self-PR e visibilità per chi lavora in silenzio",
+            "keywords": [
+                "Visibilità per introversi",
+                "Personal branding sul lavoro",
+                "Capire la politica d'ufficio",
+                "Le persone tranquille, grande impatto"
+            ]
+        }
+    },
+    {
+        "profile_id": "optimierer_veraenderungsangst",
+        "base_type": "Der Strukturelle Optimierer",
+        "fear_mutation": "Veränderungsangst",
+        "name": "Il burocrate rigido",
+        "headline": "Difendi regole completamente superate come una fortezza, perché il caos del nuovo mondo del lavoro ti travolge in modo assurdo.",
+        "corporate_view": "Nel reparto sei il garante dell'ordine. Una roccia nella tempesta, che si assicura con precisione maniacale che, tra tutte le trasformazioni agili alla moda e le idee selvagge del management, il vero core business non crolli. Garantisci la stabilità e la compliance necessarie.",
+        "shadow_conflict": "Appena in riunione senti le parole 'agilità', 'ristrutturazione' o 'introduzione di un nuovo software', ti si stringe letteralmente la gola. Ami e hai bisogno di prevedibilità assoluta. In molti anni ti sei costruito un nido perfetto e sicuro fatto di macro Excel complesse, strutture di cartelle personali e procedure fisse. Qui sei il maestro indiscusso. Se ora tutto cambia radicalmente, perdi il controllo totale e il tuo status di 'esperto che sa'. Proprio per questo blocchi molto spesso le novità necessarie — di solito mascherandole abilmente dietro l'impenetrabile scudo di 'preoccupazioni di compliance' o 'garanzia della qualità'. In realtà hai solo una paura nuda e cruda di diventare inutile nel nuovo sistema dinamico.",
+        "action_steps": [
+            "Da bloccatore ad architetto: smettila di opporre resistenza come un masso contro la corrente. Non puoi fermare la digitalizzazione. Ma con il tuo talento per la struttura puoi essere quello che organizza il passaggio in modo sicuro e senza errori.",
+            "Il ruolo del traduttore: nominati proattivamente 'traduttore' tra il vecchio e il nuovo sistema. La tua enorme conoscenza degli errori storici e delle trappole nascoste vale oro quando si introduce un nuovo software o un nuovo processo. Usa questo sapere in modo offensivo.",
+            "Imparare a reggere il caos: una volta alla settimana esci consapevolmente dalla tua zona di comfort strutturale. Fai un compito in un modo completamente nuovo, soggettivamente 'inefficiente', per dimostrare al tuo cervello che il disordine temporaneo non ti uccide e spesso apre nuove strade."
+        ],
+        "monetization_hook": {
+            "topic": "Resilienza e change management per esperti",
+            "keywords": [
+                "Change management",
+                "Gestire il cambiamento",
+                "Lavoro agile per principianti",
+                "Flessibilità psicologica"
+            ]
+        }
+    },
+    {
+        "profile_id": "katalysator_existenzangst",
+        "base_type": "Der Integrations-Katalysator",
+        "fear_mutation": "Existenzangst",
+        "name": "L'aiutante intrappolato",
+        "headline": "Ti sacrifichi per la 'famiglia aziendale' perché hai il panico di perdere il tuo porto sicuro.",
+        "corporate_view": "Sei la colla assoluta del team. Sei la persona che intercetta tensioni e conflitti nel corridoio prima che esplodano. Ti prendi senza discutere i compiti sgraditi dei colleghi sovraccarichi e, quasi senza accorgertene, fai in modo che nel team restino bassi turnover e assenze per malattia.",
+        "shadow_conflict": "Ti racconti da solo e chiami i colleghi 'famiglia'. Ma in fondo lo sai benissimo: è un rapporto di business duro e puro. Ti ingoi frustrazione, mancanza di riconoscimento e innumerevoli straordinari non pagati, perché la tua paura esistenziale ti paralizza del tutto. La tua apparente disponibilità senza limiti è in realtà il tuo meccanismo di difesa più forte: ti rendi emotivamente e operativamente la buona anima onnipresente, sperando che al prossimo giro di licenziamenti o ristrutturazione, per pura pietà, tu non finisca mai sulla lista dei tagli. Ti compri la sicurezza finanziaria con la tua salute mentale — un affare orribile.",
+        "action_steps": [
+            "Attiva il mindset da business: riconosci la realtà gelida: se i numeri sono rossi, l'azienda ti licenzia comunque — non importa quanti dolci hai preparato. La vera sicurezza sostenibile sta solo nel tuo valore di mercato professionale, non nel tuo sacrificio.",
+            "Disintossicazione dall'over-engagement: interrompi subito il coinvolgimento emotivo eccessivo. Da oggi non fare più in modo coerente compiti che non rientrano esattamente nella tua job description, solo per voler 'piacere' agli altri.",
+            "Investi in te stesso: prendi l'energia enorme che ogni giorno spendi per sistemare i problemi degli altri e investila in modo rigoroso nel tuo curriculum. Renditi indispensabile sul piano professionale, invece di essere solo comodo sul piano umano."
+        ],
+        "monetization_hook": {
+            "topic": "Confini professionali e resilienza",
+            "keywords": [
+                "Mettere confini sul lavoro",
+                "Smettere di compiacere gli altri",
+                "Indipendenza finanziaria",
+                "Loyalty tossica"
+            ]
+        }
+    },
+    {
+        "profile_id": "katalysator_versagensangst",
+        "base_type": "Der Integrations-Katalysator",
+        "fear_mutation": "Versagensangst",
+        "name": "Il salvatore che compensa troppo",
+        "headline": "Dici sì a ogni compito extra perché hai il panico di essere smascherato come impostore.",
+        "corporate_view": "In azienda vieni considerato il più affidabile spegnitore di incendi e il team player definitivo. Sei quello che il venerdì pomeriggio tira fuori le castagne dal fuoco. La frase 'In realtà non è il mio lavoro' sembra essere stata cancellata del tutto dal tuo vocabolario.",
+        "shadow_conflict": "La tua glorificata sindrome dell'aiutante è in realtà una grossa maschera per la tua forte sindrome dell'impostore. Siccome nel tuo ruolo reale spesso ti senti insicuro o non 'abbastanza bravo', compensi questa sensazione con una disponibilità totale, senza limiti di tempo. Ti prendi addosso i lavori di merda e persino gli errori degli altri senza commentare. La tua logica inconscia è: 'Se sono sempre gentile, disponibile ed estremamente utile, spero che nessuno noti che in realtà non sono così competente.' Risultato: anneghi nel lavoro altrui e vai in burnout, perché un singolo, chiaro 'no' ti sembra una pericolosa ammissione della tua debolezza.",
+        "action_steps": [
+            "Allena il 'no' tattico: impara che un no non è un attacco. La frase 'Posso aiutarti volentieri, ma il mio calendario lo permette solo da giovedì prossimo' è un confine altamente professionale e rispettato — non un rifiuto personale.",
+            "Separazione tra simpatia e performance: l'azienda non ti paga per essere 'amato', ma per risultati concreti. Se i colleghi restano delusi a breve termine perché non fai il loro lavoro, è un loro problema, non tuo.",
+            "Restituisci la responsabilità: lascia i problemi degli altri adulti dove devono stare. Se un collega fallisce nel suo compito, non è assolutamente compito tuo salvarlo di nascosto la sera dal capo."
+        ],
+        "monetization_hook": {
+            "topic": "Sindrome dell'impostore e gestione del tempo",
+            "keywords": [
+                "Imparare a dire no",
+                "Superare la sindrome dell'impostore",
+                "Sindrome dell'aiutante sul lavoro",
+                "Costruire autostima"
+            ]
+        }
+    },
+    {
+        "profile_id": "katalysator_statusverlust",
+        "base_type": "Der Integrations-Katalysator",
+        "fear_mutation": "Statusverlust",
+        "name": "Il martire offeso",
+        "headline": "Fai la brava anima dell'ufficio, ma dentro sei profondamente amareggiato perché nessuno ti applaude per questo.",
+        "corporate_view": "Sei il centro emotivo indiscusso del reparto. Conosci assolutamente tutti i pettegolezzi da corridoio e le dinamiche non dette. Sei la persona che organizza gli eventi di team, si ricorda i compleanni e rimette in piedi i colleghi con un caffè dopo i colpi duri.",
+        "shadow_conflict": "Ricavi quasi tutto il tuo valore professionale dal fatto di essere amato da tutti e di essere urgentemente 'necessario'. Ti spingi quasi in modo aggressivo nel ruolo del martire sofferente: lavori dimostrativamente più a lungo, consoli tutti — e dentro ti viene una rabbia furiosa quando il capo, per la promozione o il bonus, sceglie ancora una volta l'egoista rumoroso e freddo. Confondi in modo fondamentale la 'popolarità' con il vero 'influsso'. La tua fame di status e riconoscimento è in realtà enorme, ma consideri moralmente sbagliato o maleducato rivendicare apertamente, in modo diretto e brutale, quello status per te. Per questo soffri in silenzio.",
+        "action_steps": [
+            "Basta con il 'parenting d'ufficio': termina subito il tuo ruolo di genitore dell'ufficio. Niente più torte, niente più ruolo gratuito da terapeuta nel corridoio. Sei lì per fare business professionale, non per educare o viziare adulti.",
+            "Pretendi potere invece di pietà: se di fatto sei tu la persona che tiene insieme un reparto, allora rivendica ufficialmente il ruolo di team lead e lo stipendio corrispondente. Smettila di farti liquidare con belle parole.",
+            "Ferma la passivo-aggressività: il fatto che gli altri non vedano o ignorino la tua 'silenziosa abnegazione' non è cattiva volontà loro. È solo un tuo problema di comunicazione. Dì chiaramente cosa fai e cosa vuoi in cambio."
+        ],
+        "monetization_hook": {
+            "topic": "Leadership per persone empatiche",
+            "keywords": [
+                "Leadership empatica",
+                "Negoziazione dello stipendio",
+                "Uscire dal ruolo di vittima",
+                "Da amato a rispettato"
+            ]
+        }
+    },
+    {
+        "profile_id": "katalysator_veraenderungsangst",
+        "base_type": "Der Integrations-Katalysator",
+        "fear_mutation": "Veränderungsangst",
+        "name": "L'armonizzatore tossico",
+        "headline": "Tieni insieme un team completamente rotto perché l'idea di un nuovo inizio ti tiene sveglio la notte.",
+        "corporate_view": "In azienda ti vedono come un mediatore assolutamente leale. Resti fedele all'organizzazione anche nelle crisi più dure, nelle ondate di licenziamenti e nelle fasi di caos. Sei il sedativo dell'azienda: calmi subito il team quando l'umore cambia o scatta il panico.",
+        "shadow_conflict": "Sei bloccato in una relazione lavorativa profondamente tossica — e in fondo lo sai anche tu. Soffri ogni giorno per strutture caotiche e malsane, ma ti racconti la situazione in modo massiccio e sistematico: 'Non è poi così grave', oppure 'I colleghi hanno bisogno di me, non posso mica andarmene'. La tua empatia estrema, spesso elogiata, è diventata in realtà la tua scusa più grande e fatale per non premere mai il pulsante delle dimissioni. Un nuovo lavoro significherebbe entrare in un ambiente freddo e sconosciuto, dove non hai ancora il tuo status sociale di 'salvatore' prezioso. Quindi resti sulla nave che affonda, continui a suonare il violino e affondi consapevolmente con essa.",
+        "action_steps": [
+            "Stacca la spina: smettila subito di tenere artificialmente in vita con empatia e straordinari un sistema completamente rotto e disfunzionale. Lascia che il progetto o il reparto crolli. Non è la tua azienda. Non sei il curatore fallimentare.",
+            "Distruggi la tua bugia di vita: i tuoi colleghi sopravvivranno anche senza di te. Tutti sono sostituibili. Non sei responsabile della felicità personale di altri adulti, ma solo della tua.",
+            "Riformula il cambio di lavoro: non vedere un cambio di lavoro come la perdita della tua 'famiglia', ma come una fuga vitale da una setta tossica. Aggiorna il tuo profilo e scrivi oggi stesso le dimissioni."
+        ],
+        "monetization_hook": {
+            "topic": "Lasciare ambienti di lavoro tossici e ripartire",
+            "keywords": [
+                "Ambiente di lavoro tossico",
+                "Paura di dimettersi",
+                "Dipendenza emotiva sul lavoro",
+                "Osare un nuovo inizio"
+            ]
+        }
+    }
+]

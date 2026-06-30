@@ -1,0 +1,2262 @@
+[
+    {
+        "id": "q1_meeting",
+        "category": "conflict_structure",
+        "question": "Et to timer langt 'strategimøde' uden klar dagsorden, hvor tre kolleger kører i ring uden ende. Hvad foregår der i dit hoved?",
+        "answers": [
+            {
+                "text": "Fantastisk. Plads til at tænke højt og kaste idéer op. Endelig ikke bare stiv Excel-liste-afvikling.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "Det gør mig aggressiv. Efter 15 minutter kræver jeg en klar beslutning eller en fordeling af to-dos, ellers går jeg.",
+                "scores": {
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Indeni er det ren stress. Jeg tænker hele tiden på mit egentlige arbejde, som nu bare ligger uafsluttet på skrivebordet.",
+                "scores": {
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Jeg prøver at få de mere stille kolleger ind i diskussionen og glatte den anspændte stemning i rummet ud.",
+                "scores": {
+                    "katalysator": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q2_systemfehler",
+        "category": "conflict_structure",
+        "question": "Et vigtigt projekt går helt i stykker. Fejlen lå i en uklar proces i virksomheden, ikke hos dig – men det lander på dit område. Din første reaktion?",
+        "answers": [
+            {
+                "text": "Jeg analyserer iskoldt flaskehalsen, bygger en løsning og kommunikerer krystalklart opad, hvem eller hvad der fejlede.",
+                "scores": {
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Jeg bruger halvdelen af natten på at dokumentere, uden huller, at jeg fulgte alle retningslinjer til punkt og prikke.",
+                "scores": {
+                    "optimierer": 1,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Jeg har allerede tre nye idéer til, hvordan vi skal gribe næste projekt helt anderledes an. Fortiden er fortid.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "Jeg får dårlig samvittighed, fordi andre afdelinger nu skal leve med kaosset, og jeg tilbyder direkte min hjælp.",
+                "scores": {
+                    "katalysator": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q3_sinnlosaufgabe",
+        "category": "conflict_structure",
+        "question": "Din chef giver dig en opgave, der er fuldstændig repetitiv, ekstremt småt opdelte og efter din mening totalt ineffektiv. Hvordan håndterer du det?",
+        "answers": [
+            {
+                "text": "Jeg kommer i flow. Jeg elsker, når alt til sidst stemmer ned til sidste øre, er struktureret og krydset af.",
+                "scores": {
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Jeg dør lidt indeni. Efter 10 minutter mister jeg fokus, bliver irriteret og begynder at lave noget andet.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "Jeg automatiserer det i smug, delegerer det eller finder en måde at smide det sammen på en tredjedel af tiden, 'godt nok'.",
+                "scores": {
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Jeg gør det modvilligt og grundigt. Hvis jeg ikke gør det, rammer det mine kolleger, og det vil jeg ikke have.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_status": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q4_befoerderungsfalle",
+        "category": "conflict_structure",
+        "question": "En lederstilling over dig bliver ledig. Hvorfor har du ikke jobbet endnu?",
+        "answers": [
+            {
+                "text": "Fordi jeg egentlig slet ikke vil have det konstante pres, politikken og konflikterne deroppe i mit liv.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Fordi jeg sælger mig selv helt elendigt. Jeg laver alt arbejdet i kulissen, men andre høster æren for det.",
+                "scores": {
+                    "optimierer": 1,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Fordi jeg mangler den rigtige 'staldlugt'. Jeg er for besværlig for ledelsen, fordi jeg hele tiden stiller spørgsmål ved gamle strukturer.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "Hvem siger, at jeg ikke har det? Jeg kræver aktivt den slags positioner. Hvis de bremser mig, skifter jeg virksomhed.",
+                "scores": {
+                    "executor": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q5_sonntagabend",
+        "category": "conflict_structure",
+        "question": "Det er søndag kl. 20. Du tænker på den kommende arbejdsuge. Hvad udløser mest sandsynligt en dårlig fornemmelse i dig?",
+        "answers": [
+            {
+                "text": "Frygten for, at jeg igen ikke når mine egentlige, dybe idéer i denne uge, fordi driften æder mig op.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "Tanken om den giftige stemning, de uløste konflikter i teamet og kollegerne, som jeg igen skal motivere.",
+                "scores": {
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "Følelsen af afmagt. Jeg kan tydeligt se, hvad der går galt, men må ikke træffe beslutningerne for at fikse det.",
+                "scores": {
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Bekymringen for, at jeg mister overblikket på grund af mængden af opgaver og laver en alvorlig fejl.",
+                "scores": {
+                    "optimierer": 1,
+                    "fear_versagen": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q6_feedback",
+        "category": "conflict_structure",
+        "question": "Din chef (som fagligt ved mindre end dig) giver dig kritisk, men uberettiget feedback. Din indre reaktion?",
+        "answers": [
+            {
+                "text": "Jeg kobler fra. Hans mening rører mig ikke, så længe han lader mig være i fred og lade mig gøre mine ting.",
+                "scores": {
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Jeg tager det ekstremt tungt i dagevis, tvivler på mine evner og overvejer, hvad jeg har gjort forkert.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Jeg forsvarer mig med det samme med hårde fakta, logs eller dokumenter, der beviser, at hans vurdering er forkert.",
+                "scores": {
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Jeg ruller med øjnene indeni. Han forstår bare ikke det store billede, så jeg gider ikke engang diskutere.",
+                "scores": {
+                    "pionier": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q7_feierabend",
+        "category": "conflict_structure",
+        "question": "Under hvilken betingelse kan du om aftenen lukke din laptop med en virkelig god følelse?",
+        "answers": [
+            {
+                "text": "Når jeg i dag har knækket et komplekst problem eller udviklet en genial, ny idé.",
+                "scores": {
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "Når min to-do-liste er helt tom, og der ikke længere lyser en rød notifikationsprik i mine mails eller værktøjer.",
+                "scores": {
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Når mit team havde en god dag, vi grinede sammen, og jeg kunne hjælpe nogen med et problem.",
+                "scores": {
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "Når vi i dag leverede et konkret resultat, der skaber omsætning, leads eller målbar fremgang.",
+                "scores": {
+                    "executor": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q8_gehalt_vs_risiko",
+        "category": "frust_risiko_angst",
+        "question": "En innovativ startup tilbyder dig dit absolutte drømmejob. Hage: 20% lavere grundløn og en tidsbegrænset etårskontrakt. Din ærlige reaktion?",
+        "answers": [
+            {
+                "text": "Under ingen omstændigheder. Jeg har faste udgifter, husleje og forpligtelser. Risikoen ødelægger min søvn.",
+                "scores": {
+                    "fear_existenz": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Jeg gør det med det samme. Jeg har brug for suset ved at bygge noget nyt op, sikkerhed keder mig alligevel.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Jeg bekymrer mig mere om, at en mislykket startup bagefter står som et grimt mærke på mit CV.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Jeg ville gerne, men jeg kan ikke få mig selv til at svigte mit nuværende team lige nu.",
+                "scores": {
+                    "fear_veraenderung": 1,
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q9_unterbezahlt",
+        "category": "frust_risiko_angst",
+        "question": "Du ved helt præcist, at du ligger cirka 15% under branchens lønniveau. Hvorfor har du bare accepteret det indtil nu?",
+        "answers": [
+            {
+                "text": "Jeg er bange for, at det slår tilbage, og at jeg til sidst står på fyringslisten.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Hvis de betaler mig mere, stiger forventningerne til mig også voldsomt. Hvad hvis jeg så ikke kan levere?",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Min nuværende jobtitel lyder fantastisk. Den er næsten vigtigere for mig end pengene, den ser ekstremt godt ud på LinkedIn.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Tanken om lønforhandlinger eller jobsamtaler er bare for udmattende. Jeg har indrettet mig efter det.",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q10_umstrukturierung",
+        "category": "frust_risiko_angst",
+        "question": "Der bliver meldt en pludselig fusion ud. Din afdeling bliver totalt omstruktureret. Hvad er din allerførste tanke?",
+        "answers": [
+            {
+                "text": "'Mister jeg mit job? Hvor længe rækker mine opsparinger?'",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "'For helvede, ender jeg nu længere nede i hierarkiet under en helt inkompetent, ny chef?'",
+                "scores": {
+                    "fear_status": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "'Åh nej, alle mine perfekte rutiner og hårdt opbyggede processer er nu fuldstændig spildt.'",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "'De nye chefer vil straks gennemskue, at jeg egentlig ikke er så god, som alle her troede.'",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q11_golden_handcuffs",
+        "category": "frust_risiko_angst",
+        "question": "Du får hvert år en fed bonus og tjener rigtig gode penge, men du hader dit job dybt og inderligt. Hvorfor er du der stadig?",
+        "answers": [
+            {
+                "text": "Det gyldne bur: Levestandarden er for lækker. Jeg kan ikke gå tilbage til en normal lønramme.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Prestigen: Når jeg fortæller, hvor jeg arbejder, bliver folk imponerede. Egoet har brug for det.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Selvtvivlen: Jeg tror inderst inde, at jeg bare var heldig her. Ingen andre ville betale mig så meget.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Trægheden: Jeg brokker mig godt nok hver dag, men om aftenen har jeg nul energi til rent faktisk at søge nyt job.",
+                "scores": {
+                    "fear_veraenderung": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q12_linkedin_flex",
+        "category": "frust_risiko_angst",
+        "question": "Emne: selvpromovering og professionel synlighed (f.eks. på LinkedIn, i store møder). Hvordan opfører du dig?",
+        "answers": [
+            {
+                "text": "Hvem er jeg lige til at fejre mig selv? Der er tusind mennesker, der er langt bedre fagligt end mig.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Jeg har ikke brug for digital applaus. Min lønseddel og mine resultater er validation nok.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Jeg ville egentlig gerne poste noget, men så skulle det være helt perfekt og fejlfrit. Så lader jeg bare være.",
+                "scores": {
+                    "fear_versagen": 1,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Synlighed er magt. Jeg deler succeser aktivt, fordi det sikrer min markedsværdi og holder konkurrenter på afstand.",
+                "scores": {
+                    "fear_status": 2,
+                    "pionier": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q13_befoerderung_abgelehnt",
+        "category": "frust_risiko_angst",
+        "question": "Forestil dig, at du afslår en helt oplagt forfremmelse. Hvad ville være den ærligste grund?",
+        "answers": [
+            {
+                "text": "Der var ingen firmabil og ingen rigtig 'C-level'-titel. For bare lidt mere penge sælger jeg mig ikke billigt.",
+                "scores": {
+                    "fear_status": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Den rene panik ved at få personaleansvar, træffe forkerte beslutninger og fejle som leder.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Jeg skulle opgive mit vante skrivebord, mit trygge team og mine elskede rutiner.",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "Kompensationen var for lav. Den lille lønforhøjelse opvejer ikke tabet af min opsigelsesfrist og sikkerhed.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q14_lob_vom_ceo",
+        "category": "frust_risiko_angst",
+        "question": "Du bliver i en stor forsamling personligt rost af CEO'en for en kæmpe succes. Hvad sker der i dig?",
+        "answers": [
+            {
+                "text": "Jeg smiler, men indeni sveder jeg: Næste gang forventer de det samme af mig igen, og så bliver jeg afsløret.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Jeg afleder straks og deler rosen med hele teamet, så ingen på kontoret tror, jeg er arrogant.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Jeg nyder det. Jeg sørger for, at alle i rummet forstår, at denne succes primært er min fortjeneste.",
+                "scores": {
+                    "executor": 1,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Jeg bruger opmærksomheden iskoldt til at pitche mit næste, meget større budget eller en vanvittig idé.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q15_ki_bedrohung",
+        "category": "frust_risiko_angst",
+        "question": "Kunstig intelligens automatiserer lige nu store dele af din branche. Hvordan reagerer du?",
+        "answers": [
+            {
+                "text": "Panik. Jeg tjekker mine opsparinger og googler omskoling til 'sikre', håndværksmæssige fag.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Jeg er stresset, fordi jeg ikke er helt ung længere. Jeg tvivler på, at min hjerne stadig kan lære alle de nye værktøjer.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Jeg udnævner straks mig selv til uofficiel 'AI-ansvarlig' for at forblive relevant og beskytte min status.",
+                "scores": {
+                    "fear_status": 2,
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "Jeg ignorerer det stort set. Det er ikke så slemt, som det bliver gjort til. Mine processer kører jo stadig.",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q16_das_toxische_umfeld",
+        "category": "frust_risiko_angst",
+        "question": "Din virksomhedskultur er ekstremt токсisk og slider dig ned, men din kontrakt er tidsubegrænset. Hvad gør du?",
+        "answers": [
+            {
+                "text": "Jeg bliver. En tidsubegrænset kontrakt er rent guld i dagens økonomi. Jeg slukker bare mine følelser.",
+                "scores": {
+                    "fear_existenz": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Jeg bliver. Hvis jeg smider håndklædet i ringen nu, ser det i CV'et ud, som om jeg ikke var robust nok.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Jeg planlægger i hemmelighed min exit, men jeg venter på det 'helt perfekte tidspunkt'. (Som aldrig rigtig kommer).",
+                "scores": {
+                    "fear_veraenderung": 2
+                }
+            },
+            {
+                "text": "Jeg konfronterer ledelsen hårdt med problemerne. Hvis de fyrer mig for det – så meget desto bedre.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q17_wochenend_projekt",
+        "category": "frust_risiko_angst",
+        "question": "Du bliver fredag eftermiddag bedt om med kort varsel at lede et højt profileret og synligt weekendprojekt.",
+        "answers": [
+            {
+                "text": "Jeg siger ja. Hvis jeg afslår, tror cheferne, at jeg ikke længere er en 'high performer', og så giver de projektet til en anden.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Jeg siger ja af ren skyldfølelse, så mine kolleger ikke behøver at arbejde i weekenden.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Jeg siger ja, men bruger 80% af weekenden på panik over, at det her synlige projekt går galt.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Jeg afslår iskoldt. Min fritid er min, medmindre I fordobler min timeløn for weekenden.",
+                "scores": {
+                    "executor": 2,
+                    "pionier": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q18_der_inkompetente_kollege",
+        "category": "team_leadership",
+        "question": "En kollega i dit team leverer kronisk dårligt arbejde. Det påvirker også dine projekter. Hvad gør du?",
+        "answers": [
+            {
+                "text": "Jeg laver hans arbejde om i hemmelighed eller retter det om natten. Hovedsagen er, at slutproduktet er fejlfrit.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Jeg tager en snak med ham og tilbyder at hjælpe med hans opgaver, så han ikke bliver afsløret.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Jeg isolerer mine arbejdsstrømme fuldstændigt fra hans og bygger systemer, hvor jeg ikke længere er afhængig af ham.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Jeg tager ham op i mødet eller eskalerer det direkte til chefen. Jeg slæber ikke dødvægte med mig.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q19_micromanagement",
+        "category": "team_leadership",
+        "question": "Din nye chef er en ekstrem micromanager. Han vil læse hvert eneste e-mailudkast, før du sender det. Hvad er din strategi?",
+        "answers": [
+            {
+                "text": "Jeg tilpasser mig og laver tjeklister til ham. Hvis han har brug for kontrol, giver jeg ham fuld dokumentation.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Jeg gør åbent oprør. Jeg ignorerer hans krav, leverer mine resultater og lader ham rase.",
+                "scores": {
+                    "pionier": 1,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Jeg bliver voldsomt usikker og tjekker nu hver e-mail tre gange af frygt for at lave en fejl.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Jeg prøver gennem mange personlige samtaler at finde ud af, hvorfor han har så lidt tillid, og beroliger ham.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q20_ideenklau",
+        "category": "team_leadership",
+        "question": "Du nævner en genial idé i kaffekøkkenet. I det store møde sælger en kollega pludselig den idé som sin egen. Hvordan reagerer du?",
+        "answers": [
+            {
+                "text": "Jeg koger af raseri, men siger intet i mødet for ikke at virke uprofessionel, smålig eller 'lille'.",
+                "scores": {
+                    "fear_status": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Jeg afbryder ham venligt, men iskoldt: 'Præcis, som jeg forklarede dig før i køkkenet... Her er de næste skridt.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Lad ham da bare. Jeg har alligevel allerede tre nye, meget bedre idéer i hovedet. Han går alligevel snart i stå.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Jeg tager en snak med ham bagefter i fortrolighed og siger, at det menneskeligt skuffede mig ekstremt.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q21_teambuilding_horror",
+        "category": "team_leadership",
+        "question": "HR pålægger en obligatorisk 'teambuilding-workshop' med stolerundkreds og følelseskort. Hvad tænker du?",
+        "answers": [
+            {
+                "text": "Super! Endelig en chance for at få de uudtalte spændinger i teamet løst med en moderator.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Hvilket tidsspilde. Jeg regner mentalt ud, hvor meget omsætning virksomheden brænder af, mens vi sidder her.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Jeg er pænt med, men siger kun ligegyldige, sikre ting for for alt i verden ikke at skille mig negativt ud.",
+                "scores": {
+                    "fear_status": 1,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Jeg bruger den ustrukturerede tid på mentalt at koble helt fra og nørkle med mine egne projekter.",
+                "scores": {
+                    "pionier": 2,
+                    "optimierer": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q22_der_antwort_allen_fail",
+        "category": "team_leadership",
+        "question": "En mailtråd løber løbsk ('svar alle'). Tonen bliver hårdere, og CC-listen vokser. Din rolle?",
+        "answers": [
+            {
+                "text": "Jeg går ind som mægler, skifter til telefonen og prøver at glatte bølgerne ud offline.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Jeg stopper dramaet med en benhård, ekstremt faktabaseret mail i punktform. Diskussion slut.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Jeg vedhæfter tre PDF'er og et referat, der uden tvivl beviser, at min afdeling ikke har skylden.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Jeg arkiverede mailkæden efter den anden mail og arbejder for længst på noget andet.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q23_unbezahlte_ueberstunden",
+        "category": "team_leadership",
+        "question": "Din chef forventer indirekte (men ikke kontraktligt), at du tjekker mails i weekenden. Hvorfor gør du det alligevel?",
+        "answers": [
+            {
+                "text": "Fordi jeg går i panik over, at der mandag morgen venter et kæmpe kaos, som jeg så ikke længere kan kontrollere.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Fordi fyringsbølgen ruller, og jeg skal sikre, at jeg bliver opfattet som uundværlig.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Fordi jeg vil have, at chefen ser, hvor ekstremt committed jeg er. Det sikrer min position i alpha-ranglisten.",
+                "scores": {
+                    "fear_status": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Fordi hvis jeg ikke gør det, hænger arbejdet på min stakkels kollega. Og han er allerede presset til det yderste.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q24_onboarding",
+        "category": "team_leadership",
+        "question": "Du skal oplære en ny medarbejder. Hvad er din tilgang?",
+        "answers": [
+            {
+                "text": "Jeg giver ham et 50-siders wiki, jeg selv har skrevet, og forventer, at han følger processerne.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Jeg inviterer ham først på kaffe, præsenterer ham for alle og sørger for, at han føler sig følelsesmæssigt tryg.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Jeg forklarer ham den store vision, giver ham et komplekst problem og ser, om han kan svømme.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Jeg giver ham direkte en hård, målbar opgave. Hvis han fucker den op, ved jeg, hvor jeg har ham.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q25_fuehrungsstil",
+        "category": "team_leadership",
+        "question": "Hvis du er helt ærlig: Hvad ville være din største svaghed, hvis du skulle lede et team?",
+        "answers": [
+            {
+                "text": "Jeg ville undvige at give hård, negativ feedback, fordi jeg hader konflikter.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Jeg ville micromanage for meget, fordi jeg simpelthen ikke stoler på, at andre kan gøre det lige så perfekt som mig.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Jeg ville sandsynligvis være for utålmodig, hård og fyre folk for hurtigt, hvis de spilder min tid.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Jeg ville synke ned i kaos, glemme administrative ting og overvælde folk med mine konstante nye retningsskift.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q26_flurfunk",
+        "category": "team_leadership",
+        "question": "På gangen bliver der ekstremt giftigt sladret om en kollega, som ikke er i rummet. Din holdning?",
+        "answers": [
+            {
+                "text": "Jeg trækker mig uden kommentar fra situationen. Sladder er uprofessionelt og ineffektivt.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Jeg åbner munden, siger hårdt min mening og stopper sladderen med det samme.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Jeg bliver bare stående, griner måske med af høflighed, men har det elendigt indeni.",
+                "scores": {
+                    "fear_status": 1,
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "Jeg opsøger den berørte kollega senere i al hemmelighed og prøver at samle ham op følelsesmæssigt.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q27_delegation",
+        "category": "team_leadership",
+        "question": "Din chef dumper et massivt 'no-win-projekt' (høj risiko, lavt budget) direkte over på dig. Hvorfor tager du det?",
+        "answers": [
+            {
+                "text": "Jeg tør simpelthen ikke sige 'nej' til min chef ansigt til ansigt.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "Jeg bruger det som magtgreb. Hvis jeg redder det her, er æren min, og så kræver jeg mere i løn.",
+                "scores": {
+                    "executor": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Fordi jeg er den eneste i teamet, der kan få styr på kaosset strukturelt.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Jeg ignorerer bare de absurde krav og bruger projektet som sandkasse til en helt ny metode.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q28_brainstorming",
+        "category": "team_leadership",
+        "question": "Brainstorming-session: Nogen smider en helt urealistisk, absurd idé på bordet. Din reaktion?",
+        "answers": [
+            {
+                "text": "Jeg skyder den ned med det samme: 'Vi har ikke budget til det. Det tager for lang tid. Næste forslag.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Jeg går all in og gør idéen endnu mere vanvittig. Nogle gange opstår innovation af galskab.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Jeg peger på, hvilke compliance- og procesproblemer den idé straks ville skabe.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Jeg tier hellere. Selv hvis jeg synes, idéen er god, vil jeg ikke ydmyge mig foran gruppen.",
+                "scores": {
+                    "fear_status": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q29_das_meeting_danach",
+        "category": "team_leadership",
+        "question": "Efter et hårdt møde med heftige debatter går du tilbage til din plads. Hvad gør du som det første?",
+        "answers": [
+            {
+                "text": "Jeg skriver straks et referat med alle beslutninger og sender det ud, så ingen kan løbe fra det bagefter.",
+                "scores": {
+                    "optimierer": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Jeg grubler i timevis over, om jeg formulerede mig for hårdt i minut 14, og om kollega X nu hader mig.",
+                "scores": {
+                    "fear_versagen": 1,
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Jeg sætter mig direkte til at eksekvere to-dos. Snak er slut, nu skal der leveres.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Jeg forkaster alt, der blev sagt i mødet, og finder selv på en mere elegant løsning.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q30_der_grenzueberschreitende_kunde",
+        "category": "operations_clients",
+        "question": "En kunde (eller klient/patient) bliver ekstremt krævende, ignorerer aftaler og bliver højlydt. Din første reaktion?",
+        "answers": [
+            {
+                "text": "Jeg tager hans følelser af, forbliver ekstremt rolig og prøver at berolige ham menneskeligt, også selv om han tager fejl.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Jeg gør ham iskoldt og knivskarpt opmærksom på vores kontraktlige grænser. Hvis han ikke opfører sig ordentligt, ryger han ud.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Jeg dokumenterer straks hændelsen helt præcist i systemet, så ingen senere kan beskylde mig for at have handlet forkert.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Jeg ignorerer standardprocesserne og leder efter et kreativt, ukonventionelt smuthul til hurtigt at afvise ham.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q31_die_leere_schreibtisch_panik",
+        "category": "operations_clients",
+        "question": "Det er fredag eftermiddag, telefonen ringer ikke, og du har fået alle opgaverne fra hånden. Hvad føler du?",
+        "answers": [
+            {
+                "text": "En diffus uro. Hvis jeg ikke leverer konstant, opdager firmaet måske, at de slet ikke har brug for mig.",
+                "scores": {
+                    "fear_existenz": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Dejligt! Jeg bruger tiden på endelig at perfektionere mine mappestrukturer og skabeloner til næste uge.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Jeg går i gang med at designe et helt nyt, uafstemt projekt eller system, bare fordi jeg keder mig.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Jeg går rundt på kontoret (eller i chatten) og spørger mine kolleger, om jeg kan hjælpe dem med deres opgaver.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q32_der_falsche_prozess",
+        "category": "operations_clients",
+        "question": "Du skal løse en opgave, men virksomhedens officielle proces for det er håbløst forældet og tager tre gange så lang tid. Hvad gør du?",
+        "answers": [
+            {
+                "text": "Jeg følger processen til punkt og prikke. Regler er regler, og hvis noget går galt, er jeg i det mindste dækket ind.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Jeg bryder reglen, gør det på min hurtige måde og siger det ikke til nogen. Bare resultatet er rigtigt.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Jeg skriver et 10-siders koncept om, hvordan processen kunne revolutioneres (som alligevel ender i ingenting).",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Jeg tør ikke afvige fra processen, fordi jeg er bange for balladen med compliance/chefen.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "fear_status": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q33_freitag_kurz_vor_feierabend",
+        "category": "operations_clients",
+        "question": "16:55. En 'absolut nødmails' fra chefen tikker ind. Det er ikke en reel nødsituation, bare dårlig timing. Hvad gør du?",
+        "answers": [
+            {
+                "text": "Jeg gør det, mens jeg koger indeni. Hvis jeg siger nej, mister jeg min status som den 'mest pålidelige medarbejder'.",
+                "scores": {
+                    "fear_status": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Laptop lukket. Weekenden starter nu. Dårlig planlægning på hans side er ikke en nødsituation på min side.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Jeg kaster mig over det. Endelig lidt kaos og adrenalin i stedet for de kedelige rutineopgaver fra i morges.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Jeg gør det med det samme. Frygten for at blive degraderet foran alle på mandag er for stor.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q34_neue_software_ausgerollt",
+        "category": "operations_clients",
+        "question": "Ledelsen ruller ny, dyr software ud, som angiveligt skal 'gøre alt bedre'. Din første tanke?",
+        "answers": [
+            {
+                "text": "Åh gud. Alle mine selvbyggede Excel-lister og rutiner er nu værdiløse. Jeg hader det.",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Jeg prøver med det samme at se, hvordan jeg kan hacke systemet, misbruge det eller bruge det til helt andre ting.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Softwaren er for langsom. Jeg nægter at bruge den, indtil den ikke længere bremser mit workflow.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Jeg melder mig frivilligt til at hjælpe de ældre kolleger, som nu er helt overvældede, med omstillingen.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q35_der_oeffentliche_fehler",
+        "category": "operations_clients",
+        "question": "Du har lavet en målbar, dyr fejl. Den bliver afsløret i et stort møde. Din spontane reaktion?",
+        "answers": [
+            {
+                "text": "Total indre choklammelse. Mit impostor-syndrom går i gang med 1000%. Jeg ville ønske, jorden kunne sluge mig.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Jeg sætter kløerne frem og forklarer med tre variabler, hvorfor det under de her omstændigheder var uundgåeligt.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Jeg indrømmer det med det samme og uden nåde. 'Ja, min fejl. Det sker ikke igen. Her er planen for, hvordan vi fikser det.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Jeg erklærer straks fejlen som 'learning' eller 'uplanlagt prototype' og drejer samtalen over på en ny idé.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q36_die_junioren_gefahr",
+        "category": "operations_clients",
+        "question": "En meget motiveret, yngre medarbejder starter i dit team og er ekstremt hurtig. Hvad vækker det dybt inde i dig?",
+        "answers": [
+            {
+                "text": "Den nøgne frygt for, at min løn er for høj, og at de snart erstatter mig med den billigere, mere sultne version.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Jeg synes, det er fedt. Jeg tager ham under mine vinger og prøver at opbygge ham både menneskeligt og fagligt.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Han irriterer mig lidt. Han mangler struktur, laver dumme fejl og bringer vores rene processer i fare.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Konkurrencekamp. Jeg skruer min performance op for krystalklart at vise, hvem der er alfahannen her.",
+                "scores": {
+                    "executor": 2,
+                    "fear_status": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q37_scope_creep",
+        "category": "operations_clients",
+        "question": "Et projekt (eller en opgave) løber helt løbsk. Der kommer hele tiden nye ønsker til, men budgettet/tiden er den samme.",
+        "answers": [
+            {
+                "text": "Jeg sætter et benhårdt stopskilt op. 'Hvis I vil have feature X, så fjerner vi Y, eller også betaler I mere.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Jeg arbejder i hemmelighed 12 timer om dagen for alligevel at opfylde alle ønsker, fordi jeg ikke vil skuffe nogen.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Jeg mister fuldstændig besindelsen, fordi min pæne tidsplan og min struktur nu er endegyldigt ødelagt.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Jeg elsker det. Jo mere kaotisk og stort det bliver, jo mere plads har jeg til at bygge utraditionelle løsninger.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q38_der_visionaere_chef",
+        "category": "operations_clients",
+        "question": "CEO'en holder en flammende, ekstremt visionær tale om virksomhedens fremtid – men uden nogen konkret plan.",
+        "answers": [
+            {
+                "text": "Jeg er ekstremt hypet. Endelig er der nogen her, der tænker stort og sprænger de gamle, kedelige grænser!",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Jeg ruller med øjnene indeni. Endnu flere buzzwords, men det egentlige arbejde ender alligevel hos folk som mig.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Jeg går straks i gang med at bygge et komplekst Excel-ark for at regne ud, hvordan vi overhovedet skal gennemføre den vanvittige idé.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Jeg bekymrer mig seriøst om, hvor meget ekstra pres og overarbejde den her 'vision' igen kommer til at give mit team.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q39_das_externe_angebot",
+        "category": "operations_clients",
+        "question": "En headhunter skriver til dig på LinkedIn og tilbyder en telefonsamtale. Hvorfor siger du nej (som regel)?",
+        "answers": [
+            {
+                "text": "Fordi den djævel, jeg kender, er bedre end den djævel, jeg ikke kender. Jeg hader forandringer.",
+                "scores": {
+                    "fear_veraenderung": 2
+                }
+            },
+            {
+                "text": "Fordi jeg er stensikker på, at jeg alligevel ikke ville klare assessment centeret i det nye job.",
+                "scores": {
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Fordi jeg allerede udstråler en vis 'senioritet' i min nuværende virksomhed. Jeg starter ikke forfra som ny et andet sted.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Fordi min prøvetid dér ville betyde, at jeg i seks måneder ikke ville have nogen opsigelsesbeskyttelse. For risikabelt.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q40_der_energie_vampir",
+        "category": "burnout_stress",
+        "question": "Hvad dræner dine batterier hurtigst og mest brutalt i arbejdslivet?",
+        "answers": [
+            {
+                "text": "Meningsløse, bureaukratiske forhindringer og langsomme processer, der holder mig tilbage som tyggegummi.",
+                "scores": {
+                    "pionier": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Når kolleger hele tiden læsser deres følelsesmæssige problemer, klager og frustrationer af på mig.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Uklare instruktioner, der hele tiden ændrer sig, og hvor jeg ikke kan opbygge en ordentlig struktur.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Mennesker, der kronisk er inkompetente, men alligevel får lov til at træffe beslutninger.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q41_die_krankschreibung",
+        "category": "burnout_stress",
+        "question": "Du vågner om morgenen med milde, men tydelige sygdomssymptomer. Hvad gør du?",
+        "answers": [
+            {
+                "text": "Jeg arbejder alligevel (hjemmefra). Jeg går i panik over, at vigtige bolde bliver tabt, og at det er min skyld.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Jeg melder mig syg. Sundhed kommer først. Men jeg har hele dagen en frygtelig dårlig samvittighed over for teamet.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Jeg bider tænderne sammen og møder op. Den, der hele tiden pjækker, bliver forbigået ved næste forfremmelse.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Jeg arbejder alligevel. I den nuværende økonomiske situation vil jeg ikke give chefen en grund til at tvivle på mig.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q42_stress_kompensation",
+        "category": "burnout_stress",
+        "question": "Efter en helt igennem forfærdelig uge på jobbet: Hvordan dulmer du mest sandsynligt frustrationen i weekenden?",
+        "answers": [
+            {
+                "text": "Jeg køber dyre ting eller forkæler mig selv med luksus (mad, tøj, bil). Jeg må bevise for mig selv, hvorfor jeg gør alt det her.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "Jeg isolerer mig fuldstændigt, ligger på sofaen og har brug for absolut stilhed for at få mit nervesystem ned i gear.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Jeg tager et efteruddannelseskursus, lærer noget nyt eller planlægger næste uge for endelig at få en følelse af kontrol.",
+                "scores": {
+                    "optimierer": 1,
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Jeg kaster mig ud i en radikalt anderledes, intens hobby (sport, fest, hobbyprojekter) for at få hovedet ryddet med magt.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q43_schlaflos_um_drei",
+        "category": "burnout_stress",
+        "question": "Klokken er 3 om natten, du glor op i loftet og kan ikke sove. Hvilken tanke kører rundt i hovedet?",
+        "answers": [
+            {
+                "text": "'Har jeg lavet en afgørende fejl i den e-mail i går? Hvad hvis chefen ser det i morgen?'",
+                "scores": {
+                    "fear_versagen": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "'Hvordan kommer jeg ud af det her hamsterhjul uden at ødelægge min økonomiske sikkerhed fuldstændigt?'",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "'Jeg skulle have slået hårdere i bordet til mødet. I morgen skal den idiot have sandheden at vide.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "'Egentlig burde vi bygge hele produktet helt anderledes... hvad nu hvis vi bygger feature X ind?'",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q44_der_breaking_point",
+        "category": "burnout_stress",
+        "question": "Hvornår siger du op (i det mindste mentalt) i et job med det samme?",
+        "answers": [
+            {
+                "text": "Når min årelange, fejlfri loyalitet bliver ignoreret, og en højlydt blærerøv løber forbi mig.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Når jeg får følelsen af, at jeg i det her giftige miljø langsomt bliver til et dårligere, mere kynisk menneske.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Når jeg skal spørge om lov til hvert eneste lille skridt og bliver kontrolleret som et umyndigt barn.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Når jeg får ansvaret for et mål, men ikke den nødvendige magt eller det nødvendige budget til at nå det.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q45_quiet_quitting",
+        "category": "burnout_stress",
+        "question": "Lave præcis det, der står i kontrakten ('quiet quitting'): Når du er helt frustreret, hvordan ser din protest så ud?",
+        "answers": [
+            {
+                "text": "Jeg bliver ekstremt formel. Jeg arbejder præcis 100% af min jobbeskrivelse igennem – ikke et minut mere, ikke en opgave ekstra.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Jeg bruger tiden på kontoret i smug på egne projekter, sidehustles eller videreuddanner mig på firmaets regning.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Jeg bliver dybt kynisk, kommer med åbne, sarkastiske bemærkninger og viser ledelsen min foragt.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Jeg holder op med at være den 'rare sjæl'. Jeg arrangerer ikke længere fødselsdage og trøster ikke kolleger ude på gangen.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q46_die_urlaubs_stoerung",
+        "category": "burnout_stress",
+        "question": "Du ligger på stranden på ferie. Din telefon ringer, chefen er på. Hvad sker der?",
+        "answers": [
+            {
+                "text": "Jeg tager den ikke, men pulsen hamrer. Jeg ødelægger halvdelen af stranddagen med angst for, hvad der mon er sket.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "Jeg tager den. En del af mig nyder endda at se, at butikken står i flammer uden mig med det samme.",
+                "scores": {
+                    "executor": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Jeg tager den, fordi jeg simpelthen går i panik over, at det får negative konsekvenser for mit job, hvis jeg ignorerer ham.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Jeg afviser den iskoldt. Min telefon står på 'Forstyr ikke', og jeg tænker ikke et sekund mere over det.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q47_warnung_vom_arzt",
+        "category": "burnout_stress",
+        "question": "Din læge siger det lige ud til dig: 'Dine stressværdier er farligt høje. Du er nødt til at skrue ned.' Din ærlige undskyldning?",
+        "answers": [
+            {
+                "text": "'Jeg ved det, men hvis jeg sætter farten ned nu, mister jeg min hårdt tilkæmpede plads i hierarkiet.'",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "'Lettere sagt end gjort. Min løn betaler lånene. Jeg har simpelthen ikke råd til at blive syg.'",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "'Jeg skal bare lige afslutte det her ene, kæmpe projekt og optimere mit system, så bliver det bedre.'",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "'Det går ikke. Hvis jeg falder ud, bryder hele mit team sammen. De har brug for mig lige nu.'",
+                "scores": {
+                    "fear_versagen": 1,
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q48_die_leere_auszeichnung",
+        "category": "burnout_stress",
+        "question": "I stedet for en hårdt tiltrængt bonus giver HR dig et vådt håndtryk og 'Resilience & Team Spirit Award'. Din reaktion?",
+        "answers": [
+            {
+                "text": "Ren vrede. Jeg vil have målbare resultater, penge eller beføjelser. Et lamineret stykke papir er en fornærmelse.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Jeg smiler høfligt, lægger den i skuffen og ved præcis, at det bare er en billig taktik for at holde os i ro.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Dybt inde i mig bliver jeg alligevel lidt glad. Trods alt var der nogen, der overhovedet så, hvor hårdt jeg kæmper.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Jeg bruger opmærksomheden ved overrækkelsen iskoldt til at pitche mit nye projekt foran hele holdet.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q49_der_falsche_fokus",
+        "category": "burnout_stress",
+        "question": "Når du er ekstremt stresset på jobbet, hvilken fejl begår du så mest sandsynligt?",
+        "answers": [
+            {
+                "text": "Jeg farer vild i perfektionisme. Jeg formaterer Excel-celler i stedet for at løse det egentlige, store problem.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Jeg bliver til en bulldozer-tyran. Jeg tromler hen over kolleger og sårer følelser for at nå målet.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Jeg siger ja til alt, tager andres opgaver på mig og drukner til sidst i en bunke andres arbejde.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Jeg starter fem nye løsningsveje på én gang, gør ingen af dem færdige og kaster teamet ud i totalt kaos.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q50_die_sonntags_luege",
+        "category": "burnout_stress",
+        "question": "Hvilken livsløgn fortæller du dig selv oftest søndag aften?",
+        "answers": [
+            {
+                "text": "'Næste uge bliver helt sikkert roligere. Når jeg først har fået projekt X af bordet, falder alt til ro.' (Det gør det aldrig).",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "'Jeg gør det her i 2-3 år endnu for CV'ets/pengenes skyld, og så finder jeg noget, der virkelig giver mig mening.'",
+                "scores": {
+                    "fear_existenz": 2,
+                    "pionier": 1
+                }
+            },
+            {
+                "text": "'Jeg er bare ikke god/hurtig nok endnu. Jeg må bare anstrenge mig endnu mere næste uge.'",
+                "scores": {
+                    "fear_versagen": 2,
+                    "katalysator": 1
+                }
+            },
+            {
+                "text": "'Egentlig er jeg uundværlig. Firmaet ville gå under uden mig, så jeg må finde mig i det her cirkus.'",
+                "scores": {
+                    "fear_status": 2,
+                    "executor": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q51_das_veraltete_werkzeug",
+        "category": "industry_pseo",
+        "question": "Dit primære arbejdsredskab (uanset om det er software, en maskine eller et system) er fuldstændig forældet og crasher hele tiden. Hvad gør du?",
+        "answers": [
+            {
+                "text": "Jeg bygger mig en uofficiel workaround eller klamper en egen løsning sammen for at omgå problemet.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Jeg lægger massivt pres på ledelsen. Uden ordentligt udstyr nægter jeg at levere fuld indsats.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Jeg dokumenterer hvert eneste crash minutiøst, så ingen til sidst kan give mig skylden for forsinkelserne.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Jeg indretter mig nogenlunde efter det og prøver at hjælpe kollegerne, som teknisk set har endnu sværere ved det.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q52_die_sinnlose_kpi",
+        "category": "industry_pseo",
+        "question": "Ledelsen indfører en fuldstændig absurd KPI til at måle performance, som ignorerer den reelle kvalitet af dit arbejde. Din taktik?",
+        "answers": [
+            {
+                "text": "Jeg optimerer iskoldt mit arbejde efter at maksimere det tal. Hvis de vil måle bullshit, får de bullshit.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Jeg går i stress. Jeg vil levere ægte kvalitet, men samtidig opfylde kravene. Jeg brænder sammen mellem to stole.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_versagen": 2
+                }
+            },
+            {
+                "text": "Jeg tracker tallet helt præcist og holder mig strengt til den nye regel, selv om processen bliver mere bureaukratisk af det.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Jeg gør åbent grin med det og lægger uopfordret et helt andet, bedre målekoncept frem.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q53_die_schwierige_zielgruppe",
+        "category": "industry_pseo",
+        "question": "Du står over for en ekstremt vanskelig stakeholder (kunde, klient eller patient), som blokerer din ekspertise. Hvordan reagerer du?",
+        "answers": [
+            {
+                "text": "Jeg kapper den følelsesmæssige binding. Jeg leverer præcis det, der står i kontrakten eller processen – ikke en millimeter mere.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Jeg tager det meget personligt. Jeg investerer endnu mere tid i at finde en personlig forbindelse og 'knække' ham.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Jeg holder mig præcist til retningslinjerne. Så længe jeg ikke laver en formel fejl, er jeg sikker.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_existenz": 1
+                }
+            },
+            {
+                "text": "Jeg prøver en helt ukonventionel, måske endda risikabel tilgang for at bryde mønsteret.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q54_der_akute_notfall",
+        "category": "industry_pseo",
+        "question": "Fem minutter før fyraften sker der en massiv, uforudset nødsituation i dit ansvarsområde. Hvad sker der i dig?",
+        "answers": [
+            {
+                "text": "Ren adrenalin. Endelig ægte kaos! Jeg topper og elsker at løse problemet kreativt.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Jeg tager straks kommandoen uden at blive bedt om det, delegerer hårdt og slår min empati helt fra.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Jeg er stresset, men kører nøje nødprotokollen igennem som en maskine, præcis som jeg er trænet/uddannet til.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Min første tanke er bekymringen for de mennesker, kunder eller kolleger, der nu lider under krisen.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q55_abteilungs_krieg",
+        "category": "industry_pseo",
+        "question": "En anden afdeling smider en fuldstændig urealistisk, dårligt planlagt opgave over hegnet til jer.",
+        "answers": [
+            {
+                "text": "Jeg afviser det aggressivt. 'Ikke vores problem. Jeres planlægning er elendig. Kom tilbage, når I har lavet jeres lektier.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Jeg gør det modvilligt for at undgå en åben krig mellem afdelingerne og bevare freden.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Jeg skriver en lang e-mail, hvor jeg beviser, at det strider mod alle aftaler og SLA'er.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Jeg ignorerer deres dumme krav fuldstændigt og bygger løsningen, som jeg alligevel mener er mere fremtidssikret.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q56_die_dinnerparty_identitaet",
+        "category": "industry_pseo",
+        "question": "Til en fest spørger nogen, hvad din kerneopgave som {{JOB_NAME}} egentlig er. Hvad er dit ærlige, sarkastiske svar?",
+        "answers": [
+            {
+                "text": "'Jeg sørger for, at butikken ikke kollapser under vægten af sin egen ineffektivitet og inkompetence.'",
+                "scores": {
+                    "executor": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "'Jeg er egentlig bare professionel brandmand og den sjælelige skraldespand for mit team.'",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "'Jeg skubber data/processer fra A til B og sørger for, at ingen kan sagsøge os til sidst.'",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_existenz": 1
+                }
+            },
+            {
+                "text": "'Jeg prøver at drive innovation fremad, men bruger 80% af min tid på at kæmpe mod bureaukrati.'",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q57_theorie_vs_praxis",
+        "category": "industry_pseo",
+        "question": "En nybegynder kommer frisk fra uddannelsen/uni og citerer konstant teorier, som slet ikke virker i jeres praksis.",
+        "answers": [
+            {
+                "text": "Jeg flår ham verbalt. 'Glem alt, hvad du har lært. Herude blæser en anden vind.'",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Jeg lader ham bevidst (men sikkert) køre direkte ind i muren én gang, så han lærer lektien selv.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Jeg tager ham til side og oversætter nænsomt teorien til de hårde fakta i vores praksis, uden at demotivere ham.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Jeg stikker ham vores interne procesdokumenter i hånden. Den, der følger dem, laver ikke fejl.",
+                "scores": {
+                    "optimierer": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q58_das_gekappte_budget",
+        "category": "industry_pseo",
+        "question": "Jeres vigtigste ressourcer (budget, materialer eller personale) bliver pludselig skåret med 20%. Hvad gør du?",
+        "answers": [
+            {
+                "text": "Jeg advarer ledelsen skriftligt om, at kvaliteten nu falder præcis 20%. Det er ikke mit problem.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Jeg arbejder ulønnet overtid for på en eller anden måde at kompensere for manglen, fordi jeg ikke kan svigte teamet og klienterne.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_existenz": 1
+                }
+            },
+            {
+                "text": "Jeg skærer straks de 20% af opgaverne væk, som giver mindst værdi, uden at spørge nogen om lov.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Jeg ser det som en sportslig begrænsning. Ofte opstår de mest innovative hacks ved budgetnedskæringer.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q59_der_branchentrend",
+        "category": "industry_pseo",
+        "question": "En ny, disruptiv trend (f.eks. kunstig intelligens eller nye love) ruller gennem din branche. Din indre holdning?",
+        "answers": [
+            {
+                "text": "Fascination. Jeg er den første, der prøver det, ødelægger det og ser, hvad vi vanvittigt kan bygge med det.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Kold beregning. Jeg bruger det kun, hvis det hårdt målbart sparer tid eller penge. Hypen ignorerer jeg.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Frygt. Bliver min møjsommeligt opbyggede ekspertviden snart gjort værdiløs eller erstattet?",
+                "scores": {
+                    "fear_veraenderung": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Bekymring. Forsvinder det sidste lille stykke menneskelighed i vores fag ikke gennem den her automatisering?",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q60_der_geheime_karrierewunsch",
+        "category": "industry_pseo",
+        "question": "Hvis du havde en tryllestav til din karriere som {{JOB_NAME}}, hvad ville du så ønske dig i dag?",
+        "answers": [
+            {
+                "text": "En position med absolut beslutningsmagt, maksimalt budget og absolut nul micromanagement ovenfra.",
+                "scores": {
+                    "executor": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "En rolle, hvor jeg hver dag må opfinde fremtiden, men hvor en anden tager sig af alt det administrative lort.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Et bombesikkert, perfekt struktureret job uden overraskelser, som jeg kan lade blive på kontoret kl. 17.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "En rolle, hvor jeg har reel, dybtgående indflydelse på mennesker, uden at brænde psykisk ud af det.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q61_die_kuendigungs_fantasie",
+        "category": "career_change_exit",
+        "question": "Når du sidder på kontoret og tænker på at sige op: Hvordan ser din hemmelige, indre fantasi ud?",
+        "answers": [
+            {
+                "text": "Jeg smider de samlede, hårde fakta om min chefs inkompetence på bordet og går med løftet hoved.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Jeg forsvinder bare stille og roligt, uden drama. Jeg drømmer om, at al min viden pludselig er væk næste dag.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Jeg starter for mig selv med en radikal, vanvittig idé og beviser alle, at min vej var den bedre.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Jeg har den fantasi tit, men så tænker jeg på mine yndlingskolleger og får med det samme dårlig samvittighed.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_veraenderung": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q62_das_gegenangebot",
+        "category": "career_change_exit",
+        "question": "Du afleverer din opsigelse. Din chef går i panik og tilbyder dig straks 20% mere i løn. Hvad sker der?",
+        "answers": [
+            {
+                "text": "Jeg bliver. 20% mere sikkerhed er en massiv buffer til mine faste udgifter. Følelser eller ej.",
+                "scores": {
+                    "fear_existenz": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "Jeg afslår iskoldt. For sent. Den, der først betaler mig, når jeg går, har for længst mistet min respekt.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Jeg bliver. Men kun fordi tanken om at skulle bevise mig selv igen i en helt ny virksomhed faktisk giver mig panik.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Jeg tager pengene, forhandler en ny titel oveni og læner mig tilbage for at pumpe min markedsværdi op.",
+                "scores": {
+                    "fear_status": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q63_quereinstieg_blockade",
+        "category": "career_change_exit",
+        "question": "Du overvejer et totalt brancheskift til en anden branche. Hvad holder dig mest tilbage?",
+        "answers": [
+            {
+                "text": "Frygten for, at jeg skal starte helt nede fra bunden økonomisk der og miste min levestandard.",
+                "scores": {
+                    "fear_existenz": 2
+                }
+            },
+            {
+                "text": "Tabet af min 'senioritet'. Jeg vil ikke være den uvidende nybegynder, som 25-årige skal forklare verden for.",
+                "scores": {
+                    "fear_status": 2,
+                    "executor": 1
+                }
+            },
+            {
+                "text": "Det manglende formelle bevis. Uden det præcise papir / certifikat til den nye branche tør jeg ikke kaste mig ud i det.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Jeg har så mange forskellige interesser, at jeg alligevel ikke kan binde mig til én eneste ny retning.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q64_bewerbungs_horror",
+        "category": "career_change_exit",
+        "question": "Hvad er den absolutte skrækscenarie-tanke for dig ved et kommende jobsamtale?",
+        "answers": [
+            {
+                "text": "At jeg får faglige spørgsmål, som jeg ikke har et perfekt svar på, og bliver afsløret som en 'bedrager'.",
+                "scores": {
+                    "fear_versagen": 2,
+                    "optimierer": 1
+                }
+            },
+            {
+                "text": "At jeg skal bøje mig kunstigt og spille med i det falske 'vi er en stor familie'-HR-spil.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "At jeg får et afslag. Mit ego har svært ved at klare at blive afvist, når jeg først har åbnet mig.",
+                "scores": {
+                    "fear_status": 2
+                }
+            },
+            {
+                "text": "At jeg slet ikke ved, hvad jeg skal svare, når de spørger: 'Hvor ser du dig selv om 5 år?' (Jeg hader sådan nogle planer).",
+                "scores": {
+                    "pionier": 2,
+                    "fear_veraenderung": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q65_lebenslauf_luege",
+        "category": "career_change_exit",
+        "question": "Hvis vi analyserer dit CV uden nåde: Hvor ligger den største 'svaghed' set fra din side?",
+        "answers": [
+            {
+                "text": "Jeg fremstår på papiret som en stiv bureaukrat, fordi mine reelle problemløser-evner ikke passer ind i noget certifikat.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Jeg sælger mig selv for billigt. Jeg bruger beskedne ord, selvom jeg de facto i årevis har båret hele afdelinger.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Mit CV er rodet. Jeg har skiftet ofte eller droppet ting, når de stive strukturer blev mig for meget.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Det har egentlig ingen svaghed, det er stærkt. Men jeg er bange for, at mine lønforventninger skræmmer HR væk.",
+                "scores": {
+                    "executor": 2,
+                    "fear_existenz": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q66_das_sabbatical",
+        "category": "career_change_exit",
+        "question": "Firmaet tvinger dig til 6 måneders betalt sabbatical. Hvad gør du efter uge 2?",
+        "answers": [
+            {
+                "text": "Jeg bygger straks mit eget projekt eller side-business op, fordi min hjerne visner uden kreativt output.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Jeg hjælper venner, engagerer mig socialt eller falder ind i rollen som 'den, der tager sig af det' i privatlivet.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Jeg bruger tiden på at videreuddanne mig manisk (certifikater, kurser) for at øge min markedsværdi, når jeg kommer tilbage.",
+                "scores": {
+                    "optimierer": 1,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Jeg laver absolut ingenting. Jeg optimerer mit privatliv som et projekt og nyder det totale herredømme over min tid.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q67_freelancing_traum",
+        "category": "career_change_exit",
+        "question": "Emne: selvstændighed / freelancing. Hvorfor har du ikke taget springet helt endnu?",
+        "answers": [
+            {
+                "text": "Jeg er ikke sælger. Jeg hader at skulle markedsføre mig selv og løbe efter kunder.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_status": 1
+                }
+            },
+            {
+                "text": "Skatterne, bogføringen, de juridiske risici. En forkert faktura, og man står med det ene ben i fængslet.",
+                "scores": {
+                    "fear_existenz": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Jeg har brug for et fast team omkring mig. Isolationen som solospiller ville dræne mig følelsesmæssigt.",
+                "scores": {
+                    "katalysator": 2,
+                    "fear_veraenderung": 1
+                }
+            },
+            {
+                "text": "Jeg har allerede prøvet det for længst eller gør det ved siden af. Min største bekymring er snarere, at jeg hurtigt kommer til at kede mig.",
+                "scores": {
+                    "pionier": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q68_der_tropfen_im_fass",
+        "category": "career_change_exit",
+        "question": "Vi har alle en tålegrænse. Hvilken lille, næsten latterlig ting ville straks få dig til at sige op?",
+        "answers": [
+            {
+                "text": "Hvis man dikterer mit udstyr til mig (f.eks. tvinger mig til den billigste Windows-laptop) og dermed ødelægger min workflow.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Hvis min chef sletter mit Excel-ark eller min rene proces for at erstatte den med en vaklende nødløsning.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Hvis jeg får forbud mod at løse en simpel 5-minutters opgave på min egen måde, fordi 'processen ikke lægger op til det'.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Hvis en kollega fra mit team bliver uretfærdigt skældt ud, og jeg er den eneste, der skal se på.",
+                "scores": {
+                    "katalysator": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "q69_die_gehaltsverhandlung",
+        "category": "career_change_exit",
+        "question": "Du har i morgen den helt afgørende samtale om mere løn. Hvordan forbereder du dig i aften?",
+        "answers": [
+            {
+                "text": "Jeg skriver en iskold liste over mine KPI'er og resultater. Hvis de ikke betaler, kender jeg min exit-plan.",
+                "scores": {
+                    "executor": 2
+                }
+            },
+            {
+                "text": "Jeg øver mig foran spejlet, fordi jeg er rædselsslagen for at blive blød eller give efter i det afgørende øjeblik.",
+                "scores": {
+                    "katalysator": 1,
+                    "fear_veraenderung": 2
+                }
+            },
+            {
+                "text": "Jeg samler løntabeller fra internettet for at kunne begrunde mit krav fuldstændigt og objektivt.",
+                "scores": {
+                    "optimierer": 2,
+                    "fear_versagen": 1
+                }
+            },
+            {
+                "text": "Jeg tænker mere over, hvilke nye friheder, budgetter eller hjemmearbejdsdage jeg kan forhandle mig til. Penge alene er ikke nok for mig.",
+                "scores": {
+                    "pionier": 2,
+                    "fear_status": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "q70_der_neustart",
+        "category": "career_change_exit",
+        "question": "Hvis du i morgen starter i en helt ny virksomhed, i en helt ny [Cluster]: Hvad er din absolutte topprioritet?",
+        "answers": [
+            {
+                "text": "Ægte tillid. Jeg vil aldrig igen skulle retfærdiggøre hver eneste lille beslutning.",
+                "scores": {
+                    "pionier": 2
+                }
+            },
+            {
+                "text": "Menneskelig varme. Jeg har brug for et team, der ikke konstant stikker hinanden i ryggen.",
+                "scores": {
+                    "katalysator": 2
+                }
+            },
+            {
+                "text": "Absolut klarhed. Jeg vil vide præcis, hvad jeg bliver målt på, og hvad processen er.",
+                "scores": {
+                    "optimierer": 2
+                }
+            },
+            {
+                "text": "Penge og autonomi. Jeg vil aflønnes fair for mine resultater og kunne arbejde i fred.",
+                "scores": {
+                    "executor": 2
+                }
+            }
+        ]
+    }
+]
