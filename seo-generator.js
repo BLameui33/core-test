@@ -5,7 +5,7 @@ const fs = require('fs');
 const path = require('path');
 
 // ==========================================
-// 1. HIER DEINEN OPENAI API-KEY EINTRAGEN
+// 1. HIER DEN OPENAI API-KEY EINTRAGEN
 // ==========================================
 const API_KEY = "hier eintragen";
 
