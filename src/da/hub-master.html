@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>C.O.R.E. Profiling Engine | Den datadrevne karriereanalyse</title>
+    <title>C.O.R.E. Index Analytics | Den datadrevne karriereanalyse</title>
     <meta name="description" content="C.O.R.E. Index identificerer de ubevidste systemiske og psykologiske barrierer i dit arbejde. Start den 8-minutters evaluering.">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="/core-social-share.jpg">
@@ -96,11 +96,37 @@
         
         .hidden { display: none !important; }
 
-        @media (max-width: 768px) {
-            .hero h1 { font-size: 2.8rem; }
-            .teaser-grid { grid-template-columns: 1fr; gap: 40px; }
-            .trust-bar { flex-direction: column; gap: 15px; }
-        }
+       @media (max-width: 768px) {
+    header {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    nav {
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    nav a {
+        margin: 8px 12px;
+    }
+
+    .hero h1 {
+        font-size: 2.8rem;
+    }
+
+    .teaser-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .trust-bar {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
 </style>
 </head>
 <body>
@@ -151,9 +177,12 @@
             <h1>Slut med karriere-esoterik.</h1>
             <p>C.O.R.E. Index identificerer de ubevidste konflikter, der blokerer dig professionelt. Vælg dit arbejdsfelt, og start den datadrevne 8-minutters evaluering.</p>
             
-            <div class="search-wrapper">
-                <input type="text" id="jobSearch" class="search-box" placeholder="Søg efter dit erhverv (f.eks. tekstforfatter, læge, leder)..." onkeyup="filterJobs()">
-            </div>
+
+            <div class="search-wrapper" style="position: relative;">
+    <input type="text" id="jobSearch" class="search-box" placeholder="Søg efter dit erhverv (f.eks. tekstforfatter, læge, leder)..." 
+           onkeyup="filterJobs()" onfocus="filterJobs()" autocomplete="off">
+    <div id="searchDropdown" class="search-dropdown hidden"></div>
+</div>
             
             <div class="trust-bar">
                 <span>✓ Valideret efter O.C.E.A.N.-standarden</span>
@@ -222,31 +251,62 @@
         <!-- LIVE SEARCH SCRIPT (Repariert ohne hartes Springen) -->
     <script>
         function filterJobs() {
-            const input = document.getElementById('jobSearch').value.toLowerCase();
-            const clusters = document.querySelectorAll('#cluster-container > div');
-            let hasVisibleJobs = false;
+    const input = document.getElementById('jobSearch').value.toLowerCase().trim();
+    const dropdown = document.getElementById('searchDropdown');
+    const allJobs = document.querySelectorAll('#cluster-container a');
 
-            clusters.forEach(cluster => {
-                const clusterName = cluster.querySelector('h2').innerText.toLowerCase();
-                const jobs = cluster.querySelectorAll('a');
-                let clusterHasMatch = false;
+    if (input.length === 0) {
+        dropdown.classList.add('hidden');
+        dropdown.innerHTML = '';
+        return;
+    }
 
-                jobs.forEach(job => {
-                    const jobName = job.innerText.toLowerCase();
-                    if (jobName.includes(input) || clusterName.includes(input)) {
-                        job.style.display = 'flex';
-                        clusterHasMatch = true;
-                        hasVisibleJobs = true;
-                    } else {
-                        job.style.display = 'none';
-                    }
-                });
+    let directMatches = [];
+    let textMatches = [];
 
-                cluster.style.display = clusterHasMatch ? 'block' : 'none';
-            });
+    allJobs.forEach(job => {
+        const jobName = job.innerText.trim();
+        const clusterName = job.closest('div').querySelector('h2')?.innerText.trim() || '';
+        const searchText = (job.getAttribute('data-search') || '').toLowerCase();
+        const href = job.getAttribute('href');
 
-            document.getElementById('no-results').classList.toggle('hidden', hasVisibleJobs || clusters.length === 0);
+        if (jobName.toLowerCase().includes(input)) {
+            directMatches.push({ name: jobName, cluster: clusterName, href });
+        } else if (searchText.includes(input)) {
+            textMatches.push({ name: jobName, cluster: clusterName, href });
         }
+    });
+
+    const matches = [...directMatches, ...textMatches].slice(0, 8);
+
+    let html = '';
+    if (matches.length > 0) {
+        html += matches.map(m => `
+            <a class="result-item" href="${m.href}">
+                <span>${m.name}</span>
+                <span class="result-cluster">${m.cluster}</span>
+            </a>
+        `).join('');
+    } else {
+        html += `<div class="fallback-item">No exact match for "<strong>${input}</strong>".</div>`;
+    }
+
+    if (matches.length === 0) {
+        html += `<div class="result-item fallback-item">
+            <span>→ Please choose the job or field that comes closest to your role.</span>
+        </div>`;
+    }
+
+    dropdown.innerHTML = html;
+    dropdown.classList.remove('hidden');
+}
+
+document.addEventListener('click', (e) => {
+    const wrapper = document.querySelector('.search-wrapper');
+    if (wrapper && !wrapper.contains(e.target)) {
+        document.getElementById('searchDropdown').classList.add('hidden');
+    }
+});
     </script>
 </body>
 </html>

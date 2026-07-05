@@ -159,6 +159,17 @@ async function checkAndTranslateSources() {
 // =====================================================================
 // 4. HAUPT-BUILD ENGINE (Angepasst für das neue Hub-Design)
 // =====================================================================
+
+function buildSearchText(prof) {
+    const raw = `${prof.name || ''} ${prof.seo_desc || ''} ${prof.infobox || ''}`;
+    return raw
+        .replace(/<[^>]*>/g, ' ')      // HTML-Tags entfernen (z.B. <strong>)
+        .replace(/\s+/g, ' ')          // Mehrfach-Leerzeichen bereinigen
+        .trim()
+        .toLowerCase()
+        .replace(/"/g, '&quot;');      // Anführungszeichen escapen, damit das Attribut nicht bricht
+}
+
 async function buildEngine() {
     await checkAndTranslateSources();
 
@@ -220,18 +231,18 @@ async function buildEngine() {
             // Ins Cluster-Objekt für die Hub-Seite einsortieren
             const clusterName = prof.cluster || 'Weitere Berufe';
             if (!clusteredProfessions[clusterName]) clusteredProfessions[clusterName] = [];
-            clusteredProfessions[clusterName].push({ name: prof.name, file: fileName });
+clusteredProfessions[clusterName].push({ name: prof.name, file: fileName, search: buildSearchText(prof) });
         });
 
         // 2. Das High-End HTML für die Hub-Seite (Verzeichnis) bauen
         let clusterBlocksHTML = '';
         for (const [cluster, jobs] of Object.entries(clusteredProfessions)) {
                     let jobLinks = jobs.map(j => `
-                <a href="${j.file}" class="job-link">
-                    <span style="font-size: 1.1rem; font-weight: 500;">${j.name}</span>
-                    <span class="arrow">&rarr;</span>
-                </a>
-            `).join('');
+    <a href="${j.file}" class="job-link" data-search="${j.search}">
+        <span style="font-size: 1.1rem; font-weight: 500;">${j.name}</span>
+        <span class="arrow">&rarr;</span>
+    </a>
+`).join('');
 
             clusterBlocksHTML += `
                 <div style="margin-bottom: 60px;">

@@ -724,7 +724,46 @@ h1 { font-size: 3rem; color: var(--brand-dark); margin-bottom: 20px; line-height
 }
 
 
- /* --- CSS for other Sites --- */
+ .search-dropdown {
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 0;
+    right: 0;
+    background: var(--bg-surface, #fff);
+    border: 1px solid var(--border-light);
+    border-radius: 12px;
+    box-shadow: 0 12px 32px rgba(0,0,0,0.12);
+    max-height: 400px;
+    overflow-y: auto;
+    z-index: 50;
+    text-align: left;
+}
+.search-dropdown a.result-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: var(--text-dark);
+    border-bottom: 1px solid var(--border-light);
+    font-size: 0.95rem;
+}
+.search-dropdown a.result-item:last-child { border-bottom: none; }
+.search-dropdown a.result-item:hover { background: rgba(0,0,0,0.03); }
+.search-dropdown .result-cluster {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.search-dropdown .fallback-item {
+    padding: 14px 20px;
+    background: rgba(0,0,0,0.02);
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+.search-dropdown .fallback-item a { font-weight: 700; color: var(--text-dark); }
+.hidden { display: none; }
 
   /* ---about.html --- */
    
@@ -743,12 +782,30 @@ h1 { font-size: 3rem; color: var(--brand-dark); margin-bottom: 20px; line-height
         }
 
         .legal-header h1 {
-            font-size: 3rem;
-            font-weight: 800;
-            color: var(--text-dark, #0f172a);
-            letter-spacing: -1px;
-            margin: 0;
-        }
+    font-size: clamp(2rem, 6vw, 3rem);
+    font-weight: 800;
+    color: var(--text-dark, #0f172a);
+    letter-spacing: -1px;
+    margin: 0;
+
+    /* verhindert Überlaufen */
+    overflow-wrap: break-word;
+    word-break: break-word;
+}  @media (max-width: 768px) {
+    .legal-header h1 {
+        font-size: 2rem;
+        line-height: 1.15;
+        letter-spacing: -0.5px;
+    }
+
+    .legal-content h2 {
+        font-size: 1.35rem;
+    }
+
+    .legal-content h3 {
+        font-size: 1rem;
+    }
+}
 
         .legal-content h2 {
             font-size: 1.6rem;
@@ -821,12 +878,30 @@ h1 { font-size: 3rem; color: var(--brand-dark); margin-bottom: 20px; line-height
         }
 
         .legal-header h1 {
-            font-size: 3rem;
-            font-weight: 800;
-            color: var(--text-dark, #0f172a);
-            letter-spacing: -1px;
-            margin: 0;
-        }
+    font-size: clamp(2rem, 6vw, 3rem);
+    font-weight: 800;
+    color: var(--text-dark, #0f172a);
+    letter-spacing: -1px;
+    margin: 0;
+
+    /* verhindert Überlaufen */
+    overflow-wrap: break-word;
+    word-break: break-word;
+}  @media (max-width: 768px) {
+    .legal-header h1 {
+        font-size: 2rem;
+        line-height: 1.15;
+        letter-spacing: -0.5px;
+    }
+
+    .legal-content h2 {
+        font-size: 1.35rem;
+    }
+
+    .legal-content h3 {
+        font-size: 1rem;
+    }
+}
 
         .legal-content h3 {
             font-size: 1.1rem;
