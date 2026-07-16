@@ -674,6 +674,7 @@ function showQuestion() {
     
     // 텍스트 치환
     let parsedQuestion = currentQ.question
+        .replace(/\{\{JOB_NAME\}\}/g, currentJobName)
         .replace(/\[Berufsbezeichnung\]/g, currentJobName)
         .replace(/\[Branche\]/g, currentJobName)
         .replace(/\[die Software \/ das Medizingerät \/ die Maschine \/ das CRM\]/g, "당신의 주요 업무 도구")

@@ -10,8 +10,6 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="/core-social-share.jpg">
 
-    
-
  <link rel="canonical" href="https://www.coreindexanalytics.com/de/karriere-test-zugbegleiter.html">
 
     
@@ -674,6 +672,7 @@ function showQuestion() {
     
     // Text-Replacements
     let parsedQuestion = currentQ.question
+        .replace(/\{\{JOB_NAME\}\}/g, currentJobName)
         .replace(/\[Berufsbezeichnung\]/g, currentJobName)
         .replace(/\[Branche\]/g, currentJobName)
         .replace(/\[die Software \/ das Medizingerät \/ die Maschine \/ das CRM\]/g, "dein Haupt-Arbeitswerkzeug")

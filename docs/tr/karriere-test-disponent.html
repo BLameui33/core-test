@@ -673,6 +673,7 @@ function showQuestion() {
     
     // Metin değiştirmeleri
     let parsedQuestion = currentQ.question
+        .replace(/\{\{JOB_NAME\}\}/g, currentJobName)
         .replace(/\[Berufsbezeichnung\]/g, currentJobName)
         .replace(/\[Branche\]/g, currentJobName)
         .replace(/\[die Software \/ das Medizingerät \/ die Maschine \/ das CRM\]/g, "ana çalışma aracın")

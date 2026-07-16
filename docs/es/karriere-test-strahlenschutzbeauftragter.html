@@ -674,6 +674,7 @@ function showQuestion() {
     
     // Reemplazos de texto
     let parsedQuestion = currentQ.question
+        .replace(/\{\{JOB_NAME\}\}/g, currentJobName)
         .replace(/\[Berufsbezeichnung\]/g, currentJobName)
         .replace(/\[Branche\]/g, currentJobName)
         .replace(/\[die Software \/ das Medizingerät \/ die Maschine \/ das CRM\]/g, "tu herramienta principal de trabajo")
