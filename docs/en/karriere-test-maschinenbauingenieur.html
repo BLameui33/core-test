@@ -856,7 +856,16 @@ function goBack() {
     // Make available for your share link
     window.sharedProfileId = targetProfileId;
     
-    const resultProfile = profilesData.find(p => p.profile_id === targetProfileId);
+        let resultProfile = profilesData.find(p => p.profile_id === targetProfileId);
+
+    // Fallback 1: Exakte Kombi fehlt in profiles.json -> nimm das erste Profil mit passendem Basis-Typ
+    if (!resultProfile) {
+        resultProfile = profilesData.find(p => p.profile_id && p.profile_id.startsWith(topBase + '_'));
+    }
+    // Fallback 2: Auch das gibt's nicht -> nimm irgendein Profil, damit nie Felder leer bleiben
+    if (!resultProfile && profilesData.length > 0) {
+        resultProfile = profilesData[0];
+    }
 
     if(resultProfile) {
         document.getElementById('res-name').innerText = resultProfile.name;

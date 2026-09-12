@@ -846,8 +846,8 @@ function goBack() {
     // =========================================================
 
     const fearSuffixMap = {
-        'fear_existenz': 'medo_existencial', 'fear_versagen': 'medo_de_fracasso',
-        'fear_status': 'perda_de_status', 'fear_veraenderung': 'medo_de_mudança'
+        'fear_existenz': 'existenzangst', 'fear_versagen': 'versagensangst',
+        'fear_status': 'statusverlust', 'fear_veraenderung': 'veraenderungsangst'
     };
 
     const targetProfileId = `${topBase}_${fearSuffixMap[topFear]}`;
@@ -855,7 +855,16 @@ function goBack() {
     // Für deinen Share-Link bereitstellen
     window.sharedProfileId = targetProfileId;
     
-    const resultProfile = profilesData.find(p => p.profile_id === targetProfileId);
+        let resultProfile = profilesData.find(p => p.profile_id === targetProfileId);
+
+    // Fallback 1: Exakte Kombi fehlt in profiles.json -> nimm das erste Profil mit passendem Basis-Typ
+    if (!resultProfile) {
+        resultProfile = profilesData.find(p => p.profile_id && p.profile_id.startsWith(topBase + '_'));
+    }
+    // Fallback 2: Auch das gibt's nicht -> nimm irgendein Profil, damit nie Felder leer bleiben
+    if (!resultProfile && profilesData.length > 0) {
+        resultProfile = profilesData[0];
+    }
 
     if(resultProfile) {
         document.getElementById('res-name').innerText = resultProfile.name;
