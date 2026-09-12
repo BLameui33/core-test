@@ -939,11 +939,21 @@ function goBack() {
              
 async function downloadPDF() {
 
-    const loadFontBuffer = async (url) => {
-    const res = await fetch(url);
-    if (!res.ok) throw new Error(`Font-Download fehlgeschlagen (HTTP ${res.status}): ${url}`);
-    return res.arrayBuffer();
-};
+    // Hilfsfunktion: Lädt die Schriftart sicher und konvertiert sie in Base64
+    const loadFontAsBase64 = async (url) => {
+        const res = await fetch(url);
+        if (!res.ok) {
+            throw new Error(`Font-Download fehlgeschlagen (HTTP ${res.status}): ${url}`);
+        }
+        const buffer = await res.arrayBuffer();
+        let binary = '';
+        const bytes = new Uint8Array(buffer);
+        const len = bytes.byteLength;
+        for (let i = 0; i < len; i++) {
+            binary += String.fromCharCode(bytes[i]);
+        }
+        return btoa(binary);
+    };
 
     const btn = document.querySelector('.btn-action.primary');
     const oldText = btn.innerHTML;
@@ -963,27 +973,30 @@ async function downloadPDF() {
 
         // =========================================================
         // TÜRKİYE / LATIN EXTENDED (ROBOTO) SCHRIFTARTEN PER CDN LADEN
+        // Verwendet hochverfügbares cdnjs für Roboto (vollständige Türkisch-Unterstützung)
         // =========================================================
-        const fontRegUrl = "https://cdn.jsdelivr.net/gh/google/fonts@main/ofl/roboto/static/Roboto-Regular.ttf";
-        const fontBoldUrl = "https://cdn.jsdelivr.net/gh/google/fonts@main/ofl/roboto/static/Roboto-Bold.ttf";
-        const fontItalicUrl = "https://cdn.jsdelivr.net/gh/google/fonts@main/ofl/roboto/static/Roboto-Italic.ttf";
+        const fontRegUrl = "https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.66/fonts/Roboto/Roboto-Regular.ttf";
+        const fontBoldUrl = "https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.66/fonts/Roboto/Roboto-Medium.ttf";
+        const fontItalicUrl = "https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.66/fonts/Roboto/Roboto-Italic.ttf";
 
-        const [regBuffer, boldBuffer, italicBuffer] = await Promise.all([
-            fetch(fontRegUrl).then(res => res.arrayBuffer()),
-            fetch(fontBoldUrl).then(res => res.arrayBuffer()),
-            fetch(fontItalicUrl).then(res => res.arrayBuffer())
+        // Paralleles und sicheres Laden aller 3 Schriftarten
+        const [regBase64, boldBase64, italicBase64] = await Promise.all([
+            loadFontAsBase64(fontRegUrl),
+            loadFontAsBase64(fontBoldUrl),
+            loadFontAsBase64(fontItalicUrl)
         ]);
 
-        // In jsPDF registrieren
-        doc.addFileToVFS('Roboto-Regular.ttf', new Uint8Array(regBuffer));
+        // In jsPDF VFS registrieren
+        doc.addFileToVFS('Roboto-Regular.ttf', regBase64);
         doc.addFont('Roboto-Regular.ttf', 'Roboto', 'normal');
 
-        doc.addFileToVFS('Roboto-Bold.ttf', new Uint8Array(boldBuffer));
+        doc.addFileToVFS('Roboto-Bold.ttf', boldBase64);
         doc.addFont('Roboto-Bold.ttf', 'Roboto', 'bold');
 
-        doc.addFileToVFS('Roboto-Italic.ttf', new Uint8Array(italicBuffer));
+        doc.addFileToVFS('Roboto-Italic.ttf', italicBase64);
         doc.addFont('Roboto-Italic.ttf', 'Roboto', 'italic');
 
+        // Standard-Schriftart setzen
         doc.setFont('Roboto', 'normal');
         // =========================================================
 
@@ -1089,7 +1102,7 @@ async function downloadPDF() {
         doc.save(`CORE_Dossier_${profile.name.replace(/\s+/g, '_')}.pdf`);
 
     } catch (error) {
-        console.error("Fehler bei der PDF-Generierung:", error);
+        console.error("PDF generierung fehler:", error);
         alert("PDF oluşturulurken bir hata oluştu.");
     } finally {
         btn.innerHTML = oldText;
