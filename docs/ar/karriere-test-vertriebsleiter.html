@@ -1020,8 +1020,8 @@ function escapeHtml(str) {
 function sectionBlock(title, body, baseStyle) {
   return `
     <div style="${baseStyle} padding-top:16px;">
-      <div style="font-size:20px; font-weight:bold; padding-bottom:6px;">${title}</div>
-      <div style="font-size:16px; line-height:1.6; color:#334155;">${escapeHtml(body)}</div>
+      <div style="font-size:20px; font-weight:bold; padding-bottom:6px;"><span dir="rtl">${title}</span></div>
+      <div style="font-size:16px; line-height:1.6; color:#334155;"><span dir="rtl">${escapeHtml(body)}</span></div>
     </div>`;
 }
 
@@ -1062,23 +1062,22 @@ async function downloadPDF() {
       color:#0f172a; box-sizing:border-box; padding:0; margin:0;
     `;
 
-    const blocks = [
-      // Header: flex-direction:row-reverse sorgt im LTR-Modus dafür, dass Brand rechts und Confidential links steht
+        const blocks = [
       `<div style="${baseStyle} display:flex; flex-direction:row-reverse; justify-content:space-between; font-size:20px; color:#64748b; padding-bottom:12px; border-bottom:1px solid #e2e8f0;">
          <span style="font-weight:bold;">${CONFIG.labels.brand}</span>
-         <span>${CONFIG.labels.confidential}</span>
+         <span dir="rtl">${CONFIG.labels.confidential}</span>
        </div>`,
-      `<div style="${baseStyle} font-size:44px; font-weight:bold; padding-top:20px;">${escapeHtml(profile.name.toUpperCase())}</div>`,
-      `<div style="${baseStyle} font-size:26px; color:#c0392b; padding-top:12px;">"${escapeHtml(profile.headline)}"</div>`,
+      `<div style="${baseStyle} font-size:44px; font-weight:bold; padding-top:20px;"><span dir="rtl">${escapeHtml(profile.name)}</span></div>`,
+      `<div style="${baseStyle} font-size:26px; color:#c0392b; padding-top:12px;"><span dir="rtl">"${escapeHtml(profile.headline)}"</span></div>`,
       sectionBlock(CONFIG.labels.operatingProfile, profile.corporate_view, baseStyle),
       sectionBlock(CONFIG.labels.shadowConflict, profile.shadow_conflict, baseStyle),
-      `<div style="${baseStyle} font-size:22px; font-weight:bold; padding-top:8px;">${CONFIG.labels.actionSteps}</div>`,
+      `<div style="${baseStyle} font-size:22px; font-weight:bold; padding-top:8px;"><span dir="rtl">${CONFIG.labels.actionSteps}</span></div>`,
       ...profile.action_steps.map((step, i) => `
         <div style="${baseStyle} font-size:18px; padding:6px 0; padding-right:10px;">
-          ${i + 1}. ${escapeHtml(step)}
+          <span dir="rtl"><span dir="ltr">${i + 1}.</span> ${escapeHtml(step)}</span>
         </div>`),
       `<div style="${baseStyle} font-size:14px; color:#94a3b8; padding-top:20px;">
-         ${CONFIG.labels.generatedOn(new Date().toLocaleDateString(CONFIG.labels.dateLocale), window.currentJobName || '')}
+         <span dir="rtl">${CONFIG.labels.generatedOn(new Date().toLocaleDateString(CONFIG.labels.dateLocale), currentJobName || '')}</span>
        </div>`,
     ];
 
