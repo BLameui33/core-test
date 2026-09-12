@@ -995,11 +995,11 @@ function createOffscreenContainer(widthPx) {
 }
 
 // ---- Render exactly one content block to a canvas ----
-async function renderBlockToCanvas(html, widthPx, scale = 2) {
+async function renderBlockToCanvas(html, widthPx, scale = 3) {
   const container = createOffscreenContainer(widthPx);
   container.innerHTML = html;
   try {
-    await new Promise(requestAnimationFrame); // let layout settle before capture
+    await new Promise(requestAnimationFrame); 
     return await html2canvas(container, {
       scale,
       useCORS: true,
@@ -1007,7 +1007,7 @@ async function renderBlockToCanvas(html, widthPx, scale = 2) {
       logging: false,
     });
   } finally {
-    container.remove(); // always clean up, even on error
+    container.remove(); 
   }
 }
 
@@ -1049,7 +1049,6 @@ async function downloadPDF() {
   const pageWidthMm = 210, pageHeightMm = 297, marginMm = 20;
   const contentWidthMm = pageWidthMm - marginMm * 2;
   const RENDER_WIDTH_PX = 900;
-  const mmPerPx = contentWidthMm / RENDER_WIDTH_PX;
 
   try {
     await ensureFontsLoaded(CONFIG.fontFaces);
@@ -1057,13 +1056,15 @@ async function downloadPDF() {
     const { jsPDF } = window.jspdf;
     const doc = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
 
+    // FIX 1: direction: ltr (damit html2canvas nicht spiegelt), aber text-align: right (für Arabisch)
     const baseStyle = `
-      direction:${CONFIG.dir}; text-align:${CONFIG.align}; font-family:${CONFIG.fontFamily};
+      direction:ltr; text-align:right; font-family:${CONFIG.fontFamily};
       color:#0f172a; box-sizing:border-box; padding:0; margin:0;
     `;
 
     const blocks = [
-      `<div style="${baseStyle} display:flex; justify-content:space-between; font-size:20px; color:#64748b; padding-bottom:12px; border-bottom:1px solid #e2e8f0;">
+      // Header: flex-direction:row-reverse sorgt im LTR-Modus dafür, dass Brand rechts und Confidential links steht
+      `<div style="${baseStyle} display:flex; flex-direction:row-reverse; justify-content:space-between; font-size:20px; color:#64748b; padding-bottom:12px; border-bottom:1px solid #e2e8f0;">
          <span style="font-weight:bold;">${CONFIG.labels.brand}</span>
          <span>${CONFIG.labels.confidential}</span>
        </div>`,
@@ -1073,7 +1074,7 @@ async function downloadPDF() {
       sectionBlock(CONFIG.labels.shadowConflict, profile.shadow_conflict, baseStyle),
       `<div style="${baseStyle} font-size:22px; font-weight:bold; padding-top:8px;">${CONFIG.labels.actionSteps}</div>`,
       ...profile.action_steps.map((step, i) => `
-        <div style="${baseStyle} font-size:18px; padding:6px 0; ${CONFIG.dir === 'rtl' ? 'padding-right:10px;' : 'padding-left:10px;'}">
+        <div style="${baseStyle} font-size:18px; padding:6px 0; padding-right:10px;">
           ${i + 1}. ${escapeHtml(step)}
         </div>`),
       `<div style="${baseStyle} font-size:14px; color:#94a3b8; padding-top:20px;">
@@ -1081,25 +1082,27 @@ async function downloadPDF() {
        </div>`,
     ];
 
-    // Place blocks onto pages; a page break only ever happens BETWEEN
-    // blocks, never mid-block -> no orphaned fragments, no blank pages.
     let y = marginMm;
     let pageHasContent = false;
 
     for (const html of blocks) {
-      const canvas = await renderBlockToCanvas(html, RENDER_WIDTH_PX);
-      const blockHeightMm = canvas.height * mmPerPx;
+      const canvas = await renderBlockToCanvas(html, RENDER_WIDTH_PX); 
+      
+      // FIX 2: Dynamische Höhenberechnung basierend auf dem Canvas-Seitenverhältnis
+      // Verhindert, dass das PDF gequetscht oder in die Länge gezogen wird
+      const imgWidthMm = contentWidthMm;
+      const imgHeightMm = (canvas.height * imgWidthMm) / canvas.width;
 
-      if (blockHeightMm < 1) continue; // skip accidentally empty blocks
+      if (imgHeightMm < 1) continue;
 
-      if (pageHasContent && y + blockHeightMm > pageHeightMm - marginMm) {
+      if (pageHasContent && y + imgHeightMm > pageHeightMm - marginMm) {
         doc.addPage();
         y = marginMm;
         pageHasContent = false;
       }
 
-      doc.addImage(canvas.toDataURL('image/png'), 'PNG', marginMm, y, contentWidthMm, blockHeightMm);
-      y += blockHeightMm;
+      doc.addImage(canvas.toDataURL('image/png'), 'PNG', marginMm, y, imgWidthMm, imgHeightMm);
+      y += imgHeightMm;
       pageHasContent = true;
     }
 
