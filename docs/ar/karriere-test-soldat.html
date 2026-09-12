@@ -12,6 +12,7 @@
 
  <link rel="canonical" href="https://www.coreindexanalytics.com/ar/karriere-test-soldat.html">
 
+
     
 <!-- ========================================== -->
 <!-- 1. X-DEFAULT (Standard-Fallback weltweit) -->
@@ -104,6 +105,7 @@
       }]
     }
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 </head>
 <body>
         <header>
@@ -936,161 +938,179 @@ function goBack() {
 
         // --- 6. PDF DOWNLOAD ---
                 
-async function downloadPDF() {
+const CONFIG = {
+  dir: 'rtl',
+  align: 'right',
+  fontFamily: "'Amiri', 'Noto Naskh Arabic', 'Arial', sans-serif",
+  fontFaces: [
+    { family: 'Amiri', weight: 'normal', url: 'https://cdn.jsdelivr.net/gh/google/fonts@main/ofl/amiri/Amiri-Regular.ttf' },
+    { family: 'Amiri', weight: 'bold',   url: 'https://cdn.jsdelivr.net/gh/google/fonts@main/ofl/amiri/Amiri-Bold.ttf' },
+  ],
+  labels: {
+    brand: 'C.O.R.E. Index',
+    confidential: 'ملف سري',
+    operatingProfile: 'ملفك التشغيلي',
+    shadowConflict: 'الظل اللاواعي',
+    actionSteps: 'الخطوات التنفيذية',
+    generatedOn: (dateStr, jobName) => `تم الإنشاء في ${dateStr} | تقييم C.O.R.E. لـ ${jobName}`,
+    dateLocale: 'ar-EG',
+  },
+  loadingText: 'جارٍ إنشاء المستند... يرجى الانتظار',
+  errorIncompleteProfile: 'بيانات الملف الشخصي غير مكتملة، لا يمكن إنشاء PDF.',
+  errorLoadProfile: 'حدث خطأ أثناء تحميل بيانات الملف الخاص بملف PDF.',
+  errorGeneric: 'حدث خطأ أثناء إنشاء ملف PDF.',
+};
 
-    const loadFontBuffer = async (url) => {
-        const res = await fetch(url);
-        if (!res.ok) throw new Error(`Font-Download fehlgeschlagen (HTTP ${res.status}): ${url}`);
-        return res.arrayBuffer();
-    };
-
-    const btn = document.querySelector('.btn-action.primary');
-    const oldText = btn.innerHTML;
-    btn.innerHTML = "جارٍ إنشاء المستند... يرجى الانتظار";
-
-    const profile = profilesData.find(p => p.profile_id === window.sharedProfileId);
-    
-    if (!profile) {
-        alert("حدث خطأ أثناء تحميل بيانات الملف الخاص بملف PDF.");
-        btn.innerHTML = oldText;
-        return;
-    }
-
+// ---- Best-effort font loading. Never blocks or crashes the export. ----
+async function ensureFontsLoaded(fontFaces, timeoutMs = 6000) {
+  if (!fontFaces || !fontFaces.length) return;
+  const loaders = fontFaces.map(async ({ family, weight, url }) => {
     try {
-        const { jsPDF } = window.jspdf;
-        const doc = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
-
-        // =========================================================
-        // ARABISCHEN FONT PER CDN LADEN (KORRIGIERT)
-        // =========================================================
-        const fontRegUrl = "https://cdn.jsdelivr.net/gh/google/fonts@main/ofl/amiri/Amiri-Regular.ttf";
-        const fontBoldUrl = "https://cdn.jsdelivr.net/gh/google/fonts@main/ofl/amiri/Amiri-Bold.ttf";
-
-        // Sicheres Laden beider Schriftarten über die Hilfsfunktion
-        const [regBuffer, boldBuffer] = await Promise.all([
-            loadFontBuffer(fontRegUrl),
-            loadFontBuffer(fontBoldUrl)
-        ]);
-
-        // In jsPDF registrieren
-        doc.addFileToVFS('Amiri-Regular.ttf', new Uint8Array(regBuffer));
-        doc.addFont('Amiri-Regular.ttf', 'Amiri', 'normal');
-
-        doc.addFileToVFS('Amiri-Bold.ttf', new Uint8Array(boldBuffer));
-        doc.addFont('Amiri-Bold.ttf', 'Amiri', 'bold');
-
-        doc.setFont('Amiri', 'normal');
-        // =========================================================
-
-        // Layout-Berechnung für RTL
-        const pageWidth = 210;
-        const margin = 20; 
-        const contentWidth = pageWidth - (margin * 2); // Exakt 170 mm
-        const rightMargin = pageWidth - margin;        // Startpunkt am rechten Rand (190 mm)
-        let y = margin;
-
-        // --- HEADER ---
-        doc.setFont("Amiri", "bold");
-        doc.setFontSize(10);
-        doc.setTextColor(100, 116, 139);
-        doc.text("C.O.R.E. Index", margin, y);
-        
-        doc.setFont("Amiri", "normal");
-        doc.setFontSize(10);
-        doc.text("ملف سري", rightMargin, y, { align: "right" });
-        
-        y += 8;
-        doc.setDrawColor(226, 232, 240);
-        doc.line(margin, y, rightMargin, y);
-        y += 15;
-
-        // --- PROFIL-TITEL ---
-        doc.setFont("Amiri", "bold");
-        doc.setFontSize(22);
-        doc.setTextColor(15, 23, 42);
-        const titleLines = doc.splitTextToSize(profile.name.toUpperCase(), contentWidth);
-        doc.text(titleLines, rightMargin, y, { align: "right" });
-        y += (titleLines.length * 8) + 6;
-
-        // --- HEADLINE ---
-        doc.setFont("Amiri", "normal");
-        doc.setFontSize(13);
-        doc.setTextColor(192, 57, 43);
-        const headlineLines = doc.splitTextToSize(`"${profile.headline}"`, contentWidth);
-        doc.text(headlineLines, rightMargin, y, { align: "right" });
-        y += (headlineLines.length * 6) + 12;
-
-        // --- ABSCHNITT: CORPORATE VIEW ---
-        doc.setFont("Amiri", "bold");
-        doc.setFontSize(11);
-        doc.setTextColor(15, 23, 42);
-        doc.text("ملفك التشغيلي", rightMargin, y, { align: "right" });
-        y += 7;
-
-        doc.setFont("Amiri", "normal");
-        doc.setFontSize(10);
-        doc.setTextColor(51, 65, 85);
-        const corporateLines = doc.splitTextToSize(profile.corporate_view, contentWidth);
-        doc.text(corporateLines, rightMargin, y, { align: "right" });
-        y += (corporateLines.length * 5) + 12;
-
-        // --- ABSCHNITT: SHADOW CONFLICT ---
-        doc.setFont("Amiri", "bold");
-        doc.setFontSize(11);
-        doc.setTextColor(15, 23, 42);
-        doc.text("الظل اللاواعي", rightMargin, y, { align: "right" });
-        y += 7;
-
-        doc.setFont("Amiri", "normal");
-        doc.setFontSize(10);
-        doc.setTextColor(51, 65, 85);
-        const shadowLines = doc.splitTextToSize(profile.shadow_conflict, contentWidth);
-        doc.text(shadowLines, rightMargin, y, { align: "right" });
-        y += (shadowLines.length * 5) + 12;
-
-        // --- ABSCHNITT: ACTION STEPS ---
-        if (y > 220) { doc.addPage(); y = margin + 10; }
-
-        doc.setFont("Amiri", "bold");
-        doc.setFontSize(11);
-        doc.setTextColor(15, 23, 42);
-        doc.text("الخطوات التنفيذية", rightMargin, y, { align: "right" });
-        y += 8;
-
-        doc.setFont("Amiri", "normal");
-        doc.setFontSize(10);
-        const indent = 5;
-        const stepWidth = contentWidth - indent;
-
-        profile.action_steps.forEach((step, index) => {
-            const stepText = `${index + 1}. ${step}`;
-            const stepLines = doc.splitTextToSize(stepText, stepWidth);
-            
-            if (y + (stepLines.length * 5) > 275) { 
-                doc.addPage(); 
-                y = margin + 10; 
-            }
-            
-            // RTL-Einrückung ausgehend vom rechten Rand
-            doc.text(stepLines, rightMargin - indent, y, { align: "right" });
-            y += (stepLines.length * 5) + 5;
-        });
-
-        // --- FOOTER ---
-        const pageHeight = doc.internal.pageSize.height || doc.internal.pageSize.getHeight();
-        doc.setFontSize(8);
-        doc.setTextColor(148, 163, 184);
-        doc.text(`تم الإنشاء في ${new Date().toLocaleDateString('ar-EG')} | تقييم C.O.R.E. لـ ${currentJobName}`, rightMargin, pageHeight - 15, { align: "right" });
-
-        // Speichern
-        doc.save(`CORE_Dossier_${profile.name.replace(/\s+/g, '_')}.pdf`);
-
-    } catch (error) {
-        console.error("Fehler bei der PDF-Generierung:", error);
-        alert("حدث خطأ أثناء إنشاء ملف PDF.");
-    } finally {
-        btn.innerHTML = oldText;
+      const face = new FontFace(family, `url(${url})`, { weight });
+      const loaded = await Promise.race([
+        face.load(),
+        new Promise((_, rej) => setTimeout(() => rej(new Error('font timeout')), timeoutMs))
+      ]);
+      document.fonts.add(loaded);
+    } catch (err) {
+      // No throw: browser falls back to next font in the stack.
+      // Arabic still renders correctly-shaped, just visually different.
+      console.warn(`Font "${family}" (${weight}) failed, using fallback:`, err.message);
     }
+  });
+  await Promise.allSettled(loaders);
+  try { await document.fonts.ready; } catch (e) { /* ignore */ }
+}
+
+// ---- Off-screen (NOT display:none!) container for capture ----
+function createOffscreenContainer(widthPx) {
+  const el = document.createElement('div');
+  el.style.position = 'absolute';
+  el.style.top = '0';
+  el.style.left = '-99999px';
+  el.style.width = widthPx + 'px';
+  el.style.background = '#ffffff';
+  document.body.appendChild(el);
+  return el;
+}
+
+// ---- Render exactly one content block to a canvas ----
+async function renderBlockToCanvas(html, widthPx, scale = 2) {
+  const container = createOffscreenContainer(widthPx);
+  container.innerHTML = html;
+  try {
+    await new Promise(requestAnimationFrame); // let layout settle before capture
+    return await html2canvas(container, {
+      scale,
+      useCORS: true,
+      backgroundColor: '#ffffff',
+      logging: false,
+    });
+  } finally {
+    container.remove(); // always clean up, even on error
+  }
+}
+
+function escapeHtml(str) {
+  const div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
+
+function sectionBlock(title, body, baseStyle) {
+  return `
+    <div style="${baseStyle} padding-top:16px;">
+      <div style="font-size:20px; font-weight:bold; padding-bottom:6px;">${title}</div>
+      <div style="font-size:16px; line-height:1.6; color:#334155;">${escapeHtml(body)}</div>
+    </div>`;
+}
+
+// ---- Main export function ----
+async function downloadPDF() {
+  const btn = document.querySelector('.btn-action.primary');
+  const oldText = btn.innerHTML;
+
+  const profile = profilesData.find(p => p.profile_id === window.sharedProfileId);
+  if (!profile) {
+    alert(CONFIG.errorLoadProfile);
+    return;
+  }
+
+  const requiredFields = ['name', 'headline', 'corporate_view', 'shadow_conflict', 'action_steps'];
+  const missing = requiredFields.filter(f => profile[f] == null || profile[f] === '');
+  if (missing.length) {
+    console.error('PDF export aborted, missing fields:', missing);
+    alert(CONFIG.errorIncompleteProfile);
+    return;
+  }
+
+  btn.innerHTML = CONFIG.loadingText;
+
+  const pageWidthMm = 210, pageHeightMm = 297, marginMm = 20;
+  const contentWidthMm = pageWidthMm - marginMm * 2;
+  const RENDER_WIDTH_PX = 900;
+  const mmPerPx = contentWidthMm / RENDER_WIDTH_PX;
+
+  try {
+    await ensureFontsLoaded(CONFIG.fontFaces);
+
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
+
+    const baseStyle = `
+      direction:${CONFIG.dir}; text-align:${CONFIG.align}; font-family:${CONFIG.fontFamily};
+      color:#0f172a; box-sizing:border-box; padding:0; margin:0;
+    `;
+
+    const blocks = [
+      `<div style="${baseStyle} display:flex; justify-content:space-between; font-size:20px; color:#64748b; padding-bottom:12px; border-bottom:1px solid #e2e8f0;">
+         <span style="font-weight:bold;">${CONFIG.labels.brand}</span>
+         <span>${CONFIG.labels.confidential}</span>
+       </div>`,
+      `<div style="${baseStyle} font-size:44px; font-weight:bold; padding-top:20px;">${escapeHtml(profile.name.toUpperCase())}</div>`,
+      `<div style="${baseStyle} font-size:26px; color:#c0392b; padding-top:12px;">"${escapeHtml(profile.headline)}"</div>`,
+      sectionBlock(CONFIG.labels.operatingProfile, profile.corporate_view, baseStyle),
+      sectionBlock(CONFIG.labels.shadowConflict, profile.shadow_conflict, baseStyle),
+      `<div style="${baseStyle} font-size:22px; font-weight:bold; padding-top:8px;">${CONFIG.labels.actionSteps}</div>`,
+      ...profile.action_steps.map((step, i) => `
+        <div style="${baseStyle} font-size:18px; padding:6px 0; ${CONFIG.dir === 'rtl' ? 'padding-right:10px;' : 'padding-left:10px;'}">
+          ${i + 1}. ${escapeHtml(step)}
+        </div>`),
+      `<div style="${baseStyle} font-size:14px; color:#94a3b8; padding-top:20px;">
+         ${CONFIG.labels.generatedOn(new Date().toLocaleDateString(CONFIG.labels.dateLocale), window.currentJobName || '')}
+       </div>`,
+    ];
+
+    // Place blocks onto pages; a page break only ever happens BETWEEN
+    // blocks, never mid-block -> no orphaned fragments, no blank pages.
+    let y = marginMm;
+    let pageHasContent = false;
+
+    for (const html of blocks) {
+      const canvas = await renderBlockToCanvas(html, RENDER_WIDTH_PX);
+      const blockHeightMm = canvas.height * mmPerPx;
+
+      if (blockHeightMm < 1) continue; // skip accidentally empty blocks
+
+      if (pageHasContent && y + blockHeightMm > pageHeightMm - marginMm) {
+        doc.addPage();
+        y = marginMm;
+        pageHasContent = false;
+      }
+
+      doc.addImage(canvas.toDataURL('image/png'), 'PNG', marginMm, y, contentWidthMm, blockHeightMm);
+      y += blockHeightMm;
+      pageHasContent = true;
+    }
+
+    doc.save(`CORE_Dossier_${profile.name.replace(/\s+/g, '_')}.pdf`);
+
+  } catch (error) {
+    console.error('PDF generation failed:', error);
+    alert(CONFIG.errorGeneric + (error.message ? ` (${error.message})` : ''));
+  } finally {
+    btn.innerHTML = oldText;
+  }
 }
 
         // --- 7. TEILEN FUNKTION (Jetzt mit URL-Parameter Magic!) ---
