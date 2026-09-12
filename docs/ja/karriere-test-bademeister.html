@@ -937,119 +937,153 @@ function goBack() {
 
         // --- 6. PDF DOWNLOAD ---
                 // --- 6. ECHTE PDF GENERIERUNG (Quiet Luxury Style) ---
-        function downloadPDF() {
-            const btn = document.querySelector('.btn-action.primary');
-            const oldText = btn.innerHTML;
-            btn.innerHTML = "ドキュメントを生成しています... お待ちください";
+       // --- 6. ECHTE PDF GENERIERUNG (Mit Japanisch / CJK Font-Support) ---
+async function downloadPDF() {
+    const btn = document.querySelector('.btn-action.primary');
+    const oldText = btn.innerHTML;
+    btn.innerHTML = "ドキュメントを作成中... お待ちください";
 
-            // Wir holen uns die Daten des gerade berechneten Profils
-            const profile = profilesData.find(p => p.profile_id === window.sharedProfileId);
+    const profile = profilesData.find(p => p.profile_id === window.sharedProfileId);
+    
+    if (!profile) {
+        alert("PDF用プロファイル データの読み込み中にエラーが発生しました。");
+        btn.innerHTML = oldText;
+        return;
+    }
+
+    try {
+        const { jsPDF } = window.jspdf;
+        const doc = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
+
+        // =========================================================
+        // JAPANISCHE (NOTO SANS JP) SCHRIFTARTEN PER CDN LADEN
+        // =========================================================
+        const fontRegUrl = "https://cdn.jsdelivr.net/gh/google/fonts@main/ofl/notosansjp/NotoSansJP-Regular.ttf";
+        const fontBoldUrl = "https://cdn.jsdelivr.net/gh/google/fonts@main/ofl/notosansjp/NotoSansJP-Bold.ttf";
+
+        const [regBuffer, boldBuffer] = await Promise.all([
+            fetch(fontRegUrl).then(res => res.arrayBuffer()),
+            fetch(fontBoldUrl).then(res => res.arrayBuffer())
+        ]);
+
+        // In jsPDF registrieren
+        doc.addFileToVFS('NotoSansJP-Regular.ttf', new Uint8Array(regBuffer));
+        doc.addFont('NotoSansJP-Regular.ttf', 'NotoSansJP', 'normal');
+
+        doc.addFileToVFS('NotoSansJP-Bold.ttf', new Uint8Array(boldBuffer));
+        doc.addFont('NotoSansJP-Bold.ttf', 'NotoSansJP', 'bold');
+
+        doc.setFont('NotoSansJP', 'normal');
+        // =========================================================
+
+        // Layout-Berechnung
+        const pageWidth = 210;
+        const margin = 20; 
+        const contentWidth = pageWidth - (margin * 2); // Exakt 170 mm
+        let y = margin;
+
+        // --- HEADER ---
+        doc.setFont("NotoSansJP", "bold");
+        doc.setFontSize(10);
+        doc.setTextColor(100, 116, 139);
+        doc.text("C.O.R.E. Index", margin, y);
+        
+        doc.setFont("NotoSansJP", "normal");
+        doc.text("機密ドシエ", pageWidth - margin, y, { align: "right" });
+        
+        y += 8;
+        doc.setDrawColor(226, 232, 240);
+        doc.line(margin, y, pageWidth - margin, y);
+        y += 15;
+
+        // --- PROFIL-TITEL ---
+        doc.setFont("NotoSansJP", "bold");
+        doc.setFontSize(22);
+        doc.setTextColor(15, 23, 42);
+        const titleLines = doc.splitTextToSize(profile.name.toUpperCase(), contentWidth);
+        doc.text(titleLines, margin, y);
+        y += (titleLines.length * 8) + 6;
+
+        // --- HEADLINE ---
+        doc.setFont("NotoSansJP", "normal");
+        doc.setFontSize(13);
+        doc.setTextColor(192, 57, 43);
+        const headlineLines = doc.splitTextToSize(`"${profile.headline}"`, contentWidth);
+        doc.text(headlineLines, margin, y);
+        y += (headlineLines.length * 6) + 12;
+
+        // --- SEKTION: CORPORATE VIEW ---
+        doc.setFont("NotoSansJP", "bold");
+        doc.setFontSize(11);
+        doc.setTextColor(15, 23, 42);
+        doc.text("あなたの運用プロファイル", margin, y);
+        y += 7;
+
+        doc.setFont("NotoSansJP", "normal");
+        doc.setFontSize(10);
+        doc.setTextColor(51, 65, 85);
+        const corporateLines = doc.splitTextToSize(profile.corporate_view, contentWidth);
+        doc.text(corporateLines, margin, y);
+        y += (corporateLines.length * 5) + 12;
+
+        // --- SEKTION: SHADOW CONFLICT ---
+        doc.setFont("NotoSansJP", "bold");
+        doc.setFontSize(11);
+        doc.setTextColor(15, 23, 42);
+        doc.text("無意識の影", margin, y);
+        y += 7;
+
+        doc.setFont("NotoSansJP", "normal");
+        doc.setFontSize(10);
+        doc.setTextColor(51, 65, 85);
+        const shadowLines = doc.splitTextToSize(profile.shadow_conflict, contentWidth);
+        doc.text(shadowLines, margin, y);
+        y += (shadowLines.length * 5) + 12;
+
+        // --- SEKTION: ACTION STEPS ---
+        if (y > 220) { doc.addPage(); y = margin + 10; }
+
+        doc.setFont("NotoSansJP", "bold");
+        doc.setFontSize(11);
+        doc.setTextColor(15, 23, 42);
+        doc.text("実行アクションステップ", margin, y);
+        y += 8;
+
+        doc.setFont("NotoSansJP", "normal");
+        doc.setFontSize(10);
+        
+        const indent = 5;
+        const stepWidth = contentWidth - indent;
+
+        profile.action_steps.forEach((step, index) => {
+            const stepText = `${index + 1}. ${step}`;
+            const stepLines = doc.splitTextToSize(stepText, stepWidth);
             
-            if (!profile) {
-                alert("PDF用のプロファイルデータの読み込み中にエラーが発生しました。");
-                btn.innerHTML = oldText;
-                return;
+            if (y + (stepLines.length * 5) > 275) { 
+                doc.addPage(); 
+                y = margin + 10; 
             }
-
-            // jsPDF initialisieren (A4, Millimeter)
-            const { jsPDF } = window.jspdf;
-            const doc = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
             
-            const margin = 20; // Seitenränder
-            const pageWidth = 210 - (margin * 2);
-            let y = margin; // Aktuelle Y-Koordinate auf dem Papier
+            doc.text(stepLines, margin + indent, y);
+            y += (stepLines.length * 5) + 5;
+        });
 
-            // --- HEADER ---
-            doc.setFont("helvetica", "bold");
-            doc.setFontSize(10);
-            doc.setTextColor(100, 116, 139); // Muted Gray
-            doc.text("C.O.R.E. Index", margin, y);
-            
-            doc.setFont("helvetica", "normal");
-            doc.text("機密ドシエ", 210 - margin, y, { align: "right" });
-            
-            y += 8;
-            doc.setDrawColor(226, 232, 240); // Helle Linie
-            doc.line(margin, y, 210 - margin, y);
-            y += 20;
+        // --- FOOTER ---
+        const pageHeight = doc.internal.pageSize.height || doc.internal.pageSize.getHeight();
+        doc.setFontSize(8);
+        doc.setTextColor(148, 163, 184);
+        doc.text(`作成日 ${new Date().toLocaleDateString('ja-JP')} | ${currentJobName} 用 C.O.R.E. Index 評価`, margin, pageHeight - 15);
 
-            // --- PROFIL-TITEL ---
-            doc.setFont("helvetica", "bold");
-            doc.setFontSize(24);
-            doc.setTextColor(15, 23, 42); // Dark Text
-            doc.text(profile.name.toUpperCase(), margin, y);
-            y += 12;
+        // Speichern
+        doc.save(`CORE_Dossier_${profile.name.replace(/\s+/g, '_')}.pdf`);
 
-            // --- HEADLINE ---
-            doc.setFont("helvetica", "italic");
-            doc.setFontSize(14);
-            doc.setTextColor(192, 57, 43); // Dein C.O.R.E. Rot für die harte Wahrheit
-            const headlineLines = doc.splitTextToSize(`"${profile.headline}"`, pageWidth);
-            doc.text(headlineLines, margin, y);
-            y += (headlineLines.length * 7) + 15;
-
-            // --- SEKTION: CORPORATE VIEW ---
-            doc.setFont("helvetica", "bold");
-            doc.setFontSize(12);
-            doc.setTextColor(15, 23, 42);
-            doc.text("あなたの業務プロファイル", margin, y);
-            y += 8;
-
-            doc.setFont("helvetica", "normal");
-            doc.setFontSize(11);
-            doc.setTextColor(51, 65, 85);
-            const corporateLines = doc.splitTextToSize(profile.corporate_view, pageWidth);
-            doc.text(corporateLines, margin, y);
-            y += (corporateLines.length * 6) + 15;
-
-            // --- SEKTION: SHADOW CONFLICT ---
-            doc.setFont("helvetica", "bold");
-            doc.setFontSize(12);
-            doc.setTextColor(15, 23, 42);
-            doc.text("無意識のシャドー", margin, y);
-            y += 8;
-
-            doc.setFont("helvetica", "normal");
-            doc.setFontSize(11);
-            doc.setTextColor(51, 65, 85);
-            const shadowLines = doc.splitTextToSize(profile.shadow_conflict, pageWidth);
-            doc.text(shadowLines, margin, y);
-            y += (shadowLines.length * 6) + 15;
-
-            // --- SEKTION: ACTION STEPS ---
-            // Prüfen, ob wir auf eine neue Seite müssen
-            if (y > 220) { doc.addPage(); y = margin + 10; }
-
-            doc.setFont("helvetica", "bold");
-            doc.setFontSize(12);
-            doc.setTextColor(15, 23, 42);
-            doc.text("実行的アクションステップ", margin, y);
-            y += 10;
-
-            doc.setFont("helvetica", "normal");
-            doc.setFontSize(11);
-            profile.action_steps.forEach((step, index) => {
-                const stepText = `${index + 1}. ${step}`;
-                const stepLines = doc.splitTextToSize(stepText, pageWidth - 10); // Etwas einrücken
-                
-                // Seitenumbruch in der Liste verhindern
-                if (y + (stepLines.length * 6) > 280) { doc.addPage(); y = margin + 10; }
-                
-                doc.text(stepLines, margin + 5, y);
-                y += (stepLines.length * 6) + 6;
-            });
-
-            // --- FOOTER ---
-            const pageHeight = doc.internal.pageSize.height || doc.internal.pageSize.getHeight();
-            doc.setFontSize(8);
-            doc.setTextColor(148, 163, 184);
-            doc.text(`生成日 ${new Date().toLocaleDateString('de-DE')} | C.O.R.E. Index 評価 for ${currentJobName}`, margin, pageHeight - 15);
-
-            // Speichern
-            doc.save(`CORE_Dossier_${profile.name.replace(/\s+/g, '_')}.pdf`);
-            
-            btn.innerHTML = oldText;
-        }
+    } catch (error) {
+        console.error("Fehler bei der PDF-Generierung:", error);
+        alert("PDF作成中にエラーが発生しました。");
+    } finally {
+        btn.innerHTML = oldText;
+    }
+}
 
         // --- 7. TEILEN FUNKTION (Jetzt mit URL-Parameter Magic!) ---
         function shareResult() {

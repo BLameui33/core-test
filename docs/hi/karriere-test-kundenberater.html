@@ -937,119 +937,153 @@ function goBack() {
 
         // --- 7. PDF डाउनलोड ---
                 // --- 7. वास्तविक PDF जनरेशन (Quiet Luxury Style) ---
-        function downloadPDF() {
-            const btn = document.querySelector('.btn-action.primary');
-            const oldText = btn.innerHTML;
-            btn.innerHTML = "दस्तावेज़ बनाया जा रहा है... कृपया प्रतीक्षा करें";
+       // --- 6. ECHTE PDF GENERIERUNG (Mit Hindi / Devanagari Font-Support) ---
+async function downloadPDF() {
+    const btn = document.querySelector('.btn-action.primary');
+    const oldText = btn.innerHTML;
+    btn.innerHTML = "दस्तावेज़ बनाया जा रहा है... कृपया प्रतीक्षा करें";
 
-            // हम अभी गणना किए गए प्रोफ़ाइल का डेटा लेते हैं
-            const profile = profilesData.find(p => p.profile_id === window.sharedProfileId);
+    const profile = profilesData.find(p => p.profile_id === window.sharedProfileId);
+    
+    if (!profile) {
+        alert("PDF के लिए प्रोफ़ाइल डेटा लोड करने में त्रुटि।");
+        btn.innerHTML = oldText;
+        return;
+    }
+
+    try {
+        const { jsPDF } = window.jspdf;
+        const doc = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
+
+        // =========================================================
+        // HINDI (DEVANAGARI) SCHRIFTARTEN PER CDN LADEN
+        // =========================================================
+        const fontRegUrl = "https://cdn.jsdelivr.net/gh/google/fonts@main/ofl/notosansdevanagari/static/NotoSansDevanagari-Regular.ttf";
+        const fontBoldUrl = "https://cdn.jsdelivr.net/gh/google/fonts@main/ofl/notosansdevanagari/static/NotoSansDevanagari-Bold.ttf";
+
+        const [regBuffer, boldBuffer] = await Promise.all([
+            fetch(fontRegUrl).then(res => res.arrayBuffer()),
+            fetch(fontBoldUrl).then(res => res.arrayBuffer())
+        ]);
+
+        // In jsPDF registrieren
+        doc.addFileToVFS('NotoSansDevanagari-Regular.ttf', new Uint8Array(regBuffer));
+        doc.addFont('NotoSansDevanagari-Regular.ttf', 'NotoSansDevanagari', 'normal');
+
+        doc.addFileToVFS('NotoSansDevanagari-Bold.ttf', new Uint8Array(boldBuffer));
+        doc.addFont('NotoSansDevanagari-Bold.ttf', 'NotoSansDevanagari', 'bold');
+
+        doc.setFont('NotoSansDevanagari', 'normal');
+        // =========================================================
+
+        // Layout-Berechnung
+        const pageWidth = 210;
+        const margin = 20; 
+        const contentWidth = pageWidth - (margin * 2); // Exakt 170 mm
+        let y = margin;
+
+        // --- HEADER ---
+        doc.setFont("NotoSansDevanagari", "bold");
+        doc.setFontSize(10);
+        doc.setTextColor(100, 116, 139);
+        doc.text("C.O.R.E. Index", margin, y);
+        
+        doc.setFont("NotoSansDevanagari", "normal");
+        doc.text("गोपनीय डॉसियर", pageWidth - margin, y, { align: "right" });
+        
+        y += 8;
+        doc.setDrawColor(226, 232, 240);
+        doc.line(margin, y, pageWidth - margin, y);
+        y += 15;
+
+        // --- PROFIL-TITEL ---
+        doc.setFont("NotoSansDevanagari", "bold");
+        doc.setFontSize(22);
+        doc.setTextColor(15, 23, 42);
+        const titleLines = doc.splitTextToSize(profile.name.toUpperCase(), contentWidth);
+        doc.text(titleLines, margin, y);
+        y += (titleLines.length * 8) + 6;
+
+        // --- HEADLINE ---
+        doc.setFont("NotoSansDevanagari", "normal");
+        doc.setFontSize(13);
+        doc.setTextColor(192, 57, 43);
+        const headlineLines = doc.splitTextToSize(`"${profile.headline}"`, contentWidth);
+        doc.text(headlineLines, margin, y);
+        y += (headlineLines.length * 6) + 12;
+
+        // --- SECTION: CORPORATE VIEW ---
+        doc.setFont("NotoSansDevanagari", "bold");
+        doc.setFontSize(11);
+        doc.setTextColor(15, 23, 42);
+        doc.text("आपकी परिचालन प्रोफ़ाइल", margin, y);
+        y += 7;
+
+        doc.setFont("NotoSansDevanagari", "normal");
+        doc.setFontSize(10);
+        doc.setTextColor(51, 65, 85);
+        const corporateLines = doc.splitTextToSize(profile.corporate_view, contentWidth);
+        doc.text(corporateLines, margin, y);
+        y += (corporateLines.length * 5) + 12;
+
+        // --- SECTION: SHADOW CONFLICT ---
+        doc.setFont("NotoSansDevanagari", "bold");
+        doc.setFontSize(11);
+        doc.setTextColor(15, 23, 42);
+        doc.text("अवचेतन छाया", margin, y);
+        y += 7;
+
+        doc.setFont("NotoSansDevanagari", "normal");
+        doc.setFontSize(10);
+        doc.setTextColor(51, 65, 85);
+        const shadowLines = doc.splitTextToSize(profile.shadow_conflict, contentWidth);
+        doc.text(shadowLines, margin, y);
+        y += (shadowLines.length * 5) + 12;
+
+        // --- SECTION: ACTION STEPS ---
+        if (y > 220) { doc.addPage(); y = margin + 10; }
+
+        doc.setFont("NotoSansDevanagari", "bold");
+        doc.setFontSize(11);
+        doc.setTextColor(15, 23, 42);
+        doc.text("कार्यकारी कदम", margin, y);
+        y += 8;
+
+        doc.setFont("NotoSansDevanagari", "normal");
+        doc.setFontSize(10);
+        
+        const indent = 5;
+        const stepWidth = contentWidth - indent;
+
+        profile.action_steps.forEach((step, index) => {
+            const stepText = `${index + 1}. ${step}`;
+            const stepLines = doc.splitTextToSize(stepText, stepWidth);
             
-            if (!profile) {
-                alert("PDF के लिए प्रोफ़ाइल डेटा लोड करने में त्रुटि।");
-                btn.innerHTML = oldText;
-                return;
+            if (y + (stepLines.length * 5) > 275) { 
+                doc.addPage(); 
+                y = margin + 10; 
             }
-
-            // jsPDF प्रारंभ करें (A4, मिलीमीटर)
-            const { jsPDF } = window.jspdf;
-            const doc = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
             
-            const margin = 20; // पेज मार्जिन
-            const pageWidth = 210 - (margin * 2);
-            let y = margin; // कागज़ पर वर्तमान Y-कोऑर्डिनेट
+            doc.text(stepLines, margin + indent, y);
+            y += (stepLines.length * 5) + 5;
+        });
 
-            // --- HEADER ---
-            doc.setFont("helvetica", "bold");
-            doc.setFontSize(10);
-            doc.setTextColor(100, 116, 139); // Muted Gray
-            doc.text("C.O.R.E. Index", margin, y);
-            
-            doc.setFont("helvetica", "normal");
-            doc.text("गोपनीय डॉसियर", 210 - margin, y, { align: "right" });
-            
-            y += 8;
-            doc.setDrawColor(226, 232, 240); // हल्की रेखा
-            doc.line(margin, y, 210 - margin, y);
-            y += 20;
+        // --- FOOTER ---
+        const pageHeight = doc.internal.pageSize.height || doc.internal.pageSize.getHeight();
+        doc.setFontSize(8);
+        doc.setTextColor(148, 163, 184);
+        doc.text(`बनाया गया ${new Date().toLocaleDateString('hi-IN')} को | ${currentJobName} के लिए C.O.R.E. Index मूल्यांकन`, margin, pageHeight - 15);
 
-            // --- प्रोफ़ाइल शीर्षक ---
-            doc.setFont("helvetica", "bold");
-            doc.setFontSize(24);
-            doc.setTextColor(15, 23, 42); // Dark Text
-            doc.text(profile.name.toUpperCase(), margin, y);
-            y += 12;
+        // Speichern
+        doc.save(`CORE_Dossier_${profile.name.replace(/\s+/g, '_')}.pdf`);
 
-            // --- HEADLINE ---
-            doc.setFont("helvetica", "italic");
-            doc.setFontSize(14);
-            doc.setTextColor(192, 57, 43); // आपका C.O.R.E. लाल, कड़वी सच्चाई के लिए
-            const headlineLines = doc.splitTextToSize(`"${profile.headline}"`, pageWidth);
-            doc.text(headlineLines, margin, y);
-            y += (headlineLines.length * 7) + 15;
-
-            // --- SECTION: CORPORATE VIEW ---
-            doc.setFont("helvetica", "bold");
-            doc.setFontSize(12);
-            doc.setTextColor(15, 23, 42);
-            doc.text("आपकी परिचालन प्रोफ़ाइल", margin, y);
-            y += 8;
-
-            doc.setFont("helvetica", "normal");
-            doc.setFontSize(11);
-            doc.setTextColor(51, 65, 85);
-            const corporateLines = doc.splitTextToSize(profile.corporate_view, pageWidth);
-            doc.text(corporateLines, margin, y);
-            y += (corporateLines.length * 6) + 15;
-
-            // --- SECTION: SHADOW CONFLICT ---
-            doc.setFont("helvetica", "bold");
-            doc.setFontSize(12);
-            doc.setTextColor(15, 23, 42);
-            doc.text("अवचेतन छाया", margin, y);
-            y += 8;
-
-            doc.setFont("helvetica", "normal");
-            doc.setFontSize(11);
-            doc.setTextColor(51, 65, 85);
-            const shadowLines = doc.splitTextToSize(profile.shadow_conflict, pageWidth);
-            doc.text(shadowLines, margin, y);
-            y += (shadowLines.length * 6) + 15;
-
-            // --- SECTION: ACTION STEPS ---
-            // जाँचें कि क्या हमें नए पेज की आवश्यकता है
-            if (y > 220) { doc.addPage(); y = margin + 10; }
-
-            doc.setFont("helvetica", "bold");
-            doc.setFontSize(12);
-            doc.setTextColor(15, 23, 42);
-            doc.text("कार्यकारी कदम", margin, y);
-            y += 10;
-
-            doc.setFont("helvetica", "normal");
-            doc.setFontSize(11);
-            profile.action_steps.forEach((step, index) => {
-                const stepText = `${index + 1}. ${step}`;
-                const stepLines = doc.splitTextToSize(stepText, pageWidth - 10); // थोड़ा इंडेंट
-                
-                // सूची में पेज ब्रेक से बचें
-                if (y + (stepLines.length * 6) > 280) { doc.addPage(); y = margin + 10; }
-                
-                doc.text(stepLines, margin + 5, y);
-                y += (stepLines.length * 6) + 6;
-            });
-
-            // --- FOOTER ---
-            const pageHeight = doc.internal.pageSize.height || doc.internal.pageSize.getHeight();
-            doc.setFontSize(8);
-            doc.setTextColor(148, 163, 184);
-            doc.text(`बनाया गया ${new Date().toLocaleDateString('de-DE')} को | ${currentJobName} के लिए C.O.R.E. Index मूल्यांकन`, margin, pageHeight - 15);
-
-            // सहेजें
-            doc.save(`CORE_Dossier_${profile.name.replace(/\s+/g, '_')}.pdf`);
-            
-            btn.innerHTML = oldText;
-        }
+    } catch (error) {
+        console.error("Fehler bei der PDF-Generierung:", error);
+        alert("PDF तैयार करने में त्रुटि हुई।");
+    } finally {
+        btn.innerHTML = oldText;
+    }
+}
 
         // --- 8. साझा करने का फ़ंक्शन (अब URL-parameter magic के साथ!) ---
         function shareResult() {
