@@ -983,46 +983,84 @@ async function ensureFontsLoaded(fontFaces, timeoutMs = 6000) {
 }
 
 // ---- Off-screen (NOT display:none!) container for capture ----
-function createOffscreenContainer(widthPx) {
-  const el = document.createElement('div');
-  el.style.position = 'absolute';
-  el.style.top = '0';
-  el.style.left = '-99999px';
-  el.style.width = widthPx + 'px';
-  el.style.background = '#ffffff';
-  document.body.appendChild(el);
-  return el;
+const RENDER_WIDTH_PX = 900;
+
+function ctxFont(weight, size) {
+  return `${weight} ${size}px ${CONFIG.fontFamily}`;
 }
 
-// ---- Render exactly one content block to a canvas ----
-async function renderBlockToCanvas(html, widthPx, scale = 3) {
-  const container = createOffscreenContainer(widthPx);
-  container.innerHTML = html;
-  try {
-    await new Promise(requestAnimationFrame); 
-    return await html2canvas(container, {
-      scale,
-      useCORS: true,
-      backgroundColor: '#ffffff',
-      logging: false,
-    });
-  } finally {
-    container.remove(); 
+// Zeilenumbruch mit Browser-Messung (identisch zum Screen)
+function wrapLines(probe, text, weight, size, maxW) {
+  probe.font = ctxFont(weight, size);
+  const words = String(text).split(/\s+/);
+  const lines = [];
+  let line = '';
+  for (const w of words) {
+    const test = line ? line + ' ' + w : w;
+    if (line && probe.measureText(test).width > maxW) { lines.push(line); line = w; }
+    else line = test;
   }
+  if (line) lines.push(line);
+  return lines;
 }
 
-function escapeHtml(str) {
-  const div = document.createElement('div');
-  div.textContent = str;
-  return div.innerHTML;
-}
+// Zeichnet einen Block fertig auf ein Canvas (scale = Auflösung)
+function paintBlock(block, widthPx, scale) {
+  const rtl = CONFIG.dir === 'rtl';
+  const probe = document.createElement('canvas').getContext('2d');
+  probe.direction = CONFIG.dir;
 
-function sectionBlock(title, body, baseStyle) {
-  return `
-    <div style="${baseStyle} padding-top:16px;">
-      <div style="font-size:20px; font-weight:bold; padding-bottom:6px;"><span dir="rtl">${title}</span></div>
-      <div style="font-size:16px; line-height:1.6; color:#334155;"><span dir="rtl">${escapeHtml(body)}</span></div>
-    </div>`;
+  let paras = [];
+  if (block.type === 'section') {
+    paras = [
+      { text: block.title, size: 20, weight: 700, color: '#0f172a', gap: 6 },
+      { text: block.body,  size: 16, weight: 400, color: '#334155', gap: 16, lhMul: 1.6 },
+    ];
+  } else if (block.type !== 'header') {
+    paras = [{ text: block.text, size: block.size, weight: block.weight || 400,
+               color: block.color || '#0f172a', gap: block.gap || 0,
+               indent: block.indent || 0, lhMul: block.lhMul || 1.5 }];
+  }
+
+  // Höhe berechnen
+  let H = 0;
+  if (block.type === 'header') H = Math.round(20 * 1.5) + 18;
+  for (const p of paras) {
+    p.lines = wrapLines(probe, p.text, p.weight, p.size, widthPx - (p.indent || 0));
+    p.lh = Math.round(p.size * (p.lhMul || 1.5));
+    H += p.lines.length * p.lh + p.gap;
+  }
+
+  const canvas = document.createElement('canvas');
+  canvas.width  = Math.round(widthPx * scale);
+  canvas.height = Math.round(Math.max(H, 1) * scale);
+  const c = canvas.getContext('2d');
+  c.scale(scale, scale);
+  c.direction = CONFIG.dir;      // Browser-Bidi: korrekt für ar, pl, de, ...
+  c.textBaseline = 'top';
+
+  if (block.type === 'header') {
+    c.font = ctxFont(700, 20); c.fillStyle = '#64748b';
+    c.textAlign = rtl ? 'right' : 'left';
+    c.fillText(block.a, rtl ? widthPx : 0, 0);
+    c.textAlign = rtl ? 'left' : 'right';
+    c.fillText(block.b, rtl ? 0 : widthPx, 0);
+    const y = Math.round(20 * 1.5) + 6;
+    c.strokeStyle = '#e2e8f0'; c.lineWidth = 1;
+    c.beginPath(); c.moveTo(0, y); c.lineTo(widthPx, y); c.stroke();
+    return canvas;
+  }
+
+  let y = 0;
+  for (const p of paras) {
+    c.font = ctxFont(p.weight, p.size);
+    c.fillStyle = p.color;
+    c.textAlign = rtl ? 'right' : 'left';
+    const x = rtl ? widthPx - (p.indent || 0) : (p.indent || 0);
+    for (const ln of p.lines) { c.fillText(ln, x, y); y += p.lh; }
+    y += p.gap;
+  }
+  return canvas;
 }
 
 // ---- Main export function ----
@@ -1031,82 +1069,54 @@ async function downloadPDF() {
   const oldText = btn.innerHTML;
 
   const profile = profilesData.find(p => p.profile_id === window.sharedProfileId);
-  if (!profile) {
-    alert(CONFIG.errorLoadProfile);
-    return;
-  }
+  if (!profile) { alert(CONFIG.errorLoadProfile); return; }
 
   const requiredFields = ['name', 'headline', 'corporate_view', 'shadow_conflict', 'action_steps'];
   const missing = requiredFields.filter(f => profile[f] == null || profile[f] === '');
-  if (missing.length) {
-    console.error('PDF export aborted, missing fields:', missing);
-    alert(CONFIG.errorIncompleteProfile);
-    return;
-  }
+  if (missing.length) { alert(CONFIG.errorIncompleteProfile); return; }
 
   btn.innerHTML = CONFIG.loadingText;
 
   const pageWidthMm = 210, pageHeightMm = 297, marginMm = 20;
   const contentWidthMm = pageWidthMm - marginMm * 2;
-  const RENDER_WIDTH_PX = 900;
 
   try {
-    await ensureFontsLoaded(CONFIG.fontFaces);
+    await ensureFontsLoaded(CONFIG.fontFaces); // Canvas nutzt dieselben document.fonts
 
     const { jsPDF } = window.jspdf;
     const doc = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
 
-    // FIX 1: direction: ltr (damit html2canvas nicht spiegelt), aber text-align: right (für Arabisch)
-    const baseStyle = `
-      direction:ltr; text-align:right; font-family:${CONFIG.fontFamily};
-      color:#0f172a; box-sizing:border-box; padding:0; margin:0;
-    `;
-
-        const blocks = [
-      `<div style="${baseStyle} display:flex; flex-direction:row-reverse; justify-content:space-between; font-size:20px; color:#64748b; padding-bottom:12px; border-bottom:1px solid #e2e8f0;">
-         <span style="font-weight:bold;">${CONFIG.labels.brand}</span>
-         <span dir="rtl">${CONFIG.labels.confidential}</span>
-       </div>`,
-      `<div style="${baseStyle} font-size:44px; font-weight:bold; padding-top:20px;"><span dir="rtl">${escapeHtml(profile.name)}</span></div>`,
-      `<div style="${baseStyle} font-size:26px; color:#c0392b; padding-top:12px;"><span dir="rtl">"${escapeHtml(profile.headline)}"</span></div>`,
-      sectionBlock(CONFIG.labels.operatingProfile, profile.corporate_view, baseStyle),
-      sectionBlock(CONFIG.labels.shadowConflict, profile.shadow_conflict, baseStyle),
-      `<div style="${baseStyle} font-size:22px; font-weight:bold; padding-top:8px;"><span dir="rtl">${CONFIG.labels.actionSteps}</span></div>`,
-      ...profile.action_steps.map((step, i) => `
-        <div style="${baseStyle} font-size:18px; padding:6px 0; padding-right:10px;">
-          <span dir="rtl"><span dir="ltr">${i + 1}.</span> ${escapeHtml(step)}</span>
-        </div>`),
-      `<div style="${baseStyle} font-size:14px; color:#94a3b8; padding-top:20px;">
-         <span dir="rtl">${CONFIG.labels.generatedOn(new Date().toLocaleDateString(CONFIG.labels.dateLocale), currentJobName || '')}</span>
-       </div>`,
+    const blocks = [
+      { type: 'header', a: CONFIG.labels.brand, b: CONFIG.labels.confidential },
+      { type: 'text', text: profile.name, size: 44, weight: 700, gap: 20 },
+      { type: 'text', text: `"${profile.headline}"`, size: 26, color: '#c0392b', gap: 12 },
+      { type: 'section', title: CONFIG.labels.operatingProfile, body: profile.corporate_view },
+      { type: 'section', title: CONFIG.labels.shadowConflict, body: profile.shadow_conflict },
+      { type: 'text', text: CONFIG.labels.actionSteps, size: 22, weight: 700, gap: 8 },
+      ...profile.action_steps.map((step, i) =>
+        ({ type: 'text', text: `${i + 1}. ${step}`, size: 18, gap: 6, indent: 10, lhMul: 1.6 })),
+      { type: 'text', text: CONFIG.labels.generatedOn(
+          new Date().toLocaleDateString(CONFIG.dateLocale || 'en'), currentJobName || ''),
+        size: 14, color: '#94a3b8', gap: 0 },
     ];
 
     let y = marginMm;
     let pageHasContent = false;
 
-    for (const html of blocks) {
-      const canvas = await renderBlockToCanvas(html, RENDER_WIDTH_PX); 
-      
-      // FIX 2: Dynamische Höhenberechnung basierend auf dem Canvas-Seitenverhältnis
-      // Verhindert, dass das PDF gequetscht oder in die Länge gezogen wird
-      const imgWidthMm = contentWidthMm;
+    for (const block of blocks) {
+      const canvas = paintBlock(block, RENDER_WIDTH_PX, 3); // scale 3 = scharf
+      const imgWidthMm  = contentWidthMm;
       const imgHeightMm = (canvas.height * imgWidthMm) / canvas.width;
-
       if (imgHeightMm < 1) continue;
-
       if (pageHasContent && y + imgHeightMm > pageHeightMm - marginMm) {
-        doc.addPage();
-        y = marginMm;
-        pageHasContent = false;
+        doc.addPage(); y = marginMm; pageHasContent = false;
       }
-
       doc.addImage(canvas.toDataURL('image/png'), 'PNG', marginMm, y, imgWidthMm, imgHeightMm);
       y += imgHeightMm;
       pageHasContent = true;
     }
 
     doc.save(`CORE_Dossier_${profile.name.replace(/\s+/g, '_')}.pdf`);
-
   } catch (error) {
     console.error('PDF generation failed:', error);
     alert(CONFIG.errorGeneric + (error.message ? ` (${error.message})` : ''));
