@@ -936,9 +936,15 @@ function goBack() {
 
 
         // --- 6. PDF DOWNLOAD ---
-                // --- 6. ECHTE PDF GENERIERUNG (Quiet Luxury Style) ---
-       // --- 6. ECHTE PDF GENERIERUNG (Mit Japanisch / CJK Font-Support) ---
+               
 async function downloadPDF() {
+
+    const loadFontBuffer = async (url) => {
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`Font-Download fehlgeschlagen (HTTP ${res.status}): ${url}`);
+    return res.arrayBuffer();
+};
+
     const btn = document.querySelector('.btn-action.primary');
     const oldText = btn.innerHTML;
     btn.innerHTML = "ドキュメントを作成中... お待ちください";
@@ -959,7 +965,7 @@ async function downloadPDF() {
         // JAPANISCHE (NOTO SANS JP) SCHRIFTARTEN PER CDN LADEN
         // =========================================================
         const fontRegUrl = "https://cdn.jsdelivr.net/gh/google/fonts@main/ofl/notosansjp/NotoSansJP-Regular.ttf";
-        const fontBoldUrl = "https://cdn.jsdelivr.net/gh/google/fonts@main/ofl/notosansjp/NotoSansJP-Bold.ttf";
+const fontBoldUrl = "https://cdn.jsdelivr.net/gh/google/fonts@main/ofl/notosansjp/NotoSansJP-Bold.ttf";
 
         const [regBuffer, boldBuffer] = await Promise.all([
             fetch(fontRegUrl).then(res => res.arrayBuffer()),

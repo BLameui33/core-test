@@ -936,9 +936,15 @@ function goBack() {
 
 
         // --- 6. PDF İNDİR ---
-                // --- 6. GERÇEK PDF OLUŞTURMA (Quiet Luxury Style) ---
-       // --- 6. ECHTE PDF GENERIERUNG (Mit Türkisch / Latin Extended Font-Support) ---
+             
 async function downloadPDF() {
+
+    const loadFontBuffer = async (url) => {
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`Font-Download fehlgeschlagen (HTTP ${res.status}): ${url}`);
+    return res.arrayBuffer();
+};
+
     const btn = document.querySelector('.btn-action.primary');
     const oldText = btn.innerHTML;
     btn.innerHTML = "Belge oluşturuluyor... Lütfen bekleyin";

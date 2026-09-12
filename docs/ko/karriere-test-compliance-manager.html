@@ -937,9 +937,15 @@ function goBack() {
 
 
         // --- 6. PDF 다운로드 ---
-                // --- 6. 실제 PDF 생성 (Quiet Luxury 스타일) ---
-      // --- 6. ECHTE PDF GENERIERUNG (Mit Koreanisch / Hangul Font-Support) ---
+               
 async function downloadPDF() {
+
+    const loadFontBuffer = async (url) => {
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`Font-Download fehlgeschlagen (HTTP ${res.status}): ${url}`);
+    return res.arrayBuffer();
+};
+
     const btn = document.querySelector('.btn-action.primary');
     const oldText = btn.innerHTML;
     btn.innerHTML = "문서 생성 중... 잠시만 기다려 주세요";
@@ -960,7 +966,7 @@ async function downloadPDF() {
         // KOREANISCHE (HANGUL) SCHRIFTARTEN PER CDN LADEN
         // =========================================================
         const fontRegUrl = "https://cdn.jsdelivr.net/gh/google/fonts@main/ofl/notosanskr/NotoSansKR-Regular.ttf";
-        const fontBoldUrl = "https://cdn.jsdelivr.net/gh/google/fonts@main/ofl/notosanskr/NotoSansKR-Bold.ttf";
+const fontBoldUrl = "https://cdn.jsdelivr.net/gh/google/fonts@main/ofl/notosanskr/NotoSansKR-Bold.ttf";
 
         const [regBuffer, boldBuffer] = await Promise.all([
             fetch(fontRegUrl).then(res => res.arrayBuffer()),
