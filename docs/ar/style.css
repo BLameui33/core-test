@@ -1588,3 +1588,46 @@ body {
     background: linear-gradient(180deg, #f8fafc 0%, #f5f7fa 100%);
     background-attachment: fixed;
 }
+
+/* ========== PRINT / PDF-EXPORT ========== */
+@media print {
+    /* Versteckt alles außer dem Ergebnis-Dossier */
+    header, 
+    footer, 
+    .site-footer, 
+    #landing-page-content, 
+    #quiz-screen, 
+    #loading-screen, 
+    #seo-footer, 
+    .seo-footer,
+    [data-html2canvas-ignore] { /* Das ist deine Button-Leiste */
+        display: none !important; 
+    }
+
+    /* Stellt sicher, dass das Ergebnis sichtbar und voll breit ist */
+    #result-screen {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        box-shadow: none !important;
+    }
+    
+    /* Entfernt Hintergründe für sauberen Druck */
+    body, main {
+        background: #fff !important;
+    }
+
+    /* Erzwingt den Druck von Hintergrundfarben (falls vorhanden) */
+    * {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    /* Druckformat A4 mit Rand */
+    @page {
+        size: A4;
+        margin: 15mm;
+    }
+}
