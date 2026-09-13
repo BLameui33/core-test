@@ -941,15 +941,12 @@ function goBack() {
             const profile = profilesData.find(p => p.profile_id === window.sharedProfileId);
             const oldTitle = document.title;
             
-            // Setzt den Dateinamen für das PDF (z.B. CORE_Dossier_Name.pdf)
             if (profile) {
                 document.title = 'CORE_Dossier_' + profile.name.replace(/\s+/g, '_');
             }
             
-            // Stellt den Original-Titel nach dem Drucken wieder her
             window.addEventListener('afterprint', () => { document.title = oldTitle; }, { once: true });
             
-            // Öffnet den Druckdialog (Nutzer wählt "Als PDF speichern")
             window.print();
         }
 
