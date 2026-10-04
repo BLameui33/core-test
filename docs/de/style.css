@@ -6,7 +6,7 @@
    und andere indische Schriften, Hangul, Arabisch/Hebräisch (RTL).
    ============================================================ */
 
-/* ---------- 1. TOKENS ---------- */
+/* ---------- 1 TOKENS ---------- */
 :root {
     --paper: #ffffff;
     --tint: #eef2f8;           /* Abschnitte, Flächen */
